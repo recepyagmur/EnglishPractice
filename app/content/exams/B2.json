@@ -1,0 +1,340 @@
+{
+  "_comment": "B2 level exam. Format: app/content/exams/README.md. Question ids are stable.",
+  "title_tr": "B2 Seviye Sınavı",
+  "grammar_count": 20,
+  "tts_speed": 1.0,
+  "grammar": [
+    {"id": "g01", "lesson": "b2-past-perfect", "type": "choice", "q": "When I got to the airport, my flight ___.", "options": ["already left", "had already left", "has already left"], "answer": 1, "explain_tr": "Varmadan önce → [en:had already left]."},
+    {"id": "g02", "lesson": "b2-past-perfect", "type": "fill", "q": "She was nervous because she ___ never spoken in public before. (had)", "answer": ["had"], "explain_tr": "[en:had never spoken]."},
+    {"id": "g03", "lesson": "b2-past-perfect", "type": "fix", "q": "By the time we arrived, the guests already left.", "answer": ["By the time we arrived, the guests had already left."], "explain_tr": "[en:had already left]."},
+    {"id": "g31", "lesson": "b2-past-perfect", "type": "transform", "instruction_tr": "İki cümleyi [en:by the time] ile birleştir; önce olan için past perfect kullan", "q": "Everyone went home. Then I finished the report.", "answer": ["By the time I finished the report, everyone had gone home.", "By the time I finished the report, everyone had already gone home.", "Everyone had gone home by the time I finished the report.", "Everyone had already gone home by the time I finished the report."], "explain_tr": "Önce olan eylem (eve gitmek) past perfect ile anlatılır: [en:had gone]."},
+    {"id": "g32", "lesson": "b2-past-perfect", "type": "transform", "instruction_tr": "[en:Why] ile soru cümlesi yap", "q": "The server had stopped working.", "answer": ["Why had the server stopped working?"], "explain_tr": "Past perfect sorusunda [en:had] öznenin önüne geçer: [en:Why had … stopped?]"},
+    {"id": "g33", "lesson": "b2-past-perfect", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["The meeting", "had already", "started", "when I", "joined the call."], "answer": ["The meeting had already started when I joined the call.", "When I joined the call, the meeting had already started."], "explain_tr": "Toplantı benim katılmamdan önce başlamıştı → [en:had already started]."},
+    {"id": "g34", "lesson": "b2-past-perfect", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["She", "had never", "led", "a team", "before", "this project."], "answer": ["She had never led a team before this project.", "Before this project, she had never led a team."], "explain_tr": "Geçmişteki bir andan öncesini anlatmak için [en:had never] + V3 kullanılır."},
+    {"id": "g35", "lesson": "b2-past-perfect", "type": "fill", "q": "By the time I got to the meeting room, the others ___ the main points. (discuss)", "answer": ["had discussed", "had already discussed", "had been discussing"], "explain_tr": "[en:By the time] + past simple, ana cümlede past perfect: [en:had discussed]."},
+    {"id": "g04", "lesson": "b2-present-perfect-continuous", "type": "choice", "q": "I ___ for this company for six years.", "options": ["am working", "have been working", "work"], "answer": 1, "explain_tr": "Süre + hâlâ → [en:have been working]."},
+    {"id": "g05", "lesson": "b2-present-perfect-continuous", "type": "fill", "q": "How long have you ___ waiting? (be)", "answer": ["been"], "explain_tr": "[en:have you been waiting]."},
+    {"id": "g06", "lesson": "b2-present-perfect-continuous", "type": "fix", "q": "I've been knowing her since primary school.", "answer": ["I've known her since primary school.", "I have known her since primary school."], "explain_tr": "[en:know] → simple."},
+    {"id": "g36", "lesson": "b2-present-perfect-continuous", "type": "transform", "instruction_tr": "Tek cümle yap: present perfect continuous ve [en:since] kullan", "q": "We started using the new software in March. We are still using it.", "answer": ["We have been using the new software since March.", "We've been using the new software since March.", "Since March, we have been using the new software.", "Since March, we've been using the new software."], "explain_tr": "Geçmişte başlayıp hâlâ süren eylem: [en:have been] + [en:-ing] + [en:since]."},
+    {"id": "g37", "lesson": "b2-present-perfect-continuous", "type": "transform", "instruction_tr": "Soru cümlesi yap", "q": "They have been working overtime this month.", "answer": ["Have they been working overtime this month?"], "explain_tr": "Soruda [en:have] öznenin önüne geçer: [en:Have they been working …?]"},
+    {"id": "g38", "lesson": "b2-present-perfect-continuous", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["How long", "has", "she", "been", "managing", "the sales team?"], "answer": ["How long has she been managing the sales team?"], "explain_tr": "[en:How long] + [en:has] + özne + [en:been] + [en:-ing] ile süre sorulur."},
+    {"id": "g39", "lesson": "b2-present-perfect-continuous", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["I", "have been", "looking for", "a new job", "since the summer."], "answer": ["I have been looking for a new job since the summer.", "Since the summer, I have been looking for a new job."], "explain_tr": "Yazdan beri süren eylem: [en:have been looking] + [en:since]."},
+    {"id": "g40", "lesson": "b2-present-perfect-continuous", "type": "choice", "q": "I'm tired because I ___ to customers on the phone since eight o'clock.", "options": ["am talking", "talked", "have been talking"], "answer": 2, "explain_tr": "[en:since] ile şimdiye kadar süren eylem → [en:have been talking]."},
+    {"id": "g07", "lesson": "b2-future-forms", "type": "choice", "q": "By 2028, we ___ the new factory.", "options": ["will finish", "will have finished", "are finishing"], "answer": 1, "explain_tr": "[en:by] → [en:will have finished]."},
+    {"id": "g08", "lesson": "b2-future-forms", "type": "fill", "q": "Don't call at nine — I'll ___ driving to the airport. (be)", "answer": ["be"], "explain_tr": "[en:will be driving]."},
+    {"id": "g09", "lesson": "b2-future-forms", "type": "fix", "q": "By Monday I will finish all the tests.", "answer": ["By Monday I will have finished all the tests.", "By Monday I'll have finished all the tests."], "explain_tr": "[en:will have finished]."},
+    {"id": "g41", "lesson": "b2-future-forms", "type": "transform", "instruction_tr": "Olumsuz yap", "q": "I will be using the car tomorrow.", "answer": ["I will not be using the car tomorrow.", "I won't be using the car tomorrow."], "explain_tr": "Future continuous olumsuzu: [en:will not] ([en:won't]) [en:be] + [en:-ing]."},
+    {"id": "g42", "lesson": "b2-future-forms", "type": "transform", "instruction_tr": "Soru cümlesi yap", "q": "The team will have finished the testing by Thursday.", "answer": ["Will the team have finished the testing by Thursday?", "By Thursday, will the team have finished the testing?"], "explain_tr": "Future perfect sorusunda [en:will] öznenin önüne geçer: [en:Will the team have finished …?]"},
+    {"id": "g43", "lesson": "b2-future-forms", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["By next summer", "we", "will have", "moved", "to", "the new office."], "answer": ["By next summer, we will have moved to the new office.", "We will have moved to the new office by next summer."], "explain_tr": "[en:by] + gelecek zaman → [en:will have] + V3 (future perfect)."},
+    {"id": "g44", "lesson": "b2-future-forms", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["The director", "will be", "visiting", "our factory", "on Friday."], "answer": ["The director will be visiting our factory on Friday.", "On Friday, the director will be visiting our factory."], "explain_tr": "Gelecekte planlanmış, o anda sürecek eylem: [en:will be] + [en:-ing]."},
+    {"id": "g45", "lesson": "b2-future-forms", "type": "fix", "q": "By the time the auditors arrive, we will prepare all the documents.", "answer": ["By the time the auditors arrive, we will have prepared all the documents.", "By the time the auditors arrive, we'll have prepared all the documents.", "By the time the auditors arrive, we will have already prepared all the documents.", "By the time the auditors arrive, we'll have already prepared all the documents.", "By the time the auditors arrive, we will already have prepared all the documents.", "By the time the auditors arrive, we'll already have prepared all the documents."], "explain_tr": "[en:by the time] ile o ana kadar bitmiş olacak iş → [en:will have prepared]."},
+    {"id": "g10", "lesson": "b2-third-conditional", "type": "choice", "q": "If they had invited me, I ___.", "options": ["would come", "would have come", "came"], "answer": 1, "explain_tr": "[en:would have come]."},
+    {"id": "g11", "lesson": "b2-third-conditional", "type": "fill", "q": "If I ___ taken that job, I would be living in Berlin now. (had)", "answer": ["had"], "explain_tr": "Mixed: [en:If I had taken…]"},
+    {"id": "g12", "lesson": "b2-third-conditional", "type": "fix", "q": "If I would have known, I would have helped.", "answer": ["If I had known, I would have helped.", "If I'd known, I would have helped.", "If I'd known, I'd have helped.", "If I had known, I'd have helped."], "explain_tr": "[en:if] kısmında [en:had known]."},
+    {"id": "g46", "lesson": "b2-third-conditional", "type": "transform", "instruction_tr": "Third conditional ile tek cümle yap", "q": "We didn't check the contract carefully, so we lost money.", "answer": ["If we had checked the contract carefully, we wouldn't have lost money.", "If we'd checked the contract carefully, we wouldn't have lost money.", "We wouldn't have lost money if we had checked the contract carefully.", "We wouldn't have lost money if we'd checked the contract carefully."], "explain_tr": "Geçmişte olmayan durum: [en:If] + [en:had] + V3, [en:would have] + V3."},
+    {"id": "g47", "lesson": "b2-third-conditional", "type": "transform", "instruction_tr": "Mixed conditional ile tek cümle yap (sonuç şimdi)", "q": "I didn't save the file, so I have to write the report again now.", "answer": ["If I had saved the file, I wouldn't have to write the report again now.", "If I'd saved the file, I wouldn't have to write the report again now.", "I wouldn't have to write the report again now if I had saved the file.", "I wouldn't have to write the report again now if I'd saved the file.", "If I had saved the file, I wouldn't have to write the report again.", "If I'd saved the file, I wouldn't have to write the report again.", "I wouldn't have to write the report again if I had saved the file.", "I wouldn't have to write the report again if I'd saved the file."], "explain_tr": "Geçmiş koşul + şimdiki sonuç: [en:If] + [en:had] + V3, [en:would] + yalın fiil."},
+    {"id": "g48", "lesson": "b2-third-conditional", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["If the supplier", "had delivered on time", "we", "would have", "met", "the deadline."], "answer": ["If the supplier had delivered on time, we would have met the deadline.", "We would have met the deadline if the supplier had delivered on time."], "explain_tr": "Third conditional: [en:If] + [en:had] + V3, [en:would have] + V3."},
+    {"id": "g49", "lesson": "b2-third-conditional", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["If", "I", "had accepted", "their job offer", "I", "would be", "a manager now."], "answer": ["If I had accepted their job offer, I would be a manager now.", "I would be a manager now if I had accepted their job offer."], "explain_tr": "Mixed conditional: geçmişteki koşul ([en:had accepted]), şimdiki sonuç ([en:would be … now])."},
+    {"id": "g50", "lesson": "b2-third-conditional", "type": "choice", "q": "If the meeting ___ so long, I would have caught my train.", "options": ["hadn't been", "wasn't", "wouldn't have been"], "answer": 0, "explain_tr": "Geçmişe dair koşulda [en:if] kısmı past perfect olur: [en:hadn't been]."},
+    {"id": "g13", "lesson": "b2-modals-deduction", "type": "choice", "q": "She ___ be at work — I've just seen her at the gym.", "options": ["can't", "mustn't", "must"], "answer": 0, "explain_tr": "İmkânsız → [en:can't]."},
+    {"id": "g14", "lesson": "b2-modals-deduction", "type": "fill", "q": "He's very late. He ___ have missed the train. (olmalı)", "answer": ["must"], "explain_tr": "Eminim → [en:must have]."},
+    {"id": "g15", "lesson": "b2-modals-deduction", "type": "fix", "q": "They might have went to the wrong office.", "answer": ["They might have gone to the wrong office."], "explain_tr": "[en:might have gone]."},
+    {"id": "g51", "lesson": "b2-modals-deduction", "type": "transform", "instruction_tr": "[en:must] ile yeniden yaz", "q": "I'm sure the client has received our email.", "answer": ["The client must have received our email."], "explain_tr": "Geçmişe dair güçlü tahmin: [en:must have] + V3."},
+    {"id": "g52", "lesson": "b2-modals-deduction", "type": "transform", "instruction_tr": "[en:can't] ile yeniden yaz", "q": "I'm sure he didn't write this report alone.", "answer": ["He can't have written this report alone."], "explain_tr": "Geçmişe dair imkânsızlık: [en:can't have] + V3."},
+    {"id": "g53", "lesson": "b2-modals-deduction", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["The meeting", "must", "have been", "cancelled", "at the last minute."], "answer": ["The meeting must have been cancelled at the last minute.", "At the last minute, the meeting must have been cancelled."], "explain_tr": "Edilgen geçmiş tahmin: [en:must have been] + V3."},
+    {"id": "g54", "lesson": "b2-modals-deduction", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["He", "might not", "have", "read", "your message yet."], "answer": ["He might not have read your message yet."], "explain_tr": "Olasılık, olumsuz ve geçmiş: [en:might not have] + V3."},
+    {"id": "g55", "lesson": "b2-modals-deduction", "type": "fill", "q": "The office is dark and the door is locked. Everyone ___ gone home. (eminim, 2 kelime)", "answer": ["must have"], "explain_tr": "Kanıta dayalı güçlü tahmin: [en:must have gone]."},
+    {"id": "g16", "lesson": "b2-passive-advanced", "type": "choice", "q": "The report ___ by Friday.", "options": ["must finish", "must be finished", "must finished"], "answer": 1, "explain_tr": "[en:must be finished]."},
+    {"id": "g17", "lesson": "b2-passive-advanced", "type": "fill", "q": "I'm having my car ___ tomorrow. (repair)", "answer": ["repaired"], "explain_tr": "[en:have] + nesne + V3."},
+    {"id": "g18", "lesson": "b2-passive-advanced", "type": "fix", "q": "The new road is building now.", "answer": ["The new road is being built now."], "explain_tr": "[en:is being built]."},
+    {"id": "g56", "lesson": "b2-passive-advanced", "type": "transform", "instruction_tr": "Edilgen (passive) yap", "q": "Someone should have checked these figures.", "answer": ["These figures should have been checked.", "These figures should have been checked by someone."], "explain_tr": "Modal + perfect edilgen: [en:should have been] + V3."},
+    {"id": "g57", "lesson": "b2-passive-advanced", "type": "transform", "instruction_tr": "Özne + [en:is said to …] yapısıyla yeniden yaz", "q": "It is said that the new manager speaks five languages.", "answer": ["The new manager is said to speak five languages."], "explain_tr": "[en:It is said that …] → özne + [en:is said to] + yalın fiil."},
+    {"id": "g58", "lesson": "b2-passive-advanced", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["She", "is having", "her car", "serviced", "this afternoon."], "answer": ["She is having her car serviced this afternoon.", "This afternoon, she is having her car serviced."], "explain_tr": "Bir işi başkasına yaptırmak: [en:have] + nesne + V3."},
+    {"id": "g59", "lesson": "b2-passive-advanced", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["All the applications", "will", "have been", "reviewed", "by next Friday."], "answer": ["All the applications will have been reviewed by next Friday.", "By next Friday, all the applications will have been reviewed."], "explain_tr": "Future perfect edilgen: [en:will have been] + V3."},
+    {"id": "g60", "lesson": "b2-passive-advanced", "type": "fix", "q": "The results are expected to announce tomorrow.", "answer": ["The results are expected to be announced tomorrow.", "It is expected that the results will be announced tomorrow."], "explain_tr": "Sonuçlar kendileri açıklamaz, açıklanır: [en:to be announced]."},
+    {"id": "g19", "lesson": "b2-wish", "type": "choice", "q": "I wish I ___ more patient with my kids.", "options": ["am", "were", "will be"], "answer": 1, "explain_tr": "[en:wish] + past ([en:were])."},
+    {"id": "g20", "lesson": "b2-wish", "type": "fill", "q": "I wish I ___ sold my old flat. Prices have doubled! (had, olumsuz)", "answer": ["hadn't", "had not"], "explain_tr": "Geçmiş pişmanlık → [en:hadn't sold]."},
+    {"id": "g21", "lesson": "b2-wish", "type": "fix", "q": "I wish I can travel more.", "answer": ["I wish I could travel more.", "I wish I travelled more.", "I wish I traveled more."], "explain_tr": "[en:could]."},
+    {"id": "g61", "lesson": "b2-wish", "type": "transform", "instruction_tr": "[en:wish] ile geçmişe dair pişmanlık cümlesi yap", "q": "I accepted the first offer.", "answer": ["I wish I hadn't accepted the first offer.", "I wish I had not accepted the first offer."], "explain_tr": "Geçmişteki bir şeyden pişmanlık: [en:wish] + past perfect ([en:hadn't accepted])."},
+    {"id": "g62", "lesson": "b2-wish", "type": "transform", "instruction_tr": "[en:If only] ile şimdiye dair dilek cümlesi yap", "q": "We don't have enough staff in the IT department.", "answer": ["If only we had enough staff in the IT department!", "If only we had more staff in the IT department!"], "explain_tr": "Şimdiye dair dilek: [en:If only] + past simple ([en:had])."},
+    {"id": "g63", "lesson": "b2-wish", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["I", "wish", "I", "could", "work from home more often."], "answer": ["I wish I could work from home more often."], "explain_tr": "Şimdiki bir yetenek/imkân dileği: [en:wish] + [en:could]."},
+    {"id": "g64", "lesson": "b2-wish", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["I wish", "my manager", "would", "give", "clearer", "instructions."], "answer": ["I wish my manager would give clearer instructions."], "explain_tr": "Başkasının davranışından şikâyet: [en:wish] + [en:would]."},
+    {"id": "g65", "lesson": "b2-wish", "type": "choice", "q": "I wish I ___ to the meeting yesterday. Everyone says it was really useful.", "options": ["went", "had gone", "would go"], "answer": 1, "explain_tr": "Geçmişe dair pişmanlık → [en:wish] + past perfect: [en:had gone]."},
+    {"id": "g22", "lesson": "b2-linkers", "type": "choice", "q": "___ his experience, he didn't get the job.", "options": ["Although", "Despite", "However"], "answer": 1, "explain_tr": "İsimden önce → [en:Despite]."},
+    {"id": "g23", "lesson": "b2-linkers", "type": "fill", "q": "___ it was expensive, we bought it. (rağmen, cümle)", "answer": ["Although", "Though", "Even though", "although", "though", "even though"], "explain_tr": "[en:Although] + cümle."},
+    {"id": "g24", "lesson": "b2-linkers", "type": "fix", "q": "In spite of it was late, we kept working.", "answer": ["Although it was late, we kept working.", "Even though it was late, we kept working.", "Though it was late, we kept working.", "In spite of the late hour, we kept working.", "Despite the late hour, we kept working.", "Despite the fact that it was late, we kept working.", "In spite of the fact that it was late, we kept working."], "explain_tr": "[en:in spite of] + isim; cümle için [en:although]."},
+    {"id": "g66", "lesson": "b2-linkers", "type": "transform", "instruction_tr": "[en:Despite] ile yeniden yaz ([en:-ing] kullan)", "q": "Although he had a lot of experience, he didn't get the promotion.", "answer": ["Despite having a lot of experience, he didn't get the promotion.", "He didn't get the promotion despite having a lot of experience.", "Despite having had a lot of experience, he didn't get the promotion.", "He didn't get the promotion despite having had a lot of experience."], "explain_tr": "[en:Despite]'tan sonra cümle değil, isim ya da [en:-ing] gelir."},
+    {"id": "g67", "lesson": "b2-linkers", "type": "transform", "instruction_tr": "[en:Whereas] ile tek cümle yap", "q": "Our Ankara office is small. Our Istanbul office is very large.", "answer": ["Our Ankara office is small, whereas our Istanbul office is very large.", "Whereas our Ankara office is small, our Istanbul office is very large.", "Our Istanbul office is very large, whereas our Ankara office is small.", "Whereas our Istanbul office is very large, our Ankara office is small."], "explain_tr": "[en:whereas] iki durumu karşılaştırır ve iki cümleyi birleştirir."},
+    {"id": "g68", "lesson": "b2-linkers", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["In spite of", "the high costs", "the company", "opened", "a new branch."], "answer": ["In spite of the high costs, the company opened a new branch.", "The company opened a new branch in spite of the high costs."], "explain_tr": "[en:In spite of] + isim ([en:the high costs])."},
+    {"id": "g69", "lesson": "b2-linkers", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["The old system", "was slow,", "whereas", "the new one", "is much faster."], "answer": ["The old system was slow, whereas the new one is much faster.", "Whereas the old system was slow, the new one is much faster.", "The new one is much faster, whereas the old system was slow.", "Whereas the new one is much faster, the old system was slow."], "explain_tr": "[en:whereas] iki zıt durumu bağlar: eski yavaştı, yenisi ise çok daha hızlı."},
+    {"id": "g70", "lesson": "b2-linkers", "type": "fill", "q": "___ the fact that the deadline was tight, the team finished early. (rağmen)", "answer": ["Despite", "In spite of"], "explain_tr": "[en:the fact that] ile birlikte [en:Despite / In spite of] kullanılır."},
+    {"id": "g25", "lesson": "b2-work-presentations", "type": "choice", "q": "Revenue increased ___ 12% compared to last year.", "options": ["with", "by", "at"], "answer": 1, "explain_tr": "[en:by]."},
+    {"id": "g26", "lesson": "b2-work-presentations", "type": "fill", "q": "Let's ___ on to the next point. (geçmek)", "answer": ["move"], "explain_tr": "[en:move on to]."},
+    {"id": "g27", "lesson": "b2-work-presentations", "type": "fix", "q": "Today I will talk you about our plans.", "answer": ["Today I will talk to you about our plans.", "Today I'll talk to you about our plans."], "explain_tr": "[en:talk to you]."},
+    {"id": "g71", "lesson": "b2-work-presentations", "type": "transform", "instruction_tr": "[en:increase] fiili ve bir zarf kullanarak yeniden yaz", "q": "There was a dramatic increase in online orders in May.", "answer": ["Online orders increased dramatically in May.", "Online orders dramatically increased in May.", "In May, online orders increased dramatically.", "In May, online orders dramatically increased."], "explain_tr": "Sıfat + isim ([en:a dramatic increase]) → fiil + zarf ([en:increased dramatically])."},
+    {"id": "g72", "lesson": "b2-work-presentations", "type": "transform", "instruction_tr": "[en:There was a slight fall in …] ile başlayarak yeniden yaz", "q": "Our costs fell slightly in the third quarter.", "answer": ["There was a slight fall in our costs in the third quarter.", "There was a slight fall in costs in the third quarter."], "explain_tr": "Fiil + zarf ([en:fell slightly]) → sıfat + isim ([en:a slight fall in])."},
+    {"id": "g73", "lesson": "b2-work-presentations", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["I'd like to", "point out", "that", "the figures on this slide", "are from last year."], "answer": ["I'd like to point out that the figures on this slide are from last year."], "explain_tr": "Önemli bir noktayı vurgulamak için: [en:I'd like to point out that …] (… olduğunu belirtmek isterim)."},
+    {"id": "g74", "lesson": "b2-work-presentations", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["Let's", "go back", "to", "the previous", "slide."], "answer": ["Let's go back to the previous slide."], "explain_tr": "Önceki slayta dönmek: [en:go back to the previous slide]."},
+    {"id": "g75", "lesson": "b2-work-presentations", "type": "choice", "q": "Sales fell ___ in the last quarter.", "options": ["sharply", "sharp", "sharpness"], "answer": 0, "explain_tr": "Fiili ([en:fell]) zarf niteler: [en:sharply]."},
+    {"id": "g28", "lesson": "b2-work-negotiation", "type": "choice", "q": "Most diplomatic:", "options": ["That's too expensive.", "I'm afraid that's a little above our budget.", "No way."], "answer": 1, "explain_tr": "[en:I'm afraid] + yumuşatma."},
+    {"id": "g29", "lesson": "b2-work-negotiation", "type": "fill", "q": "If you ___ 1,000 units, we can offer free delivery. (order)", "answer": ["order"], "explain_tr": "[en:If] + present."},
+    {"id": "g30", "lesson": "b2-work-negotiation", "type": "fix", "q": "We want that you lower the price.", "answer": ["We want you to lower the price.", "We would like you to lower the price.", "We'd like you to lower the price."], "explain_tr": "[en:want] + kişi + [en:to]."},
+    {"id": "g76", "lesson": "b2-work-negotiation", "type": "transform", "instruction_tr": "Diplomatik yap ([en:Would you be able to …?] ile)", "q": "Deliver the goods before the end of June.", "answer": ["Would you be able to deliver the goods before the end of June?"], "explain_tr": "Emir yerine kibar soru: [en:Would you be able to …?]"},
+    {"id": "g77", "lesson": "b2-work-negotiation", "type": "transform", "instruction_tr": "[en:as long as] ile yeniden yaz", "q": "If you pay within a month, we will cover the delivery costs.", "answer": ["As long as you pay within a month, we will cover the delivery costs.", "As long as you pay within a month, we'll cover the delivery costs.", "We will cover the delivery costs as long as you pay within a month.", "We'll cover the delivery costs as long as you pay within a month."], "explain_tr": "[en:as long as] (… şartıyla) sonrasında [en:will] değil, present simple gelir."},
+    {"id": "g78", "lesson": "b2-work-negotiation", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["We", "would like", "you", "to send us", "a revised quote."], "answer": ["We would like you to send us a revised quote."], "explain_tr": "[en:would like] + kişi + [en:to] + fiil ([en:that] kullanılmaz)."},
+    {"id": "g79", "lesson": "b2-work-negotiation", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["Would", "you", "consider", "extending", "the contract", "for", "another year?"], "answer": ["Would you consider extending the contract for another year?"], "explain_tr": "[en:consider] + [en:-ing] ile kibar öneri: [en:Would you consider extending …?]"},
+    {"id": "g80", "lesson": "b2-work-negotiation", "type": "choice", "q": "We can offer free installation ___ you sign the contract this week.", "options": ["unless", "provided that", "despite"], "answer": 1, "explain_tr": "Şartlı teklif: [en:provided that] (… şartıyla)."}
+  ],
+  "listening": {
+    "dictation_count": 3,
+    "comprehension_count": 2,
+    "dictation": [
+      {
+        "id": "d1",
+        "text": "By the time the manager arrived, we had already solved the problem."
+      },
+      {
+        "id": "d2",
+        "text": "Despite the delays, the project was completed on time and within budget."
+      },
+      {
+        "id": "d3",
+        "text": "If we had tested the software properly, we wouldn't have lost so many customers."
+      },
+      {
+        "id": "d4",
+        "text": "She had been working on the proposal for weeks before the client finally accepted it."
+      },
+      {
+        "id": "d5",
+        "text": "We will have moved into the new office by the end of next month."
+      },
+      {
+        "id": "d6",
+        "text": "The documents must have been sent to the wrong address by mistake."
+      },
+      {
+        "id": "d7",
+        "text": "I wish we had asked our customers what they really wanted."
+      },
+      {
+        "id": "d8",
+        "text": "Although the presentation was short, it covered all the important points."
+      }
+    ],
+    "comprehension": [
+      {
+        "id": "c1",
+        "text": "Thank you all for coming. I'd like to start with a quick update on our sales. In the first quarter, sales rose by eight percent, mainly thanks to the new online shop. However, costs also increased, because we had to hire three new people in customer service. Now let's move on to our plans. By the end of the year, we will have opened two new stores, one in Izmir and one in Antalya.",
+        "questions": [
+          {
+            "id": "c1a",
+            "q_tr": "Satışlar ilk çeyrekte neden arttı?",
+            "options": [
+              "Yeni mağazalar sayesinde",
+              "Yeni çevrimiçi mağaza sayesinde",
+              "Fiyatlar düştüğü için"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "c1b",
+            "q_tr": "Maliyetler neden arttı?",
+            "options": [
+              "Müşteri hizmetlerine üç kişi alındı",
+              "Kira yükseldi",
+              "Reklama çok para harcandı"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "c1c",
+            "q_tr": "Yıl sonuna kadar ne yapılmış olacak?",
+            "options": [
+              "Bir mağaza kapatılacak",
+              "İki yeni mağaza açılmış olacak",
+              "Çevrimiçi mağaza yenilenecek"
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "text": "I wish I had started learning English earlier. When I was at university, I thought I would never need it. Then, a few years ago, my company was bought by a German firm, and suddenly all our meetings were in English. I must have looked terrified in the first meeting! I've been taking lessons for two years now, and although I still make mistakes, I can lead a meeting without much stress.",
+        "questions": [
+          {
+            "id": "c2a",
+            "q_tr": "Konuşan kişi neden pişman?",
+            "options": [
+              "Üniversiteye gitmediği için",
+              "İngilizce öğrenmeye daha erken başlamadığı için",
+              "Şirketini değiştirdiği için"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "c2b",
+            "q_tr": "Toplantılar neden İngilizce olmaya başladı?",
+            "options": [
+              "Şirket bir Alman firması tarafından satın alındı",
+              "Yeni bir İngiliz müdür geldi",
+              "Şirket yurt dışına taşındı"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "c2c",
+            "q_tr": "Şu an durumu nasıl?",
+            "options": [
+              "Hiç hata yapmıyor",
+              "Hâlâ çok stresli",
+              "Hata yapsa da toplantı yönetebiliyor"
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "text": "Hi Deniz, it's Selin from the finance team. I've been trying to reach you all morning, so you must be in meetings. I'm calling about an invoice from one of our suppliers. It should have been paid last week, but the payment still hasn't been made. I think the invoice might have been sent to the wrong department. Could you check with your team and call me back before three thirty? Thanks.",
+        "questions": [
+          {
+            "id": "c3a",
+            "q_tr": "Selin neden arıyor?",
+            "options": [
+              "Bir toplantıyı ertelemek için",
+              "Ödenmemiş bir tedarikçi faturası için",
+              "Yeni bir tedarikçi önermek için"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "c3b",
+            "q_tr": "Selin'e göre faturaya ne olmuş olabilir?",
+            "options": [
+              "Yanlış departmana gönderilmiş olabilir",
+              "Tedarikçi faturayı hiç göndermemiş olabilir",
+              "Fatura iki kez ödenmiş olabilir"
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "text": "Good morning, everyone. Let me give you a quick overview of our website traffic. In January, visits rose sharply, by around thirty percent, after we launched our new mobile app. Since then, the numbers have levelled off, although mobile visits are still growing slowly. Next month, our marketing team will be running a campaign on social media, and by the end of the summer, we will have redesigned the whole website.",
+        "questions": [
+          {
+            "id": "c4a",
+            "q_tr": "Ocak ayında ziyaretler neden arttı?",
+            "options": [
+              "Sosyal medya kampanyası sayesinde",
+              "Web sitesi yenilendiği için",
+              "Yeni mobil uygulama kullanıma sunulduğu için"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "c4b",
+            "q_tr": "Yaz sonuna kadar ne yapılmış olacak?",
+            "options": [
+              "Web sitesi baştan sona yeniden tasarlanmış olacak",
+              "Yeni bir mobil uygulama çıkarılmış olacak",
+              "Pazarlama ekibi büyütülmüş olacak"
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      {
+        "id": "c5",
+        "text": "Last year our team missed an important deadline, and we lost a big client. Looking back, I think we could have avoided it. If we had planned the project more carefully, we wouldn't have needed so much overtime at the end. I also wish I had asked for help earlier. This year we have a new rule: every project starts with a planning meeting, and despite the extra time it takes, everyone agrees that it works.",
+        "questions": [
+          {
+            "id": "c5a",
+            "q_tr": "Geçen yıl ne oldu?",
+            "options": [
+              "Ekip büyük bir müşteri kazandı",
+              "Ekip önemli bir teslim tarihini kaçırdı ve bir müşteri kaybetti",
+              "Ekipten bazı kişiler işten ayrıldı"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "c5b",
+            "q_tr": "Bu yıl ne değişti?",
+            "options": [
+              "Fazla mesai yasaklandı",
+              "Ekibe yeni bir müdür geldi",
+              "Her proje bir planlama toplantısıyla başlıyor"
+            ],
+            "answer": 2
+          }
+        ]
+      }
+    ]
+  },
+  "speaking_count": 3,
+  "speaking": [
+    {
+      "id": "s1",
+      "question_en": "Tell me about a decision in your life or career that you regret or are proud of. What would have happened if you had decided differently?",
+      "instruction_tr": "Hayatında ya da kariyerinde pişman olduğun veya gurur duyduğun bir kararı anlat; farklı karar verseydin ne olurdu? (third/mixed conditional)",
+      "focus": "narrative tenses and third or mixed conditionals"
+    },
+    {
+      "id": "s2",
+      "question_en": "What are the advantages and disadvantages of working from home? Give a balanced answer.",
+      "instruction_tr": "Evden çalışmanın avantaj ve dezavantajlarını dengeli bir şekilde anlat ([en:although], [en:however], [en:despite]).",
+      "focus": "linking words of contrast"
+    },
+    {
+      "id": "s3",
+      "question_en": "Imagine you are presenting your team's results. Describe one trend in your numbers and say what you expect by the end of the year.",
+      "instruction_tr": "Ekibinin sonuçlarını sunduğunu düşün: rakamlardaki bir eğilimi anlat ve yıl sonuna kadar ne beklediğini söyle.",
+      "focus": "presentation language, describing trends, future perfect"
+    },
+    {
+      "id": "s4",
+      "question_en": "Describe a time when something went wrong at work or at school. What had happened before, and how did you deal with it?",
+      "instruction_tr": "İşte ya da okulda bir şeylerin ters gittiği bir anı anlat: öncesinde ne olmuştu ve sorunla nasıl başa çıktın? (past perfect, hikâye anlatma zamanları)",
+      "focus": "past perfect and narrative tenses"
+    },
+    {
+      "id": "s5",
+      "question_en": "Imagine a supplier wants to raise their prices by ten percent. What would you say to them to reach an agreement?",
+      "instruction_tr": "Bir tedarikçinin fiyatlarını yüzde on artırmak istediğini düşün. Anlaşmaya varmak için ona neler söylerdin? (diplomatik dil, [en:if] / [en:as long as] ile koşullu teklifler)",
+      "focus": "diplomatic language and conditional offers"
+    },
+    {
+      "id": "s6",
+      "question_en": "How long have you been doing your current job or studies? What do you wish were different about it?",
+      "instruction_tr": "Şu anki işini ya da eğitimini ne kadar zamandır sürdürdüğünü anlat ve neyin farklı olmasını dilediğini söyle. (present perfect continuous, [en:wish])",
+      "focus": "the present perfect continuous and wish"
+    }
+  ],
+  "writing": [
+    {
+      "id": "w1",
+      "instruction_tr": "Bir tedarikçiye resmî bir e-posta yaz: son teslimat geç geldi ve bazı ürünler hasarlıydı. Ne olduğunu açıkla, bunun işine etkisini anlat ve diplomatik bir dille bir çözüm (indirim ya da yeni teslimat) iste. En az 120 kelime.",
+      "prompt_en": "Write a formal email to a supplier: the last delivery arrived late and some products were damaged. Explain what happened, describe the impact on your business and ask diplomatically for a solution such as a discount or a new delivery.",
+      "focus": "narrative tenses, passives, linking words and diplomatic language",
+      "min_words": 120
+    },
+    {
+      "id": "w2",
+      "instruction_tr": "Müdürüne bir e-posta yaz: bir projenin neden planın gerisinde kaldığını açıkla. Şu ana kadar neler yapıldığını, neyin ters gittiğini ve yeni teslim tarihine kadar nelerin tamamlanmış olacağını anlat. En az 120 kelime.",
+      "prompt_en": "Write an email to your manager explaining why a project is behind schedule. Say what has been done so far, what went wrong and what will have been completed by the new deadline.",
+      "focus": "present perfect simple and continuous, passives and the future perfect",
+      "min_words": 120
+    },
+    {
+      "id": "w3",
+      "instruction_tr": "Katıldığın bir eğitim ya da konferans hakkında müdürüne kısa bir rapor yaz: neler oldu, neler öğrendin ve neler daha iyi olabilirdi? Olumlu ve olumsuz yönleri dengeli bir şekilde anlat. En az 120 kelime.",
+      "prompt_en": "Write a short report for your manager about a training course or conference you attended. Describe what happened, what you learned and what could have been better. Give a balanced view of the positive and negative points.",
+      "focus": "narrative tenses, could have / should have and linking words of contrast",
+      "min_words": 120
+    }
+  ]
+}

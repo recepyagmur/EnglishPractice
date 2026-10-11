@@ -1,0 +1,5 @@
+# Only on computers with an NVIDIA GPU: Whisper (ctranslate2) on the GPU needs cuBLAS 12.
+# Windows: cuDNN 9 is bundled inside ctranslate2. Linux: ctranslate2's wheel does not bundle it (backend/stt.py
+# loads both from these wheels). Without this file Whisper runs on the CPU.
+nvidia-cublas-cu12==12.9.2.10
+nvidia-cudnn-cu12==9.10.2.21; sys_platform == "linux"

@@ -1,0 +1,346 @@
+{
+  "_comment": "A2 level exam. Format: app/content/exams/README.md. Question ids are stable.",
+  "title_tr": "A2 Seviye Sınavı",
+  "grammar_count": 20,
+  "tts_speed": 0.95,
+  "grammar": [
+    {"id": "g01", "lesson": "a2-past-simple", "type": "choice", "q": "We ___ a great time in Bodrum last summer.", "options": ["have", "had", "haved"], "answer": 1, "explain_tr": "[en:have] → [en:had]."},
+    {"id": "g02", "lesson": "a2-past-simple", "type": "fill", "q": "The flight ___ two hours late. (be)", "answer": ["was"], "explain_tr": "[en:the flight] = [en:it] → [en:was]."},
+    {"id": "g03", "lesson": "a2-past-simple", "type": "fix", "q": "Last year I start a new job.", "answer": ["Last year I started a new job."], "explain_tr": "Geçmiş → [en:started]."},
+    {"id": "g31", "lesson": "a2-past-simple", "type": "transform", "instruction_tr": "Cümleyi geçmiş zamana çevir.", "q": "The client is happy with our offer.", "answer": ["The client was happy with our offer."], "explain_tr": "[en:is] → [en:was] (tekil özne)."},
+    {"id": "g32", "lesson": "a2-past-simple", "type": "transform", "instruction_tr": "[en:every Friday] yerine [en:last Friday] kullanarak geçmiş zamana çevir.", "q": "I write a report every Friday.", "answer": ["I wrote a report last Friday.", "Last Friday I wrote a report."], "explain_tr": "[en:write] düzensiz fiildir: [en:write] → [en:wrote]."},
+    {"id": "g33", "lesson": "a2-past-simple", "type": "order", "q": "Kelimeleri sırala: [tr:Tren bu sabah çok gecikti.]", "words": ["The train", "was", "very", "late", "this morning"], "answer": ["The train was very late this morning.", "This morning the train was very late.", "The train this morning was very late."], "explain_tr": "[en:the train] = [en:it] → [en:was]; zaman ifadesi başa ya da sona gelebilir."},
+    {"id": "g34", "lesson": "a2-past-simple", "type": "order", "q": "Kelimeleri sırala: [tr:Müdürüm geçen hafta bana yeni bir görev verdi.]", "words": ["My manager", "gave", "me", "a new task", "last week"], "answer": ["My manager gave me a new task last week.", "Last week my manager gave me a new task."], "explain_tr": "[en:give] düzensiz fiildir: [en:give] → [en:gave]; [en:give] + kişi + şey."},
+    {"id": "g35", "lesson": "a2-past-simple", "type": "fill", "q": "She ___ the email to the wrong person yesterday. (send)", "answer": ["sent"], "explain_tr": "[en:send] düzensiz fiildir: [en:send] → [en:sent]."},
+    {"id": "g04", "lesson": "a2-past-questions", "type": "choice", "q": "What ___ you do after the meeting yesterday?", "options": ["do", "did", "were"], "answer": 1, "explain_tr": "Geçmiş soru → [en:did]."},
+    {"id": "g05", "lesson": "a2-past-questions", "type": "fill", "q": "I ___ understand the question, so I asked again. (olumsuz)", "answer": ["didn't", "did not"], "explain_tr": "[en:didn't] + yalın fiil."},
+    {"id": "g06", "lesson": "a2-past-questions", "type": "fix", "q": "Did you sent the invoice?", "answer": ["Did you send the invoice?"], "explain_tr": "[en:Did] + yalın fiil."},
+    {"id": "g36", "lesson": "a2-past-questions", "type": "transform", "instruction_tr": "Olumsuz yap.", "q": "We met the new manager.", "answer": ["We didn't meet the new manager.", "We did not meet the new manager."], "explain_tr": "[en:didn't] + yalın fiil: [en:met] → [en:didn't meet]."},
+    {"id": "g37", "lesson": "a2-past-questions", "type": "transform", "instruction_tr": "Soru cümlesi yap.", "q": "She called the supplier.", "answer": ["Did she call the supplier?"], "explain_tr": "[en:Did] + özne + yalın fiil: [en:called] → [en:Did she call?]"},
+    {"id": "g38", "lesson": "a2-past-questions", "type": "order", "q": "Kelimeleri sırala: [tr:Bana neden sorundan bahsetmedin?]", "words": ["Why", "didn't", "you", "tell", "me", "about the problem?"], "answer": ["Why didn't you tell me about the problem?"], "explain_tr": "Soru kelimesi + [en:didn't] + özne + yalın fiil."},
+    {"id": "g39", "lesson": "a2-past-questions", "type": "order", "q": "Kelimeleri sırala: [tr:Müşteri fiyat hakkında ne dedi?]", "words": ["What", "did", "the client", "say", "about", "the price?"], "answer": ["What did the client say about the price?"], "explain_tr": "[en:What] + [en:did] + özne + yalın fiil ([en:say], [en:said] değil)."},
+    {"id": "g40", "lesson": "a2-past-questions", "type": "choice", "q": "___ you at the office on Monday?", "options": ["Did", "Were", "Was"], "answer": 1, "explain_tr": "Fiil yokken [en:be] ile soru: [en:you] → [en:Were you …?]"},
+    {"id": "g07", "lesson": "a2-present-continuous", "type": "choice", "q": "Can you call back later? I ___ dinner now.", "options": ["have", "am having", "had"], "answer": 1, "explain_tr": "Şu an → [en:am having]."},
+    {"id": "g08", "lesson": "a2-present-continuous", "type": "choice", "q": "She ___ three languages.", "options": ["speaks", "is speaking", "speak"], "answer": 0, "explain_tr": "Kalıcı durum/yetenek → [en:speaks]."},
+    {"id": "g09", "lesson": "a2-present-continuous", "type": "fix", "q": "I am needing your help.", "answer": ["I need your help."], "explain_tr": "[en:need] durum fiili; [en:-ing] almaz."},
+    {"id": "g41", "lesson": "a2-present-continuous", "type": "transform", "instruction_tr": "Soru cümlesi yap.", "q": "He is talking to a customer.", "answer": ["Is he talking to a customer?"], "explain_tr": "Soruda [en:is] öznenin önüne geçer: [en:Is he talking …?]"},
+    {"id": "g42", "lesson": "a2-present-continuous", "type": "transform", "instruction_tr": "[en:now] yerine [en:every morning] kullanarak geniş zamana (present simple) çevir.", "q": "She is reading the news now.", "answer": ["She reads the news every morning.", "Every morning she reads the news."], "explain_tr": "Alışkanlık → geniş zaman: [en:she reads]."},
+    {"id": "g43", "lesson": "a2-present-continuous", "type": "order", "q": "Kelimeleri sırala: [tr:Bugün neden takım elbise giyiyorsun?]", "words": ["Why", "are", "you", "wearing", "a suit", "today?"], "answer": ["Why are you wearing a suit today?"], "explain_tr": "Soru kelimesi + [en:are] + özne + [en:-ing]."},
+    {"id": "g44", "lesson": "a2-present-continuous", "type": "order", "q": "Kelimeleri sırala: [tr:İş arkadaşım şu anda öğle yemeği yiyor.]", "words": ["My colleague", "is", "having", "lunch", "at the moment"], "answer": ["My colleague is having lunch at the moment.", "At the moment my colleague is having lunch."], "explain_tr": "Şu an olan iş → [en:is having] ([en:have lunch] = öğle yemeği yemek)."},
+    {"id": "g45", "lesson": "a2-present-continuous", "type": "fill", "q": "I can't talk now. I ___ a report. (write)", "answer": ["am writing", "'m writing"], "explain_tr": "Şu an süren iş → [en:am writing] ([en:write] → [en:writing], [key:e] düşer)."},
+    {"id": "g10", "lesson": "a2-future", "type": "choice", "q": "I'm thirsty. — I ___ get you some water.", "options": ["'ll", "'m going to", "am getting"], "answer": 0, "explain_tr": "Anlık teklif → [en:will]."},
+    {"id": "g11", "lesson": "a2-future", "type": "fill", "q": "We ___ going to open a new office in Izmir next year. (be)", "answer": ["are", "'re"], "explain_tr": "[en:we are going to …]"},
+    {"id": "g12", "lesson": "a2-future", "type": "fix", "q": "I will to send it tomorrow.", "answer": ["I will send it tomorrow.", "I'll send it tomorrow."], "explain_tr": "[en:will] + yalın fiil."},
+    {"id": "g46", "lesson": "a2-future", "type": "transform", "instruction_tr": "Olumsuz yap.", "q": "We are going to hire a new designer.", "answer": ["We aren't going to hire a new designer.", "We are not going to hire a new designer."], "explain_tr": "Olumsuz: [en:are not] ([en:aren't]) [en:going to] + yalın fiil."},
+    {"id": "g47", "lesson": "a2-future", "type": "transform", "instruction_tr": "Soru cümlesi yap.", "q": "The new system will be ready by Friday.", "answer": ["Will the new system be ready by Friday?"], "explain_tr": "Soruda [en:will] öznenin önüne geçer."},
+    {"id": "g48", "lesson": "a2-future", "type": "order", "q": "Kelimeleri sırala: [tr:Gelecek hafta fabrikayı ziyaret edeceğim.]", "words": ["I'm", "going to", "visit", "the factory", "next week"], "answer": ["I'm going to visit the factory next week.", "Next week I'm going to visit the factory."], "explain_tr": "Önceden verilmiş plan → [en:be going to] + yalın fiil."},
+    {"id": "g49", "lesson": "a2-future", "type": "order", "q": "Kelimeleri sırala: [tr:Cuma günü müşteriyle akşam yemeği yiyoruz.]", "words": ["We're", "having", "dinner with the client", "on Friday"], "answer": ["We're having dinner with the client on Friday.", "On Friday we're having dinner with the client."], "explain_tr": "Kesinleşmiş randevu → present continuous."},
+    {"id": "g50", "lesson": "a2-future", "type": "choice", "q": "Look at the traffic! We ___ be late for the meeting.", "options": ["are going to", "going to", "are going"], "answer": 0, "explain_tr": "Kanıta dayalı tahmin → [en:are going to] + yalın fiil."},
+    {"id": "g13", "lesson": "a2-comparatives", "type": "choice", "q": "This laptop is ___ than the old one.", "options": ["more light", "lighter", "lightest"], "answer": 1, "explain_tr": "[en:light] → [en:lighter]."},
+    {"id": "g14", "lesson": "a2-comparatives", "type": "fill", "q": "It was the ___ day of the year. (bad, en)", "answer": ["worst"], "explain_tr": "[en:bad] → [en:the worst]."},
+    {"id": "g15", "lesson": "a2-comparatives", "type": "fix", "q": "My new job is more better than the old one.", "answer": ["My new job is better than the old one."], "explain_tr": "[en:more] fazla."},
+    {"id": "g51", "lesson": "a2-comparatives", "type": "transform", "instruction_tr": "İki cümleyi [en:than] ile tek cümlede karşılaştır ([en:The train …] ile başla).", "q": "The train is fast. The bus is slow.", "answer": ["The train is faster than the bus.", "The train is faster than the bus is."], "explain_tr": "Kısa sıfat: [en:fast] → [en:faster than]."},
+    {"id": "g52", "lesson": "a2-comparatives", "type": "transform", "instruction_tr": "Aynı anlamda [en:not as … as] ile yeniden yaz ([en:light] kullan).", "q": "My new laptop is heavier than my old one.", "answer": ["My new laptop isn't as light as my old one.", "My new laptop is not as light as my old one.", "My new laptop isn't as light as my old laptop.", "My new laptop is not as light as my old laptop.", "My new laptop isn't as light as my old one is.", "My new laptop isn't as light as my old laptop is."], "explain_tr": "Daha ağır = o kadar hafif değil: [en:not as light as]."},
+    {"id": "g53", "lesson": "a2-comparatives", "type": "order", "q": "Kelimeleri sırala: [tr:Yeni yazıcı eskisinden çok daha hızlı.]", "words": ["The new printer", "is", "much", "faster", "than", "the old one"], "answer": ["The new printer is much faster than the old one."], "explain_tr": "[tr:çok daha] → [en:much] + comparative: [en:much faster]."},
+    {"id": "g54", "lesson": "a2-comparatives", "type": "order", "q": "Kelimeleri sırala: [tr:Yılın en zor toplantısıydı.]", "words": ["It", "was", "the most", "difficult", "meeting", "of the year"], "answer": ["It was the most difficult meeting of the year."], "explain_tr": "Uzun sıfat → [en:the most difficult]; [tr:yılın] → [en:of the year]."},
+    {"id": "g55", "lesson": "a2-comparatives", "type": "fix", "q": "This is the most cheap hotel in the area.", "answer": ["This is the cheapest hotel in the area."], "explain_tr": "Kısa sıfat: [en:cheap] → [en:the cheapest] ([en:most] kullanılmaz)."},
+    {"id": "g16", "lesson": "a2-countable", "type": "choice", "q": "How ___ meetings do you have today?", "options": ["much", "many", "a little"], "answer": 1, "explain_tr": "[en:meetings] sayılabilen → [en:many]."},
+    {"id": "g17", "lesson": "a2-countable", "type": "fill", "q": "Thanks for the useful ___. (bilgi)", "answer": ["information"], "explain_tr": "[en:information] sayılamaz, [en:-s] almaz."},
+    {"id": "g18", "lesson": "a2-countable", "type": "fix", "q": "He gave me a lot of advices.", "answer": ["He gave me a lot of advice."], "explain_tr": "[en:advice] sayılamaz."},
+    {"id": "g56", "lesson": "a2-countable", "type": "transform", "instruction_tr": "Olumsuz yap ([en:any] kullan).", "q": "We have some time before the meeting.", "answer": ["We don't have any time before the meeting.", "We do not have any time before the meeting.", "We haven't got any time before the meeting."], "explain_tr": "Olumsuzda [en:some] → [en:any]."},
+    {"id": "g57", "lesson": "a2-countable", "type": "transform", "instruction_tr": "[en:How much] ile başlayan bir soru yap.", "q": "The project needs a lot of money.", "answer": ["How much money does the project need?", "How much does the project need?"], "explain_tr": "[en:money] sayılamaz → [en:How much]; [en:does] + yalın fiil ([en:need])."},
+    {"id": "g58", "lesson": "a2-countable", "type": "order", "q": "Kelimeleri sırala: [tr:Mutfakta hiç kahve var mı?]", "words": ["Is there", "any", "coffee", "in the kitchen?"], "answer": ["Is there any coffee in the kitchen?"], "explain_tr": "Soruda [en:any]; [en:coffee] sayılamaz → [en:Is there]."},
+    {"id": "g59", "lesson": "a2-countable", "type": "order", "q": "Kelimeleri sırala: [tr:Yeni müşteri hakkında fazla bilgimiz yok.]", "words": ["We", "don't have", "much", "information", "about", "the new client"], "answer": ["We don't have much information about the new client.", "About the new client, we don't have much information."], "explain_tr": "[en:information] sayılamaz → olumsuzda [en:much]."},
+    {"id": "g60", "lesson": "a2-countable", "type": "choice", "q": "I need ___ advice about my CV.", "options": ["many", "an", "some"], "answer": 2, "explain_tr": "[en:advice] sayılamaz: [en:a/an] ve [en:many] almaz → [en:some]."},
+    {"id": "g19", "lesson": "a2-articles", "type": "choice", "q": "I need ___ umbrella. It's raining.", "options": ["a", "an", "the"], "answer": 1, "explain_tr": "İlk kez, ünlü ses → [en:an]."},
+    {"id": "g20", "lesson": "a2-articles", "type": "fill", "q": "Have you seen ___ keys? I put them on the table.", "answer": ["the", "my"], "explain_tr": "Bildiğimiz belli anahtarlar → [en:the] ([en:my] de doğru)."},
+    {"id": "g21", "lesson": "a2-articles", "type": "fix", "q": "I go to the bed at midnight.", "answer": ["I go to bed at midnight."], "explain_tr": "[en:go to bed] kalıp."},
+    {"id": "g61", "lesson": "a2-articles", "type": "transform", "instruction_tr": "Tekil yap ([en:a/an] kullan).", "q": "We hired new engineers.", "answer": ["We hired a new engineer."], "explain_tr": "Tekil sayılabilen isim → [en:a]; [en:new] ünsüzle başlar → [en:a new]."},
+    {"id": "g62", "lesson": "a2-articles", "type": "transform", "instruction_tr": "Tekil yap ([en:It] ile başla, [en:a/an] kullan).", "q": "They are interesting ideas.", "answer": ["It's an interesting idea.", "It is an interesting idea."], "explain_tr": "[en:interesting] ünlü sesle başlar → [en:an]."},
+    {"id": "g63", "lesson": "a2-articles", "type": "order", "q": "Kelimeleri sırala: [tr:Bir üniversitede muhasebeci olarak çalışıyor.]", "words": ["She", "works", "as", "an", "accountant", "at", "a", "university"], "answer": ["She works as an accountant at a university.", "She works at a university as an accountant.", "As an accountant, she works at a university."], "explain_tr": "Meslek → [en:an accountant]; [en:university] [tr:yu] sesiyle başlar → [en:a university]."},
+    {"id": "g64", "lesson": "a2-articles", "type": "order", "q": "Kelimeleri sırala: [tr:Her gün kahvaltıyı evde yaparım.]", "words": ["I", "have", "breakfast", "at", "home", "every day"], "answer": ["I have breakfast at home every day.", "Every day I have breakfast at home.", "I have breakfast every day at home.", "At home, I have breakfast every day."], "explain_tr": "Öğün adları ve [en:at home] tanımlıksız kullanılır."},
+    {"id": "g65", "lesson": "a2-articles", "type": "choice", "q": "It takes ___ hour to get to the airport.", "options": ["an", "a", "the"], "answer": 0, "explain_tr": "[en:hour]'da [key:h] okunmaz, ünlü sesle başlar → [en:an hour]."},
+    {"id": "g22", "lesson": "a2-questions", "type": "choice", "q": "Who ___ you about the new rule?", "options": ["did tell", "told", "did told"], "answer": 1, "explain_tr": "Özne sorusu → [en:did] yok."},
+    {"id": "g23", "lesson": "a2-questions", "type": "fill", "q": "How often ___ you check your email?", "answer": ["do"], "explain_tr": "Geniş zaman sorusu → [en:do]."},
+    {"id": "g24", "lesson": "a2-questions", "type": "fix", "q": "Where you are from?", "answer": ["Where are you from?"], "explain_tr": "[en:are] öznenin önüne."},
+    {"id": "g66", "lesson": "a2-questions", "type": "transform", "instruction_tr": "[en:Who] ile özne sorusu yap (cevap: Zeynep).", "q": "Zeynep found the mistake.", "answer": ["Who found the mistake?"], "explain_tr": "Özne sorusunda [en:did] kullanılmaz: [en:Who found …?]"},
+    {"id": "g67", "lesson": "a2-questions", "type": "transform", "instruction_tr": "[en:What] ile soru yap (cevap: [en:a new car]).", "q": "Burak bought a new car.", "answer": ["What did Burak buy?", "What did he buy?"], "explain_tr": "Nesne sorusu → [en:What] + [en:did] + özne + yalın fiil."},
+    {"id": "g68", "lesson": "a2-questions", "type": "order", "q": "Kelimeleri sırala: [tr:Eğitim ne kadar sürüyor?]", "words": ["How", "long", "does", "the training", "take?"], "answer": ["How long does the training take?"], "explain_tr": "Süre sorusu: [en:How long] + [en:does] + özne + yalın fiil."},
+    {"id": "g69", "lesson": "a2-questions", "type": "order", "q": "Kelimeleri sırala: [tr:Kız kardeşin hangi departmanda çalışıyor?]", "words": ["Which", "department", "does", "your sister", "work", "in?"], "answer": ["Which department does your sister work in?", "In which department does your sister work?"], "explain_tr": "[en:Which] + isim + [en:does] + özne + fiil; edat ([en:in]) genelde sona gider."},
+    {"id": "g70", "lesson": "a2-questions", "type": "fix", "q": "What time the bank closes?", "answer": ["What time does the bank close?"], "explain_tr": "Soru: [en:What time] + [en:does] + özne + yalın fiil."},
+    {"id": "g25", "lesson": "a2-work-email", "type": "choice", "q": "I look forward to ___ you on Monday.", "options": ["see", "seeing", "saw"], "answer": 1, "explain_tr": "[en:look forward to] + [en:-ing]."},
+    {"id": "g26", "lesson": "a2-work-email", "type": "fill", "q": "Please find ___ the contract. (ekte)", "answer": ["attached"], "explain_tr": "[en:Please find attached …]"},
+    {"id": "g27", "lesson": "a2-work-email", "type": "fix", "q": "I am writing for to ask about the price.", "answer": ["I am writing to ask about the price.", "I'm writing to ask about the price."], "explain_tr": "[en:for] fazla."},
+    {"id": "g71", "lesson": "a2-work-email", "type": "transform", "instruction_tr": "Kibar bir ricaya çevir ([en:Could you …] ile başla).", "q": "Check the price list.", "answer": ["Could you check the price list, please?", "Could you please check the price list?", "Could you check the price list?"], "explain_tr": "Emir yerine [en:Could you …?] daha kibardır."},
+    {"id": "g72", "lesson": "a2-work-email", "type": "transform", "instruction_tr": "E-postanın amacını [en:I'm writing to …] kalıbıyla yaz.", "q": "I want to confirm my order.", "answer": ["I'm writing to confirm my order.", "I am writing to confirm my order."], "explain_tr": "Amaç: [en:I'm writing to] + yalın fiil."},
+    {"id": "g73", "lesson": "a2-work-email", "type": "order", "q": "Kelimeleri sırala: [tr:Pazartesi günkü e-postamla ilgili kısa bir hatırlatma yapıyorum.]", "words": ["I'm", "just", "following up", "on", "my email", "from Monday."], "answer": ["I'm just following up on my email from Monday."], "explain_tr": "[en:follow up on …] = bir konuyu hatırlatmak, takip etmek."},
+    {"id": "g74", "lesson": "a2-work-email", "type": "order", "q": "Kelimeleri sırala: [tr:Perşembeye kadar cevap verebilir misiniz, lütfen?]", "words": ["Could you", "reply", "by", "Thursday,", "please?"], "answer": ["Could you reply by Thursday, please?", "Could you please reply by Thursday?", "Please could you reply by Thursday?"], "explain_tr": "[tr:… -e kadar] (son tarih) → [en:by Thursday]."},
+    {"id": "g75", "lesson": "a2-work-email", "type": "choice", "q": "Dear ___, I'm writing about your order. (alıcı: Ayşe Kaya, resmî e-posta)", "options": ["Ms Ayşe", "Ms Kaya", "Kaya"], "answer": 1, "explain_tr": "Resmî e-postada [en:Ms] + soyadı: [en:Dear Ms Kaya]."},
+    {"id": "g28", "lesson": "a2-work-phone", "type": "choice", "q": "Mr Arslan is in a meeting. Can I ___ a message?", "options": ["take", "do", "say"], "answer": 0, "explain_tr": "[en:take a message]."},
+    {"id": "g29", "lesson": "a2-work-phone", "type": "fill", "q": "Could I speak ___ Ms Güneş, please?", "answer": ["to", "with"], "explain_tr": "[en:speak to]."},
+    {"id": "g30", "lesson": "a2-work-phone", "type": "fix", "q": "Hello, I am Kemal from Ford Otosan.", "answer": ["Hello, this is Kemal from Ford Otosan.", "Hello, it's Kemal from Ford Otosan."], "explain_tr": "Telefonda: [en:this is …]"},
+    {"id": "g76", "lesson": "a2-work-phone", "type": "transform", "instruction_tr": "Kibar bir ricaya çevir ([en:Could you …] ile başla).", "q": "Spell your surname.", "answer": ["Could you spell your surname, please?", "Could you please spell your surname?", "Could you spell your surname?"], "explain_tr": "Telefonda kibar rica: [en:Could you spell …?]"},
+    {"id": "g77", "lesson": "a2-work-phone", "type": "transform", "instruction_tr": "Kibar bir ricaya çevir ([en:Could you ask him to …] ile başla).", "q": "Tell him to call me back today.", "answer": ["Could you ask him to call me back today?", "Could you ask him to call me back today, please?", "Could you please ask him to call me back today?"], "explain_tr": "[en:ask somebody to] + yalın fiil: kibar bir mesaj bırakma kalıbı."},
+    {"id": "g78", "lesson": "a2-work-phone", "type": "order", "q": "Kelimeleri sırala: [tr:Sizi müdüre bağlayayım.]", "words": ["I'll", "put", "you", "through", "to", "the manager."], "answer": ["I'll put you through to the manager."], "explain_tr": "[en:put somebody through to …] = telefonu birine bağlamak."},
+    {"id": "g79", "lesson": "a2-work-phone", "type": "order", "q": "Kelimeleri sırala: [tr:Pardon, e-posta adresinizi tam anlayamadım.]", "words": ["Sorry, I", "didn't", "catch", "your", "email address."], "answer": ["Sorry, I didn't catch your email address."], "explain_tr": "[en:didn't catch] = tam duyamadım / anlayamadım."},
+    {"id": "g80", "lesson": "a2-work-phone", "type": "fill", "q": "Mr Şen isn't at his desk? OK, can I ___ a message for him? (bırakmak)", "answer": ["leave"], "explain_tr": "Mesaj bırakmak → [en:leave a message]."}
+  ],
+  "listening": {
+    "dictation_count": 3,
+    "comprehension_count": 3,
+    "dictation": [
+      {
+        "id": "d1",
+        "text": "I didn't go to the office yesterday because I was ill."
+      },
+      {
+        "id": "d2",
+        "text": "We're going to have a meeting with the new client on Friday."
+      },
+      {
+        "id": "d3",
+        "text": "This phone is cheaper than the other one, but it's not as fast."
+      },
+      {
+        "id": "d4",
+        "text": "Did you finish the report before you left the office?"
+      },
+      {
+        "id": "d5",
+        "text": "She is talking to a customer, so she can't answer the phone."
+      },
+      {
+        "id": "d6",
+        "text": "I'm going to visit our new office next month."
+      },
+      {
+        "id": "d7",
+        "text": "There isn't much time, so we need to be quick."
+      },
+      {
+        "id": "d8",
+        "text": "Could you send me the price list by Friday, please?"
+      }
+    ],
+    "comprehension": [
+      {
+        "id": "c1",
+        "text": "Hello, this is Mark from Green Logistics. I'm calling about the delivery for next week. Unfortunately our truck broke down, so we can't deliver on Monday. We can deliver on Wednesday morning instead. Could you call me back on oh two one two, three four five, six seven eight nine? Thanks.",
+        "questions": [
+          {
+            "id": "c1a",
+            "q_tr": "Mark neden arıyor?",
+            "options": [
+              "Bir siparişi iptal etmek için",
+              "Teslimat tarihini değiştirmek için",
+              "Yeni bir ürün satmak için"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "c1b",
+            "q_tr": "Teslimat hangi güne alınabilir?",
+            "options": [
+              "Pazartesi",
+              "Salı",
+              "Çarşamba"
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "text": "Last weekend was busy. On Saturday I helped my brother move to his new flat. It's bigger than his old one, but it's further from the city centre. On Sunday we were very tired, so we stayed at home and watched films.",
+        "questions": [
+          {
+            "id": "c2a",
+            "q_tr": "Cumartesi günü ne yaptı?",
+            "options": [
+              "Kardeşinin taşınmasına yardım etti",
+              "Sinemaya gitti",
+              "Çalıştı"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "c2b",
+            "q_tr": "Yeni daire için hangisi doğru?",
+            "options": [
+              "Eskisinden daha küçük",
+              "Şehir merkezine daha uzak",
+              "Şehir merkezinde"
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "text": "Our team is working on a new mobile app at the moment. We usually have a short meeting every morning at nine thirty. Next month we're going to test the app with real customers.",
+        "questions": [
+          {
+            "id": "c3a",
+            "q_tr": "Ekip şu an ne üzerinde çalışıyor?",
+            "options": [
+              "Bir web sitesi",
+              "Bir mobil uygulama",
+              "Bir reklam kampanyası"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "c3b",
+            "q_tr": "Gelecek ay ne yapacaklar?",
+            "options": [
+              "Uygulamayı gerçek müşterilerle test edecekler",
+              "Yeni çalışan alacaklar",
+              "Ofis değiştirecekler"
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "text": "Hi Deniz, it's Sarah from the sales team. I'm calling about tomorrow's meeting. Our manager is ill, so we're going to meet on Thursday afternoon instead. The meeting room is smaller than usual, so please don't bring any guests. Can you call me back before five o'clock? Thanks.",
+        "questions": [
+          {
+            "id": "c4a",
+            "q_tr": "Toplantının zamanı neden değişti?",
+            "options": [
+              "Toplantı odası dolu olduğu için",
+              "Müdür hasta olduğu için",
+              "Deniz şehir dışında olduğu için"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "c4b",
+            "q_tr": "Sarah, Deniz'den ne istiyor?",
+            "options": [
+              "Toplantıya misafir getirmesini",
+              "Yeni bir toplantı odası bulmasını",
+              "Kendisini saat beşten önce geri aramasını"
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "id": "c5",
+        "text": "Last week I went to Germany for a trade fair. The flight was short, but the hotel was very expensive. We met a lot of new customers, and two of them want to visit our factory. I didn't have much free time, so I didn't see the city.",
+        "questions": [
+          {
+            "id": "c5a",
+            "q_tr": "Otel için hangisi doğru?",
+            "options": [
+              "Çok pahalıydı",
+              "Fuar alanına çok yakındı",
+              "Çok ucuzdu"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "c5b",
+            "q_tr": "Konuşan kişi şehri neden gezemedi?",
+            "options": [
+              "Hava kötü olduğu için",
+              "Hasta olduğu için",
+              "Fazla boş vakti olmadığı için"
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "id": "c6",
+        "text": "Good morning, everyone. Just a quick message about the kitchen. We have a lot of tea, but we don't have any milk today, and there isn't much coffee left. Murat is buying some milk and coffee this afternoon. Also, please don't leave your cups in the sink. Thanks.",
+        "questions": [
+          {
+            "id": "c6a",
+            "q_tr": "Bugün mutfakta hiç kalmayan şey hangisi?",
+            "options": [
+              "Kahve",
+              "Çay",
+              "Süt"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "c6b",
+            "q_tr": "Murat bu öğleden sonra ne yapacak?",
+            "options": [
+              "Süt ve kahve alacak",
+              "Mutfağı temizleyecek",
+              "Bir toplantıya girecek"
+            ],
+            "answer": 0
+          }
+        ]
+      }
+    ]
+  },
+  "speaking_count": 3,
+  "speaking": [
+    {
+      "id": "s1",
+      "question_en": "What did you do last weekend? Tell me about it.",
+      "instruction_tr": "Geçen hafta sonu neler yaptığını anlat (geçmiş zaman). En az 3 cümle.",
+      "focus": "the past simple"
+    },
+    {
+      "id": "s2",
+      "question_en": "What are you working on these days, and what are your plans for next month?",
+      "instruction_tr": "Bu aralar ne üzerinde çalıştığını ve gelecek ay için planlarını anlat.",
+      "focus": "the present continuous and future forms"
+    },
+    {
+      "id": "s3",
+      "question_en": "Compare your city with another city you know. Which one do you prefer and why?",
+      "instruction_tr": "Yaşadığın şehri bildiğin başka bir şehirle karşılaştır; hangisini neden tercih ediyorsun?",
+      "focus": "comparatives and superlatives"
+    },
+    {
+      "id": "s4",
+      "question_en": "Tell me about your first day at work. What happened, and what did you do?",
+      "instruction_tr": "İşteki ilk gününü anlat: neler oldu, neler yaptın? Geçmiş zaman kullan. En az 3 cümle.",
+      "focus": "the past simple (regular and irregular verbs)"
+    },
+    {
+      "id": "s5",
+      "question_en": "Describe your office or workplace. What is there, and what isn't there?",
+      "instruction_tr": "Ofisini ya da iş yerini anlat: neler var, neler yok? [en:some], [en:any], [en:a lot of], [en:much], [en:many] kullan.",
+      "focus": "countable and uncountable nouns with some, any, much, many, a lot of"
+    },
+    {
+      "id": "s6",
+      "question_en": "A customer calls your office and wants to speak to your manager, but your manager is out. What do you say on the phone?",
+      "instruction_tr": "Bir müşteri arıyor ve müdürünle konuşmak istiyor ama müdürün ofiste değil. Telefonda ne söylersin? Telefon kalıplarını kullan (mesaj almak, geri arama sözü vermek).",
+      "focus": "telephone phrases, polite requests and will for promises"
+    }
+  ],
+  "writing": [
+    {
+      "id": "w1",
+      "instruction_tr": "Bir iş e-postası yaz: geçen hafta bir müşteriye/iş arkadaşına bir dosya göndermeyi unuttun. Özür dile, dosyayı eklediğini söyle ve gelecek hafta için bir toplantı öner. Selamlama ve kapanış kullan.",
+      "prompt_en": "Write a work email: you forgot to send a file last week. Apologise, say that you have attached it now, and suggest a meeting for next week. Use a greeting and a closing.",
+      "focus": "work email phrases, past simple, future forms",
+      "min_words": 60
+    },
+    {
+      "id": "w2",
+      "instruction_tr": "Bir otele e-posta yaz: gelecek ay bir iş seyahati için iki gecelik oda ayırtmak istiyorsun. Tarihleri söyle, fiyatı ve kahvaltıyı sor, kibar ricalar kullan. Selamlama ve kapanış kullan.",
+      "prompt_en": "Write an email to a hotel: you want to book a room for two nights for a business trip next month. Give the dates, ask about the price and breakfast, and use polite requests. Use a greeting and a closing.",
+      "focus": "work email phrases, polite requests, questions, future forms",
+      "min_words": 60
+    },
+    {
+      "id": "w3",
+      "instruction_tr": "Müdürüne kısa bir e-posta yaz: geçen hafta bir fuara ya da bir müşteri ziyaretine gittin. Ne yaptığını ve kimlerle görüştüğünü anlat, iki şeyi karşılaştır (ör. iki ürün ya da iki firma) ve bundan sonra ne yapacağını söyle. Selamlama ve kapanış kullan.",
+      "prompt_en": "Write a short email to your manager about a trade fair or a client visit last week. Say what you did and who you met, compare two things (for example two products or two companies), and say what you are going to do next. Use a greeting and a closing.",
+      "focus": "past simple, comparatives, future forms, work email phrases",
+      "min_words": 60
+    }
+  ]
+}

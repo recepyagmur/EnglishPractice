@@ -1,0 +1,438 @@
+{
+  "level": "A1",
+  "count": 60,
+  "sources": [
+    {"title": "A1 speaking", "site": "British Council LearnEnglish", "url": "https://learnenglish.britishcouncil.org/skills/speaking/a1-speaking"},
+    {"title": "Meeting new people (A1 speaking)", "site": "British Council LearnEnglish", "url": "https://learnenglish.britishcouncil.org/skills/speaking/a1-speaking/meeting-new-people"},
+    {"title": "A1-A2 grammar", "site": "British Council LearnEnglish", "url": "https://learnenglish.britishcouncil.org/grammar/a1-a2-grammar"},
+    {"title": "Using 'there is' and 'there are'", "site": "British Council LearnEnglish", "url": "https://learnenglish.britishcouncil.org/grammar/a1-a2-grammar/using-there-is-and-there-are"},
+    {"title": "There is, there's and there are", "site": "Cambridge Dictionary (English Grammar Today)", "url": "https://dictionary.cambridge.org/grammar/british-grammar/there-is-there-s-and-there-are"},
+    {"title": "get up (phrasal verb)", "site": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/dictionary/english/get-up"},
+    {"title": "Basic grammar", "site": "BBC Learning English", "url": "https://www.bbc.co.uk/learningenglish/english/basic-grammar"}
+  ],
+  "patterns": [
+    {"id": "a1-biz-001", "p": "I work for ___.", "tr": "…'de çalışıyorum. (şirket adı)",
+     "cat": "business", "topic": "smalltalk_work", "register": "neutral",
+     "note_tr": "Şirketin adını söylerken [en:for] kullanılır: [en:I work for Vestel]. Bölüm ya da yer için [en:in]: [en:I work in sales]. Türkçedeki 'Vestel'de çalışıyorum' için [en:I work for Vestel] denir.",
+     "examples": [
+       {"en": "I work for a small software company in Ankara.", "tr": "Ankara'da küçük bir yazılım şirketinde çalışıyorum."},
+       {"en": "Hello, I'm Murat and I work for a bank.", "tr": "Merhaba, ben Murat, bir bankada çalışıyorum."}
+     ]},
+    {"id": "a1-biz-002", "p": "I have a meeting at ___.", "tr": "…'de toplantım var.",
+     "cat": "business", "topic": "scheduling", "register": "neutral",
+     "note_tr": "Boşluğa saat ([en:at ten]) ya da yer ([en:at the head office]) gelir. Gün için [en:on]: [en:on Monday]; ay için [en:in]: [en:in June].",
+     "examples": [
+       {"en": "I have a meeting at ten o'clock tomorrow.", "tr": "Yarın saat onda toplantım var."},
+       {"en": "Sorry, I can't come because I have a meeting at two.", "tr": "Üzgünüm, gelemem çünkü saat ikide toplantım var."}
+     ]},
+    {"id": "a1-biz-003", "p": "___ doesn't work.", "tr": "… çalışmıyor. (bozuk)",
+     "cat": "business", "topic": "problems", "register": "neutral",
+     "note_tr": "Bozuk cihaz ya da sistem için: [en:The printer doesn't work]. Şu an için [en:isn't working] da olur: [en:The lift isn't working]. [en:doesn't] sonrası fiil yalın kalır; [en:doesn't works] yanlış.",
+     "examples": [
+       {"en": "The printer doesn't work.", "tr": "Yazıcı çalışmıyor."},
+       {"en": "The link in your email doesn't work.", "tr": "E-postandaki bağlantı çalışmıyor."}
+     ]},
+    {"id": "a1-biz-004", "p": "See you on ___.", "tr": "… günü görüşürüz.",
+     "cat": "business", "topic": "scheduling", "register": "neutral",
+     "note_tr": "Ayrılırken söylenir. Gün için [en:on]: [en:See you on Friday]. [en:See you tomorrow] ve [en:See you later] derken [en:on] kullanılmaz.",
+     "examples": [
+       {"en": "Thanks for the meeting, see you on Monday.", "tr": "Toplantı için teşekkürler, pazartesi görüşürüz."},
+       {"en": "See you on Friday at the office.", "tr": "Cuma günü ofiste görüşürüz."}
+     ]},
+    {"id": "a1-biz-005", "p": "Can you send me ___?", "tr": "Bana … gönderebilir misin?",
+     "cat": "business", "topic": "email", "register": "neutral",
+     "note_tr": "E-posta ya da mesajda kısa rica. Sonuna [en:please] eklemek daha kibar yapar: [en:Can you send me the file, please?]. Daha resmi hali [en:Could you send me …?].",
+     "examples": [
+       {"en": "Can you send me the report today, please?", "tr": "Raporu bugün bana gönderebilir misin, lütfen?"},
+       {"en": "Can you send me the address of the hotel?", "tr": "Otelin adresini bana gönderebilir misin?"}
+     ]},
+    {"id": "a1-biz-006", "p": "Here is ___.", "tr": "İşte …",
+     "cat": "business", "topic": "email", "register": "neutral",
+     "note_tr": "Bir şeyi verirken ya da e-postaya eklerken: [en:Here is the report]. Çoğul için [en:Here are]: [en:Here are the photos]. Konuşmada [en:Here you are] 'buyurun' demektir.",
+     "examples": [
+       {"en": "Here is the report from yesterday's meeting.", "tr": "İşte dünkü toplantının raporu."},
+       {"en": "Here is my phone number, call me anytime.", "tr": "İşte telefon numaram, istediğin zaman ara."}
+     ]},
+    {"id": "a1-biz-007", "p": "I have a question about ___.", "tr": "… hakkında bir sorum var.",
+     "cat": "business", "topic": "clarifying", "register": "neutral",
+     "note_tr": "Toplantıda ya da e-postada söz almak için nazik bir giriş. [en:about] yerine [en:on] da duyarsın ama [en:about] daha yaygın. Kısa hali [en:I have a question].",
+     "examples": [
+       {"en": "Excuse me, I have a question about the new schedule.", "tr": "Affedersiniz, yeni programla ilgili bir sorum var."},
+       {"en": "I have a question about my salary.", "tr": "Maaşım hakkında bir sorum var."}
+     ]},
+    {"id": "a1-biz-008", "p": "Can I speak to ___, please?", "tr": "… ile görüşebilir miyim, lütfen?",
+     "cat": "business", "topic": "phone", "register": "formal",
+     "note_tr": "Telefonda birini isterken. Amerikan İngilizcesinde [en:speak with] de olur. Kendini söylerken [en:This is Ali] denir, [en:I am Ali] değil.",
+     "examples": [
+       {"en": "Hello, can I speak to Mr Kaya, please?", "tr": "Merhaba, Kaya Bey ile görüşebilir miyim, lütfen?"},
+       {"en": "Good morning, can I speak to the manager, please?", "tr": "Günaydın, müdürle görüşebilir miyim, lütfen?"}
+     ]},
+    {"id": "a1-biz-009", "p": "Sorry, I don't understand ___.", "tr": "Pardon, … anlamadım.",
+     "cat": "business", "topic": "clarifying", "register": "neutral",
+     "note_tr": "Anlamadığını söylemenin en kısa ve nazik yolu. Türkçede 'anlamadım' dense de İngilizcede [en:I don't understand] denir; [en:I didn't understand] daha az kullanılır. Ardından [en:Could you repeat that, please?] gelebilir.",
+     "examples": [
+       {"en": "Sorry, I don't understand this word.", "tr": "Pardon, bu kelimeyi anlamadım."},
+       {"en": "Sorry, I don't understand the question.", "tr": "Pardon, soruyu anlamadım."}
+     ]},
+    {"id": "a1-biz-010", "p": "Could you repeat that, please?", "tr": "Tekrar eder misiniz, lütfen?",
+     "cat": "business", "topic": "clarifying", "register": "formal",
+     "note_tr": "Duymadığında ya da anlamadığında. [en:Could you] ile daha kibardır; [en:Can you repeat that?] daha samimi. Türkçedeki 'Efendim?' için kısa hali [en:Sorry?] olur.",
+     "examples": [
+       {"en": "Sorry, could you repeat that, please?", "tr": "Pardon, tekrar eder misiniz, lütfen?"},
+       {"en": "The line is bad, could you repeat that, please?", "tr": "Hat kötü, tekrar eder misiniz, lütfen?"}
+     ]},
+
+    {"id": "a1-day-001", "p": "Hello, I'm ___.", "tr": "Merhaba, ben …",
+     "cat": "daily", "topic": "greetings", "register": "neutral",
+     "note_tr": "Kendini tanıtmanın en kısa yolu; [en:I'm] = [en:I am]. 'Benim adım …' için [en:My name is …] de olur. Türkçedeki gibi [en:I] atlanmaz.",
+     "examples": [
+       {"en": "Hello, I'm Ayşe from the sales team.", "tr": "Merhaba, ben satış ekibinden Ayşe."},
+       {"en": "Hello, I'm Tom, nice to meet you.", "tr": "Merhaba, ben Tom, memnun oldum."}
+     ]},
+    {"id": "a1-day-002", "p": "Nice to meet you.", "tr": "Memnun oldum.",
+     "cat": "daily", "topic": "greetings", "register": "neutral",
+     "note_tr": "Biriyle ilk tanışınca söylenir; cevabı [en:Nice to meet you too]. Ayrılırken [en:It was nice to meet you] denir. Tanıdığını tekrar görünce [en:Nice to see you] kullanılır.",
+     "examples": [
+       {"en": "Hello, Mr Brown, nice to meet you.", "tr": "Merhaba Brown Bey, memnun oldum."},
+       {"en": "I'm Selin, nice to meet you.", "tr": "Ben Selin, memnun oldum."}
+     ]},
+    {"id": "a1-day-003", "p": "I'm from ___.", "tr": "…'liyim. (…'denim.)",
+     "cat": "daily", "topic": "greetings", "register": "neutral",
+     "note_tr": "Ülke ya da şehir: [en:I'm from Turkey], [en:I'm from Izmir]. [en:from] unutulmaz; [en:I'm Turkey] yanlış. Milliyet için [en:I'm Turkish] denir.",
+     "examples": [
+       {"en": "I'm from Istanbul, but I live in Ankara now.", "tr": "İstanbulluyum ama şimdi Ankara'da yaşıyorum."},
+       {"en": "Hi, I'm from the marketing team.", "tr": "Merhaba, pazarlama ekibindenim."}
+     ]},
+    {"id": "a1-day-004", "p": "How are you?", "tr": "Nasılsın?",
+     "cat": "daily", "topic": "greetings", "register": "neutral",
+     "note_tr": "Selamlaşmanın parçasıdır; kısa cevap beklenir: [en:I'm fine, thanks. And you?]. Türkçedeki gibi uzun uzun anlatılmaz. Daha samimi: [en:How's it going?].",
+     "examples": [
+       {"en": "Good morning, Elif, how are you?", "tr": "Günaydın Elif, nasılsın?"},
+       {"en": "Hello, Mrs Green, how are you?", "tr": "Merhaba Green Hanım, nasılsınız?"}
+     ]},
+    {"id": "a1-day-005", "p": "This is ___.", "tr": "Bu … (birini tanıştırırken)",
+     "cat": "daily", "topic": "greetings", "register": "neutral",
+     "note_tr": "Birini tanıştırırken: [en:This is my colleague, Ali]. İnsanlar için de [en:this] kullanılır; [en:he is] ile tanıştırma yapılmaz. Telefonda kendini söylerken de [en:This is Ali] denir.",
+     "examples": [
+       {"en": "Ali, this is my colleague, Elif.", "tr": "Ali, bu iş arkadaşım Elif."},
+       {"en": "This is my manager, Mrs Kaya.", "tr": "Bu müdürüm Kaya Hanım."}
+     ]},
+    {"id": "a1-day-006", "p": "Where are you from?", "tr": "Nerelisin?",
+     "cat": "daily", "topic": "greetings", "register": "neutral",
+     "note_tr": "Tanışırken sorulur; cevabı [en:I'm from …]: şehir ya da ülke. [en:from] sonda kalır, Türkçeden farklı; [en:From where are you?] denmez.",
+     "examples": [
+       {"en": "Hi Ana, where are you from?", "tr": "Merhaba Ana, nerelisin?"},
+       {"en": "And you, where are you from?", "tr": "Ya sen, nerelisin?"}
+     ]},
+    {"id": "a1-day-007", "p": "What do you do?", "tr": "Ne iş yapıyorsun?",
+     "cat": "daily", "topic": "greetings", "register": "neutral",
+     "note_tr": "Mesleği sorar; 'şu an ne yapıyorsun' demek değildir. Cevap: [en:I'm an engineer] ya da [en:I work for …]. 'Şu an ne yapıyorsun' için [en:What are you doing?] denir.",
+     "examples": [
+       {"en": "So, Mark, what do you do?", "tr": "Ee Mark, ne iş yapıyorsun?"},
+       {"en": "And what do you do?", "tr": "Peki sen ne iş yapıyorsun?"}
+     ]},
+    {"id": "a1-day-008", "p": "How much is ___?", "tr": "… ne kadar?",
+     "cat": "daily", "topic": "shopping", "register": "neutral",
+     "note_tr": "Tek bir şeyin fiyatı: [en:How much is this bag?]. Çoğul için [en:How much are]: [en:How much are these shoes?]. Fiyat sorusunda [en:How many] kullanılmaz.",
+     "examples": [
+       {"en": "Excuse me, how much is this jacket?", "tr": "Affedersiniz, bu ceket ne kadar?"},
+       {"en": "How much is a ticket to the museum?", "tr": "Müzeye bilet ne kadar?"}
+     ]},
+    {"id": "a1-day-009", "p": "Can I have ___, please?", "tr": "… alabilir miyim, lütfen?",
+     "cat": "daily", "topic": "shopping", "register": "neutral",
+     "note_tr": "Kafede, dükkânda, masada bir şey isterken en doğal kalıp. Sonundaki [en:please] olmadan kaba durabilir. Daha kibar: [en:Could I have …?].",
+     "examples": [
+       {"en": "Can I have a receipt, please?", "tr": "Fiş alabilir miyim, lütfen?"},
+       {"en": "Can I have two coffees, please?", "tr": "İki kahve alabilir miyim, lütfen?"}
+     ]},
+    {"id": "a1-day-010", "p": "Can I pay by card?", "tr": "Kartla ödeyebilir miyim?",
+     "cat": "daily", "topic": "shopping", "register": "neutral",
+     "note_tr": "Kasada ya da restoranda. [en:by card], [en:by credit card] denir; nakit için [en:in cash]: [en:Can I pay in cash?]. [en:with card] yerine [en:by card] de.",
+     "examples": [
+       {"en": "Excuse me, can I pay by card?", "tr": "Affedersiniz, kartla ödeyebilir miyim?"},
+       {"en": "I have no cash, so can I pay by card?", "tr": "Nakdim yok, kartla ödeyebilir miyim?"}
+     ]},
+    {"id": "a1-day-011", "p": "I'd like ___, please.", "tr": "… istiyorum, lütfen. (… alayım, lütfen.)",
+     "cat": "daily", "topic": "restaurant", "register": "neutral",
+     "note_tr": "Sipariş verirken kibar istek; [en:I'd like] = [en:I would like]. [en:I want] restoranda kaba durur. [en:I like coffee] 'kahveyi severim' demektir, sipariş değil; karıştırma.",
+     "examples": [
+       {"en": "I'd like a cup of tea, please.", "tr": "Bir fincan çay istiyorum, lütfen."},
+       {"en": "I'd like the chicken salad, please.", "tr": "Tavuklu salata alayım, lütfen."}
+     ]},
+    {"id": "a1-day-012", "p": "A table for ___, please.", "tr": "… kişilik bir masa, lütfen.",
+     "cat": "daily", "topic": "restaurant", "register": "neutral",
+     "note_tr": "Restorana girince söylenir; boşluğa kişi sayısı gelir: [en:A table for two, please]. Fiil olmasa da tam ve kibar bir cümledir. Rezervasyon varsa [en:I have a reservation] denir.",
+     "examples": [
+       {"en": "Good evening, a table for two, please.", "tr": "İyi akşamlar, iki kişilik bir masa, lütfen."},
+       {"en": "A table for four near the window, please.", "tr": "Pencere kenarında dört kişilik bir masa, lütfen."}
+     ]},
+    {"id": "a1-day-013", "p": "Where is ___?", "tr": "… nerede?",
+     "cat": "daily", "topic": "directions", "register": "neutral",
+     "note_tr": "Yer sorarken: [en:Where is the toilet?]. Çoğul için [en:Where are]: [en:Where are the lifts?]. Yabancıya sorarken başa [en:Excuse me] eklemek nazik olur.",
+     "examples": [
+       {"en": "Excuse me, where is the station?", "tr": "Affedersiniz, istasyon nerede?"},
+       {"en": "Where is the meeting room, please?", "tr": "Toplantı odası nerede acaba?"}
+     ]},
+    {"id": "a1-day-014", "p": "How do I get to ___?", "tr": "…'e nasıl giderim?",
+     "cat": "daily", "topic": "directions", "register": "neutral",
+     "note_tr": "Yol tarifi isterken en doğal soru. [en:get to] 'ulaşmak' demektir; [en:go to] da olur ama bu kalıp daha yaygın. [en:home] ile [en:to] kullanılmaz: [en:How do I get home?].",
+     "examples": [
+       {"en": "Excuse me, how do I get to the airport?", "tr": "Affedersiniz, havalimanına nasıl giderim?"},
+       {"en": "How do I get to your office from the station?", "tr": "İstasyondan ofisinize nasıl giderim?"}
+     ]},
+    {"id": "a1-day-015", "p": "A ticket to ___, please.", "tr": "…'e bir bilet, lütfen.",
+     "cat": "daily", "topic": "travel", "register": "neutral",
+     "note_tr": "Gişede ya da otobüste. Gidiş-dönüş için [en:A return ticket to …] (Amerikan: [en:round-trip]). [en:for] değil [en:to]: [en:a ticket to Izmir].",
+     "examples": [
+       {"en": "A ticket to Izmir, please.", "tr": "İzmir'e bir bilet, lütfen."},
+       {"en": "Hello, a ticket to the city centre, please.", "tr": "Merhaba, şehir merkezine bir bilet, lütfen."}
+     ]},
+    {"id": "a1-day-016", "p": "What time is ___?", "tr": "… saat kaçta?",
+     "cat": "daily", "topic": "appointments", "register": "neutral",
+     "note_tr": "Bir şeyin saatini sormak için: [en:What time is the meeting?]. 'Saat kaç?' için [en:What time is it?]. Cevap: [en:It's at nine] ya da [en:At half past nine].",
+     "examples": [
+       {"en": "What time is the train to Ankara?", "tr": "Ankara treni saat kaçta?"},
+       {"en": "What time is the meeting tomorrow?", "tr": "Yarın toplantı saat kaçta?"}
+     ]},
+    {"id": "a1-day-017", "p": "Is this the bus to ___?", "tr": "Bu … otobüsü mü?",
+     "cat": "daily", "topic": "travel", "register": "neutral",
+     "note_tr": "Binmeden önce sormak için; tren için [en:Is this the train to …?]. Cevap: [en:Yes, it is] / [en:No, it isn't]. [en:to] unutulmaz: [en:the bus to the airport].",
+     "examples": [
+       {"en": "Excuse me, is this the bus to the airport?", "tr": "Affedersiniz, bu havalimanı otobüsü mü?"},
+       {"en": "Is this the bus to the city centre?", "tr": "Bu şehir merkezine giden otobüs mü?"}
+     ]},
+    {"id": "a1-day-018", "p": "I like ___.", "tr": "… severim.",
+     "cat": "daily", "topic": "feelings", "register": "neutral",
+     "note_tr": "Genel beğeni: [en:I like coffee], [en:I like my job]. Fiil gelecekse [en:-ing] eklenir: [en:I like swimming]. 'Çok severim' için [en:I like … a lot] ya da [en:I love …].",
+     "examples": [
+       {"en": "I like my new job very much.", "tr": "Yeni işimi çok seviyorum."},
+       {"en": "I like tea, but I don't like coffee.", "tr": "Çayı severim ama kahveyi sevmem."}
+     ]},
+    {"id": "a1-day-019", "p": "I don't like ___.", "tr": "… sevmem.",
+     "cat": "daily", "topic": "feelings", "register": "neutral",
+     "note_tr": "[en:I like] kalıbının olumsuzu; [en:don't] unutulmaz, [en:I not like] yanlış. Daha yumuşak: [en:I don't really like …]. Nefret için [en:I hate …].",
+     "examples": [
+       {"en": "I don't like long meetings.", "tr": "Uzun toplantıları sevmem."},
+       {"en": "Sorry, I don't like fish.", "tr": "Kusura bakma, balık sevmem."}
+     ]},
+    {"id": "a1-day-020", "p": "Let's ___.", "tr": "Hadi …",
+     "cat": "daily", "topic": "invitations", "register": "neutral",
+     "note_tr": "[en:Let's] = [en:Let us]; birlikte bir şey önerirken. Fiil yalın gelir: [en:Let's go]; [en:Let's to go] yanlış. Olumsuzu [en:Let's not …]. Cevap: [en:Good idea!].",
+     "examples": [
+       {"en": "Let's have lunch together today.", "tr": "Hadi bugün birlikte öğle yemeği yiyelim."},
+       {"en": "It's late, let's go home.", "tr": "Geç oldu, hadi eve gidelim."}
+     ]},
+    {"id": "a1-day-021", "p": "Do you want to ___?", "tr": "… ister misin?",
+     "cat": "daily", "topic": "invitations", "register": "informal",
+     "note_tr": "Samimi davet ya da teklif: [en:Do you want to have lunch?]. [en:to] atlanmaz. Daha kibar hali [en:Would you like to …?]. Cevap: [en:Yes, sure] / [en:Sorry, I can't].",
+     "examples": [
+       {"en": "Do you want to have lunch with us?", "tr": "Bizimle öğle yemeği yemek ister misin?"},
+       {"en": "Do you want to come to the cinema tonight?", "tr": "Bu akşam sinemaya gelmek ister misin?"}
+     ]},
+    {"id": "a1-day-022", "p": "Thank you for ___.", "tr": "… için teşekkürler.",
+     "cat": "daily", "topic": "apologies", "register": "neutral",
+     "note_tr": "Sonra isim ya da [en:-ing] gelir: [en:Thank you for your help], [en:Thank you for coming]. Samimi hali [en:Thanks for …]. Cevap: [en:You're welcome].",
+     "examples": [
+       {"en": "Thank you for your help today.", "tr": "Bugünkü yardımın için teşekkürler."},
+       {"en": "Thank you for your email, Mr Smith.", "tr": "E-postanız için teşekkürler, Smith Bey."}
+     ]},
+    {"id": "a1-day-023", "p": "Sorry, I'm late for ___.", "tr": "Üzgünüm, …'e geç kaldım.",
+     "cat": "daily", "topic": "apologies", "register": "neutral",
+     "note_tr": "Geç kalınca ilk söylenen söz. [en:late for] + yer ya da olay: [en:late for work], [en:late for the meeting]. Sebep eklemek için [en:because of] + isim: [en:because of the traffic].",
+     "examples": [
+       {"en": "Sorry, I'm late for the meeting.", "tr": "Üzgünüm, toplantıya geç kaldım."},
+       {"en": "Sorry, I'm late for work again.", "tr": "Üzgünüm, işe yine geç kaldım."}
+     ]},
+    {"id": "a1-day-024", "p": "Can you help me with ___?", "tr": "… için bana yardım edebilir misin?",
+     "cat": "daily", "topic": "help", "register": "neutral",
+     "note_tr": "Yardım isterken en doğal kalıp; [en:with] + isim: [en:help me with the report]. Fiil için [en:with] yok: [en:help me carry this]. Daha kibar: [en:Could you help me …?].",
+     "examples": [
+       {"en": "Can you help me with this report, please?", "tr": "Bu raporda bana yardım edebilir misin, lütfen?"},
+       {"en": "Excuse me, can you help me with my bags?", "tr": "Affedersiniz, çantalarım için bana yardım edebilir misiniz?"}
+     ]},
+    {"id": "a1-day-025", "p": "Can I help you?", "tr": "Yardımcı olabilir miyim?",
+     "cat": "daily", "topic": "help", "register": "neutral",
+     "note_tr": "Mağazada ya da ofiste yardım teklif ederken; Türkçedeki 'Buyurun?' işlevi görür. Cevap: [en:Yes, please. I'm looking for …] ya da [en:No, thanks, I'm just looking].",
+     "examples": [
+       {"en": "Good morning, can I help you?", "tr": "Günaydın, yardımcı olabilir miyim?"},
+       {"en": "You look lost, can I help you?", "tr": "Kaybolmuş görünüyorsun, yardımcı olabilir miyim?"}
+     ]},
+    {"id": "a1-day-026", "p": "I'll call you back.", "tr": "Seni sonra ararım. (Geri ararım.)",
+     "cat": "daily", "topic": "phone_daily", "register": "neutral",
+     "note_tr": "Telefonda o an konuşamayınca. [en:call back] = geri aramak; [en:I'll] = [en:I will], o an verilen söz. Sorarken: [en:Can I call you back?].",
+     "examples": [
+       {"en": "I'm in a meeting, so I'll call you back.", "tr": "Toplantıdayım, seni sonra ararım."},
+       {"en": "I'm driving now, so I'll call you back.", "tr": "Şu an araba kullanıyorum, seni sonra ararım."}
+     ]},
+    {"id": "a1-day-027", "p": "I feel ___.", "tr": "Kendimi … hissediyorum.",
+     "cat": "daily", "topic": "health", "register": "neutral",
+     "note_tr": "[en:I feel] + sıfat: [en:I feel sick], [en:I feel tired], [en:I feel better]. 'Kendimi … hissediyorum' derken [en:myself] eklenmez: [en:I feel myself tired] yanlış.",
+     "examples": [
+       {"en": "I feel sick, so I'm going home early.", "tr": "Kendimi hasta hissediyorum, o yüzden eve erken gidiyorum."},
+       {"en": "I feel much better today, thanks.", "tr": "Bugün kendimi çok daha iyi hissediyorum, teşekkürler."}
+     ]},
+    {"id": "a1-day-028", "p": "Get well soon!", "tr": "Geçmiş olsun! (Çabuk iyileş!)",
+     "cat": "daily", "topic": "health", "register": "neutral",
+     "note_tr": "Hasta ya da yaralı birine söylenir. Türkçede 'geçmiş olsun' her kötü olayda denir; [en:Get well soon] yalnız hastalık ve yaralanmada. Başka kötü haberde [en:I'm sorry to hear that] denir.",
+     "examples": [
+       {"en": "I hope you get well soon!", "tr": "Umarım çabuk iyileşirsin!"},
+       {"en": "Take care, get well soon!", "tr": "Kendine iyi bak, geçmiş olsun!"}
+     ]},
+
+    {"id": "a1-gra-001", "p": "Do you ___?", "tr": "… musun?",
+     "cat": "grammar", "topic": "questions", "register": "neutral",
+     "note_tr": "Evet/hayır sorusu; fiil yalın kalır: [en:Do you work here?], [en:Do you like tea?]. [en:You work here?] konuşmada duyulur ama doğru soru [en:Do] ile başlar. [en:he/she] için [en:Does].",
+     "examples": [
+       {"en": "Do you work in this building?", "tr": "Bu binada mı çalışıyorsun?"},
+       {"en": "Do you speak English?", "tr": "İngilizce konuşuyor musun?"}
+     ]},
+    {"id": "a1-gra-002", "p": "What's your ___?", "tr": "Senin … ne?",
+     "cat": "grammar", "topic": "questions", "register": "neutral",
+     "note_tr": "Kişisel bilgi sorarken: [en:What's your name?], [en:What's your phone number?], [en:What's your job?]. [en:What's] = [en:What is]. Nazik olmak için başa [en:Sorry] ya da [en:Excuse me].",
+     "examples": [
+       {"en": "Sorry, what's your name again?", "tr": "Pardon, adın neydi?"},
+       {"en": "What's your email address?", "tr": "E-posta adresin ne?"}
+     ]},
+    {"id": "a1-gra-003", "p": "Where do you ___?", "tr": "Nerede …?",
+     "cat": "grammar", "topic": "questions", "register": "neutral",
+     "note_tr": "[en:Where] + [en:do you] + fiil: [en:Where do you live?], [en:Where do you work?]. Cevapta [en:in]: [en:I live in Bursa]. [en:Where are you from?] köken sorar, bu kalıp şimdiki yeri.",
+     "examples": [
+       {"en": "Where do you live now?", "tr": "Şimdi nerede yaşıyorsun?"},
+       {"en": "Where do you usually have lunch?", "tr": "Öğle yemeğini genelde nerede yersin?"}
+     ]},
+    {"id": "a1-gra-004", "p": "Is there ___?", "tr": "… var mı?",
+     "cat": "grammar", "topic": "questions", "register": "neutral",
+     "note_tr": "Bir şeyin olup olmadığını sorar: [en:Is there a bank near here?]. Çoğul: [en:Are there any …?]. Cevap: [en:Yes, there is] / [en:No, there isn't]. 'Var mı' sorusu [en:have] ile değil, [en:Is there] ile sorulur.",
+     "examples": [
+       {"en": "Is there a pharmacy near here?", "tr": "Buralarda eczane var mı?"},
+       {"en": "Is there a meeting this afternoon?", "tr": "Bu öğleden sonra toplantı var mı?"}
+     ]},
+    {"id": "a1-gra-005", "p": "How often do you ___?", "tr": "Ne sıklıkla …?",
+     "cat": "grammar", "topic": "habits", "register": "neutral",
+     "note_tr": "Sıklık sorar; cevapta [en:every day], [en:once a week], [en:never]: [en:How often do you go to the gym? Twice a week.]. [en:How many times] de olur ama bu kalıp daha doğal.",
+     "examples": [
+       {"en": "How often do you go to the gym?", "tr": "Spor salonuna ne sıklıkla gidiyorsun?"},
+       {"en": "How often do you have team meetings?", "tr": "Ne sıklıkla ekip toplantısı yapıyorsunuz?"}
+     ]},
+    {"id": "a1-gra-006", "p": "I usually ___.", "tr": "Genellikle …",
+     "cat": "grammar", "topic": "habits", "register": "neutral",
+     "note_tr": "Alışkanlık anlatır; [en:usually] fiilden önce gelir: [en:I usually get up at seven]. [en:am/is/are] varsa sonra: [en:I'm usually at home]. Benzerleri: [en:always], [en:sometimes], [en:never].",
+     "examples": [
+       {"en": "I usually start work at nine.", "tr": "Genellikle işe dokuzda başlarım."},
+       {"en": "I usually have lunch at my desk.", "tr": "Öğle yemeğini genellikle masamda yerim."}
+     ]},
+    {"id": "a1-gra-007", "p": "What time do you ___?", "tr": "Saat kaçta …?",
+     "cat": "grammar", "topic": "time", "register": "neutral",
+     "note_tr": "Bir eylemin saatini sorar: [en:What time do you start work?]. Cevapta [en:at]: [en:At eight]. [en:When] daha geneldir (gün, ay); saat için [en:What time] daha doğal.",
+     "examples": [
+       {"en": "What time do you finish work?", "tr": "İşi saat kaçta bitiriyorsun?"},
+       {"en": "What time do you usually get up?", "tr": "Genelde saat kaçta kalkıyorsun?"}
+     ]},
+    {"id": "a1-gra-008", "p": "It's ___ o'clock.", "tr": "Saat …",
+     "cat": "grammar", "topic": "time", "register": "neutral",
+     "note_tr": "Yalnız tam saatlerde: [en:It's three o'clock]. [en:It's three thirty o'clock] yanlış; [en:It's half past three] ya da [en:It's three thirty] denir. Saat sormak için: [en:What time is it?].",
+     "examples": [
+       {"en": "Hurry up, it's nine o'clock.", "tr": "Acele et, saat dokuz."},
+       {"en": "Wake up, Deniz, it's seven o'clock.", "tr": "Uyan Deniz, saat yedi."}
+     ]},
+    {"id": "a1-gra-009", "p": "___ is better than ___.", "tr": "…, …'den daha iyi.",
+     "cat": "grammar", "topic": "comparison", "register": "neutral",
+     "note_tr": "İki şeyi karşılaştırır; [en:than] = '-den'. [en:better] zaten 'daha iyi' demektir, [en:more better] yanlış. Çoğul özneyle [en:are]: [en:Trains are better than buses].",
+     "examples": [
+       {"en": "The train is better than the bus.", "tr": "Tren otobüsten daha iyi."},
+       {"en": "This phone is better than my old one.", "tr": "Bu telefon eskisinden daha iyi."}
+     ]},
+    {"id": "a1-gra-010", "p": "My favourite ___ is ___.", "tr": "En sevdiğim … …",
+     "cat": "grammar", "topic": "preferences", "register": "neutral",
+     "note_tr": "[en:favourite] İngiliz, [en:favorite] Amerikan yazımı. 'En sevdiğim' için [en:most favourite] denmez. Sormak için: [en:What's your favourite …?].",
+     "examples": [
+       {"en": "My favourite day is Friday.", "tr": "En sevdiğim gün cuma."},
+       {"en": "My favourite city is Istanbul.", "tr": "En sevdiğim şehir İstanbul."}
+     ]},
+    {"id": "a1-gra-011", "p": "I want to ___.", "tr": "… istiyorum.",
+     "cat": "grammar", "topic": "preferences", "register": "neutral",
+     "note_tr": "[en:want] + [en:to] + fiil: [en:I want to go home]. [en:to] atlanmaz; [en:I want go] yanlış. Sipariş ya da ricada [en:I'd like] daha kibar; [en:I want] doğrudan ve biraz serttir.",
+     "examples": [
+       {"en": "I want to learn English for my job.", "tr": "İşim için İngilizce öğrenmek istiyorum."},
+       {"en": "I want to go home early today.", "tr": "Bugün eve erken gitmek istiyorum."}
+     ]},
+    {"id": "a1-gra-012", "p": "How many ___ are there?", "tr": "Kaç … var?",
+     "cat": "grammar", "topic": "questions", "register": "neutral",
+     "note_tr": "Sayılabilen şeyleri sorar; isim çoğul olur: [en:How many people are there?]. Sayılamayanlar için [en:How much]: [en:How much time is there?]. Cevap: [en:There are five].",
+     "examples": [
+       {"en": "In your team, how many people are there?", "tr": "Ekibinde kaç kişi var?"},
+       {"en": "How many meeting rooms are there?", "tr": "Kaç toplantı odası var?"}
+     ]},
+    {"id": "a1-gra-013", "p": "Can I ___?", "tr": "…-ebilir miyim?",
+     "cat": "grammar", "topic": "obligation", "register": "neutral",
+     "note_tr": "İzin isteme: [en:Can I open the window?], [en:Can I leave early?]. Daha kibar: [en:Could I …?] ya da [en:May I …?]. Cevap: [en:Sure] / [en:Of course] / [en:Sorry, no].",
+     "examples": [
+       {"en": "Can I open the window?", "tr": "Pencereyi açabilir miyim?"},
+       {"en": "Can I leave early today?", "tr": "Bugün erken çıkabilir miyim?"}
+     ]},
+    {"id": "a1-gra-014", "p": "I need to ___.", "tr": "…-mem gerek.",
+     "cat": "grammar", "topic": "obligation", "register": "neutral",
+     "note_tr": "Gereklilik: [en:I need to finish this today]. [en:to] atlanmaz; [en:I need finish] yanlış. İsimle [en:to] yok: [en:I need a pen]. [en:I have to] ile anlamı yakındır.",
+     "examples": [
+       {"en": "I need to finish this report today.", "tr": "Bu raporu bugün bitirmem gerek."},
+       {"en": "I need to call the client now.", "tr": "Müşteriyi şimdi aramam gerek."}
+     ]},
+
+    {"id": "a1-idi-001", "p": "get up", "tr": "(yataktan) kalkmak",
+     "cat": "idiom", "topic": "phrasal_verbs", "register": "neutral",
+     "note_tr": "Yataktan kalkmak: [en:I get up at seven]. [en:wake up] uyanmak, [en:get up] kalkmak; ikisi farklı. Geçmişi [en:got up].",
+     "examples": [
+       {"en": "I get up at six on weekdays.", "tr": "Hafta içi altıda kalkarım."},
+       {"en": "What time do you get up?", "tr": "Saat kaçta kalkıyorsun?"}
+     ]},
+    {"id": "a1-idi-002", "p": "wake up", "tr": "uyanmak",
+     "cat": "idiom", "topic": "phrasal_verbs", "register": "neutral",
+     "note_tr": "Uykudan uyanmak: [en:I wake up at six]. Birini uyandırmak: [en:wake him up]. Sonra [en:get up] gelir: önce uyanırsın, sonra kalkarsın.",
+     "examples": [
+       {"en": "I wake up at six, but I get up at seven.", "tr": "Altıda uyanırım ama yedide kalkarım."},
+       {"en": "I always wake up before my alarm.", "tr": "Hep alarmımdan önce uyanırım."}
+     ]},
+    {"id": "a1-idi-003", "p": "turn on ___", "tr": "… açmak (ışık, cihaz)",
+     "cat": "idiom", "topic": "phrasal_verbs", "register": "neutral",
+     "note_tr": "Işık, bilgisayar, telefon gibi cihazlar için: [en:turn on the light]. Kapamak: [en:turn off]. 'Kapıyı aç' için [en:open] kullanılır, [en:turn on] değil. [en:turn it on] da olur.",
+     "examples": [
+       {"en": "Can you turn on the light, please?", "tr": "Işığı açabilir misin, lütfen?"},
+       {"en": "I turn on my computer at nine every morning.", "tr": "Her sabah dokuzda bilgisayarımı açarım."}
+     ]},
+    {"id": "a1-idi-004", "p": "sit down", "tr": "oturmak",
+     "cat": "idiom", "topic": "phrasal_verbs", "register": "neutral",
+     "note_tr": "Oturma eylemi: [en:Please sit down]. Daha kibar: [en:Take a seat]. 'Bir yerde oturmak (yaşamak)' için [en:live] kullanılır, [en:sit] değil. Karşıtı [en:stand up].",
+     "examples": [
+       {"en": "Please sit down and wait here.", "tr": "Lütfen oturun ve burada bekleyin."},
+       {"en": "Can I sit down here?", "tr": "Buraya oturabilir miyim?"}
+     ]},
+    {"id": "a1-idi-005", "p": "come in", "tr": "içeri girmek",
+     "cat": "idiom", "topic": "phrasal_verbs", "register": "neutral",
+     "note_tr": "Kapıdaki birine 'girin' demek için: [en:Come in!]. Kibar: [en:Please come in]. İzin isterken: [en:Can I come in?]. [en:enter] resmi ve seyrektir.",
+     "examples": [
+       {"en": "Please come in and take a seat.", "tr": "Lütfen içeri girin ve oturun."},
+       {"en": "Can I come in?", "tr": "Girebilir miyim?"}
+     ]},
+    {"id": "a1-idi-006", "p": "of course", "tr": "tabii ki, elbette",
+     "cat": "idiom", "topic": "idioms", "register": "neutral",
+     "note_tr": "Ricaya olumlu cevap: [en:Can you help me? Of course.]. Dikkat: herkesin bildiği bir şeye [en:Of course] demek 'bunu bilmiyor musun' gibi duyulabilir; o zaman [en:Yes] yeter.",
+     "examples": [
+       {"en": "Of course, I can send it today.", "tr": "Tabii ki, bugün gönderebilirim."},
+       {"en": "Yes, of course you can sit here.", "tr": "Evet, tabii ki buraya oturabilirsin."}
+     ]},
+    {"id": "a1-idi-007", "p": "no problem", "tr": "sorun değil",
+     "cat": "idiom", "topic": "idioms", "register": "informal",
+     "note_tr": "Teşekküre ya da özre cevap: [en:Thanks! No problem.]. Ricayı kabul ederken de: [en:Can you help? No problem.]. Samimi bir kalıp; resmi e-postada [en:You're welcome] daha uygun.",
+     "examples": [
+       {"en": "No problem, I can wait.", "tr": "Sorun değil, bekleyebilirim."},
+       {"en": "No problem, see you tomorrow.", "tr": "Sorun değil, yarın görüşürüz."}
+     ]},
+    {"id": "a1-idi-008", "p": "have a nice day", "tr": "iyi günler",
+     "cat": "idiom", "topic": "idioms", "register": "neutral",
+     "note_tr": "Ayrılırken iyi dilek; cevabı [en:You too]. Akşam: [en:Have a nice evening]; hafta sonu: [en:Have a nice weekend]. [en:Good day] İngilizcede çok nadirdir; 'iyi günler' için bu kalıp kullanılır.",
+     "examples": [
+       {"en": "Thanks for your help, have a nice day!", "tr": "Yardımın için teşekkürler, iyi günler!"},
+       {"en": "Goodbye, have a nice day!", "tr": "Hoşça kal, iyi günler!"}
+     ]}
+  ]
+}

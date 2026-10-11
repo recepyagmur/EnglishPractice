@@ -1,0 +1,336 @@
+{
+  "type": "grammar",
+  "sources": [
+    {"title": "2026-YDS/1: Temel Soru Kitapçıkları ve Cevap Anahtarları Yayımlandı", "site": "ÖSYM", "url": "https://www.osym.gov.tr/2026yds1-temel-soru-kitapciklari-ve-cevap-anahtarlari-yayimlandi"},
+    {"title": "2026 Yabancı Dil Bilgisi Seviye Tespit Sınavı (YDS/2) Kılavuzu", "site": "ÖSYM", "url": "https://dokuman.osym.gov.tr/web/2026/9/basvuru-kilavuzu-8g5h1l-29160339.pdf"},
+    {"title": "English grammar reference", "site": "British Council LearnEnglish", "url": "https://learnenglish.britishcouncil.org/grammar/english-grammar-reference"},
+    {"title": "Modal verbs", "site": "British Council LearnEnglish", "url": "https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/modal-verbs"},
+    {"title": "Active and passive voice", "site": "British Council LearnEnglish", "url": "https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/active-and-passive-voice"},
+    {"title": "Conditionals: third and mixed", "site": "British Council LearnEnglish", "url": "https://learnenglish.britishcouncil.org/grammar/b1-b2-grammar/conditionals-third-mixed"},
+    {"title": "English Grammar Today (British Grammar)", "site": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/"},
+    {"title": "Passive voice", "site": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/passive-voice"},
+    {"title": "Conditionals", "site": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/conditionals"}
+  ],
+  "items": [
+    {
+      "id": "gra-001",
+      "q": "Since the first commercial satellites ---- in the 1960s, the cost of launching a kilogram into orbit ---- dramatically.",
+      "options": ["have been launched / fell", "had been launched / is falling", "were launched / has fallen", "were being launched / had fallen", "are launched / will fall"],
+      "answer": 2,
+      "explain_tr": "[en:Since] + geçmişteki bir başlangıç noktası (1960'lar) yapısında yan cümle geçmiş zaman, ana cümle ise o günden bugüne süren sonucu anlattığı için yakın geçmiş zaman ([en:present perfect]) olur: [en:were launched / has fallen]. [en:have been launched / fell] iki zamanı ters çevirir; [en:had been launched / is falling] bu yapıya hiç uymaz, çünkü başlangıç noktasından önce olmuş bir eylem yok.",
+      "tags": ["tense", "since", "present perfect"]
+    },
+    {
+      "id": "gra-002",
+      "q": "By the time the new water treatment plant opens next year, the city ---- with shortages for almost a decade.",
+      "options": ["will have been struggling", "has struggled", "had struggled", "is struggling", "would struggle"],
+      "answer": 0,
+      "explain_tr": "[en:By the time] + geniş zaman ([en:opens next year]) gelecekteki bir ana kadar sürmüş bir eylemi anlatır; ana cümlede gelecekte bitmiş sürekli zaman ([en:future perfect continuous]) gerekir: [en:will have been struggling]. [en:has struggled] ve [en:had struggled] geçmişe bakar, gelecekteki [en:next year] ile çelişir; [en:is struggling] on yıllık süreyi ([en:for almost a decade]) gelecekteki noktaya bağlayamaz.",
+      "tags": ["tense", "future perfect"]
+    },
+    {
+      "id": "gra-003",
+      "q": "Researchers ---- the behaviour of the colony for several months when they ---- that the ants were using a previously unknown signal.",
+      "options": ["have been observing / noticed", "observed / had noticed", "were observing / have noticed", "had observed / were noticing", "had been observing / noticed"],
+      "answer": 4,
+      "explain_tr": "Geçmişte bir süredir devam eden eylem ([en:for several months]) ve onu kesen ikinci bir geçmiş eylem: ilk boşlukta geçmişte sürerlik ([en:past perfect continuous]), ikincisinde geçmiş zaman ([en:noticed]). [en:have been observing] eylemi şimdiye bağlar, oysa cümle tamamen geçmişte; [en:observed / had noticed] olay sırasını tersine çevirir, fark etme gözlemden önce olmuş gibi görünür.",
+      "tags": ["tense", "past perfect continuous"]
+    },
+    {
+      "id": "gra-004",
+      "q": "The committee ---- its final recommendations until all the laboratories have submitted their safety reports.",
+      "options": ["did not publish", "will not publish", "had not published", "would not have published", "was not publishing"],
+      "answer": 1,
+      "explain_tr": "[en:until] yan cümlesi gelecek anlamlı ([en:have submitted] = teslim ettikten sonra); ana cümle gelecek zaman olmalı: [en:will not publish]. [en:did not publish] ve [en:had not published] geçmişe aittir, yan cümledeki gelecek anlamla çelişir; [en:would not have published] gerçekleşmemiş bir geçmiş koşulun sonucunu anlatır, burada böyle bir koşul yok.",
+      "tags": ["tense", "future", "until"]
+    },
+    {
+      "id": "gra-005",
+      "q": "Economists ---- that inflation ---- to ease by the end of this year, although energy prices remain unpredictable.",
+      "options": ["expected / has begun", "are expecting / began", "have expected / is beginning", "expect / will begin", "expect / had begun"],
+      "answer": 3,
+      "explain_tr": "[en:by the end of this year] geleceği gösterir; tahmin fiili geniş zamanda ([en:expect]), yan cümle gelecek zamanda ([en:will begin]) olur. [en:expect / had begun] geçmişte bitmiş bir eylem anlatır, gelecek zaman ifadesiyle uyuşmaz; [en:expected / has begun] geçmişteki bir beklentiyle şimdiye bağlı bir eylemi karıştırır, zaman uyumu bozuk.",
+      "tags": ["tense", "future", "reporting"]
+    },
+    {
+      "id": "gra-006",
+      "q": "Until the invention of the printing press, most books in Europe ---- by hand, which made them extremely expensive.",
+      "options": ["were copied", "have been copied", "are being copied", "had been copying", "will have been copied"],
+      "answer": 0,
+      "explain_tr": "[en:Until the invention of the printing press] geçmişte kalmış bir dönemi anlatır; kitaplar kopyalanır, yani edilgen gerekir: [en:were copied]. [en:have been copied] şimdiye uzanan bir sonuç bildirir, oysa dönem bitmiş ve ana cümle de geçmiş ([en:made]); [en:had been copying] etken yapıdadır, kitaplar kendileri kopyalamaz.",
+      "tags": ["tense", "past simple", "passive"]
+    },
+    {
+      "id": "gra-007",
+      "q": "The company ---- its first electric model in 2019 and ---- more than two million units since then.",
+      "options": ["has launched / sold", "had launched / was selling", "launches / had sold", "launched / has sold", "was launching / sells"],
+      "answer": 3,
+      "explain_tr": "[en:in 2019] belirli bir geçmiş tarih ister: geçmiş zaman ([en:launched]); [en:since then] o günden bugüne süren sonuç ister: yakın geçmiş ([en:has sold]). [en:has launched / sold] ikisini tersine çevirir, belirli tarihle [en:present perfect] kullanılmaz; [en:had launched / was selling] cümleyi başka bir geçmiş olaya bağlar, ama cümlede öyle bir olay yok.",
+      "tags": ["tense", "past simple", "present perfect"]
+    },
+    {
+      "id": "gra-008",
+      "q": "Next month marks the tenth anniversary of the accord, yet several of the signatories ---- their emission targets.",
+      "options": ["still did not meet", "had still not met", "is still not meeting", "were still not meeting", "have still not met"],
+      "answer": 4,
+      "explain_tr": "[en:Next month marks] şimdiki bir durumu anlatır; [en:yet] ile verilen zıtlık da bugüne kadar süren bir sonuç ister: [en:have still not met]. [en:still did not meet] ve [en:had still not met] olayı geçmişe kapatır, oysa hedefler hâlâ karşılanmamış; [en:is still not meeting] çoğul özne ([en:several of the signatories]) ile uyumsuz.",
+      "tags": ["tense", "present perfect"]
+    },
+    {
+      "id": "gra-009",
+      "q": "The bridge collapsed only two years after it was opened, so the engineers ---- the quality of the steel more carefully before approving the design.",
+      "options": ["must inspect", "should have inspected", "would rather inspect", "had better inspect", "need not have inspected"],
+      "answer": 1,
+      "explain_tr": "Geçmişte yapılması gerekip yapılmamış bir şey eleştiriliyor ([en:before approving the design] = tasarımı onaylamadan önce): [en:should have inspected] (daha dikkatli incelemeliydiler). [en:must inspect] ve [en:had better inspect] şimdiki ya da gelecekteki bir zorunluluk/tavsiye bildirir, oysa onay da çöküş de çoktan geçmişte kalmış; [en:need not have inspected] (incelemelerine gerek yoktu) anlamın tam tersini söyler.",
+      "tags": ["modal", "modal perfect"]
+    },
+    {
+      "id": "gra-010",
+      "q": "The fossils ---- to the museum by sea, because the airline refused to transport such fragile items.",
+      "options": ["should have sent", "may have sent", "must have been sent", "would rather be sent", "ought to send"],
+      "answer": 2,
+      "explain_tr": "Geçmişe dair güçlü bir çıkarım var ([en:because the airline refused]) ve fosiller gönderilir, yani edilgen: [en:must have been sent] (deniz yoluyla gönderilmiş olmalı). [en:should have sent] ve [en:may have sent] etken yapıda; fosiller kendi kendini göndermez. [en:ought to send] gelecek anlamlı bir öğüttür, geçmişteki olayla uyuşmaz.",
+      "tags": ["modal", "modal perfect", "passive"]
+    },
+    {
+      "id": "gra-011",
+      "q": "Patients ---- take this medicine with food, as it ---- irritate the stomach if swallowed on an empty one.",
+      "options": ["should / can", "would / mustn't", "might / ought to", "had better / needn't", "used to / shall"],
+      "answer": 0,
+      "explain_tr": "İlk boşluk tavsiye ([en:should take]), ikinci boşluk olasılık ([en:can irritate] = tahriş edebilir). [en:would / mustn't]: [en:would] tavsiye vermez, [en:mustn't irritate] ise yasak bildirir; bir ilaca yasak konmaz; [en:might / ought to] ikinci boşlukta ilaca bir yükümlülük yükler, anlamsız; [en:had better / needn't] \"tahriş etmesine gerek yok\" demek olur.",
+      "tags": ["modal"]
+    },
+    {
+      "id": "gra-012",
+      "q": "You ---- the report twice; a single careful reading ---- enough to spot the errors.",
+      "options": ["mustn't have read / were", "shouldn't read / is being", "won't have read / were being", "could have read / was being", "needn't have read / would have been"],
+      "answer": 4,
+      "explain_tr": "[en:needn't have read] = okudun ama gerek yoktu; ikinci cümle gerçekleşmemiş bir sonucu anlatır: [en:would have been enough] (yeterli olurdu). Diğer seçeneklerin ikinci yarısı bozuk: [en:a single reading were] tekil özneyle uyumsuz, [en:is being / was being / were being enough] ise durum anlatan [en:be enough] sürekli zamanda kullanılmadığı için yanlış. Ayrıca [en:mustn't have] geçmiş çıkarım için kullanılmaz ([en:can't have] gerekir).",
+      "tags": ["modal", "modal perfect"]
+    },
+    {
+      "id": "gra-013",
+      "q": "A number of rare manuscripts ---- in the monastery library when the roof was repaired last summer.",
+      "options": ["have discovered", "had been discovering", "are discovered", "were discovered", "discovered"],
+      "answer": 3,
+      "explain_tr": "El yazmaları bulunur, bulmaz; edilgen gerekir. Zaman da [en:when the roof was repaired last summer] ile geçmişe sabitlenmiş: [en:were discovered]. [en:have discovered] ve [en:discovered] etken yapıdadır, el yazmaları bir şey keşfedemez; [en:are discovered] geniş zamandır, geçen yaz ile çelişir.",
+      "tags": ["passive", "past simple"]
+    },
+    {
+      "id": "gra-014",
+      "q": "The new vaccine ---- in three countries at present, and the first results ---- early next year.",
+      "options": ["has tested / are expecting", "is being tested / are expected", "was being tested / expect", "tests / will be expecting", "is tested / have expected"],
+      "answer": 1,
+      "explain_tr": "[en:at present] şu anda süren bir işlem ister ve aşı test edilir: şimdiki zaman edilgen [en:is being tested]. Sonuçlar da beklenir, edilgen: [en:are expected]. [en:has tested / are expecting] her iki fiili etken yapar, aşı ve sonuçlar bir şey yapamaz; [en:was being tested / expect] geçmiş zamandır, [en:at present] ile çelişir.",
+      "tags": ["passive", "present continuous"]
+    },
+    {
+      "id": "gra-015",
+      "q": "Although the policy ---- by parliament, it cannot come into force until the president signs it.",
+      "options": ["has approved", "is approving", "has been approved", "approved", "was approving"],
+      "answer": 2,
+      "explain_tr": "Politika parlamento tarafından onaylanır ([en:by parliament]); özne eylemi yapmıyor, eylemden etkileniyor, bu yüzden edilgen: [en:has been approved]. [en:has approved], [en:approved] ve [en:is approving] etken yapıdadır; o zaman politika parlamentoyu onaylamış olurdu, anlamsız. Ana cümle şimdiki duruma ([en:cannot come into force]) bağlı olduğu için [en:present perfect] uygun.",
+      "tags": ["passive", "present perfect"]
+    },
+    {
+      "id": "gra-016",
+      "q": "The suspect ---- to have left the country before the warrant ----.",
+      "options": ["is believed / was issued", "believes / has issued", "was believing / issued", "is believing / is issued", "believed / had been issuing"],
+      "answer": 0,
+      "explain_tr": "[en:X is believed to have done] kalıbı: şüphelinin ülkeyi terk ettiğine inanılıyor, edilgen [en:is believed]. İkinci boşlukta tutuklama emri çıkarılır: geçmiş zaman edilgen [en:was issued]. [en:believes / has issued] etken: şüpheli kendine inanıyor, emir kendini çıkarıyor gibi olur; [en:is believing] olmaz, çünkü durum fiili [en:believe] sürekli zamanda kullanılmaz.",
+      "tags": ["passive", "reporting"]
+    },
+    {
+      "id": "gra-017",
+      "q": "If the dam ---- according to the original design, the valley ---- so badly last spring.",
+      "options": ["was being built / would not flood", "were built / would not be flooding", "has been built / has not been flooding", "had built / would not be flooded", "had been built / would not have flooded"],
+      "answer": 4,
+      "explain_tr": "[en:last spring] geçmişte olmuş bir olayın tersini hayal ettiriyor: üçüncü tip koşul cümlesi. Yan cümlede [en:past perfect] edilgen ([en:had been built]), ana cümlede [en:would not have flooded]. [en:were built / would not be flooding] ikinci tip koşuldur, şimdiye ya da geleceğe aittir, geçen bahara uymaz; [en:had built / would not be flooded] etken-edilgen dengesini bozar: baraj kendini inşa etmez, vadi de \"sel basılmaz\".",
+      "tags": ["conditional", "third conditional"]
+    },
+    {
+      "id": "gra-018",
+      "q": "Many farmers in the region now wish they ---- to drought-resistant crops before the water table began to fall.",
+      "options": ["switch", "are switching", "had switched", "have switched", "will switch"],
+      "answer": 2,
+      "explain_tr": "[en:wish] ile geçmişte yapılmamış bir şeye duyulan pişmanlık anlatılıyor ([en:before the water table began to fall]); bu durumda [en:wish] + [en:past perfect]: [en:had switched]. [en:switch] ve [en:are switching] şimdiki zamandır, [en:wish] bunlarla kullanılmaz; [en:have switched] de [en:wish] sonrasında gelmez, çünkü [en:wish] zamanı bir adım geriye kaydırır.",
+      "tags": ["wish", "past perfect"]
+    },
+    {
+      "id": "gra-019",
+      "q": "---- the government ---- subsidies for solar panels, far fewer households would be able to afford them.",
+      "options": ["Should / withdrew", "Were / to withdraw", "Unless / withdraws", "Had / withdrew", "If / will withdraw"],
+      "answer": 1,
+      "explain_tr": "Ana cümledeki [en:would be able] ikinci tip (varsayımsal) koşulu gösterir; devrik biçimi [en:Were the government to withdraw] = [en:If the government withdrew]. [en:Should / withdrew]: [en:should] devriğinde fiil yalın kalır ([en:Should the government withdraw]); [en:Had / withdrew]: [en:had] devriği üçüncü ortaç ister; [en:If / will withdraw] koşul yan cümlesine [en:will] koyar, yanlış.",
+      "tags": ["conditional", "inversion"]
+    },
+    {
+      "id": "gra-020",
+      "q": "The researchers interviewed nearly three hundred employees, most of ---- had worked for the firm for over ten years.",
+      "options": ["which", "them", "that", "whom", "whose"],
+      "answer": 3,
+      "explain_tr": "[en:most of] + edat sonrası nesne durumundaki ilgi zamiri ([en:relative pronoun]) insanlar için [en:whom]: [en:most of whom]. [en:them] koyarsan iki bağımsız cümle bağlaçsız, yalnız virgülle bitişir; bu yanlıştır. [en:which] nesneler içindir; [en:that] edattan sonra kullanılamaz; [en:whose] iyelik ister, burada iyelik yok.",
+      "tags": ["relative clause", "whom"]
+    },
+    {
+      "id": "gra-021",
+      "q": "The period ---- the empire reached its greatest extent coincided with a series of reforms ---- effects are still debated today.",
+      "options": ["when / whose", "which / that", "where / which", "that / whom", "during / who"],
+      "answer": 0,
+      "explain_tr": "[en:The period] zaman bildirir ve yan cümlede özne ile nesne tam ([en:the empire reached its greatest extent]), bu yüzden zarf görevli [en:when]. İkinci boşlukta reformların etkileri, yani iyelik ilişkisi: [en:whose effects]. [en:which / that]: [en:which] özne ya da nesne olmalıydı, cümlede boş yer yok; [en:reforms that effects] de bozuk. [en:where] mekân içindir, dönem için kullanılmaz.",
+      "tags": ["relative clause", "whose"]
+    },
+    {
+      "id": "gra-022",
+      "q": "Scientists have identified a protein ---- appears to protect nerve cells from the damage caused by strokes.",
+      "options": ["what", "whom", "whose", "it", "that"],
+      "answer": 4,
+      "explain_tr": "Yan cümlede [en:appears to protect] fiilinin öznesi yok; nesne için özne görevli ilgi zamiri [en:that] (ya da [en:which]) gelir. [en:it] koyarsan bağlaçsız ikinci bir cümle oluşur, yanlış; [en:what] ilgi zamiri olarak önündeki ismi niteleyemez; [en:whom] insanlar ve nesne durumu içindir; [en:whose] iyelik ister, ardından isim gelmeli.",
+      "tags": ["relative clause", "that"]
+    },
+    {
+      "id": "gra-023",
+      "q": "Despite repeated warnings, the factory's owners denied ---- untreated waste into the river.",
+      "options": ["to discharge", "discharging", "discharge", "being discharged", "to have discharged"],
+      "answer": 1,
+      "explain_tr": "[en:deny] fiilinden sonra [en:-ing] gelir: [en:denied discharging] (boşalttıklarını inkâr ettiler). [en:to discharge] ve [en:to have discharged] mastar aldığı için yanlıştır; [en:being discharged] edilgen olur, oysa sahipler atığın boşaltılmasını değil, kendilerinin boşalttığını inkâr ediyor.",
+      "tags": ["gerund", "deny"]
+    },
+    {
+      "id": "gra-024",
+      "q": "The university aims ---- the number of scholarships, but it cannot avoid ---- tuition fees for other students.",
+      "options": ["increasing / to raise", "increase / raise", "to increase / raising", "to increasing / to raising", "having increased / being raised"],
+      "answer": 2,
+      "explain_tr": "[en:aim] mastarla ([en:aim to increase]), [en:avoid] ise [en:-ing] ile kullanılır ([en:avoid raising]). [en:increasing / to raise] ikisini tersine çevirir; [en:increase / raise] yalın fiildir, iki fiilden sonra da gelmez; [en:having increased / being raised] ikinci boşlukta edilgen anlam verir, oysa harçları üniversitenin kendisi artırıyor.",
+      "tags": ["gerund", "infinitive"]
+    },
+    {
+      "id": "gra-025",
+      "q": "Workers who are made ---- long hours without adequate breaks are far more likely to suffer accidents.",
+      "options": ["work", "working", "worked", "to work", "to be working"],
+      "answer": 3,
+      "explain_tr": "[en:make somebody do] etken yapıda yalın fiil alır, ama edilgende [en:be made to do] olur: [en:are made to work]. [en:work] etken kalıbı edilgene taşıdığı için yanlış; [en:working] ve [en:worked] bu kalıpta kullanılmaz; [en:to be working] sürekli mastar burada anlamsız, kalıba uymaz.",
+      "tags": ["infinitive", "causative", "passive"]
+    },
+    {
+      "id": "gra-026",
+      "q": "---- the new airport was built to handle fifty million passengers a year, it is already operating close to capacity.",
+      "options": ["Because", "Unless", "Although", "In spite of", "As long as"],
+      "answer": 2,
+      "explain_tr": "Elli milyon yolcu için yapılan havalimanının şimdiden kapasiteye yaklaşması bir zıtlık: [en:Although]. [en:In spite of] aynı anlamı taşır, ama ardından yan cümle değil isim öbeği gelir ([en:In spite of its size]); [en:Because] neden-sonuç kurar, anlam ters; [en:Unless] ve [en:As long as] koşul bildirir, cümleye uymaz.",
+      "tags": ["conjunction", "concession"]
+    },
+    {
+      "id": "gra-027",
+      "q": "---- its small size, the island supports a remarkable variety of species, ---- many are found nowhere else.",
+      "options": ["Although / whose", "In spite / which", "Even though / of whom", "Because of / that", "Despite / of which"],
+      "answer": 4,
+      "explain_tr": "[en:its small size] bir isim öbeği, yan cümle değil: edat gerekir, [en:Despite]. Türlerin birçoğu ilgi yapısıyla bağlanır: [en:many of which]. [en:Although] ve [en:Even though] bağlaçtır, isimden önce gelemez; [en:In spite] tek başına kullanılmaz ([en:In spite of]); [en:Because of] edattır ama zıtlık vermez ve [en:that] virgülden sonra ilgi zamiri olarak kullanılmaz.",
+      "tags": ["conjunction", "preposition", "relative clause"]
+    },
+    {
+      "id": "gra-028",
+      "q": "Renewable sources now provide a third of the country's electricity, ---- coal still dominates in neighbouring states.",
+      "options": ["whereas", "so that", "in case", "unless", "as if"],
+      "answer": 0,
+      "explain_tr": "İki durum karşılaştırılıyor: bir ülkede yenilenebilir kaynaklar, komşularda kömür. Karşıtlık bağlacı [en:whereas] (oysa, -ken). [en:so that] amaç, [en:in case] önlem, [en:unless] koşul, [en:as if] benzetme bildirir; hiçbiri iki olgu arasındaki karşıtlığı anlatmaz.",
+      "tags": ["conjunction", "contrast"]
+    },
+    {
+      "id": "gra-029",
+      "q": "The museum will remain open on weekdays ---- restoration work continues, ---- visitors must expect some galleries to be closed.",
+      "options": ["until / so", "while / but", "so that / whereas", "in case / and", "despite / yet"],
+      "answer": 1,
+      "explain_tr": "Restorasyon sürerken ([en:while]) müze açık kalacak, ama ([en:but]) bazı galeriler kapalı olacak. [en:until / so]: \"restorasyon sürene kadar açık kalır\" anlamı mantıksız, [en:until] bir bitiş noktası ister; [en:so that / whereas] amaç ve karşıtlık bağlaçları burada anlam kurmaz; [en:despite] yan cümle değil isim ister.",
+      "tags": ["conjunction", "while"]
+    },
+    {
+      "id": "gra-030",
+      "q": "Vaccination rates have to stay above ninety-five per cent ---- the disease is to be kept from spreading through the population.",
+      "options": ["unless", "whereas", "in case", "if", "although"],
+      "answer": 3,
+      "explain_tr": "[en:if ... is to be kept] kalıbı amaç bildirir: hastalığın yayılması engellenecekse aşılama oranı yüksek kalmalı. [en:unless] anlamı tersine çevirir (engellenmeyecekse); [en:in case] \"ihtimaline karşı\" demektir ve [en:is to] yapısıyla kullanılmaz; [en:whereas] ve [en:although] zıtlık kurar, burada zıtlık yok.",
+      "tags": ["conjunction", "condition"]
+    },
+    {
+      "id": "gra-031",
+      "q": "---- the risks are explained clearly, most patients are willing to take part in trials; ----, they tend to withdraw at an early stage.",
+      "options": ["Even if / moreover", "Unless / therefore", "As long as / otherwise", "Whereas / however", "In case / besides"],
+      "answer": 2,
+      "explain_tr": "Koşul: riskler açıklandığı sürece ([en:as long as]) hastalar katılmaya istekli; aksi hâlde ([en:otherwise]) erkenden çekilirler. [en:Unless / therefore]: \"açıklanmadıkça istekliler\" mantıksız; [en:Even if / moreover]: ikinci cümle zıt bir sonuç verdiği için [en:moreover] (üstelik) uymaz; [en:Whereas] ve [en:In case] koşul anlamı vermez.",
+      "tags": ["conjunction", "linker", "as long as"]
+    },
+    {
+      "id": "gra-032",
+      "q": "The decline ---- bee populations has been attributed ---- the widespread use of certain pesticides.",
+      "options": ["on / for", "at / with", "over / by", "from / into", "in / to"],
+      "answer": 4,
+      "explain_tr": "[en:decline in] (bir şeydeki azalma) ve [en:be attributed to] (bir şeye bağlanmak) kalıp edatlardır: [en:in / to]. [en:attributed for], [en:attributed with], [en:attributed by] İngilizcede bu anlamda yoktur; [en:decline on], [en:decline at], [en:decline from] de kullanılmaz.",
+      "tags": ["preposition"]
+    },
+    {
+      "id": "gra-033",
+      "q": "The study found no significant difference ---- the two groups in terms of memory performance after six months.",
+      "options": ["between", "among", "from", "against", "towards"],
+      "answer": 0,
+      "explain_tr": "İki şey arasındaki fark için [en:difference between]: [en:between the two groups]. [en:among] üç ve daha fazla öğe için kullanılır, [en:the two groups] ile olmaz; [en:difference from] \"X'in Y'den farkı\" yapısında gelir, burada iki grup birlikte verildiği için uymaz; [en:against] ve [en:towards] bu kalıpta kullanılmaz.",
+      "tags": ["preposition"]
+    },
+    {
+      "id": "gra-034",
+      "q": "---- the exception of a few coastal towns, the region depends almost entirely ---- agriculture for its income.",
+      "options": ["By / of", "With / on", "In / for", "At / in", "Under / to"],
+      "answer": 1,
+      "explain_tr": "[en:with the exception of] (hariç, dışında) ve [en:depend on] (bağlı olmak) sabit kalıplardır: [en:With / on]. [en:depend of], [en:depend for], [en:depend in], [en:depend to] yanlıştır; [en:by the exception of] ya da [en:in the exception of] diye bir kalıp da yoktur.",
+      "tags": ["preposition"]
+    },
+    {
+      "id": "gra-035",
+      "q": "---- of the participants reported any side effects, so the trial was allowed to proceed to the next phase.",
+      "options": ["A few", "Most", "Each", "Few", "Every"],
+      "answer": 3,
+      "explain_tr": "[en:any] olumsuz anlamlı bir yapı ister; [en:Few] (çok az, neredeyse hiç) olumsuz bir niceleyici olduğu için [en:any side effects] ile uyumludur ve deneyin devam etmesi de bununla tutarlı. [en:A few] olumlu anlamlıdır, [en:any] ile kullanılamaz; [en:Most] ve [en:Each] de olumlu, ayrıca anlam ters döner; [en:Every] + [en:of] hiç kullanılmaz.",
+      "tags": ["quantifier", "few"]
+    },
+    {
+      "id": "gra-036",
+      "q": "There is ---- evidence that moderate exercise improves sleep, yet ---- people fail to walk even thirty minutes a day.",
+      "options": ["many / much", "a large number of / little", "plenty of / a great many", "several / a great deal of", "much of / few of"],
+      "answer": 2,
+      "explain_tr": "[en:evidence] sayılamaz: [en:plenty of evidence]; [en:people] sayılabilir çoğul: [en:a great many people]. [en:many], [en:a large number of] ve [en:several] sayılabilir isimlerle kullanılır, [en:evidence] ile olmaz; [en:much people], [en:a great deal of people] sayılamaz isim niceleyicisidir; [en:much of / few of] ardından belirli bir isim ([en:the evidence]) ister.",
+      "tags": ["quantifier", "countable", "uncountable"]
+    },
+    {
+      "id": "gra-037",
+      "q": "In ---- 1990s, ---- number of countries adopted strict limits on sulphur emissions from power stations.",
+      "options": ["the / a", "a / the", "an / every", "some / much", "late / each"],
+      "answer": 0,
+      "explain_tr": "On yıllar belirli tanımlıkla söylenir: [en:in the 1990s]. [en:a number of countries] (bir dizi ülke) çoğul anlamlı sabit kalıptır ve çoğul fiil alır. [en:a / the]: [en:in a 1990s] yanlış; [en:late / each]: [en:in the late 1990s] olmalıydı, tanımlık eksik ve [en:each number of] diye bir kalıp yok; [en:some / much]: [en:much number] de olmaz.",
+      "tags": ["article", "determiner"]
+    },
+    {
+      "id": "gra-038",
+      "q": "The new scanner produces images that are ---- more detailed than those of the previous model.",
+      "options": ["very", "most", "as", "too", "considerably"],
+      "answer": 4,
+      "explain_tr": "Karşılaştırma sıfatı ([en:more detailed]) [en:very] ile değil, [en:much], [en:far], [en:considerably], [en:a lot] gibi derece zarflarıyla güçlendirilir. [en:very more detailed] yanlıştır; [en:most] en üstünlük derecesi kurar, [en:than] ile çelişir; [en:as] ve [en:too] bu yapıda kullanılamaz.",
+      "tags": ["comparison", "comparative"]
+    },
+    {
+      "id": "gra-039",
+      "q": "---- carbon dioxide we release into the atmosphere, ---- the planet will warm in the coming decades.",
+      "options": ["More / faster", "The more / the faster", "The most / the fastest", "As much / as fast", "The more / faster"],
+      "answer": 1,
+      "explain_tr": "Çift karşılaştırma kalıbı: [en:the more ..., the faster ...] (ne kadar çok ... o kadar hızlı). Her iki tarafta da [en:the] zorunludur; [en:The more / faster] ve [en:More / faster] bu yüzden bozuk. [en:The most / the fastest] en üstünlük derecesidir, oran ilişkisi kurmaz; [en:As much / as fast] eşitlik yapısıdır, bu cümle dizilişine uymaz.",
+      "tags": ["comparison", "double comparative"]
+    },
+    {
+      "id": "gra-040",
+      "q": "Although the two drugs are ---- effective, the newer one causes far ---- side effects than its predecessor.",
+      "options": ["as / less", "similarly / little", "more / fewest", "equally / fewer", "the same / least"],
+      "answer": 3,
+      "explain_tr": "[en:equally effective] (eşit derecede etkili) ve sayılabilir çoğul [en:side effects] için [en:fewer ... than]. [en:as / less]: [en:as effective] ikinci [en:as] olmadan eksik kalır ve [en:less] sayılamaz isimler içindir; [en:more / fewest] en üstünlük derecesi [en:than] ile kullanılmaz; [en:the same] ardından [en:as] ister, [en:least] de [en:than] ile olmaz.",
+      "tags": ["comparison", "fewer"]
+    }
+  ]
+}

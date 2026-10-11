@@ -1,0 +1,370 @@
+{
+  "type": "translation",
+  "sources": [
+    {"title": "YDS: Yabancı Dil Bilgisi Seviye Tespit Sınavı", "site": "ÖSYM", "url": "https://www.osym.gov.tr/SinavGrubu/Index/7"},
+    {"title": "English grammar reference", "site": "British Council LearnEnglish", "url": "https://learnenglish.britishcouncil.org/grammar/english-grammar-reference"},
+    {"title": "English Grammar Today (British Grammar)", "site": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/"}
+  ],
+  "items": [
+    {
+      "id": "tra-en-001",
+      "direction": "en-tr",
+      "q": "Although scientists have long suspected that sleep plays a role in memory, only recently have they begun to understand the mechanisms involved.",
+      "options": [
+        "Bilim insanları uykunun bellekte bir rol oynadığını uzun süredir bildikleri için, işin içindeki mekanizmaları çoktan anlamış durumdalar.",
+        "Bilim insanları uykunun bellekte bir rol oynadığından uzun süredir şüphelenmelerine rağmen, işin içindeki mekanizmaları hâlâ anlayabilmiş değiller.",
+        "Bilim insanları uykunun bellekte önemli bir rol oynadığını yakın zamanda keşfettiler ve işin içindeki mekanizmaları çoktan anlamış bulunuyorlar.",
+        "Bilim insanları uykunun bellekte bir rol oynadığından uzun süredir şüphelenseler de, işin içindeki mekanizmaları ancak yakın zamanda anlamaya başladılar.",
+        "Bilim insanları uykunun bellekte bir rol oynadığını uzun süre önce kanıtlamış olsalar da, işin içindeki mekanizmaları ancak yakın zamanda anlamaya başladılar."
+      ],
+      "answer": 3,
+      "explain_tr": "Cümlenin üç öğesi var: [en:although] (… olsa da), [en:have long suspected] (uzun süredir şüphelenmek) ve [en:only recently have they begun] (ancak yakın zamanda başladılar). D üçünü de eksiksiz veriyor. A'da [en:although] yerine 'için' (neden) kullanılmış ve 'şüphelenmek' 'bilmek' olmuş; B'de 'anlamaya başladılar' yerine 'hâlâ anlayabilmiş değiller' denerek anlam tersine çevrilmiş; E'de [en:suspected] 'kanıtlamış' diye çevrilmiş.",
+      "tags": ["concession", "inversion"]
+    },
+    {
+      "id": "tra-en-002",
+      "direction": "en-tr",
+      "q": "Unless governments invest heavily in digital infrastructure, rural communities may fall even further behind their urban counterparts in access to online services.",
+      "options": [
+        "Hükümetler dijital altyapıya büyük yatırım yapmadıkça, kırsal topluluklar çevrim içi hizmetlere erişimde kentli benzerlerinin daha da gerisinde kalabilir.",
+        "Hükümetler dijital altyapıya büyük yatırım yaptığı için, kırsal topluluklar çevrim içi hizmetlere erişimde kentli benzerlerini yakalamak üzere.",
+        "Hükümetler dijital altyapıya büyük yatırım yapsa bile, kırsal topluluklar çevrim içi hizmetlere erişimde kentli benzerlerinin gerisinde kalacaktır.",
+        "Hükümetler dijital altyapıya büyük yatırım yapmadıkça, kırsal topluluklar çevrim içi hizmetlere erişimde kentli benzerlerinin gerisinde kalmak zorundadır.",
+        "Hükümetler dijital altyapıya yeterince yatırım yapmadığından, kentli topluluklar çevrim içi hizmetlere erişimde kırsal benzerlerinin gerisinde kalmıştır."
+      ],
+      "answer": 0,
+      "explain_tr": "[en:unless] = '-medikçe' koşulu, [en:may fall] = 'kalabilir' (olasılık), [en:even further behind] = 'daha da gerisinde'. A hepsini karşılıyor. D'de [en:may] 'zorundadır' olmuş (yanlış kiplik); C'de koşul 'yapsa bile' diye zıtlığa çevrilmiş ve 'kalacaktır' kesinlik bildiriyor; E'de kentli ile kırsal yer değiştirmiş ve cümle geçmiş zamana taşınmış.",
+      "tags": ["conditional", "modal"]
+    },
+    {
+      "id": "tra-en-003",
+      "direction": "en-tr",
+      "q": "The study found that participants who exercised regularly were far less likely to develop heart disease than those who led sedentary lives.",
+      "options": [
+        "Çalışma, düzenli egzersiz yapan katılımcıların kalp hastalığına yakalanma olasılığının, hareketsiz bir yaşam sürenlere kıyasla biraz daha düşük olduğunu ortaya koydu.",
+        "Çalışma, hareketsiz bir yaşam süren katılımcıların kalp hastalığına yakalanma olasılığının, düzenli egzersiz yapanlara kıyasla çok daha düşük olduğunu ortaya koydu.",
+        "Çalışma, düzenli egzersiz yapan katılımcıların kalp hastalığına yakalanma olasılığının, hareketsiz bir yaşam sürenlere kıyasla çok daha düşük olduğunu ortaya koydu.",
+        "Çalışma, düzenli egzersiz yapan katılımcıların kalp hastalığına hiç yakalanmadığını, hareketsiz bir yaşam sürenlerin ise bu hastalığa yakalandığını ortaya koydu.",
+        "Çalışma, düzenli egzersiz yapan katılımcıların kalp hastalığına yakalanma olasılığının çok daha düşük olabileceğini öne sürüyor; ancak hareketsiz yaşam sürenler incelenmedi."
+      ],
+      "answer": 2,
+      "explain_tr": "[en:far less likely] 'çok daha düşük olasılık' demek; karşılaştırma düzenli egzersiz yapanlar ile hareketsiz yaşayanlar arasında. C bunu tam veriyor. A'da [en:far] 'biraz' diye çevrilmiş (derece hatası); B'de iki grup yer değiştirmiş, anlam tersine dönmüş; D'de olasılık ifadesi 'hiç yakalanmadı' gibi kesin bir sonuca çevrilmiş.",
+      "tags": ["comparison", "degree"]
+    },
+    {
+      "id": "tra-en-004",
+      "direction": "en-tr",
+      "q": "Economists warn that raising interest rates too quickly could slow economic growth, even though it might help bring inflation under control in the short term.",
+      "options": [
+        "Ekonomistler, faiz oranlarını çok hızlı yükseltmenin ekonomik büyümeyi kesinlikle durduracağını ve enflasyonu kontrol altına alamayacağını söylüyor.",
+        "Ekonomistler, faiz oranlarını çok hızlı yükseltmenin ekonomik büyümeyi yavaşlatabileceğini, çünkü kısa vadede enflasyonu kontrol altına almaya yardımcı olacağını belirtiyor.",
+        "Ekonomistler, faiz oranlarını yavaş yavaş yükseltmenin ekonomik büyümeyi yavaşlatabileceğini, ancak uzun vadede enflasyonu kontrol altına alacağını söylüyor.",
+        "Ekonomistler, enflasyonu kısa vadede kontrol altına almanın faiz oranlarını çok hızlı yükseltebileceği ve büyümeyi yavaşlatabileceği uyarısında bulunuyor.",
+        "Ekonomistler, faiz oranlarını çok hızlı yükseltmenin kısa vadede enflasyonu kontrol altına almaya yardımcı olabilse de ekonomik büyümeyi yavaşlatabileceği uyarısında bulunuyor."
+      ],
+      "answer": 4,
+      "explain_tr": "[en:could slow] 'yavaşlatabilir', [en:even though it might help] 'yardımcı olabilse de' (zıtlık + olasılık). E ikisini de koruyor. B'de [en:even though] yerine 'çünkü' kullanılmış, zıtlık nedene dönmüş; C'de [en:too quickly] 'yavaş yavaş', [en:short term] 'uzun vade' olmuş; A'da olasılık 'kesinlikle durduracak' diye kesinleştirilmiş; D'de neden ile sonuç yer değiştirmiş.",
+      "tags": ["concession", "modal"]
+    },
+    {
+      "id": "tra-en-005",
+      "direction": "en-tr",
+      "q": "Despite decades of international agreements, global carbon emissions have continued to rise, largely because developing economies still depend on coal for electricity.",
+      "options": [
+        "Onlarca yıllık uluslararası anlaşmalar sayesinde küresel karbon emisyonları azalmaya başladı; ancak gelişmekte olan ekonomiler elektrik için hâlâ kömüre bağımlı.",
+        "Onlarca yıllık uluslararası anlaşmalara rağmen küresel karbon emisyonları artmaya devam etti; bunun başlıca nedeni, gelişmekte olan ekonomilerin elektrik için hâlâ kömüre bağımlı olmasıdır.",
+        "Onlarca yıllık uluslararası anlaşmalara rağmen küresel karbon emisyonları artmaya devam etti; bunun tek nedeni, gelişmiş ekonomilerin elektrik için kömüre bağımlı olmasıdır.",
+        "Onlarca yıllık uluslararası anlaşmalara rağmen küresel karbon emisyonları artabilir; çünkü gelişmekte olan ekonomiler elektrik için kömüre bağımlı kalmayı planlıyor.",
+        "Gelişmekte olan ekonomiler elektrik için hâlâ kömüre bağımlı olduğundan, uluslararası anlaşmalar on yıllardır imzalanamıyor ve karbon emisyonları artıyor."
+      ],
+      "answer": 1,
+      "explain_tr": "[en:despite] 'rağmen', [en:have continued to rise] 'artmaya devam etti', [en:largely because] 'başlıca nedeni'. B hepsini doğru veriyor. C'de [en:largely] 'tek nedeni' olmuş ve [en:developing] (gelişmekte olan) 'gelişmiş' diye çevrilmiş; A'da 'rağmen' yerine 'sayesinde' kullanılmış ve emisyonlar 'azalıyor' denmiş; D'de gerçekleşmiş olay 'artabilir' olasılığına dönmüş.",
+      "tags": ["concession", "cause"]
+    },
+    {
+      "id": "tra-en-006",
+      "direction": "en-tr",
+      "q": "The invention of the printing press not only made books cheaper but also allowed new ideas to spread across Europe faster than ever before.",
+      "options": [
+        "Matbaanın icadı kitapları ucuzlatmadı; ancak yeni fikirlerin Avrupa'da her zamankinden daha hızlı yayılmasına olanak sağladı.",
+        "Matbaanın icadı kitapları ucuzlattığı için yeni fikirler Avrupa'da ilk kez yayılmaya başladı ve okuma yazma oranı hızla yükseldi.",
+        "Matbaanın icadı yalnızca kitapları ucuzlatmakla kalmadı, aynı zamanda yeni fikirlerin Avrupa dışına her zamankinden daha yavaş yayılmasına neden oldu.",
+        "Matbaanın icadı yalnızca kitapları ucuzlatmakla kalmadı, aynı zamanda yeni fikirlerin Avrupa'da her zamankinden daha hızlı yayılmasına da olanak sağladı.",
+        "Matbaanın icadı hem kitapları ucuzlattı hem de eski fikirlerin Avrupa'da her zamankinden daha geniş kitlelere ulaşmasını sağladı."
+      ],
+      "answer": 3,
+      "explain_tr": "[en:not only … but also] 'yalnızca … kalmadı, aynı zamanda …' yapısıdır; [en:faster than ever before] 'her zamankinden daha hızlı'. D bunu eksiksiz karşılıyor. A'da ilk bölüm olumsuza çevrilmiş ('ucuzlatmadı'); C'de [en:across Europe] 'Avrupa dışına', [en:faster] 'daha yavaş' olmuş; E'de [en:new ideas] 'eski fikirler' ve 'daha hızlı' yerine 'daha geniş kitlelere' denmiş.",
+      "tags": ["correlative conjunction"]
+    },
+    {
+      "id": "tra-en-007",
+      "direction": "en-tr",
+      "q": "Many teachers argue that standardised tests measure a narrow range of skills and therefore fail to reflect what students have actually learned.",
+      "options": [
+        "Pek çok öğretmen, standart testlerin dar bir beceri yelpazesini ölçtüğünü ve bu nedenle öğrencilerin gerçekte ne öğrendiğini yansıtamadığını savunuyor.",
+        "Pek çok öğretmen, standart testlerin geniş bir beceri yelpazesini ölçtüğünü ve bu nedenle öğrencilerin gerçekte ne öğrendiğini yansıttığını savunuyor.",
+        "Bazı öğretmenler, standart testlerin dar bir beceri yelpazesini ölçmesine rağmen öğrencilerin gerçekte ne öğrendiğini yansıttığını savunuyor.",
+        "Pek çok öğretmen, standart testler öğrencilerin gerçekte ne öğrendiğini yansıtamadığı için dar bir beceri yelpazesini ölçtüğünü savunuyor.",
+        "Bütün öğretmenler, standart testlerin dar bir beceri yelpazesini ölçtüğünü kabul ediyor ve bu testlerin tamamen kaldırılması gerektiğini savunuyor."
+      ],
+      "answer": 0,
+      "explain_tr": "[en:narrow range] 'dar yelpaze', [en:therefore] 'bu nedenle', [en:fail to reflect] 'yansıtamamak'. A hepsini doğru çeviriyor. D'de neden ile sonuç yer değiştirmiş: özgün cümlede dar ölçüm neden, yansıtamama sonuçtur. B'de 'dar' 'geniş', 'yansıtamadığını' 'yansıttığını' olmuş; C'de [en:many] 'bazı', [en:therefore] 'rağmen' olmuş; E'de 'bütün öğretmenler' ve 'kaldırılması' cümleye eklenmiş.",
+      "tags": ["cause", "degree"]
+    },
+    {
+      "id": "tra-en-008",
+      "direction": "en-tr",
+      "q": "As more people move to cities in search of work, housing shortages have become one of the most pressing social problems of our time.",
+      "options": [
+        "Konut sıkıntısı çağımızın en acil toplumsal sorunlarından biri hâline geldiği için daha fazla insan iş bulmak amacıyla şehirlerden ayrılıyor.",
+        "Daha fazla insan iş bulmak amacıyla şehirlere taşınsa da, konut sıkıntısı çağımızın en acil toplumsal sorunu olmaktan çıktı.",
+        "Daha fazla insan iş bulmak amacıyla şehirlere taşındıkça, konut sıkıntısı çağımızın en acil toplumsal sorunlarından biri hâline geldi.",
+        "Daha fazla insan iş bulmak amacıyla şehirlere taşındıkça, konut sıkıntısı çağımızın tek toplumsal sorunu hâline gelecek.",
+        "Daha az insan iş bulmak amacıyla şehirlere taşındığından, konut sıkıntısı çağımızın en acil toplumsal sorunlarından biri olmaktan çıkabilir."
+      ],
+      "answer": 2,
+      "explain_tr": "[en:as more people move] '… taşındıkça' (süreç), [en:have become] 'hâline geldi', [en:one of the most pressing] 'en acil … sorunlarından biri'. C doğru. D'de [en:one of] atlanmış ('tek sorun') ve zaman geleceğe taşınmış; A'da neden-sonuç ters çevrilmiş ve 'şehirlere taşınmak' 'şehirlerden ayrılmak' olmuş; B'de '-dıkça' yerine 'taşınsa da' zıtlığı var ve sorun 'olmaktan çıktı' denmiş.",
+      "tags": ["tense", "degree"]
+    },
+    {
+      "id": "tra-en-009",
+      "direction": "en-tr",
+      "q": "Companies that allow employees to work from home report higher levels of job satisfaction, although some managers worry about declining productivity.",
+      "options": [
+        "Çalışanlarının evden çalışmasına izin veren şirketler daha yüksek iş tatmini bildiriyor; çünkü yöneticilerin çoğu verimliliğin arttığını düşünüyor.",
+        "Çalışanlarının evden çalışmasına izin veren şirketler daha düşük iş tatmini bildiriyor; üstelik bütün yöneticiler verimliliğin düşmesinden endişe ediyor.",
+        "Çalışanlarının evden çalışmasına izin veren şirketler daha yüksek iş tatmini bildirecek; ancak bazı yöneticiler verimliliğin düşmesini engelledi.",
+        "Çalışanlarının evden çalışmasını zorunlu kılan şirketler daha yüksek iş tatmini bildiriyor; ancak bazı çalışanlar verimliliğin düşmesinden endişe ediyor.",
+        "Çalışanlarının evden çalışmasına izin veren şirketler daha yüksek iş tatmini bildiriyor; ancak bazı yöneticiler verimliliğin düşmesinden endişe ediyor."
+      ],
+      "answer": 4,
+      "explain_tr": "[en:allow] 'izin vermek', [en:higher] 'daha yüksek', [en:although some managers worry] 'ancak bazı yöneticiler endişe ediyor'. E tam karşılık. D'de [en:allow] 'zorunlu kılan' olmuş ve endişe edenler yöneticiler değil 'çalışanlar' gösterilmiş; A'da zıtlık bağlacı 'çünkü'ye dönmüş, [en:some] 'çoğu' ve 'düşen verimlilik' 'artan' olmuş; B'de 'daha yüksek' 'daha düşük', 'bazı' 'bütün' yapılmış.",
+      "tags": ["concession", "subject-object"]
+    },
+    {
+      "id": "tra-en-010",
+      "direction": "en-tr",
+      "q": "Researchers have discovered that people tend to remember negative experiences more vividly than positive ones, which may explain why bad news spreads so quickly.",
+      "options": [
+        "Araştırmacılar, insanların olumlu deneyimleri olumsuz olanlardan daha canlı hatırlama eğiliminde olduğunu keşfetti; bu da iyi haberlerin neden bu kadar hızlı yayıldığını açıklayabilir.",
+        "Araştırmacılar, insanların olumsuz deneyimleri olumlu olanlardan daha canlı hatırlama eğiliminde olduğunu keşfetti; bu da kötü haberlerin neden bu kadar hızlı yayıldığını açıklayabilir.",
+        "Araştırmacılar, insanların olumsuz deneyimleri olumlu olanlardan daha canlı hatırladığını keşfetti; bu da kötü haberlerin neden bu kadar hızlı yayıldığını kesin olarak açıklıyor.",
+        "Araştırmacılar, kötü haberlerin hızlı yayılması nedeniyle insanların olumsuz deneyimleri olumlu olanlardan daha canlı hatırladığını keşfetti.",
+        "Araştırmacılar, insanların olumsuz deneyimleri olumlu olanlar kadar canlı hatırlama eğiliminde olduğunu düşünüyor; bu da kötü haberlerin neden bu kadar yavaş yayıldığını açıklayabilir."
+      ],
+      "answer": 1,
+      "explain_tr": "[en:tend to remember … more vividly] 'daha canlı hatırlama eğiliminde', [en:which may explain] 'bu da … açıklayabilir' (olasılık). B doğru. C'de [en:may] atlanmış, 'kesin olarak açıklıyor' denmiş; A'da olumlu ile olumsuz yer değiştirmiş; D'de neden-sonuç tersine çevrilmiş (haberlerin yayılması hatırlamanın nedeni yapılmış); E'de [en:more vividly than] 'kadar canlı' olmuş.",
+      "tags": ["relative clause", "modal"]
+    },
+    {
+      "id": "tra-en-011",
+      "direction": "en-tr",
+      "q": "While electric vehicles produce no exhaust emissions, the electricity used to charge them is often generated from fossil fuels, which limits their environmental benefits.",
+      "options": [
+        "Elektrikli araçlar egzoz emisyonu üretmediği için, onları şarj etmek için kullanılan elektrik de fosil yakıtlardan elde edilmez; bu da çevresel faydalarını artırır.",
+        "Elektrikli araçlar egzoz emisyonu üretmese de, onları şarj etmek için kullanılan elektrik her zaman fosil yakıtlardan elde edilir; bu da çevresel faydalarını tamamen ortadan kaldırır.",
+        "Elektrikli araçlar az miktarda egzoz emisyonu üretir; ancak onları şarj etmek için kullanılan elektrik genellikle yenilenebilir kaynaklardan geldiği için çevresel faydaları büyüktür.",
+        "Elektrikli araçlar egzoz emisyonu üretmese de, onları şarj etmek için kullanılan elektrik çoğu zaman fosil yakıtlardan elde edilir; bu da çevresel faydalarını sınırlar.",
+        "Elektrikli araçlar egzoz emisyonu üretmese de, onları üretmek için kullanılan enerji nadiren fosil yakıtlardan elde edilir; bu da çevresel faydalarını sınırlar."
+      ],
+      "answer": 3,
+      "explain_tr": "[en:while] burada 'üretmese de' zıtlığıdır; [en:often] 'çoğu zaman', [en:limits] 'sınırlar'. D doğru. B'de [en:often] 'her zaman', [en:limits] 'tamamen ortadan kaldırır' olmuş (derece hatası); E'de [en:to charge them] 'onları üretmek için', [en:often] 'nadiren' olmuş; A'da zıtlık nedene dönmüş ve fosil yakıt cümlesi olumsuza çevrilmiş.",
+      "tags": ["concession", "frequency"]
+    },
+    {
+      "id": "tra-en-012",
+      "direction": "en-tr",
+      "q": "Experts suggest that children should spend no more than two hours a day in front of screens if they are to develop healthy social skills.",
+      "options": [
+        "Uzmanlar, çocukların sağlıklı sosyal beceriler geliştirmeleri isteniyorsa günde en fazla iki saat ekran karşısında vakit geçirmeleri gerektiğini öne sürüyor.",
+        "Uzmanlar, çocukların sağlıklı sosyal beceriler geliştirebilmeleri için günde en az iki saat ekran karşısında vakit geçirmeleri gerektiğini öne sürüyor.",
+        "Uzmanlar, çocukların günde iki saatten fazla ekran karşısında vakit geçirmelerinin sosyal becerilerini kesinlikle yok ettiğini kanıtladı.",
+        "Uzmanlar, sağlıklı sosyal becerilere sahip çocukların günde en fazla iki saat ekran karşısında vakit geçirdiğini gözlemledi.",
+        "Uzmanlar, çocukların sağlıklı sosyal beceriler geliştirmeleri isteniyorsa haftada en fazla iki saat ekran karşısında vakit geçirebileceklerini öne sürüyor."
+      ],
+      "answer": 0,
+      "explain_tr": "[en:no more than two hours a day] 'günde en fazla iki saat', [en:should] 'gerektiği', [en:if they are to develop] 'geliştirmeleri isteniyorsa' (amaç koşulu). A doğru. B'de [en:no more than] 'en az' olmuş, anlam tersine dönmüş; E'de [en:a day] 'haftada' yapılmış; C'de öneri ([en:suggest]) kanıta ('kanıtladı') dönüşmüş; D'de öneri yerine bir gözlem anlatılıyor.",
+      "tags": ["modal", "quantity"]
+    },
+    {
+      "id": "tra-tr-001",
+      "direction": "tr-en",
+      "q": "Son yıllarda yapılan araştırmalar, düzenli uykunun yalnızca fiziksel sağlığı değil, aynı zamanda öğrenme kapasitesini de önemli ölçüde etkilediğini göstermektedir.",
+      "options": [
+        "Research carried out in recent years showed that regular sleep slightly affects physical health as well as the capacity to learn.",
+        "Research carried out in recent years shows that regular sleep significantly affects not only physical health but also the capacity to learn.",
+        "Research carried out in recent years shows that regular sleep affects physical health rather than the capacity to learn.",
+        "Research carried out decades ago suggests that regular sleep may affect both physical health and the capacity to learn.",
+        "Research carried out in recent years proves that irregular sleep significantly damages both physical health and the capacity to learn."
+      ],
+      "answer": 1,
+      "explain_tr": "'Yalnızca … değil, aynı zamanda … de' = [en:not only … but also]; 'önemli ölçüde' = [en:significantly]; 'göstermektedir' geniş zaman = [en:shows]. B hepsini karşılıyor. A'da zaman geçmişe kaymış ([en:showed]) ve 'önemli ölçüde' 'biraz' ([en:slightly]) olmuş; C'de [en:rather than] öğrenme kapasitesini dışlıyor; E'de 'düzenli uyku' [en:irregular sleep] diye tersine çevrilmiş ve 'gösterme' 'kanıtlama' olmuş.",
+      "tags": ["correlative conjunction", "degree"]
+    },
+    {
+      "id": "tra-tr-002",
+      "direction": "tr-en",
+      "q": "Hükümet, küçük işletmelerin ekonomik krizden daha az etkilenmesi için vergi indirimlerini bir yıl daha uzatmaya karar verdi.",
+      "options": [
+        "The government has decided to cancel the tax cuts after one year because small businesses were less affected by the economic crisis.",
+        "The government may decide to extend the tax cuts for another year if small businesses are badly affected by the economic crisis.",
+        "The government has decided to extend the tax cuts for two more years so that large businesses are less affected by the economic crisis.",
+        "Small businesses have decided to ask the government to extend the tax cuts for another year because of the economic crisis.",
+        "The government has decided to extend the tax cuts for another year so that small businesses are less affected by the economic crisis."
+      ],
+      "answer": 4,
+      "explain_tr": "'… etkilenmesi için' amaç bildirir = [en:so that]; 'bir yıl daha' = [en:for another year]; 'karar verdi' = [en:has decided]. E doğru. B'de kesin karar 'karar verebilir' ([en:may decide]) olmuş ve amaç cümlesi koşula ([en:if]) dönmüş; C'de 'bir yıl' [en:two more years], 'küçük işletmeler' [en:large businesses] olmuş; D'de özne değişmiş (karar veren işletmeler); A'da 'uzatmak' [en:cancel] diye çevrilmiş.",
+      "tags": ["purpose clause", "modal"]
+    },
+    {
+      "id": "tra-tr-003",
+      "direction": "tr-en",
+      "q": "Bilim insanları, deniz seviyesindeki yükselmenin önümüzdeki elli yıl içinde milyonlarca insanı evlerini terk etmek zorunda bırakabileceği konusunda uyarıyor.",
+      "options": [
+        "Scientists warn that rising sea levels have forced millions of people to leave their homes over the last fifty years.",
+        "Scientists claim that rising sea levels will certainly force thousands of people to leave their homes within the next fifteen years.",
+        "Scientists warn that rising sea levels could force millions of people to leave their homes within the next fifty years.",
+        "Scientists warn that millions of people may have to leave their homes within the next fifty years, which could cause sea levels to rise.",
+        "Scientists deny that rising sea levels could force millions of people to leave their homes within the next fifty years."
+      ],
+      "answer": 2,
+      "explain_tr": "'Zorunda bırakabileceği' olasılık = [en:could force]; 'önümüzdeki elli yıl içinde' = [en:within the next fifty years]; 'uyarıyor' = [en:warn]. C doğru. A'da gelecek olasılık geçmişe ([en:have forced … over the last fifty years]) çevrilmiş; B'de [en:certainly] kesinlik katıyor, 'milyonlarca' [en:thousands], 'elli' [en:fifteen] olmuş; D'de neden-sonuç ters: göç deniz seviyesini yükseltiyor gibi anlatılmış.",
+      "tags": ["modal", "tense"]
+    },
+    {
+      "id": "tra-tr-004",
+      "direction": "tr-en",
+      "q": "Üniversiteye başlayan öğrencilerin çoğu, lisede öğrendikleri çalışma alışkanlıklarının yeni ortamda yeterli olmadığını kısa sürede fark eder.",
+      "options": [
+        "Most students who start university soon realise that the study habits they learned at high school are not sufficient in the new environment.",
+        "All students who start university eventually realise that the study habits they learned at high school are useless in the new environment.",
+        "Most students who start university soon realise that the study habits they learned at high school are sufficient in the new environment.",
+        "Some students who start university never realise that the study habits they learned at high school are not sufficient in the new environment.",
+        "Most students who start university have already learned at high school the study habits that are sufficient in the new environment."
+      ],
+      "answer": 0,
+      "explain_tr": "'Öğrencilerin çoğu' = [en:most students]; 'kısa sürede' = [en:soon]; 'yeterli olmadığını' = [en:are not sufficient]. A doğru. C'de olumsuzluk düşmüş ([en:are sufficient]), anlam tersine dönmüş; B'de 'çoğu' [en:all], 'kısa sürede' [en:eventually], 'yeterli değil' [en:useless] olmuş (derece hataları); D'de [en:some] ve [en:never] özgün anlamı bozuyor.",
+      "tags": ["quantifier", "relative clause"]
+    },
+    {
+      "id": "tra-tr-005",
+      "direction": "tr-en",
+      "q": "Yapay zekâ pek çok alanda insan emeğinin yerini almaya başlamış olsa da, uzmanlar bu teknolojinin yaratıcılık gerektiren işlerde insanları tamamen devre dışı bırakamayacağını düşünüyor.",
+      "options": [
+        "Because artificial intelligence has begun to replace human labour in many fields, experts believe that this technology will soon eliminate people from jobs that require creativity.",
+        "Although artificial intelligence has not yet replaced human labour in any field, experts believe that this technology could eventually eliminate people from jobs that require creativity.",
+        "Although artificial intelligence has begun to replace human labour in a few fields, experts are certain that this technology cannot replace people in any job.",
+        "Although artificial intelligence has begun to replace human labour in many fields, experts believe that this technology cannot entirely eliminate people from jobs that require creativity.",
+        "Experts believe that artificial intelligence, which has begun to replace human labour in many fields, cannot be used at all in jobs that require creativity."
+      ],
+      "answer": 3,
+      "explain_tr": "'… olsa da' = [en:although]; 'tamamen devre dışı bırakamayacağını' = [en:cannot entirely eliminate]; 'düşünüyor' = [en:believe]. D doğru. A'da zıtlık nedene ([en:because]) dönmüş ve uzmanlar tam tersini (yakında devre dışı bırakacak) söylüyor; C'de 'pek çok alan' [en:a few fields] ve 'yaratıcılık gerektiren işler' [en:any job] olmuş; E'de 'tamamen devre dışı bırakamaz' yerine 'hiç kullanılamaz' denmiş, anlam farklı.",
+      "tags": ["concession", "modal"]
+    },
+    {
+      "id": "tra-tr-006",
+      "direction": "tr-en",
+      "q": "Osmanlı İmparatorluğu'nun son döneminde başlatılan eğitim reformları, Cumhuriyet'in ilk yıllarında kurulan modern okul sisteminin temelini oluşturmuştur.",
+      "options": [
+        "The educational reforms launched in the early years of the Republic formed the basis of the modern school system established in the final period of the Ottoman Empire.",
+        "The educational reforms launched in the final period of the Ottoman Empire formed the basis of the modern school system established in the early years of the Republic.",
+        "The educational reforms launched in the final period of the Ottoman Empire were replaced by the modern school system established in the early years of the Republic.",
+        "The modern school system established in the early years of the Republic formed the basis of the educational reforms launched in the final period of the Ottoman Empire.",
+        "The educational reforms launched in the final period of the Ottoman Empire may have influenced the modern school system established in the first decades of the Republic."
+      ],
+      "answer": 1,
+      "explain_tr": "Özne 'Osmanlı'nın son dönemindeki reformlar', yüklem 'temelini oluşturmuştur' = [en:formed the basis of]. B doğru. D'de özne ile nesne yer değiştirmiş (okul sistemi reformların temeli olmuş); A'da iki dönem birbirine karışmış; C'de 'temelini oluşturmak' yerine [en:were replaced by] (yerini aldı) denmiş; E'de kesin ifade [en:may have influenced] olasılığına, 'ilk yıllar' [en:first decades] ifadesine çevrilmiş.",
+      "tags": ["subject-object", "passive"]
+    },
+    {
+      "id": "tra-tr-007",
+      "direction": "tr-en",
+      "q": "Çalışanlar, iş yükünün adil dağıtılmadığını hissettiklerinde, maaşları yüksek olsa bile işlerinden ayrılmayı düşünmeye başlayabilirler.",
+      "options": [
+        "When employees feel that the workload is not distributed fairly, they immediately leave their jobs because their salaries are low.",
+        "Employees whose salaries are high never consider leaving their jobs, even when they feel that the workload is not distributed fairly.",
+        "When employees feel that the workload is not distributed fairly, they may start to consider leaving their jobs even if their salaries are high.",
+        "When employees feel that the workload is distributed fairly, they may start to consider leaving their jobs unless their salaries are high.",
+        "Employees may start to consider leaving their jobs when their salaries are not high enough, even if the workload is distributed fairly."
+      ],
+      "answer": 2,
+      "explain_tr": "'Hissettiklerinde' = [en:when they feel]; 'olsa bile' = [en:even if]; 'düşünmeye başlayabilirler' = [en:may start to consider]. C doğru. D'de 'adil dağıtılmadığını' olumsuzluğu düşmüş ve 'olsa bile' [en:unless] olmuş; E'de neden (iş yükü) ile taviz (maaş) yer değiştirmiş; A'da olasılık [en:immediately leave] kesinliğine dönmüş ve 'maaş yüksek' [en:low] olmuş; B'de [en:never] anlamı tersine çeviriyor.",
+      "tags": ["concession", "modal"]
+    },
+    {
+      "id": "tra-tr-008",
+      "direction": "tr-en",
+      "q": "Kentlerde yaşayan insanların sayısı arttıkça, toplu taşıma sistemlerine yapılan yatırımlar da kaçınılmaz olarak artmak zorundadır.",
+      "options": [
+        "As the number of people living in cities increases, investment in public transport systems may increase slightly.",
+        "Because investment in public transport systems has increased, the number of people living in cities has inevitably increased as well.",
+        "Although the number of people living in cities is increasing, investment in public transport systems has not increased at all.",
+        "As the number of people living in cities decreases, investment in public transport systems inevitably has to be reduced as well.",
+        "As the number of people living in cities increases, investment in public transport systems inevitably has to increase as well."
+      ],
+      "answer": 4,
+      "explain_tr": "'Arttıkça' = [en:as … increases]; 'kaçınılmaz olarak artmak zorundadır' = [en:inevitably has to increase]; 'da' = [en:as well]. E doğru. A'da zorunluluk [en:may increase slightly] (biraz artabilir) olmuş, hem kiplik hem derece yanlış; B'de neden ile sonuç ters: yatırım artınca nüfus artıyor gibi; D'de 'arttıkça' [en:decreases], 'artmak' [en:be reduced] olmuş; C zıtlık bağlacıyla tam tersini söylüyor.",
+      "tags": ["modal", "cause"]
+    },
+    {
+      "id": "tra-tr-009",
+      "direction": "tr-en",
+      "q": "Bazı bitkilerin kuraklığa nasıl dayandığını anlamak, iklim değişikliğine daha dirençli tarım ürünleri geliştirmek isteyen araştırmacılar için büyük önem taşımaktadır.",
+      "options": [
+        "Understanding how some plants withstand drought is of great importance to researchers who want to develop crops that are more resistant to climate change.",
+        "Understanding how all plants withstand drought is of little importance to researchers who want to develop crops that are more resistant to climate change.",
+        "Researchers who want to develop crops that are more resistant to climate change have finally understood how some plants withstand drought.",
+        "Understanding how some plants withstand drought is of great importance to farmers who want to grow crops that are more resistant to climate change.",
+        "Understanding how some plants withstand floods is of great importance to researchers who want to develop crops that are less affected by climate change."
+      ],
+      "answer": 0,
+      "explain_tr": "'Bazı bitkiler' = [en:some plants]; 'kuraklık' = [en:drought]; 'büyük önem taşımaktadır' = [en:is of great importance]; 'araştırmacılar … geliştirmek' = [en:researchers … develop]. A doğru. B'de 'bazı' [en:all], 'büyük önem' [en:little importance] olmuş; C'de 'anlamak önemlidir' yerine 'sonunda anladılar' ([en:have finally understood]) denmiş, bu özgün cümlede yok; D'de araştırmacılar [en:farmers], 'geliştirmek' [en:grow] olmuş; E'de 'kuraklık' [en:floods] (sel) olmuş.",
+      "tags": ["quantifier", "gerund subject"]
+    },
+    {
+      "id": "tra-tr-010",
+      "direction": "tr-en",
+      "q": "Doktorlar, antibiyotiklerin gereksiz yere kullanılmasının bakterilerin ilaçlara karşı direnç kazanmasına yol açtığını uzun zamandır bilmektedir.",
+      "options": [
+        "Doctors have recently discovered that the unnecessary use of antibiotics leads to bacteria developing resistance to drugs.",
+        "Doctors have long suspected that the unnecessary use of antibiotics might lead to bacteria developing resistance to drugs.",
+        "Doctors have long known that bacteria developing resistance to drugs leads to the unnecessary use of antibiotics.",
+        "Doctors have long known that the unnecessary use of antibiotics leads to bacteria developing resistance to drugs.",
+        "Doctors have long known that the regular use of antibiotics prevents bacteria from developing resistance to drugs."
+      ],
+      "answer": 3,
+      "explain_tr": "'Uzun zamandır bilmektedir' = [en:have long known]; 'yol açtığını' = [en:leads to]. D doğru. B'de 'bilmek' [en:suspected] (şüphelenmek), 'yol açar' [en:might lead] olmuş, kesinlik olasılığa dönmüş; C'de neden ile sonuç yer değiştirmiş (direnç gereksiz kullanıma yol açıyor gibi); A'da 'uzun zamandır' [en:recently discovered] olmuş; E'de 'gereksiz' [en:regular], 'yol açmak' [en:prevents] olmuş.",
+      "tags": ["present perfect", "cause"]
+    },
+    {
+      "id": "tra-tr-011",
+      "direction": "tr-en",
+      "q": "Sosyal medya, haberlere erişimi kolaylaştırmış olmasına rağmen, yanlış bilginin de hiç olmadığı kadar hızlı yayılmasına neden olmuştur.",
+      "options": [
+        "Because social media has made access to news easier, false information no longer spreads as fast as it used to.",
+        "Although social media has made access to news easier, it has also caused false information to spread faster than ever.",
+        "Although social media has made access to news more difficult, it has also prevented false information from spreading faster than ever.",
+        "Social media has made access to news easier, so false information has started to spread more slowly than ever.",
+        "Although social media may make access to news easier, it will also cause false information to spread faster than ever."
+      ],
+      "answer": 1,
+      "explain_tr": "'… olmasına rağmen' = [en:although]; 'hiç olmadığı kadar hızlı' = [en:faster than ever]; 'neden olmuştur' = [en:has caused]. B doğru. E'de olmuş bitmiş durum [en:may make] / [en:will cause] ile olasılık ve geleceğe taşınmış; C'de 'kolaylaştırmak' [en:more difficult], 'neden olmak' [en:prevented] olmuş; A ve D'de zıtlık bağlacı neden-sonuca dönmüş ve yanlış bilginin 'daha yavaş yayıldığı' söyleniyor.",
+      "tags": ["concession", "present perfect"]
+    },
+    {
+      "id": "tra-tr-012",
+      "direction": "tr-en",
+      "q": "Birçok ülkede genç işsizliğinin yüksek olmasının temel nedenlerinden biri, eğitim sisteminin iş piyasasının ihtiyaçlarına yeterince hızlı uyum sağlayamamasıdır.",
+      "options": [
+        "The only reason why youth unemployment is high in many countries is that the education system refuses to adapt to the needs of the labour market.",
+        "One of the main reasons why the education system cannot adapt to the needs of the labour market is that youth unemployment is high in many countries.",
+        "One of the main reasons why youth unemployment is high in many countries is that the education system cannot adapt quickly enough to the needs of the labour market.",
+        "One of the main reasons why youth unemployment is low in a few countries is that the education system adapts quickly to the needs of the labour market.",
+        "Youth unemployment is high in many countries, although the education system has adapted quickly enough to the needs of the labour market."
+      ],
+      "answer": 2,
+      "explain_tr": "'Temel nedenlerinden biri' = [en:one of the main reasons]; 'yeterince hızlı uyum sağlayamaması' = [en:cannot adapt quickly enough]. C doğru. B'de neden ile sonuç yer değiştirmiş: işsizlik, uyumsuzluğun nedeni yapılmış; A'da 'nedenlerinden biri' [en:the only reason] olmuş ve 'sağlayamama' [en:refuses] (reddetme) diye çevrilmiş; D'de 'yüksek' [en:low], 'birçok' [en:a few] olmuş; E'de zıtlık bağlacı ve 'uyum sağlamış' ifadesi anlamı tersine çeviriyor.",
+      "tags": ["cause", "degree"]
+    }
+  ]
+}

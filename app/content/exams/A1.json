@@ -1,0 +1,346 @@
+{
+  "_comment": "A1 level exam. Format: app/content/exams/README.md. Question ids are stable.",
+  "title_tr": "A1 Seviye Sınavı",
+  "grammar_count": 20,
+  "tts_speed": 0.9,
+  "grammar": [
+    {"id": "g01", "lesson": "a1-be", "type": "choice", "q": "My grandparents ___ very kind.", "options": ["is", "are", "am"], "answer": 1, "explain_tr": "[en:grandparents] = [en:they] → [en:are]."},
+    {"id": "g02", "lesson": "a1-be", "type": "fill", "q": "___ your teacher from England? (be)", "answer": ["Is"], "explain_tr": "[en:your teacher] = [en:he/she] → [en:Is] (soru: fiil başta)."},
+    {"id": "g03", "lesson": "a1-be", "type": "fix", "q": "I hungry now.", "answer": ["I am hungry now.", "I'm hungry now."], "explain_tr": "[en:be] fiili eksik: [en:I am hungry.]"},
+    {"id": "g31", "lesson": "a1-be", "type": "choice", "q": "My colleague and I ___ very busy today.", "options": ["am", "is", "are"], "answer": 2, "explain_tr": "[en:My colleague and I] = [en:we] → [en:are]."},
+    {"id": "g32", "lesson": "a1-be", "type": "transform", "instruction_tr": "Olumsuz yap", "q": "My colleagues are in the meeting room.", "answer": ["My colleagues are not in the meeting room.", "My colleagues aren't in the meeting room."], "explain_tr": "Olumsuz: [en:are] + [en:not] ([en:aren't])."},
+    {"id": "g33", "lesson": "a1-be", "type": "transform", "instruction_tr": "Soru cümlesi yap", "q": "The new designer is at home today.", "answer": ["Is the new designer at home today?"], "explain_tr": "Soruda [en:is] öznenin önüne geçer: [en:Is the new designer…?]"},
+    {"id": "g34", "lesson": "a1-be", "type": "order", "q": "Soru cümlesi kur:", "words": ["Are", "your", "colleagues", "from", "Ankara?"], "answer": ["Are your colleagues from Ankara?"], "explain_tr": "Soru: [en:Are] + özne + [en:from…?]"},
+    {"id": "g35", "lesson": "a1-be", "type": "order", "q": "Soru değil, düz cümle kur:", "words": ["Our", "office", "is", "not", "very", "big."], "answer": ["Our office is not very big."], "explain_tr": "Olumsuz: özne + [en:is] + [en:not] + sıfat."},
+    {"id": "g04", "lesson": "a1-pronouns", "type": "choice", "q": "My aunt lives in Bodrum. I often visit ___.", "options": ["him", "her", "she"], "answer": 1, "explain_tr": "Teyze/hala kadın; fiilden sonra nesne → [en:her]."},
+    {"id": "g05", "lesson": "a1-pronouns", "type": "fill", "q": "Burak and ___ wife have two children. (onun - Burak'ın)", "answer": ["his"], "explain_tr": "Sahip Burak (erkek) → [en:his]."},
+    {"id": "g06", "lesson": "a1-pronouns", "type": "fix", "q": "My father is a cook. She works in a hotel.", "answer": ["My father is a cook. He works in a hotel."], "explain_tr": "Baba erkek → [en:he]."},
+    {"id": "g36", "lesson": "a1-pronouns", "type": "choice", "q": "Mr. Arslan is in Ankara today. Please send the documents to ___.", "options": ["he", "his", "him"], "answer": 2, "explain_tr": "Edattan ([en:to]) sonra nesne zamiri gelir; Mr. Arslan erkek → [en:him]."},
+    {"id": "g37", "lesson": "a1-pronouns", "type": "transform", "instruction_tr": "[en:Ms. Demir] yerine zamir kullan", "q": "Can you help Ms. Demir with the report?", "answer": ["Can you help her with the report?"], "explain_tr": "Fiilden sonra nesne zamiri; Ms. Demir kadın → [en:her]."},
+    {"id": "g38", "lesson": "a1-pronouns", "type": "transform", "instruction_tr": "[en:Selin's] yerine iyelik sıfatı kullan", "q": "Selin's office is on the second floor.", "answer": ["Her office is on the second floor."], "explain_tr": "Selin kadın → onun = [en:her]."},
+    {"id": "g39", "lesson": "a1-pronouns", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["I", "work", "with", "her", "every day."], "answer": ["I work with her every day.", "Every day I work with her.", "I work every day with her."], "explain_tr": "Edattan ([en:with]) sonra nesne zamiri: [en:with her]."},
+    {"id": "g40", "lesson": "a1-pronouns", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["They", "like", "their", "new", "office."], "answer": ["They like their new office."], "explain_tr": "Özne [en:they], iyelik [en:their] (onların)."},
+    {"id": "g07", "lesson": "a1-a-an-plural", "type": "choice", "q": "She's ___ honest person.", "options": ["a", "an", "—"], "answer": 1, "explain_tr": "[en:honest] ünlü sesle başlar ([key:h] okunmaz) → [en:an]."},
+    {"id": "g08", "lesson": "a1-a-an-plural", "type": "fill", "q": "There are four ___ in the photo. (woman)", "answer": ["women"], "explain_tr": "[en:woman] → [en:women] (düzensiz çoğul)."},
+    {"id": "g09", "lesson": "a1-a-an-plural", "type": "fix", "q": "My brother is architect.", "answer": ["My brother is an architect."], "explain_tr": "Meslekten önce [en:a/an]; [en:architect] ünlüyle başlar → [en:an]."},
+    {"id": "g41", "lesson": "a1-a-an-plural", "type": "fill", "q": "Our company has three ___ in Turkey. (factory)", "answer": ["factories"], "explain_tr": "Ünsüz + [key:y] → [en:-ies]: [en:factory] → [en:factories]."},
+    {"id": "g42", "lesson": "a1-a-an-plural", "type": "transform", "instruction_tr": "[en:three] ile çoğul yap", "q": "We have a new customer.", "answer": ["We have three new customers.", "We've got three new customers.", "We have got three new customers."], "explain_tr": "Çoğulda [en:a/an] kalkar, isim [en:-s] alır: [en:three new customers]."},
+    {"id": "g43", "lesson": "a1-a-an-plural", "type": "transform", "instruction_tr": "[en:two] ile çoğul yap", "q": "I have a box on my desk.", "answer": ["I have two boxes on my desk.", "I've got two boxes on my desk.", "I have got two boxes on my desk."], "explain_tr": "[en:-x] ile biten isim [en:-es] alır: [en:box] → [en:boxes]."},
+    {"id": "g44", "lesson": "a1-a-an-plural", "type": "order", "q": "Soru değil, düz cümle kur:", "words": ["She", "is", "an", "office", "manager."], "answer": ["She is an office manager."], "explain_tr": "[en:office] ünlü sesle başlar → [en:an office manager]."},
+    {"id": "g45", "lesson": "a1-a-an-plural", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["We", "have", "two", "new", "employees", "this month."], "answer": ["We have two new employees this month.", "This month we have two new employees."], "explain_tr": "[en:two] ile isim çoğul olur: [en:two new employees]."},
+    {"id": "g10", "lesson": "a1-present-simple", "type": "choice", "q": "Ece ___ to music every evening.", "options": ["listen", "listens", "is listen"], "answer": 1, "explain_tr": "[en:Ece] = [en:she] → [en:listens]."},
+    {"id": "g11", "lesson": "a1-present-simple", "type": "fill", "q": "My cat ___ all day. (sleep)", "answer": ["sleeps"], "explain_tr": "[en:it] → [en:sleeps]."},
+    {"id": "g12", "lesson": "a1-present-simple", "type": "fix", "q": "My parents watches the news every night.", "answer": ["My parents watch the news every night."], "explain_tr": "[en:parents] = [en:they] → [en:watch] ([en:-es] yok)."},
+    {"id": "g46", "lesson": "a1-present-simple", "type": "fix", "q": "Our accountant work from Monday to Friday.", "answer": ["Our accountant works from Monday to Friday.", "Our accountants work from Monday to Friday."], "explain_tr": "[en:Our accountant] = [en:he/she] → [en:works]."},
+    {"id": "g47", "lesson": "a1-present-simple", "type": "transform", "instruction_tr": "Özneyi [en:My manager] yap", "q": "I finish work at six.", "answer": ["My manager finishes work at six."], "explain_tr": "[en:-sh] ile biten fiil [en:-es] alır: [en:finish] → [en:finishes]."},
+    {"id": "g48", "lesson": "a1-present-simple", "type": "transform", "instruction_tr": "Özneyi [en:She] yap", "q": "I fly to Ankara every month.", "answer": ["She flies to Ankara every month."], "explain_tr": "Ünsüz + [key:y] → [en:-ies]: [en:fly] → [en:flies]."},
+    {"id": "g49", "lesson": "a1-present-simple", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["Our", "team", "works from home", "on Fridays."], "answer": ["Our team works from home on Fridays.", "On Fridays our team works from home."], "explain_tr": "[en:Our team] = [en:it] → [en:works]."},
+    {"id": "g50", "lesson": "a1-present-simple", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["She", "never", "drinks", "coffee", "after", "lunch."], "answer": ["She never drinks coffee after lunch.", "After lunch she never drinks coffee."], "explain_tr": "Sıklık zarfı ([en:never]) fiilden önce gelir."},
+    {"id": "g13", "lesson": "a1-do-does", "type": "choice", "q": "What time ___ the film start?", "options": ["do", "does", "is"], "answer": 1, "explain_tr": "[en:the film] = [en:it] → [en:does]."},
+    {"id": "g14", "lesson": "a1-do-does", "type": "fill", "q": "I ___ understand this word. (olumsuz)", "answer": ["don't", "do not"], "explain_tr": "[en:I] → [en:don't]."},
+    {"id": "g15", "lesson": "a1-do-does", "type": "fix", "q": "Where your brother works?", "answer": ["Where does your brother work?"], "explain_tr": "Soru: [en:Where] + [en:does] + özne + yalın fiil."},
+    {"id": "g51", "lesson": "a1-do-does", "type": "fill", "q": "___ your manager drive to work? (do / does)", "answer": ["Does"], "explain_tr": "[en:your manager] = [en:he/she] → [en:Does]."},
+    {"id": "g52", "lesson": "a1-do-does", "type": "transform", "instruction_tr": "Olumsuz yap", "q": "My manager uses this software.", "answer": ["My manager doesn't use this software.", "My manager does not use this software."], "explain_tr": "[en:he/she] → [en:doesn't] + yalın fiil ([en:use], [en:-s] yok)."},
+    {"id": "g53", "lesson": "a1-do-does", "type": "transform", "instruction_tr": "Soru cümlesi yap", "q": "Your company has an office in Ankara.", "answer": ["Does your company have an office in Ankara?", "Has your company got an office in Ankara?"], "explain_tr": "Soru: [en:Does] + özne + yalın fiil; [en:has] → [en:have]."},
+    {"id": "g54", "lesson": "a1-do-does", "type": "order", "q": "Soru cümlesi kur:", "words": ["What time", "do", "you", "finish", "work?"], "answer": ["What time do you finish work?"], "explain_tr": "Soru kelimesi + [en:do] + özne + yalın fiil."},
+    {"id": "g55", "lesson": "a1-do-does", "type": "order", "q": "Soru değil, düz cümle kur:", "words": ["My", "colleague", "doesn't", "live", "in", "Istanbul."], "answer": ["My colleague doesn't live in Istanbul."], "explain_tr": "[en:he/she] → [en:doesn't] + yalın fiil."},
+    {"id": "g16", "lesson": "a1-there-is", "type": "choice", "q": "___ any students in the classroom?", "options": ["Is there", "Are there", "There are"], "answer": 1, "explain_tr": "[en:students] çoğul, soru → [en:Are there]."},
+    {"id": "g17", "lesson": "a1-there-is", "type": "fill", "q": "There ___ a big tree in our garden.", "answer": ["is"], "explain_tr": "Tekil → [en:there is]."},
+    {"id": "g18", "lesson": "a1-there-is", "type": "fix", "q": "In my street has two cafés.", "answer": ["There are two cafés in my street.", "There are two cafés on my street.", "There are two cafes in my street.", "There are two cafes on my street.", "My street has two cafés.", "My street has two cafes."], "explain_tr": "[tr:var] = [en:there is / there are]."},
+    {"id": "g56", "lesson": "a1-there-is", "type": "choice", "q": "___ any paper in the printer?", "options": ["Is there", "Are there", "There is"], "answer": 0, "explain_tr": "[en:paper] sayılamaz (tekil), soru → [en:Is there]."},
+    {"id": "g57", "lesson": "a1-there-is", "type": "transform", "instruction_tr": "Olumsuz yap", "q": "There are some cups in the kitchen.", "answer": ["There aren't any cups in the kitchen.", "There are not any cups in the kitchen.", "There are no cups in the kitchen.", "There aren't cups in the kitchen."], "explain_tr": "Olumsuzda [en:some] → [en:any]: [en:There aren't any…] (ya da [en:There are no…])."},
+    {"id": "g58", "lesson": "a1-there-is", "type": "transform", "instruction_tr": "Soru cümlesi yap", "q": "There is a meeting this afternoon.", "answer": ["Is there a meeting this afternoon?"], "explain_tr": "Soru: [en:Is there…?]"},
+    {"id": "g59", "lesson": "a1-there-is", "type": "order", "q": "Soru değil, düz cümle kur:", "words": ["There", "are", "four", "printers", "on this floor."], "answer": ["There are four printers on this floor.", "On this floor there are four printers."], "explain_tr": "Çoğul isim → [en:there are]."},
+    {"id": "g60", "lesson": "a1-there-is", "type": "order", "q": "Soru cümlesi kur:", "words": ["Is", "there", "a", "bank", "near", "the office?"], "answer": ["Is there a bank near the office?"], "explain_tr": "Tekil isim, soru → [en:Is there a…?]"},
+    {"id": "g19", "lesson": "a1-in-on-at", "type": "choice", "q": "My flight is ___ Friday morning.", "options": ["in", "on", "at"], "answer": 1, "explain_tr": "Gün ([en:Friday morning]) → [en:on]."},
+    {"id": "g20", "lesson": "a1-in-on-at", "type": "fill", "q": "We have lunch ___ half past twelve.", "answer": ["at"], "explain_tr": "Saat → [en:at]."},
+    {"id": "g21", "lesson": "a1-in-on-at", "type": "fix", "q": "It is very hot at July.", "answer": ["It is very hot in July.", "It's very hot in July."], "explain_tr": "Aylar → [en:in]."},
+    {"id": "g61", "lesson": "a1-in-on-at", "type": "fill", "q": "Our new manager starts work ___ the first of September. (in / on / at)", "answer": ["on"], "explain_tr": "Tarih → [en:on]."},
+    {"id": "g62", "lesson": "a1-in-on-at", "type": "transform", "instruction_tr": "[en:at ten] yerine [en:March] kullan (doğru edatla)", "q": "The conference is at ten.", "answer": ["The conference is in March."], "explain_tr": "Aylar → [en:in]."},
+    {"id": "g63", "lesson": "a1-in-on-at", "type": "transform", "instruction_tr": "[en:in the afternoon] yerine [en:Friday afternoon] kullan (doğru edatla)", "q": "I have a meeting in the afternoon.", "answer": ["I have a meeting on Friday afternoon."], "explain_tr": "Belirli bir günün bölümü → [en:on] ([en:on Friday afternoon])."},
+    {"id": "g64", "lesson": "a1-in-on-at", "type": "order", "q": "Soru değil, düz cümle kur:", "words": ["Our", "office", "is", "on", "the", "fifth", "floor."], "answer": ["Our office is on the fifth floor.", "On the fifth floor is our office."], "explain_tr": "Binanın katları → [en:on]."},
+    {"id": "g65", "lesson": "a1-in-on-at", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["We", "have", "a", "meeting", "on", "Monday", "morning."], "answer": ["We have a meeting on Monday morning.", "On Monday morning we have a meeting."], "explain_tr": "Gün + günün bölümü → [en:on Monday morning]."},
+    {"id": "g22", "lesson": "a1-can", "type": "choice", "q": "My little brother can ___ his name.", "options": ["writes", "write", "to write"], "answer": 1, "explain_tr": "[en:can] + yalın fiil."},
+    {"id": "g23", "lesson": "a1-can", "type": "fill", "q": "___ I use your phone, please?", "answer": ["Can", "Could", "May", "can", "could", "may"], "explain_tr": "İzin isteme: [en:Can I…?] (daha kibar: [en:Could I…? / May I…?])"},
+    {"id": "g24", "lesson": "a1-can", "type": "fix", "q": "She cans ride a bike.", "answer": ["She can ride a bike."], "explain_tr": "[en:can] hiç [en:-s] almaz."},
+    {"id": "g66", "lesson": "a1-can", "type": "fix", "q": "Can you to call me tomorrow?", "answer": ["Can you call me tomorrow?", "Could you call me tomorrow?"], "explain_tr": "[en:can] + yalın fiil; [en:to] kullanılmaz."},
+    {"id": "g67", "lesson": "a1-can", "type": "transform", "instruction_tr": "Olumsuz yap", "q": "I can come to the meeting today.", "answer": ["I can't come to the meeting today.", "I cannot come to the meeting today."], "explain_tr": "Olumsuz: [en:can't] ([en:cannot]) + yalın fiil."},
+    {"id": "g68", "lesson": "a1-can", "type": "transform", "instruction_tr": "Soru cümlesi yap", "q": "She can use Excel.", "answer": ["Can she use Excel?"], "explain_tr": "Soru: [en:Can] + özne + yalın fiil."},
+    {"id": "g69", "lesson": "a1-can", "type": "order", "q": "Rica cümlesi kur:", "words": ["Can", "you", "check", "this", "report", "please?"], "answer": ["Can you check this report, please?", "Can you please check this report?", "Please can you check this report?"], "explain_tr": "Rica: [en:Can you] + yalın fiil…, [en:please?]"},
+    {"id": "g70", "lesson": "a1-can", "type": "order", "q": "Soru değil, düz cümle kur:", "words": ["We", "can't", "use", "the meeting room", "today."], "answer": ["We can't use the meeting room today.", "Today we can't use the meeting room."], "explain_tr": "Olumsuz: [en:can't] + yalın fiil."},
+    {"id": "g25", "lesson": "a1-work-intro", "type": "choice", "q": "My brother works ___ Aselsan as an engineer.", "options": ["for", "on", "in"], "answer": 0, "explain_tr": "Şirket → [en:for]."},
+    {"id": "g26", "lesson": "a1-work-intro", "type": "fill", "q": "I'm responsible ___ the company's social media.", "answer": ["for"], "explain_tr": "[en:responsible for]."},
+    {"id": "g27", "lesson": "a1-work-intro", "type": "fix", "q": "I am lawyer in a big firm.", "answer": ["I am a lawyer in a big firm.", "I'm a lawyer in a big firm.", "I am a lawyer at a big firm."], "explain_tr": "Meslekten önce [en:a]."},
+    {"id": "g71", "lesson": "a1-work-intro", "type": "fill", "q": "My husband works ___ IT. (alan / departman)", "answer": ["in"], "explain_tr": "Alan ya da departman → [en:work in]."},
+    {"id": "g72", "lesson": "a1-work-intro", "type": "transform", "instruction_tr": "Özneyi [en:My sister] yap", "q": "I work as an accountant at a hospital.", "answer": ["My sister works as an accountant at a hospital."], "explain_tr": "[en:My sister] = [en:she] → [en:works]."},
+    {"id": "g73", "lesson": "a1-work-intro", "type": "transform", "instruction_tr": "[en:I'm a/an …] kalıbıyla yeniden yaz", "q": "I work as an architect.", "answer": ["I'm an architect.", "I am an architect."], "explain_tr": "Meslekten önce [en:a/an] şart; [en:architect] ünlüyle başlar → [en:an]."},
+    {"id": "g74", "lesson": "a1-work-intro", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["I'm", "responsible", "for", "the", "sales", "reports."], "answer": ["I'm responsible for the sales reports."], "explain_tr": "Kalıp: [en:be responsible for] + isim."},
+    {"id": "g75", "lesson": "a1-work-intro", "type": "order", "q": "Soru cümlesi kur:", "words": ["Who", "does", "your", "brother", "work", "for?"], "answer": ["Who does your brother work for?"], "explain_tr": "Şirketi sorarken edat sonda kalır: [en:Who … work for?]"},
+    {"id": "g28", "lesson": "a1-work-contact", "type": "choice", "q": "The meeting is ___ quarter past nine.", "options": ["on", "at", "in"], "answer": 1, "explain_tr": "Saat → [en:at]."},
+    {"id": "g29", "lesson": "a1-work-contact", "type": "choice", "q": "In an email address, [key:.] is read as…", "options": ["dot", "point", "full"], "answer": 0, "explain_tr": "[key:.] = [en:dot]."},
+    {"id": "g30", "lesson": "a1-work-contact", "type": "fix", "q": "Our call is in Monday at 10.", "answer": ["Our call is on Monday at 10.", "Our call is at 10 on Monday."], "explain_tr": "Gün → [en:on]."},
+    {"id": "g76", "lesson": "a1-work-contact", "type": "fill", "q": "My email is ali ___ demir at outlook dot com. (-)", "answer": ["dash", "hyphen"], "explain_tr": "[key:-] = [en:dash] ya da [en:hyphen]."},
+    {"id": "g77", "lesson": "a1-work-contact", "type": "transform", "instruction_tr": "Saati kelimelerle yaz ([en:quarter …])", "q": "The call is at 9:45.", "answer": ["The call is at quarter to ten.", "The call is at a quarter to ten."], "explain_tr": "9:45 = [en:quarter to ten] (ona çeyrek var)."},
+    {"id": "g78", "lesson": "a1-work-contact", "type": "transform", "instruction_tr": "Tarihi kelimelerle yaz ([en:the … of …])", "q": "The training is on 2 June.", "answer": ["The training is on the second of June."], "explain_tr": "Tarihte sıra sayısı kullanılır: [en:2 June] = [en:the second of June]."},
+    {"id": "g79", "lesson": "a1-work-contact", "type": "order", "q": "Soru cümlesi kur:", "words": ["How", "do", "you", "spell", "your", "name?"], "answer": ["How do you spell your name?"], "explain_tr": "Harf harf sormak: [en:How do you spell…?]"},
+    {"id": "g80", "lesson": "a1-work-contact", "type": "order", "q": "Soru değil, düz cümle kur:", "words": ["The interview", "is", "on", "the", "fifth", "of", "May."], "answer": ["The interview is on the fifth of May."], "explain_tr": "Tarih → [en:on]; gün sıra sayısıyla söylenir: [en:the fifth of May]."}
+  ],
+  "listening": {
+    "dictation_count": 3,
+    "comprehension_count": 3,
+    "dictation": [
+      {
+        "id": "d1",
+        "text": "My sister is a nurse and she works at night."
+      },
+      {
+        "id": "d2",
+        "text": "We don't live in Ankara. We live in Bursa."
+      },
+      {
+        "id": "d3",
+        "text": "Can you open the window, please?"
+      },
+      {
+        "id": "d4",
+        "text": "My manager is in a meeting this morning."
+      },
+      {
+        "id": "d5",
+        "text": "Where does your new colleague live?"
+      },
+      {
+        "id": "d6",
+        "text": "There is a small kitchen next to the meeting room."
+      },
+      {
+        "id": "d7",
+        "text": "Sorry, I can't answer the phone right now."
+      },
+      {
+        "id": "d8",
+        "text": "He usually walks to work in the morning."
+      }
+    ],
+    "comprehension": [
+      {
+        "id": "c1",
+        "text": "Hi, I'm Deniz. I'm twenty-five years old and I live in Izmir with my brother. I work in a bank, and I get up at seven every day.",
+        "questions": [
+          {
+            "id": "c1a",
+            "q_tr": "Deniz kiminle yaşıyor?",
+            "options": [
+              "Annesiyle",
+              "Erkek kardeşiyle",
+              "Bir arkadaşıyla"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "c1b",
+            "q_tr": "Deniz nerede çalışıyor?",
+            "options": [
+              "Bir bankada",
+              "Bir hastanede",
+              "Bir okulda"
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "text": "There is a small café near my house. It opens at eight in the morning. On Saturdays there are a lot of people, so I usually go there on Sundays.",
+        "questions": [
+          {
+            "id": "c2a",
+            "q_tr": "Kafe saat kaçta açılıyor?",
+            "options": [
+              "Yedide",
+              "Dokuzda",
+              "Sekizde"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "c2b",
+            "q_tr": "Konuşan kişi kafeye genellikle hangi gün gidiyor?",
+            "options": [
+              "Pazar",
+              "Cumartesi",
+              "Cuma"
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "text": "My friend Selin can speak three languages: Turkish, English and German. She can't drive, so she goes to work by bus.",
+        "questions": [
+          {
+            "id": "c3a",
+            "q_tr": "Selin kaç dil konuşabiliyor?",
+            "options": [
+              "İki",
+              "Dört",
+              "Üç"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "c3b",
+            "q_tr": "Selin işe nasıl gidiyor?",
+            "options": [
+              "Otobüsle",
+              "Arabasıyla",
+              "Yürüyerek"
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "text": "Hello, this is Murat from the IT team. There is a problem with the printer on the third floor. Can you call me back, please? My extension is two four five.",
+        "questions": [
+          {
+            "id": "c4a",
+            "q_tr": "Murat hangi ekipte çalışıyor?",
+            "options": [
+              "Satış ekibinde",
+              "Bilgi işlem (IT) ekibinde",
+              "Muhasebe ekibinde"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "c4b",
+            "q_tr": "Sorun nerede?",
+            "options": [
+              "Üçüncü kattaki yazıcıda",
+              "Murat'ın bilgisayarında",
+              "İkinci kattaki toplantı odasında"
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      {
+        "id": "c5",
+        "text": "My name is Aylin and I'm an accountant. I work for a small company in Bursa. I don't work on Fridays, and I work from home on Mondays.",
+        "questions": [
+          {
+            "id": "c5a",
+            "q_tr": "Aylin'in mesleği ne?",
+            "options": [
+              "Avukat",
+              "Öğretmen",
+              "Muhasebeci"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "c5b",
+            "q_tr": "Aylin hangi gün evden çalışıyor?",
+            "options": [
+              "Cuma",
+              "Pazartesi",
+              "Çarşamba"
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "id": "c6",
+        "text": "The meeting with our new client is on Thursday at ten thirty. It's in the big meeting room on the second floor. Please bring your laptop.",
+        "questions": [
+          {
+            "id": "c6a",
+            "q_tr": "Toplantı hangi gün?",
+            "options": [
+              "Perşembe",
+              "Salı",
+              "Cuma"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "c6b",
+            "q_tr": "Toplantıya ne getirmek gerekiyor?",
+            "options": [
+              "Raporları",
+              "Cep telefonunu",
+              "Dizüstü bilgisayarını"
+            ],
+            "answer": 2
+          }
+        ]
+      }
+    ]
+  },
+  "speaking_count": 3,
+  "speaking": [
+    {
+      "id": "s1",
+      "question_en": "Can you introduce yourself? Tell me your name, where you are from and what you do.",
+      "instruction_tr": "Kendini tanıt: adın, nerelisin, ne iş yapıyorsun / ne okuyorsun. En az 2–3 cümle.",
+      "focus": "the verb be and the present simple"
+    },
+    {
+      "id": "s2",
+      "question_en": "Tell me about a person in your family. What does he or she do every day?",
+      "instruction_tr": "Ailenden birini ve onun günlük rutinini anlat ([en:he/she] + fiil [en:-s]).",
+      "focus": "pronouns and the present simple with he/she"
+    },
+    {
+      "id": "s3",
+      "question_en": "What can you do well? And what can't you do?",
+      "instruction_tr": "İyi yapabildiğin ve yapamadığın şeyleri söyle ([en:can / can't]).",
+      "focus": "can and can't"
+    },
+    {
+      "id": "s4",
+      "question_en": "Tell me about your office or your home. What is there, and what isn't there? Where is everything?",
+      "instruction_tr": "Ofisini ya da evini anlat: neler var, neler yok, eşyalar nerede duruyor? ([en:there is / there are, in / on / at])",
+      "focus": "there is / there are and prepositions of place"
+    },
+    {
+      "id": "s5",
+      "question_en": "What do you do, and who do you work for? What time do you start and finish work?",
+      "instruction_tr": "İşini anlat: mesleğin, çalıştığın şirket ya da departman, işe kaçta başlayıp kaçta bitirdiğin.",
+      "focus": "talking about your job (work for / in / at) and times with at"
+    },
+    {
+      "id": "s6",
+      "question_en": "Imagine you meet a new colleague. Ask him or her three questions about work.",
+      "instruction_tr": "Yeni bir iş arkadaşıyla tanıştığını düşün ve ona iş hakkında üç soru sor ([en:Do you…? / Where do you…? / What time do you…?]).",
+      "focus": "present simple questions with do / does"
+    }
+  ],
+  "writing": [
+    {
+      "id": "w1",
+      "instruction_tr": "Bir arkadaşına kısa bir mesaj yaz: evini ya da mahalleni anlat (neler var, neler yok) ve hafta sonları genelde ne yaptığını söyle.",
+      "prompt_en": "Write a short message to a friend. Describe your home or your neighbourhood (what there is and isn't) and say what you usually do at the weekend.",
+      "focus": "there is / there are, the present simple, prepositions of time and place",
+      "min_words": 40
+    },
+    {
+      "id": "w2",
+      "instruction_tr": "Yeni bir iş arkadaşına kısa bir e-posta yaz: kendini tanıt; adını, mesleğini, departmanını ve her gün ne yaptığını söyle.",
+      "prompt_en": "Write a short email to a new colleague. Introduce yourself: say your name, your job, your department and what you do every day.",
+      "focus": "the verb be, a / an with jobs, the present simple",
+      "min_words": 40
+    },
+    {
+      "id": "w3",
+      "instruction_tr": "Bir müşteriye kısa bir e-posta yaz: onu ofisinde bir toplantıya davet et; günü, saati ve toplantı odasının nerede olduğunu söyle, telefon numaranı da ver.",
+      "prompt_en": "Write a short email to a client. Invite him or her to a meeting at your office: say the day, the time and where the meeting room is, and give your phone number.",
+      "focus": "prepositions of time and place, there is / there are, can for requests",
+      "min_words": 40
+    }
+  ]
+}

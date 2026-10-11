@@ -1,0 +1,6819 @@
+{
+ "level": "C1",
+ "count": 912,
+ "words": [
+  {
+   "w": "exterior",
+   "pos": [
+    "noun"
+   ],
+   "tr": "dış, dış görünüş, dış cephe",
+   "ipa": "/ɪkˈstɪɹiɚ/"
+  },
+  {
+   "w": "cloak",
+   "pos": [
+    "noun"
+   ],
+   "tr": "pelerin, örtü"
+  },
+  {
+   "w": "timid",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "çekingen, ürkek, utangaç",
+   "ipa": "/ˈtɪmɪd/"
+  },
+  {
+   "w": "reluctantly",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "isteksizce, gönülsüzce"
+  },
+  {
+   "w": "concur",
+   "pos": [
+    "verb"
+   ],
+   "tr": "aynı fikirde olmak, katılmak"
+  },
+  {
+   "w": "avid",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "hevesli, istekli, tutkulu"
+  },
+  {
+   "w": "marvel",
+   "pos": [
+    "verb"
+   ],
+   "tr": "hayran kalmak, hayret etmek"
+  },
+  {
+   "w": "enviable",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "imrenilecek, gıpta edilecek"
+  },
+  {
+   "w": "organizational",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "örgütsel, kurumsal",
+   "ipa": "/ˌɔː(ɹ)ɡənɪˈzeɪʃənəl/"
+  },
+  {
+   "w": "psychiatrist",
+   "pos": [
+    "noun"
+   ],
+   "tr": "psikiyatrist",
+   "ipa": "/ˌsaɪˈkaɪ.ə.tɹɪst/"
+  },
+  {
+   "w": "psychiatric",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "psikiyatrik",
+   "ipa": "/ˌsaɪ.kiˈæt.ɹɪk/"
+  },
+  {
+   "w": "clinical",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "klinik, tarafsız, soğuk",
+   "ipa": "/ˈklɪn.ɪ.kəl/"
+  },
+  {
+   "w": "corps",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kolordu, birlik, heyet"
+  },
+  {
+   "w": "forensic",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "adli",
+   "ipa": "/fəˈɹɛn.zɪk/"
+  },
+  {
+   "w": "juvenile",
+   "pos": [
+    "noun",
+    "adjective"
+   ],
+   "tr": "isim: reşit olmayan, genç; sıfat: çocukça, gençlere ait"
+  },
+  {
+   "w": "jurisdiction",
+   "pos": [
+    "noun"
+   ],
+   "tr": "yargı yetkisi, yetki alanı"
+  },
+  {
+   "w": "accustomed",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "alışkın, alışılmış",
+   "ipa": "/əˈkʌs.təmd/"
+  },
+  {
+   "w": "trauma",
+   "pos": [
+    "noun"
+   ],
+   "tr": "travma, sarsıntı",
+   "ipa": "/ˈtɹɑ.mə/"
+  },
+  {
+   "w": "traumatic",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "travmatik, sarsıcı"
+  },
+  {
+   "w": "constraint",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kısıtlama, sınırlama",
+   "ipa": "/kənˈstɹeɪnt/"
+  },
+  {
+   "w": "revealing",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "çok şey anlatan, açığa vuran, dekolte"
+  },
+  {
+   "w": "eccentric",
+   "pos": [
+    "adjective",
+    "noun"
+   ],
+   "tr": "sıfat: tuhaf, eksantrik; isim: eksantrik kişi, tuhaf kimse",
+   "ipa": "/ɪkˈsɛntɹɪk/"
+  },
+  {
+   "w": "sanctity",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kutsallık, dokunulmazlık"
+  },
+  {
+   "w": "conform",
+   "pos": [
+    "verb"
+   ],
+   "tr": "uymak, uyum sağlamak",
+   "ipa": "/kənˈfɔɹm/"
+  },
+  {
+   "w": "norms",
+   "pos": [
+    "noun"
+   ],
+   "tr": "normlar, kurallar"
+  },
+  {
+   "w": "quirk",
+   "pos": [
+    "noun"
+   ],
+   "tr": "tuhaflık, garip alışkanlık",
+   "ipa": "/kwɝk/"
+  },
+  {
+   "w": "oddity",
+   "pos": [
+    "noun"
+   ],
+   "tr": "tuhaflık, acayiplik"
+  },
+  {
+   "w": "compel",
+   "pos": [
+    "verb"
+   ],
+   "tr": "zorlamak, mecbur etmek"
+  },
+  {
+   "w": "compulsion",
+   "pos": [
+    "noun"
+   ],
+   "tr": "zorlama, dürtü, takıntı"
+  },
+  {
+   "w": "assertion",
+   "pos": [
+    "noun"
+   ],
+   "tr": "iddia, ileri sürme"
+  },
+  {
+   "w": "individuality",
+   "pos": [
+    "noun"
+   ],
+   "tr": "bireysellik, kişilik",
+   "ipa": "/ˌɪndɪvɪd͡ʒuˈælɪti/"
+  },
+  {
+   "w": "psyche",
+   "pos": [
+    "noun"
+   ],
+   "tr": "ruh, ruhsal yapı"
+  },
+  {
+   "w": "conformity",
+   "pos": [
+    "noun"
+   ],
+   "tr": "uyma, uygunluk, uyum"
+  },
+  {
+   "w": "unconventional",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "alışılmadık, sıra dışı"
+  },
+  {
+   "w": "congregate",
+   "pos": [
+    "verb"
+   ],
+   "tr": "toplanmak, bir araya gelmek"
+  },
+  {
+   "w": "resent",
+   "pos": [
+    "verb"
+   ],
+   "tr": "içerlemek, gücenmek, kızmak",
+   "ipa": "/ɹiˈzɛnt/"
+  },
+  {
+   "w": "self-conscious",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "çekingen, mahcup, utangaç"
+  },
+  {
+   "w": "wary",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "temkinli, ihtiyatlı, dikkatli",
+   "ipa": "/ˈwɛɚ.i/"
+  },
+  {
+   "w": "stoke",
+   "pos": [
+    "verb"
+   ],
+   "tr": "körüklemek, alevlendirmek, (ateşe) yakıt atmak"
+  },
+  {
+   "w": "dynamically",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "dinamik bir şekilde, canlı bir şekilde"
+  },
+  {
+   "w": "hostess",
+   "pos": [
+    "noun"
+   ],
+   "tr": "ev sahibesi, hostes",
+   "ipa": "/ˈhoʊstɪs/"
+  },
+  {
+   "w": "perpetuate",
+   "pos": [
+    "verb"
+   ],
+   "tr": "sürdürmek, kalıcılaştırmak",
+   "ipa": "/pɚˈpɛt͡ʃəˌweɪt/"
+  },
+  {
+   "w": "naturalness",
+   "pos": [
+    "noun"
+   ],
+   "tr": "doğallık"
+  },
+  {
+   "w": "exhibitionist",
+   "pos": [
+    "noun"
+   ],
+   "tr": "teşhirci, gösteriş meraklısı"
+  },
+  {
+   "w": "isolate",
+   "pos": [
+    "verb"
+   ],
+   "tr": "izole etmek, yalıtmak, ayırmak"
+  },
+  {
+   "w": "isolated",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "yalıtılmış, ıssız, münferit",
+   "ipa": "/ˈaɪsəleɪtɪd/"
+  },
+  {
+   "w": "refreshingly",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "hoş bir şekilde, ferahlatıcı biçimde"
+  },
+  {
+   "w": "effortless",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "zahmetsiz, kolay",
+   "ipa": "/ˈɛfə(ɹ)tlɪs/"
+  },
+  {
+   "w": "vegetation",
+   "pos": [
+    "noun"
+   ],
+   "tr": "bitki örtüsü, bitkiler",
+   "ipa": "/ˌvɛd͡ʒəˈteɪʃən/"
+  },
+  {
+   "w": "respite",
+   "pos": [
+    "noun"
+   ],
+   "tr": "ara, mola, soluklanma"
+  },
+  {
+   "w": "suffice",
+   "pos": [
+    "verb"
+   ],
+   "tr": "yetmek, yeterli olmak"
+  },
+  {
+   "w": "purity",
+   "pos": [
+    "noun"
+   ],
+   "tr": "saflık, arılık",
+   "ipa": "/ˈpjʊɹɪti/"
+  },
+  {
+   "w": "gruelling",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "yorucu, zorlu, çetin"
+  },
+  {
+   "w": "comprise",
+   "pos": [
+    "verb"
+   ],
+   "tr": "oluşmak, kapsamak, içermek"
+  },
+  {
+   "w": "plaster",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: sıva, alçı, yara bandı; fiil: sıvamak, sıva yapmak",
+   "ipa": "/ˈplæstɚ/"
+  },
+  {
+   "w": "darkroom",
+   "pos": [
+    "noun"
+   ],
+   "tr": "karanlık oda"
+  },
+  {
+   "w": "induct",
+   "pos": [
+    "verb"
+   ],
+   "tr": "göreve getirmek, üyeliğe kabul etmek"
+  },
+  {
+   "w": "induction",
+   "pos": [
+    "noun"
+   ],
+   "tr": "oryantasyon, göreve getirme, tümevarım",
+   "ipa": "/ɪnˈdʌkʃən/"
+  },
+  {
+   "w": "fossil",
+   "pos": [
+    "noun"
+   ],
+   "tr": "fosil, taşıl",
+   "ipa": "/ˈfɑsl̩/"
+  },
+  {
+   "w": "geological",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "jeolojik"
+  },
+  {
+   "w": "geologically",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "jeolojik olarak"
+  },
+  {
+   "w": "specimen",
+   "pos": [
+    "noun"
+   ],
+   "tr": "örnek, numune"
+  },
+  {
+   "w": "enormously",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "son derece, muazzam ölçüde"
+  },
+  {
+   "w": "gem",
+   "pos": [
+    "noun"
+   ],
+   "tr": "değerli taş, mücevher, cevher",
+   "ipa": "/d͡ʒɛm/"
+  },
+  {
+   "w": "explanatory",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "açıklayıcı",
+   "ipa": "/ɪkˈsplæn.ə.t(ɔː.)ɹi/"
+  },
+  {
+   "w": "vertical",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "dikey, düşey",
+   "ipa": "/ˈvɝ.tɪ.kəl/"
+  },
+  {
+   "w": "knowledgeable",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "bilgili",
+   "ipa": "/ˈnɑ.lɪ.d͡ʒə.bəl/"
+  },
+  {
+   "w": "ordinarily",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "normalde, genellikle"
+  },
+  {
+   "w": "formulate",
+   "pos": [
+    "verb"
+   ],
+   "tr": "formüle etmek, oluşturmak, ifade etmek",
+   "ipa": "/ˈfɔː(ɹ)mjʊleɪt/"
+  },
+  {
+   "w": "resin",
+   "pos": [
+    "noun"
+   ],
+   "tr": "reçine",
+   "ipa": "/ˈɹɛzɪn/"
+  },
+  {
+   "w": "sacrifice",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: fedakârlık, kurban; fiil: feda etmek, kurban etmek",
+   "ipa": "/ˈsæk.ɹɪˌfaɪs/"
+  },
+  {
+   "w": "cleanly",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "temiz bir şekilde, düzgünce"
+  },
+  {
+   "w": "endorsement",
+   "pos": [
+    "noun"
+   ],
+   "tr": "onay, destek, ciro"
+  },
+  {
+   "w": "stretching",
+   "pos": [
+    "noun"
+   ],
+   "tr": "germe, esneme (egzersizi)"
+  },
+  {
+   "w": "continuity",
+   "pos": [
+    "noun"
+   ],
+   "tr": "süreklilik, devamlılık",
+   "ipa": "/ˌkɑn.tɪˈn(j)u.ə.ti/"
+  },
+  {
+   "w": "shambles",
+   "pos": [
+    "noun"
+   ],
+   "tr": "karmaşa, kaos, dağınıklık"
+  },
+  {
+   "w": "claustrophobic",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "klostrofobik, boğucu"
+  },
+  {
+   "w": "claustrophobia",
+   "pos": [
+    "noun"
+   ],
+   "tr": "klostrofobi, kapalı yer korkusu",
+   "ipa": "/ˌklɔː.strəˈfoʊ.bi.ə/"
+  },
+  {
+   "w": "headstrong",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "dik başlı, inatçı"
+  },
+  {
+   "w": "tact",
+   "pos": [
+    "noun"
+   ],
+   "tr": "incelik, nezaket",
+   "ipa": "/tækt/"
+  },
+  {
+   "w": "tactful",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "düşünceli, nazik, incelikli"
+  },
+  {
+   "w": "tactfully",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "nazikçe, incelikle"
+  },
+  {
+   "w": "blister",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: su toplaması, kabarcık; fiil: su toplamak, kabarmak",
+   "ipa": "/ˈblɪstɚ/"
+  },
+  {
+   "w": "sponsorship",
+   "pos": [
+    "noun"
+   ],
+   "tr": "sponsorluk"
+  },
+  {
+   "w": "ego",
+   "pos": [
+    "noun"
+   ],
+   "tr": "ego, benlik",
+   "ipa": "/ˈiɡoʊ/"
+  },
+  {
+   "w": "saloon",
+   "pos": [
+    "noun"
+   ],
+   "tr": "salon, bar, sedan araba"
+  },
+  {
+   "w": "beforehand",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "önceden, öncesinde",
+   "ipa": "/bɪˈfɔɹhænd/"
+  },
+  {
+   "w": "slob",
+   "pos": [
+    "noun"
+   ],
+   "tr": "pasaklı kimse, tembel"
+  },
+  {
+   "w": "coverage",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kapsam, (medyada) haber yayını, kapsama alanı",
+   "ipa": "/ˈkʌv.(ə.)ɹɪdʒ/"
+  },
+  {
+   "w": "unplug",
+   "pos": [
+    "verb"
+   ],
+   "tr": "fişten çekmek, fişini çekmek"
+  },
+  {
+   "w": "gadget",
+   "pos": [
+    "noun"
+   ],
+   "tr": "alet, cihaz, aygıt"
+  },
+  {
+   "w": "rediscover",
+   "pos": [
+    "verb"
+   ],
+   "tr": "yeniden keşfetmek"
+  },
+  {
+   "w": "subtly",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "belli belirsiz, ustaca, incelikle",
+   "ipa": "/ˈsʌt.l̩.li/"
+  },
+  {
+   "w": "brainwash",
+   "pos": [
+    "verb"
+   ],
+   "tr": "beyin yıkamak",
+   "ipa": "/ˈbɹeɪnwɒʃ/"
+  },
+  {
+   "w": "brainwashing",
+   "pos": [
+    "noun"
+   ],
+   "tr": "beyin yıkama"
+  },
+  {
+   "w": "implicate",
+   "pos": [
+    "verb"
+   ],
+   "tr": "suça karıştırmak, sorumlu tutmak"
+  },
+  {
+   "w": "malfunction",
+   "pos": [
+    "verb"
+   ],
+   "tr": "arızalanmak, bozulmak",
+   "ipa": "/ˌmælˈfʌŋk.ʃən/"
+  },
+  {
+   "w": "wayside",
+   "pos": [
+    "noun"
+   ],
+   "tr": "yol kenarı"
+  },
+  {
+   "w": "expire",
+   "pos": [
+    "verb"
+   ],
+   "tr": "süresi dolmak, sona ermek"
+  },
+  {
+   "w": "con",
+   "pos": [
+    "verb",
+    "noun"
+   ],
+   "tr": "fiil: dolandırmak, kandırmak; isim: dolandırıcılık, üçkâğıt, olumsuz yön",
+   "ipa": "/kɑn/"
+  },
+  {
+   "w": "damply",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "nemli bir şekilde"
+  },
+  {
+   "w": "ghostly",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "hayaletimsi, ürkütücü"
+  },
+  {
+   "w": "carrier",
+   "pos": [
+    "noun"
+   ],
+   "tr": "taşıyıcı, nakliyeci, taşıma şirketi",
+   "ipa": "/ˈkæɹi.ɚ/"
+  },
+  {
+   "w": "washtub",
+   "pos": [
+    "noun"
+   ],
+   "tr": "çamaşır leğeni"
+  },
+  {
+   "w": "apt",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "uygun, yerinde, eğilimli"
+  },
+  {
+   "w": "apt to",
+   "pos": [
+    "verb"
+   ],
+   "tr": "-meye eğilimli olmak, -mesi muhtemel olmak"
+  },
+  {
+   "w": "portable",
+   "pos": [
+    "adjective",
+    "noun"
+   ],
+   "tr": "sıfat: taşınabilir, portatif; isim: taşınabilir cihaz",
+   "ipa": "/ˈpɔɹtəbəl/"
+  },
+  {
+   "w": "ornamental",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "dekoratif, süs amaçlı"
+  },
+  {
+   "w": "placid",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "sakin, uysal, durgun",
+   "ipa": "/ˈplæsɪd/"
+  },
+  {
+   "w": "placidly",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "sakince, uysalca"
+  },
+  {
+   "w": "unmanageable",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "idare edilemez, kontrol edilemez"
+  },
+  {
+   "w": "appliance",
+   "pos": [
+    "noun"
+   ],
+   "tr": "cihaz, ev aleti",
+   "ipa": "/əˈplaɪ.əns/"
+  },
+  {
+   "w": "relinquish",
+   "pos": [
+    "verb"
+   ],
+   "tr": "bırakmak, vazgeçmek, feragat etmek",
+   "ipa": "/ɹɪˈlɪŋkwɪʃ/"
+  },
+  {
+   "w": "tedious",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "sıkıcı, usandırıcı"
+  },
+  {
+   "w": "tedium",
+   "pos": [
+    "noun"
+   ],
+   "tr": "sıkıcılık, bıkkınlık, usanç",
+   "ipa": "/ˈtiː.di.əm/"
+  },
+  {
+   "w": "exert",
+   "pos": [
+    "verb"
+   ],
+   "tr": "uygulamak, kullanmak, çabalamak"
+  },
+  {
+   "w": "extortion",
+   "pos": [
+    "noun"
+   ],
+   "tr": "haraç, şantaj, gasp",
+   "ipa": "/ɪkˈstɔɹʃən/"
+  },
+  {
+   "w": "alleviate",
+   "pos": [
+    "verb"
+   ],
+   "tr": "hafifletmek, azaltmak, dindirmek",
+   "ipa": "/əˈli.vi.eɪt/"
+  },
+  {
+   "w": "elaborate",
+   "pos": [
+    "adjective",
+    "verb"
+   ],
+   "tr": "sıfat: ayrıntılı, detaylı, özenli; fiil: ayrıntılandırmak, ayrıntıya girmek",
+   "ipa": "/ɪˈlæb.(ə.)ɹət/"
+  },
+  {
+   "w": "elaboration",
+   "pos": [
+    "noun"
+   ],
+   "tr": "ayrıntılandırma, detaylı açıklama"
+  },
+  {
+   "w": "detest",
+   "pos": [
+    "verb"
+   ],
+   "tr": "nefret etmek, tiksinmek",
+   "ipa": "/dɪˈtɛst/"
+  },
+  {
+   "w": "detestable",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "iğrenç, nefret uyandıran"
+  },
+  {
+   "w": "suds",
+   "pos": [
+    "noun"
+   ],
+   "tr": "sabun köpüğü",
+   "ipa": "/sʌdz/"
+  },
+  {
+   "w": "agreeable",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "hoş, cana yakın, razı"
+  },
+  {
+   "w": "prowl",
+   "pos": [
+    "verb"
+   ],
+   "tr": "sinsice dolaşmak, kolaçan etmek"
+  },
+  {
+   "w": "speculate",
+   "pos": [
+    "verb"
+   ],
+   "tr": "tahminde bulunmak, spekülasyon yapmak"
+  },
+  {
+   "w": "speculation",
+   "pos": [
+    "noun"
+   ],
+   "tr": "spekülasyon, tahmin, varsayım"
+  },
+  {
+   "w": "speculative",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "spekülatif, tahmine dayalı, riskli"
+  },
+  {
+   "w": "peacock",
+   "pos": [
+    "noun"
+   ],
+   "tr": "tavus kuşu",
+   "ipa": "/ˈpikɑk/"
+  },
+  {
+   "w": "disdain",
+   "pos": [
+    "noun"
+   ],
+   "tr": "küçümseme, hor görme"
+  },
+  {
+   "w": "reenact",
+   "pos": [
+    "verb"
+   ],
+   "tr": "yeniden canlandırmak, yeniden sahnelemek"
+  },
+  {
+   "w": "torment",
+   "pos": [
+    "verb",
+    "noun"
+   ],
+   "tr": "fiil: eziyet etmek, acı çektirmek; isim: eziyet, azap, ıstırap",
+   "ipa": "/ˈtɔː(ɹ)mɛnt/"
+  },
+  {
+   "w": "extravagance",
+   "pos": [
+    "noun"
+   ],
+   "tr": "savurganlık, israf, aşırılık"
+  },
+  {
+   "w": "exploitation",
+   "pos": [
+    "noun"
+   ],
+   "tr": "sömürü, istismar",
+   "ipa": "/ˌɛksplɔɪˈteɪʃn̩/"
+  },
+  {
+   "w": "mechanism",
+   "pos": [
+    "noun"
+   ],
+   "tr": "mekanizma, düzenek",
+   "ipa": "/ˈmɛk.ə.nɪ.zəm/"
+  },
+  {
+   "w": "hence",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "bu yüzden, dolayısıyla, bu nedenle",
+   "ipa": "/ˈhɛns/"
+  },
+  {
+   "w": "offspring",
+   "pos": [
+    "noun"
+   ],
+   "tr": "çocuk, evlat, yavru",
+   "ipa": "/ˈɔfspɹɪŋ/"
+  },
+  {
+   "w": "oblige",
+   "pos": [
+    "verb"
+   ],
+   "tr": "mecbur etmek, zorunda bırakmak, ricasını yerine getirmek"
+  },
+  {
+   "w": "collaborate",
+   "pos": [
+    "verb"
+   ],
+   "tr": "iş birliği yapmak, birlikte çalışmak",
+   "ipa": "/kəˈlæb.ə.ɹeɪt/"
+  },
+  {
+   "w": "collaborator",
+   "pos": [
+    "noun"
+   ],
+   "tr": "çalışma ortağı, iş birlikçi"
+  },
+  {
+   "w": "collaboration",
+   "pos": [
+    "noun"
+   ],
+   "tr": "iş birliği, ortak çalışma",
+   "ipa": "/kəˌlæbəˈɹeɪʃən/"
+  },
+  {
+   "w": "collaborative",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "iş birliğine dayalı, ortak"
+  },
+  {
+   "w": "showy",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "gösterişli, şatafatlı"
+  },
+  {
+   "w": "wrangle",
+   "pos": [
+    "verb"
+   ],
+   "tr": "tartışmak, çekişmek, kavga etmek"
+  },
+  {
+   "w": "premise",
+   "pos": [
+    "noun"
+   ],
+   "tr": "öncül, varsayım, dayanak",
+   "ipa": "/ˈpɹɛm.ɪs/"
+  },
+  {
+   "w": "advantageous",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "avantajlı, faydalı, kârlı"
+  },
+  {
+   "w": "parasite",
+   "pos": [
+    "noun"
+   ],
+   "tr": "parazit, asalak",
+   "ipa": "/ˈpæɹəˌsaɪt/"
+  },
+  {
+   "w": "fanciful",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "hayalî, gerçek dışı, fantastik"
+  },
+  {
+   "w": "poise",
+   "pos": [
+    "noun"
+   ],
+   "tr": "soğukkanlılık, özgüven, duruş",
+   "ipa": "/pɔɪz/"
+  },
+  {
+   "w": "customary",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "alışılagelmiş, geleneksel, âdet olan",
+   "ipa": "/ˈkʌs.təˌmɛɹ.i/"
+  },
+  {
+   "w": "insightful",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "derin görüşlü, isabetli, aydınlatıcı"
+  },
+  {
+   "w": "notable",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "dikkate değer, önemli, kayda değer"
+  },
+  {
+   "w": "vicious",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "acımasız, kötü niyetli, vahşi",
+   "ipa": "/ˈvɪʃəs/"
+  },
+  {
+   "w": "viciously",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "acımasızca, vahşice"
+  },
+  {
+   "w": "withdrawn",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "içine kapanık, çekingen",
+   "ipa": "/wɪðˈdɹɔn/"
+  },
+  {
+   "w": "torturous",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "işkence gibi, eziyetli",
+   "ipa": "/ˈtɔɹt͡ʃəɹəs/"
+  },
+  {
+   "w": "depict",
+   "pos": [
+    "verb"
+   ],
+   "tr": "tasvir etmek, betimlemek, resmetmek",
+   "ipa": "/dɪˈpɪkt/"
+  },
+  {
+   "w": "depiction",
+   "pos": [
+    "noun"
+   ],
+   "tr": "tasvir, betimleme"
+  },
+  {
+   "w": "upheaval",
+   "pos": [
+    "noun"
+   ],
+   "tr": "çalkantı, köklü değişiklik, kargaşa",
+   "ipa": "/ʌpˈhiːvəl/"
+  },
+  {
+   "w": "shortlist",
+   "pos": [
+    "verb",
+    "noun"
+   ],
+   "tr": "fiil: kısa listeye almak, ön elemeden geçirmek; isim: kısa liste, ön eleme listesi"
+  },
+  {
+   "w": "uneventful",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "olaysız, sakin"
+  },
+  {
+   "w": "pertinent",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "ilgili, yerinde, konuyla ilgili"
+  },
+  {
+   "w": "pertain to",
+   "pos": [
+    "verb"
+   ],
+   "tr": "ilgili olmak, ait olmak"
+  },
+  {
+   "w": "daydream",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: hayal, düş; fiil: hayal kurmak, dalıp gitmek",
+   "ipa": "/ˈdeɪdɹiːm/"
+  },
+  {
+   "w": "protagonist",
+   "pos": [
+    "noun"
+   ],
+   "tr": "baş kahraman, ana karakter, öncü",
+   "ipa": "/pɹoʊˈtæɡ.ə.nɪst/"
+  },
+  {
+   "w": "simplicity",
+   "pos": [
+    "noun"
+   ],
+   "tr": "sadelik, basitlik",
+   "ipa": "/sɪmˈplɪsɪti/"
+  },
+  {
+   "w": "blockbuster",
+   "pos": [
+    "noun"
+   ],
+   "tr": "gişe rekortmeni, çok satan eser"
+  },
+  {
+   "w": "resonate",
+   "pos": [
+    "verb"
+   ],
+   "tr": "yankılanmak, karşılık bulmak, etkilemek"
+  },
+  {
+   "w": "sequel",
+   "pos": [
+    "noun"
+   ],
+   "tr": "devam filmi, devam kitabı, sonuç"
+  },
+  {
+   "w": "irony",
+   "pos": [
+    "noun"
+   ],
+   "tr": "ironi, kaderin cilvesi",
+   "ipa": "/ˈaɪ.ɹə.ni/"
+  },
+  {
+   "w": "acidic",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "asidik, asitli",
+   "ipa": "/əˈsɪd.ɪk/"
+  },
+  {
+   "w": "align",
+   "pos": [
+    "verb"
+   ],
+   "tr": "hizalamak, uyumlu hale getirmek, aynı safta yer almak",
+   "ipa": "/əˈlaɪn/"
+  },
+  {
+   "w": "alignment",
+   "pos": [
+    "noun"
+   ],
+   "tr": "hizalama, hiza, uyum"
+  },
+  {
+   "w": "manipulation",
+   "pos": [
+    "noun"
+   ],
+   "tr": "manipülasyon, yönlendirme, işleme",
+   "ipa": "/məˌnɪp.jəˈleɪ.ʃən/"
+  },
+  {
+   "w": "suitor",
+   "pos": [
+    "noun"
+   ],
+   "tr": "talip"
+  },
+  {
+   "w": "deceit",
+   "pos": [
+    "noun"
+   ],
+   "tr": "aldatma, hile, sahtekârlık",
+   "ipa": "/dɪˈsiːt/"
+  },
+  {
+   "w": "alienate",
+   "pos": [
+    "verb"
+   ],
+   "tr": "soğutmak, uzaklaştırmak, yabancılaştırmak"
+  },
+  {
+   "w": "persuasively",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "ikna edici bir şekilde"
+  },
+  {
+   "w": "confinement",
+   "pos": [
+    "noun"
+   ],
+   "tr": "hapis, kapatılma, sınırlandırma"
+  },
+  {
+   "w": "minutiae",
+   "pos": [
+    "noun"
+   ],
+   "tr": "ayrıntılar, ufak detaylar"
+  },
+  {
+   "w": "peasant",
+   "pos": [
+    "noun"
+   ],
+   "tr": "köylü, çiftçi",
+   "ipa": "/ˈpɛzənt/"
+  },
+  {
+   "w": "inexplicable",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "açıklanamaz, anlaşılmaz",
+   "ipa": "/ˌɪn.ɪkˈsplɪ.kə.bl̩/"
+  },
+  {
+   "w": "inexplicably",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "açıklanamaz bir şekilde, nedense"
+  },
+  {
+   "w": "pigeon",
+   "pos": [
+    "noun"
+   ],
+   "tr": "güvercin",
+   "ipa": "/ˈpɪ.dʒɪn/"
+  },
+  {
+   "w": "harass",
+   "pos": [
+    "verb"
+   ],
+   "tr": "taciz etmek, rahatsız etmek"
+  },
+  {
+   "w": "harassment",
+   "pos": [
+    "noun"
+   ],
+   "tr": "taciz, rahatsız etme",
+   "ipa": "/həˈɹæsmənt/"
+  },
+  {
+   "w": "believably",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "inandırıcı bir şekilde"
+  },
+  {
+   "w": "readable",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "okunabilir, okunaklı, okunması kolay"
+  },
+  {
+   "w": "cleverness",
+   "pos": [
+    "noun"
+   ],
+   "tr": "zekâ, akıllılık, ustalık"
+  },
+  {
+   "w": "persecute",
+   "pos": [
+    "verb"
+   ],
+   "tr": "zulmetmek, eziyet etmek"
+  },
+  {
+   "w": "persecution",
+   "pos": [
+    "noun"
+   ],
+   "tr": "zulüm, eziyet",
+   "ipa": "/ˌpɝsəˈkjuʃən/"
+  },
+  {
+   "w": "smug",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "kendini beğenmiş, kendinden memnun"
+  },
+  {
+   "w": "smugly",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "kendini beğenmiş bir şekilde, kibirle"
+  },
+  {
+   "w": "ferocious",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "vahşi, yırtıcı, şiddetli",
+   "ipa": "/fəˈɹoʊʃəs/"
+  },
+  {
+   "w": "ferociously",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "vahşice, şiddetle"
+  },
+  {
+   "w": "hostile",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "düşmanca, saldırgan, olumsuz"
+  },
+  {
+   "w": "hostility",
+   "pos": [
+    "noun"
+   ],
+   "tr": "düşmanlık, husumet",
+   "ipa": "/hɑˈstɪlɪti/"
+  },
+  {
+   "w": "dismay",
+   "pos": [
+    "verb",
+    "noun"
+   ],
+   "tr": "fiil: dehşete düşürmek, hayal kırıklığına uğratmak; isim: dehşet, üzüntü, hayal kırıklığı",
+   "ipa": "/dɪsˈmeɪ/"
+  },
+  {
+   "w": "methodical",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "metodik, sistemli, düzenli",
+   "ipa": "/mɪˈθɑdɪkəl/"
+  },
+  {
+   "w": "ruthless",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "acımasız, merhametsiz",
+   "ipa": "/ˈɹuːθləs/"
+  },
+  {
+   "w": "ruthlessness",
+   "pos": [
+    "noun"
+   ],
+   "tr": "acımasızlık, merhametsizlik"
+  },
+  {
+   "w": "clan",
+   "pos": [
+    "noun"
+   ],
+   "tr": "klan, kabile, boy",
+   "ipa": "/klæn/"
+  },
+  {
+   "w": "privileged",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "ayrıcalıklı, imtiyazlı"
+  },
+  {
+   "w": "crumble",
+   "pos": [
+    "verb"
+   ],
+   "tr": "ufalanmak, parçalanmak, çökmek"
+  },
+  {
+   "w": "crumb",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kırıntı",
+   "ipa": "/kɹʌm/"
+  },
+  {
+   "w": "closeness",
+   "pos": [
+    "noun"
+   ],
+   "tr": "yakınlık",
+   "ipa": "/ˈkloʊs.nəs/"
+  },
+  {
+   "w": "rarity",
+   "pos": [
+    "noun"
+   ],
+   "tr": "nadirlik, ender bulunan şey",
+   "ipa": "/ˈɹɛəɹəti/"
+  },
+  {
+   "w": "evoke",
+   "pos": [
+    "verb"
+   ],
+   "tr": "çağrıştırmak, uyandırmak, akla getirmek"
+  },
+  {
+   "w": "repel",
+   "pos": [
+    "verb"
+   ],
+   "tr": "püskürtmek, uzak tutmak, tiksindirmek"
+  },
+  {
+   "w": "repellant",
+   "pos": [
+    "noun",
+    "adjective"
+   ],
+   "tr": "isim: kovucu madde; sıfat: itici, tiksindirici"
+  },
+  {
+   "w": "aqua",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "camgöbeği, su yeşili"
+  },
+  {
+   "w": "aquarium",
+   "pos": [
+    "noun"
+   ],
+   "tr": "akvaryum",
+   "ipa": "/əˈkwɛɹ.i.jəm/"
+  },
+  {
+   "w": "insightfully",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "derin bir kavrayışla, isabetli bir şekilde"
+  },
+  {
+   "w": "flashback",
+   "pos": [
+    "noun"
+   ],
+   "tr": "geçmişe dönüş sahnesi, ani anı canlanması"
+  },
+  {
+   "w": "self-worth",
+   "pos": [
+    "noun"
+   ],
+   "tr": "öz değer, kendine saygı"
+  },
+  {
+   "w": "cite",
+   "pos": [
+    "verb"
+   ],
+   "tr": "alıntılamak, örnek göstermek, öne sürmek"
+  },
+  {
+   "w": "citation",
+   "pos": [
+    "noun"
+   ],
+   "tr": "alıntı, atıf, takdirname",
+   "ipa": "/ˌsaɪˈteɪʃən/"
+  },
+  {
+   "w": "ecstatically",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "kendinden geçercesine, çok mutlu bir şekilde"
+  },
+  {
+   "w": "pleasurable",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "zevkli, keyifli, hoş"
+  },
+  {
+   "w": "substantially",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "büyük ölçüde, önemli ölçüde, esasen"
+  },
+  {
+   "w": "favorably",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "olumlu bir şekilde, lehte"
+  },
+  {
+   "w": "diversity",
+   "pos": [
+    "noun"
+   ],
+   "tr": "çeşitlilik",
+   "ipa": "/daɪˈvɜː(ɹ)sɪti/"
+  },
+  {
+   "w": "elitist",
+   "pos": [
+    "noun"
+   ],
+   "tr": "seçkinci, elitist"
+  },
+  {
+   "w": "grumble",
+   "pos": [
+    "verb"
+   ],
+   "tr": "homurdanmak, söylenmek, şikâyet etmek"
+  },
+  {
+   "w": "rumble",
+   "pos": [
+    "verb",
+    "noun"
+   ],
+   "tr": "fiil: gümbürdemek, gürlemek, guruldamak; isim: gümbürtü, gürleme",
+   "ipa": "/ˈɹʌmb(ə)l/"
+  },
+  {
+   "w": "neglectful",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "ihmalkâr, özensiz"
+  },
+  {
+   "w": "roundup",
+   "pos": [
+    "noun"
+   ],
+   "tr": "haber özeti, toparlama, toplu yakalama"
+  },
+  {
+   "w": "conscientious",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "titiz, özenli, vicdanlı"
+  },
+  {
+   "w": "conscientiously",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "titizlikle, özenle"
+  },
+  {
+   "w": "indefinite",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "belirsiz, süresiz"
+  },
+  {
+   "w": "indefinitely",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "süresiz olarak, belirsiz bir süre"
+  },
+  {
+   "w": "atmospheric",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "atmosferik, etkileyici havası olan",
+   "ipa": "/ˌætməsˈfɛɹɪk/"
+  },
+  {
+   "w": "fuse",
+   "pos": [
+    "verb"
+   ],
+   "tr": "birleştirmek, kaynaştırmak, sigortası atmak",
+   "ipa": "/fjuːz/"
+  },
+  {
+   "w": "fusion",
+   "pos": [
+    "noun"
+   ],
+   "tr": "füzyon, kaynaşma, birleşme"
+  },
+  {
+   "w": "robust",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "sağlam, güçlü, dayanıklı"
+  },
+  {
+   "w": "robustly",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "sağlam bir şekilde, güçlü bir şekilde, kararlılıkla"
+  },
+  {
+   "w": "dismal",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "kasvetli, iç karartıcı, berbat",
+   "ipa": "/ˈdɪzməl/"
+  },
+  {
+   "w": "dismally",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "kasvetli bir şekilde, berbat bir şekilde"
+  },
+  {
+   "w": "crave",
+   "pos": [
+    "verb"
+   ],
+   "tr": "çok istemek, can atmak, canı çekmek",
+   "ipa": "/kɹeɪv/"
+  },
+  {
+   "w": "craving",
+   "pos": [
+    "noun"
+   ],
+   "tr": "aşırı istek, şiddetli arzu, aşerme"
+  },
+  {
+   "w": "prospective",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "muhtemel, olası, gelecekteki",
+   "ipa": "/pɹəˈspɛktɪv/"
+  },
+  {
+   "w": "swap",
+   "pos": [
+    "verb",
+    "noun"
+   ],
+   "tr": "fiil: takas etmek, değiştirmek; isim: takas, değiş tokuş",
+   "ipa": "/ˈswɑp/"
+  },
+  {
+   "w": "remotely",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "uzaktan, azıcık (bile)"
+  },
+  {
+   "w": "violet",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "mor, menekşe rengi",
+   "ipa": "/ˈvaɪ.ə.lət/"
+  },
+  {
+   "w": "bubbly",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "neşeli, canlı, köpüklü",
+   "ipa": "/ˈbʌbli/"
+  },
+  {
+   "w": "chaotically",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "kaotik bir şekilde, karmakarışık bir şekilde"
+  },
+  {
+   "w": "apprehensive",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "endişeli, tedirgin, kaygılı",
+   "ipa": "/ˌæpɹɪˈhɛnsɪv/"
+  },
+  {
+   "w": "settee",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kanepe, sedir"
+  },
+  {
+   "w": "trampoline",
+   "pos": [
+    "noun"
+   ],
+   "tr": "trambolin",
+   "ipa": "/ˌtɹæmpəˈliːn/"
+  },
+  {
+   "w": "stamina",
+   "pos": [
+    "noun"
+   ],
+   "tr": "dayanıklılık, dayanma gücü, kondisyon",
+   "ipa": "/ˈstæmənə/"
+  },
+  {
+   "w": "ploy",
+   "pos": [
+    "noun"
+   ],
+   "tr": "taktik, hile, kurnazlık",
+   "ipa": "/plɔɪ/"
+  },
+  {
+   "w": "dither",
+   "pos": [
+    "verb"
+   ],
+   "tr": "kararsız kalmak, tereddüt etmek, bocalamak",
+   "ipa": "/ˈdɪðɚ/"
+  },
+  {
+   "w": "overalls",
+   "pos": [
+    "noun"
+   ],
+   "tr": "tulum, iş tulumu",
+   "ipa": "/ˈoʊvəɹɔːlz/"
+  },
+  {
+   "w": "unison",
+   "pos": [
+    "noun"
+   ],
+   "tr": "birlik, ahenk, uyum"
+  },
+  {
+   "w": "snail",
+   "pos": [
+    "noun"
+   ],
+   "tr": "salyangoz",
+   "ipa": "/sneɪl/"
+  },
+  {
+   "w": "bliss",
+   "pos": [
+    "noun"
+   ],
+   "tr": "mutluluk, saadet, huzur",
+   "ipa": "/blɪs/"
+  },
+  {
+   "w": "inexhaustible",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "tükenmez, bitmez"
+  },
+  {
+   "w": "acre",
+   "pos": [
+    "noun"
+   ],
+   "tr": "akre (yaklaşık 4 dönümlük alan ölçüsü)",
+   "ipa": "/ˈeɪ.kɚ/"
+  },
+  {
+   "w": "heifer",
+   "pos": [
+    "noun"
+   ],
+   "tr": "düve",
+   "ipa": "/ˈhɛfə(ɹ)/"
+  },
+  {
+   "w": "ewe",
+   "pos": [
+    "noun"
+   ],
+   "tr": "dişi koyun",
+   "ipa": "/juː/"
+  },
+  {
+   "w": "adversary",
+   "pos": [
+    "noun"
+   ],
+   "tr": "rakip, hasım, düşman",
+   "ipa": "/ˈæd.vəɹˌsɛɹi/"
+  },
+  {
+   "w": "victorious",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "galip, muzaffer, zafer kazanmış",
+   "ipa": "/vɪkˈtɔːɹiəs/"
+  },
+  {
+   "w": "victoriously",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "muzaffer bir şekilde, zaferle"
+  },
+  {
+   "w": "profound",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "derin, köklü, büyük",
+   "ipa": "/pɹəˈfaʊnd/"
+  },
+  {
+   "w": "profoundly",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "derinden, son derece, büyük ölçüde"
+  },
+  {
+   "w": "baldly",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "açıkça, dolaysızca, lafı dolandırmadan"
+  },
+  {
+   "w": "bearded",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "sakallı",
+   "ipa": "/ˈbɪɹdəd/"
+  },
+  {
+   "w": "professionalism",
+   "pos": [
+    "noun"
+   ],
+   "tr": "profesyonellik",
+   "ipa": "/pɹəˈfɛʃənəˌlɪzəm/"
+  },
+  {
+   "w": "artistically",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "sanatsal açıdan, sanatsal biçimde"
+  },
+  {
+   "w": "popularization",
+   "pos": [
+    "noun"
+   ],
+   "tr": "yaygınlaştırma, popülerleştirme"
+  },
+  {
+   "w": "pendulum",
+   "pos": [
+    "noun"
+   ],
+   "tr": "sarkaç, rakkas",
+   "ipa": "/ˈpɛnd͡ʒələm/"
+  },
+  {
+   "w": "predecessor",
+   "pos": [
+    "noun"
+   ],
+   "tr": "selef, önceki kişi, öncel",
+   "ipa": "/ˈpɹɛd.ə.sɛs.ɚ/"
+  },
+  {
+   "w": "lapse",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: kısa süreli hata, aksama, aralık; fiil: süresi dolmak, geçersiz olmak, düşmek"
+  },
+  {
+   "w": "ceaseless",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "aralıksız, bitmek bilmeyen, sürekli",
+   "ipa": "/ˈsiːsləs/"
+  },
+  {
+   "w": "ceaselessly",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "durmaksızın, aralıksız"
+  },
+  {
+   "w": "climax",
+   "pos": [
+    "noun"
+   ],
+   "tr": "doruk noktası, zirve, en heyecanlı an"
+  },
+  {
+   "w": "climactic",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "doruk noktasını oluşturan, en heyecanlı"
+  },
+  {
+   "w": "anticlimactic",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "hayal kırıklığı yaratan, beklenenin altında kalan"
+  },
+  {
+   "w": "forfeit",
+   "pos": [
+    "verb"
+   ],
+   "tr": "kaybetmek, hakkını yitirmek, feda etmek"
+  },
+  {
+   "w": "twitch",
+   "pos": [
+    "verb",
+    "noun"
+   ],
+   "tr": "fiil: seğirmek, kıpırdamak; isim: seğirme, tik"
+  },
+  {
+   "w": "intellect",
+   "pos": [
+    "noun"
+   ],
+   "tr": "akıl, zekâ, entelektüel kişi",
+   "ipa": "/ˈɪntəˌlɛkt/"
+  },
+  {
+   "w": "descent",
+   "pos": [
+    "noun"
+   ],
+   "tr": "iniş, soy, köken"
+  },
+  {
+   "w": "exodus",
+   "pos": [
+    "noun"
+   ],
+   "tr": "toplu göç, kitlesel ayrılış",
+   "ipa": "/ˈɛksədəs/"
+  },
+  {
+   "w": "immortalize",
+   "pos": [
+    "verb"
+   ],
+   "tr": "ölümsüzleştirmek"
+  },
+  {
+   "w": "genome",
+   "pos": [
+    "noun"
+   ],
+   "tr": "genom",
+   "ipa": "/ˈd͡ʒiː.noʊm/"
+  },
+  {
+   "w": "fraction",
+   "pos": [
+    "noun"
+   ],
+   "tr": "küçük kısım, kesir, parça",
+   "ipa": "/ˈfɹæk.ʃən/"
+  },
+  {
+   "w": "faction",
+   "pos": [
+    "noun"
+   ],
+   "tr": "hizip, grup, fraksiyon",
+   "ipa": "/ˈfæk.ʃən/"
+  },
+  {
+   "w": "physique",
+   "pos": [
+    "noun"
+   ],
+   "tr": "fizik, vücut yapısı, bünye"
+  },
+  {
+   "w": "utensil",
+   "pos": [
+    "noun"
+   ],
+   "tr": "mutfak aleti, gereç"
+  },
+  {
+   "w": "otter",
+   "pos": [
+    "noun"
+   ],
+   "tr": "su samuru",
+   "ipa": "/ˈɑtɚ/"
+  },
+  {
+   "w": "clammy",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "nemli, yapış yapış"
+  },
+  {
+   "w": "dispense",
+   "pos": [
+    "verb"
+   ],
+   "tr": "dağıtmak, vermek, (ilaç) hazırlamak",
+   "ipa": "/dɪˈspɛns/"
+  },
+  {
+   "w": "dispensary",
+   "pos": [
+    "noun"
+   ],
+   "tr": "dispanser, revir, eczane",
+   "ipa": "/dɪsˈpɛnsəɹi/"
+  },
+  {
+   "w": "diverge",
+   "pos": [
+    "verb"
+   ],
+   "tr": "ayrılmak, farklılaşmak, sapmak"
+  },
+  {
+   "w": "divergence",
+   "pos": [
+    "noun"
+   ],
+   "tr": "ayrışma, farklılık, sapma"
+  },
+  {
+   "w": "divergent",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "farklı, ayrışan, birbirinden ayrılan"
+  },
+  {
+   "w": "superficial",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "yüzeysel, üstünkörü",
+   "ipa": "/ˌsupɚˈfɪʃəl/"
+  },
+  {
+   "w": "superficially",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "yüzeysel olarak, görünüşte"
+  },
+  {
+   "w": "aesthetic",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "estetik",
+   "ipa": "/ɛsˈθɛ.tɪk/"
+  },
+  {
+   "w": "aesthetically",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "estetik açıdan"
+  },
+  {
+   "w": "scrutinize",
+   "pos": [
+    "verb"
+   ],
+   "tr": "dikkatle incelemek, irdelemek",
+   "ipa": "/ˈskɹutn̩ˌaɪz/"
+  },
+  {
+   "w": "scrutiny",
+   "pos": [
+    "noun"
+   ],
+   "tr": "dikkatli inceleme, denetim",
+   "ipa": "/ˈskɹu.tɪ.ni/"
+  },
+  {
+   "w": "quip",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: espri, nükte; fiil: espri yapmak, nükteli söz söylemek",
+   "ipa": "/kwɪp/"
+  },
+  {
+   "w": "woo",
+   "pos": [
+    "verb"
+   ],
+   "tr": "kur yapmak, gönlünü kazanmaya çalışmak, ikna etmeye çalışmak",
+   "ipa": "/wuː/"
+  },
+  {
+   "w": "criteria",
+   "pos": [
+    "noun"
+   ],
+   "tr": "ölçütler, kriterler"
+  },
+  {
+   "w": "plausible",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "makul, akla yatkın, inandırıcı"
+  },
+  {
+   "w": "plausibility",
+   "pos": [
+    "noun"
+   ],
+   "tr": "akla yatkınlık, inandırıcılık"
+  },
+  {
+   "w": "plausibly",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "akla yatkın bir şekilde, makul olarak"
+  },
+  {
+   "w": "instinctive",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "içgüdüsel",
+   "ipa": "/ɪnˈstɪŋktɪv/"
+  },
+  {
+   "w": "instinctively",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "içgüdüsel olarak"
+  },
+  {
+   "w": "stylistic",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "üslupsal, biçemsel"
+  },
+  {
+   "w": "stylistically",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "üslup açısından"
+  },
+  {
+   "w": "inheritance",
+   "pos": [
+    "noun"
+   ],
+   "tr": "miras, kalıtım",
+   "ipa": "/ɪnˈhɛɹɪtəns/"
+  },
+  {
+   "w": "inherent",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "doğasında olan, içkin, doğal",
+   "ipa": "/ɪnˈhɪəɹənt/"
+  },
+  {
+   "w": "inherently",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "doğası gereği, özünde"
+  },
+  {
+   "w": "spontaneous",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "kendiliğinden, spontane, içten gelen",
+   "ipa": "/spɑnˈteɪ.ni.əs/"
+  },
+  {
+   "w": "spontaneously",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "kendiliğinden, plansızca, içten gelerek",
+   "ipa": "/spɑnˈteɪ.ni.əs.li/"
+  },
+  {
+   "w": "honk",
+   "pos": [
+    "verb",
+    "noun"
+   ],
+   "tr": "fiil: korna çalmak, (kaz) bağırmak; isim: korna sesi, kaz sesi",
+   "ipa": "/hɑŋk/"
+  },
+  {
+   "w": "goose",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kaz",
+   "ipa": "/ɡus/"
+  },
+  {
+   "w": "innovate",
+   "pos": [
+    "verb"
+   ],
+   "tr": "yenilik yapmak, yenilik getirmek"
+  },
+  {
+   "w": "connoisseur",
+   "pos": [
+    "noun"
+   ],
+   "tr": "uzman, erbap, ehil kimse",
+   "ipa": "/ˌkɑnəˈsɝ/"
+  },
+  {
+   "w": "abstraction",
+   "pos": [
+    "noun"
+   ],
+   "tr": "soyutlama, soyut kavram, dalgınlık",
+   "ipa": "/æbˈstɹæk.ʃn̩/"
+  },
+  {
+   "w": "tantrum",
+   "pos": [
+    "noun"
+   ],
+   "tr": "öfke nöbeti, huysuzluk krizi"
+  },
+  {
+   "w": "discard",
+   "pos": [
+    "verb"
+   ],
+   "tr": "atmak, bir kenara atmak, elden çıkarmak"
+  },
+  {
+   "w": "fatality",
+   "pos": [
+    "noun"
+   ],
+   "tr": "ölüm, can kaybı, ölü"
+  },
+  {
+   "w": "stiffen",
+   "pos": [
+    "verb"
+   ],
+   "tr": "sertleşmek, katılaşmak, gerilmek"
+  },
+  {
+   "w": "wooded",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "ağaçlık, ormanlık",
+   "ipa": "/ˈwʊdɪd/"
+  },
+  {
+   "w": "flatter",
+   "pos": [
+    "verb"
+   ],
+   "tr": "pohpohlamak, övmek, iltifat etmek"
+  },
+  {
+   "w": "flattery",
+   "pos": [
+    "noun"
+   ],
+   "tr": "dalkavukluk, yağcılık, pohpohlama",
+   "ipa": "/ˈflæt.ɚ.i/"
+  },
+  {
+   "w": "aimless",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "amaçsız, gayesiz",
+   "ipa": "/ˈeɪm.ləs/"
+  },
+  {
+   "w": "aimlessly",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "amaçsızca, gayesizce",
+   "ipa": "/ˈeɪmləsli/"
+  },
+  {
+   "w": "meaningless",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "anlamsız, boş",
+   "ipa": "/ˈmiː.nɪŋ.ləs/"
+  },
+  {
+   "w": "meaninglessly",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "anlamsızca"
+  },
+  {
+   "w": "candid",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "açık sözlü, samimi, içten"
+  },
+  {
+   "w": "candidly",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "açıkça, açık sözlülükle"
+  },
+  {
+   "w": "vitality",
+   "pos": [
+    "noun"
+   ],
+   "tr": "canlılık, dinçlik, yaşam gücü"
+  },
+  {
+   "w": "provoke",
+   "pos": [
+    "verb"
+   ],
+   "tr": "kışkırtmak, tahrik etmek, neden olmak"
+  },
+  {
+   "w": "provocative",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "kışkırtıcı, tahrik edici"
+  },
+  {
+   "w": "provocatively",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "kışkırtıcı bir şekilde"
+  },
+  {
+   "w": "clench",
+   "pos": [
+    "verb"
+   ],
+   "tr": "sıkmak (diş, yumruk), kenetlemek"
+  },
+  {
+   "w": "haggle",
+   "pos": [
+    "verb"
+   ],
+   "tr": "pazarlık etmek",
+   "ipa": "/ˈhæɡəl/"
+  },
+  {
+   "w": "scorn",
+   "pos": [
+    "noun"
+   ],
+   "tr": "küçümseme, hor görme"
+  },
+  {
+   "w": "scornful",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "küçümseyici, aşağılayıcı"
+  },
+  {
+   "w": "scornfully",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "küçümseyerek, aşağılarcasına"
+  },
+  {
+   "w": "animatedly",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "hararetle, canlı bir şekilde"
+  },
+  {
+   "w": "obscure",
+   "pos": [
+    "verb",
+    "adjective"
+   ],
+   "tr": "fiil: gizlemek, örtmek, belirsizleştirmek; sıfat: belirsiz, anlaşılması güç, az bilinen"
+  },
+  {
+   "w": "obscurely",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "belirsiz bir şekilde, anlaşılmaz biçimde"
+  },
+  {
+   "w": "elevate",
+   "pos": [
+    "verb"
+   ],
+   "tr": "yükseltmek, terfi ettirmek, yüceltmek"
+  },
+  {
+   "w": "elevation",
+   "pos": [
+    "noun"
+   ],
+   "tr": "yükseklik, rakım, terfi",
+   "ipa": "/ˌɛlɪˈveɪʃn̩/"
+  },
+  {
+   "w": "tediously",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "sıkıcı bir şekilde"
+  },
+  {
+   "w": "succession",
+   "pos": [
+    "noun"
+   ],
+   "tr": "art arda gelme, dizi, (makama) halef olma"
+  },
+  {
+   "w": "formality",
+   "pos": [
+    "noun"
+   ],
+   "tr": "formalite, resmiyet",
+   "ipa": "/fɔːrˈmælɪti/"
+  },
+  {
+   "w": "mountaineer",
+   "pos": [
+    "noun"
+   ],
+   "tr": "dağcı, alpinist",
+   "ipa": "/ˌmaʊn.tɪnˈɪɹ/"
+  },
+  {
+   "w": "pioneer",
+   "pos": [
+    "verb",
+    "noun"
+   ],
+   "tr": "fiil: öncülük etmek, ilk kez geliştirmek; isim: öncü"
+  },
+  {
+   "w": "quest",
+   "pos": [
+    "noun"
+   ],
+   "tr": "arayış, peşinde koşma",
+   "ipa": "/kwɛst/"
+  },
+  {
+   "w": "transatlantic",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "Atlantik ötesi, transatlantik"
+  },
+  {
+   "w": "rudiments",
+   "pos": [
+    "noun"
+   ],
+   "tr": "temel bilgiler, esaslar"
+  },
+  {
+   "w": "rudimentary",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "temel, basit, ilkel"
+  },
+  {
+   "w": "immense",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "çok büyük, muazzam, engin",
+   "ipa": "/ɪˈmɛns/"
+  },
+  {
+   "w": "immensely",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "son derece, muazzam ölçüde"
+  },
+  {
+   "w": "advisory",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "danışma amaçlı, tavsiye niteliğinde"
+  },
+  {
+   "w": "trying",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "zor, yorucu, sinir bozucu"
+  },
+  {
+   "w": "adrenaline",
+   "pos": [
+    "noun"
+   ],
+   "tr": "adrenalin",
+   "ipa": "/əˈdɹɛnəlɪn/"
+  },
+  {
+   "w": "tinker",
+   "pos": [
+    "verb",
+    "noun"
+   ],
+   "tr": "fiil: kurcalamak, üzerinde oynamak; isim: seyyar tamirci, kalaycı",
+   "ipa": "/ˈtɪŋkɚ/"
+  },
+  {
+   "w": "lavatory",
+   "pos": [
+    "noun"
+   ],
+   "tr": "tuvalet, lavabo"
+  },
+  {
+   "w": "pinnacle",
+   "pos": [
+    "noun"
+   ],
+   "tr": "doruk, zirve",
+   "ipa": "/ˈpɪnəkəl/"
+  },
+  {
+   "w": "insecure",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "kendine güvenmeyen, güvensiz, emniyetsiz",
+   "ipa": "/ɪnsəˈkjʊɹ/"
+  },
+  {
+   "w": "insecurely",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "güvensizce, sağlam olmayan bir şekilde"
+  },
+  {
+   "w": "reassure",
+   "pos": [
+    "verb"
+   ],
+   "tr": "güven vermek, içini rahatlatmak"
+  },
+  {
+   "w": "reassurance",
+   "pos": [
+    "noun"
+   ],
+   "tr": "güvence, içini rahatlatma, teskin"
+  },
+  {
+   "w": "insensitive",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "duyarsız, anlayışsız, hissiz",
+   "ipa": "/ɪnˈsɛnsɪtɪv/"
+  },
+  {
+   "w": "insensitively",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "duyarsızca, düşüncesizce"
+  },
+  {
+   "w": "profess",
+   "pos": [
+    "verb"
+   ],
+   "tr": "iddia etmek, beyan etmek, açıkça söylemek",
+   "ipa": "/pɹəˈfɛs/"
+  },
+  {
+   "w": "drawback",
+   "pos": [
+    "noun"
+   ],
+   "tr": "dezavantaj, sakınca"
+  },
+  {
+   "w": "oversee",
+   "pos": [
+    "verb"
+   ],
+   "tr": "denetlemek, gözetmek, yönetmek",
+   "ipa": "/ˌoʊ.vɚˈsi/"
+  },
+  {
+   "w": "overseer",
+   "pos": [
+    "noun"
+   ],
+   "tr": "gözetmen, denetçi, ustabaşı"
+  },
+  {
+   "w": "estimation",
+   "pos": [
+    "noun"
+   ],
+   "tr": "tahmin, değerlendirme, görüş"
+  },
+  {
+   "w": "liaison",
+   "pos": [
+    "noun"
+   ],
+   "tr": "irtibat, koordinasyon, irtibat görevlisi"
+  },
+  {
+   "w": "stressfully",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "stresli bir şekilde"
+  },
+  {
+   "w": "loom",
+   "pos": [
+    "verb"
+   ],
+   "tr": "(korkutucu şekilde) belirmek, yaklaşmakta olmak",
+   "ipa": "/lum/"
+  },
+  {
+   "w": "notwithstanding",
+   "pos": [
+    "preposition"
+   ],
+   "tr": "-e rağmen, -e karşın",
+   "ipa": "/ˌnɑtwɪθˈstændɪŋ/"
+  },
+  {
+   "w": "structurally",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "yapısal olarak"
+  },
+  {
+   "w": "structural",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "yapısal"
+  },
+  {
+   "w": "chauffeur",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: şoför, özel şoför; fiil: şoförlük yapmak, arabayla götürmek"
+  },
+  {
+   "w": "sedentary",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "hareketsiz, oturarak yapılan, yerleşik",
+   "ipa": "/ˈsɛd.ən.tɛɹ.i/"
+  },
+  {
+   "w": "rapport",
+   "pos": [
+    "noun"
+   ],
+   "tr": "yakınlık, iyi ilişki, uyum"
+  },
+  {
+   "w": "consultation",
+   "pos": [
+    "noun"
+   ],
+   "tr": "danışma, istişare, konsültasyon",
+   "ipa": "/ˌkɑnsəlˈteɪʃən/"
+  },
+  {
+   "w": "consultancy",
+   "pos": [
+    "noun"
+   ],
+   "tr": "danışmanlık, danışmanlık firması"
+  },
+  {
+   "w": "retention",
+   "pos": [
+    "noun"
+   ],
+   "tr": "elde tutma, koruma, akılda tutma"
+  },
+  {
+   "w": "quarry",
+   "pos": [
+    "noun"
+   ],
+   "tr": "taş ocağı, av",
+   "ipa": "/ˈk(w)ɔɹ.i/"
+  },
+  {
+   "w": "specification",
+   "pos": [
+    "noun"
+   ],
+   "tr": "şartname, teknik özellik, spesifikasyon"
+  },
+  {
+   "w": "contractor",
+   "pos": [
+    "noun"
+   ],
+   "tr": "yüklenici, müteahhit",
+   "ipa": "/ˈkɒnˌtɹæk.tə(ɹ)/"
+  },
+  {
+   "w": "possessor",
+   "pos": [
+    "noun"
+   ],
+   "tr": "sahip, malik",
+   "ipa": "[pʰəˈzɛsə(ɹ)]"
+  },
+  {
+   "w": "chill",
+   "pos": [
+    "verb",
+    "noun"
+   ],
+   "tr": "fiil: soğutmak, ürpertmek, kafa dinlemek; isim: serinlik, ürperti, soğuk algınlığı"
+  },
+  {
+   "w": "chilly",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "serin, soğuk, mesafeli",
+   "ipa": "/ˈt͡ʃɪli/"
+  },
+  {
+   "w": "frosty",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "ayazlı, kırağılı, soğuk (tavır)"
+  },
+  {
+   "w": "frostily",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "soğuk bir tavırla"
+  },
+  {
+   "w": "unmanned",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "insansız",
+   "ipa": "/ʌnˈmænd/"
+  },
+  {
+   "w": "impersonal",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "kişisel olmayan, mesafeli, soğuk"
+  },
+  {
+   "w": "impersonally",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "kişisel olmayan bir şekilde, mesafeli bir şekilde"
+  },
+  {
+   "w": "impersonate",
+   "pos": [
+    "verb"
+   ],
+   "tr": "taklit etmek, kılığına girmek"
+  },
+  {
+   "w": "impersonator",
+   "pos": [
+    "noun"
+   ],
+   "tr": "taklitçi"
+  },
+  {
+   "w": "impersonation",
+   "pos": [
+    "noun"
+   ],
+   "tr": "taklit, kılığına girme"
+  },
+  {
+   "w": "buzzer",
+   "pos": [
+    "noun"
+   ],
+   "tr": "zil, sesli uyarıcı"
+  },
+  {
+   "w": "desertion",
+   "pos": [
+    "noun"
+   ],
+   "tr": "terk etme, firar",
+   "ipa": "/dɪˈzɝʃən/"
+  },
+  {
+   "w": "unoccupied",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "boş, kimsenin oturmadığı"
+  },
+  {
+   "w": "stuffy",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "havasız, basık, tutucu"
+  },
+  {
+   "w": "stuffily",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "resmî ve soğuk bir tavırla, tutucu bir şekilde"
+  },
+  {
+   "w": "stuffiness",
+   "pos": [
+    "noun"
+   ],
+   "tr": "havasızlık, basıklık, tutuculuk"
+  },
+  {
+   "w": "gape",
+   "pos": [
+    "verb"
+   ],
+   "tr": "ağzı açık bakakalmak, açılmak"
+  },
+  {
+   "w": "repute",
+   "pos": [
+    "verb"
+   ],
+   "tr": "olduğu söylenmek, ... olarak tanınmak"
+  },
+  {
+   "w": "toughness",
+   "pos": [
+    "noun"
+   ],
+   "tr": "dayanıklılık, sertlik, zorluk"
+  },
+  {
+   "w": "plumbing",
+   "pos": [
+    "noun"
+   ],
+   "tr": "tesisat, sıhhi tesisat"
+  },
+  {
+   "w": "glum",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "asık suratlı, keyifsiz, suratsız"
+  },
+  {
+   "w": "glumly",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "asık suratla, keyifsizce"
+  },
+  {
+   "w": "gamely",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "cesurca, yılmadan"
+  },
+  {
+   "w": "dissect",
+   "pos": [
+    "verb"
+   ],
+   "tr": "teşrih etmek, didik didik incelemek"
+  },
+  {
+   "w": "dissection",
+   "pos": [
+    "noun"
+   ],
+   "tr": "diseksiyon, teşrih, ayrıntılı inceleme"
+  },
+  {
+   "w": "commend",
+   "pos": [
+    "verb"
+   ],
+   "tr": "övmek, takdir etmek, tavsiye etmek"
+  },
+  {
+   "w": "commendation",
+   "pos": [
+    "noun"
+   ],
+   "tr": "övgü, takdir, takdirname"
+  },
+  {
+   "w": "thereby",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "böylece, bu suretle"
+  },
+  {
+   "w": "flick",
+   "pos": [
+    "verb"
+   ],
+   "tr": "fiske vurmak, hızla çevirmek, (düğmeye) basmak"
+  },
+  {
+   "w": "flicker",
+   "pos": [
+    "noun"
+   ],
+   "tr": "titreşim, titrek ışık, kıvılcım"
+  },
+  {
+   "w": "unenviable",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "kimsenin istemeyeceği, tatsız"
+  },
+  {
+   "w": "unenviably",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "kimsenin istemeyeceği şekilde, tatsız bir şekilde"
+  },
+  {
+   "w": "allege",
+   "pos": [
+    "verb"
+   ],
+   "tr": "iddia etmek, ileri sürmek"
+  },
+  {
+   "w": "bribe",
+   "pos": [
+    "verb",
+    "noun"
+   ],
+   "tr": "fiil: rüşvet vermek; isim: rüşvet",
+   "ipa": "/bɹaɪb/"
+  },
+  {
+   "w": "bribery",
+   "pos": [
+    "noun"
+   ],
+   "tr": "rüşvetçilik, rüşvet",
+   "ipa": "/ˈbɹaɪbəɹi/"
+  },
+  {
+   "w": "inclusion",
+   "pos": [
+    "noun"
+   ],
+   "tr": "dâhil etme, katma, kapsayıcılık"
+  },
+  {
+   "w": "inclusive",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "kapsayıcı, dâhil, kapsamlı",
+   "ipa": "/ɪnˈkluːsɪv/"
+  },
+  {
+   "w": "inclusively",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "kapsayıcı bir şekilde, dâhil olarak"
+  },
+  {
+   "w": "unconvincing",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "inandırıcı olmayan, ikna edici olmayan"
+  },
+  {
+   "w": "unconvincingly",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "inandırıcı olmayan bir şekilde"
+  },
+  {
+   "w": "recharge",
+   "pos": [
+    "verb"
+   ],
+   "tr": "şarj etmek, yeniden doldurmak, enerji toplamak"
+  },
+  {
+   "w": "facilitation",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kolaylaştırma, yürütme"
+  },
+  {
+   "w": "conditional",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "koşullu, şartlı",
+   "ipa": "/kənˈdɪʃ.ə.nəl/"
+  },
+  {
+   "w": "conditionally",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "şartlı olarak, koşullu olarak"
+  },
+  {
+   "w": "supple",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "esnek, kıvrak, yumuşak"
+  },
+  {
+   "w": "manicure",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: manikür; fiil: manikür yapmak",
+   "ipa": "/ˈmæ.nɪ.kjʊɹ/"
+  },
+  {
+   "w": "pedicure",
+   "pos": [
+    "noun"
+   ],
+   "tr": "pedikür"
+  },
+  {
+   "w": "facial",
+   "pos": [
+    "adjective",
+    "noun"
+   ],
+   "tr": "sıfat: yüzle ilgili, yüz; isim: yüz bakımı, cilt bakımı"
+  },
+  {
+   "w": "bouquet",
+   "pos": [
+    "noun"
+   ],
+   "tr": "buket, demet, (şarap) koku",
+   "ipa": "/buːˈkeɪ/"
+  },
+  {
+   "w": "refurbish",
+   "pos": [
+    "verb"
+   ],
+   "tr": "yenilemek, tadilat yapmak"
+  },
+  {
+   "w": "refurbishment",
+   "pos": [
+    "noun"
+   ],
+   "tr": "yenileme, tadilat"
+  },
+  {
+   "w": "grounds",
+   "pos": [
+    "noun"
+   ],
+   "tr": "gerekçe, arazi, (kahve) telvesi"
+  },
+  {
+   "w": "lethargy",
+   "pos": [
+    "noun"
+   ],
+   "tr": "uyuşukluk, halsizlik, letarji",
+   "ipa": "/ˈlɛθ ər dʒi/"
+  },
+  {
+   "w": "lethargic",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "uyuşuk, halsiz, cansız",
+   "ipa": "/ləˈθɑɹd͡ʒɪk/"
+  },
+  {
+   "w": "lethargically",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "uyuşuk bir şekilde, halsizce"
+  },
+  {
+   "w": "stately",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "görkemli, heybetli, ağırbaşlı"
+  },
+  {
+   "w": "conserve",
+   "pos": [
+    "verb"
+   ],
+   "tr": "korumak, tasarruf etmek, muhafaza etmek"
+  },
+  {
+   "w": "conservatory",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kış bahçesi, limonluk, konservatuvar",
+   "ipa": "/kənˈsɝ.vəˌt(ɔ.)ɹi/"
+  },
+  {
+   "w": "disquieting",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "huzursuz edici, endişe verici, rahatsız edici"
+  },
+  {
+   "w": "fiercely",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "şiddetle, sert bir şekilde, hararetle"
+  },
+  {
+   "w": "grapefruit",
+   "pos": [
+    "noun"
+   ],
+   "tr": "greyfurt",
+   "ipa": "/ˈɡɹeɪ̯pfɹut/"
+  },
+  {
+   "w": "exotically",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "egzotik bir şekilde"
+  },
+  {
+   "w": "flask",
+   "pos": [
+    "noun"
+   ],
+   "tr": "matara, termos, şişe"
+  },
+  {
+   "w": "spacious",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "geniş, ferah",
+   "ipa": "/ˈspeɪʃ.əs/"
+  },
+  {
+   "w": "gourmet",
+   "pos": [
+    "adjective",
+    "noun"
+   ],
+   "tr": "sıfat: gurme, kaliteli (yemek); isim: gurme",
+   "ipa": "/ɡʊɹˈmeɪ/"
+  },
+  {
+   "w": "conjure",
+   "pos": [
+    "verb"
+   ],
+   "tr": "sihirle ortaya çıkarmak, akla getirmek, ruh çağırmak"
+  },
+  {
+   "w": "creamy",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "kremalı, kremsi, krem rengi"
+  },
+  {
+   "w": "sauna",
+   "pos": [
+    "noun"
+   ],
+   "tr": "sauna",
+   "ipa": "/ˈsɔː.nə/"
+  },
+  {
+   "w": "remedial",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "iyileştirici, düzeltici, telafi edici"
+  },
+  {
+   "w": "posture",
+   "pos": [
+    "noun"
+   ],
+   "tr": "duruş, vücut duruşu, tavır"
+  },
+  {
+   "w": "sedate",
+   "pos": [
+    "verb",
+    "adjective"
+   ],
+   "tr": "fiil: sakinleştirici vermek, yatıştırmak; sıfat: sakin, ağırbaşlı, yavaş"
+  },
+  {
+   "w": "sedately",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "ağır ağır, sakince"
+  },
+  {
+   "w": "clutch",
+   "pos": [
+    "verb",
+    "noun"
+   ],
+   "tr": "fiil: sıkıca tutmak, kavramak, yapışmak; isim: kavrama, debriyaj, el çantası",
+   "ipa": "/ˈklʌt͡ʃ/"
+  },
+  {
+   "w": "staggering",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "şaşırtıcı, inanılmaz, sarsıcı"
+  },
+  {
+   "w": "dutiful",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "görevine bağlı, sorumlu, itaatkâr"
+  },
+  {
+   "w": "dutifully",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "görev bilinciyle, itaatkâr bir şekilde"
+  },
+  {
+   "w": "calorie",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kalori",
+   "ipa": "/ˈkæləɹi/"
+  },
+  {
+   "w": "fabulously",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "inanılmaz derecede, muhteşem bir şekilde"
+  },
+  {
+   "w": "premises",
+   "pos": [
+    "noun"
+   ],
+   "tr": "işyeri, bina, tesis"
+  },
+  {
+   "w": "eclectic",
+   "pos": [
+    "adjective",
+    "noun"
+   ],
+   "tr": "sıfat: eklektik, çeşitli kaynaklardan derlenmiş; isim: seçmeci kimse"
+  },
+  {
+   "w": "eclectically",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "eklektik bir şekilde, çeşitli kaynaklardan yararlanarak"
+  },
+  {
+   "w": "revere",
+   "pos": [
+    "verb"
+   ],
+   "tr": "büyük saygı duymak, hürmet etmek",
+   "ipa": "/ɹɪˈvɪɹ/"
+  },
+  {
+   "w": "recognizable",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "tanınabilir, fark edilebilir"
+  },
+  {
+   "w": "recognizably",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "tanınır şekilde, belirgin bir şekilde"
+  },
+  {
+   "w": "batter",
+   "pos": [
+    "verb",
+    "noun",
+    ""
+   ],
+   "tr": "fiil: hırpalamak, dövmek, yumruklamak; isim: sulu hamur, (beyzbol) vurucu",
+   "ipa": "/ˈbætɚ/"
+  },
+  {
+   "w": "unreliably",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "güvenilmez bir şekilde"
+  },
+  {
+   "w": "waterfront",
+   "pos": [
+    "noun"
+   ],
+   "tr": "sahil, kıyı şeridi, rıhtım bölgesi"
+  },
+  {
+   "w": "amply",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "bol bol, fazlasıyla, yeterince"
+  },
+  {
+   "w": "amplification",
+   "pos": [
+    "noun"
+   ],
+   "tr": "(ses) yükseltme, güçlendirme, ayrıntılandırma"
+  },
+  {
+   "w": "battered",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "hırpalanmış, yıpranmış, şiddet görmüş"
+  },
+  {
+   "w": "comply",
+   "pos": [
+    "verb"
+   ],
+   "tr": "uymak, riayet etmek, uyum sağlamak",
+   "ipa": "/kəmˈplaɪ/"
+  },
+  {
+   "w": "compliance",
+   "pos": [
+    "noun"
+   ],
+   "tr": "uyum, uyma, uygunluk",
+   "ipa": "/kəmˈplaɪ.əns/"
+  },
+  {
+   "w": "compliant",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "uyumlu, uygun, uysal",
+   "ipa": "/kəmˈplaɪənt/"
+  },
+  {
+   "w": "compliantly",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "uyumlu bir şekilde, uysalca"
+  },
+  {
+   "w": "blankness",
+   "pos": [
+    "noun"
+   ],
+   "tr": "boşluk, ifadesizlik"
+  },
+  {
+   "w": "exuberant",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "coşkulu, neşeli, hayat dolu"
+  },
+  {
+   "w": "exuberance",
+   "pos": [
+    "noun"
+   ],
+   "tr": "coşku, taşkınlık, canlılık"
+  },
+  {
+   "w": "exuberantly",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "coşkuyla, neşeyle"
+  },
+  {
+   "w": "linear",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "doğrusal, lineer",
+   "ipa": "/ˈlɪn.i.əɹ/"
+  },
+  {
+   "w": "linearly",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "doğrusal olarak"
+  },
+  {
+   "w": "flourish",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: gösterişli hareket, süslü kıvrım; fiil: gelişmek, serpilmek, başarılı olmak"
+  },
+  {
+   "w": "anchored",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "demirli, sabitlenmiş, dayanan"
+  },
+  {
+   "w": "domination",
+   "pos": [
+    "noun"
+   ],
+   "tr": "hâkimiyet, egemenlik, baskı"
+  },
+  {
+   "w": "dominant",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "baskın, egemen, hâkim"
+  },
+  {
+   "w": "dominantly",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "baskın şekilde, ağırlıklı olarak"
+  },
+  {
+   "w": "interject",
+   "pos": [
+    "verb"
+   ],
+   "tr": "söze karışmak, araya girmek"
+  },
+  {
+   "w": "interjection",
+   "pos": [
+    "noun"
+   ],
+   "tr": "ünlem, araya girme, söze karışma",
+   "ipa": "/ˌɪn.tɚˈd͡ʒɛk.ʃən/"
+  },
+  {
+   "w": "gush",
+   "pos": [
+    "verb",
+    "noun"
+   ],
+   "tr": "fiil: fışkırmak, coşkuyla konuşmak; isim: fışkırma, (duygu) taşkınlığı",
+   "ipa": "/ˈɡʌʃ/"
+  },
+  {
+   "w": "gushing",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "aşırı övgü dolu, coşkulu, fışkıran"
+  },
+  {
+   "w": "gushingly",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "aşırı coşkuyla, abartılı övgüyle"
+  },
+  {
+   "w": "voracious",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "doymak bilmez, obur, çok hevesli"
+  },
+  {
+   "w": "voraciously",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "doymak bilmeden, oburca, hırsla"
+  },
+  {
+   "w": "sketchbook",
+   "pos": [
+    "noun"
+   ],
+   "tr": "eskiz defteri, çizim defteri",
+   "ipa": "/ˈskɛt͡ʃˌbʊk/"
+  },
+  {
+   "w": "prop",
+   "pos": [
+    "verb",
+    "noun"
+   ],
+   "tr": "fiil: dayamak, desteklemek; isim: destek, payanda, (sahne) aksesuar",
+   "ipa": "/pɹɑp/"
+  },
+  {
+   "w": "imp",
+   "pos": [
+    "noun"
+   ],
+   "tr": "küçük şeytan, yaramaz çocuk"
+  },
+  {
+   "w": "impish",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "muzip, yaramaz, haylaz"
+  },
+  {
+   "w": "impishly",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "muzipçe, yaramazca"
+  },
+  {
+   "w": "wicked",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "kötü, şeytani, muzip",
+   "ipa": "/ˈwɪk.ɪd/"
+  },
+  {
+   "w": "wickedly",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "kötü niyetle, muzipçe, son derece"
+  },
+  {
+   "w": "macabre",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "ürkütücü, korkunç, ölümü çağrıştıran",
+   "ipa": "/məˈkɑb/"
+  },
+  {
+   "w": "gusto",
+   "pos": [
+    "noun"
+   ],
+   "tr": "şevk, coşku, zevk"
+  },
+  {
+   "w": "tantamount",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "eşdeğer, aynı anlama gelen"
+  },
+  {
+   "w": "antics",
+   "pos": [
+    "noun"
+   ],
+   "tr": "maskaralık, soytarılık, tuhaf davranışlar"
+  },
+  {
+   "w": "relapse",
+   "pos": [
+    "verb",
+    "noun"
+   ],
+   "tr": "fiil: nüksetmek, eski haline dönmek; isim: nüks, tekrarlama"
+  },
+  {
+   "w": "impede",
+   "pos": [
+    "verb"
+   ],
+   "tr": "engellemek, geciktirmek, ket vurmak",
+   "ipa": "/ɪmˈpiːd/"
+  },
+  {
+   "w": "impediment",
+   "pos": [
+    "noun"
+   ],
+   "tr": "engel, mâni, konuşma bozukluğu"
+  },
+  {
+   "w": "taut",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "gergin, gerilmiş, sıkı",
+   "ipa": "/tɔːt/"
+  },
+  {
+   "w": "tautly",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "gergin bir şekilde, sıkıca"
+  },
+  {
+   "w": "jersey",
+   "pos": [
+    "noun",
+    "adjective"
+   ],
+   "tr": "isim: forma, kazak, jarse kumaş; sıfat: jarse"
+  },
+  {
+   "w": "startling",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "şaşırtıcı, ürkütücü"
+  },
+  {
+   "w": "startlingly",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "şaşırtıcı derecede"
+  },
+  {
+   "w": "slack",
+   "pos": [
+    "verb",
+    "noun",
+    "adjective"
+   ],
+   "tr": "fiil: gevşemek, tembellik etmek; isim: gevşeklik, boşluk; sıfat: gevşek, durgun, ihmalkâr",
+   "ipa": "/slæk/"
+  },
+  {
+   "w": "slackly",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "gevşek bir şekilde, gevşekçe"
+  },
+  {
+   "w": "unwavering",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "sarsılmaz, kararlı, değişmez"
+  },
+  {
+   "w": "unwaveringly",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "sarsılmadan, kararlılıkla"
+  },
+  {
+   "w": "removed",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "uzak, bağlantısız, farklı"
+  },
+  {
+   "w": "buffoon",
+   "pos": [
+    "noun"
+   ],
+   "tr": "soytarı, palyaço, şaklaban"
+  },
+  {
+   "w": "beguiling",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "büyüleyici, çekici, cezbedici"
+  },
+  {
+   "w": "beguilingly",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "büyüleyici bir şekilde, çekici biçimde"
+  },
+  {
+   "w": "blithely",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "umursamazca, kaygısızca, neşeyle"
+  },
+  {
+   "w": "stray",
+   "pos": [
+    "verb",
+    "adjective",
+    "noun"
+   ],
+   "tr": "fiil: yoldan sapmak, başıboş dolaşmak; sıfat: başıboş, sokak (hayvanı), dağınık; isim: sokak hayvanı, başıboş hayvan",
+   "ipa": "/stɹeɪ/"
+  },
+  {
+   "w": "mythological",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "mitolojik"
+  },
+  {
+   "w": "mythology",
+   "pos": [
+    "noun"
+   ],
+   "tr": "mitoloji",
+   "ipa": "/mɪˈθɑ.lə.d͡ʒi/"
+  },
+  {
+   "w": "venerate",
+   "pos": [
+    "verb"
+   ],
+   "tr": "saygı göstermek, hürmet etmek, kutsal saymak"
+  },
+  {
+   "w": "veneration",
+   "pos": [
+    "noun"
+   ],
+   "tr": "hürmet, derin saygı",
+   "ipa": "/ˌvɛnəˈɹeɪʃən/"
+  },
+  {
+   "w": "ethical",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "etik, ahlaki",
+   "ipa": "/ˈɛθɪkəl/"
+  },
+  {
+   "w": "ethically",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "etik olarak, ahlaki açıdan"
+  },
+  {
+   "w": "heroine",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kadın kahraman",
+   "ipa": "/ˈhɪɹoʊɪn/"
+  },
+  {
+   "w": "refreshing",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "ferahlatıcı, canlandırıcı, hoş",
+   "ipa": "/ɹəˈfɹɛʃɪŋ/"
+  },
+  {
+   "w": "zany",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "çılgın, kaçık, şakacı",
+   "ipa": "/ˈzeɪni/"
+  },
+  {
+   "w": "devotee",
+   "pos": [
+    "noun"
+   ],
+   "tr": "hayran, tutkun, bağlı kimse"
+  },
+  {
+   "w": "salve",
+   "pos": [
+    "noun"
+   ],
+   "tr": "merhem",
+   "ipa": "/sæ(l)v/"
+  },
+  {
+   "w": "salvation",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kurtuluş, selamet",
+   "ipa": "/sælˈveɪ.ʃn̩/"
+  },
+  {
+   "w": "salvage",
+   "pos": [
+    "verb"
+   ],
+   "tr": "kurtarmak, (durumu) toparlamak"
+  },
+  {
+   "w": "staccato",
+   "pos": [
+    "adjective",
+    "adverb"
+   ],
+   "tr": "kesik kesik, stakato"
+  },
+  {
+   "w": "verve",
+   "pos": [
+    "noun"
+   ],
+   "tr": "şevk, coşku, canlılık"
+  },
+  {
+   "w": "motley",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "karmakarışık, çeşit çeşit, alacalı"
+  },
+  {
+   "w": "preach",
+   "pos": [
+    "verb"
+   ],
+   "tr": "vaaz vermek, nutuk çekmek, öğüt vermek"
+  },
+  {
+   "w": "preacher",
+   "pos": [
+    "noun"
+   ],
+   "tr": "vaiz",
+   "ipa": "/ˈpɹit͡ʃɚ/"
+  },
+  {
+   "w": "justly",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "haklı olarak, adil bir şekilde"
+  },
+  {
+   "w": "wry",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "alaycı, ironik, buruk"
+  },
+  {
+   "w": "wryly",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "alaycı bir şekilde, buruk bir şekilde"
+  },
+  {
+   "w": "poetess",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kadın şair"
+  },
+  {
+   "w": "confide",
+   "pos": [
+    "verb"
+   ],
+   "tr": "sır vermek, açılmak, güvenmek",
+   "ipa": "/kənˈfaɪd/"
+  },
+  {
+   "w": "sentient",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "hisseden, bilinçli, duyumsayan"
+  },
+  {
+   "w": "sentiment",
+   "pos": [
+    "noun"
+   ],
+   "tr": "duygu, görüş, düşünce"
+  },
+  {
+   "w": "sentimental",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "duygusal, romantik, manevi",
+   "ipa": "/ˌsɛntiˈmɛntl̩/"
+  },
+  {
+   "w": "sentimentally",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "duygusal olarak, manevi olarak"
+  },
+  {
+   "w": "tangle",
+   "pos": [
+    "verb",
+    "noun"
+   ],
+   "tr": "fiil: dolaşmak, dolaştırmak, karışmak; isim: karışıklık, düğüm, arapsaçı"
+  },
+  {
+   "w": "tangled",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "karmakarışık, dolaşık, girift"
+  },
+  {
+   "w": "untangle",
+   "pos": [
+    "verb"
+   ],
+   "tr": "çözmek, dolaşıklığı gidermek, açmak"
+  },
+  {
+   "w": "untangled",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "çözülmüş, açılmış"
+  },
+  {
+   "w": "perceptive",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "anlayışlı, sezgili, kavrayışlı",
+   "ipa": "/pɚˈsɛptɪv/"
+  },
+  {
+   "w": "perceptively",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "sezgiyle, kavrayışlı bir şekilde"
+  },
+  {
+   "w": "outset",
+   "pos": [
+    "noun"
+   ],
+   "tr": "başlangıç, baş",
+   "ipa": "/ˈaʊtsɛt/"
+  },
+  {
+   "w": "tycoon",
+   "pos": [
+    "noun"
+   ],
+   "tr": "iş dünyası devi, kodaman, zengin iş insanı",
+   "ipa": "/taɪˈkuːn/"
+  },
+  {
+   "w": "engross",
+   "pos": [
+    "verb"
+   ],
+   "tr": "bütün dikkatini çekmek, kendine bağlamak"
+  },
+  {
+   "w": "engrossing",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "sürükleyici, ilgi çekici",
+   "ipa": "/ɛnˈɡɹoʊsɪŋ/"
+  },
+  {
+   "w": "detritus",
+   "pos": [
+    "noun"
+   ],
+   "tr": "döküntü, enkaz, artık"
+  },
+  {
+   "w": "detriment",
+   "pos": [
+    "noun"
+   ],
+   "tr": "zarar, ziyan",
+   "ipa": "/ˈdɛtɹɪmənt/"
+  },
+  {
+   "w": "detrimental",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "zararlı, olumsuz etkili",
+   "ipa": "/ˌdɛtɹɪˈmɛntəl/"
+  },
+  {
+   "w": "detrimentally",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "zararlı bir şekilde, olumsuz yönde"
+  },
+  {
+   "w": "domestically",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "yurt içinde, ülke içinde, evle ilgili olarak"
+  },
+  {
+   "w": "domesticate",
+   "pos": [
+    "verb"
+   ],
+   "tr": "evcilleştirmek, ehlileştirmek",
+   "ipa": "/dəˈmɛ.stɪ.keɪt/"
+  },
+  {
+   "w": "domestication",
+   "pos": [
+    "noun"
+   ],
+   "tr": "evcilleştirme"
+  },
+  {
+   "w": "eccentrically",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "tuhaf bir şekilde, eksantrik bir şekilde"
+  },
+  {
+   "w": "render",
+   "pos": [
+    "verb"
+   ],
+   "tr": "hale getirmek, sağlamak, sunmak",
+   "ipa": "/ˈɹɛn.dɚ/"
+  },
+  {
+   "w": "rendering",
+   "pos": [
+    "noun"
+   ],
+   "tr": "yorum, icra, görselleştirme"
+  },
+  {
+   "w": "pathos",
+   "pos": [
+    "noun"
+   ],
+   "tr": "dokunaklılık, acıma duygusu uyandırma"
+  },
+  {
+   "w": "tailor",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: terzi; fiil: uyarlamak, ihtiyaca göre hazırlamak",
+   "ipa": "/ˈteɪlɚ/"
+  },
+  {
+   "w": "personalize",
+   "pos": [
+    "verb"
+   ],
+   "tr": "kişiselleştirmek, kişiye özel yapmak",
+   "ipa": "/ˈpɝ.sə.nəˌlaɪz/"
+  },
+  {
+   "w": "personalization",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kişiselleştirme"
+  },
+  {
+   "w": "limitless",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "sınırsız, sonsuz"
+  },
+  {
+   "w": "apprentice",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: çırak, stajyer; fiil: çıraklığa vermek, çırak olarak çalışmak",
+   "ipa": "/əˈpɹɛntɪs/"
+  },
+  {
+   "w": "apprenticeship",
+   "pos": [
+    "noun"
+   ],
+   "tr": "çıraklık, staj",
+   "ipa": "/əˈpɹɛn.tɪs.ʃɪp/"
+  },
+  {
+   "w": "precision",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kesinlik, hassasiyet, doğruluk"
+  },
+  {
+   "w": "silhouette",
+   "pos": [
+    "noun"
+   ],
+   "tr": "siluet",
+   "ipa": "/ˌsɪluˈɛt/"
+  },
+  {
+   "w": "nondescript",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "sıradan, özelliksiz, sönük"
+  },
+  {
+   "w": "negligible",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "önemsiz, ihmal edilebilir"
+  },
+  {
+   "w": "negligent",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "ihmalkâr, dikkatsiz"
+  },
+  {
+   "w": "negligently",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "ihmalkârca, dikkatsizce"
+  },
+  {
+   "w": "principally",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "başlıca, esas olarak"
+  },
+  {
+   "w": "altruism",
+   "pos": [
+    "noun"
+   ],
+   "tr": "özgecilik, fedakârlık, diğerkâmlık",
+   "ipa": "/ˈæl.tɹu.ɪz.əm/"
+  },
+  {
+   "w": "altruistic",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "özgeci, fedakâr, diğerkâm",
+   "ipa": "/ˌæl.tɹuˈɪs.tɪk/"
+  },
+  {
+   "w": "scenario",
+   "pos": [
+    "noun"
+   ],
+   "tr": "senaryo, olası durum",
+   "ipa": "/sɪˈnɛəɹioʊ/"
+  },
+  {
+   "w": "voluntary",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "gönüllü, isteğe bağlı, istemli",
+   "ipa": "/ˈvɑ.lənˌt(ɛ)ɹi/"
+  },
+  {
+   "w": "voluntarily",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "gönüllü olarak, isteyerek"
+  },
+  {
+   "w": "reap",
+   "pos": [
+    "verb"
+   ],
+   "tr": "hasat etmek, (faydasını) görmek, biçmek"
+  },
+  {
+   "w": "paternal",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "baba tarafından, babacan, babaya ait",
+   "ipa": "/pəˈtɜɹ.nəl/"
+  },
+  {
+   "w": "maternal",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "anne tarafından, annelik, anaç"
+  },
+  {
+   "w": "maternalistic",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "anaç, aşırı korumacı"
+  },
+  {
+   "w": "paternalistic",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "babacan, korumacı, vesayetçi"
+  },
+  {
+   "w": "provisions",
+   "pos": [
+    "noun"
+   ],
+   "tr": "erzak, (yasal) hükümler, tedarik"
+  },
+  {
+   "w": "injustice",
+   "pos": [
+    "noun"
+   ],
+   "tr": "adaletsizlik, haksızlık",
+   "ipa": "/ɪnˈd͡ʒʌs.tɪs/"
+  },
+  {
+   "w": "impoverished",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "yoksul, fakirleşmiş"
+  },
+  {
+   "w": "unsustainable",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "sürdürülemez"
+  },
+  {
+   "w": "unsustainably",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "sürdürülemez bir şekilde"
+  },
+  {
+   "w": "sustainable",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "sürdürülebilir",
+   "ipa": "/səˈsteɪnəbəl/"
+  },
+  {
+   "w": "sustainably",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "sürdürülebilir bir şekilde"
+  },
+  {
+   "w": "bypass",
+   "pos": [
+    "verb"
+   ],
+   "tr": "atlamak, es geçmek, çevresinden dolaşmak"
+  },
+  {
+   "w": "cynic",
+   "pos": [
+    "noun"
+   ],
+   "tr": "sinik, kuşkucu kimse"
+  },
+  {
+   "w": "cynical",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "sinik, alaycı, kuşkucu",
+   "ipa": "/ˈsɪnɪkəl/"
+  },
+  {
+   "w": "cynically",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "sinik bir şekilde, kuşkuyla, alaycı bir şekilde"
+  },
+  {
+   "w": "cynicism",
+   "pos": [
+    "noun"
+   ],
+   "tr": "sinizm, kuşkuculuk, alaycılık",
+   "ipa": "/ˈsɪn.ɪˌsɪzəm/"
+  },
+  {
+   "w": "sarcasm",
+   "pos": [
+    "noun"
+   ],
+   "tr": "alaycılık, iğneleme, istihza",
+   "ipa": "/ˈsɑːɹˌkæzəm/"
+  },
+  {
+   "w": "sarcastic",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "alaycı, iğneleyici",
+   "ipa": "/sɑɹˈkæs.tɪk/"
+  },
+  {
+   "w": "sarcastically",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "alaycı bir şekilde, iğneleyerek"
+  },
+  {
+   "w": "misplace",
+   "pos": [
+    "verb"
+   ],
+   "tr": "yanlış yere koymak, kaybetmek"
+  },
+  {
+   "w": "symptomatic",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "belirtisi olan, göstergesi olan, semptomatik",
+   "ipa": "/ˌsɪmp.təˈmæt.ɪk/"
+  },
+  {
+   "w": "degrade",
+   "pos": [
+    "verb"
+   ],
+   "tr": "küçük düşürmek, bozmak, kalitesini düşürmek"
+  },
+  {
+   "w": "degrading",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "aşağılayıcı, küçük düşürücü, onur kırıcı"
+  },
+  {
+   "w": "degradation",
+   "pos": [
+    "noun"
+   ],
+   "tr": "bozulma, aşağılanma, alçalma"
+  },
+  {
+   "w": "discourse",
+   "pos": [
+    "noun"
+   ],
+   "tr": "söylem, konuşma, tartışma",
+   "ipa": "/ˈdɪs.kɔːɹs/"
+  },
+  {
+   "w": "amid",
+   "pos": [
+    "preposition"
+   ],
+   "tr": "arasında, ortasında",
+   "ipa": "/əˈmɪd/"
+  },
+  {
+   "w": "hedgehog",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kirpi",
+   "ipa": "/ˈhɛd͡ʒ.hɔɡ/"
+  },
+  {
+   "w": "nocturnal",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "gece etkin, gececil, gece olan",
+   "ipa": "/nɑkˈtɝ.nəl/"
+  },
+  {
+   "w": "hibernate",
+   "pos": [
+    "verb"
+   ],
+   "tr": "kış uykusuna yatmak",
+   "ipa": "/ˈhaɪbəɹˌneɪt/"
+  },
+  {
+   "w": "hibernation",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kış uykusu",
+   "ipa": "/ˌhaɪ.bəɹˈneɪ.ʃən/"
+  },
+  {
+   "w": "convict",
+   "pos": [
+    "verb",
+    "noun"
+   ],
+   "tr": "fiil: mahkûm etmek, suçlu bulmak; isim: mahkûm, hükümlü",
+   "ipa": "/kənˈvɪkt/"
+  },
+  {
+   "w": "conviction",
+   "pos": [
+    "noun"
+   ],
+   "tr": "inanç, kanaat, mahkûmiyet"
+  },
+  {
+   "w": "latent",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "gizli, saklı, örtük",
+   "ipa": "/ˈleɪ.tənt/"
+  },
+  {
+   "w": "snooze",
+   "pos": [
+    "verb"
+   ],
+   "tr": "kestirmek, şekerleme yapmak, (alarmı) ertelemek"
+  },
+  {
+   "w": "classy",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "şık, klas, kaliteli"
+  },
+  {
+   "w": "wrench",
+   "pos": [
+    "verb"
+   ],
+   "tr": "zorla çekmek, burkmak, koparmak",
+   "ipa": "/ˈɹɛnt͡ʃ/"
+  },
+  {
+   "w": "reminisce",
+   "pos": [
+    "verb"
+   ],
+   "tr": "eski günleri anmak, anılardan söz etmek"
+  },
+  {
+   "w": "reminiscent",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "anımsatan, hatırlatan, andıran",
+   "ipa": "/ˌɹɛməˈnɪsnt/"
+  },
+  {
+   "w": "intuit",
+   "pos": [
+    "verb"
+   ],
+   "tr": "sezmek, sezgiyle anlamak"
+  },
+  {
+   "w": "intuition",
+   "pos": [
+    "noun"
+   ],
+   "tr": "sezgi, önsezi",
+   "ipa": "/ˌɪn.tuˈɪʃ.ən/"
+  },
+  {
+   "w": "intuitive",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "sezgisel, sezgili, kolay anlaşılır",
+   "ipa": "/ɪnˈt(j)uɪtɪv/"
+  },
+  {
+   "w": "intuitively",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "sezgisel olarak, sezgiyle"
+  },
+  {
+   "w": "marginal",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "çok az, önemsiz, marjinal"
+  },
+  {
+   "w": "marginally",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "çok az, biraz, hafifçe"
+  },
+  {
+   "w": "crude",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "kaba, ham, işlenmemiş"
+  },
+  {
+   "w": "crudely",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "kabaca, ham bir şekilde"
+  },
+  {
+   "w": "strap",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: kayış, askı, bant; fiil: kayışla bağlamak, bağlamak",
+   "ipa": "/stɹæp/"
+  },
+  {
+   "w": "strapping",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "iriyarı, güçlü kuvvetli, yapılı"
+  },
+  {
+   "w": "scoff",
+   "pos": [
+    "verb"
+   ],
+   "tr": "alay etmek, küçümsemek"
+  },
+  {
+   "w": "fiddly",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "uğraştırıcı, zahmetli, ince iş gerektiren"
+  },
+  {
+   "w": "fiddler",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kemancı, hileci"
+  },
+  {
+   "w": "fiddle",
+   "pos": [
+    "verb",
+    "noun"
+   ],
+   "tr": "fiil: kurcalamak, oynamak, (hesapta) hile yapmak; isim: keman, hile"
+  },
+  {
+   "w": "unmusical",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "müziğe yeteneksiz, ahenksiz"
+  },
+  {
+   "w": "unmusically",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "ahenksizce, kulağa hoş gelmeyecek şekilde"
+  },
+  {
+   "w": "repertory",
+   "pos": [
+    "noun"
+   ],
+   "tr": "repertuvar, repertuvar tiyatrosu"
+  },
+  {
+   "w": "concerto",
+   "pos": [
+    "noun"
+   ],
+   "tr": "konçerto",
+   "ipa": "/kənˈt͡ʃɛɹtoʊ/"
+  },
+  {
+   "w": "premier",
+   "pos": [
+    "adjective",
+    "noun"
+   ],
+   "tr": "sıfat: en önemli, önde gelen, birinci; isim: başbakan"
+  },
+  {
+   "w": "fanatic",
+   "pos": [
+    "noun",
+    "adjective"
+   ],
+   "tr": "isim: fanatik, bağnaz kimse, tutkun; sıfat: fanatik, bağnaz",
+   "ipa": "/fəˈnæt.ɪk/"
+  },
+  {
+   "w": "fanatically",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "fanatikçe, bağnazca, tutkuyla"
+  },
+  {
+   "w": "acoustically",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "akustik olarak, akustik açıdan"
+  },
+  {
+   "w": "acoustic",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "akustik, işitsel"
+  },
+  {
+   "w": "acoustics",
+   "pos": [
+    "noun"
+   ],
+   "tr": "akustik"
+  },
+  {
+   "w": "compromised",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "tehlikeye girmiş, zayıflamış, ele geçirilmiş"
+  },
+  {
+   "w": "daunt",
+   "pos": [
+    "verb"
+   ],
+   "tr": "gözünü korkutmak, yıldırmak, cesaretini kırmak"
+  },
+  {
+   "w": "daunting",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "göz korkutucu, yıldırıcı, cesaret kırıcı",
+   "ipa": "/ˈdɔntɪŋ/"
+  },
+  {
+   "w": "realist",
+   "pos": [
+    "noun"
+   ],
+   "tr": "gerçekçi, realist"
+  },
+  {
+   "w": "realism",
+   "pos": [
+    "noun"
+   ],
+   "tr": "gerçekçilik, realizm",
+   "ipa": "/ˈɹi.əlɪzəm/"
+  },
+  {
+   "w": "recess",
+   "pos": [
+    "noun"
+   ],
+   "tr": "tatil, ara, girinti",
+   "ipa": "/ˈɹiˌsɛs/"
+  },
+  {
+   "w": "recessive",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "çekinik, resesif"
+  },
+  {
+   "w": "prolific",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "üretken, verimli, bereketli",
+   "ipa": "/pɹəˈlɪf.ɪk/"
+  },
+  {
+   "w": "prolifically",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "üretken bir şekilde, bol bol"
+  },
+  {
+   "w": "proliferate",
+   "pos": [
+    "verb"
+   ],
+   "tr": "çoğalmak, hızla artmak, yayılmak"
+  },
+  {
+   "w": "fragmentation",
+   "pos": [
+    "noun"
+   ],
+   "tr": "parçalanma, bölünme"
+  },
+  {
+   "w": "astray",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "yanlış yola, yoldan sapmış halde",
+   "ipa": "/əˈstɹeɪ/"
+  },
+  {
+   "w": "duration",
+   "pos": [
+    "noun"
+   ],
+   "tr": "süre",
+   "ipa": "/dəˈɹeɪ.ʃən/"
+  },
+  {
+   "w": "durable",
+   "pos": [
+    "adjective",
+    "noun"
+   ],
+   "tr": "sıfat: dayanıklı, sağlam, uzun ömürlü; isim: dayanıklı tüketim malı"
+  },
+  {
+   "w": "likelihood",
+   "pos": [
+    "noun"
+   ],
+   "tr": "olasılık, ihtimal"
+  },
+  {
+   "w": "naive",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "saf, toy, naif",
+   "ipa": "/naɪˈiv/"
+  },
+  {
+   "w": "naively",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "saflıkla, toyca"
+  },
+  {
+   "w": "naivety",
+   "pos": [
+    "noun"
+   ],
+   "tr": "saflık, toyluk"
+  },
+  {
+   "w": "impervious",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "geçirmez, etkilenmez, aldırmaz",
+   "ipa": "/ɪmˈpɝ.vi.əs/"
+  },
+  {
+   "w": "ludicrous",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "gülünç, saçma, absürt"
+  },
+  {
+   "w": "ludicrously",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "gülünç derecede, saçma bir şekilde"
+  },
+  {
+   "w": "cost-effective",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "uygun maliyetli, ekonomik"
+  },
+  {
+   "w": "gruesome",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "korkunç, tüyler ürpertici, dehşet verici",
+   "ipa": "/ˈɡɹusəm/"
+  },
+  {
+   "w": "gruesomely",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "korkunç bir şekilde, tüyler ürpertici biçimde"
+  },
+  {
+   "w": "envisage",
+   "pos": [
+    "verb"
+   ],
+   "tr": "öngörmek, tasavvur etmek, hayal etmek",
+   "ipa": "/ɛnˈvɪzɪd͡ʒ/"
+  },
+  {
+   "w": "screenwriter",
+   "pos": [
+    "noun"
+   ],
+   "tr": "senarist"
+  },
+  {
+   "w": "mingle",
+   "pos": [
+    "verb"
+   ],
+   "tr": "karışmak, kaynaşmak, karıştırmak"
+  },
+  {
+   "w": "churn",
+   "pos": [
+    "verb"
+   ],
+   "tr": "çalkalamak, köpürtmek, çalkalanmak",
+   "ipa": "/t͡ʃɝn/"
+  },
+  {
+   "w": "buffer",
+   "pos": [
+    "verb",
+    "noun"
+   ],
+   "tr": "fiil: korumak, etkisini azaltmak, arabelleğe almak; isim: tampon, arabellek, koruyucu",
+   "ipa": "/ˈbʌfəɹ/"
+  },
+  {
+   "w": "irate",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "öfkeli, çok kızgın"
+  },
+  {
+   "w": "irately",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "öfkeyle, kızgınlıkla"
+  },
+  {
+   "w": "docile",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "uysal, yumuşak başlı",
+   "ipa": "/ˈdɑ.səl/"
+  },
+  {
+   "w": "docilely",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "uysalca"
+  },
+  {
+   "w": "fiend",
+   "pos": [
+    "noun"
+   ],
+   "tr": "şeytan, zalim kimse, tutkun"
+  },
+  {
+   "w": "fiendish",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "şeytani, acımasız, çok karmaşık"
+  },
+  {
+   "w": "fiendishly",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "son derece, şeytanca"
+  },
+  {
+   "w": "transfix",
+   "pos": [
+    "verb"
+   ],
+   "tr": "donup kalmasına neden olmak, büyülemek, saplamak"
+  },
+  {
+   "w": "gypsy",
+   "pos": [
+    "noun"
+   ],
+   "tr": "çingene, göçebe",
+   "ipa": "/ˈd͡ʒɪp.si/"
+  },
+  {
+   "w": "temperament",
+   "pos": [
+    "noun"
+   ],
+   "tr": "mizaç, huy, yaradılış"
+  },
+  {
+   "w": "temperamental",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "değişken huylu, huysuz, mizaçla ilgili"
+  },
+  {
+   "w": "temperamentally",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "mizaç olarak, yaradılış gereği"
+  },
+  {
+   "w": "screenplay",
+   "pos": [
+    "noun"
+   ],
+   "tr": "senaryo",
+   "ipa": "/ˈskɹiːnˌpleɪ/"
+  },
+  {
+   "w": "disillusionment",
+   "pos": [
+    "noun"
+   ],
+   "tr": "hayal kırıklığı, düş kırıklığı"
+  },
+  {
+   "w": "demise",
+   "pos": [
+    "noun"
+   ],
+   "tr": "ölüm, son, çöküş"
+  },
+  {
+   "w": "raunchy",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "müstehcen, açık saçık"
+  },
+  {
+   "w": "raunchily",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "müstehcen bir şekilde, açık saçık bir biçimde"
+  },
+  {
+   "w": "overdraft",
+   "pos": [
+    "verb",
+    "noun"
+   ],
+   "tr": "fiil: hesaptan fazla para çekmek; isim: ek hesap, kredili mevduat, eksi bakiye"
+  },
+  {
+   "w": "synopsis",
+   "pos": [
+    "noun"
+   ],
+   "tr": "özet",
+   "ipa": "/sɪˈnɑpsɪs/"
+  },
+  {
+   "w": "renown",
+   "pos": [
+    "noun"
+   ],
+   "tr": "ün, şöhret, şan",
+   "ipa": "/ɹɪˈnaʊn/"
+  },
+  {
+   "w": "contested",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "tartışmalı, çekişmeli"
+  },
+  {
+   "w": "verandah",
+   "pos": [
+    "noun"
+   ],
+   "tr": "veranda, sundurma"
+  },
+  {
+   "w": "occupational",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "meslekî, işle ilgili"
+  },
+  {
+   "w": "verdict",
+   "pos": [
+    "noun"
+   ],
+   "tr": "karar, hüküm",
+   "ipa": "/ˈvɝ.dɪkt/"
+  },
+  {
+   "w": "ventilate",
+   "pos": [
+    "verb"
+   ],
+   "tr": "havalandırmak, (fikir) dile getirmek"
+  },
+  {
+   "w": "ventilation",
+   "pos": [
+    "noun"
+   ],
+   "tr": "havalandırma"
+  },
+  {
+   "w": "occupant",
+   "pos": [
+    "noun"
+   ],
+   "tr": "oturan kişi, sakin, (araçta) yolcu"
+  },
+  {
+   "w": "radiator",
+   "pos": [
+    "noun"
+   ],
+   "tr": "radyatör, kalorifer peteği",
+   "ipa": "/ˈɹej.di(j)ˌej.tɚ/"
+  },
+  {
+   "w": "homely",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "ev gibi, rahat, (ABD) alımsız"
+  },
+  {
+   "w": "bureaucratic",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "bürokratik",
+   "ipa": "/ˌbjʊɹəˈkɹætɪk/"
+  },
+  {
+   "w": "bureaucratically",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "bürokratik olarak, bürokratik açıdan"
+  },
+  {
+   "w": "adjustable",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "ayarlanabilir"
+  },
+  {
+   "w": "fatigue",
+   "pos": [
+    "noun"
+   ],
+   "tr": "yorgunluk, bitkinlik",
+   "ipa": "/fəˈtiːɡ/"
+  },
+  {
+   "w": "muscular",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "kaslı, kassal",
+   "ipa": "/ˈmʌs.kjə.lɚ/"
+  },
+  {
+   "w": "versatile",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "çok yönlü, çok amaçlı, becerikli",
+   "ipa": "/ˈvɝ.sə.təl/"
+  },
+  {
+   "w": "versatility",
+   "pos": [
+    "noun"
+   ],
+   "tr": "çok yönlülük, çok amaçlılık"
+  },
+  {
+   "w": "stimuli",
+   "pos": [
+    "noun"
+   ],
+   "tr": "uyaranlar"
+  },
+  {
+   "w": "uninspiring",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "sıkıcı, heyecansız, ilham vermeyen"
+  },
+  {
+   "w": "mutually",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "karşılıklı olarak"
+  },
+  {
+   "w": "somber",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "kasvetli, hüzünlü, koyu (renk)"
+  },
+  {
+   "w": "somberly",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "hüzünle, ciddiyetle, kasvetli bir şekilde"
+  },
+  {
+   "w": "clutter",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: dağınıklık, karmaşa, ıvır zıvır; fiil: darmadağın etmek, tıkabasa doldurmak",
+   "ipa": "/ˈklʌtɚ/"
+  },
+  {
+   "w": "dislodge",
+   "pos": [
+    "verb"
+   ],
+   "tr": "yerinden çıkarmak, yerinden oynatmak, koparmak",
+   "ipa": "/dɪsˈlɒdʒ/"
+  },
+  {
+   "w": "carpenter",
+   "pos": [
+    "noun"
+   ],
+   "tr": "marangoz, dülger",
+   "ipa": "/ˈkɑɹpəntɚ/"
+  },
+  {
+   "w": "carpentry",
+   "pos": [
+    "noun"
+   ],
+   "tr": "marangozluk, dülgerlik",
+   "ipa": "/ˈkɑː.pɪn.tri/"
+  },
+  {
+   "w": "transit",
+   "pos": [
+    "noun"
+   ],
+   "tr": "geçiş, taşıma, transit",
+   "ipa": "/ˈtɹæn.zɪt/"
+  },
+  {
+   "w": "plummet",
+   "pos": [
+    "verb"
+   ],
+   "tr": "hızla düşmek, çakılmak"
+  },
+  {
+   "w": "circulate",
+   "pos": [
+    "verb"
+   ],
+   "tr": "dolaşmak, dağıtmak, yaymak",
+   "ipa": "/ˈsɝ.kjʊˌleɪt/"
+  },
+  {
+   "w": "circulation",
+   "pos": [
+    "noun"
+   ],
+   "tr": "dolaşım, tiraj, tedavül",
+   "ipa": "/ˌsɝkjʊˈleɪʃən/"
+  },
+  {
+   "w": "demography",
+   "pos": [
+    "noun"
+   ],
+   "tr": "demografi, nüfus bilimi",
+   "ipa": "/dɪˈmɒɡɹəfi/"
+  },
+  {
+   "w": "demographic",
+   "pos": [
+    "adjective",
+    "noun"
+   ],
+   "tr": "sıfat: demografik, nüfusla ilgili; isim: hedef kitle, nüfus grubu",
+   "ipa": "/ˌdɛm.əˈɡɹæf.ɪk/"
+  },
+  {
+   "w": "demographically",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "demografik olarak, nüfus açısından"
+  },
+  {
+   "w": "phenomenal",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "olağanüstü, fevkalade, fenomenal",
+   "ipa": "/fɪˈnɑmɪnəl/"
+  },
+  {
+   "w": "phenomenally",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "olağanüstü derecede, inanılmaz şekilde"
+  },
+  {
+   "w": "prophet",
+   "pos": [
+    "noun"
+   ],
+   "tr": "peygamber, kâhin",
+   "ipa": "/ˈpɹɑ.fɪt/"
+  },
+  {
+   "w": "prophetic",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "kehanet niteliğinde, geleceği önceden gören"
+  },
+  {
+   "w": "paywall",
+   "pos": [
+    "noun"
+   ],
+   "tr": "ödeme duvarı, ücretli içerik engeli"
+  },
+  {
+   "w": "firewall",
+   "pos": [
+    "noun"
+   ],
+   "tr": "güvenlik duvarı",
+   "ipa": "/ˈfaɪ(ə)ɹˌwɔl/"
+  },
+  {
+   "w": "invoice",
+   "pos": [
+    "noun"
+   ],
+   "tr": "fatura",
+   "ipa": "/ˈɪnˌvɔɪs/"
+  },
+  {
+   "w": "demolition",
+   "pos": [
+    "noun"
+   ],
+   "tr": "yıkım, yıkma"
+  },
+  {
+   "w": "demo",
+   "pos": [
+    "noun"
+   ],
+   "tr": "tanıtım, demo, gösteri"
+  },
+  {
+   "w": "gig",
+   "pos": [
+    "noun"
+   ],
+   "tr": "konser, sahne performansı, geçici iş",
+   "ipa": "/ɡɪɡ/"
+  },
+  {
+   "w": "socialization",
+   "pos": [
+    "noun"
+   ],
+   "tr": "sosyalleşme, toplumsallaşma"
+  },
+  {
+   "w": "antiquity",
+   "pos": [
+    "noun"
+   ],
+   "tr": "antik çağ, eskilik, antik eser"
+  },
+  {
+   "w": "antiquated",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "modası geçmiş, eski, demode"
+  },
+  {
+   "w": "restoration",
+   "pos": [
+    "noun"
+   ],
+   "tr": "restorasyon, onarım, yeniden kurma",
+   "ipa": "/ɹɛstəˈɹeɪʃən/"
+  },
+  {
+   "w": "restorative",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "güçlendirici, onarıcı, dinlendirici",
+   "ipa": "/ɹɪˈstɒɹətɪv/"
+  },
+  {
+   "w": "rotate",
+   "pos": [
+    "verb"
+   ],
+   "tr": "dönmek, döndürmek, sırayla değiştirmek"
+  },
+  {
+   "w": "coupled",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "birleşik, eşleştirilmiş, (coupled with) ile birlikte"
+  },
+  {
+   "w": "itinerary",
+   "pos": [
+    "noun"
+   ],
+   "tr": "seyahat programı, güzergâh, yol planı",
+   "ipa": "/aɪˈtɪnəˌɹɛɹi/"
+  },
+  {
+   "w": "charter",
+   "pos": [
+    "verb",
+    "noun"
+   ],
+   "tr": "fiil: (uçak, gemi) kiralamak; isim: tüzük, berat, kiralık sefer"
+  },
+  {
+   "w": "terrain",
+   "pos": [
+    "noun"
+   ],
+   "tr": "arazi, yeryüzü şekli",
+   "ipa": "/təˈɹeɪn/"
+  },
+  {
+   "w": "resilient",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "dayanıklı, dirençli, esnek",
+   "ipa": "/ɹɪˈzɪl.jənt/"
+  },
+  {
+   "w": "resilience",
+   "pos": [
+    "noun"
+   ],
+   "tr": "dayanıklılık, direnç, toparlanma gücü",
+   "ipa": "/ɹɪˈzɪl.jəns/"
+  },
+  {
+   "w": "enterprising",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "girişimci, girişken, iş bilir"
+  },
+  {
+   "w": "integral",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "ayrılmaz, temel, bütünün parçası olan",
+   "ipa": "/ˈɪntəɡɹəl/"
+  },
+  {
+   "w": "canoe",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kano",
+   "ipa": "/kəˈnuː/"
+  },
+  {
+   "w": "magnetic",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "manyetik, mıknatıslı, çekici"
+  },
+  {
+   "w": "magnetism",
+   "pos": [
+    "noun"
+   ],
+   "tr": "manyetizma, çekicilik",
+   "ipa": "/ˈmæɡ.nəˌtɪz.əm/"
+  },
+  {
+   "w": "magnetically",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "manyetik olarak"
+  },
+  {
+   "w": "credible",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "inandırıcı, güvenilir",
+   "ipa": "/ˈkɹɛdəbl̩/"
+  },
+  {
+   "w": "credibly",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "inandırıcı bir şekilde, güvenilir biçimde"
+  },
+  {
+   "w": "credibility",
+   "pos": [
+    "noun"
+   ],
+   "tr": "güvenilirlik, inandırıcılık"
+  },
+  {
+   "w": "credential",
+   "pos": [
+    "noun"
+   ],
+   "tr": "yeterlilik belgesi, kimlik bilgisi, referans"
+  },
+  {
+   "w": "acutely",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "son derece, derinden, keskin bir şekilde"
+  },
+  {
+   "w": "prohibitive",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "fahiş, engelleyici, yasaklayıcı"
+  },
+  {
+   "w": "prohibitively",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "fahiş derecede, aşırı"
+  },
+  {
+   "w": "fissure",
+   "pos": [
+    "noun"
+   ],
+   "tr": "yarık, çatlak",
+   "ipa": "/ˈfɪʃ.ɚ/"
+  },
+  {
+   "w": "pendulous",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "sarkık, sallanan"
+  },
+  {
+   "w": "suspension",
+   "pos": [
+    "noun"
+   ],
+   "tr": "askıya alma, uzaklaştırma, süspansiyon",
+   "ipa": "/səˈspɛnʃən/"
+  },
+  {
+   "w": "anthropology",
+   "pos": [
+    "noun"
+   ],
+   "tr": "antropoloji, insan bilimi",
+   "ipa": "/ˌænθɹəˈpɑləd͡ʒi/"
+  },
+  {
+   "w": "anthropologist",
+   "pos": [
+    "noun"
+   ],
+   "tr": "antropolog, insan bilimci",
+   "ipa": "/ˌæn.θɹoʊˈpɑl.ə.d͡ʒɪst/"
+  },
+  {
+   "w": "squander",
+   "pos": [
+    "verb"
+   ],
+   "tr": "çarçur etmek, israf etmek, heba etmek",
+   "ipa": "/ˈskwɑn.dɚ/"
+  },
+  {
+   "w": "munch",
+   "pos": [
+    "verb"
+   ],
+   "tr": "çatır çutur yemek, çiğnemek, atıştırmak"
+  },
+  {
+   "w": "adjoin",
+   "pos": [
+    "verb"
+   ],
+   "tr": "bitişik olmak, yanında olmak"
+  },
+  {
+   "w": "adjoining",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "bitişik, yandaki"
+  },
+  {
+   "w": "wizened",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "buruşuk, pörsümüş, kırış kırış",
+   "ipa": "/ˈwɪzənd/"
+  },
+  {
+   "w": "graft",
+   "pos": [
+    "verb"
+   ],
+   "tr": "aşılamak, (doku) nakletmek, eklemek",
+   "ipa": "/ɡɹæft/"
+  },
+  {
+   "w": "orchard",
+   "pos": [
+    "noun"
+   ],
+   "tr": "meyve bahçesi",
+   "ipa": "/ˈɔɹ.t͡ʃɚd/"
+  },
+  {
+   "w": "seedling",
+   "pos": [
+    "noun"
+   ],
+   "tr": "fide, fidan",
+   "ipa": "/ˈsiːdlɪŋ/"
+  },
+  {
+   "w": "tract",
+   "pos": [
+    "noun"
+   ],
+   "tr": "geniş arazi, (vücutta) yol, risale"
+  },
+  {
+   "w": "folktale",
+   "pos": [
+    "noun"
+   ],
+   "tr": "halk masalı, halk hikâyesi"
+  },
+  {
+   "w": "sprout",
+   "pos": [
+    "verb",
+    "noun"
+   ],
+   "tr": "fiil: filizlenmek, çimlenmek, birden çıkmak; isim: filiz, sürgün, Brüksel lahanası",
+   "ipa": "/spɹaʊt/"
+  },
+  {
+   "w": "hypocrisy",
+   "pos": [
+    "noun"
+   ],
+   "tr": "ikiyüzlülük, riyakârlık",
+   "ipa": "/hɪˈpɑkɹəsi/"
+  },
+  {
+   "w": "hypocrite",
+   "pos": [
+    "noun"
+   ],
+   "tr": "ikiyüzlü, riyakâr",
+   "ipa": "/ˈhɪ.pə.kɹɪt/"
+  },
+  {
+   "w": "hypocritical",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "ikiyüzlü, riyakâr",
+   "ipa": "/hɪpəˈkɹɪtɪkəl/"
+  },
+  {
+   "w": "hypocritically",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "ikiyüzlülükle, riyakârca"
+  },
+  {
+   "w": "midwife",
+   "pos": [
+    "noun"
+   ],
+   "tr": "ebe",
+   "ipa": "/ˈmɪd.waɪf/"
+  },
+  {
+   "w": "commercially",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "ticari olarak, ticari açıdan"
+  },
+  {
+   "w": "uniformity",
+   "pos": [
+    "noun"
+   ],
+   "tr": "tek biçimlilik, tekdüzelik, aynılık"
+  },
+  {
+   "w": "numb",
+   "pos": [
+    "adjective",
+    "verb"
+   ],
+   "tr": "sıfat: uyuşmuş, hissiz, donakalmış; fiil: uyuşturmak, hissizleştirmek",
+   "ipa": "/nʌm/"
+  },
+  {
+   "w": "tastebud",
+   "pos": [
+    "noun"
+   ],
+   "tr": "tat tomurcuğu",
+   "ipa": "/ˈteɪstbʌd/"
+  },
+  {
+   "w": "amateur",
+   "pos": [
+    "noun",
+    "adjective"
+   ],
+   "tr": "isim: amatör, acemi; sıfat: amatör, amatörce",
+   "ipa": "/ˈæ.mə.t͡ʃɚ/"
+  },
+  {
+   "w": "retrace",
+   "pos": [
+    "verb"
+   ],
+   "tr": "izini sürmek, aynı yoldan geri gitmek",
+   "ipa": "/ɹiːˈtɹeɪs/"
+  },
+  {
+   "w": "insubordinate",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "itaatsiz, asi"
+  },
+  {
+   "w": "insubordination",
+   "pos": [
+    "noun"
+   ],
+   "tr": "itaatsizlik, emre karşı gelme"
+  },
+  {
+   "w": "insubordinately",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "itaatsizce"
+  },
+  {
+   "w": "subordinate",
+   "pos": [
+    "noun"
+   ],
+   "tr": "ast, emrindeki kişi",
+   "ipa": "/səˈbɔɹdɪnət/"
+  },
+  {
+   "w": "primitively",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "ilkel bir şekilde, basitçe"
+  },
+  {
+   "w": "embark",
+   "pos": [
+    "verb"
+   ],
+   "tr": "(gemi, uçağa) binmek, başlamak, girişmek",
+   "ipa": "/ɪmˈbɑɹk/"
+  },
+  {
+   "w": "expedite",
+   "pos": [
+    "verb"
+   ],
+   "tr": "hızlandırmak, çabuklaştırmak"
+  },
+  {
+   "w": "contextual",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "bağlamsal, bağlama ilişkin"
+  },
+  {
+   "w": "contextually",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "bağlamsal olarak, bağlama göre"
+  },
+  {
+   "w": "whilst",
+   "pos": [
+    "conjunction"
+   ],
+   "tr": "iken, -erken, oysa"
+  },
+  {
+   "w": "maneuver",
+   "pos": [
+    "verb",
+    "noun"
+   ],
+   "tr": "fiil: manevra yapmak, ustaca yönlendirmek; isim: manevra, taktik",
+   "ipa": "/məˈnuvɚ/"
+  },
+  {
+   "w": "riveting",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "sürükleyici, büyüleyici"
+  },
+  {
+   "w": "plunge",
+   "pos": [
+    "verb",
+    "noun"
+   ],
+   "tr": "fiil: dalmak, hızla düşmek, daldırmak; isim: dalış, ani düşüş",
+   "ipa": "/plʌnd͡ʒ/"
+  },
+  {
+   "w": "debut",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: ilk çıkış, ilk performans; fiil: ilk kez sahneye çıkmak, ilk kez piyasaya çıkmak"
+  },
+  {
+   "w": "turmoil",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kargaşa, karışıklık, çalkantı"
+  },
+  {
+   "w": "scathing",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "çok sert, yerden yere vuran, kırıcı"
+  },
+  {
+   "w": "convoluted",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "karmaşık, girift, anlaşılması güç",
+   "ipa": "/ˌkɑnvəˈlutəd/"
+  },
+  {
+   "w": "undaunted",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "yılmaz, gözü pek, korkusuz"
+  },
+  {
+   "w": "gutsy",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "cesur, yürekli, gözü pek"
+  },
+  {
+   "w": "deprivation",
+   "pos": [
+    "noun"
+   ],
+   "tr": "yoksunluk, mahrumiyet"
+  },
+  {
+   "w": "farce",
+   "pos": [
+    "noun"
+   ],
+   "tr": "maskaralık, saçmalık, fars (güldürü)"
+  },
+  {
+   "w": "portray",
+   "pos": [
+    "verb"
+   ],
+   "tr": "canlandırmak, tasvir etmek, betimlemek"
+  },
+  {
+   "w": "portrayal",
+   "pos": [
+    "noun"
+   ],
+   "tr": "canlandırma, tasvir, betimleme"
+  },
+  {
+   "w": "elusive",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "ele geçmez, bulunması zor, anlaşılması zor"
+  },
+  {
+   "w": "elude",
+   "pos": [
+    "verb"
+   ],
+   "tr": "atlatmak, elinden kaçmak, hatırlanamamak"
+  },
+  {
+   "w": "incisor",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kesici diş",
+   "ipa": "/ɪnˈsaɪ.zə(ɹ)/"
+  },
+  {
+   "w": "incision",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kesi, kesik, yarık"
+  },
+  {
+   "w": "chisel",
+   "pos": [
+    "verb"
+   ],
+   "tr": "yontmak, keskiyle oymak",
+   "ipa": "/ˈt͡ʃɪzəl/"
+  },
+  {
+   "w": "chiselled",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "keskin hatlı, yontulmuş"
+  },
+  {
+   "w": "gnaw",
+   "pos": [
+    "verb"
+   ],
+   "tr": "kemirmek, için için rahatsız etmek",
+   "ipa": "/nɔ/"
+  },
+  {
+   "w": "elongate",
+   "pos": [
+    "verb"
+   ],
+   "tr": "uzatmak, uzamak"
+  },
+  {
+   "w": "telltale",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "ele veren, belli eden, açığa vuran",
+   "ipa": "/ˈtɛlteɪl/"
+  },
+  {
+   "w": "cavity",
+   "pos": [
+    "noun"
+   ],
+   "tr": "boşluk, oyuk, (diş) çürüğü",
+   "ipa": "[ˈkʰæv.ɨɾ.i]"
+  },
+  {
+   "w": "rustle",
+   "pos": [
+    "verb",
+    "noun"
+   ],
+   "tr": "fiil: hışırdamak, hışırdatmak; isim: hışırtı",
+   "ipa": "/ˈɹʌsəl/"
+  },
+  {
+   "w": "glean",
+   "pos": [
+    "verb"
+   ],
+   "tr": "(azar azar bilgi) toplamak, edinmek",
+   "ipa": "/ɡlin/"
+  },
+  {
+   "w": "niche",
+   "pos": [
+    "noun"
+   ],
+   "tr": "niş, girinti, uzmanlık alanı"
+  },
+  {
+   "w": "somersault",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: takla, perende; fiil: takla atmak",
+   "ipa": "/ˈsʌmɚˌsɔlt/"
+  },
+  {
+   "w": "exhilarate",
+   "pos": [
+    "verb"
+   ],
+   "tr": "heyecanlandırmak, coşturmak, canlandırmak"
+  },
+  {
+   "w": "exhilarating",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "heyecan verici, canlandırıcı, coşturucu"
+  },
+  {
+   "w": "exhilaration",
+   "pos": [
+    "noun"
+   ],
+   "tr": "coşku, heyecan, keyif"
+  },
+  {
+   "w": "physicality",
+   "pos": [
+    "noun"
+   ],
+   "tr": "fiziksellik, bedensel özellikler"
+  },
+  {
+   "w": "hack",
+   "pos": [
+    "verb",
+    "noun"
+   ],
+   "tr": "fiil: kesmek, doğramak, (sisteme) sızmak; isim: pratik çözüm, sızma, vasat yazar"
+  },
+  {
+   "w": "lust",
+   "pos": [
+    "noun"
+   ],
+   "tr": "şehvet, tutku, ihtiras",
+   "ipa": "/ˈlʌst/"
+  },
+  {
+   "w": "unsettling",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "tedirgin edici, rahatsız edici",
+   "ipa": "/ənˈsɛtəlɪŋ/"
+  },
+  {
+   "w": "unsettle",
+   "pos": [
+    "verb"
+   ],
+   "tr": "tedirgin etmek, huzurunu kaçırmak, sarsmak"
+  },
+  {
+   "w": "suburban",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "banliyöye ait, banliyö"
+  },
+  {
+   "w": "suburbia",
+   "pos": [
+    "noun"
+   ],
+   "tr": "banliyöler, banliyö yaşamı"
+  },
+  {
+   "w": "dramatist",
+   "pos": [
+    "noun"
+   ],
+   "tr": "oyun yazarı, dram yazarı"
+  },
+  {
+   "w": "characterization",
+   "pos": [
+    "noun"
+   ],
+   "tr": "karakterizasyon, karakter yaratma, nitelendirme"
+  },
+  {
+   "w": "quirky",
+   "pos": [
+    "adjective",
+    "noun"
+   ],
+   "tr": "tuhaf, ilginç, sıra dışı",
+   "ipa": "/ˈkwɜːki/"
+  },
+  {
+   "w": "sprawl",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: düzensiz yayılma, kentsel yayılma; fiil: yayılıp uzanmak, gelişigüzel yayılmak"
+  },
+  {
+   "w": "ingenuity",
+   "pos": [
+    "noun"
+   ],
+   "tr": "yaratıcılık, hüner, ustalık",
+   "ipa": "/ˌɪnd͡ʒəˈn(j)uːəti/"
+  },
+  {
+   "w": "panorama",
+   "pos": [
+    "noun"
+   ],
+   "tr": "panorama, genel görünüm",
+   "ipa": "/ˌpæn.əˈɹæm.ə/"
+  },
+  {
+   "w": "panoramic",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "panoramik, geniş açılı"
+  },
+  {
+   "w": "benign",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "iyi huylu, zararsız, yumuşak"
+  },
+  {
+   "w": "benignly",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "iyi niyetle, şefkatle, zararsızca"
+  },
+  {
+   "w": "explosively",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "patlarcasına, şiddetle, patlayıcı biçimde"
+  },
+  {
+   "w": "bequeath",
+   "pos": [
+    "verb"
+   ],
+   "tr": "vasiyetle bırakmak, miras bırakmak",
+   "ipa": "/bɪˈkwiːθ/"
+  },
+  {
+   "w": "legacy",
+   "pos": [
+    "noun"
+   ],
+   "tr": "miras, kalıt, bıraktığı iz",
+   "ipa": "/ˈlɛɡəsi/"
+  },
+  {
+   "w": "synthetic",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "sentetik, yapay"
+  },
+  {
+   "w": "synthetically",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "sentetik olarak, yapay olarak"
+  },
+  {
+   "w": "lackluster",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "sönük, cansız, vasat",
+   "ipa": "/ˈlæklʌstɚ/"
+  },
+  {
+   "w": "elastic",
+   "pos": [
+    "noun",
+    "adjective"
+   ],
+   "tr": "isim: lastik, lastik bant; sıfat: esnek, elastik",
+   "ipa": "/ə-/"
+  },
+  {
+   "w": "appall",
+   "pos": [
+    "verb"
+   ],
+   "tr": "dehşete düşürmek, şoke etmek"
+  },
+  {
+   "w": "appalling",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "korkunç, berbat, dehşet verici",
+   "ipa": "/əˈpɔːlɪŋ/"
+  },
+  {
+   "w": "appallingly",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "korkunç derecede, berbat bir şekilde"
+  },
+  {
+   "w": "pounce",
+   "pos": [
+    "verb"
+   ],
+   "tr": "üzerine atılmak, saldırmak, fırsatı kapmak"
+  },
+  {
+   "w": "abound",
+   "pos": [
+    "verb"
+   ],
+   "tr": "bol olmak, çok sayıda bulunmak"
+  },
+  {
+   "w": "sap",
+   "pos": [
+    "noun"
+   ],
+   "tr": "öz su, (argo) saf kimse",
+   "ipa": "/sæp/"
+  },
+  {
+   "w": "monotonous",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "tekdüze, monoton",
+   "ipa": "/məˈnɑtənəs/"
+  },
+  {
+   "w": "monotonously",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "tekdüze bir şekilde, monoton biçimde"
+  },
+  {
+   "w": "monotony",
+   "pos": [
+    "noun"
+   ],
+   "tr": "tekdüzelik, monotonluk"
+  },
+  {
+   "w": "turn to",
+   "pos": [
+    "verb"
+   ],
+   "tr": "başvurmak, -e yönelmek, (sayfayı) açmak"
+  },
+  {
+   "w": "ingenious",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "dâhiyane, yaratıcı, zekice",
+   "ipa": "/ɪnˈd͡ʒiːnjəs/"
+  },
+  {
+   "w": "plaque",
+   "pos": [
+    "noun"
+   ],
+   "tr": "plaket, levha, (diş) plak"
+  },
+  {
+   "w": "neutralize",
+   "pos": [
+    "verb"
+   ],
+   "tr": "etkisiz hale getirmek, nötralize etmek",
+   "ipa": "/ˈnutɹəˌlaɪz/"
+  },
+  {
+   "w": "neutralization",
+   "pos": [
+    "noun"
+   ],
+   "tr": "etkisiz hale getirme, nötrleştirme",
+   "ipa": "/ˌnuːtɹəlaɪˈzeɪʃən/"
+  },
+  {
+   "w": "salivate",
+   "pos": [
+    "verb"
+   ],
+   "tr": "ağzı sulanmak, salya salgılamak"
+  },
+  {
+   "w": "cessation",
+   "pos": [
+    "noun"
+   ],
+   "tr": "durma, kesilme, sona erme"
+  },
+  {
+   "w": "remorse",
+   "pos": [
+    "noun"
+   ],
+   "tr": "pişmanlık, vicdan azabı"
+  },
+  {
+   "w": "remorseless",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "acımasız, vicdansız, amansız"
+  },
+  {
+   "w": "remorsefully",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "pişmanlıkla, vicdan azabıyla"
+  },
+  {
+   "w": "remorselessly",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "acımasızca, amansızca"
+  },
+  {
+   "w": "inexcusable",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "affedilemez, bağışlanamaz"
+  },
+  {
+   "w": "inexcusably",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "affedilemez bir şekilde"
+  },
+  {
+   "w": "unassisted",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "yardımsız, kendi başına, yardım almadan"
+  },
+  {
+   "w": "heighten",
+   "pos": [
+    "verb"
+   ],
+   "tr": "artırmak, yoğunlaştırmak, yükseltmek"
+  },
+  {
+   "w": "fixture",
+   "pos": [
+    "noun"
+   ],
+   "tr": "sabit tesisat, demirbaş, (spor) maç"
+  },
+  {
+   "w": "bulk",
+   "pos": [
+    "noun"
+   ],
+   "tr": "büyük kısım, hacim, kütle",
+   "ipa": "/bʌlk/"
+  },
+  {
+   "w": "bulky",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "hantal, iri, yer kaplayan"
+  },
+  {
+   "w": "bulk up",
+   "pos": [
+    "verb"
+   ],
+   "tr": "kas kütlesini artırmak, iriyileşmek, hacmini artırmak"
+  },
+  {
+   "w": "digitalize",
+   "pos": [
+    "verb"
+   ],
+   "tr": "dijitalleştirmek, sayısallaştırmak"
+  },
+  {
+   "w": "digitalization",
+   "pos": [
+    "noun"
+   ],
+   "tr": "dijitalleşme, sayısallaştırma"
+  },
+  {
+   "w": "mark-up",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kâr payı, fiyat artışı, (metin) işaretleme"
+  },
+  {
+   "w": "complementary",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "tamamlayıcı, bütünleyici"
+  },
+  {
+   "w": "complimentary",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "ücretsiz, ikram, iltifat eden",
+   "ipa": "/ˌkɑmplɪˈmɛnt(ə)ɹi/"
+  },
+  {
+   "w": "staple",
+   "pos": [
+    "noun"
+   ],
+   "tr": "temel gıda, ana ürün, zımba teli",
+   "ipa": "/ˈsteɪ.pəl/"
+  },
+  {
+   "w": "wares",
+   "pos": [
+    "noun"
+   ],
+   "tr": "mallar, satılık eşyalar"
+  },
+  {
+   "w": "testament",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kanıt, vasiyetname, ahit",
+   "ipa": "/ˈtɛs.tə.mənt/"
+  },
+  {
+   "w": "succulent",
+   "pos": [
+    "noun",
+    "adjective"
+   ],
+   "tr": "isim: etli yapraklı bitki, sukulent; sıfat: sulu, lezzetli",
+   "ipa": "/ˈsʌkjələnt/"
+  },
+  {
+   "w": "succulently",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "sulu ve lezzetli bir şekilde"
+  },
+  {
+   "w": "tranquil",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "sakin, huzurlu, durgun",
+   "ipa": "/ˈtɹeɪ̯ŋ.kwɪl/"
+  },
+  {
+   "w": "tranquility",
+   "pos": [
+    "noun"
+   ],
+   "tr": "huzur, sükûnet, dinginlik"
+  },
+  {
+   "w": "spartan",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "sade, gösterişsiz, (yaşam tarzı) sert",
+   "ipa": "/ˈspɑɹtən/"
+  },
+  {
+   "w": "peninsula",
+   "pos": [
+    "noun"
+   ],
+   "tr": "yarımada",
+   "ipa": "/pɪˈnɪn.s(j)ʊ.lə/"
+  },
+  {
+   "w": "billiards",
+   "pos": [
+    "noun"
+   ],
+   "tr": "bilardo",
+   "ipa": "/ˈbɪl.jɚdz/"
+  }
+ ]
+}

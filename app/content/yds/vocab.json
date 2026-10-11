@@ -1,0 +1,203 @@
+{
+  "type": "vocab",
+  "sources": [
+    {"title": "YDS: Yabancı Dil Bilgisi Seviye Tespit Sınavı", "site": "ÖSYM", "url": "https://www.osym.gov.tr/SinavGrubu/Index/7"},
+    {"title": "Cambridge Dictionary", "site": "Cambridge University Press", "url": "https://dictionary.cambridge.org/"},
+    {"title": "Oxford Learner's Dictionaries", "site": "Oxford University Press", "url": "https://www.oxfordlearnersdictionaries.com/"},
+    {"title": "Phrasal verbs (English Grammar Today)", "site": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/phrasal-verbs"}
+  ],
+  "items": [
+    {
+      "id": "voc-001",
+      "q": "The rapid ---- of antibiotic-resistant bacteria has become one of the most serious threats to global public health.",
+      "options": ["departure", "refusal", "emergence", "assembly", "fatigue"],
+      "answer": 2,
+      "explain_tr": "Cümle antibiyotiğe dirençli bakterilerin hızla ortaya çıkışının küresel sağlık için tehdit olduğunu söylüyor; \"the rapid ---- of\" kalıbına [en:emergence] (ortaya çıkış) oturuyor. [en:departure] (ayrılış) ve [en:refusal] (ret) bakterilerle bir arada anlamsız; [en:assembly] (toplanma) ve [en:fatigue] (yorgunluk) bağlama uymaz.",
+      "tags": ["noun"]
+    },
+    {
+      "id": "voc-002",
+      "q": "Economists warn that a sudden rise in interest rates could ---- the fragile recovery that began last year.",
+      "options": ["undermine", "nourish", "persuade", "inherit", "assemble"],
+      "answer": 0,
+      "explain_tr": "Faiz artışı kırılgan toparlanmayı baltalayabilir: [en:undermine] (baltalamak, zayıflatmak); [en:warn] (uyarmak) fiili olumsuz bir sonuç bekletiyor. [en:nourish] (beslemek) tam tersi, olumlu anlam verir; [en:persuade] (ikna etmek) kişi nesnesi ister; [en:inherit] (miras almak) ve [en:assemble] (monte etmek) bağlamla ilgisiz.",
+      "tags": ["verb"]
+    },
+    {
+      "id": "voc-003",
+      "q": "Despite decades of research, the causes of the disorder remain ----, and no single theory has gained universal acceptance.",
+      "options": ["generous", "portable", "fluent", "abundant", "obscure"],
+      "answer": 4,
+      "explain_tr": "Onlarca yıllık araştırmaya rağmen nedenler hâlâ belirsiz ve tek bir kuram kabul görmemiş; [en:obscure] (belirsiz, anlaşılmamış) bu anlamı verir. [en:abundant] (bol) ve [en:generous] (cömert) \"nedenler\" için anlamsız; [en:portable] (taşınabilir) ve [en:fluent] (akıcı) bağlamla ilgisiz.",
+      "tags": ["adjective"]
+    },
+    {
+      "id": "voc-004",
+      "q": "The new drug was ---- tested on a small group of volunteers before the company sought approval for larger trials.",
+      "options": ["enormously", "initially", "mutually", "financially", "politely"],
+      "answer": 1,
+      "explain_tr": "İlaç önce küçük bir gönüllü grubunda, sonra daha büyük denemelerde test edilmiş: sıralama [en:initially] (başlangıçta) ile kurulur; \"before … larger trials\" bunu destekler. [en:enormously] (muazzam ölçüde) ve [en:mutually] (karşılıklı olarak) \"test edilmek\" ile anlamsız; [en:financially] ve [en:politely] bağlama uymaz.",
+      "tags": ["adverb"]
+    },
+    {
+      "id": "voc-005",
+      "q": "The government has promised to ---- the regulations that have discouraged small businesses from hiring new staff.",
+      "options": ["look up to", "run out of", "come down with", "do away with", "get along with"],
+      "answer": 3,
+      "explain_tr": "Hükûmet küçük işletmeleri işe almaktan caydıran düzenlemeleri kaldırmayı vaat ediyor: [en:do away with] (ortadan kaldırmak). [en:run out of] (bitirmek, tükenmek) düzenlemeler için anlamsız; [en:look up to] (saygı duymak) ve [en:get along with] (iyi geçinmek) kişiler için kullanılır; [en:come down with] (hastalığa yakalanmak) bağlama uymaz.",
+      "tags": ["phrasal verb"]
+    },
+    {
+      "id": "voc-006",
+      "q": "The study found a strong ---- between hours of sleep and students' performance on memory tests.",
+      "options": ["correlation", "obligation", "celebration", "isolation", "reputation"],
+      "answer": 0,
+      "explain_tr": "Uyku süresi ile bellek testi performansı arasında güçlü bir ilişki bulunmuş: \"a strong ---- between X and Y\" kalıbı [en:correlation] (bağıntı, ilişki) ister. [en:obligation] (yükümlülük) ve [en:reputation] (itibar) \"between\" ile bu anlamda kullanılmaz; [en:celebration] ve [en:isolation] bağlamla ilgisiz.",
+      "tags": ["noun"]
+    },
+    {
+      "id": "voc-007",
+      "q": "Scientists have not yet been able to ---- why some people recover from the infection quickly while others develop severe symptoms.",
+      "options": ["deceive", "decorate", "dissolve", "determine", "deposit"],
+      "answer": 3,
+      "explain_tr": "Bilim insanları bazı kişilerin neden hızlı iyileştiğini henüz belirleyememiş; [en:determine why …] (neden … olduğunu belirlemek, saptamak) doğal kalıptır. [en:deceive] (aldatmak), [en:decorate] (süslemek), [en:dissolve] (çözmek, eritmek) ve [en:deposit] (yatırmak) \"why\" yan cümlesiyle kullanılmaz; anlamca da uymaz.",
+      "tags": ["verb"]
+    },
+    {
+      "id": "voc-008",
+      "q": "Because the evidence presented at the trial was largely ----, the jury took several days to reach a verdict.",
+      "options": ["affordable", "circumstantial", "nutritious", "picturesque", "fashionable"],
+      "answer": 1,
+      "explain_tr": "Kanıtlar büyük ölçüde dolaylı olduğu için jüri karar vermekte zorlanmış: [en:circumstantial evidence] (dolaylı, ikinci dereceden kanıt) hukuk dilinde sabit bir eş dizimdir. [en:affordable] (uygun fiyatlı), [en:nutritious] (besleyici), [en:picturesque] (resim gibi güzel) ve [en:fashionable] (moda) kanıt için anlamsızdır.",
+      "tags": ["adjective"]
+    },
+    {
+      "id": "voc-009",
+      "q": "The archaeologists ---- a series of clay tablets while digging near the ruins of the ancient temple.",
+      "options": ["gave up", "took after", "called off", "wore out", "came across"],
+      "answer": 4,
+      "explain_tr": "Arkeologlar kazı sırasında kil tabletlere rastlamış: [en:come across] (tesadüfen bulmak, rastlamak). [en:give up] (vazgeçmek) ve [en:call off] (iptal etmek) tabletlerle anlamsız; [en:take after] (birine benzemek) kişiler için kullanılır; [en:wear out] (eskitmek, yıpratmak) bağlama uymaz.",
+      "tags": ["phrasal verb"]
+    },
+    {
+      "id": "voc-010",
+      "q": "In the absence of reliable data, policymakers were forced to make decisions on the basis of ---- rather than evidence.",
+      "options": ["equipment", "furniture", "assumption", "vaccination", "geometry"],
+      "answer": 2,
+      "explain_tr": "Güvenilir veri yokken kararlar kanıta değil varsayıma dayanarak alınmış: [en:assumption] (varsayım), \"rather than evidence\" ile karşıtlık kurar. [en:equipment] (donanım), [en:furniture] (mobilya), [en:vaccination] (aşılama) ve [en:geometry] (geometri) kanıtın karşıtı olamaz; bağlama uymaz.",
+      "tags": ["noun"]
+    },
+    {
+      "id": "voc-011",
+      "q": "The new law is intended to ---- employers from dismissing workers who report safety violations.",
+      "options": ["admire", "deter", "harvest", "celebrate", "translate"],
+      "answer": 1,
+      "explain_tr": "Yasa, işverenleri güvenlik ihlalini bildiren işçileri işten çıkarmaktan caydırmayı amaçlıyor: [en:deter someone from doing] (birini bir şey yapmaktan caydırmak) kalıbı. [en:admire] (hayran olmak) ve [en:celebrate] (kutlamak) \"from -ing\" ile kullanılmaz; [en:harvest] (hasat etmek) ve [en:translate] (çevirmek) anlamca uymaz.",
+      "tags": ["verb"]
+    },
+    {
+      "id": "voc-012",
+      "q": "Although the two languages are ---- related, speakers of one cannot easily understand the other.",
+      "options": ["loudly", "cheaply", "legally", "hungrily", "closely"],
+      "answer": 4,
+      "explain_tr": "[en:Although] zıtlık kurar: diller yakından akraba olduğu hâlde konuşanlar birbirini kolayca anlayamıyor; [en:closely related] (yakından akraba, yakın ilişkili) yerleşik eş dizimdir. [en:legally related] (hukuken bağlı) diller için anlamsız; [en:loudly], [en:cheaply] ve [en:hungrily] \"related\" ile kullanılmaz.",
+      "tags": ["adverb"]
+    },
+    {
+      "id": "voc-013",
+      "q": "The region's economy is heavily ---- on tourism, so the drop in visitor numbers last summer caused widespread hardship.",
+      "options": ["dependent", "previous", "confident", "visible", "typical"],
+      "answer": 0,
+      "explain_tr": "Bölge ekonomisi turizme bağımlı olduğu için ziyaretçi düşüşü sıkıntı yaratmış: [en:dependent on] (bağımlı) hem anlamca hem edat olarak uyar. [en:confident] \"in\" ya da \"about\" ile kullanılır ve ekonomi için anlamsız; [en:previous] (önceki), [en:visible] (görünür) ve [en:typical] (tipik) \"on\" edatıyla bu anlamda kullanılmaz.",
+      "tags": ["adjective"]
+    },
+    {
+      "id": "voc-014",
+      "q": "Many historians regard the invention of the printing press as a turning point that accelerated the ---- of new ideas across Europe.",
+      "options": ["weight", "repair", "shelter", "spread", "pause"],
+      "answer": 3,
+      "explain_tr": "Matbaa yeni fikirlerin Avrupa'da yayılmasını hızlandırmış: [en:the spread of new ideas] (fikirlerin yayılması). [en:pause] (duraklama) tam tersi anlam verir; [en:weight] (ağırlık), [en:repair] (onarım) ve [en:shelter] (barınak) fikirler için anlamsızdır.",
+      "tags": ["noun"]
+    },
+    {
+      "id": "voc-015",
+      "q": "The committee decided to ---- the publication of the report until all the data had been independently verified.",
+      "options": ["imitate", "purchase", "postpone", "educate", "forgive"],
+      "answer": 2,
+      "explain_tr": "Komite, veriler bağımsızca doğrulanana kadar raporun yayımını ertelemiş: [en:postpone] (ertelemek); \"until\" bir erteleme bekletir. [en:imitate] (taklit etmek), [en:purchase] (satın almak), [en:educate] (eğitmek) ve [en:forgive] (affetmek) \"the publication\" nesnesiyle anlamsızdır.",
+      "tags": ["verb"]
+    },
+    {
+      "id": "voc-016",
+      "q": "After the factory closed, many families in the town struggled to ---- on a single income.",
+      "options": ["put off", "get by", "break down", "turn up", "give away"],
+      "answer": 1,
+      "explain_tr": "Fabrika kapanınca aileler tek gelirle geçinmekte zorlanmış: [en:get by on] (… ile geçinmek, idare etmek). [en:put off] (ertelemek) ve [en:give away] (bağışlamak) nesne ister ve burada anlamsız; [en:break down] (bozulmak) ve [en:turn up] (ortaya çıkmak) \"on a single income\" ile kullanılmaz.",
+      "tags": ["phrasal verb"]
+    },
+    {
+      "id": "voc-017",
+      "q": "The lecturer's explanation was so ---- that even students with no background in physics could follow it.",
+      "options": ["rigid", "hostile", "remote", "fragile", "lucid"],
+      "answer": 4,
+      "explain_tr": "Açıklama o kadar anlaşılırmış ki fizik bilmeyen öğrenciler bile takip edebilmiş: [en:lucid] (açık, anlaşılır). [en:rigid] (katı), [en:hostile] (düşmanca), [en:remote] (uzak) ve [en:fragile] (kırılgan) bir açıklamanın kolay anlaşılmasını açıklamaz.",
+      "tags": ["adjective"]
+    },
+    {
+      "id": "voc-018",
+      "q": "Public ---- in the banking system fell sharply after the collapse of two major lenders in the same month.",
+      "options": ["ceremony", "territory", "confidence", "luggage", "chemistry"],
+      "answer": 2,
+      "explain_tr": "İki büyük bankanın çöküşünden sonra bankacılık sistemine duyulan güven düşmüş: [en:public confidence in] (kamu güveni). [en:ceremony] (tören), [en:territory] (toprak), [en:luggage] (bagaj) ve [en:chemistry] (kimya) \"in the banking system\" ile anlamsızdır.",
+      "tags": ["noun"]
+    },
+    {
+      "id": "voc-019",
+      "q": "Doctors recommend that patients with high blood pressure ---- their intake of salt and processed foods.",
+      "options": ["inflate", "recite", "scatter", "reduce", "applaud"],
+      "answer": 3,
+      "explain_tr": "Yüksek tansiyonu olan hastaların tuz alımını azaltması önerilir: [en:reduce] (azaltmak). [en:inflate] (şişirmek) tam tersi anlam verir; [en:recite] (ezberden okumak), [en:scatter] (saçmak) ve [en:applaud] (alkışlamak) \"intake\" ile anlamsızdır.",
+      "tags": ["verb"]
+    },
+    {
+      "id": "voc-020",
+      "q": "The two reports reached ---- different conclusions, even though they were based on the same set of data.",
+      "options": ["strikingly", "formerly", "gratefully", "nervously", "instantly"],
+      "answer": 0,
+      "explain_tr": "Aynı verilere dayanan iki rapor çarpıcı biçimde farklı sonuçlara ulaşmış: [en:strikingly different] (çarpıcı ölçüde farklı) yerleşik eş dizimdir ve [en:even though] ile uyumludur. [en:formerly] (eskiden) ve [en:instantly] (anında) zaman zarfıdır, \"different\" sıfatını derecelendirmez; [en:gratefully] ve [en:nervously] bağlama uymaz.",
+      "tags": ["adverb"]
+    },
+    {
+      "id": "voc-021",
+      "q": "Rising sea levels pose a particularly ---- threat to low-lying island nations, some of which could disappear entirely.",
+      "options": ["polite", "severe", "flexible", "delicious", "brief"],
+      "answer": 1,
+      "explain_tr": "Yükselen deniz seviyesi ada ülkeleri için ciddi bir tehdit: [en:severe threat] (ciddi, ağır tehdit); \"could disappear entirely\" bu ağırlığı gösterir. [en:brief] (kısa süreli) tehdidin kalıcılığıyla çelişir; [en:polite], [en:flexible] ve [en:delicious] tehdit için anlamsızdır.",
+      "tags": ["adjective"]
+    },
+    {
+      "id": "voc-022",
+      "q": "The researchers were careful to note the ---- of their study, including its small sample size and short duration.",
+      "options": ["ingredients", "ambitions", "passengers", "landscapes", "limitations"],
+      "answer": 4,
+      "explain_tr": "Araştırmacılar küçük örneklem ve kısa süre gibi sınırlılıkları belirtmiş: [en:limitations] (sınırlılıklar); \"including its small sample size\" bu kelimeyi açıklar. [en:ambitions] (hedefler) örneklem büyüklüğüyle açıklanamaz; [en:ingredients], [en:passengers] ve [en:landscapes] bağlamla ilgisizdir.",
+      "tags": ["noun"]
+    },
+    {
+      "id": "voc-023",
+      "q": "The charity ---- food and medicine to thousands of families whose homes were destroyed by the floods.",
+      "options": ["interrupted", "memorised", "distributed", "exaggerated", "pronounced"],
+      "answer": 2,
+      "explain_tr": "Yardım kuruluşu sel mağduru ailelere gıda ve ilaç dağıtmış: [en:distribute … to] (dağıtmak). [en:interrupted] (kesintiye uğratmak), [en:memorised] (ezberlemek), [en:exaggerated] (abartmak) ve [en:pronounced] (telaffuz etmek) \"food and medicine to families\" ile anlamsızdır.",
+      "tags": ["verb"]
+    },
+    {
+      "id": "voc-024",
+      "q": "Local residents strongly ---- the proposal to build a new airport, fearing the noise and pollution it would cause.",
+      "options": ["set up", "handed in", "took off", "objected to", "ran into"],
+      "answer": 3,
+      "explain_tr": "Yerel halk gürültü ve kirlilikten korktuğu için havalimanı önerisine şiddetle karşı çıkmış: [en:object to] (karşı çıkmak, itiraz etmek); [en:strongly] bu fiille doğal eş dizim kurar. [en:set up] (kurmak) ve [en:run into] (rastlamak) bir öneriye karşı duyulan korkuyla bağdaşmaz; [en:hand in] (teslim etmek) ve [en:take off] (çıkarmak, kalkmak) bağlama uymaz.",
+      "tags": ["phrasal verb"]
+    }
+  ]
+}

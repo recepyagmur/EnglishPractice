@@ -1,0 +1,1207 @@
+{
+  "type": "reading",
+  "sources": [
+    {
+      "title": "2026-YDS/1: Temel Soru Kitapçıkları ve Cevap Anahtarları Yayımlandı",
+      "site": "ÖSYM",
+      "url": "https://www.osym.gov.tr/2026yds1-temel-soru-kitapciklari-ve-cevap-anahtarlari-yayimlandi"
+    },
+    {
+      "title": "2026-YDS/1, 20 farklı dilde gerçekleştirilecek",
+      "site": "ÖSYM",
+      "url": "https://www.osym.gov.tr/2026yds1-20-farkli-dilde-gerceklestirilecek"
+    },
+    {
+      "title": "Practise English reading skills",
+      "site": "British Council LearnEnglish",
+      "url": "https://learnenglish.britishcouncil.org/skills/reading"
+    },
+    {
+      "title": "C1 reading",
+      "site": "British Council LearnEnglish",
+      "url": "https://learnenglish.britishcouncil.org/skills/reading/c1-reading"
+    },
+    {
+      "title": "C1 Advanced",
+      "site": "Cambridge English",
+      "url": "https://www.cambridgeenglish.org/exams-and-tests/advanced/"
+    },
+    {
+      "title": "Yabancı Dil Bilgisi Seviye Tespit Sınavı (YDS)",
+      "site": "ÖSYM",
+      "url": "https://osym.gov.tr/SinavGrubu/Menu/818"
+    },
+    {
+      "title": "Yabancı Dil Bilgisi Seviye Tespit Sınavı (YDS): Örnek Sorular",
+      "site": "ÖSYM",
+      "url": "https://osym.gov.tr/yabanci-dil-bilgisi-seviye-tespit-sinavi-yds-ornek-sorular"
+    },
+    {
+      "title": "Preparing for C1 Advanced",
+      "site": "Cambridge English",
+      "url": "https://www.cambridgeenglish.org/exams-and-tests/advanced/preparation/"
+    }
+  ],
+  "items": [
+    {
+      "id": "rea-01",
+      "passage": "For much of the twentieth century, sleep was regarded by many scientists as a largely passive state in which the brain simply rested. Research over the past few decades has challenged this view. Studies suggest that during sleep the brain actively replays and reorganises the experiences of the day, a process known as memory consolidation. In laboratory experiments, participants who learn a new task and then sleep typically perform better the next day than those who remain awake for the same period, even when the two groups spend equal amounts of time practising. Different stages of sleep appear to serve different functions: deep, slow-wave sleep is associated with the strengthening of factual memories, whereas the dreaming phase, known as REM sleep, is more often linked to emotional processing and the integration of new information with existing knowledge. These findings have practical implications. Students who stay awake all night before an examination may be able to recall facts in the short term, but they are likely to forget much of the material soon afterwards. Researchers therefore increasingly recommend regular, sufficient sleep as an essential part of effective learning rather than as time lost from it.",
+      "questions": [
+        {
+          "id": "rea-01-1",
+          "q": "According to the passage, for much of the twentieth century, sleep was",
+          "options": [
+            "seen by many scientists as a period in which the brain was inactive",
+            "believed to improve memory by replaying the experiences of the day",
+            "studied mainly through experiments on students before examinations",
+            "divided by researchers into stages with clearly different functions",
+            "considered the most important factor in emotional well-being"
+          ],
+          "answer": 0,
+          "explain_tr": "İlk cümle cevabı veriyor: yirminci yüzyılın büyük bölümünde uyku [en:a largely passive state in which the brain simply rested] (beynin sadece dinlendiği edilgen bir durum) sayılıyordu. B ve D seçenekleri son yıllardaki araştırmaların bulguları; eski görüşü değil, yeni görüşü anlatıyor. E parçada hiç geçmiyor."
+        },
+        {
+          "id": "rea-01-2",
+          "q": "It is stated in the passage that participants who sleep after learning a new task",
+          "options": [
+            "practise for much longer than those who remain awake",
+            "usually perform better the following day than those who stay awake",
+            "remember emotional experiences but forget factual details",
+            "show no measurable difference from the group that stays awake",
+            "need far less practice in order to master the task completely"
+          ],
+          "answer": 1,
+          "explain_tr": "Parça açıkça söylüyor: uyuyan katılımcılar [en:typically perform better the next day than those who remain awake] (ertesi gün genellikle daha iyi performans gösterir). A yanlış, çünkü iki grup [en:equal amounts of time practising] (eşit süre alıştırma) yapıyor. D ise tam tersini söylüyor."
+        },
+        {
+          "id": "rea-01-3",
+          "q": "It is understood from the passage that REM sleep",
+          "options": [
+            "is the only stage in which the brain processes new information",
+            "occurs mostly during the earliest hours of the night",
+            "is linked more to emotional processing than to the strengthening of facts",
+            "strengthens factual memories more effectively than slow-wave sleep",
+            "has been shown to play no role whatsoever in learning"
+          ],
+          "answer": 2,
+          "explain_tr": "Parçaya göre REM uykusu [en:more often linked to emotional processing and the integration of new information] (duygusal işleme ve yeni bilgiyi bütünleştirmeyle ilişkili); olgusal belleği güçlendiren ise [en:slow-wave sleep]. Bu yüzden D tam tersi. A'daki [en:the only stage] (tek evre) çok güçlü bir iddia; parça farklı evrelerin farklı işlevleri olduğunu söylüyor. B parçada yok."
+        },
+        {
+          "id": "rea-01-4",
+          "q": "The author mentions students who stay awake all night before an examination in order to",
+          "options": [
+            "show that recalling facts in the short term is impossible without sleep",
+            "argue that examinations should be held later in the day",
+            "suggest that emotional stress interferes with memory",
+            "illustrate the practical consequences of the research findings",
+            "prove that practice matters more than rest for learning"
+          ],
+          "answer": 3,
+          "explain_tr": "Öğrenci örneği [en:These findings have practical implications] (bu bulguların pratik sonuçları var) cümlesinden hemen sonra geliyor; yani bulguları gerçek hayata uygulamak için verilmiş. A yanlış, çünkü parça bu öğrencilerin kısa vadede [en:may be able to recall facts] (hatırlayabileceğini) söylüyor. B ve C parçada geçmiyor; E ise parçanın mesajının tersi."
+        }
+      ]
+    },
+    {
+      "id": "rea-02",
+      "passage": "In recent years, a number of city governments have embraced the concept of the fifteen-minute city, an urban planning model in which residents can reach most of their daily needs, such as shops, schools, workplaces and parks, within a short walk or bicycle ride of their homes. The idea is not entirely new; it draws on older traditions of neighbourhood planning that were common before the rise of the private car. Its supporters argue that reducing the need for long journeys would cut traffic congestion and air pollution while strengthening local businesses and social ties. Critics, however, raise several objections. Some point out that many jobs, particularly in specialised industries, cannot realistically be located in every district. Others warn that the model may work well in dense, historic city centres but is far harder to apply to sprawling suburbs built around motorways. There is also concern that, without careful policy, improved neighbourhoods could become more expensive, pushing out the very residents they were meant to serve. Planners who favour the model acknowledge these difficulties but maintain that it offers a useful direction for cities seeking to reduce their dependence on cars.",
+      "questions": [
+        {
+          "id": "rea-02-1",
+          "q": "According to the passage, the fifteen-minute city is a model in which",
+          "options": [
+            "all residents are required to travel by bicycle instead of by car",
+            "most daily needs can be met within a short distance of home",
+            "city centres are completely closed to private vehicles",
+            "every district contains the offices of major specialised industries",
+            "suburbs are rebuilt around newly constructed motorways"
+          ],
+          "answer": 1,
+          "explain_tr": "İlk cümle modeli tanımlıyor: sakinler günlük ihtiyaçlarının çoğuna [en:within a short walk or bicycle ride of their homes] (evlerinden kısa bir yürüyüş ya da bisiklet mesafesinde) ulaşabiliyor. A'daki [en:required] (zorunlu) ifadesi parçada yok; model bir zorunluluk değil, erişim kolaylığı. D ise eleştirmenlerin tam da imkânsız bulduğu şey."
+        },
+        {
+          "id": "rea-02-2",
+          "q": "It is stated in the passage that the fifteen-minute city concept",
+          "options": [
+            "was invented recently and has no historical precedent",
+            "has been rejected by the majority of city governments",
+            "builds on earlier approaches to neighbourhood planning",
+            "was developed mainly to support specialised industries",
+            "has eliminated traffic congestion wherever it has been tried"
+          ],
+          "answer": 2,
+          "explain_tr": "Parça [en:The idea is not entirely new; it draws on older traditions of neighbourhood planning] (fikir tamamen yeni değil; eski mahalle planlama geleneklerinden besleniyor) diyor. A bunun tam tersi. E'deki [en:has eliminated] (ortadan kaldırdı) çok güçlü; parça yalnızca destekçilerin böyle bir beklentisi olduğunu söylüyor."
+        },
+        {
+          "id": "rea-02-3",
+          "q": "It can be inferred from the passage that critics of the model believe it",
+          "options": [
+            "is unsuitable for every type of city without exception",
+            "will inevitably cause housing prices in city centres to fall",
+            "ignores the interests of small local businesses",
+            "suits compact urban areas better than car-dependent suburbs",
+            "should be replaced by greater investment in public transport"
+          ],
+          "answer": 3,
+          "explain_tr": "Eleştirmenler modelin [en:may work well in dense, historic city centres but is far harder to apply to sprawling suburbs] (yoğun tarihi merkezlerde işleyebileceğini ama yayılmış banliyölere uygulamanın çok daha zor olduğunu) söylüyor. A çok güçlü: her tür şehre uymadığını değil, bazı şehirlere zor uyduğunu söylüyorlar. B tersine çevrilmiş; endişe fiyatların düşmesi değil, [en:more expensive] (daha pahalı) olması."
+        },
+        {
+          "id": "rea-02-4",
+          "q": "The main point of the passage is that the fifteen-minute city",
+          "options": [
+            "has clear appeal but also faces serious practical objections",
+            "requires private cars to be banned from historic city centres",
+            "is opposed by suburban residents who dislike walking and cycling",
+            "has been abandoned by planners because of its high costs",
+            "benefits local businesses far more than it benefits residents"
+          ],
+          "answer": 0,
+          "explain_tr": "Parça önce destekçilerin savlarını, sonra [en:Critics, however, raise several objections] (ancak eleştirmenler birkaç itiraz dile getiriyor) diyerek karşı görüşleri veriyor; son cümlede modeli savunan planlamacıların bile [en:acknowledge these difficulties] (bu güçlükleri kabul ettiği) belirtiliyor. D yanlış, çünkü planlamacılar modeli hâlâ [en:a useful direction] (yararlı bir yön) olarak görüyor. B ve C parçada yok."
+        }
+      ]
+    },
+    {
+      "id": "rea-03",
+      "passage": "The introduction of the printing press with movable metal type in Europe in the middle of the fifteenth century, usually credited to Johannes Gutenberg, is often described as one of the most consequential developments in the history of communication. Printing itself was not a European invention: woodblock printing had been practised in China for centuries, and movable type had been experimented with in East Asia long before Gutenberg. What distinguished the European press was the combination of durable metal type, oil-based ink and a mechanical press, which together made it possible to produce large numbers of nearly identical copies quickly and relatively cheaply. Within a few decades, printing workshops had appeared in dozens of European cities, and the price of books fell considerably. Historians caution, however, against assuming that the press changed society overnight. Literacy remained limited for a long time, most early printed books were religious or scholarly works in Latin, and handwritten manuscripts continued to be produced alongside printed ones. Nevertheless, by lowering the cost of reproducing texts, the press gradually transformed education, religion and politics, allowing ideas to circulate on a scale that had not previously been possible.",
+      "questions": [
+        {
+          "id": "rea-03-1",
+          "q": "According to the passage, the European printing press was distinctive because",
+          "options": [
+            "it was the first use of printing anywhere in the world",
+            "it combined metal type, suitable ink and a mechanical press",
+            "it was used exclusively for the production of religious texts",
+            "it caused handwritten manuscripts to disappear immediately",
+            "it printed books mainly in local languages rather than in Latin"
+          ],
+          "answer": 1,
+          "explain_tr": "Parça açıkça [en:What distinguished the European press was the combination of durable metal type, oil-based ink and a mechanical press] (Avrupa matbaasını farklı kılan, dayanıklı metal harf, yağ bazlı mürekkep ve mekanik presin birleşimiydi) diyor. A yanlış, çünkü [en:Printing itself was not a European invention] (baskının kendisi Avrupa icadı değildi). D de yanlış: el yazmaları basılı kitapların yanında üretilmeye devam etti."
+        },
+        {
+          "id": "rea-03-2",
+          "q": "It is understood from the passage that movable type",
+          "options": [
+            "had already been tried in East Asia before Gutenberg's time",
+            "was unknown outside Europe until the sixteenth century",
+            "was made of wood rather than metal in Gutenberg's workshop",
+            "was abandoned in China because it proved too costly",
+            "was first used in order to print scholarly books in Latin"
+          ],
+          "answer": 0,
+          "explain_tr": "Parçada [en:movable type had been experimented with in East Asia long before Gutenberg] (hareketli harf Gutenberg'den çok önce Doğu Asya'da denenmişti) deniyor. B bunun tam tersi. C yanlış, çünkü Gutenberg'in presi [en:durable metal type] (dayanıklı metal harf) kullanıyordu. D ve E parçada geçmiyor."
+        },
+        {
+          "id": "rea-03-3",
+          "q": "The author mentions limited literacy and the use of Latin in order to",
+          "options": [
+            "prove that the press had no real effect on education",
+            "explain why handwritten manuscripts were of higher quality",
+            "warn against overstating how quickly the press changed society",
+            "show that early printers lacked sufficient technical skill",
+            "argue that religious works were more profitable than scholarly ones"
+          ],
+          "answer": 2,
+          "explain_tr": "Bu ayrıntılar [en:Historians caution, however, against assuming that the press changed society overnight] (tarihçiler matbaanın toplumu bir gecede değiştirdiğini varsaymaya karşı uyarıyor) cümlesini desteklemek için veriliyor. A çok güçlü: parça matbaanın eğitimi [en:gradually transformed] (zamanla dönüştürdüğünü) söylüyor, etkisiz olduğunu değil. B, D ve E parçada yok."
+        },
+        {
+          "id": "rea-03-4",
+          "q": "The word \"consequential\" in the passage is closest in meaning to",
+          "options": [
+            "accidental",
+            "controversial",
+            "profitable",
+            "temporary",
+            "influential"
+          ],
+          "answer": 4,
+          "explain_tr": "[en:consequential] burada \"önemli sonuçları olan, etkili\" anlamında; parçanın tamamı matbaanın eğitimi, dini ve siyaseti dönüştürdüğünü anlatıyor, yani [en:influential] (etkili). [en:controversial] (tartışmalı) uymaz; parça bir tartışmadan değil, bir dönüşümden söz ediyor. [en:temporary] (geçici) ise anlamın tersi."
+        }
+      ]
+    },
+    {
+      "id": "rea-04",
+      "passage": "Wind and solar power now supply a growing share of electricity in many countries, but both sources are variable: the wind does not always blow, and the sun does not shine at night. Because electricity grids must balance supply and demand at every moment, this variability creates a need for storage, so that energy generated at times of surplus can be used later. The oldest and still the most widely used form of large-scale storage is pumped hydroelectric storage, in which water is pumped uphill to a reservoir when power is cheap and released through turbines when it is needed. Its main drawback is that it requires particular geographical conditions, which limits where it can be built. Lithium-ion batteries, whose cost has fallen sharply, are increasingly installed alongside solar farms and can respond within seconds, but they are generally better suited to storing energy for hours than for weeks. For longer periods, researchers are investigating alternatives such as producing hydrogen from surplus electricity, storing heat in materials like molten salt, or compressing air in underground caverns. No single technology is likely to meet every need; most analysts expect future grids to rely on a mixture of approaches.",
+      "questions": [
+        {
+          "id": "rea-04-1",
+          "q": "According to the passage, electricity grids need storage because",
+          "options": [
+            "wind and solar farms produce far more electricity than can ever be used",
+            "the output of wind and solar sources does not always match demand",
+            "pumped hydroelectric plants have become too expensive to operate",
+            "batteries cannot safely be installed close to solar farms",
+            "grids were originally designed to carry hydrogen rather than electricity"
+          ],
+          "answer": 1,
+          "explain_tr": "Parça rüzgâr ve güneşin [en:variable] (değişken) olduğunu ve şebekelerin [en:must balance supply and demand at every moment] (her an arz ile talebi dengelemek zorunda olduğunu) söylüyor; depolama ihtiyacı buradan doğuyor. A çarpıtılmış: fazla üretim bazı anlarda oluyor, [en:ever] (asla) gibi genel bir durum yok. C ve E parçada yok."
+        },
+        {
+          "id": "rea-04-2",
+          "q": "It is stated in the passage that pumped hydroelectric storage",
+          "options": [
+            "was developed only after lithium-ion batteries proved unreliable",
+            "can be constructed in almost any location",
+            "depends on suitable geography, which restricts where it can be built",
+            "is no longer used on a large scale anywhere",
+            "stores energy by compressing air in underground caverns"
+          ],
+          "answer": 2,
+          "explain_tr": "Parça bu yöntemin [en:main drawback] (başlıca kusurunu) şöyle veriyor: [en:it requires particular geographical conditions, which limits where it can be built] (belirli coğrafi koşullar gerektiriyor, bu da nerede kurulabileceğini sınırlıyor). B tam tersi. D yanlış, çünkü bu yöntem hâlâ [en:the most widely used] (en yaygın kullanılan) büyük ölçekli depolama. E başka bir teknolojiyi anlatıyor."
+        },
+        {
+          "id": "rea-04-3",
+          "q": "It can be inferred from the passage that lithium-ion batteries",
+          "options": [
+            "are unlikely to be the solution for storing energy for weeks",
+            "respond more slowly than pumped hydroelectric storage",
+            "have become more expensive as demand for them has grown",
+            "are used mainly to store heat rather than electricity",
+            "will soon make every other form of storage unnecessary"
+          ],
+          "answer": 0,
+          "explain_tr": "Parça pillerin [en:better suited to storing energy for hours than for weeks] (haftalar yerine saatler boyunca depolamaya daha uygun) olduğunu ve [en:For longer periods] (daha uzun süreler için) başka teknolojilerin araştırıldığını söylüyor; buradan haftalık depolama için pillerin çözüm olmayacağı çıkarılıyor. C yanlış, çünkü maliyetleri [en:has fallen sharply] (keskin biçimde düştü). E ise son cümleyle çelişiyor."
+        },
+        {
+          "id": "rea-04-4",
+          "q": "The main point of the passage is that",
+          "options": [
+            "pumped hydroelectric storage is superior to all newer technologies",
+            "hydrogen will become the dominant form of energy storage",
+            "variable renewable sources should be replaced by more reliable ones",
+            "battery costs must fall further before solar power can expand",
+            "several storage technologies, each with limits, will be needed together"
+          ],
+          "answer": 4,
+          "explain_tr": "Parça her yöntemin güçlü ve zayıf yanlarını sıralayıp son cümlede özetliyor: [en:No single technology is likely to meet every need; most analysts expect future grids to rely on a mixture of approaches] (tek bir teknoloji her ihtiyacı karşılamayacak; şebekeler bir karışıma dayanacak). A ve B tek bir teknolojiyi öne çıkarıyor, bu ana fikre aykırı. C parçada hiç savunulmuyor."
+        }
+      ]
+    },
+    {
+      "id": "rea-05",
+      "passage": "Traditional economic models assume that people make decisions by weighing costs and benefits rationally and choosing whatever serves their interests best. Behavioural economics, which draws on psychology as well as economics, questions this assumption. Its researchers have documented numerous ways in which real decisions depart from the rational ideal: people tend to place more weight on losses than on equivalent gains, prefer immediate rewards to larger but delayed ones, and are strongly influenced by how choices are presented. One widely discussed application of these insights is the so-called nudge, a small change in the way options are arranged that steers people towards a particular choice without forbidding any alternative. A frequently cited example is automatic enrolment in workplace pension schemes: when employees must actively opt out rather than opt in, participation rates tend to be considerably higher, even though the choice itself is unchanged. Supporters regard nudges as a cheap and respectful way of improving outcomes. Critics, by contrast, argue that they can be manipulative, that their effects are sometimes smaller or shorter-lived than early studies suggested, and that governments may use them as a substitute for more difficult but more effective policies.",
+      "questions": [
+        {
+          "id": "rea-05-1",
+          "q": "According to the passage, behavioural economics differs from traditional economics in that it",
+          "options": [
+            "draws on psychology and questions the assumption of rational choice",
+            "rejects the use of experiments in the study of decisions",
+            "focuses exclusively on the design of pension schemes",
+            "assumes that people always act to maximise their gains",
+            "pays no attention to the way in which choices are presented"
+          ],
+          "answer": 0,
+          "explain_tr": "Parça davranışsal iktisadın [en:draws on psychology as well as economics] (iktisadın yanı sıra psikolojiden beslendiğini) ve geleneksel modelin rasyonellik varsayımını [en:questions this assumption] (sorguladığını) söylüyor. D geleneksel modelin varsayımı, davranışsal iktisadın değil. E tam tersi: sunum biçiminin [en:strongly influenced] (güçlü etkisi) vurgulanıyor."
+        },
+        {
+          "id": "rea-05-2",
+          "q": "It is stated in the passage that automatic enrolment in pension schemes",
+          "options": [
+            "forces employees to save a fixed proportion of their income",
+            "removes the possibility of leaving the scheme altogether",
+            "increases participation although the choice itself is unchanged",
+            "was rejected by most employers as being too costly",
+            "works only when it is combined with financial penalties"
+          ],
+          "answer": 2,
+          "explain_tr": "Parça katılım oranlarının [en:considerably higher, even though the choice itself is unchanged] (seçeneğin kendisi değişmediği hâlde epey daha yüksek) olduğunu söylüyor. B yanlış, çünkü çalışanlar [en:opt out] (ayrılma) hakkına sahip; dürtme [en:without forbidding any alternative] (hiçbir seçeneği yasaklamadan) işler. A, D ve E parçada geçmiyor."
+        },
+        {
+          "id": "rea-05-3",
+          "q": "It can be inferred from the passage that critics of nudges",
+          "options": [
+            "deny that people ever behave irrationally",
+            "believe that nudges should be made legally binding",
+            "consider the pension example to be entirely invented",
+            "fear that nudges may be used in place of stronger measures",
+            "argue that nudges are too expensive for governments to use"
+          ],
+          "answer": 3,
+          "explain_tr": "Son cümle eleştirmenlerin endişesini veriyor: hükümetler dürtmeleri [en:as a substitute for more difficult but more effective policies] (daha zor ama daha etkili politikaların yerine) kullanabilir. E yanlış, çünkü parçada dürtmeler [en:cheap] (ucuz) olarak nitelendiriliyor; eleştiri maliyet üzerinden değil. A ve B parçada yok."
+        },
+        {
+          "id": "rea-05-4",
+          "q": "The phrase \"steers people towards\" in the passage is closest in meaning to",
+          "options": [
+            "prevents people from making",
+            "guides people in the direction of",
+            "punishes people for choosing",
+            "warns people against selecting",
+            "rewards people for accepting"
+          ],
+          "answer": 1,
+          "explain_tr": "[en:steer] temelde \"dümen tutmak, yönlendirmek\" demektir; cümlede dürtmenin insanları belli bir seçime [en:without forbidding any alternative] (hiçbir seçeneği yasaklamadan) yönlendirdiği anlatılıyor. Bu yüzden [en:guides] (yönlendirir) en yakın anlam. [en:prevents] (engeller) ve [en:punishes] (cezalandırır) yasaklama ya da ceza içerir; parça tam tersini söylüyor."
+        }
+      ]
+    },
+    {
+      "id": "rea-06",
+      "passage": "It is commonly believed that adults cannot learn a foreign language as successfully as children, and there is some truth in this. Studies suggest that people who begin learning a language in early childhood are far more likely to acquire a native-like accent, and the learning of certain grammatical patterns also seems to become more difficult with age. However, the picture is more complicated than the popular view implies. In the early stages of learning, adults and adolescents frequently progress faster than young children, because they can draw on their knowledge of their first language, use explicit explanations of grammar, and apply deliberate study strategies. Children's apparent advantage often reflects not their age alone but the circumstances of their learning: they typically receive years of daily exposure in an environment where the language is essential for play and friendship, whereas adults may study for a few hours a week with limited opportunities to speak. Researchers therefore caution against treating age as a fixed barrier. Motivation, the amount and quality of exposure, and the willingness to make mistakes appear to matter at least as much as the age at which learning begins.",
+      "questions": [
+        {
+          "id": "rea-06-1",
+          "q": "According to the passage, children who begin learning a language early",
+          "options": [
+            "always master its grammar perfectly within a few years",
+            "have a clear advantage in acquiring a native-like accent",
+            "learn faster than adults at every stage of the process",
+            "depend mainly on explicit explanations of grammar",
+            "are generally less motivated than adult learners"
+          ],
+          "answer": 1,
+          "explain_tr": "Parça erken yaşta başlayanların [en:far more likely to acquire a native-like accent] (ana dili konuşuru gibi bir aksan edinme olasılığının çok daha yüksek) olduğunu söylüyor. C yanlış, çünkü [en:In the early stages of learning] (öğrenmenin ilk aşamalarında) yetişkinler genellikle daha hızlı ilerliyor. A'daki [en:always] ve [en:perfectly] parçada yok; D ise yetişkinlerin yöntemi."
+        },
+        {
+          "id": "rea-06-2",
+          "q": "It is stated in the passage that in the early stages of learning, adults",
+          "options": [
+            "often make more rapid progress than young children",
+            "are unable to make use of their first language",
+            "usually give up because they lack sufficient exposure",
+            "rely entirely on imitation rather than on study",
+            "find pronunciation much easier than grammar"
+          ],
+          "answer": 0,
+          "explain_tr": "Parça açıkça yazıyor: [en:adults and adolescents frequently progress faster than young children] (yetişkinler ve ergenler küçük çocuklardan sıklıkla daha hızlı ilerler). B tam tersi; yetişkinler [en:draw on their knowledge of their first language] (ana dil bilgilerinden yararlanır). D de tersi: yetişkinler [en:deliberate study strategies] (bilinçli çalışma stratejileri) kullanır. C ve E parçada yok."
+        },
+        {
+          "id": "rea-06-3",
+          "q": "The author mentions play and friendship in order to",
+          "options": [
+            "argue that adults should learn languages mainly through games",
+            "prove that motivation is unimportant for young children",
+            "suggest that classrooms are unsuitable for language learning",
+            "explain why children dislike formal grammar instruction",
+            "show that children's success partly reflects how they learn"
+          ],
+          "answer": 4,
+          "explain_tr": "Bu örnek, çocukların avantajının [en:not their age alone but the circumstances of their learning] (yalnızca yaşlarından değil, öğrenme koşullarından) kaynaklandığını göstermek için veriliyor: dil onlar için oyun ve arkadaşlık açısından zorunlu. A ve C parçanın söylemediği öneriler; B ise son cümleyle çelişiyor, motivasyon önemli sayılıyor."
+        },
+        {
+          "id": "rea-06-4",
+          "q": "It can be inferred from the passage that the author regards age as",
+          "options": [
+            "the single most important factor in learning a language",
+            "irrelevant to the acquisition of pronunciation",
+            "one of several factors rather than an absolute obstacle",
+            "a barrier that only exceptionally motivated learners can overcome",
+            "more significant for adults than for adolescents"
+          ],
+          "answer": 2,
+          "explain_tr": "Yazar yaşı [en:a fixed barrier] (sabit bir engel) olarak görmemek gerektiğini ve motivasyon, maruz kalma gibi etkenlerin [en:at least as much] (en az yaş kadar) önemli olduğunu söylüyor; yani yaş birçok etkenden biri. A bu dengeli görüşe aykırı. B yanlış, çünkü aksan konusunda yaşın etkisi açıkça kabul ediliyor. D parçanın tonundan çok daha güçlü."
+        }
+      ]
+    },
+    {
+      "id": "rea-07",
+      "passage": "Plastic waste has become one of the most visible forms of marine pollution. Because most plastics are durable and resist natural decay, items that enter the sea can persist for decades, gradually breaking into ever smaller fragments known as microplastics. Research suggests that a large proportion of the plastic reaching the oceans is carried there by rivers, particularly in regions where waste collection systems are inadequate, although fishing gear lost or abandoned at sea is also a significant source. The effects on marine life are varied: seabirds and turtles may mistake floating debris for food, animals can become entangled in discarded nets, and microplastics have been found in the bodies of organisms ranging from plankton to whales. The consequences for human health, through seafood and drinking water, are still being investigated and remain uncertain. Proposed responses include improving waste management on land, redesigning products so that less packaging is used, and removing debris from rivers before it reaches the sea. Many scientists argue that cleaning up the open ocean, while attractive to the public, is far less efficient than preventing plastic from entering the water in the first place.",
+      "questions": [
+        {
+          "id": "rea-07-1",
+          "q": "According to the passage, microplastics are",
+          "options": [
+            "a type of packaging designed to decay quickly in seawater",
+            "found only in the bodies of the largest marine animals",
+            "released into the sea mainly by fishing vessels",
+            "harmless to plankton but dangerous to whales",
+            "fragments produced as larger plastic items break down over time"
+          ],
+          "answer": 4,
+          "explain_tr": "Parça plastiklerin [en:gradually breaking into ever smaller fragments known as microplastics] (giderek daha küçük parçalara, yani mikroplastiklere ayrıldığını) söylüyor. B yanlış, çünkü mikroplastikler [en:from plankton to whales] (planktondan balinaya) her boyutta canlıda bulunmuş. C çarpıtma: balıkçılık ekipmanı bir kaynak, ama mikroplastiklerin ana kaynağı olarak gösterilmiyor."
+        },
+        {
+          "id": "rea-07-2",
+          "q": "It is stated in the passage that the effects of ocean plastics on human health",
+          "options": [
+            "have been conclusively shown to be severe",
+            "are not yet fully understood by researchers",
+            "are limited to people who regularly eat seafood",
+            "were the main reason the research was carried out",
+            "are considered less serious than the effects on seabirds"
+          ],
+          "answer": 1,
+          "explain_tr": "Parça insan sağlığına etkilerin [en:still being investigated and remain uncertain] (hâlâ araştırıldığını ve belirsiz kaldığını) söylüyor. A bunun tam tersi. C eksik: parça [en:seafood and drinking water] (deniz ürünleri ve içme suyu) olmak üzere iki yol sayıyor. E'deki karşılaştırma parçada yapılmıyor."
+        },
+        {
+          "id": "rea-07-3",
+          "q": "It can be inferred from the passage that improving waste collection on land would",
+          "options": [
+            "be of little use, as most sea plastic comes from fishing gear",
+            "cost more than cleaning up the open ocean",
+            "reduce the quantity of plastic carried to the sea by rivers",
+            "eliminate marine plastic pollution entirely",
+            "be opposed by the majority of scientists"
+          ],
+          "answer": 2,
+          "explain_tr": "Parça plastiğin büyük bölümünün nehirlerle, özellikle [en:where waste collection systems are inadequate] (atık toplama sistemlerinin yetersiz olduğu bölgelerden) taşındığını söylüyor; buradan toplamayı iyileştirmenin nehirle gelen plastiği azaltacağı çıkar. D çok güçlü: [en:entirely] (tamamen) ortadan kaldıracağını söylemek mümkün değil, çünkü balıkçılık ekipmanı gibi başka kaynaklar da var. E ise parçanın tersi; bilim insanları önlemeyi destekliyor. A da parçayla çelişir: plastiğin büyük bölümü balıkçılık ekipmanından değil, nehirlerden geliyor."
+        },
+        {
+          "id": "rea-07-4",
+          "q": "The author mentions cleaning up the open ocean in order to",
+          "options": [
+            "describe the method that most scientists consider most effective",
+            "show that public opinion has no influence on environmental policy",
+            "explain how microplastics are removed from seawater",
+            "contrast a popular approach with one that scientists find more efficient",
+            "argue that rivers are not in fact a major source of pollution"
+          ],
+          "answer": 3,
+          "explain_tr": "Son cümle açık denizi temizlemenin [en:while attractive to the public] (halka çekici gelse de) kaynağında önlemeye göre [en:far less efficient] (çok daha az verimli) olduğunu söylüyor; yani popüler yaklaşım ile bilimsel tercih karşılaştırılıyor. A tam tersi. B çok güçlü bir iddia; parça yalnızca halkın bu fikri çekici bulduğunu söylüyor."
+        }
+      ]
+    },
+    {
+      "id": "rea-08",
+      "passage": "The rapid expansion of remote work that began in 2020 was a response to emergency conditions, but it has had lasting effects on how many organisations operate. Surveys suggest that a substantial proportion of employees now wish to continue working from home for at least part of the week, and many employers have responded by adopting hybrid arrangements that combine days in the office with days at home. The advantages cited include the time and money saved on commuting, greater flexibility for workers with family responsibilities, and access to a wider pool of talent for employers who no longer need to recruit locally. Yet the arrangement also presents difficulties. Managers report that it is harder to train new staff and to build a shared sense of purpose when colleagues rarely meet in person, and some employees find that the boundary between work and private life becomes blurred. There is also debate about the effect on productivity, with studies reaching different conclusions depending on the type of work examined. What seems clear is that remote work is neither the disaster its early critics feared nor the universal solution its enthusiasts promised, and organisations are still learning how to make it work.",
+      "questions": [
+        {
+          "id": "rea-08-1",
+          "q": "According to the passage, hybrid working arrangements",
+          "options": [
+            "were common in most organisations long before 2020",
+            "require employees to work from home on every day of the week",
+            "combine days in the office with days spent working at home",
+            "have been rejected by the majority of employees",
+            "are used only by companies that recruit internationally"
+          ],
+          "answer": 2,
+          "explain_tr": "Parça hibrit düzenlemeleri doğrudan tanımlıyor: [en:hybrid arrangements that combine days in the office with days at home] (ofiste geçen günlerle evde geçen günleri birleştiren düzenlemeler). B bu tanımla çelişiyor; D de yanlış, çünkü çalışanların önemli bir bölümü evden çalışmaya devam etmek [en:wish to continue] (istiyor). A ve E parçada yok."
+        },
+        {
+          "id": "rea-08-2",
+          "q": "It is stated in the passage that managers find it more difficult to",
+          "options": [
+            "recruit talented staff from distant locations",
+            "train new employees and create a shared sense of purpose",
+            "measure the time that employees spend commuting",
+            "persuade employees to return to the office full time",
+            "keep their own work separate from their private lives"
+          ],
+          "answer": 1,
+          "explain_tr": "Parça [en:Managers report that it is harder to train new staff and to build a shared sense of purpose] (yöneticiler yeni personeli eğitmenin ve ortak bir amaç duygusu oluşturmanın daha zor olduğunu bildiriyor) diyor. A tersine çevrilmiş: uzaktan işe alım bir avantaj olarak sayılıyor. E çarpıtma; iş-özel hayat sınırının bulanıklaşması yöneticilerin değil [en:some employees] (bazı çalışanların) sorunu."
+        },
+        {
+          "id": "rea-08-3",
+          "q": "It is understood from the passage that research on remote work and productivity",
+          "options": [
+            "has consistently shown that productivity declines",
+            "has proved that remote workers are more efficient",
+            "has focused only on jobs in the technology sector",
+            "has been largely ignored by employers",
+            "has not produced a single clear answer"
+          ],
+          "answer": 4,
+          "explain_tr": "Parçaya göre verimlilik konusunda [en:studies reaching different conclusions depending on the type of work examined] (çalışmalar incelenen iş türüne göre farklı sonuçlara varıyor); yani net tek bir cevap yok. A ve B tek yönlü kesin sonuçlar iddia ediyor, bu parçayla çelişir. C ve D parçada geçmiyor."
+        },
+        {
+          "id": "rea-08-4",
+          "q": "The main point of the passage is that",
+          "options": [
+            "remote work has brought mixed results and is still taking its final shape",
+            "employers should abandon hybrid arrangements as quickly as possible",
+            "commuting costs are the main reason employees prefer to work from home",
+            "the early critics of remote work have been proved entirely correct",
+            "productivity is the only factor that organisations ought to consider"
+          ],
+          "answer": 0,
+          "explain_tr": "Parça avantajları ve güçlükleri dengeli biçimde sıralayıp son cümlede özetliyor: uzaktan çalışma [en:neither the disaster its early critics feared nor the universal solution its enthusiasts promised] (ne eleştirmenlerin korktuğu felaket ne de meraklıların vaat ettiği evrensel çözüm) ve kurumlar [en:still learning] (hâlâ öğreniyor). D bu dengeli yargıya aykırı. C yalnızca bir ayrıntı, ana fikir değil."
+        }
+      ]
+    },
+    {
+      "id": "rea-09",
+      "passage": "Antibiotics, which have been in widespread medical use since the 1940s, are among the most important discoveries in the history of medicine, making it possible to treat infections that were once frequently fatal. Their effectiveness, however, is under threat. Bacteria reproduce rapidly, and when a population is exposed to an antibiotic, the few individuals that happen to carry genes enabling them to survive the drug are the ones that multiply. Over time, this process of natural selection produces strains against which the drug no longer works. The problem is accelerated by the way antibiotics are used: they are often prescribed for viral illnesses, against which they are useless, patients may stop taking them before a course is complete, and large quantities are given to farm animals to promote growth rather than to treat disease. Health authorities warn that, without action, routine operations and minor injuries could once again become dangerous. Proposed measures include stricter rules on prescribing, better diagnostic tests so that antibiotics are given only when they are needed, and incentives for pharmaceutical companies to develop new drugs, since the research involved is costly and the commercial rewards have so far been modest.",
+      "questions": [
+        {
+          "id": "rea-09-1",
+          "q": "According to the passage, resistant strains of bacteria emerge because",
+          "options": [
+            "antibiotics alter the genes of every bacterium they come into contact with",
+            "viruses pass resistance on to bacteria during an illness",
+            "patients take antibiotics for much longer than is necessary",
+            "the bacteria that survive exposure to a drug are the ones that multiply",
+            "pharmaceutical companies have stopped producing older drugs"
+          ],
+          "answer": 3,
+          "explain_tr": "Parça mekanizmayı anlatıyor: ilaca dayanabilen genleri taşıyan birkaç birey [en:are the ones that multiply] (çoğalanlar onlardır) ve bu doğal seçilim zamanla dirençli suşlar üretir. A yanlış, çünkü ilaç genleri değiştirmiyor; dayanıklı genlere zaten sahip olanlar hayatta kalıyor. C ise tersine çevrilmiş: sorun kürü [en:before a course is complete] (tamamlamadan) bırakmak."
+        },
+        {
+          "id": "rea-09-2",
+          "q": "It is stated in the passage that antibiotics are sometimes misused when they are",
+          "options": [
+            "withheld from farm animals that are seriously ill",
+            "prescribed only after a diagnostic test has been carried out",
+            "developed by companies that are seeking large profits",
+            "used to treat injuries that follow routine operations",
+            "given to patients who are suffering from viral infections"
+          ],
+          "answer": 4,
+          "explain_tr": "Parça antibiyotiklerin [en:often prescribed for viral illnesses, against which they are useless] (sıklıkla viral hastalıklar için yazıldığını, oysa bunlara karşı işe yaramadığını) söylüyor. B tam tersi: tanı testleri doğru kullanım için önerilen bir çözüm. A çarpıtma; sorun hayvanlara ilacın verilmemesi değil, [en:to promote growth] (büyümeyi hızlandırmak için) verilmesi."
+        },
+        {
+          "id": "rea-09-3",
+          "q": "It can be inferred from the passage that pharmaceutical companies",
+          "options": [
+            "are responsible for most of the antibiotics given to farm animals",
+            "are strongly opposed to stricter rules on prescribing",
+            "have had little financial reason to invest in new antibiotics",
+            "have already developed drugs that overcome resistance",
+            "currently receive generous government incentives"
+          ],
+          "answer": 2,
+          "explain_tr": "Son cümle şirketlere teşvik önerilmesinin nedenini veriyor: [en:the research involved is costly and the commercial rewards have so far been modest] (araştırma pahalı ve ticari getiri şimdiye kadar düşük kaldı); buradan yatırım için mali gerekçenin zayıf olduğu çıkar. E yanlış, çünkü teşvikler [en:Proposed measures] (önerilen önlemler) arasında, henüz uygulanmış değil. A, B ve D parçada yok."
+        },
+        {
+          "id": "rea-09-4",
+          "q": "The author mentions routine operations and minor injuries in order to",
+          "options": [
+            "show that surgery is the main cause of resistant infections",
+            "explain why current diagnostic tests are unreliable",
+            "argue that hospitals use too few antibiotics",
+            "illustrate how serious the consequences of resistance could become",
+            "describe the medical discoveries made in the 1940s"
+          ],
+          "answer": 3,
+          "explain_tr": "Bu örnekler sağlık otoritelerinin uyarısında geçiyor: önlem alınmazsa bunlar [en:could once again become dangerous] (yeniden tehlikeli hâle gelebilir); yani direncin ne kadar ciddi sonuçlar doğurabileceğini gösteriyor. A çarpıtma: ameliyatlar direncin nedeni değil, olası kurbanı. E ile ilgisi yok; 1940'lar yalnızca antibiyotiklerin kullanıma girdiği dönem."
+        }
+      ]
+    },
+    {
+      "id": "rea-10",
+      "passage": "Over the past two decades, museums and archives around the world have invested heavily in digitisation, the process of creating high-quality digital images and records of the objects in their collections. The motivations are varied. Only a small fraction of most large collections is ever on public display, and digital catalogues allow researchers and the general public to examine items that would otherwise remain in storage. Digital copies also serve as a form of insurance: if an object is damaged by fire, flood or conflict, at least a detailed record survives. In addition, digitised collections can be searched, compared and combined in ways that were previously impractical, opening up new forms of scholarship. The process, however, is slow and expensive, requiring specialist equipment, trained staff and long-term funding to maintain the resulting files as technology changes. Some curators also worry that institutions may be tempted to treat digital images as substitutes for the objects themselves, reducing investment in physical conservation. Most, nevertheless, regard digitisation not as a replacement for the museum visit but as a complement to it, one that extends access to collections far beyond the people who are able to walk through the door.",
+      "questions": [
+        {
+          "id": "rea-10-1",
+          "q": "According to the passage, one reason museums digitise their collections is that",
+          "options": [
+            "most of the objects they hold are never shown to visitors",
+            "physical conservation is no longer considered necessary",
+            "governments now require all collections to be put online",
+            "visitors generally prefer digital images to real objects",
+            "digitisation is quicker and cheaper than cataloguing by hand"
+          ],
+          "answer": 0,
+          "explain_tr": "Parça [en:Only a small fraction of most large collections is ever on public display] (büyük koleksiyonların yalnızca küçük bir bölümü sergilenir) diyor ve dijital katalogların depodaki nesnelere erişim sağladığını ekliyor. B yanlış: parça tam tersine fiziksel korumaya yatırımın azalmasından endişe ediyor. E de yanlış, çünkü süreç [en:slow and expensive] (yavaş ve pahalı). C ve D parçada yok."
+        },
+        {
+          "id": "rea-10-2",
+          "q": "It is stated in the passage that digital records can serve as a form of insurance because",
+          "options": [
+            "they can be sold in order to cover the cost of repairs",
+            "they preserve detailed information if an object is destroyed",
+            "they prevent fires and floods from damaging buildings",
+            "they make it unnecessary to store the objects physically",
+            "they protect museums against legal claims from visitors"
+          ],
+          "answer": 1,
+          "explain_tr": "Parça sigorta benzetmesini şöyle açıklıyor: nesne [en:damaged by fire, flood or conflict] (yangın, sel ya da çatışmada zarar görürse) [en:at least a detailed record survives] (en azından ayrıntılı bir kayıt kalır). C çarpıtma; dijital kopya felaketi önlemiyor, bilgiyi koruyor. D ise küratörlerin tam da endişe ettiği yanlış yaklaşım, parçanın savunduğu şey değil."
+        },
+        {
+          "id": "rea-10-3",
+          "q": "It is understood from the passage that maintaining digitised collections",
+          "options": [
+            "becomes inexpensive once the initial images have been created",
+            "is a task that can be completed within a few years",
+            "is usually left to volunteers rather than trained staff",
+            "requires continued funding as technology develops",
+            "is opposed by the majority of museum curators"
+          ],
+          "answer": 3,
+          "explain_tr": "Parça sürecin [en:long-term funding to maintain the resulting files as technology changes] (teknoloji değiştikçe dosyaları korumak için uzun vadeli finansman) gerektirdiğini söylüyor. A bununla çelişiyor; B de yanlış, çünkü bakım sürekli bir iş. C tersi: [en:trained staff] (eğitimli personel) gerekiyor. E yanlış; küratörlerin çoğu dijitalleştirmeyi [en:a complement] (tamamlayıcı) olarak destekliyor."
+        },
+        {
+          "id": "rea-10-4",
+          "q": "It can be inferred from the passage that most curators believe digitisation should",
+          "options": [
+            "eventually replace physical visits to museums altogether",
+            "be limited to objects that are already on public display",
+            "be postponed until the technology becomes less expensive",
+            "reduce the need for the conservation of physical objects",
+            "widen access to collections without replacing the museum visit"
+          ],
+          "answer": 4,
+          "explain_tr": "Son cümle küratörlerin çoğunun görüşünü veriyor: dijitalleştirme [en:not as a replacement for the museum visit but as a complement to it] (müze ziyaretinin yerine geçen değil, onu tamamlayan bir şey) ve erişimi kapıdan girebilenlerin çok ötesine [en:extends] (genişletiyor). A bu cümleyle doğrudan çelişiyor. D ise bazı küratörlerin endişe duyduğu tehlike, çoğunluğun hedefi değil."
+        }
+      ]
+    },
+    {
+      "id": "rea-11",
+      "passage": "Since the launch of the first artificial satellite in 1957, human activity has left a growing cloud of debris in orbit around the Earth. This debris includes spent rocket stages, defunct satellites, fragments from explosions and collisions, and even flecks of paint. Although many of these objects are tiny, they travel at speeds of several kilometres per second, which means that even a small fragment can seriously damage a working spacecraft. Space agencies therefore track the larger pieces and occasionally move satellites, or the International Space Station itself, out of their path. The more worrying problem, however, is the long-term one. Some scientists warn that if the number of objects in certain orbits keeps rising, collisions could generate further fragments, triggering a chain reaction that would make those orbits unusable for generations. Proposed solutions range from designing satellites that burn up in the atmosphere at the end of their lives to developing spacecraft that capture and remove existing debris. Yet such missions are expensive, and no single country has a clear legal obligation to clean up what others have left behind.",
+      "questions": [
+        {
+          "id": "rea-11-1",
+          "q": "According to the passage, even a tiny piece of space debris can be dangerous because",
+          "options": [
+            "it is impossible for space agencies to detect objects of any size",
+            "it usually contains explosive material from old rocket stages",
+            "it moves fast enough to cause serious damage to a working spacecraft",
+            "it tends to fall back to Earth and land in populated areas",
+            "it always collides with the International Space Station"
+          ],
+          "answer": 2,
+          "explain_tr": "Parçada [en:they travel at speeds of several kilometres per second, which means that even a small fragment can seriously damage a working spacecraft] deniyor; yani tehlike hızdan kaynaklanıyor. Uzay ajanslarının büyük parçaları takip ettiği söylendiği için \"hiçbir boyutta tespit edilemez\" ifadesi parçayla çelişir; enkaz uzay istasyonuyla \"her zaman\" çarpışmaz, istasyon gerektiğinde yolundan çekiliyor."
+        },
+        {
+          "id": "rea-11-2",
+          "q": "It is understood from the passage that the chain-reaction scenario",
+          "options": [
+            "is a warning by some scientists rather than an established fact",
+            "has already made several orbits permanently unusable",
+            "would mainly affect satellites that burn up in the atmosphere",
+            "is caused by the tracking of larger pieces of debris",
+            "was first predicted at the launch of the first satellite in 1957"
+          ],
+          "answer": 0,
+          "explain_tr": "[en:Some scientists warn that if the number of objects keeps rising, collisions could generate further fragments, triggering a chain reaction] cümlesi bunun bir uyarı ve olasılık olduğunu gösterir; [en:some], [en:if] ve [en:could] kesinlik bildirmez. \"Bazı yörüngeler çoktan kullanılamaz hâle geldi\" diyen seçenek parçayla çelişir; 1957'de öngörüldüğü ise hiç söylenmiyor."
+        },
+        {
+          "id": "rea-11-3",
+          "q": "The author mentions satellites designed to burn up in the atmosphere in order to",
+          "options": [
+            "explain why debris travels at such high speeds",
+            "show that existing debris has already been removed",
+            "criticise space agencies for moving the Space Station",
+            "prove that cleaning up debris is no longer expensive",
+            "give an example of a proposed solution to the debris problem"
+          ],
+          "answer": 4,
+          "explain_tr": "Yazar [en:Proposed solutions range from designing satellites that burn up in the atmosphere to developing spacecraft that capture and remove existing debris] diyerek önerilen çözümleri sıralıyor; atmosferde yanan uydular bunun bir örneği. Mevcut enkazın temizlendiği söylenmiyor, aksine bu görevlerin pahalı olduğu vurgulanıyor; bu yüzden \"temizlik artık pahalı değil\" seçeneği parçayla çelişir."
+        },
+        {
+          "id": "rea-11-4",
+          "q": "It can be inferred from the passage that the removal of existing debris",
+          "options": [
+            "has been completed by a single country at its own expense",
+            "is hindered by both its cost and the absence of clear legal responsibility",
+            "is cheaper than designing satellites that burn up in the atmosphere",
+            "is a task that space agencies perform every time a satellite is moved",
+            "is legally required of the country that launched the most satellites"
+          ],
+          "answer": 1,
+          "explain_tr": "Son cümle iki engel sayar: [en:such missions are expensive] ve [en:no single country has a clear legal obligation to clean up]. Dolayısıyla temizlik hem maliyet hem de hukuki sorumluluk eksikliği yüzünden zorlaşıyor. Tek bir ülkenin temizliği tamamladığı ya da en çok uydu fırlatan ülkenin yasal yükümlülüğü olduğu parçada yer almıyor; yakılan uydu tasarımıyla maliyet kıyaslaması da yapılmıyor."
+        }
+      ]
+    },
+    {
+      "id": "rea-12",
+      "passage": "Coral reefs cover less than one per cent of the ocean floor, yet they are home to an extraordinary proportion of marine species. The reefs themselves are built over centuries by tiny animals called polyps, which secrete calcium carbonate skeletons and live in partnership with microscopic algae. These algae supply the coral with much of its food through photosynthesis and give reefs their vivid colours. When the surrounding water becomes unusually warm, the relationship breaks down: the coral expels the algae and turns white, a process known as bleaching. Bleached coral is not necessarily dead, and it can recover if conditions improve quickly, but prolonged stress usually leads to its death. In recent decades, marine biologists have recorded bleaching events on reefs around the world with increasing frequency, and most attribute this trend to rising sea temperatures. Reefs also face pressure from pollution, overfishing and the acidification of seawater. Conservation efforts include establishing protected areas, restoring damaged reefs with laboratory-grown coral and breeding varieties that tolerate heat better. Nevertheless, many researchers argue that such measures can only buy time unless the underlying warming is addressed.",
+      "questions": [
+        {
+          "id": "rea-12-1",
+          "q": "According to the passage, the algae living within coral",
+          "options": [
+            "build the calcium carbonate skeleton of the reef",
+            "are expelled whenever the water becomes slightly cooler",
+            "cover less than one per cent of the ocean floor",
+            "provide the coral with food and are responsible for its colour",
+            "cause the acidification of the surrounding seawater"
+          ],
+          "answer": 3,
+          "explain_tr": "[en:These algae supply the coral with much of its food through photosynthesis and give reefs their vivid colours] cümlesi hem besin hem renk görevini algler için söylüyor. Kalsiyum karbonat iskeleti algler değil polipler ([en:polyps]) oluşturuyor; algler su soğuduğunda değil, alışılmadık ölçüde ısındığında ([en:unusually warm]) dışarı atılıyor."
+        },
+        {
+          "id": "rea-12-2",
+          "q": "It is stated in the passage that bleached coral",
+          "options": [
+            "is always beyond recovery once it has turned white",
+            "may survive provided that conditions improve within a short time",
+            "turns white because it has absorbed too many algae",
+            "is found only in the protected areas established by conservationists",
+            "has become rarer around the world in recent decades"
+          ],
+          "answer": 1,
+          "explain_tr": "Parça [en:Bleached coral is not necessarily dead, and it can recover if conditions improve quickly] diyor; yani koşullar hızla düzelirse mercan hayatta kalabilir. \"Beyazlayınca kesinlikle kurtarılamaz\" seçeneği bu cümleyle çelişir. Beyazlama alg \"fazlalığından\" değil, mercanın algleri dışarı atmasından olur; ağarma olaylarının azaldığı da yanlış, parça [en:increasing frequency] diyor."
+        },
+        {
+          "id": "rea-12-3",
+          "q": "The main point of the passage is that",
+          "options": [
+            "reefs are ecologically vital but increasingly threatened by warming seas",
+            "laboratory-grown coral has already reversed the decline of reefs worldwide",
+            "overfishing is a greater danger to reefs than rising sea temperatures",
+            "polyps are able to build an entire reef within a few years",
+            "protected areas are the only effective way to conserve coral reefs"
+          ],
+          "answer": 0,
+          "explain_tr": "Parça resiflerin canlı çeşitliliği için önemini anlatıyor, sonra ağarmayı, artan sıklığını ve ana neden olarak [en:rising sea temperatures] gösteriyor; koruma çabaları ise ancak zaman kazandırabilir. Ana fikir bu. Laboratuvar mercanının düşüşü tersine çevirdiği söylenmiyor; aşırı avlanmanın ısınmadan daha büyük tehdit olduğu da parçada yok, tam tersi vurgulanıyor."
+        },
+        {
+          "id": "rea-12-4",
+          "q": "It can be inferred from the passage that many researchers regard conservation measures as",
+          "options": [
+            "pointless because reefs can no longer recover from bleaching",
+            "a complete solution that makes action on warming unnecessary",
+            "harmful because heat-tolerant coral damages natural reefs",
+            "unnecessary since bleaching events are becoming less common",
+            "useful but not enough on their own while the seas keep warming"
+          ],
+          "answer": 4,
+          "explain_tr": "Son cümle [en:such measures can only buy time unless the underlying warming is addressed] diyor: önlemler işe yarıyor ama ısınma durdurulmadıkça yeterli değil. Bu yüzden \"anlamsız\" ya da \"tam çözüm\" diyen seçenekler iki uçta kalıyor; parça ikisini de desteklemiyor. Isıya dayanıklı mercanın doğal resiflere zarar verdiği de söylenmiyor."
+        }
+      ]
+    },
+    {
+      "id": "rea-13",
+      "passage": "The term 'gig economy' describes a labour market in which people earn money from short-term tasks or projects, often arranged through digital platforms, rather than from permanent employment. Drivers who accept rides through an app, freelance designers who bid for individual contracts and couriers who deliver meals on demand are all examples. Supporters emphasise the flexibility of such work: individuals can choose when and how much they work, and platforms give them access to customers they could not easily reach on their own. Critics, however, point out that this flexibility often comes at a price. Gig workers are usually classified as independent contractors rather than employees, which means they may receive no sick pay, paid holiday or pension contributions, and their income can vary sharply from week to week. Legal disputes over the status of such workers have taken place in several countries, with courts and governments reaching different conclusions. Some have ruled that platform workers are entitled to certain employee rights, while others have preserved the contractor model. What is clear is that existing labour laws, written for an era of long-term employment, are struggling to accommodate this new form of work.",
+      "questions": [
+        {
+          "id": "rea-13-1",
+          "q": "According to the passage, supporters of the gig economy value it chiefly because",
+          "options": [
+            "it guarantees gig workers the same rights as permanent employees",
+            "it lets people choose their hours and reach customers through platforms",
+            "it has eliminated legal disputes over the status of workers",
+            "it provides a stable income that does not vary from week to week",
+            "it replaces digital platforms with direct contact between workers and clients"
+          ],
+          "answer": 1,
+          "explain_tr": "[en:Supporters emphasise the flexibility of such work: individuals can choose when and how much they work, and platforms give them access to customers] cümlesi doğru cevabı veriyor. Parça gig çalışanlarının genelde hastalık ödeneği ve emeklilik katkısı almadığını, gelirlerinin haftadan haftaya değiştiğini söylüyor; bu yüzden \"aynı haklar\" ve \"istikrarlı gelir\" seçenekleri parçayla çelişir."
+        },
+        {
+          "id": "rea-13-2",
+          "q": "The phrase \"comes at a price\" in the passage is closest in meaning to",
+          "options": [
+            "is sold for a fixed amount",
+            "becomes more expensive over time",
+            "is difficult to measure accurately",
+            "is available only to customers",
+            "involves a significant disadvantage"
+          ],
+          "answer": 4,
+          "explain_tr": "[en:this flexibility often comes at a price] ifadesi esnekliğin bir bedeli, yani önemli bir dezavantajı olduğunu anlatır; devamında hastalık ödeneği ve ücretli tatil olmaması sıralanıyor. Burada gerçek bir satış fiyatı ya da zamanla pahalılaşma söz konusu değil; deyim mecazi anlamda kullanılıyor."
+        },
+        {
+          "id": "rea-13-3",
+          "q": "It is stated in the passage that the legal status of gig workers",
+          "options": [
+            "has been settled in favour of the contractor model everywhere",
+            "has never been the subject of a court case",
+            "has been judged differently in different countries",
+            "is defined clearly by labour laws written for long-term employment",
+            "entitles them automatically to sick pay and pension contributions"
+          ],
+          "answer": 2,
+          "explain_tr": "[en:Legal disputes have taken place in several countries, with courts and governments reaching different conclusions] cümlesi ve devamındaki \"bazıları çalışan haklarını tanıdı, bazıları yüklenici modelini korudu\" ifadesi doğru cevabı destekliyor. \"Her yerde yüklenici modeli kazandı\" ve \"hiç dava olmadı\" seçenekleri parçayla çelişir; mevcut yasaların durumu net tanımladığı da söylenmiyor, aksine yasalar zorlanıyor ([en:struggling])."
+        },
+        {
+          "id": "rea-13-4",
+          "q": "It can be inferred from the passage that the author believes existing labour laws",
+          "options": [
+            "should be abolished so that platforms can operate freely",
+            "already protect gig workers adequately in most countries",
+            "were written specifically to regulate digital platforms",
+            "were designed for a type of employment different from gig work",
+            "have made short-term work impossible in several countries"
+          ],
+          "answer": 3,
+          "explain_tr": "Son cümle: [en:existing labour laws, written for an era of long-term employment, are struggling to accommodate this new form of work]. Yani yasalar başka bir istihdam türü için yazılmış. Yazar yasaların kaldırılmasını önermiyor; \"yeterince koruyor\" ya da \"platformlar için yazıldı\" seçenekleri bu cümleyle çelişir."
+        }
+      ]
+    },
+    {
+      "id": "rea-14",
+      "passage": "It is widely assumed that memory inevitably declines with age, but research in cognitive psychology suggests a more complicated picture. Different kinds of memory appear to age at different rates. The ability to recall specific recent events, such as where one parked the car or what someone said yesterday, does tend to weaken in later life, as does the speed with which new information is processed. By contrast, knowledge of words, facts and general concepts, sometimes called semantic memory, often remains stable or even improves well into old age, since it draws on a lifetime of accumulated experience. Researchers also stress that the rate of change varies enormously between individuals. Factors such as physical exercise, social engagement, education and the management of conditions like high blood pressure have all been associated with better memory performance in older adults, although the direction of cause and effect is not always clear. Moreover, older people frequently develop strategies that compensate for slower recall, relying on notes, routines and experience. For these reasons, many psychologists now prefer to speak of changes in memory rather than simple decline.",
+      "questions": [
+        {
+          "id": "rea-14-1",
+          "q": "According to the passage, semantic memory",
+          "options": [
+            "often stays stable or even improves because it builds on long experience",
+            "is the first kind of memory to weaken as people grow older",
+            "refers to recalling where one parked the car or what was said yesterday",
+            "declines at exactly the same rate in every individual",
+            "cannot be supported by notes, routines or other strategies"
+          ],
+          "answer": 0,
+          "explain_tr": "[en:semantic memory, often remains stable or even improves well into old age, since it draws on a lifetime of accumulated experience] cümlesi doğru cevabı veriyor. Arabanın yerini hatırlamak gibi örnekler anlamsal belleği değil, yakın olayları hatırlama yetisini anlatıyor; zayıflayan o yeti. Değişim hızının bireyler arasında çok farklı olduğu da söylendiği için \"herkeste aynı hızda\" seçeneği yanlış."
+        },
+        {
+          "id": "rea-14-2",
+          "q": "It is understood from the passage that the link between lifestyle factors and memory",
+          "options": [
+            "has been proven to be one of direct cause and effect",
+            "applies only to people who suffer from high blood pressure",
+            "exists, although it is not always clear which causes which",
+            "is strongest in younger adults rather than older ones",
+            "has been rejected by most researchers in cognitive psychology"
+          ],
+          "answer": 2,
+          "explain_tr": "Parça egzersiz, sosyal yaşam ve eğitimin daha iyi bellek performansıyla ilişkilendirildiğini ([en:have all been associated with]) söylüyor ama [en:the direction of cause and effect is not always clear] diye ekliyor. Yani ilişki gözlenmiş, neden-sonuç yönü kesin değil. \"Doğrudan neden-sonuç kanıtlandı\" seçeneği bu ifadeyle çelişir; ilişki yalnız yüksek tansiyonu olanlarla sınırlı değil."
+        },
+        {
+          "id": "rea-14-3",
+          "q": "The author mentions notes, routines and experience in order to",
+          "options": [
+            "show that older adults are unable to learn new information",
+            "argue that education is more important than physical exercise",
+            "explain why recent events are forgotten more easily than facts",
+            "illustrate how older people make up for slower recall",
+            "prove that memory decline begins earlier than is commonly believed"
+          ],
+          "answer": 3,
+          "explain_tr": "[en:older people frequently develop strategies that compensate for slower recall, relying on notes, routines and experience] cümlesinde bu örnekler, yaşlıların yavaşlayan hatırlamayı nasıl telafi ettiğini göstermek için veriliyor. Yaşlıların yeni bilgi öğrenemediği söylenmiyor; eğitim-egzersiz karşılaştırması ya da gerilemenin erken başladığı iddiası parçada yok."
+        },
+        {
+          "id": "rea-14-4",
+          "q": "The main point of the passage is that",
+          "options": [
+            "memory loss in old age is unavoidable and affects all abilities equally",
+            "ageing alters memory in varied ways rather than causing a uniform decline",
+            "older adults process new information faster than younger ones",
+            "psychologists have found a way to prevent all age-related memory change",
+            "the widespread assumption about memory and age is entirely correct"
+          ],
+          "answer": 1,
+          "explain_tr": "Parça \"bellek yaşla kaçınılmaz olarak geriler\" varsayımına karşı [en:a more complicated picture] çiziyor: bazı bellek türleri zayıflıyor, bazıları korunuyor, bireyler farklılaşıyor ve son cümlede [en:changes in memory rather than simple decline] deniyor. Ana fikir bu. \"Her yetenek eşit biçimde etkilenir\" ve \"yaygın varsayım tamamen doğru\" seçenekleri parçanın tezinin tam tersi."
+        }
+      ]
+    },
+    {
+      "id": "rea-15",
+      "passage": "Long before the age of ocean-going ships, goods, ideas and people moved across continents along networks of overland and coastal routes. The best known of these is the so-called Silk Road, a term coined in the nineteenth century for a web of paths linking China with Central Asia, the Middle East and the Mediterranean. Despite its name, silk was only one of many commodities carried along it; spices, precious metals, glass, horses and paper also changed hands. Few merchants travelled the entire distance. Instead, goods typically passed through a chain of intermediaries, each trading within a familiar region, so that an item might change owners many times before reaching its final market. Historians emphasise that the routes transmitted far more than merchandise. Religions such as Buddhism spread along them, as did technologies, artistic styles and, less happily, diseases. Trade also encouraged the growth of oasis towns and caravan cities, whose wealth depended on providing water, shelter and security to travellers. When maritime routes became safer and cheaper in later centuries, many of these overland networks lost much of their importance, although some continued to serve regional trade.",
+      "questions": [
+        {
+          "id": "rea-15-1",
+          "q": "According to the passage, the name 'Silk Road'",
+          "options": [
+            "was chosen by the merchants who first carried silk to the Mediterranean",
+            "accurately reflects the fact that silk was the only item traded",
+            "refers to a single road running directly from China to the Mediterranean",
+            "was given to the route by Buddhist travellers in Central Asia",
+            "dates only from the nineteenth century and understates the variety of goods"
+          ],
+          "answer": 4,
+          "explain_tr": "[en:a term coined in the nineteenth century] ismin çok sonra verildiğini, [en:Despite its name, silk was only one of many commodities] ise ipeğin tek mal olmadığını söylüyor. Bu yüzden \"ipek tek ticaret malıydı\" ve \"Çin'den Akdeniz'e tek bir yol\" seçenekleri parçayla çelişir ([en:a web of paths]); adı tüccarların ya da Budist gezginlerin koyduğu söylenmiyor."
+        },
+        {
+          "id": "rea-15-2",
+          "q": "It is stated in the passage that goods on these routes",
+          "options": [
+            "were generally carried the whole distance by one merchant from start to finish",
+            "consisted almost entirely of paper, glass and precious metals",
+            "were exchanged only in the oasis towns of Central Asia",
+            "usually changed hands several times before reaching their final market",
+            "became cheaper each time they changed owners"
+          ],
+          "answer": 3,
+          "explain_tr": "[en:Few merchants travelled the entire distance. Instead, goods typically passed through a chain of intermediaries] ve [en:an item might change owners many times] cümleleri doğru cevabı veriyor. \"Tek bir tüccar bütün yolu taşırdı\" ifadesi bununla çelişir; malların sahip değiştirdikçe ucuzladığı ya da yalnız vaha kentlerinde takas edildiği parçada yok."
+        },
+        {
+          "id": "rea-15-3",
+          "q": "The author mentions Buddhism in order to",
+          "options": [
+            "explain why many merchants refused to travel the entire distance",
+            "show that the routes carried beliefs as well as commodities",
+            "argue that religion was the main reason the routes were created",
+            "describe how diseases were prevented from spreading",
+            "illustrate the wealth of the caravan cities"
+          ],
+          "answer": 1,
+          "explain_tr": "[en:Historians emphasise that the routes transmitted far more than merchandise. Religions such as Buddhism spread along them] cümlesinde Budizm, yolların maldan fazlasını, yani inançları da taşıdığına örnek olarak veriliyor. Dinin yolların kuruluş nedeni olduğu söylenmiyor; hastalıkların önlendiği değil, tam tersine yayıldığı belirtiliyor."
+        },
+        {
+          "id": "rea-15-4",
+          "q": "It can be inferred from the passage that the decline of the overland routes",
+          "options": [
+            "was linked to the rise of sea transport that was safer and less costly",
+            "occurred because the oasis towns stopped supplying water to travellers",
+            "was complete, with no regional trade surviving along them",
+            "was caused by the spread of diseases along the caravan paths",
+            "took place because paper and silk were no longer in demand"
+          ],
+          "answer": 0,
+          "explain_tr": "[en:When maritime routes became safer and cheaper in later centuries, many of these overland networks lost much of their importance] cümlesi kara yollarının gerilemesini deniz yollarının yükselişine bağlıyor. Son cümle [en:although some continued to serve regional trade] dediği için \"bölgesel ticaret hiç kalmadı\" seçeneği yanlış; vaha kentlerinin su vermeyi bıraktığı ya da hastalıkların gerilemeye yol açtığı parçada yok."
+        }
+      ]
+    },
+    {
+      "id": "rea-16",
+      "passage": "Electric vehicles are often presented as the key to cleaner road transport, and in many respects the claim is justified. Because they have no exhaust pipe, they emit no pollutants where they are driven, which matters greatly in congested cities where air quality affects millions of people. Their overall environmental benefit, however, depends on how the electricity that charges them is generated. Where the grid relies heavily on coal, the emissions simply move from the street to the power station, although studies generally find that the total is still lower than that of a comparable petrol car over its lifetime. Manufacturing is another consideration. Producing a battery requires lithium, cobalt and other materials whose extraction can damage local environments and raise ethical concerns about working conditions. Engineers are responding by developing batteries that use fewer scarce metals, improving recycling methods and designing vehicles with longer service lives. Governments, meanwhile, are investing in charging networks and offering buyers financial incentives. Whether electric vehicles fulfil their promise will therefore depend less on the cars themselves than on the wider systems of energy, mining and recycling that surround them.",
+      "questions": [
+        {
+          "id": "rea-16-1",
+          "q": "According to the passage, the absence of an exhaust pipe means that electric vehicles",
+          "options": [
+            "have no environmental impact at any stage of their lives",
+            "can be charged without using electricity from the grid",
+            "produce no pollution at the place where they are driven",
+            "need no lithium or cobalt in their batteries",
+            "are cheaper to manufacture than petrol cars"
+          ],
+          "answer": 2,
+          "explain_tr": "[en:Because they have no exhaust pipe, they emit no pollutants where they are driven] cümlesi doğru cevabı veriyor: kirlilik sürüldükleri yerde oluşmuyor. Ama parça, toplam etkinin elektriğin nasıl üretildiğine ve batarya üretimine bağlı olduğunu söylüyor; bu yüzden \"hiçbir aşamada çevresel etkisi yok\" seçeneği aşırı ve parçayla çelişiyor."
+        },
+        {
+          "id": "rea-16-2",
+          "q": "It is understood from the passage that an electric car charged from a coal-based grid",
+          "options": [
+            "generally produces lower lifetime emissions than a comparable petrol car",
+            "usually produces more emissions in total than a comparable petrol car",
+            "eliminates emissions from the power station as well as from the street",
+            "is banned in congested cities where air quality is poor",
+            "has a shorter service life than one charged from other sources"
+          ],
+          "answer": 0,
+          "explain_tr": "Kömüre dayalı şebekede emisyonlar sokaktan santrale taşınıyor, [en:although studies generally find that the total is still lower than that of a comparable petrol car over its lifetime]. Yani çalışmalara göre toplam yine de benzinli araçtan düşük. \"Benzinli araçtan daha fazla emisyon üretir\" ve \"santral emisyonunu da yok eder\" seçenekleri bu cümleyle çelişir."
+        },
+        {
+          "id": "rea-16-3",
+          "q": "The author mentions lithium and cobalt in order to",
+          "options": [
+            "explain why governments offer buyers financial incentives",
+            "show that these metals are no longer used in batteries",
+            "argue that recycling methods have already solved the problem",
+            "describe how charging networks are constructed",
+            "point to the environmental and ethical costs of battery production"
+          ],
+          "answer": 4,
+          "explain_tr": "[en:Producing a battery requires lithium, cobalt and other materials whose extraction can damage local environments and raise ethical concerns about working conditions] cümlesi, bu metallerin çevresel ve etik maliyetine dikkat çekmek için anılıyor. Bu metallerin artık kullanılmadığı söylenmiyor; mühendisler daha az kıt metal kullanan bataryalar \"geliştiriyor\", sorun çözülmüş değil."
+        },
+        {
+          "id": "rea-16-4",
+          "q": "It can be inferred from the passage that the author regards the success of electric vehicles as",
+          "options": [
+            "already guaranteed by the technical improvements in the vehicles themselves",
+            "impossible as long as batteries contain any scarce metals",
+            "unrelated to the way in which electricity is generated",
+            "dependent mainly on the wider systems of energy, mining and recycling",
+            "determined entirely by the size of government incentives"
+          ],
+          "answer": 3,
+          "explain_tr": "Son cümle: [en:Whether electric vehicles fulfil their promise will therefore depend less on the cars themselves than on the wider systems of energy, mining and recycling]. Yani başarı araçlardan çok çevredeki sistemlere bağlı. \"Zaten garanti\" ve \"elektrik üretimiyle ilgisiz\" seçenekleri parçayla çelişir; teşviklerin tek belirleyici olduğu da söylenmiyor."
+        }
+      ]
+    },
+    {
+      "id": "rea-17",
+      "passage": "Few subjects attract as much confident advice as nutrition, and few are so prone to myths. One persistent belief is that eating late at night causes weight gain regardless of what is eaten; in fact, most dietitians maintain that total energy intake over the day matters far more than the time of a meal. Another is that all fat is harmful, a view that dominated public health messages in the late twentieth century and encouraged a wave of low-fat products that were often high in sugar. Current guidance distinguishes between types of fat, recommending unsaturated fats from sources such as olive oil, nuts and fish while limiting saturated and industrially produced trans fats. The idea that drinking large quantities of water 'flushes out toxins' is also widespread, although the liver and kidneys perform this task whether or not a person drinks beyond their thirst. Such myths endure partly because nutrition science is genuinely complex and partly because simple rules are easier to remember and to sell. Experts therefore advise treating dramatic claims with caution and looking instead for advice that is supported by a broad body of evidence rather than a single study.",
+      "questions": [
+        {
+          "id": "rea-17-1",
+          "q": "According to the passage, dietitians generally hold that weight gain",
+          "options": [
+            "is caused mainly by eating after a certain hour at night, whatever is eaten",
+            "depends more on total daily energy intake than on the timing of meals",
+            "can be prevented by drinking large quantities of water",
+            "results chiefly from unsaturated fats such as olive oil",
+            "is unrelated to how much food a person eats"
+          ],
+          "answer": 1,
+          "explain_tr": "[en:most dietitians maintain that total energy intake over the day matters far more than the time of a meal] cümlesi doğru cevabı veriyor. \"Gece belli bir saatten sonra yemek\" tam da parçanın mit dediği inanış; bol su içmenin kilo almayı önlediği parçada yok, su miti toksinlerle ilgili. Zeytinyağı gibi doymamış yağlar ise tavsiye ediliyor."
+        },
+        {
+          "id": "rea-17-2",
+          "q": "It is stated in the passage that many low-fat products of the late twentieth century",
+          "options": [
+            "were made mainly from olive oil, nuts and fish",
+            "were withdrawn because they contained trans fats",
+            "are now recommended by current dietary guidance",
+            "frequently contained a large amount of sugar",
+            "were less popular than products high in saturated fat"
+          ],
+          "answer": 3,
+          "explain_tr": "[en:encouraged a wave of low-fat products that were often high in sugar] cümlesi, az yağlı ürünlerin çoğunlukla şeker bakımından zengin olduğunu söylüyor. Bu ürünlerin zeytinyağından yapıldığı, trans yağ nedeniyle toplatıldığı ya da bugünkü rehberlerce önerildiği parçada yer almıyor."
+        },
+        {
+          "id": "rea-17-3",
+          "q": "The word \"endure\" in the passage is closest in meaning to",
+          "options": [
+            "persist",
+            "suffer",
+            "spread",
+            "emerge",
+            "change"
+          ],
+          "answer": 0,
+          "explain_tr": "[en:Such myths endure partly because nutrition science is genuinely complex] cümlesinde [en:endure] \"varlığını sürdürmek, kalıcı olmak\" anlamında; en yakın karşılık [en:persist]. [en:suffer] (acı çekmek) fiilin başka bir anlamı ama mitler için uymaz; [en:spread] yayılmayı anlatır, burada ise mitlerin yayılması değil ortadan kalkmaması söz konusu."
+        },
+        {
+          "id": "rea-17-4",
+          "q": "It can be inferred from the passage that the author would be most sceptical of nutritional advice that",
+          "options": [
+            "distinguishes between different types of fat",
+            "is supported by a wide range of evidence",
+            "rests on a single study and makes a dramatic claim",
+            "acknowledges that nutrition science is complex",
+            "recommends limiting industrially produced trans fats"
+          ],
+          "answer": 2,
+          "explain_tr": "Son cümle: uzmanlar [en:treating dramatic claims with caution] ve [en:advice that is supported by a broad body of evidence rather than a single study] aramayı öneriyor. Dolayısıyla yazar, tek çalışmaya dayanan çarpıcı iddialara en kuşkuyla bakar. Yağ türlerini ayırmak ve trans yağı sınırlamak parçada onaylanan güncel rehberlik; geniş kanıta dayanan öneri ise tam da tavsiye edilen şey."
+        }
+      ]
+    },
+    {
+      "id": "rea-18",
+      "passage": "Parents raising children with two languages sometimes worry that the second language will confuse their child or delay speech. Research in developmental psychology offers considerable reassurance. Bilingual children generally reach the major milestones of language development, such as first words and first short sentences, within the same age range as monolingual children. It is true that their vocabulary in each language may be smaller when measured separately, but when the words from both languages are counted together, the total is typically comparable. Mixing languages within a single sentence, which parents often interpret as a sign of confusion, is now regarded by most linguists as a normal and even skilful feature of bilingual speech, since it usually follows the grammatical rules of both languages. Some studies have reported that bilingual children perform slightly better than monolinguals on tasks requiring attention and the ability to switch between rules, although the size and consistency of this advantage remain debated. What researchers agree on is that children need rich and regular exposure to each language; a language that is heard only occasionally is unlikely to be fully acquired, however early it is introduced.",
+      "questions": [
+        {
+          "id": "rea-18-1",
+          "q": "According to the passage, the vocabulary of bilingual children",
+          "options": [
+            "is larger in each language than that of monolingual children",
+            "develops only after they have learned to form short sentences",
+            "cannot be measured separately for each language",
+            "remains smaller than that of monolinguals even when both languages are combined",
+            "is similar in total to that of monolinguals when both languages are counted"
+          ],
+          "answer": 4,
+          "explain_tr": "[en:their vocabulary in each language may be smaller when measured separately, but when the words from both languages are counted together, the total is typically comparable] cümlesi doğru cevabı veriyor. \"Her dilde daha geniş\" ve \"birleştirilince bile daha küçük\" seçenekleri bu cümleyle çelişir; ayrı ayrı ölçülemediği de söylenmiyor, tam tersine ölçülüyor."
+        },
+        {
+          "id": "rea-18-2",
+          "q": "It is stated in the passage that mixing two languages in one sentence",
+          "options": [
+            "is a clear indication that the child is confused",
+            "occurs only in children who hear one language occasionally",
+            "is considered normal by most linguists and usually follows both grammars",
+            "delays the appearance of a child's first words",
+            "has been shown to be the cause of the bilingual advantage in attention"
+          ],
+          "answer": 2,
+          "explain_tr": "[en:Mixing languages within a single sentence is now regarded by most linguists as a normal and even skilful feature of bilingual speech, since it usually follows the grammatical rules of both languages]. Anne babalar bunu karışıklık işareti sanıyor ama dilbilimciler öyle görmüyor; \"açık karışıklık işareti\" seçeneği bu yüzden yanlış. Karıştırmanın dikkat avantajına yol açtığı parçada yok."
+        },
+        {
+          "id": "rea-18-3",
+          "q": "It is understood from the passage that the cognitive advantage of bilingual children",
+          "options": [
+            "is large and accepted by all researchers without question",
+            "has been reported in some studies, though its size is disputed",
+            "concerns vocabulary rather than attention",
+            "disappears entirely once the child starts school",
+            "has been firmly rejected by developmental psychologists"
+          ],
+          "answer": 1,
+          "explain_tr": "[en:Some studies have reported that bilingual children perform slightly better, although the size and consistency of this advantage remain debated] cümlesi: avantaj bazı çalışmalarda bildirilmiş, boyutu tartışmalı. \"Büyük ve herkesçe kabul edilen\" seçeneği [en:slightly] ve [en:debated] ifadeleriyle çelişir; \"kesinlikle reddedildi\" de aşırı. Avantaj kelime bilgisiyle değil dikkat ve kural değiştirmeyle ilgili."
+        },
+        {
+          "id": "rea-18-4",
+          "q": "It can be inferred from the passage that a language introduced very early but heard only rarely",
+          "options": [
+            "will probably not be acquired in full",
+            "will be learned faster than the main language",
+            "is more likely to cause mixing within sentences",
+            "is unnecessary because children reach milestones anyway",
+            "is the best way to boost a child's attention skills"
+          ],
+          "answer": 0,
+          "explain_tr": "Son cümle: [en:a language that is heard only occasionally is unlikely to be fully acquired, however early it is introduced]. Yani erken başlasa bile az duyulan dil büyük olasılıkla tam öğrenilmez. Böyle bir dilin daha hızlı öğrenildiği ya da dikkat becerisini artırdığı parçada yok; \"gereksiz\" yargısı da parçada yer almıyor."
+        }
+      ]
+    },
+    {
+      "id": "rea-19",
+      "passage": "Volcanoes are among the most destructive natural phenomena, yet they are also essential to the planet's long-term habitability. Eruptions occur when molten rock, known as magma, rises through the crust and reaches the surface, driven by the gases dissolved within it. The character of an eruption depends largely on the composition of the magma. Fluid, low-silica magma tends to produce relatively gentle flows of lava, such as those seen in Hawaii, whereas sticky, gas-rich magma can trap pressure until it is released in a violent explosion that hurls ash and rock many kilometres into the air. Large explosive eruptions can affect the whole planet: ash and sulphur compounds injected into the upper atmosphere reflect sunlight and have caused measurable cooling of global temperatures for a year or more. Over geological time, however, volcanic activity has released the gases that formed the early atmosphere and oceans, and volcanic soils are among the most fertile on Earth, which explains why dense populations have long settled on the slopes of active volcanoes. Modern monitoring of ground movement, gas emissions and small earthquakes allows scientists to issue warnings before many eruptions, although predicting their exact timing and scale remains difficult.",
+      "questions": [
+        {
+          "id": "rea-19-1",
+          "q": "According to the passage, the violence of an eruption is determined mainly by",
+          "options": [
+            "the height of the volcano above sea level",
+            "the density of the population living on its slopes",
+            "the fertility of the soil surrounding the volcano",
+            "the composition of the magma involved",
+            "the number of small earthquakes recorded beforehand"
+          ],
+          "answer": 3,
+          "explain_tr": "[en:The character of an eruption depends largely on the composition of the magma] cümlesi doğru cevabı veriyor; akışkan, düşük silisli magma sakin lav akıntısı, yapışkan ve gaz bakımından zengin magma şiddetli patlama üretiyor. Dağın yüksekliği, nüfus yoğunluğu ya da toprak verimliliği patlamanın şiddetine bağlanmıyor; küçük depremler izleme aracı olarak geçiyor, neden olarak değil."
+        },
+        {
+          "id": "rea-19-2",
+          "q": "It is stated in the passage that large explosive eruptions",
+          "options": [
+            "are typical of the fluid lava flows found in Hawaii",
+            "always occur without any warning from scientists",
+            "have permanently raised the temperature of the planet",
+            "release gases that make the surrounding soil infertile",
+            "can lower global temperatures for a year or longer"
+          ],
+          "answer": 4,
+          "explain_tr": "[en:ash and sulphur compounds injected into the upper atmosphere reflect sunlight and have caused measurable cooling of global temperatures for a year or more] cümlesi doğru cevabı veriyor: soğuma, bir yıl ya da daha uzun. \"Kalıcı olarak ısıttı\" tam tersi; Hawaii örneği patlayıcı değil sakin akıntılar için veriliyor. Uyarı verilebildiği söylendiği için \"her zaman uyarısız\" ifadesi de çelişir."
+        },
+        {
+          "id": "rea-19-3",
+          "q": "The author mentions fertile soils in order to",
+          "options": [
+            "show that eruptions no longer pose a threat to settlements",
+            "argue that volcanic ash cools the planet",
+            "explain why people have long lived close to active volcanoes",
+            "describe how magma rises through the crust",
+            "illustrate the difficulty of predicting eruptions"
+          ],
+          "answer": 2,
+          "explain_tr": "[en:volcanic soils are among the most fertile on Earth, which explains why dense populations have long settled on the slopes of active volcanoes] cümlesi: verimli toprak, insanların yanardağ yamaçlarına yerleşmesinin açıklaması olarak veriliyor. Patlamaların artık tehdit olmadığı söylenmiyor; külün soğutma etkisi ve magmanın yükselmesi başka cümlelerde, toprakla bağlantılı değil."
+        },
+        {
+          "id": "rea-19-4",
+          "q": "It can be inferred from the passage that modern monitoring",
+          "options": [
+            "allows scientists to state the precise date and size of every eruption",
+            "improves warnings but does not make eruptions fully predictable",
+            "has made the study of magma composition unnecessary",
+            "is used mainly to measure the fertility of volcanic soils",
+            "cannot detect ground movement or gas emissions"
+          ],
+          "answer": 1,
+          "explain_tr": "Son cümle: izleme [en:allows scientists to issue warnings before many eruptions, although predicting their exact timing and scale remains difficult]. Yani uyarılar iyileşiyor ama patlamalar tam öngörülemiyor. \"Her patlamanın kesin tarihi ve boyutu\" seçeneği [en:remains difficult] ifadesiyle çelişir; izlemenin yer hareketini ve gaz çıkışını ölçtüğü açıkça söyleniyor."
+        }
+      ]
+    },
+    {
+      "id": "rea-20",
+      "passage": "In an age of abundant information, the scarce resource is no longer content but the attention of those who consume it. This observation underlies what is now called the attention economy, a market in which companies compete to capture and hold users' focus, often to sell it to advertisers. Many digital services are free to use precisely because the user's attention, rather than money, is the product being traded. Designers employ techniques such as endless scrolling, autoplaying videos and frequent notifications, each of which exploits well-documented features of human psychology, including the appeal of novelty and the discomfort of missing out. Critics argue that these methods encourage compulsive use, fragment concentration and crowd out activities that require sustained effort, such as reading long texts or deep conversation. Defenders reply that users retain the freedom to switch off and that engaging design is simply good design. Some governments have begun to consider regulation, particularly for products aimed at children, while many users adopt their own countermeasures, from disabling notifications to deleting applications. The debate ultimately turns on a difficult question: how much responsibility for managing attention rests with individuals, and how much with the companies that design for it.",
+      "questions": [
+        {
+          "id": "rea-20-1",
+          "q": "According to the passage, many digital services cost nothing to use because",
+          "options": [
+            "what is actually being sold is the attention of their users",
+            "governments pay companies to provide them to children",
+            "advertisers have stopped paying for space on them",
+            "their designers work without any financial reward",
+            "content has become the scarcest resource in the market"
+          ],
+          "answer": 0,
+          "explain_tr": "[en:Many digital services are free to use precisely because the user's attention, rather than money, is the product being traded] cümlesi doğru cevabı veriyor: satılan şey kullanıcının dikkati. Parçanın ilk cümlesine göre kıt kaynak içerik değil dikkat; bu yüzden \"içerik en kıt kaynak oldu\" seçeneği çelişir. Reklamverenlerin ödeme yapmayı bıraktığı da söylenmiyor, tam tersi."
+        },
+        {
+          "id": "rea-20-2",
+          "q": "It is stated in the passage that techniques such as endless scrolling",
+          "options": [
+            "were introduced in response to government regulation",
+            "take advantage of known tendencies in human psychology",
+            "are used only in products designed for children",
+            "have been abandoned by most designers after criticism",
+            "make it easier for users to concentrate on long texts"
+          ],
+          "answer": 1,
+          "explain_tr": "[en:each of which exploits well-documented features of human psychology, including the appeal of novelty and the discomfort of missing out] cümlesi doğru cevabı veriyor. Bu tekniklerin düzenlemeye yanıt olarak çıktığı ya da terk edildiği parçada yok; eleştirmenlere göre bu yöntemler uzun metin okumayı kolaylaştırmak şöyle dursun, dikkati parçalıyor."
+        },
+        {
+          "id": "rea-20-3",
+          "q": "The author mentions reading long texts and deep conversation in order to",
+          "options": [
+            "show that these activities have become more popular than ever",
+            "illustrate the countermeasures that users adopt against notifications",
+            "support the defenders' claim that engaging design is good design",
+            "give examples of demanding activities that critics say are being lost",
+            "explain how companies capture the attention of advertisers"
+          ],
+          "answer": 3,
+          "explain_tr": "[en:Critics argue that these methods crowd out activities that require sustained effort, such as reading long texts or deep conversation] cümlesinde bu örnekler, eleştirmenlerin \"geri plana itiliyor\" dediği, çaba isteyen etkinlikler olarak veriliyor. Bu etkinliklerin popülerleştiği söylenmiyor; bildirimleri kapatmak gibi karşı önlemler ayrı bir cümlede sayılıyor."
+        },
+        {
+          "id": "rea-20-4",
+          "q": "It can be inferred from the passage that the author",
+          "options": [
+            "firmly blames individual users for failing to switch off their devices",
+            "believes that regulation has already solved the problem for children",
+            "considers the critics' arguments to be entirely without merit",
+            "regards deleting applications as the only effective countermeasure",
+            "presents the question of responsibility as unresolved rather than settling it"
+          ],
+          "answer": 4,
+          "explain_tr": "Yazar eleştirmenlerin ve savunucuların görüşlerini aktarıyor, son cümlede ise tartışmanın [en:a difficult question] üzerinde döndüğünü söyleyerek sorumluluğun kimde olduğunu açık bırakıyor. Yani soru çözüme bağlanmıyor. Bireyleri \"kesin olarak suçlayan\" ya da eleştirmenleri \"tamamen haksız\" bulan bir ifade yok; düzenleme ancak \"değerlendirilmeye başlanmış\", sorunu çözmüş değil."
+        }
+      ]
+    }
+  ]
+}

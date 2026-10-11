@@ -1,0 +1,10 @@
+# What the setup wizard itself needs (everything else is installed by the wizard).
+fastapi==0.142.2
+uvicorn==0.54.0
+# Microsoft Visual C++ runtime DLLs (msvcp140.dll, msvcp140_1.dll…) into runtime\python, where Windows looks
+# first: onnxruntime (Kokoro, Turkish voice) and ctranslate2 (Whisper) need them, and the embeddable Python only
+# brings vcruntime140. A computer without the "VC++ Redistributable" failed with "DLL load failed". App-local,
+# nothing is installed system-wide. (Christoph Gohlke's package; also in app/requirements.txt for updates.)
+msvc-runtime==14.44.35112; sys_platform == "win32"
+# Linux: unpacks Ollama's .tar.zst archive (the zstd program is not on every system).
+zstandard==0.23.0; sys_platform == "linux"

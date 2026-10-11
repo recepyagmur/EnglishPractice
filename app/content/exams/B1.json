@@ -1,0 +1,356 @@
+{
+  "_comment": "B1 level exam. Format: app/content/exams/README.md. Question ids are stable.",
+  "title_tr": "B1 Seviye Sınavı",
+  "grammar_count": 24,
+  "tts_speed": 1.0,
+  "grammar": [
+    {"id": "g01", "lesson": "b1-present-perfect", "type": "choice", "q": "I ___ my passport. I can't find it anywhere.", "options": ["lost", "have lost", "was losing"], "answer": 1, "explain_tr": "Sonucu şu an önemli → [en:have lost]."},
+    {"id": "g02", "lesson": "b1-present-perfect", "type": "fill", "q": "We've known each other ___ 2015.", "answer": ["since"], "explain_tr": "Başlangıç → [en:since]."},
+    {"id": "g03", "lesson": "b1-present-perfect", "type": "fix", "q": "I have visited Rome two years ago.", "answer": ["I visited Rome two years ago."], "explain_tr": "[en:ago] → past simple."},
+    {"id": "g37", "lesson": "b1-present-perfect", "type": "transform", "instruction_tr": "Olumsuz yap ([en:yet] kullan)", "q": "The client has paid the invoice.", "answer": ["The client hasn't paid the invoice yet.", "The client hasn't yet paid the invoice."], "explain_tr": "Olumsuz present perfect: [en:hasn't] + V3; [en:yet] genelde cümlenin sonuna gelir."},
+    {"id": "g38", "lesson": "b1-present-perfect", "type": "transform", "instruction_tr": "[en:just] kullanarak present perfect'e çevir", "q": "The meeting finished a few minutes ago.", "answer": ["The meeting has just finished.", "The meeting's just finished."], "explain_tr": "Az önce olan bir şey için [en:has/have] + [en:just] + V3 kullanılır; [en:ago] present perfect ile kullanılmaz."},
+    {"id": "g39", "lesson": "b1-present-perfect", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["Have", "you", "ever", "given", "a presentation", "in English?"], "answer": ["Have you ever given a presentation in English?"], "explain_tr": "Deneyim sorusu: [en:Have] + özne + [en:ever] + V3."},
+    {"id": "g40", "lesson": "b1-present-perfect", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["We haven't", "heard", "from", "the supplier", "since Monday"], "answer": ["We haven't heard from the supplier since Monday.", "Since Monday we haven't heard from the supplier."], "explain_tr": "Başlangıç noktası [en:since] ile verilir ve present perfect kullanılır."},
+    {"id": "g41", "lesson": "b1-present-perfect", "type": "choice", "q": "We ___ the contract last Friday.", "options": ["have signed", "signed", "have sign"], "answer": 1, "explain_tr": "Belli bir geçmiş zaman ([en:last Friday]) varsa past simple kullanılır."},
+    {"id": "g04", "lesson": "b1-past-continuous", "type": "choice", "q": "I ___ dinner when the lights went out.", "options": ["was cooking", "cooked", "am cooking"], "answer": 0, "explain_tr": "Süren olay → [en:was cooking]."},
+    {"id": "g05", "lesson": "b1-past-continuous", "type": "fill", "q": "While they ___ the house, they found an old letter. (clean)", "answer": ["were cleaning"], "explain_tr": "[en:while] + [en:were cleaning]."},
+    {"id": "g06", "lesson": "b1-past-continuous", "type": "fix", "q": "When I was arriving at the station, the train left.", "answer": ["When I arrived at the station, the train had already left.", "When I arrived at the station, the train had left.", "When I arrived at the station, the train left."], "explain_tr": "Kısa olay → [en:arrived]."},
+    {"id": "g42", "lesson": "b1-past-continuous", "type": "transform", "instruction_tr": "Soru cümlesi yap", "q": "You were working on the budget at nine o'clock.", "answer": ["Were you working on the budget at nine o'clock?", "Were you working on the budget at 9 o'clock?"], "explain_tr": "Past continuous soru: [en:Was/Were] + özne + fiil[en:-ing]."},
+    {"id": "g43", "lesson": "b1-past-continuous", "type": "transform", "instruction_tr": "[en:while] ile tek cümle yap", "q": "I was checking the figures. I found a serious mistake.", "answer": ["While I was checking the figures, I found a serious mistake.", "I found a serious mistake while I was checking the figures.", "While checking the figures, I found a serious mistake.", "I found a serious mistake while checking the figures."], "explain_tr": "Süren eylem [en:while] + past continuous ile, araya giren olay past simple ile anlatılır."},
+    {"id": "g44", "lesson": "b1-past-continuous", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["The printer", "stopped", "working", "while", "I", "was printing", "the contracts"], "answer": ["The printer stopped working while I was printing the contracts.", "While I was printing the contracts, the printer stopped working."], "explain_tr": "Uzun süren eylem past continuous, araya giren kısa olay past simple olur."},
+    {"id": "g45", "lesson": "b1-past-continuous", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["What", "were", "you", "doing", "when", "the client", "arrived?"], "answer": ["What were you doing when the client arrived?", "When the client arrived, what were you doing?"], "explain_tr": "Bir olay olduğu anda süren eylemi sormak için [en:What were you doing…?] kullanılır."},
+    {"id": "g46", "lesson": "b1-past-continuous", "type": "fix", "q": "Sorry, I didn't answer your call because I was drive.", "answer": ["Sorry, I didn't answer your call because I was driving."], "explain_tr": "Past continuous: [en:was] + fiil[en:-ing] ([en:was driving])."},
+    {"id": "g07", "lesson": "b1-gerund-infinitive", "type": "choice", "q": "She refused ___ the contract.", "options": ["signing", "to sign", "sign"], "answer": 1, "explain_tr": "[en:refuse] + [en:to]."},
+    {"id": "g08", "lesson": "b1-gerund-infinitive", "type": "fill", "q": "I don't mind ___ late tonight. (work)", "answer": ["working"], "explain_tr": "[en:mind] + [en:-ing]."},
+    {"id": "g09", "lesson": "b1-gerund-infinitive", "type": "fix", "q": "He is thinking about to change his job.", "answer": ["He is thinking about changing his job.", "He's thinking about changing his job."], "explain_tr": "Edattan sonra [en:-ing]."},
+    {"id": "g47", "lesson": "b1-gerund-infinitive", "type": "transform", "instruction_tr": "[en:stop] kullanarak yeniden yaz (aynı anlam)", "q": "I don't eat fast food any more.", "answer": ["I have stopped eating fast food.", "I stopped eating fast food."], "explain_tr": "Bir alışkanlığı bırakmak: [en:stop] + fiil[en:-ing]."},
+    {"id": "g48", "lesson": "b1-gerund-infinitive", "type": "transform", "instruction_tr": "[en:remember] ile yeniden yaz (aynı anlam)", "q": "Don't forget to call the bank.", "answer": ["Remember to call the bank.", "Please remember to call the bank.", "Remember to call the bank, please."], "explain_tr": "Yapılacak bir şeyi unutmamak: [en:remember] + [en:to] + fiil."},
+    {"id": "g49", "lesson": "b1-gerund-infinitive", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["We're", "looking forward to", "working", "with", "your team"], "answer": ["We're looking forward to working with your team."], "explain_tr": "[en:look forward to]'daki [en:to] bir edattır, ardından fiil[en:-ing] gelir."},
+    {"id": "g50", "lesson": "b1-gerund-infinitive", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["She", "keeps", "forgetting", "to update", "the spreadsheet"], "answer": ["She keeps forgetting to update the spreadsheet."], "explain_tr": "[en:keep] + fiil[en:-ing]; yapılacak şeyi unutmak: [en:forget] + [en:to] + fiil."},
+    {"id": "g51", "lesson": "b1-gerund-infinitive", "type": "choice", "q": "Have you considered ___ for the manager position?", "options": ["to apply", "applying", "apply"], "answer": 1, "explain_tr": "[en:consider] fiilinden sonra fiil[en:-ing] gelir."},
+    {"id": "g10", "lesson": "b1-modals-obligation", "type": "choice", "q": "You ___ bring food. Lunch is included.", "options": ["mustn't", "don't have to", "have to"], "answer": 1, "explain_tr": "Gerek yok → [en:don't have to]."},
+    {"id": "g11", "lesson": "b1-modals-obligation", "type": "fill", "q": "Last year we ___ to work every Saturday. (have)", "answer": ["had"], "explain_tr": "Geçmiş: [en:had to]."},
+    {"id": "g12", "lesson": "b1-modals-obligation", "type": "fix", "q": "You should to call her today.", "answer": ["You should call her today."], "explain_tr": "[en:should] + yalın fiil."},
+    {"id": "g52", "lesson": "b1-modals-obligation", "type": "transform", "instruction_tr": "Geçmiş zamana çevir", "q": "We must finish the report by Friday.", "answer": ["We had to finish the report by Friday."], "explain_tr": "[en:must]'ın geçmiş hâli yoktur; geçmişteki zorunluluk için [en:had to] kullanılır."},
+    {"id": "g53", "lesson": "b1-modals-obligation", "type": "transform", "instruction_tr": "[en:You should] ile tavsiye cümlesi yap", "q": "It's a good idea to check the contract carefully.", "answer": ["You should check the contract carefully.", "You should carefully check the contract."], "explain_tr": "Tavsiye: [en:should] + yalın fiil."},
+    {"id": "g54", "lesson": "b1-modals-obligation", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["Visitors", "mustn't enter", "the warehouse", "without", "a helmet"], "answer": ["Visitors mustn't enter the warehouse without a helmet.", "Without a helmet visitors mustn't enter the warehouse."], "explain_tr": "Yasak bildirmek için [en:mustn't] + yalın fiil kullanılır."},
+    {"id": "g55", "lesson": "b1-modals-obligation", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["Did", "you", "have to", "work", "last weekend?"], "answer": ["Did you have to work last weekend?", "Last weekend did you have to work?"], "explain_tr": "Geçmişteki zorunluluğu sormak: [en:Did] + özne + [en:have to] + fiil."},
+    {"id": "g56", "lesson": "b1-modals-obligation", "type": "choice", "q": "You ___ ask Deniz for the password. She's the only person who knows it.", "options": ["have to", "mustn't", "don't have to"], "answer": 0, "explain_tr": "Başka yol olmadığı için zorunluluk var: [en:have to]."},
+    {"id": "g13", "lesson": "b1-conditionals", "type": "choice", "q": "If I ___ more money, I would buy a bigger flat.", "options": ["have", "had", "would have"], "answer": 1, "explain_tr": "Second conditional: [en:had]."},
+    {"id": "g14", "lesson": "b1-conditionals", "type": "fill", "q": "If you ___ now, you'll catch the train. (leave)", "answer": ["leave"], "explain_tr": "[en:If] + present."},
+    {"id": "g15", "lesson": "b1-conditionals", "type": "fix", "q": "I'll call you when I will get home.", "answer": ["I'll call you when I get home.", "I will call you when I get home."], "explain_tr": "[en:when] cümlesinde [en:will] yok."},
+    {"id": "g57", "lesson": "b1-conditionals", "type": "transform", "instruction_tr": "[en:unless] kullanarak yeniden yaz", "q": "If you don't sign the form, we can't start the project.", "answer": ["Unless you sign the form, we can't start the project.", "We can't start the project unless you sign the form."], "explain_tr": "[en:unless] = [en:if … not]; [en:unless]'ten sonra fiil olumlu olur."},
+    {"id": "g58", "lesson": "b1-conditionals", "type": "transform", "instruction_tr": "Second conditional'a çevir (hayalî durum)", "q": "If we hire more people, we will finish on time.", "answer": ["If we hired more people, we would finish on time.", "If we hired more people, we'd finish on time.", "We would finish on time if we hired more people.", "We'd finish on time if we hired more people."], "explain_tr": "Second conditional: [en:If] + past simple, [en:would] + yalın fiil."},
+    {"id": "g59", "lesson": "b1-conditionals", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["If", "the client", "agrees", "we'll", "start on Monday"], "answer": ["If the client agrees, we'll start on Monday.", "We'll start on Monday if the client agrees."], "explain_tr": "First conditional: [en:If] + present simple, [en:will] + fiil; iki bölümün yeri değişebilir."},
+    {"id": "g60", "lesson": "b1-conditionals", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["If", "we", "had a bigger budget", "we'd", "hire", "another designer"], "answer": ["If we had a bigger budget, we'd hire another designer.", "We'd hire another designer if we had a bigger budget."], "explain_tr": "Hayalî durum: [en:If] + past simple, [en:'d] ([en:would]) + yalın fiil."},
+    {"id": "g61", "lesson": "b1-conditionals", "type": "fill", "q": "We'll discuss the details when the manager ___ back from holiday. (come)", "answer": ["comes", "has come"], "explain_tr": "[en:when] ile başlayan zaman cümlesinde gelecek için [en:will] değil present simple kullanılır."},
+    {"id": "g16", "lesson": "b1-passive", "type": "choice", "q": "The results ___ next week.", "options": ["will announce", "will be announced", "are announcing"], "answer": 1, "explain_tr": "Edilgen gelecek: [en:will be announced]."},
+    {"id": "g17", "lesson": "b1-passive", "type": "fill", "q": "This song was ___ by a Turkish band. (write)", "answer": ["written"], "explain_tr": "[en:write] → [en:written]."},
+    {"id": "g18", "lesson": "b1-passive", "type": "fix", "q": "The package delivered yesterday.", "answer": ["The package was delivered yesterday."], "explain_tr": "[en:was] eksik."},
+    {"id": "g62", "lesson": "b1-passive", "type": "transform", "instruction_tr": "Edilgen yap ([en:by] kullanma)", "q": "They clean the offices every evening.", "answer": ["The offices are cleaned every evening.", "Every evening the offices are cleaned."], "explain_tr": "Geniş zamanda edilgen: [en:am/is/are] + V3."},
+    {"id": "g63", "lesson": "b1-passive", "type": "transform", "instruction_tr": "Edilgen yap ([en:by] ile)", "q": "Our designer created the new logo.", "answer": ["The new logo was created by our designer."], "explain_tr": "Geçmiş zamanda edilgen: [en:was/were] + V3; yapan kişi [en:by] ile verilir."},
+    {"id": "g64", "lesson": "b1-passive", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["The parcels", "are", "delivered", "by", "a local company"], "answer": ["The parcels are delivered by a local company.", "Are the parcels delivered by a local company?"], "explain_tr": "Edilgen yapı: [en:are] + V3; işi yapan [en:by] ile verilir."},
+    {"id": "g65", "lesson": "b1-passive", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["When", "was", "the order", "sent", "to the customer?"], "answer": ["When was the order sent to the customer?"], "explain_tr": "Edilgen soru: soru kelimesi + [en:was] + özne + V3."},
+    {"id": "g66", "lesson": "b1-passive", "type": "fix", "q": "This report is wrote every month by the sales team.", "answer": ["This report is written every month by the sales team.", "This report is written by the sales team every month."], "explain_tr": "Edilgende V3 kullanılır: [en:write] → [en:written]."},
+    {"id": "g19", "lesson": "b1-relative-clauses", "type": "choice", "q": "That's the colleague ___ helped me with the project.", "options": ["which", "who", "where"], "answer": 1, "explain_tr": "İnsan → [en:who]."},
+    {"id": "g20", "lesson": "b1-relative-clauses", "type": "fill", "q": "This is the town ___ my father was born.", "answer": ["where"], "explain_tr": "Yer → [en:where]."},
+    {"id": "g21", "lesson": "b1-relative-clauses", "type": "fix", "q": "The phone that I bought it last week is broken.", "answer": ["The phone that I bought last week is broken.", "The phone I bought last week is broken.", "The phone which I bought last week is broken."], "explain_tr": "[en:it] fazla."},
+    {"id": "g67", "lesson": "b1-relative-clauses", "type": "transform", "instruction_tr": "[en:who] ya da [en:that] ile tek cümle yap", "q": "We hired an engineer. He used to work in Germany.", "answer": ["We hired an engineer who used to work in Germany.", "We hired an engineer that used to work in Germany."], "explain_tr": "İnsanlar için [en:who] ya da [en:that] kullanılır; [en:He] artık tekrar yazılmaz."},
+    {"id": "g68", "lesson": "b1-relative-clauses", "type": "transform", "instruction_tr": "[en:whose] ile tek cümle yap", "q": "I spoke to a customer. His order was lost.", "answer": ["I spoke to a customer whose order was lost.", "I spoke to a customer whose order had been lost."], "explain_tr": "İyelik (onun siparişi) [en:whose] ile anlatılır."},
+    {"id": "g69", "lesson": "b1-relative-clauses", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["This is", "the room", "where", "we", "keep", "the old files"], "answer": ["This is the room where we keep the old files."], "explain_tr": "Yer bildiren isimden sonra [en:where] kullanılır."},
+    {"id": "g70", "lesson": "b1-relative-clauses", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["This is", "the colleague", "whose", "idea", "won", "the award"], "answer": ["This is the colleague whose idea won the award."], "explain_tr": "[en:whose] + isim: [tr:kimin …] anlamında iyelik bildirir."},
+    {"id": "g71", "lesson": "b1-relative-clauses", "type": "choice", "q": "The client ___ complaint we received yesterday has called again.", "options": ["who", "whose", "which"], "answer": 1, "explain_tr": "Müşterinin şikâyeti → iyelik bildiren [en:whose]."},
+    {"id": "g22", "lesson": "b1-reported-speech", "type": "choice", "q": "He ___ me that he was leaving the company.", "options": ["said", "told", "asked"], "answer": 1, "explain_tr": "Kişiyle → [en:told]."},
+    {"id": "g23", "lesson": "b1-reported-speech", "type": "fill", "q": "\"Will you help me?\" → She asked if I ___ help her.", "answer": ["would"], "explain_tr": "[en:will] → [en:would]."},
+    {"id": "g24", "lesson": "b1-reported-speech", "type": "fix", "q": "My boss asked me when will I finish.", "answer": ["My boss asked me when I would finish.", "My boss asked me when I'd finish."], "explain_tr": "Dolaylı soru: düz sıra, [en:will] → [en:would]."},
+    {"id": "g72", "lesson": "b1-reported-speech", "type": "transform", "instruction_tr": "Dolaylı anlatıma çevir: [en:He told me…]", "q": "\"I'm working on the new website.\"", "answer": ["He told me he was working on the new website.", "He told me that he was working on the new website.", "He told me he is working on the new website.", "He told me that he is working on the new website."], "explain_tr": "Dolaylı anlatımda zaman genelde bir geri kayar: [en:am working] → [en:was working]."},
+    {"id": "g73", "lesson": "b1-reported-speech", "type": "transform", "instruction_tr": "Dolaylı soruya çevir: [en:She asked me…]", "q": "\"When will the shipment arrive?\"", "answer": ["She asked me when the shipment would arrive.", "She asked me when the shipment will arrive."], "explain_tr": "Dolaylı soruda düz cümle sırası kullanılır; [en:will] genelde [en:would] olur."},
+    {"id": "g74", "lesson": "b1-reported-speech", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["She", "asked", "me", "where", "the meeting room", "was"], "answer": ["She asked me where the meeting room was."], "explain_tr": "Dolaylı soruda özne fiilden önce gelir: [en:where the meeting room was]."},
+    {"id": "g75", "lesson": "b1-reported-speech", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["He", "told", "us", "that", "he", "would be", "late"], "answer": ["He told us that he would be late."], "explain_tr": "[en:tell]'den sonra kişi gelir ([en:told us]); [en:will] → [en:would] olur."},
+    {"id": "g76", "lesson": "b1-reported-speech", "type": "fill", "q": "\"Please send me the file.\" → My manager asked me ___ him the file. (send)", "answer": ["to send"], "explain_tr": "Rica aktarılırken [en:ask] + kişi + [en:to] + fiil kullanılır."},
+    {"id": "g25", "lesson": "b1-used-to", "type": "choice", "q": "We ___ live near the sea when I was a child.", "options": ["use to", "used to", "were used to"], "answer": 1, "explain_tr": "Eski durum → [en:used to]."},
+    {"id": "g26", "lesson": "b1-used-to", "type": "fill", "q": "I didn't ___ to like tea, but now I drink it every day.", "answer": ["use"], "explain_tr": "[en:didn't use to]."},
+    {"id": "g27", "lesson": "b1-used-to", "type": "fix", "q": "Did you used to play an instrument?", "answer": ["Did you use to play an instrument?"], "explain_tr": "[en:Did] + [en:use to]."},
+    {"id": "g77", "lesson": "b1-used-to", "type": "transform", "instruction_tr": "Olumsuz yap", "q": "My manager used to check every email.", "answer": ["My manager didn't use to check every email.", "My manager never used to check every email.", "My manager used not to check every email."], "explain_tr": "Olumsuzda [en:didn't use to] kullanılır ([en:use] sonunda [key:d] yok)."},
+    {"id": "g78", "lesson": "b1-used-to", "type": "transform", "instruction_tr": "Soru cümlesi yap", "q": "She used to travel a lot for work.", "answer": ["Did she use to travel a lot for work?"], "explain_tr": "Soru: [en:Did] + özne + [en:use to] + fiil."},
+    {"id": "g79", "lesson": "b1-used-to", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["My father", "used to", "work", "in", "a textile factory"], "answer": ["My father used to work in a textile factory."], "explain_tr": "Geçmişte süregelen ama artık olmayan durum: [en:used to] + yalın fiil."},
+    {"id": "g80", "lesson": "b1-used-to", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["I didn't", "use to", "like", "working", "in a team"], "answer": ["I didn't use to like working in a team."], "explain_tr": "Olumsuz: [en:didn't use to] + yalın fiil; [en:like]'tan sonra fiil[en:-ing] gelebilir."},
+    {"id": "g81", "lesson": "b1-used-to", "type": "fix", "q": "There use to be a bookshop next to our office.", "answer": ["There used to be a bookshop next to our office."], "explain_tr": "Olumlu cümlede [en:used to] yazılır ([key:d] ile)."},
+    {"id": "g28", "lesson": "b1-make-do", "type": "choice", "q": "I'm sorry, I ___ a terrible mistake.", "options": ["did", "made", "took"], "answer": 1, "explain_tr": "[en:make a mistake]."},
+    {"id": "g29", "lesson": "b1-make-do", "type": "fill", "q": "Could you ___ me 20 lira until tomorrow? (ödünç ver)", "answer": ["lend"], "explain_tr": "Vermek → [en:lend]."},
+    {"id": "g30", "lesson": "b1-make-do", "type": "fix", "q": "She said me a secret.", "answer": ["She told me a secret."], "explain_tr": "[en:tell] + kişi."},
+    {"id": "g82", "lesson": "b1-make-do", "type": "transform", "instruction_tr": "[en:borrow] ile yeniden yaz ([en:I] ile başla)", "q": "Murat lent me a charger.", "answer": ["I borrowed a charger from Murat."], "explain_tr": "Birinden ödünç almak: [en:borrow something from someone]."},
+    {"id": "g83", "lesson": "b1-make-do", "type": "transform", "instruction_tr": "[en:make] ile yeniden yaz ([en:Can I …] ile başla)", "q": "Can I suggest something?", "answer": ["Can I make a suggestion?"], "explain_tr": "Öneride bulunmak: [en:make a suggestion]."},
+    {"id": "g84", "lesson": "b1-make-do", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["Could you", "bring", "the documents", "to", "the meeting?"], "answer": ["Could you bring the documents to the meeting?"], "explain_tr": "Konuşanın bulunacağı yere getirmek: [en:bring]."},
+    {"id": "g85", "lesson": "b1-make-do", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["We", "do", "a lot of", "business", "with", "German companies"], "answer": ["We do a lot of business with German companies.", "With German companies we do a lot of business."], "explain_tr": "Ticaret yapmak: [en:do business] ([en:make] değil)."},
+    {"id": "g86", "lesson": "b1-make-do", "type": "fill", "q": "She ___ a great job on the presentation yesterday. (make / do)", "answer": ["did"], "explain_tr": "İyi iş çıkarmak: [en:do a good/great job]."},
+    {"id": "g31", "lesson": "b1-work-meetings", "type": "choice", "q": "Polite way to disagree:", "options": ["You are wrong.", "I'm afraid I don't agree with that.", "No way."], "answer": 1, "explain_tr": "Kibar karşı çıkma."},
+    {"id": "g32", "lesson": "b1-work-meetings", "type": "fill", "q": "Can I ___ something to what Ali said? (eklemek)", "answer": ["add"], "explain_tr": "[en:Can I add something?]"},
+    {"id": "g33", "lesson": "b1-work-meetings", "type": "fix", "q": "I am agree with Selin's idea.", "answer": ["I agree with Selin's idea."], "explain_tr": "[en:agree] fiil; [en:am] fazla."},
+    {"id": "g87", "lesson": "b1-work-meetings", "type": "transform", "instruction_tr": "Kibarca katılmadığını belirt ([en:I'm afraid] ile başla)", "q": "I don't agree with you.", "answer": ["I'm afraid I don't agree with you.", "I'm afraid that I don't agree with you.", "I'm afraid I disagree with you.", "I'm afraid that I disagree with you.", "I'm afraid I can't agree with you.", "I'm afraid that I can't agree with you."], "explain_tr": "[en:I'm afraid…] katılmadığını kibarca ve yumuşak biçimde söyler."},
+    {"id": "g88", "lesson": "b1-work-meetings", "type": "transform", "instruction_tr": "Kibar öneri yap ([en:What about] ile)", "q": "Let's postpone the decision until Friday.", "answer": ["What about postponing the decision until Friday?", "What about postponing the decision till Friday?"], "explain_tr": "Soru şeklinde kibar öneri: [en:What about] + fiil[en:-ing]?"},
+    {"id": "g89", "lesson": "b1-work-meetings", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["Let's", "go back", "to", "the first point", "on the agenda"], "answer": ["Let's go back to the first point on the agenda."], "explain_tr": "Bir konuya geri dönmek: [en:go back to]."},
+    {"id": "g90", "lesson": "b1-work-meetings", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["Sorry", "to interrupt", "but", "could you", "repeat", "the last figure?"], "answer": ["Sorry to interrupt, but could you repeat the last figure?"], "explain_tr": "Söz kesmeden önce [en:Sorry to interrupt, but…] denir."},
+    {"id": "g91", "lesson": "b1-work-meetings", "type": "fix", "q": "Sorry for interrupt, but I have a question.", "answer": ["Sorry to interrupt, but I have a question.", "Sorry for interrupting, but I have a question.", "I'm sorry to interrupt, but I have a question.", "I'm sorry for interrupting, but I have a question."], "explain_tr": "[en:Sorry to interrupt] ya da [en:Sorry for interrupting] denir; edattan sonra fiil[en:-ing] gelir."},
+    {"id": "g34", "lesson": "b1-work-interview", "type": "choice", "q": "I ___ in customer service since 2020.", "options": ["work", "have worked", "worked"], "answer": 1, "explain_tr": "[en:since] → present perfect."},
+    {"id": "g35", "lesson": "b1-work-interview", "type": "fill", "q": "I have ten years ___ experience in logistics.", "answer": ["of"], "explain_tr": "[en:years of experience]."},
+    {"id": "g36", "lesson": "b1-work-interview", "type": "fix", "q": "I am graduated from Hacettepe in 2014.", "answer": ["I graduated from Hacettepe in 2014."], "explain_tr": "[en:graduated]."},
+    {"id": "g92", "lesson": "b1-work-interview", "type": "transform", "instruction_tr": "Kibar dolaylı soru yap ([en:Could you tell me …] ile)", "q": "When does the job start?", "answer": ["Could you tell me when the job starts?", "Could you tell me when the job starts, please?", "Could you please tell me when the job starts?"], "explain_tr": "Dolaylı soruda düz cümle sırası kullanılır ve [en:does] düşer: [en:when the job starts]."},
+    {"id": "g93", "lesson": "b1-work-interview", "type": "transform", "instruction_tr": "Soru cümlesi yap", "q": "You have managed a team before.", "answer": ["Have you managed a team before?", "Have you ever managed a team before?"], "explain_tr": "Present perfect soru: [en:Have] + özne + V3."},
+    {"id": "g94", "lesson": "b1-work-interview", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["I'm", "responsible", "for", "training", "new staff"], "answer": ["I'm responsible for training new staff."], "explain_tr": "[en:responsible for] + isim ya da fiil[en:-ing]."},
+    {"id": "g95", "lesson": "b1-work-interview", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["In", "my last job", "I", "dealt with", "customer complaints"], "answer": ["In my last job, I dealt with customer complaints.", "I dealt with customer complaints in my last job."], "explain_tr": "Bitmiş bir işten söz ederken past simple kullanılır ([en:dealt with])."},
+    {"id": "g96", "lesson": "b1-work-interview", "type": "fill", "q": "I have a degree ___ economics.", "answer": ["in"], "explain_tr": "Bir alanda diploma: [en:a degree in …]"}
+  ],
+  "listening": {
+    "dictation_count": 3,
+    "comprehension_count": 2,
+    "dictation": [
+      {
+        "id": "d1",
+        "text": "I've worked for this company since I graduated from university."
+      },
+      {
+        "id": "d2",
+        "text": "If we finish the project early, the client will give us a bonus."
+      },
+      {
+        "id": "d3",
+        "text": "The meeting was cancelled because the manager was ill."
+      },
+      {
+        "id": "d4",
+        "text": "She was talking to a customer when the system suddenly stopped working."
+      },
+      {
+        "id": "d5",
+        "text": "We don't have to wear suits, but we should look professional."
+      },
+      {
+        "id": "d6",
+        "text": "The new products were shown to our customers at the trade fair."
+      },
+      {
+        "id": "d7",
+        "text": "The colleague who trained me last year has moved to another department."
+      },
+      {
+        "id": "d8",
+        "text": "I used to drive to work, but now I take the train."
+      }
+    ],
+    "comprehension": [
+      {
+        "id": "c1",
+        "text": "Good morning, everyone. The aim of today's meeting is to discuss the new office. As you know, we've grown a lot this year, and the current office is too small. We've looked at two options. The first one is in the city centre. It's more expensive, but it's easier to get to by metro. The second one is cheaper and bigger, but it's outside the city. I'd like to hear your opinions before we make a decision on Friday.",
+        "questions": [
+          {
+            "id": "c1a",
+            "q_tr": "Neden yeni bir ofis gerekiyor?",
+            "options": [
+              "Mevcut ofis çok pahalı",
+              "Şirket büyüdü ve ofis küçük kaldı",
+              "Kira sözleşmesi bitiyor"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "c1b",
+            "q_tr": "Şehir merkezindeki seçenek için hangisi doğru?",
+            "options": [
+              "Daha ucuz ve daha büyük",
+              "Metroyla ulaşımı daha kolay ama daha pahalı",
+              "Şehir dışında"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "c1c",
+            "q_tr": "Karar ne zaman verilecek?",
+            "options": [
+              "Bugün",
+              "Cuma günü",
+              "Gelecek ay"
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "text": "When I was younger, I used to work in a bank. I was earning good money, but I wasn't happy. One day, while I was waiting for a client, I started reading about web design. I decided to take an online course, and two years later I left the bank. I've been a freelance designer for five years now, and I've never regretted it.",
+        "questions": [
+          {
+            "id": "c2a",
+            "q_tr": "Konuşan kişi eskiden ne iş yapıyordu?",
+            "options": [
+              "Bankada çalışıyordu",
+              "Web tasarımcısıydı",
+              "Öğretmendi"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "c2b",
+            "q_tr": "Ne kadar süredir serbest tasarımcı?",
+            "options": [
+              "İki yıl",
+              "Beş yıl",
+              "On yıl"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "c2c",
+            "q_tr": "Kararından pişman mı?",
+            "options": [
+              "Evet, çok pişman",
+              "Bazen pişman",
+              "Hayır, hiç pişman olmadı"
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "text": "Hello, this is Kerem from Delta Office Supplies. I'm calling about your order for the new printers. Unfortunately, the printers weren't delivered to our warehouse on Monday because there was a problem at the factory. They will arrive at our warehouse on Wednesday, so we can deliver them to your office on Friday. If Friday isn't convenient for you, please call me back on oh five three two, four one six, two two eight nine. I'm in the office until five thirty. Sorry again for the delay.",
+        "questions": [
+          {
+            "id": "c3a",
+            "q_tr": "Siparişte neden gecikme oldu?",
+            "options": [
+              "Fabrikada bir sorun çıktı",
+              "Sipariş yanlış adrese gönderildi",
+              "Yazıcıların fiyatı değişti"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "c3b",
+            "q_tr": "Yazıcılar ofise hangi gün teslim edilecek?",
+            "options": [
+              "Çarşamba",
+              "Pazartesi",
+              "Cuma"
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "text": "When I started my first job, I used to arrive at the office very early because I was worried about being late. One morning, while I was making coffee in the kitchen, the director came in. She asked me which department I worked in. I was so nervous that I forgot the name of my team! She laughed and told me not to worry. Today she's my manager, and we often laugh about that morning.",
+        "questions": [
+          {
+            "id": "c4a",
+            "q_tr": "Konuşan kişi ilk işinde ofise neden erken gelirdi?",
+            "options": [
+              "Trafiğe yakalanmamak için",
+              "Geç kalmaktan endişe ettiği için",
+              "Müdürü bunu istediği için"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "c4b",
+            "q_tr": "Direktör mutfağa girdiğinde konuşan kişi ne yapıyordu?",
+            "options": [
+              "Kahve yapıyordu",
+              "Telefonla konuşuyordu",
+              "E-posta yazıyordu"
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      {
+        "id": "c5",
+        "text": "Hi everyone, just a quick update about the new security system. From next Monday, all visitors must be registered at reception, and they have to wear a visitor card at all times. You don't have to register colleagues from our other offices, because they already have ID cards. Please remember that the doors on the third floor are locked at seven in the evening. If you need to stay later, you should tell the security team before six.",
+        "questions": [
+          {
+            "id": "c5a",
+            "q_tr": "Diğer ofislerden gelen çalışma arkadaşları için hangisi doğru?",
+            "options": [
+              "Resepsiyonda kaydedilmeleri gerekiyor",
+              "Ziyaretçi kartı takmaları gerekiyor",
+              "Kaydedilmelerine gerek yok"
+            ],
+            "answer": 2
+          },
+          {
+            "id": "c5b",
+            "q_tr": "Akşam yediden sonra ofiste kalması gereken biri ne yapmalı?",
+            "options": [
+              "Resepsiyona bir form vermeli",
+              "Saat altıdan önce güvenlik ekibine haber vermeli",
+              "Müdüründen yazılı izin almalı"
+            ],
+            "answer": 1
+          }
+        ]
+      }
+    ]
+  },
+  "speaking_count": 3,
+  "speaking": [
+    {
+      "id": "s1",
+      "question_en": "Tell me about yourself: what do you do, how long have you done it, and what have you learned in your job?",
+      "instruction_tr": "Kendini bir iş görüşmesindeki gibi tanıt: ne iş yapıyorsun, ne kadar süredir, işinde neler öğrendin (present perfect).",
+      "focus": "the present perfect and past simple for experience"
+    },
+    {
+      "id": "s2",
+      "question_en": "Your company wants everyone to work from the office five days a week. What do you think? Give your opinion and your reasons.",
+      "instruction_tr": "Şirketin herkesin haftada beş gün ofisten çalışmasını istiyor. Fikrini gerekçeleriyle söyle; katılmıyorsan kibarca belirt.",
+      "focus": "giving opinions, agreeing and disagreeing politely"
+    },
+    {
+      "id": "s3",
+      "question_en": "What would you do if you could change one thing about your job or your city?",
+      "instruction_tr": "İşinde ya da şehrinde bir şeyi değiştirebilseydin ne yapardın? (second conditional)",
+      "focus": "the second conditional"
+    },
+    {
+      "id": "s4",
+      "question_en": "Tell me about a time when something went wrong at work or at school. What were you doing when it happened, and what did you do next?",
+      "instruction_tr": "İşte ya da okulda bir şeylerin ters gittiği bir anını anlat: o sırada ne yapıyordun, sonra ne yaptın? (past continuous ve past simple)",
+      "focus": "the past continuous and past simple for telling a story"
+    },
+    {
+      "id": "s5",
+      "question_en": "How is your life or your job different from ten years ago? What did you use to do that you don't do now?",
+      "instruction_tr": "Hayatın ya da işin on yıl öncesine göre nasıl değişti? Eskiden yapıp artık yapmadığın şeyleri anlat ([en:used to]).",
+      "focus": "used to for past habits and states"
+    },
+    {
+      "id": "s6",
+      "question_en": "A new colleague is starting in your team next week. What are the rules in your office, and what advice would you give them?",
+      "instruction_tr": "Gelecek hafta ekibine yeni bir çalışma arkadaşı katılıyor. Ofisinizdeki kuralları anlat ve ona tavsiyeler ver ([en:must], [en:have to], [en:don't have to], [en:should]).",
+      "focus": "must, have to, don't have to and should for rules and advice"
+    }
+  ],
+  "writing": [
+    {
+      "id": "w1",
+      "instruction_tr": "Yöneticine bir e-posta yaz: geçen hafta ekipte yaşanan bir sorunu (ör. bir gecikme ya da hata) anlat, ne olduğunu ve nasıl çözdüğünüzü açıkla, gelecekte tekrar olmaması için bir öneri sun. En az 90 kelime.",
+      "prompt_en": "Write an email to your manager: describe a problem your team had last week (for example a delay or a mistake), explain what happened and how you solved it, and suggest what you should do so it doesn't happen again.",
+      "focus": "past simple and past continuous, the passive, should, giving suggestions in a work email",
+      "min_words": 90
+    },
+    {
+      "id": "w2",
+      "instruction_tr": "Toplantıya katılamayan bir çalışma arkadaşına e-posta yaz: toplantıda kimin ne söylediğini aktar, hangi kararların alındığını açıkla ve ondan ne yapmasının istendiğini belirt. En az 90 kelime.",
+      "prompt_en": "Write an email to a colleague who missed a meeting: report what people said, explain what was decided, and tell them what they have been asked to do.",
+      "focus": "reported speech (said, told, asked), the passive, a clear work email",
+      "min_words": 90
+    },
+    {
+      "id": "w3",
+      "instruction_tr": "Bir tedarikçiye şikâyet e-postası yaz: siparişinde ne sorun olduğunu anlat (ör. geç geldi, bazı ürünler eksik ya da hasarlıydı), bunun işini nasıl etkilediğini açıkla ve onlardan ne yapmalarını istediğini kibarca belirt. En az 90 kelime.",
+      "prompt_en": "Write a complaint email to a supplier: explain what was wrong with your order (for example it arrived late, or some items were missing or damaged), say how this affected your work, and politely say what you would like them to do.",
+      "focus": "the passive, past simple and past continuous, the first conditional, polite requests (Could you…, I would like…)",
+      "min_words": 90
+    }
+  ]
+}

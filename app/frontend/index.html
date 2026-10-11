@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="tr" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>English Practice</title>
+  <!-- The app's logo (logo.svg; PNG/ICO rendered from it): the app window and the taskbar show it. -->
+  <link rel="icon" type="image/png" sizes="32x32" href="icon-32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+  <link rel="apple-touch-icon" href="icon-180.png">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#3f6fe0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="model-cards.css">
+</head>
+<body>
+  <div class="app">
+    <nav class="sidebar">
+      <div class="brand"><img src="logo.svg" alt="" class="brand-logo">English<span>Practice</span></div>
+      <!-- Built from NAV in app.js -->
+      <div id="nav" class="nav"></div>
+      <div class="sidebar-foot">
+        <button id="theme-toggle" class="ghost" title="Tema değiştir">🌓 Tema</button>
+      </div>
+    </nav>
+
+    <div class="main">
+      <header class="topbar">
+        <div id="status" class="status">
+          <span class="pill" data-service="ollama">Ollama …</span>
+          <span class="pill" data-service="whisper">Whisper …</span>
+          <span class="pill" data-service="tts">TTS …</span>
+        </div>
+        <div id="status-msg" class="status-msg"></div>
+      </header>
+
+      <!-- Conversation -->
+      <section class="page" id="page-conversation">
+        <div class="conv-layout">
+          <div class="chat-col">
+            <div class="chat-head">
+              <h2>Konuşma</h2>
+              <div class="chat-tools">
+                <span id="chat-model" class="chat-model" hidden>
+                  <select id="chat-model-select" class="small" aria-label="Bu oturumun modeli"
+                          title="Bu oturum için model (varsayılanı değiştirmez)"></select>
+                  <span id="chat-model-status" class="muted small" aria-live="polite"></span>
+                </span>
+                <button id="toggle-voice" class="ghost small" aria-pressed="true"></button>
+                <button id="toggle-subs" class="ghost small" aria-pressed="false" title="Sadece dinleyerek anlamaya çalış; cevaba tıklayınca görünür"></button>
+                <button id="finish-session" class="ghost small" hidden>🏁 Oturumu bitir</button>
+                <button id="delete-session" class="ghost small danger" hidden title="Bu sohbeti sil">🗑 Sil</button>
+                <button id="new-chat" class="ghost small">＋ Yeni sohbet</button>
+              </div>
+            </div>
+            <div id="scenario-banner" class="scenario-banner" hidden></div>
+            <div id="chat" class="chat">
+              <div class="empty-hint">
+                Merhaba! 👋 Mikrofon butonuna basılı tutup İngilizce konuş ya da yaz.<br>
+                <small>Örn: "Hi! I want to practice talking about my weekend."</small>
+              </div>
+            </div>
+            <div class="composer">
+              <div class="talk-wrap">
+                <button id="talk-btn" class="talk-btn" disabled aria-label="Bas ve konuş">🎤</button>
+                <span id="talk-hint" class="talk-hint">Whisper yükleniyor…</span>
+              </div>
+              <button id="stop-btn" class="stop-btn" hidden>⏹ Durdur</button>
+              <form id="chat-form" class="chat-form">
+                <textarea id="chat-input" rows="1" placeholder="Yazarak gönder… (Enter)" title="Enter: gönder · Shift+Enter: yeni satır"></textarea>
+                <button type="submit" id="send-btn" class="primary">Gönder</button>
+              </form>
+            </div>
+          </div>
+          <aside class="corrections" id="corrections-panel">
+            <div class="corrections-head">
+              <h3>Düzeltmeler</h3>
+              <button id="corrections-collapse" class="ghost small" title="Paneli yana kapat" aria-label="Paneli kapat">⟩</button>
+            </div>
+            <p id="corrections-note" class="muted corrections-note"></p>
+            <div id="corrections" class="corrections-list"></div>
+          </aside>
+          <button id="corrections-tab" class="corrections-tab" type="button" title="Düzeltmeleri göster">
+            <span>⟨ Düzeltmeler</span><span id="corrections-count" class="corrections-count" hidden></span>
+          </button>
+        </div>
+      </section>
+
+      <!-- Lessons -->
+      <section class="page" id="page-lessons">
+        <div class="page-inner wide">
+          <h2>📘 Dersler</h2>
+          <p id="lessons-level" class="muted"></p>
+          <div id="lessons-recommended" class="lessons-recommended"></div>
+          <div class="section-head">
+            <h3>Seviyeler</h3>
+            <div id="lessons-levels" class="seg" role="radiogroup" aria-label="Seviye"></div>
+          </div>
+          <div id="lessons-grid" class="lesson-grid"></div>
+        </div>
+      </section>
+      <section class="page" id="page-lesson">
+        <div class="page-inner lesson-page">
+          <a href="#/lessons" class="back">← Derslere dön</a>
+          <div id="lesson-view"></div>
+        </div>
+      </section>
+
+      <section class="page" id="page-exam">
+        <div class="page-inner lesson-page">
+          <a href="#/lessons" class="back">← Derslere dön</a>
+          <div id="exam-view"></div>
+        </div>
+      </section>
+
+      <!-- Turkish-speaking teacher -->
+      <section class="page" id="page-teacher">
+        <div class="chat-col">
+          <div class="chat-head">
+            <h2>🧑‍🏫 Öğretmen</h2>
+            <div class="chat-tools">
+              <button id="teacher-voice" class="ghost small" title="Yeni cevaplar kendiliğinden sesli okunsun mu (Türkçe öğretmen sesi + İngilizce örnekler İngilizce sesle)"></button>
+              <button id="teacher-delete" class="ghost small danger" hidden title="Bu konuşmayı sil">🗑 Sil</button>
+              <button id="teacher-new" class="ghost small">＋ Yeni soru</button>
+            </div>
+          </div>
+          <details class="teacher-history">
+            <summary>📚 Geçmiş konuşmalar <span id="teacher-history-count" class="muted"></span></summary>
+            <div id="teacher-history" class="session-list"></div>
+          </details>
+          <div id="teacher-context" class="scenario-banner" hidden></div>
+          <div id="teacher-chat" class="chat"></div>
+          <div id="teacher-suggest" class="chips teacher-suggest" hidden></div>
+          <div class="composer">
+            <form id="teacher-form" class="chat-form">
+              <textarea id="teacher-input" rows="1" placeholder="Türkçe sor… (Enter)" title="Enter: gönder · Shift+Enter: yeni satır"></textarea>
+              <button type="submit" id="teacher-send" class="primary">Gönder</button>
+            </form>
+          </div>
+          <p class="muted small teacher-note">Öğretmen yapay zekadır; nadiren hata yapabilir. İngilizce yazdığın cümleler ayrıca kontrol edilir (kırmızı: hata, yeşil: doğrusu).</p>
+        </div>
+      </section>
+
+      <section class="page" id="page-scenarios">
+        <div class="page-inner wide">
+          <h2>🎭 Senaryolar</h2>
+          <p class="muted">Bir durum seç: yapay zeka rolünü üstlenip konuşmayı başlatır. Bitince "Oturumu bitir" ile raporunu al.</p>
+          <div id="scenario-grid" class="scenario-grid"></div>
+          <form id="custom-scenario" class="custom-scenario">
+            <h3>✏️ Kendi senaryon</h3>
+            <textarea name="custom" rows="2" maxlength="1000" placeholder="ör. Komşumla gece geç saatteki gürültü hakkında konuşuyorum"></textarea>
+            <button type="submit" class="primary">Başlat</button>
+          </form>
+        </div>
+      </section>
+      <section class="page" id="page-writing">
+        <div class="page-inner wide">
+          <h2>✍️ Yazma</h2>
+          <div id="writing-types" class="chips" role="radiogroup" aria-label="Görev türü"></div>
+
+          <div class="writing-topic">
+            <div class="row">
+              <label for="writing-topic" class="label">Konu / görev</label>
+              <button type="button" id="writing-suggest" class="ghost small">🎲 Konu öner</button>
+            </div>
+            <textarea id="writing-topic" rows="2" maxlength="1000" placeholder="Bir konu yaz ya da 🎲 Konu öner'e bas"></textarea>
+            <div id="writing-topic-tr" class="muted small"></div>
+          </div>
+
+          <textarea id="writing-text" class="writing-text" rows="12" placeholder="Buraya İngilizce yaz…" spellcheck="false"></textarea>
+          <div class="writing-bar">
+            <span id="writing-count" class="muted">0 kelime</span>
+            <button type="button" id="writing-timer" class="ghost small">⏱ Süre başlat</button>
+            <span class="spacer"></span>
+            <button type="button" id="writing-review" class="primary">Değerlendir</button>
+          </div>
+
+          <div id="writing-feedback" class="writing-feedback" hidden></div>
+
+          <h3 class="history-title">📚 Geçmiş yazılarım</h3>
+          <div id="writing-history" class="session-list"></div>
+        </div>
+      </section>
+      <!-- Word study: level lists -->
+      <section class="page" id="page-words">
+        <div class="page-inner wide">
+          <h2>🧠 Kelime Çalış</h2>
+          <p class="muted">Seviyene göre en çok kullanılan kelimeler. Kartlarla öğren, sonra anlam testi, dinle-yaz,
+            boşluk doldurma ve kendi cümlenle pekiştir. Öğrendiğin kelimeler aralıklı tekrarla yeniden sorulur.</p>
+          <div id="words-levels" class="chips" role="radiogroup" aria-label="Seviye"></div>
+          <p id="words-summary" class="muted small"></p>
+          <div class="words-actions">
+            <button type="button" id="words-learn" class="primary">🆕 10 yeni kelime öğren</button>
+            <button type="button" id="words-review" class="ghost">🔁 Tekrar et</button>
+          </div>
+          <div id="words-study" class="words-study" hidden></div>
+          <div class="words-list-head">
+            <input id="words-search" type="search" placeholder="Bu seviyede ara (İngilizce ya da Türkçe)…">
+            <select id="words-filter" aria-label="Duruma göre">
+              <option value="all">Hepsi</option>
+              <option value="new">Yeni</option>
+              <option value="learning">Öğreniliyor</option>
+              <option value="learned">Öğrenildi</option>
+            </select>
+          </div>
+          <div id="words-list" class="vocab-list"></div>
+          <p class="muted small">Kelime listeleri: CEFR-J Wordlist 1.5 (Tono Laboratory, Tokyo University of Foreign Studies)
+            ve Octanove Vocabulary Profile C1 (CC BY-SA 4.0). En sık 3000: New General Service List 1.2 (Browne, Culligan
+            &amp; Phillips, CC BY-SA 4.0). Türkçe anlamlar: Vikisözlük (CC BY-SA), elle kontrol edildi.
+            Örnek cümleler yapay zekayla üretilir ve dilbilgisi kontrolünden geçenler gösterilir.</p>
+        </div>
+      </section>
+
+      <section class="page" id="page-patterns">
+        <div class="page-inner wide">
+          <h2>🧩 Kalıplar</h2>
+          <p class="muted">İş ve günlük hayatta en çok kullanılan kalıplar, dilbilgisi kalıpları, deyimler ve phrasal verb'ler.
+            Kartlarla öğren, sonra anlam testi, dinle-yaz, boşluk doldurma, cümleyi sıralama ve kendi cümlenle pekiştir.
+            Öğrendiğin kalıplar aralıklı tekrarla yeniden sorulur.</p>
+          <div id="patterns-levels" class="chips" role="radiogroup" aria-label="Seviye"></div>
+          <div id="patterns-cats" class="chips" role="radiogroup" aria-label="Kategori"></div>
+          <p id="patterns-summary" class="muted small"></p>
+          <div class="words-actions">
+            <button type="button" id="patterns-learn" class="primary">🆕 5 yeni kalıp öğren</button>
+            <button type="button" id="patterns-review" class="ghost">🔁 Tekrar et</button>
+          </div>
+          <div id="patterns-study" class="words-study" hidden></div>
+          <div class="words-list-head">
+            <input id="patterns-search" type="search" placeholder="Bu seviyede ara (İngilizce ya da Türkçe)…">
+            <select id="patterns-filter" aria-label="Duruma göre">
+              <option value="all">Hepsi</option>
+              <option value="new">Yeni</option>
+              <option value="learning">Öğreniliyor</option>
+              <option value="learned">Öğrenildi</option>
+            </select>
+          </div>
+          <div id="patterns-list" class="vocab-list"></div>
+          <p id="patterns-sources" class="muted small"></p>
+        </div>
+      </section>
+
+      <section class="page" id="page-selftest">
+        <div class="page-inner wide">
+          <h2>🎯 Kendini Test Et</h2>
+          <div id="selftest-cats" class="chips" role="radiogroup" aria-label="Test kategorisi"></div>
+          <div id="selftest-view"></div>
+        </div>
+      </section>
+
+      <section class="page" id="page-vocab">
+        <div class="page-inner wide">
+          <h2>📒 Kelime Defteri</h2>
+          <p id="vocab-dict-note" class="muted small" hidden></p>
+
+          <div class="vocab-summary">
+            <div class="stat"><strong id="vocab-due">0</strong><span>bugün tekrar</span></div>
+            <div class="stat"><strong id="vocab-total">0</strong><span>kelime</span></div>
+            <div class="stat"><strong id="vocab-learned">0</strong><span>öğrenildi</span></div>
+            <div class="vocab-action">
+              <select id="vocab-review-count" title="Bu turda kaç kelime tekrar edilsin? (tekrar zamanı gelenlerden)"></select>
+              <button id="vocab-start" class="primary">▶ Tekrara başla</button>
+            </div>
+            <div class="vocab-action">
+              <select id="vocab-quiz-count" title="Testte kaç kelime sorulsun? (önce tekrar zamanı gelenler)"></select>
+              <button id="vocab-quiz-start" class="ghost" title="Defterdeki kelimelerle test: anlam seçme, dinle-yaz, boşluk doldurma, kendi cümlen">🧪 Test et</button>
+            </div>
+          </div>
+
+          <div id="flashcard" class="flashcard" hidden></div>
+          <!-- Kelime Çalış's quiz on the notebook's words (words.js startNotebookQuiz) -->
+          <div id="vocab-quiz" class="words-study" hidden></div>
+
+          <form id="vocab-add" class="vocab-add">
+            <input name="word" placeholder="Kelime ya da ifade ekle (ör. take off)" maxlength="120" autocomplete="off">
+            <button type="submit" class="ghost">➕ Ekle</button>
+          </form>
+          <input id="vocab-search" class="vocab-search" type="search" placeholder="Defterde ara…">
+          <div id="vocab-list" class="vocab-list"></div>
+          <p class="muted small">İpucu: sohbette ya da yazma geri bildiriminde herhangi bir kelimeye tıklayarak anlamını görebilir ve deftere ekleyebilirsin.</p>
+        </div>
+      </section>
+
+      <!-- Progress / history -->
+      <section class="page" id="page-progress">
+        <div class="page-inner wide progress-page">
+          <h2>📈 İlerleme</h2>
+          <div id="stat-tiles" class="stat-tiles"></div>
+
+          <h3>🔥 Son 30 gün</h3>
+          <div id="activity" class="activity" aria-label="Son 30 günün pratik süresi"></div>
+
+          <div class="section-head">
+            <h3>Hata türleri</h3>
+            <div id="error-range" class="seg" role="radiogroup" aria-label="Dönem">
+              <button type="button" data-days="7" role="radio">7 gün</button>
+              <button type="button" data-days="30" role="radio">30 gün</button>
+            </div>
+          </div>
+          <div id="error-chart" class="hbar-chart"></div>
+          <details class="table-view">
+            <summary>Tablo olarak göster</summary>
+            <table id="error-table"></table>
+          </details>
+
+          <h3>🎯 Zayıf noktalarım</h3>
+          <div id="weak-points" class="weak-points"></div>
+
+          <h3>🗂 Oturum geçmişi</h3>
+          <div id="session-list" class="session-list"></div>
+        </div>
+      </section>
+
+      <section class="page" id="page-session">
+        <div class="page-inner">
+          <a href="#/progress" class="back">← Geçmişe dön</a>
+          <div class="title-row">
+            <h2 id="session-title">Oturum</h2>
+            <span id="session-delete"></span>
+          </div>
+          <div id="session-chat" class="chat static"></div>
+        </div>
+      </section>
+
+      <!-- Settings -->
+      <section class="page" id="page-settings">
+        <div class="page-inner">
+          <h2>⚙️ Ayarlar</h2>
+          <form id="settings-form" class="settings">
+            <label>İngilizce seviyem
+              <select name="level">
+                <option>A1</option><option>A2</option><option>B1</option><option>B2</option><option>C1</option>
+              </select>
+            </label>
+            <label>Düzeltme modu
+              <select name="correction_mode">
+                <option value="every">Her mesajda</option>
+                <option value="end">Sadece oturum sonunda</option>
+                <option value="off">Kapalı</option>
+              </select>
+            </label>
+            <label>Açıklama dili
+              <select name="explanation_language">
+                <option value="tr">Türkçe</option>
+                <option value="en">İngilizce</option>
+              </select>
+            </label>
+            <label>Whisper modeli
+              <select name="whisper_model">
+                <option value="small.en">small.en (önerilen)</option>
+                <option value="distil-large-v3">distil-large-v3 (daha doğru, daha ağır)</option>
+                <option value="base.en">base.en (en hafif)</option>
+              </select>
+            </label>
+            <label>TTS aksanı
+              <select name="tts_accent">
+                <option value="a">Amerikan</option>
+                <option value="b">İngiliz</option>
+              </select>
+            </label>
+            <label>TTS sesi
+              <span class="inline">
+                <select name="tts_voice" id="tts-voice-select"></select>
+                <button type="button" id="tts-preview" class="ghost">▶ Dinle</button>
+              </span>
+            </label>
+            <label>Konuşma hızı: <output id="speed-out">1.0x</output>
+              <input type="range" name="tts_speed" min="0.7" max="1.2" step="0.05">
+            </label>
+            <label>Cevap uzunluğu
+              <select name="reply_length">
+                <option value="short">Kısa (1–2 cümle)</option>
+                <option value="medium">Orta (3–4 cümle)</option>
+              </select>
+            </label>
+            <label>Konuşma butonu modu
+              <select name="talk_button_mode">
+                <option value="hold">Basılı tut</option>
+                <option value="toggle">Tıkla-başlat / tıkla-bitir</option>
+              </select>
+            </label>
+            <label class="wide">İlgi alanlarım
+              <textarea name="interests" rows="2" placeholder="ör. yazılım, Rust, oyunlar, yapay zeka"></textarea>
+            </label>
+            <div class="wide actions">
+              <button type="submit" class="primary">Kaydet</button>
+              <span id="settings-saved" class="muted"></span>
+            </div>
+          </form>
+
+          <section class="models-section" aria-labelledby="models-title">
+            <div class="section-head">
+              <h3 id="models-title">🧠 Dil modelleri</h3>
+              <div class="actions">
+                <button type="button" id="models-bench" class="ghost small">⏱ Hız testi yap</button>
+                <button type="button" id="models-add" class="primary small" aria-expanded="false">➕ Yeni model indir</button>
+              </div>
+            </div>
+            <p class="muted small">Bu bilgisayarda kurulu modeller. Varsayılan model her yerde kullanılır; sohbet ekranının üstünden bir oturum için başka model seçebilirsin.</p>
+            <div id="models-status" class="models-status"></div>
+            <div id="models-installed" class="models-installed"></div>
+            <div id="models-catalog" class="models-catalog" hidden></div>
+          </section>
+
+          <section class="sync-section" aria-labelledby="sync-title">
+            <h3 id="sync-title">☁️ İki bilgisayar (masaüstü + laptop)</h3>
+            <p class="muted small">İlerlemen, derslerdeki cevapların, kelimelerin ve sohbetlerin Google Drive üzerinden iki bilgisayarda
+              aynı olur. Uygulama açılırken öbür bilgisayardaki son çalışmanı alır, çalışırken ve kapanırken gönderir.
+              Bir seferde tek bilgisayarda aç; öbüründe açıksa uyarır. Uygulama ve modeller eşitlenmez (her bilgisayarda kurulu).</p>
+            <div id="sync-body"></div>
+          </section>
+
+          <section class="reset-section" aria-labelledby="reset-title">
+            <h3 id="reset-title">🔄 Sıfırla</h3>
+            <p class="muted small">İşaretlediklerin silinir ve uygulama baştan başlamış gibi olur. Öncesinde verilerin
+              otomatik yedeklenir (data\backups); istersen yedekten geri dönebilirsin.</p>
+            <div id="reset-groups" class="reset-groups"></div>
+            <div class="actions">
+              <button type="button" id="reset-run" class="reset-btn" disabled>Seçilenleri sıfırla</button>
+              <span id="reset-msg" class="muted small"></span>
+            </div>
+          </section>
+        </div>
+      </section>
+    </div>
+  </div>
+  <script src="text.js"></script>
+  <script src="model-cards.js"></script>
+  <script src="app.js"></script>
+  <script src="models.js"></script>
+  <script src="corrections.js"></script>
+  <script src="scenarios.js"></script>
+  <script src="writing.js"></script>
+  <script src="vocab.js"></script>
+  <script src="progress.js"></script>
+  <script src="lessons.js"></script>
+  <script src="exams.js"></script>
+  <script src="teacher.js"></script>
+  <script src="words.js"></script>
+  <script src="patterns.js"></script>
+  <script src="selftest.js"></script>
+</body>
+</html>

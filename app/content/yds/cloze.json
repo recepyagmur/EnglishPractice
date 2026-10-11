@@ -1,0 +1,340 @@
+{
+  "type": "cloze",
+  "sources": [
+    {"title": "YDS: Yabancı Dil Bilgisi Seviye Tespit Sınavı (ÖSYM sınav sayfası)", "site": "osym.gov.tr", "url": "https://www.osym.gov.tr/SinavGrubu/Index/7"},
+    {"title": "e-YDS Örnek Sınav (ÖSYM)", "site": "osym.gov.tr", "url": "https://www.osym.gov.tr/SinavGrubu/Menu/803"},
+    {"title": "Relative clauses – English Grammar Today", "site": "dictionary.cambridge.org", "url": "https://dictionary.cambridge.org/grammar/british-grammar/relative-clauses"},
+    {"title": "Conjunctions – English Grammar Today", "site": "dictionary.cambridge.org", "url": "https://dictionary.cambridge.org/grammar/british-grammar/conjunctions"},
+    {"title": "English grammar reference – LearnEnglish", "site": "learnenglish.britishcouncil.org", "url": "https://learnenglish.britishcouncil.org/grammar/english-grammar-reference"}
+  ],
+  "items": [
+    {
+      "id": "clz-01",
+      "passage": "For decades, scientists assumed that sleep was simply a period of rest during which the brain switched off. Recent research, however, (1)---- that the sleeping brain is remarkably active. While we sleep, the hippocampus replays the experiences of the day, and the information (2)---- gradually transferred to the cortex for long-term storage. This process, known as consolidation, explains why students who sleep well after studying tend to remember more than those (3)---- stay up all night. (4)----, sleep appears to improve the ability to solve problems creatively, which may explain why difficult decisions often seem clearer in the morning. Researchers now hope that a better understanding of these mechanisms will help them to treat disorders (5)---- memory loss, such as Alzheimer's disease, more effectively.",
+      "questions": [
+        {
+          "id": "clz-01-1", "n": 1,
+          "options": ["had shown", "was showing", "has shown", "would have shown", "will have shown"],
+          "answer": 2,
+          "explain_tr": "[en:Recent research] (yakın zamandaki araştırmalar) geçmişte başlayıp bugünü etkileyen bir sonuç bildiriyor; bu yüzden yakın geçmiş zaman ([en:present perfect]: [en:has shown]) gerekir. [en:had shown] geçmişte geçmiş zamandır ve daha önceki bir geçmiş nokta ister, burada yok; [en:was showing] sürmekte olan geçmiş bir eylem anlatır, bulgu bildirmeye uymaz; [en:will have shown] gelecekte tamamlanmış bir eylem anlatır, oysa bulgu şimdiden ortada.",
+          "tags": ["tense"]
+        },
+        {
+          "id": "clz-01-2", "n": 2,
+          "options": ["is", "was", "had", "be", "being"],
+          "answer": 0,
+          "explain_tr": "Bilgi kendi kendine aktarılmaz, aktarılır: edilgen yapı [en:the information is transferred]. Cümle genel bir süreci şimdiki zamanda anlatıyor ([en:replays]), bu yüzden [en:is] doğru. [en:was] zamanı geçmişe taşır ve [en:replays] ile çelişir; [en:had] hem zamanı geçmişe taşır hem edilgen yapıyı bozar; [en:be] ve [en:being] tek başına çekimli fiil olamaz.",
+          "tags": ["passive"]
+        },
+        {
+          "id": "clz-01-3", "n": 3,
+          "options": ["which", "whose", "whom", "where", "who"],
+          "answer": 4,
+          "explain_tr": "[en:those] burada insanları (öğrencileri) anlatır ve ardından gelen yan cümlede özne görevi var: [en:those who stay up all night] (bütün gece ayakta kalanlar). [en:which] kişiler için kullanılmaz; [en:whom] nesne durumudur, oysa boşluk öznedir; [en:whose] iyelik bildirir, [en:where] yer bildirir.",
+          "tags": ["relative clause"]
+        },
+        {
+          "id": "clz-01-4", "n": 4,
+          "options": ["In contrast", "Moreover", "Otherwise", "For instance", "Nevertheless"],
+          "answer": 1,
+          "explain_tr": "Önceki cümle uykunun hafızaya yararını anlatıyor; bu cümle ikinci bir yarar (yaratıcı problem çözme) ekliyor. Ekleme bağlacı [en:Moreover] (ayrıca) gerekir. [en:In contrast] ve [en:Nevertheless] zıtlık kurar, oysa iki cümle aynı yönde; [en:For instance] örnek verir, ama yaratıcı düşünme hafıza pekiştirmesinin örneği değildir.",
+          "tags": ["linker"]
+        },
+        {
+          "id": "clz-01-5", "n": 5,
+          "options": ["resulting", "consisting", "depending", "involving", "insisting"],
+          "answer": 3,
+          "explain_tr": "[en:disorders involving memory loss] = hafıza kaybı içeren bozukluklar; [en:involve] doğrudan nesne alır. Diğer fiiller edat ister: [en:result in], [en:consist of], [en:depend on], [en:insist on]; edatsız kullanıldıklarında hem dilbilgisi hem anlam bozulur.",
+          "tags": ["vocabulary", "verb pattern"]
+        }
+      ]
+    },
+    {
+      "id": "clz-02",
+      "passage": "The fear that machines will take over human jobs is not new; similar anxieties (1)---- during the Industrial Revolution, when mechanised looms replaced skilled weavers. What is different today is the speed (2)---- which artificial intelligence is spreading into professions once thought immune to automation, such as law, medicine and journalism. Economists disagree about the consequences. Some argue that, (3)---- technology has always created more jobs than it has destroyed, the current wave will be no exception. Others warn that the new jobs may require skills (4)---- most displaced workers do not possess, leading to a widening gap between highly educated professionals and the rest of the workforce. Whatever the outcome, governments will need (5)---- their education systems to prepare citizens for a rapidly changing labour market.",
+      "questions": [
+        {
+          "id": "clz-02-1", "n": 1,
+          "options": ["have arisen", "arose", "arise", "had been arising", "are arising"],
+          "answer": 1,
+          "explain_tr": "[en:during the Industrial Revolution] bitmiş, belirli bir geçmiş dönemi gösterir; bu yüzden geçmiş zaman ([en:simple past]: [en:arose]) gerekir. [en:have arisen] belirli bir geçmiş zaman ifadesiyle kullanılmaz; [en:are arising] ve [en:arise] şimdiki zamanı anlatır, oysa cümle geçmişten söz ediyor; [en:had been arising] daha önceki bir geçmiş nokta ister, burada yok.",
+          "tags": ["tense"]
+        },
+        {
+          "id": "clz-02-2", "n": 2,
+          "options": ["in", "on", "by", "at", "for"],
+          "answer": 3,
+          "explain_tr": "Hız bildirirken [en:at a speed] / [en:at the speed at which] kalıbı kullanılır: yapay zekânın yayıldığı hız. Edat ilgi zamirinin önüne alınmış: [en:the speed at which]. [en:in], [en:on], [en:by] ve [en:for] bu isimle bu anlamda kullanılmaz.",
+          "tags": ["preposition"]
+        },
+        {
+          "id": "clz-02-3", "n": 3,
+          "options": ["since", "although", "unless", "whereas", "even if"],
+          "answer": 0,
+          "explain_tr": "Yan cümle (teknoloji her zaman yok ettiğinden fazla iş yarattı) ana cümlenin (bu dalga da istisna olmayacak) gerekçesidir; neden bağlacı [en:since] (mademki, çünkü) uyar. [en:although], [en:whereas] ve [en:even if] zıtlık kurar, oysa iki düşünce birbirini destekliyor; [en:unless] koşul bildirir ve anlam vermez.",
+          "tags": ["linker"]
+        },
+        {
+          "id": "clz-02-4", "n": 4,
+          "options": ["who", "whose", "which", "where", "whom"],
+          "answer": 2,
+          "explain_tr": "Boşluk [en:skills] (beceriler) ismini niteleyen ve yan cümlede nesne görevi yapan ilgi zamiridir: [en:skills which most displaced workers do not possess]. [en:who] ve [en:whom] insanlar için kullanılır; [en:whose] iyelik, [en:where] yer bildirir.",
+          "tags": ["relative clause"]
+        },
+        {
+          "id": "clz-02-5", "n": 5,
+          "options": ["reforming", "reform", "reformed", "having reformed", "to reform"],
+          "answer": 4,
+          "explain_tr": "Özne kişi/kurum olduğunda [en:need] mastar alır: [en:governments will need to reform]. [en:need reforming] yapısı edilgen anlam taşır (\"reform edilmesi gerek\") ve arkasından nesne gelemez; [en:reform], [en:reformed] ve [en:having reformed] [en:to] olmadan [en:need] fiiline bağlanamaz.",
+          "tags": ["gerund-infinitive"]
+        }
+      ]
+    },
+    {
+      "id": "clz-03",
+      "passage": "Antibiotics are among the most important discoveries in the history of medicine, yet their effectiveness is now under serious threat. Bacteria (1)---- resistance to these drugs far more quickly than new ones can be developed, and infections that were once easily cured are becoming difficult, and sometimes impossible, to treat. The problem has been made worse (2)---- the widespread misuse of antibiotics, both in hospitals and in agriculture, where they are routinely given to healthy animals to promote growth. (3)---- the scale of the threat, international organisations have called for urgent action. Doctors are being urged (4)---- antibiotics only when they are strictly necessary, and pharmaceutical companies are being offered financial incentives to invest in research. (5)----, many experts believe that unless consumption falls sharply, medicine could return to an era in which a minor infection might prove fatal.",
+      "questions": [
+        {
+          "id": "clz-03-1", "n": 1,
+          "options": ["had developed", "will have developed", "were developing", "had been developing", "are developing"],
+          "answer": 4,
+          "explain_tr": "Paragraf bugünkü, hâlâ süren bir sorunu anlatıyor ([en:is now under serious threat], [en:are becoming]); bakterilerin direnç geliştirmesi de şu anda devam eden bir süreç: [en:are developing]. [en:were developing] ve [en:had developed] geçmişe taşır; [en:will have developed] gelecekte tamamlanmış bir eylem anlatır, oysa karşılaştırma ([en:than new ones can be developed]) şimdiki zamanda.",
+          "tags": ["tense"]
+        },
+        {
+          "id": "clz-03-2", "n": 2,
+          "options": ["with", "from", "by", "of", "at"],
+          "answer": 2,
+          "explain_tr": "Edilgen cümlede eylemi yapan ya da sorunu doğuran etken [en:by] ile verilir: [en:has been made worse by the misuse]. [en:with] araç bildirir, neden bildirmez; [en:from], [en:of] ve [en:at] bu kalıpta kullanılmaz.",
+          "tags": ["preposition", "passive"]
+        },
+        {
+          "id": "clz-03-3", "n": 3,
+          "options": ["Despite", "Given", "Unless", "Instead of", "Rather than"],
+          "answer": 1,
+          "explain_tr": "[en:Given the scale of the threat] = tehdidin büyüklüğü göz önüne alındığında; bu, kuruluşların acil eylem çağrısının gerekçesidir. [en:Despite] zıtlık kurar: tehdide rağmen çağrı yapılması mantıksızdır. [en:Instead of] ve [en:Rather than] bir şeyin yerine başka bir şeyi anlatır; [en:Unless] bağlaçtır, isim öbeğiyle kullanılmaz.",
+          "tags": ["linker"]
+        },
+        {
+          "id": "clz-03-4", "n": 4,
+          "options": ["prescribing", "prescribe", "prescribed", "to prescribe", "to be prescribed"],
+          "answer": 3,
+          "explain_tr": "[en:urge somebody to do something] kalıbı edilgende [en:be urged to do] olur: [en:Doctors are being urged to prescribe]. [en:prescribing] ve [en:prescribe] bu kalıba uymaz; [en:to be prescribed] edilgen mastardır, oysa reçeteyi yazan doktorlardır.",
+          "tags": ["gerund-infinitive"]
+        },
+        {
+          "id": "clz-03-5", "n": 5,
+          "options": ["Even so", "As a result", "For example", "Likewise", "In other words"],
+          "answer": 0,
+          "explain_tr": "Önceki cümleler alınan önlemleri sıralıyor; bu cümle ise \"tüketim düşmezse\" diyerek önlemlere rağmen sürecek bir endişeyi anlatıyor. Zıtlık bağlacı [en:Even so] (yine de) gerekir. [en:As a result] uzmanların endişesini önlemlerin sonucu yapar, mantık ters; [en:In other words] öncekini yeniden söyler, oysa cümle yeni bir uyarı getiriyor; [en:Likewise] aynı yönde benzer bir eylem bekletir; [en:For example] örnek verir, burada örnek yok.",
+          "tags": ["linker"]
+        }
+      ]
+    },
+    {
+      "id": "clz-04",
+      "passage": "Procrastination is often dismissed as simple laziness, but psychologists argue that it is better understood as a problem of emotion regulation. When people put off a task, they are usually trying to avoid the unpleasant feelings (1)---- with it, such as anxiety, boredom or self-doubt. The relief they feel is immediate, (2)---- the cost of delay is paid later, which is why the habit is so hard to break. It (3)---- repeatedly that chronic procrastinators suffer from higher levels of stress and poorer health than those who manage their time effectively. Fortunately, the behaviour can be changed. Rather than relying on willpower alone, researchers recommend (4)---- large tasks into smaller steps and forgiving oneself for past delays, since self-criticism tends to make the problem worse. People who adopt these strategies generally report that they (5)---- less overwhelmed and more productive.",
+      "questions": [
+        {
+          "id": "clz-04-1", "n": 1,
+          "options": ["associated", "compared", "familiar", "responsible", "satisfied"],
+          "answer": 0,
+          "explain_tr": "[en:the feelings associated with it] = o işle ilişkilendirilen duygular; [en:associated with] kalıbı hem edata hem anlama uyar. [en:compared with] dilbilgisi olarak olur ama \"karşılaştırılan duygular\" anlamı saçmadır; [en:familiar with] ve [en:satisfied with] duygular için anlam vermez; [en:responsible] [en:for] edatı ister.",
+          "tags": ["vocabulary", "collocation"]
+        },
+        {
+          "id": "clz-04-2", "n": 2,
+          "options": ["so that", "as if", "in case", "provided that", "whereas"],
+          "answer": 4,
+          "explain_tr": "İki cümle karşıt: rahatlama hemen gelir, bedel ise sonra ödenir. Bu zıtlığı [en:whereas] (oysa, hâlbuki) kurar. [en:so that] amaç/sonuç bildirir, bedelin sonra ödenmesi rahatlamanın amacı değildir; [en:provided that] ve [en:in case] koşul anlatır, [en:as if] benzetme yapar.",
+          "tags": ["linker"]
+        },
+        {
+          "id": "clz-04-3", "n": 3,
+          "options": ["has shown", "is showing", "had shown", "has been shown", "was being shown"],
+          "answer": 3,
+          "explain_tr": "[en:It has been shown that …] = … olduğu (defalarca) gösterilmiştir; boş özne [en:it] ile yakın geçmiş zamanda edilgen yapı kullanılır. [en:has shown] etken olduğu için gösteren bir özne gerektirir, oysa [en:it] burada anlamsız bir özne. [en:had shown] ve [en:was being shown] zamanı geçmişe taşır; cümle bugün geçerli bir bulguyu aktarıyor. [en:is showing] hem etkendir hem de sürmekte olan bir eylem anlatır, oysa bulgu tamamlanmış.",
+          "tags": ["passive"]
+        },
+        {
+          "id": "clz-04-4", "n": 4,
+          "options": ["to break", "breaking", "break", "broken", "to breaking"],
+          "answer": 1,
+          "explain_tr": "[en:recommend] fiilinden sonra eylem [en:-ing] biçiminde gelir: [en:recommend breaking large tasks into smaller steps]. Aynı yapıdaki [en:forgiving] da bunu doğrular. [en:to break] bu fiille kullanılmaz ([en:recommend to do] yanlış); [en:break] ve [en:broken] çekimsiz hâlde bağlanamaz.",
+          "tags": ["gerund-infinitive"]
+        },
+        {
+          "id": "clz-04-5", "n": 5,
+          "options": ["are felt", "have been felt", "feel", "were feeling", "had felt"],
+          "answer": 2,
+          "explain_tr": "Genel bir gözlem şimdiki zamanda aktarılıyor ([en:report that]); bu yüzden [en:they feel less overwhelmed] uygun. [en:are felt] ve [en:have been felt] edilgendir, oysa hisseden kişinin kendisi; [en:were feeling] ve [en:had felt] zamanı geçmişe taşır ve ana cümlenin şimdiki zamanıyla çelişir.",
+          "tags": ["tense"]
+        }
+      ]
+    },
+    {
+      "id": "clz-05",
+      "passage": "Few economic phenomena affect ordinary people as directly as inflation. When prices rise faster than wages, households find that their money (1)---- less than it did before, and those on fixed incomes, such as pensioners, suffer most. Central banks try to keep inflation low by adjusting interest rates: (2)---- borrowing more expensive, they discourage spending and slow the economy down. The policy is effective, but it is far from painless, since higher rates (3)---- lead to unemployment and business failures. Not all economists, (4)----, regard inflation as an enemy: some argue that a moderate level of it is actually desirable, because it encourages people to spend and invest rather than hoard their savings. The challenge for policymakers, (5)----, is not to eliminate inflation entirely but to keep it within a range that the economy can tolerate.",
+      "questions": [
+        {
+          "id": "clz-05-1", "n": 1,
+          "options": ["bought", "had bought", "buying", "buys", "has been bought"],
+          "answer": 3,
+          "explain_tr": "Cümle genel bir gerçeği şimdiki zamanda anlatıyor ([en:prices rise], [en:households find]); karşılaştırma da bunu gösteriyor: [en:buys less than it did before] (eskisinden daha az satın alıyor). [en:bought] ve [en:had bought] geçmişe taşır ve [en:find] ile uyuşmaz; [en:buying] tek başına çekimli fiil olamaz, cümle yüklemsiz kalır; [en:has been bought] edilgendir, oysa satın alan paradır.",
+          "tags": ["tense"]
+        },
+        {
+          "id": "clz-05-2", "n": 2,
+          "options": ["To make", "By making", "Having been made", "Despite making", "Unless they make"],
+          "answer": 1,
+          "explain_tr": "Faizi yükseltmek borçlanmayı pahalılaştırır ve bu yolla harcama kısılır: araç/yöntem [en:by + -ing] ile anlatılır ([en:By making borrowing more expensive]). [en:To make] amaç bildirir ve mantığı tersine çevirir (harcamayı kısmanın amacı borçlanmayı pahalılaştırmak değildir); [en:Despite making] zıtlık, [en:Unless they make] koşul kurar; [en:Having been made] edilgen olduğu için özne [en:they] ile bağdaşmaz.",
+          "tags": ["gerund", "preposition"]
+        },
+        {
+          "id": "clz-05-3", "n": 3,
+          "options": ["used to", "ought", "had better", "would rather", "can"],
+          "answer": 4,
+          "explain_tr": "Yüksek faiz işsizliğe yol açabilir: olasılık bildiren [en:can] uyar. [en:used to] geçmişte kalmış, artık geçerli olmayan bir durumu anlatır, oysa cümle bugün uygulanan politikanın bedelinden söz ediyor ([en:is far from painless]); [en:ought] tek başına kullanılmaz ([en:ought to] gerekir); [en:had better] ve [en:would rather] tavsiye/tercih bildirir ve cansız özneyle anlam vermez.",
+          "tags": ["modal"]
+        },
+        {
+          "id": "clz-05-4", "n": 4,
+          "options": ["however", "therefore", "likewise", "for instance", "in short"],
+          "answer": 0,
+          "explain_tr": "Önceki cümleler enflasyonu bir sorun olarak anlatıyor; bu cümle ise bazı iktisatçıların onu düşman görmediğini söylüyor. Zıtlık bağlacı [en:however] gerekir. [en:therefore] sonuç bildirir ama önceki bilgiden böyle bir sonuç çıkmaz; [en:likewise] aynı yönde ekleme yapar, oysa görüş değişiyor; [en:for instance] örnek bildirir.",
+          "tags": ["linker"]
+        },
+        {
+          "id": "clz-05-5", "n": 5,
+          "options": ["otherwise", "whereas", "therefore", "besides", "meanwhile"],
+          "answer": 2,
+          "explain_tr": "Paragraf iki görüşü (enflasyon zararlı / ılımlı enflasyon yararlı) sunduktan sonra bundan bir sonuç çıkarıyor: hedef enflasyonu yok etmek değil, katlanılabilir bir aralıkta tutmak. Sonuç bağlacı [en:therefore] uyar. [en:otherwise] \"aksi hâlde\" demektir ve bir koşul gerektirir; [en:meanwhile] eş zamanlılık, [en:besides] ekleme bildirir; [en:whereas] iki cümleyi bağlayan bir bağlaçtır, burada olduğu gibi virgüller arasında zarf gibi kullanılamaz.",
+          "tags": ["linker"]
+        }
+      ]
+    },
+    {
+      "id": "clz-06",
+      "passage": "Coral reefs occupy less than one per cent of the ocean floor, yet they support roughly a quarter of all marine species. They are also extremely sensitive to changes in temperature. When the water becomes too warm, corals expel the algae (1)---- live inside their tissues and provide them with food, a process known as bleaching. If the stress continues, the corals eventually starve. Scientists estimate that more than half of the world's reefs (2)---- since the 1950s, and the rate of decline has accelerated in recent years. (3)---- climate change, reefs are threatened by overfishing, pollution and coastal development. Some researchers are experimenting with heat-resistant corals that could be used (4)---- damaged reefs, but most agree that such measures will be of limited value (5)---- global emissions are reduced substantially.",
+      "questions": [
+        {
+          "id": "clz-06-1", "n": 1,
+          "options": ["who", "whose", "that", "where", "what"],
+          "answer": 2,
+          "explain_tr": "[en:the algae] (yosunlar) ismini niteleyen ve yan cümlede özne olan ilgi zamiri gerekir: [en:the algae that live inside their tissues]. [en:who] yalnız insanlar için kullanılır; [en:whose] iyelik, [en:where] yer bildirir; [en:what] bir ismi niteleyemez, kendisi isim cümleciği başlatır.",
+          "tags": ["relative clause"]
+        },
+        {
+          "id": "clz-06-2", "n": 2,
+          "options": ["were lost", "are lost", "had been lost", "have been lost", "will be lost"],
+          "answer": 3,
+          "explain_tr": "[en:since the 1950s] (1950'lerden bu yana) geçmişten bugüne uzanan bir süreç bildirir; bu yüzden yakın geçmiş zamanda edilgen yapı gerekir: [en:have been lost]. [en:were lost] belirli, bitmiş bir geçmiş zaman ister ve [en:since] ile kullanılmaz; [en:had been lost] daha önceki bir geçmiş noktaya ihtiyaç duyar; [en:will be lost] geleceği anlatır.",
+          "tags": ["tense", "passive"]
+        },
+        {
+          "id": "clz-06-3", "n": 3,
+          "options": ["In addition to", "Instead of", "In spite of", "On behalf of", "On account of"],
+          "answer": 0,
+          "explain_tr": "Resifleri tehdit eden etkenler sıralanıyor: iklim değişikliğinin yanı sıra aşırı avlanma, kirlilik ve kıyı yapılaşması. Ekleme anlamı [en:In addition to] ile verilir. [en:In spite of] \"rağmen\" anlamı taşır ve mantığı bozar; [en:On account of] neden bildirir, oysa aşırı avlanma ve kirliliğin nedeni iklim değişikliği değildir; [en:Instead of] birinin yerine diğerini koyar, oysa iklim değişikliği tehdit olmaya devam ediyor; [en:On behalf of] \"adına\" demektir.",
+          "tags": ["linker"]
+        },
+        {
+          "id": "clz-06-4", "n": 4,
+          "options": ["restoring", "restore", "restored", "to be restored", "to restore"],
+          "answer": 4,
+          "explain_tr": "Amaç bildiren mastar: [en:could be used to restore damaged reefs] (hasarlı resifleri onarmak için kullanılabilir). [en:be used to + -ing] yapısı alışkanlık anlatır ([en:is used to living]) ve burada anlamsızdır; [en:restore] ve [en:restored] [en:used] ile doğrudan bağlanamaz; [en:to be restored] edilgen olduğu için onarılan şey mercanlar olur, mantık bozulur.",
+          "tags": ["infinitive of purpose"]
+        },
+        {
+          "id": "clz-06-5", "n": 5,
+          "options": ["although", "unless", "so that", "as long as", "in case"],
+          "answer": 1,
+          "explain_tr": "Önlemler ancak küresel emisyonlar düşürülürse işe yarar; yani emisyonlar düşürülmezse sınırlı kalır: olumsuz koşul [en:unless] (…-mezse) ile verilir. [en:as long as] (…-diği sürece) tam tersini söyler: emisyonlar düşerse önlemler sınırlı olur, bu saçmadır. [en:although] zıtlık, [en:so that] amaç, [en:in case] ihtimale karşı önlem bildirir.",
+          "tags": ["conditional", "linker"]
+        }
+      ]
+    },
+    {
+      "id": "clz-07",
+      "passage": "The invention of the printing press in the fifteenth century is regarded as one of the turning points of European history. Before Gutenberg, books (1)---- by hand, a process so slow and expensive that only the Church and the wealthy could afford them. Within a few decades, however, millions of printed volumes were circulating across the continent, and ideas (2)---- would once have taken a lifetime to spread could now reach distant cities in months. The consequences were profound. Scholars could compare texts and correct errors; reformers could challenge established authority; and ordinary people had a reason (3)---- to read. Historians still debate (4)---- the press caused the Reformation or merely accelerated it, but few deny that it transformed the way knowledge was produced and shared. (5)---- this sense, the modern internet has a clear historical precedent.",
+      "questions": [
+        {
+          "id": "clz-07-1", "n": 1,
+          "options": ["have been copied", "were copied", "had copied", "were copying", "are copied"],
+          "answer": 1,
+          "explain_tr": "Kitaplar kopyalanır, kendileri kopyalamaz: edilgen yapı gerekir; [en:Before Gutenberg] bitmiş bir geçmiş dönemi gösterdiği için geçmiş zamanda edilgen yapı [en:were copied] doğru. [en:had copied] ve [en:were copying] etken yapıdır ve kitapları eylemi yapan konumuna koyar; [en:have been copied] ve [en:are copied] bugünle bağ kurar, oysa anlatılan on beşinci yüzyıl.",
+          "tags": ["passive", "tense"]
+        },
+        {
+          "id": "clz-07-2", "n": 2,
+          "options": ["which", "whose", "whom", "where", "what"],
+          "answer": 0,
+          "explain_tr": "[en:ideas] (fikirler) ismini niteleyen, yan cümlede özne olan ilgi zamiri: [en:ideas which would once have taken a lifetime to spread]. [en:whom] insanlar için ve nesne durumundadır; [en:whose] iyelik, [en:where] yer bildirir; [en:what] bir ismi niteleyemez.",
+          "tags": ["relative clause"]
+        },
+        {
+          "id": "clz-07-3", "n": 3,
+          "options": ["learning", "learn", "to learn", "learned", "having learned"],
+          "answer": 2,
+          "explain_tr": "[en:a reason to do something] kalıbı: [en:a reason to learn to read] (okumayı öğrenmek için bir neden). [en:reason] isminden sonra eylem mastarla gelir; [en:learning] bu isimle kullanılmaz ([en:reason for learning] olurdu, ama [en:for] yok). [en:learn] ve [en:learned] çekimsiz hâlde bağlanamaz.",
+          "tags": ["infinitive"]
+        },
+        {
+          "id": "clz-07-4", "n": 4,
+          "options": ["unless", "until", "as though", "in case", "whether"],
+          "answer": 4,
+          "explain_tr": "[en:debate whether … or …] = …mı yoksa …mı diye tartışmak; cümledeki [en:or merely accelerated it] seçeneği [en:whether] kalıbını zorunlu kılar. [en:unless], [en:until] ve [en:in case] zaman/koşul bildirir ve [en:debate] fiilinin nesnesi olamaz; [en:as though] benzetme yapar.",
+          "tags": ["conjunction"]
+        },
+        {
+          "id": "clz-07-5", "n": 5,
+          "options": ["On", "By", "At", "In", "For"],
+          "answer": 3,
+          "explain_tr": "[en:in this sense] (bu anlamda, bu bakımdan) kalıp bir ifadedir. [en:sense] ismiyle \"anlam/bakım\" ifadesi için [en:in] kullanılır; [en:on], [en:by], [en:at] ve [en:for] bu kalıbı oluşturmaz.",
+          "tags": ["preposition"]
+        }
+      ]
+    },
+    {
+      "id": "clz-08",
+      "passage": "For most of the twentieth century, education was treated as something that happened early in life and ended (1)---- a person entered the workforce. That model no longer fits reality. Technological change is so rapid that the skills acquired at university may be outdated within a decade, and workers can expect to change careers several times (2)---- they retire. As a result, lifelong learning has moved from the margins of education policy to its centre. Governments in several countries now offer adults vouchers that (3)---- on approved courses, and employers increasingly regard training as an investment rather than a cost. (4)---- these developments, participation remains uneven: those who already have good qualifications are far more likely (5)---- further study than those who left school early, which means that the gap between the two groups may widen rather than narrow.",
+      "questions": [
+        {
+          "id": "clz-08-1", "n": 1,
+          "options": ["unless", "whereas", "although", "in case", "once"],
+          "answer": 4,
+          "explain_tr": "Eğitim, kişi iş hayatına girer girmez sona eriyordu: zaman bağlacı [en:once] (…-ir …-mez, …-diğinde) uyar. [en:unless] ve [en:in case] koşul/ihtimal bildirir; [en:whereas] ve [en:although] zıtlık kurar, oysa iki olay arasında zaman ilişkisi var.",
+          "tags": ["conjunction"]
+        },
+        {
+          "id": "clz-08-2", "n": 2,
+          "options": ["whereas", "since", "before", "unless", "as though"],
+          "answer": 2,
+          "explain_tr": "Çalışanlar emekli olmadan önce birkaç kez kariyer değiştirecek: zaman bağlacı [en:before]. [en:since] (…-den beri) henüz emekli olmamış kişiler için anlamsızdır; [en:unless] koşul, [en:whereas] zıtlık, [en:as though] benzetme bildirir.",
+          "tags": ["conjunction"]
+        },
+        {
+          "id": "clz-08-3", "n": 3,
+          "options": ["can spend", "can be spent", "are spending", "have spent", "must have spent"],
+          "answer": 1,
+          "explain_tr": "Kuponlar harcanır, kendileri harcama yapmaz: edilgen gerekir ([en:vouchers that can be spent on approved courses]). [en:can spend], [en:are spending] ve [en:have spent] etken yapıdır ve kuponu eylemi yapan konumuna koyar; [en:must have spent] geçmişe yönelik çıkarım bildirir ve hem yapı hem anlam olarak uymaz.",
+          "tags": ["passive", "modal"]
+        },
+        {
+          "id": "clz-08-4", "n": 4,
+          "options": ["Although", "Because of", "Thanks to", "Despite", "In view of"],
+          "answer": 3,
+          "explain_tr": "Olumlu gelişmelere rağmen katılım dengesiz kalıyor: isim öbeğinden önce zıtlık edatı [en:Despite] gerekir. [en:Although] da zıtlık kurar ama bağlaçtır, arkasından isim öbeği değil cümle gelir. [en:Because of], [en:Thanks to] ve [en:In view of] neden bildirir; gelişmelerin dengesizliğe yol açtığı anlamı mantığa aykırıdır.",
+          "tags": ["linker", "preposition"]
+        },
+        {
+          "id": "clz-08-5", "n": 5,
+          "options": ["to take up", "taking up", "take up", "taken up", "to be taken up"],
+          "answer": 0,
+          "explain_tr": "[en:be likely to do something] kalıbı: [en:are far more likely to take up further study]. [en:likely] sıfatından sonra eylem mastarla gelir; [en:taking up] ve [en:take up] bu kalıba uymaz. [en:to be taken up] edilgen olduğu için anlam tersine döner (eğitimi alan kişiler değil, alınan kişiler olur).",
+          "tags": ["infinitive"]
+        }
+      ]
+    }
+  ]
+}

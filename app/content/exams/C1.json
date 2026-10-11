@@ -1,0 +1,324 @@
+{
+  "_comment": "C1 level exam. Format: app/content/exams/README.md. Question ids are stable.",
+  "title_tr": "C1 Seviye Sınavı",
+  "grammar_count": 16,
+  "tts_speed": 1.0,
+  "grammar": [
+    {"id": "g01", "lesson": "c1-inversion", "type": "choice", "q": "Never ___ such a rude customer.", "options": ["I have met", "have I met", "I met"], "answer": 1, "explain_tr": "[en:Never] + [en:have] + [en:I]."},
+    {"id": "g02", "lesson": "c1-inversion", "type": "fill", "q": "Not only ___ she finish early, but she also helped others. (did)", "answer": ["did"], "explain_tr": "[en:Not only did she…]"},
+    {"id": "g03", "lesson": "c1-inversion", "type": "fix", "q": "Rarely we receive complaints about this product.", "answer": ["Rarely do we receive complaints about this product.", "We rarely receive complaints about this product."], "explain_tr": "[en:Rarely do we…]"},
+    {"id": "g25", "lesson": "c1-inversion", "type": "transform", "instruction_tr": "[en:Not until] ile başlayarak devrik yap", "q": "We didn't understand how serious the problem was until the client called.", "answer": ["Not until the client called did we understand how serious the problem was."], "explain_tr": "[en:Not until] + yan cümle; devrik yapı ana cümlede olur: [en:did we understand]."},
+    {"id": "g26", "lesson": "c1-inversion", "type": "transform", "instruction_tr": "[en:At no time] ile başlayarak devrik yap", "q": "The company never shared your personal data with third parties.", "answer": ["At no time did the company share your personal data with third parties."], "explain_tr": "[en:At no time] + [en:did] + özne + yalın fiil; [en:never] cümleden çıkar."},
+    {"id": "g27", "lesson": "c1-inversion", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["Hardly", "had", "I", "sent", "the invoice", "when the client", "called"], "answer": ["Hardly had I sent the invoice when the client called.", "I had hardly sent the invoice when the client called."], "explain_tr": "[en:Hardly] + [en:had] + özne + V3 … [en:when] + past simple: [tr:-ir -mez]."},
+    {"id": "g28", "lesson": "c1-inversion", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["Little", "did", "we", "know", "that", "the manager", "was planning", "to resign"], "answer": ["Little did we know that the manager was planning to resign."], "explain_tr": "[en:Little] + [en:did] + [en:we] + [en:know]: [tr:hiç haberimiz yoktu] vurgusu."},
+    {"id": "g29", "lesson": "c1-inversion", "type": "choice", "q": "Only when the contract was signed ___ the first payment.", "options": ["did we receive", "we received", "we did receive"], "answer": 0, "explain_tr": "[en:Only when] + yan cümle; devrik yapı ana cümlede: [en:did we receive]."},
+    {"id": "g04", "lesson": "c1-cleft-sentences", "type": "choice", "q": "___ really annoys me is people who are always late.", "options": ["That", "What", "It"], "answer": 1, "explain_tr": "What-cleft."},
+    {"id": "g05", "lesson": "c1-cleft-sentences", "type": "fill", "q": "It was the CEO ___ made the final decision.", "answer": ["who", "that"], "explain_tr": "[en:It was… who/that…]"},
+    {"id": "g06", "lesson": "c1-cleft-sentences", "type": "fix", "q": "The reason is because we lost the main client.", "answer": ["The reason is that we lost the main client."], "explain_tr": "[en:is that]."},
+    {"id": "g30", "lesson": "c1-cleft-sentences", "type": "transform", "instruction_tr": "Eylemi vurgula: [en:What she did was…] ile başla", "q": "She rewrote the whole proposal.", "answer": ["What she did was rewrite the whole proposal.", "What she did was to rewrite the whole proposal."], "explain_tr": "Eylemi vurgulamak için [en:What] + özne + [en:did] + [en:was] + yalın fiil."},
+    {"id": "g31", "lesson": "c1-cleft-sentences", "type": "transform", "instruction_tr": "[en:It wasn't until… that…] kalıbıyla yeniden yaz", "q": "We didn't notice the mistake until the audit.", "answer": ["It wasn't until the audit that we noticed the mistake.", "It was not until the audit that we noticed the mistake."], "explain_tr": "[en:It wasn't until] + zaman + [en:that] + olumlu fiil."},
+    {"id": "g32", "lesson": "c1-cleft-sentences", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["It", "was", "Deniz", "who", "found", "the error", "in the budget"], "answer": ["It was Deniz who found the error in the budget.", "Was it Deniz who found the error in the budget?"], "explain_tr": "[en:It was] + vurgulanan kişi + [en:who] + cümlenin geri kalanı."},
+    {"id": "g33", "lesson": "c1-cleft-sentences", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["What", "we", "should", "do", "is", "ask", "for", "an extension"], "answer": ["What we should do is ask for an extension."], "explain_tr": "[en:What] + özne + [en:should do] + [en:is] + yalın fiil."},
+    {"id": "g34", "lesson": "c1-cleft-sentences", "type": "fix", "q": "What happened it was that the courier lost the parcel.", "answer": ["What happened was that the courier lost the parcel.", "What happened was the courier lost the parcel."], "explain_tr": "[en:What happened] zaten öznedir; fazladan [en:it] kullanılmaz."},
+    {"id": "g07", "lesson": "c1-advanced-conditionals", "type": "choice", "q": "___ you require further assistance, please contact us.", "options": ["Should", "Would", "Had"], "answer": 0, "explain_tr": "[en:Should you require…]"},
+    {"id": "g08", "lesson": "c1-advanced-conditionals", "type": "fill", "q": "You can use the room ___ long as you leave it tidy.", "answer": ["as", "so"], "explain_tr": "[en:as long as]."},
+    {"id": "g09", "lesson": "c1-advanced-conditionals", "type": "fix", "q": "Had we know about the strike, we would have changed our plans.", "answer": ["Had we known about the strike, we would have changed our plans."], "explain_tr": "[en:Had] + [en:known]."},
+    {"id": "g35", "lesson": "c1-advanced-conditionals", "type": "transform", "instruction_tr": "[en:if] olmadan, [en:Were] ile başlayarak yaz", "q": "If the board approved the budget, we would hire two more designers.", "answer": ["Were the board to approve the budget, we would hire two more designers.", "We would hire two more designers were the board to approve the budget."], "explain_tr": "[en:If] + past simple → [en:Were] + özne + [en:to] + yalın fiil."},
+    {"id": "g36", "lesson": "c1-advanced-conditionals", "type": "transform", "instruction_tr": "[en:if] olmadan, [en:Had] ile başlayarak yaz", "q": "If we hadn't checked the contract, we would have paid twice.", "answer": ["Had we not checked the contract, we would have paid twice.", "We would have paid twice had we not checked the contract."], "explain_tr": "Olumsuz devrik koşulda [en:not] özneden sonra gelir: [en:Had we not checked]."},
+    {"id": "g37", "lesson": "c1-advanced-conditionals", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["Should", "the delivery", "arrive", "damaged,", "please contact us"], "answer": ["Should the delivery arrive damaged, please contact us.", "Please contact us should the delivery arrive damaged."], "explain_tr": "[en:Should] + özne + yalın fiil = [tr:olur da … -rsa]."},
+    {"id": "g38", "lesson": "c1-advanced-conditionals", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["Unless", "the supplier", "lowers", "its prices,", "we'll", "look", "elsewhere"], "answer": ["Unless the supplier lowers its prices, we'll look elsewhere.", "We'll look elsewhere unless the supplier lowers its prices."], "explain_tr": "[en:unless] = [en:if … not]; ardından olumlu fiil ve present simple gelir."},
+    {"id": "g39", "lesson": "c1-advanced-conditionals", "type": "choice", "q": "If I had accepted the job offer in Berlin, I ___ in Germany today.", "options": ["would be living", "would have lived", "will live"], "answer": 0, "explain_tr": "Karışık koşul: geçmişteki koşul ([en:had] + V3), bugünkü sonuç ([en:would] + [en:be] + [en:-ing])."},
+    {"id": "g10", "lesson": "c1-participle-clauses", "type": "choice", "q": "___ the instructions, he assembled the desk in ten minutes.", "options": ["Having read", "Read", "Having reading"], "answer": 0, "explain_tr": "[en:Having] + V3."},
+    {"id": "g11", "lesson": "c1-participle-clauses", "type": "fill", "q": "___ in 1923, the company is one of the oldest in Turkey. (found)", "answer": ["Founded"], "explain_tr": "Edilgen → [en:Founded]."},
+    {"id": "g12", "lesson": "c1-participle-clauses", "type": "fix", "q": "Having finish the presentation, she answered questions.", "answer": ["Having finished the presentation, she answered questions."], "explain_tr": "[en:Having finished]."},
+    {"id": "g40", "lesson": "c1-participle-clauses", "type": "transform", "instruction_tr": "[en:Having] ile başlayan participle clause'a çevir", "q": "After we had compared three suppliers, we chose the cheapest one.", "answer": ["Having compared three suppliers, we chose the cheapest one."], "explain_tr": "Önce olan eylem → [en:Having] + V3; özne ana cümleyle aynıdır."},
+    {"id": "g41", "lesson": "c1-participle-clauses", "type": "transform", "instruction_tr": "[en:Because] yerine [en:-ing] ile başlayan participle clause kullan", "q": "Because Murat works closely with the clients, he understands their needs well.", "answer": ["Working closely with the clients, Murat understands their needs well.", "Working closely with the clients, he understands their needs well.", "Murat, working closely with the clients, understands their needs well."], "explain_tr": "Sebep bildiren etken yan cümle → [en:-ing]; bağlaç ve özne düşer."},
+    {"id": "g42", "lesson": "c1-participle-clauses", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["Once", "signed", "by both parties,", "the agreement", "becomes", "legally binding"], "answer": ["Once signed by both parties, the agreement becomes legally binding.", "The agreement, once signed by both parties, becomes legally binding.", "The agreement becomes legally binding once signed by both parties."], "explain_tr": "[en:once] + V3 (edilgen): [tr:imzalandıktan sonra]."},
+    {"id": "g43", "lesson": "c1-participle-clauses", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["While", "waiting", "for", "the results,", "the team", "prepared", "a backup plan"], "answer": ["While waiting for the results, the team prepared a backup plan.", "The team prepared a backup plan while waiting for the results.", "The team, while waiting for the results, prepared a backup plan."], "explain_tr": "[en:while] + [en:-ing]; gizli özne ana cümlenin öznesiyle ([en:the team]) aynıdır."},
+    {"id": "g44", "lesson": "c1-participle-clauses", "type": "choice", "q": "___ by the sudden drop in sales, the management called an emergency meeting.", "options": ["Worrying", "Worried", "Having worried"], "answer": 1, "explain_tr": "Duygu bildiren edilgen anlam (endişelenmiş) → V3: [en:Worried by…]"},
+    {"id": "g13", "lesson": "c1-hedging", "type": "choice", "q": "Most cautious:", "options": ["The plan will fail.", "The plan may face some difficulties.", "The plan is a disaster."], "answer": 1, "explain_tr": "[en:may] + [en:some]."},
+    {"id": "g14", "lesson": "c1-hedging", "type": "fill", "q": "There ___ to be a misunderstanding about the price. (görünmek)", "answer": ["seems", "appears", "seemed", "appeared"], "explain_tr": "[en:There seems to be…]"},
+    {"id": "g15", "lesson": "c1-hedging", "type": "fix", "q": "Employees are tend to leave in the first year.", "answer": ["Employees tend to leave in the first year."], "explain_tr": "[en:tend to]."},
+    {"id": "g45", "lesson": "c1-hedging", "type": "transform", "instruction_tr": "Yumuşat: [en:appears to have] kalıbını kullan", "q": "The supplier misunderstood our request.", "answer": ["The supplier appears to have misunderstood our request."], "explain_tr": "Geçmişteki bir olayı yumuşatmak için [en:appear] + [en:to have] + V3."},
+    {"id": "g46", "lesson": "c1-hedging", "type": "transform", "instruction_tr": "Yumuşat: [en:be likely to] kalıbını kullan", "q": "The merger will create new jobs.", "answer": ["The merger is likely to create new jobs."], "explain_tr": "[en:be likely to] + yalın fiil = büyük ihtimalle."},
+    {"id": "g47", "lesson": "c1-hedging", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["New employees", "tend", "to ask", "fewer", "questions", "in", "large meetings"], "answer": ["New employees tend to ask fewer questions in large meetings.", "In large meetings, new employees tend to ask fewer questions.", "New employees in large meetings tend to ask fewer questions."], "explain_tr": "[en:tend to] + yalın fiil = [tr:-me eğiliminde olmak]; önüne [en:be] gelmez."},
+    {"id": "g48", "lesson": "c1-hedging", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["The client", "seems", "to have", "changed", "their mind", "about", "the design"], "answer": ["The client seems to have changed their mind about the design."], "explain_tr": "[en:seem] + [en:to have] + V3: geçmişteki bir olayı yumuşatır."},
+    {"id": "g49", "lesson": "c1-hedging", "type": "choice", "q": "Prices ___ rise next year, although nothing is certain yet.", "options": ["will definitely", "may", "are sure to"], "answer": 1, "explain_tr": "Kesin olmayan bir durum için [en:may] (olabilir) kullanılır."},
+    {"id": "g16", "lesson": "c1-register", "type": "choice", "q": "Formal: [en:We'll tell you when the parcel arrives.]", "options": ["We'll let you know.", "You will be informed when the parcel arrives.", "We'll ping you."], "answer": 1, "explain_tr": "Resmî: [en:You will be informed…]"},
+    {"id": "g17", "lesson": "c1-register", "type": "fill", "q": "I would be ___ if you could send the documents by Monday. (minnettar)", "answer": ["grateful", "obliged"], "explain_tr": "[en:I would be grateful if…]"},
+    {"id": "g18", "lesson": "c1-register", "type": "fix", "q": "Dear Ms Aydın, can u check the contract asap?", "answer": ["Dear Ms Aydın, could you please check the contract as soon as possible?", "Dear Ms Aydın, could you check the contract as soon as possible?", "Dear Ms Aydın, would you please check the contract as soon as possible?", "Dear Ms Aydın, could you please check the contract at your earliest convenience?"], "explain_tr": "Resmî üslup."},
+    {"id": "g50", "lesson": "c1-register", "type": "transform", "instruction_tr": "Resmî yap: [en:postpone] kullanarak edilgen (passive) cümleye çevir", "q": "We've put off the launch.", "answer": ["The launch has been postponed.", "The launch has been postponed by us."], "explain_tr": "[en:put off] → [en:postpone]; edilgen yapı resmî üslupta işi öne çıkarır."},
+    {"id": "g51", "lesson": "c1-register", "type": "transform", "instruction_tr": "Kibar ve dolaylı soru yap: [en:Could you tell me…] ile başla", "q": "Where is the conference being held?", "answer": ["Could you tell me where the conference is being held?", "Could you please tell me where the conference is being held?"], "explain_tr": "Dolaylı soruda ikinci kısım düz cümle sırasıyla kurulur."},
+    {"id": "g52", "lesson": "c1-register", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["I was", "wondering", "if", "you", "could", "review", "the draft"], "answer": ["I was wondering if you could review the draft."], "explain_tr": "[en:I was wondering if you could…] çok kibar bir rica kalıbıdır."},
+    {"id": "g53", "lesson": "c1-register", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["We", "regret", "that", "we", "are", "unable", "to accept", "your offer"], "answer": ["We regret that we are unable to accept your offer."], "explain_tr": "[en:We regret that…] ve [en:unable to…] resmî olumsuz cevap kalıplarıdır."},
+    {"id": "g54", "lesson": "c1-register", "type": "fill", "q": "Please find ___ the minutes of yesterday's meeting. (ekte)", "answer": ["attached", "enclosed"], "explain_tr": "[en:Please find attached…] = Ekte … bulabilirsiniz."},
+    {"id": "g19", "lesson": "c1-work-reports", "type": "choice", "q": "It is recommended that every employee ___ the training.", "options": ["to complete", "complete", "would complete"], "answer": 1, "explain_tr": "[en:recommend that] + yalın fiil."},
+    {"id": "g20", "lesson": "c1-work-reports", "type": "fill", "q": "The ___ of this report is to evaluate the new software. (amaç)", "answer": ["aim", "purpose", "objective", "goal"], "explain_tr": "[en:The aim/purpose of this report…]"},
+    {"id": "g21", "lesson": "c1-work-reports", "type": "fix", "q": "We suggest that the department would reduce its costs.", "answer": ["We suggest that the department reduce its costs.", "We suggest that the department should reduce its costs.", "We suggest the department reduce its costs.", "We suggest the department should reduce its costs."], "explain_tr": "[en:suggest that] + ([en:should]) + yalın fiil."},
+    {"id": "g55", "lesson": "c1-work-reports", "type": "transform", "instruction_tr": "[en:It is recommended that…] kalıbına çevir", "q": "Each department should review its budget.", "answer": ["It is recommended that each department review its budget.", "It is recommended that each department should review its budget."], "explain_tr": "[en:recommended that] + özne + yalın fiil ([en:reviews] değil)."},
+    {"id": "g56", "lesson": "c1-work-reports", "type": "transform", "instruction_tr": "[en:We suggest] + [en:-ing] kalıbıyla yeniden yaz ([en:suggest]'ten sonra [en:that] ve özne kullanma)", "q": "We think the company should switch to a cheaper supplier.", "answer": ["We suggest switching to a cheaper supplier.", "We would suggest switching to a cheaper supplier.", "We'd suggest switching to a cheaper supplier."], "explain_tr": "Kişi belirtmeden öneri: [en:suggest] + [en:-ing]."},
+    {"id": "g57", "lesson": "c1-work-reports", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["The number", "of", "late deliveries", "fell", "from", "forty", "to", "twelve"], "answer": ["The number of late deliveries fell from forty to twelve.", "The number of late deliveries fell to twelve from forty."], "explain_tr": "Başlangıç değeri [en:from], son değer [en:to] ile verilir."},
+    {"id": "g58", "lesson": "c1-work-reports", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["We", "recommend", "that", "the contract", "not", "be", "renewed"], "answer": ["We recommend that the contract not be renewed."], "explain_tr": "[en:recommend that] + özne + [en:not] + yalın fiil: [en:the contract not be renewed]."},
+    {"id": "g59", "lesson": "c1-work-reports", "type": "fill", "q": "Customer satisfaction has improved ___ since the new system was introduced. (önemli ölçüde — resmî zarf)", "answer": ["significantly", "considerably", "substantially", "markedly", "greatly", "dramatically"], "explain_tr": "Raporlarda [en:a lot] yerine [en:significantly / considerably] gibi kesin zarflar kullanılır."},
+    {"id": "g22", "lesson": "c1-work-feedback", "type": "choice", "q": "Most constructive feedback:", "options": ["You're always late.", "I noticed you were late twice this week. Is everything OK?", "Stop being late."], "answer": 1, "explain_tr": "Somut + soru + empati."},
+    {"id": "g23", "lesson": "c1-work-feedback", "type": "fill", "q": "It might be ___ asking the client for more time. (değer)", "answer": ["worth"], "explain_tr": "[en:worth] + [en:-ing]."},
+    {"id": "g24", "lesson": "c1-work-feedback", "type": "fix", "q": "I am appreciating your hard work.", "answer": ["I appreciate your hard work.", "I really appreciate your hard work."], "explain_tr": "[en:appreciate] → [en:-ing] almaz (durum)."},
+    {"id": "g60", "lesson": "c1-work-feedback", "type": "transform", "instruction_tr": "Kibarca reddet: [en:I'm afraid…] ile başla ve [en:won't be able to] kullan", "q": "I can't lead the new project.", "answer": ["I'm afraid I won't be able to lead the new project.", "I'm afraid that I won't be able to lead the new project."], "explain_tr": "[en:I'm afraid] + [en:won't be able to]: hayır demenin kibar yolu."},
+    {"id": "g61", "lesson": "c1-work-feedback", "type": "transform", "instruction_tr": "Yumuşat: [en:I'd suggest] + [en:-ing] kalıbını kullan", "q": "Send the slides to the client a day in advance.", "answer": ["I'd suggest sending the slides to the client a day in advance.", "I would suggest sending the slides to the client a day in advance."], "explain_tr": "Emir yerine öneri: [en:I'd suggest] + [en:-ing] ([en:suggest to send] değil)."},
+    {"id": "g62", "lesson": "c1-work-feedback", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["One", "area", "to work on", "is", "your", "time management"], "answer": ["One area to work on is your time management.", "Your time management is one area to work on.", "Is your time management one area to work on?", "Is one area to work on your time management?"], "explain_tr": "[en:One area to work on is…] gelişim alanını yumuşak bir dille söyler."},
+    {"id": "g63", "lesson": "c1-work-feedback", "type": "order", "q": "Kelimeleri doğru sıraya koy:", "words": ["Have you", "thought", "about", "sharing", "the workload", "with", "Emre"], "answer": ["Have you thought about sharing the workload with Emre?"], "explain_tr": "[en:Have you thought about] + [en:-ing]? öneriyi soru olarak sunar."},
+    {"id": "g64", "lesson": "c1-work-feedback", "type": "fix", "q": "She gave me a very useful feedback on my report.", "answer": ["She gave me some very useful feedback on my report.", "She gave me very useful feedback on my report.", "She gave me a very useful piece of feedback on my report."], "explain_tr": "[en:feedback] sayılamaz: [en:a feedback] değil, [en:some feedback] ya da [en:a piece of feedback]."}
+  ],
+  "listening": {
+    "dictation_count": 3,
+    "comprehension_count": 2,
+    "dictation": [
+      {
+        "id": "d1",
+        "text": "Not only did the new system reduce costs, but it also improved customer satisfaction."
+      },
+      {
+        "id": "d2",
+        "text": "Should you have any further questions, please do not hesitate to contact me."
+      },
+      {
+        "id": "d3",
+        "text": "What concerns me most is the lack of communication between the two departments."
+      },
+      {
+        "id": "d4",
+        "text": "Had we known about the delay earlier, we would have informed our clients immediately."
+      },
+      {
+        "id": "d5",
+        "text": "It was the finance team that discovered the mistake in the quarterly budget."
+      },
+      {
+        "id": "d6",
+        "text": "Having reviewed all the proposals, the committee chose to postpone its final vote."
+      },
+      {
+        "id": "d7",
+        "text": "The figures suggest that demand is likely to fall slightly over the coming months."
+      },
+      {
+        "id": "d8",
+        "text": "I would be grateful if you could send me the signed documents by the end of the week."
+      }
+    ],
+    "comprehension": [
+      {
+        "id": "c1",
+        "text": "The aim of this report is to evaluate the four-day working week pilot, which ran for six months in our Istanbul office. Overall, the results appear to be positive. Productivity remained stable, while sick days fell by around twenty percent. However, some teams, particularly customer service, found it difficult to cover all their shifts. It is therefore recommended that the scheme be extended to other offices, provided that customer-facing teams are given additional staff.",
+        "questions": [
+          {
+            "id": "c1a",
+            "q_tr": "Pilot uygulama ne kadar sürdü?",
+            "options": [
+              "Üç ay",
+              "Altı ay",
+              "Bir yıl"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "c1b",
+            "q_tr": "Hangi ekip zorlandı?",
+            "options": [
+              "Müşteri hizmetleri",
+              "Finans",
+              "Yazılım"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "c1c",
+            "q_tr": "Raporun önerisi nedir?",
+            "options": [
+              "Uygulamayı hemen durdurmak",
+              "Ek personel verilmesi koşuluyla uygulamayı diğer ofislere yaymak",
+              "Sadece İstanbul'da devam etmek"
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "text": "Thanks for making time for this, Emre. First of all, I really appreciate the work you put into the client presentation; the design was excellent. What I'd like to talk about is the timing. The last two reports reached the client a day late, and they've started to ask questions. I'm not saying it's entirely your fault, as I know you've been covering for Selin. Could we look at your workload together and see what we can move?",
+        "questions": [
+          {
+            "id": "c2a",
+            "q_tr": "Yönetici neyi takdir ediyor?",
+            "options": [
+              "Sunumun tasarımını",
+              "Raporların hızını",
+              "Müşteriyle konuşmasını"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "c2b",
+            "q_tr": "Asıl sorun ne?",
+            "options": [
+              "Raporlarda hata olması",
+              "Raporların müşteriye bir gün geç gitmesi",
+              "Sunumun kötü olması"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "c2c",
+            "q_tr": "Yönetici ne öneriyor?",
+            "options": [
+              "Emre'nin işten ayrılmasını",
+              "İş yükünü birlikte gözden geçirmeyi",
+              "Selin'in raporları yazmasını"
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "text": "Dear Ms Aksoy, I am writing regarding your recent order of office chairs. Unfortunately, due to a technical problem at our factory, the delivery will be delayed by approximately two weeks. Please accept our sincere apologies for any inconvenience this may cause. As a gesture of goodwill, we would like to offer you a ten percent discount on this order. Should you prefer to cancel, a full refund will be issued within five working days. I would be grateful if you could let me know your decision by Friday.",
+        "questions": [
+          {
+            "id": "c3a",
+            "q_tr": "Teslimat neden gecikecek?",
+            "options": [
+              "Kargo şirketi bir hata yaptığı için",
+              "Fabrikada teknik bir sorun olduğu için",
+              "Sipariş yanlış girildiği için"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "c3b",
+            "q_tr": "Müşteri siparişi iptal etmek isterse ne olacak?",
+            "options": [
+              "Sandalyeler hemen gönderilecek",
+              "Siparişte yüzde on indirim alacak",
+              "Ödediği paranın tamamı beş iş günü içinde iade edilecek"
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "text": "Before we make a decision, I'd like to raise a few concerns. The new customer software certainly looks impressive, and it would probably save the sales team a lot of time. What worries me, though, is the training. Most of our staff have used the current system for over ten years, and it seems unlikely that they will adapt within a month. Rather than switching everyone at once, I'd suggest starting with a small pilot group in the Ankara office. Provided the pilot goes well, we could roll it out to the other teams in the spring.",
+        "questions": [
+          {
+            "id": "c4a",
+            "q_tr": "Konuşmacıyı en çok endişelendiren konu nedir?",
+            "options": [
+              "Çalışanların eğitimi",
+              "Yazılımın fiyatı",
+              "Satış ekibinin performansı"
+            ],
+            "answer": 0
+          },
+          {
+            "id": "c4b",
+            "q_tr": "Konuşmacı ne öneriyor?",
+            "options": [
+              "Yazılımı hemen bütün ekiplere kurmayı",
+              "Yeni yazılımdan tamamen vazgeçmeyi",
+              "Önce Ankara ofisinde küçük bir grupla denemeyi"
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "id": "c5",
+        "text": "This report summarises the findings of a staff survey on hybrid working, which was carried out in September. Of the four hundred employees who took part, around seventy percent said they would prefer to work from home two days a week. Interestingly, younger employees tended to value time in the office more than their older colleagues, mainly because they wanted to learn from more experienced staff. The main complaint concerned the desk booking system, which many respondents described as slow and unreliable.",
+        "questions": [
+          {
+            "id": "c5a",
+            "q_tr": "Ankete katılanların yaklaşık yüzde yetmişi ne istediğini söyledi?",
+            "options": [
+              "Her gün ofiste çalışmayı",
+              "Haftada iki gün evden çalışmayı",
+              "Tamamen evden çalışmayı"
+            ],
+            "answer": 1
+          },
+          {
+            "id": "c5b",
+            "q_tr": "Genç çalışanlar ofiste vakit geçirmeye neden daha çok önem veriyor?",
+            "options": [
+              "Deneyimli çalışanlardan öğrenmek istedikleri için",
+              "Evde çalışmaya uygun bir yerleri olmadığı için",
+              "Masa rezervasyon sistemini beğendikleri için"
+            ],
+            "answer": 0
+          }
+        ]
+      }
+    ]
+  },
+  "speaking_count": 3,
+  "speaking": [
+    {
+      "id": "s1",
+      "question_en": "Some people say that artificial intelligence will replace many office jobs. To what extent do you agree? Give a balanced, nuanced answer.",
+      "instruction_tr": "Yapay zekânın birçok ofis işinin yerini alacağı görüşüne ne ölçüde katılıyorsun? Ölçülü (hedging) ve dengeli bir cevap ver.",
+      "focus": "hedging and balanced argument"
+    },
+    {
+      "id": "s2",
+      "question_en": "A colleague has missed several deadlines. How would you give them feedback? Say what you would actually tell them.",
+      "instruction_tr": "Bir iş arkadaşın birkaç teslim tarihini kaçırdı. Ona nasıl geri bildirim verirsin? Gerçekte ne söyleyeceğini söyle.",
+      "focus": "constructive feedback and diplomatic language"
+    },
+    {
+      "id": "s3",
+      "question_en": "Describe the most important achievement in your career or studies so far, and explain what made it possible.",
+      "instruction_tr": "Kariyerindeki ya da eğitimindeki en önemli başarını anlat ve onu neyin mümkün kıldığını açıkla (vurgulu yapılar kullanabilirsin).",
+      "focus": "cleft sentences, inversion, participle clauses"
+    },
+    {
+      "id": "s4",
+      "question_en": "Imagine your company is planning to move all its staff to fully remote work. Under what conditions would you support this idea, and what problems might arise?",
+      "instruction_tr": "Şirketinin tüm çalışanlarını tamamen uzaktan çalışmaya geçirmeyi planladığını düşün. Bu fikri hangi koşullarda desteklersin, ne gibi sorunlar çıkabilir? Koşul yapılarını ([en:provided that], [en:unless], [en:Should…]) ve ölçülü bir dil kullan.",
+      "focus": "advanced conditionals and hedging"
+    },
+    {
+      "id": "s5",
+      "question_en": "Think of a project or plan at work that did not go as expected. What happened, and what would you do differently if you could start again?",
+      "instruction_tr": "İş hayatında beklendiği gibi gitmeyen bir proje ya da planı düşün. Ne oldu, baştan başlayabilsen neyi farklı yapardın? Participle clause, vurgulu yapılar ([en:What happened was…]) ve koşul cümleleri kullanabilirsin.",
+      "focus": "participle clauses, cleft sentences, conditionals"
+    },
+    {
+      "id": "s6",
+      "question_en": "How is the way you write to a new client different from the way you message a close colleague? Give examples of phrases you would use in each case.",
+      "instruction_tr": "Yeni bir müşteriye yazarken kullandığın dil, yakın bir iş arkadaşına mesaj atarken kullandığın dilden nasıl farklı? Her durum için kullanacağın ifadelerden örnekler ver.",
+      "focus": "formal and informal register"
+    }
+  ],
+  "writing": [
+    {
+      "id": "w1",
+      "instruction_tr": "Yönetimine kısa bir öneri raporu yaz: şirketinde iyileştirilmesi gereken bir süreci (ör. yeni çalışanların işe alışması, toplantıların verimliliği) seç; mevcut durumu, sorunları ve somut önerilerini nesnel ve ölçülü bir dille anlat. En az 150 kelime.",
+      "prompt_en": "Write a short proposal for management about a process in your company that should be improved (for example onboarding new staff or the efficiency of meetings). Describe the current situation and its problems, and make concrete recommendations in an objective, hedged style.",
+      "focus": "report language, hedging, formal register, recommendations",
+      "min_words": 150
+    },
+    {
+      "id": "w2",
+      "instruction_tr": "Bir tedarikçiye resmî bir şikâyet e-postası yaz: son üç aydır siparişleriniz sürekli geç ya da eksik geliyor. Sorunları somut örneklerle anlat, bunun şirketine etkisini açıkla ve tedarikçiden ne beklediğini kibar ama net bir dille belirt. En az 150 kelime.",
+      "prompt_en": "Write a formal email of complaint to a supplier whose deliveries have repeatedly been late or incomplete over the past three months. Describe the problems with specific examples, explain how they have affected your company, and state clearly but politely what action you expect.",
+      "focus": "formal register, polite but firm requests, conditionals",
+      "min_words": 150
+    },
+    {
+      "id": "w3",
+      "instruction_tr": "Önemli bir müşteri, projenin teslim tarihini iki hafta öne çekmenizi istedi, ancak bu mümkün değil. Müşteriye resmî bir e-posta yaz: talebi kibarca reddet, nedenlerini ölçülü bir dille açıkla ve uygulanabilir bir alternatif öner. En az 150 kelime.",
+      "prompt_en": "An important client has asked you to deliver a project two weeks earlier than agreed, but this is not possible. Write a formal email in which you politely decline the request, explain the reasons in a hedged, diplomatic way, and offer a realistic alternative.",
+      "focus": "diplomatic refusal, hedging, formal register, alternatives",
+      "min_words": 150
+    }
+  ]
+}

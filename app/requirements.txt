@@ -1,0 +1,29 @@
+# Embedded Python 3.12 (runtime/python; Linux: python-build-standalone). Kokoro TTS requires Python < 3.13.
+
+# --- Visual C++ runtime DLLs next to python.exe (onnxruntime and ctranslate2 need msvcp140*.dll; the
+# embeddable Python has only vcruntime140). See setup/requirements-wizard.txt.
+msvc-runtime==14.44.35112; sys_platform == "win32"
+# Linux: unpacks Ollama's .tar.zst archive when the wizard updates it.
+zstandard==0.23.0; sys_platform == "linux"
+
+# --- Web server + Ollama client
+fastapi==0.142.2
+uvicorn[standard]==0.54.0
+httpx==0.28.1
+pydantic==2.13.5
+
+# --- Speech-to-text
+faster-whisper==1.2.1
+ctranslate2==4.8.2
+# faster-whisper 1.2.1 passes `metadata_errors` to av.open(), which PyAV 16+ removed.
+av==15.1.0
+# NVIDIA GPUs additionally install requirements-cuda.txt (the setup wizard decides).
+
+# --- Text-to-speech: Kokoro-82M via ONNX on CPU. No PyTorch, and espeak-ng ships
+# inside espeakng-loader, so nothing has to be installed system-wide.
+kokoro-onnx==0.6.1
+onnxruntime==1.30.0
+espeakng-loader==0.2.4
+phonemizer==3.4.0
+# Turkish voice for the teacher (app/tts_tr: EMA Lightning as ONNX): its text normalizer (Rust, no deps)
+normalizer-tr==0.4.0

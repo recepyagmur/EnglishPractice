@@ -1,0 +1,8068 @@
+{
+ "level": "A1",
+ "count": 982,
+ "words": [
+  {
+   "w": "a",
+   "pos": [
+    "determiner"
+   ],
+   "tr": "bir (belirsiz tanımlık)",
+   "ipa": "/æ/"
+  },
+  {
+   "w": "a.m.",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "öğleden önce (ÖÖ), sabah"
+  },
+  {
+   "w": "about",
+   "pos": [
+    "adverb",
+    "preposition"
+   ],
+   "tr": "edat: hakkında, ile ilgili; zarf: yaklaşık, aşağı yukarı",
+   "ipa": "/əˈbaʊ̯t/"
+  },
+  {
+   "w": "action",
+   "pos": [
+    "noun"
+   ],
+   "tr": "eylem, hareket, aksiyon",
+   "ipa": "/ˈækʃən/"
+  },
+  {
+   "w": "activity",
+   "pos": [
+    "noun"
+   ],
+   "tr": "etkinlik, faaliyet, aktivite",
+   "ipa": "/ækˈtɪv.ɪ.ti/"
+  },
+  {
+   "w": "actor",
+   "pos": [
+    "noun"
+   ],
+   "tr": "oyuncu, aktör",
+   "ipa": "/ˈæk.tɚ/"
+  },
+  {
+   "w": "add",
+   "pos": [
+    "verb"
+   ],
+   "tr": "eklemek, toplamak",
+   "ipa": "/æd/"
+  },
+  {
+   "w": "address",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: adres, konuşma (hitabe); fiil: hitap etmek, ele almak (sorunu)",
+   "ipa": "/əˈdɹɛs/"
+  },
+  {
+   "w": "afraid",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "korkmuş, korkan",
+   "ipa": "/əˈfɹeɪd/"
+  },
+  {
+   "w": "afternoon",
+   "pos": [
+    "noun"
+   ],
+   "tr": "öğleden sonra",
+   "ipa": "/ˌæf.tɚˈnun/"
+  },
+  {
+   "w": "again",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "tekrar, yine, yeniden",
+   "ipa": "/əˈɡɛn/"
+  },
+  {
+   "w": "age",
+   "pos": [
+    "noun"
+   ],
+   "tr": "yaş, çağ, dönem",
+   "ipa": "/eɪd͡ʒ/"
+  },
+  {
+   "w": "ago",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "önce (iki gün önce gibi)",
+   "ipa": "/əˈɡoʊ/"
+  },
+  {
+   "w": "agree",
+   "pos": [
+    "verb"
+   ],
+   "tr": "katılmak (fikrine), kabul etmek, anlaşmak",
+   "ipa": "/əˈɡɹi/"
+  },
+  {
+   "w": "airplane",
+   "pos": [
+    "noun"
+   ],
+   "tr": "uçak",
+   "ipa": "/ˈɛɹˌpleɪ̯n/"
+  },
+  {
+   "w": "airport",
+   "pos": [
+    "noun"
+   ],
+   "tr": "havalimanı, havaalanı",
+   "ipa": "/ˈɛɹ.pɔɹt/"
+  },
+  {
+   "w": "album",
+   "pos": [
+    "noun"
+   ],
+   "tr": "albüm",
+   "ipa": "/ˈælbəm/"
+  },
+  {
+   "w": "all right",
+   "pos": [
+    "adjective",
+    "adverb"
+   ],
+   "tr": "sıfat: iyi, fena değil; zarf: tamam, peki",
+   "ipa": "/ˌɔːlˈɹaɪt/"
+  },
+  {
+   "w": "almost",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "neredeyse, hemen hemen",
+   "ipa": "/ˈɔl.moʊst/"
+  },
+  {
+   "w": "along",
+   "pos": [
+    "adverb",
+    "preposition"
+   ],
+   "tr": "edat: boyunca; zarf: ileri, birlikte",
+   "ipa": "/əˈlɒŋ/"
+  },
+  {
+   "w": "already",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "zaten, çoktan, şimdiden",
+   "ipa": "/ɔːlˈɹɛdi/"
+  },
+  {
+   "w": "also",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "ayrıca, de/da",
+   "ipa": "/ˈɔl.soʊ/"
+  },
+  {
+   "w": "always",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "her zaman, daima, hep",
+   "ipa": "/ˈɔːl.weɪz/"
+  },
+  {
+   "w": "am",
+   "pos": [
+    "be-verb"
+   ],
+   "tr": "olmak (I ile: -im/-ım)"
+  },
+  {
+   "w": "an",
+   "pos": [
+    "determiner"
+   ],
+   "tr": "bir (belirsiz tanımlık, ünlüden önce)",
+   "ipa": "[ˈeən]"
+  },
+  {
+   "w": "and",
+   "pos": [
+    "conjunction"
+   ],
+   "tr": "ve, ile",
+   "ipa": "/ˈænd/"
+  },
+  {
+   "w": "angry",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "kızgın, öfkeli, sinirli",
+   "ipa": "/ˈæŋ.ɡɹi/"
+  },
+  {
+   "w": "animal",
+   "pos": [
+    "noun"
+   ],
+   "tr": "hayvan",
+   "ipa": "/ˈænəməl/"
+  },
+  {
+   "w": "another",
+   "pos": [
+    "determiner",
+    "pronoun"
+   ],
+   "tr": "belirleyici: başka bir, bir … daha; zamir: başka biri, bir tane daha",
+   "ipa": "/əˈnʌð.ə(ɹ)/"
+  },
+  {
+   "w": "answer",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: cevap, yanıt; fiil: cevap vermek, yanıtlamak",
+   "ipa": "/ˈæn.sɚ/"
+  },
+  {
+   "w": "any",
+   "pos": [
+    "determiner",
+    "pronoun"
+   ],
+   "tr": "belirleyici: herhangi bir, hiç (soru/olumsuz); zamir: herhangi biri, hiç"
+  },
+  {
+   "w": "anybody",
+   "pos": [
+    "pronoun"
+   ],
+   "tr": "herhangi biri, kimse (olumsuz cümlede)"
+  },
+  {
+   "w": "anyone",
+   "pos": [
+    "pronoun"
+   ],
+   "tr": "herhangi biri, kimse (olumsuz cümlede)",
+   "ipa": "/ˈeniwʌn/"
+  },
+  {
+   "w": "anything",
+   "pos": [
+    "pronoun"
+   ],
+   "tr": "herhangi bir şey, hiçbir şey (olumsuz cümlede)"
+  },
+  {
+   "w": "apple",
+   "pos": [
+    "noun"
+   ],
+   "tr": "elma",
+   "ipa": "/ˈæpəl/"
+  },
+  {
+   "w": "April",
+   "pos": [
+    "noun"
+   ],
+   "tr": "nisan",
+   "ipa": "/ˈeɪ.pɹəl/"
+  },
+  {
+   "w": "apron",
+   "pos": [
+    "noun"
+   ],
+   "tr": "önlük",
+   "ipa": "/ˈeɪ.pɹən/"
+  },
+  {
+   "w": "are",
+   "pos": [
+    "be-verb"
+   ],
+   "tr": "olmak (you/we/they ile: -sin, -iz, -ler)"
+  },
+  {
+   "w": "arm",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: kol; fiil: silahlandırmak",
+   "ipa": "/ɑɹm/"
+  },
+  {
+   "w": "arrive",
+   "pos": [
+    "verb"
+   ],
+   "tr": "varmak, ulaşmak, gelmek",
+   "ipa": "/əˈɹaɪv/"
+  },
+  {
+   "w": "art",
+   "pos": [
+    "noun"
+   ],
+   "tr": "sanat",
+   "ipa": "/ɑɹt/"
+  },
+  {
+   "w": "article",
+   "pos": [
+    "noun"
+   ],
+   "tr": "makale, yazı, tanımlık (a/an/the)",
+   "ipa": "/ˈɑɹtɪkəl/"
+  },
+  {
+   "w": "ask",
+   "pos": [
+    "verb"
+   ],
+   "tr": "sormak, istemek, rica etmek",
+   "ipa": "/æsk/"
+  },
+  {
+   "w": "at",
+   "pos": [
+    "preposition"
+   ],
+   "tr": "-de/-da (yer ve saat), -e/-a (bakmak vb.)",
+   "ipa": "/æt/"
+  },
+  {
+   "w": "August",
+   "pos": [
+    "noun"
+   ],
+   "tr": "ağustos",
+   "ipa": "/ˈɔ.ɡəst/"
+  },
+  {
+   "w": "aunt",
+   "pos": [
+    "noun"
+   ],
+   "tr": "teyze, hala, yenge",
+   "ipa": "/ɑːnt/"
+  },
+  {
+   "w": "autumn",
+   "pos": [
+    "noun"
+   ],
+   "tr": "sonbahar, güz",
+   "ipa": "/ˈɔtəm/"
+  },
+  {
+   "w": "awake",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "uyanık",
+   "ipa": "/əˈweɪk/"
+  },
+  {
+   "w": "away",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "uzakta, uzağa"
+  },
+  {
+   "w": "baby",
+   "pos": [
+    "noun"
+   ],
+   "tr": "bebek",
+   "ipa": "/ˈbeɪ.bi/"
+  },
+  {
+   "w": "bad",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "kötü, fena",
+   "ipa": "/bæd/"
+  },
+  {
+   "w": "bag",
+   "pos": [
+    "noun"
+   ],
+   "tr": "çanta, torba, poşet",
+   "ipa": "/bæɡ/"
+  },
+  {
+   "w": "ball",
+   "pos": [
+    "noun"
+   ],
+   "tr": "top, balo",
+   "ipa": "/bɔːl/"
+  },
+  {
+   "w": "banana",
+   "pos": [
+    "noun"
+   ],
+   "tr": "muz",
+   "ipa": "/bəˈnænə/"
+  },
+  {
+   "w": "band",
+   "pos": [
+    "noun"
+   ],
+   "tr": "müzik grubu, bando, şerit",
+   "ipa": "/bænd/"
+  },
+  {
+   "w": "bank",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: banka, kıyı (nehir); fiil: bankaya yatırmak",
+   "ipa": "/ˈbæŋk/"
+  },
+  {
+   "w": "bar",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: bar, çubuk, kalıp (çikolata vb.); fiil: engellemek, yasaklamak",
+   "ipa": "/bɑɹ/"
+  },
+  {
+   "w": "baseball",
+   "pos": [
+    "noun"
+   ],
+   "tr": "beyzbol",
+   "ipa": "/ˈbeɪs.bɔl/"
+  },
+  {
+   "w": "basketball",
+   "pos": [
+    "noun"
+   ],
+   "tr": "basketbol",
+   "ipa": "/ˈbæs.kɪt.bɔl/"
+  },
+  {
+   "w": "bat",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: yarasa, sopa (beyzbol); fiil: sopayla vurmak",
+   "ipa": "/bæt/"
+  },
+  {
+   "w": "bath",
+   "pos": [
+    "noun"
+   ],
+   "tr": "banyo, küvet",
+   "ipa": "[bæθ~bɛəθ~beəθ]"
+  },
+  {
+   "w": "bathroom",
+   "pos": [
+    "noun"
+   ],
+   "tr": "banyo, tuvalet",
+   "ipa": "/ˈbæθˌɹum/"
+  },
+  {
+   "w": "be",
+   "pos": [
+    "be-verb"
+   ],
+   "tr": "olmak, bulunmak",
+   "ipa": "/ˈbiː/"
+  },
+  {
+   "w": "beach",
+   "pos": [
+    "noun"
+   ],
+   "tr": "plaj, sahil, kumsal",
+   "ipa": "/biːt͡ʃ/"
+  },
+  {
+   "w": "bean",
+   "pos": [
+    "noun"
+   ],
+   "tr": "fasulye, çekirdek (kahve)",
+   "ipa": "/ˈbi(ː)n/"
+  },
+  {
+   "w": "bear",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: ayı; fiil: katlanmak, taşımak",
+   "ipa": "/bɛɚ/"
+  },
+  {
+   "w": "beautiful",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "güzel",
+   "ipa": "/ˈbju.tɪ.fəl/"
+  },
+  {
+   "w": "because",
+   "pos": [
+    "conjunction"
+   ],
+   "tr": "çünkü, -dığı için",
+   "ipa": "/bɪkəz/"
+  },
+  {
+   "w": "become",
+   "pos": [
+    "verb"
+   ],
+   "tr": "olmak, … hâline gelmek",
+   "ipa": "/bɪˈkʌm/"
+  },
+  {
+   "w": "bed",
+   "pos": [
+    "noun"
+   ],
+   "tr": "yatak",
+   "ipa": "/bɛd/"
+  },
+  {
+   "w": "bedroom",
+   "pos": [
+    "noun"
+   ],
+   "tr": "yatak odası",
+   "ipa": "/ˈbɛdˌɹum/"
+  },
+  {
+   "w": "bee",
+   "pos": [
+    "noun"
+   ],
+   "tr": "arı",
+   "ipa": "/ˈbiː/"
+  },
+  {
+   "w": "beef",
+   "pos": [
+    "noun"
+   ],
+   "tr": "sığır eti, dana eti",
+   "ipa": "/bif/"
+  },
+  {
+   "w": "before",
+   "pos": [
+    "adverb",
+    "conjunction",
+    "preposition"
+   ],
+   "tr": "edat: -den önce; bağlaç: -meden önce; zarf: daha önce",
+   "ipa": "/bɪˈfoɹ/"
+  },
+  {
+   "w": "begin",
+   "pos": [
+    "verb"
+   ],
+   "tr": "başlamak, başlatmak",
+   "ipa": "/bɪˈɡɪn/"
+  },
+  {
+   "w": "behind",
+   "pos": [
+    "adverb",
+    "preposition"
+   ],
+   "tr": "edat: -in arkasında; zarf: arkada, geride",
+   "ipa": "/ˈbiˌhaɪnd/"
+  },
+  {
+   "w": "believe",
+   "pos": [
+    "verb"
+   ],
+   "tr": "inanmak, sanmak",
+   "ipa": "/bɪˈliv/"
+  },
+  {
+   "w": "bell",
+   "pos": [
+    "noun"
+   ],
+   "tr": "zil, çan",
+   "ipa": "/bɛl/"
+  },
+  {
+   "w": "below",
+   "pos": [
+    "adverb",
+    "preposition"
+   ],
+   "tr": "edat: -in altında, -den aşağı; zarf: aşağıda, altta"
+  },
+  {
+   "w": "beside",
+   "pos": [
+    "preposition"
+   ],
+   "tr": "yanında, -in yanında"
+  },
+  {
+   "w": "best",
+   "pos": [
+    "adjective",
+    "adverb"
+   ],
+   "tr": "sıfat: en iyi; zarf: en iyi şekilde, en çok",
+   "ipa": "/bɛst/"
+  },
+  {
+   "w": "better",
+   "pos": [
+    "adjective",
+    "adverb"
+   ],
+   "tr": "daha iyi",
+   "ipa": "[ˈbɛɾ.ɚ]"
+  },
+  {
+   "w": "between",
+   "pos": [
+    "preposition"
+   ],
+   "tr": "arasında",
+   "ipa": "/bəˈtwin/"
+  },
+  {
+   "w": "bicycle",
+   "pos": [
+    "noun"
+   ],
+   "tr": "bisiklet",
+   "ipa": "/ˈbaɪsɪk(ə)l/"
+  },
+  {
+   "w": "big",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "büyük, iri",
+   "ipa": "/bɪɡ/"
+  },
+  {
+   "w": "bike",
+   "pos": [
+    "noun"
+   ],
+   "tr": "bisiklet",
+   "ipa": "/baɪk/"
+  },
+  {
+   "w": "bird",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kuş",
+   "ipa": "/ˈbɝd/"
+  },
+  {
+   "w": "birth",
+   "pos": [
+    "noun"
+   ],
+   "tr": "doğum",
+   "ipa": "/bɜɹθ/"
+  },
+  {
+   "w": "birthday",
+   "pos": [
+    "noun"
+   ],
+   "tr": "doğum günü",
+   "ipa": "/ˈbɝθˌdeɪ/"
+  },
+  {
+   "w": "biscuit",
+   "pos": [
+    "noun"
+   ],
+   "tr": "bisküvi",
+   "ipa": "/ˈbɪs.kɪt/"
+  },
+  {
+   "w": "black",
+   "pos": [
+    "adjective",
+    "noun"
+   ],
+   "tr": "siyah, kara",
+   "ipa": "/blæk/"
+  },
+  {
+   "w": "blank",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "boş, yazısız"
+  },
+  {
+   "w": "block",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: blok, kütle, sokak bloğu; fiil: engellemek, tıkamak",
+   "ipa": "/blɑk/"
+  },
+  {
+   "w": "blue",
+   "pos": [
+    "adjective",
+    "noun"
+   ],
+   "tr": "mavi, hüzünlü",
+   "ipa": "/blu/"
+  },
+  {
+   "w": "board",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: tahta, pano, yönetim kurulu; fiil: (uçağa, gemiye) binmek",
+   "ipa": "/bɔɹd/"
+  },
+  {
+   "w": "boat",
+   "pos": [
+    "noun"
+   ],
+   "tr": "tekne, kayık, bot",
+   "ipa": "/boʊ̯t/"
+  },
+  {
+   "w": "body",
+   "pos": [
+    "noun"
+   ],
+   "tr": "vücut, beden, gövde",
+   "ipa": "/ˈbɑdi/"
+  },
+  {
+   "w": "bone",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kemik, kılçık",
+   "ipa": "/boʊn/"
+  },
+  {
+   "w": "book",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: kitap; fiil: rezervasyon yapmak, yer ayırtmak",
+   "ipa": "/bʊk/"
+  },
+  {
+   "w": "bookstore",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kitapçı, kitabevi"
+  },
+  {
+   "w": "boring",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "sıkıcı",
+   "ipa": "/ˈboɹ.ɪŋ/"
+  },
+  {
+   "w": "borrow",
+   "pos": [
+    "verb"
+   ],
+   "tr": "ödünç almak, borç almak",
+   "ipa": "/ˈbɑɹ.oʊ/"
+  },
+  {
+   "w": "both",
+   "pos": [
+    "adverb",
+    "determiner",
+    "pronoun"
+   ],
+   "tr": "her ikisi (de), iki … de, hem … hem de",
+   "ipa": "[boʊθ]"
+  },
+  {
+   "w": "bottle",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: şişe; fiil: şişelemek",
+   "ipa": "/ˈbɑtəl/"
+  },
+  {
+   "w": "bottom",
+   "pos": [
+    "noun"
+   ],
+   "tr": "alt, dip",
+   "ipa": "/ˈbɑ.təm/"
+  },
+  {
+   "w": "bowl",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: kâse, çanak; fiil: (bowling, kriket) top atmak",
+   "ipa": "/boʊl/"
+  },
+  {
+   "w": "box",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kutu, sandık",
+   "ipa": "/bɑks/"
+  },
+  {
+   "w": "boy",
+   "pos": [
+    "noun"
+   ],
+   "tr": "erkek çocuk, oğlan",
+   "ipa": "/bɔɪ/"
+  },
+  {
+   "w": "boyfriend",
+   "pos": [
+    "noun"
+   ],
+   "tr": "erkek arkadaş, sevgili",
+   "ipa": "/ˈbɔɪˌfɹɛnd/"
+  },
+  {
+   "w": "brain",
+   "pos": [
+    "noun"
+   ],
+   "tr": "beyin, akıl",
+   "ipa": "/ˈbɹeɪ̯n/"
+  },
+  {
+   "w": "bread",
+   "pos": [
+    "noun"
+   ],
+   "tr": "ekmek",
+   "ipa": "/bɹɛd/"
+  },
+  {
+   "w": "breakfast",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kahvaltı",
+   "ipa": "/ˈbɹeɪkˌfæst/"
+  },
+  {
+   "w": "breathe",
+   "pos": [
+    "verb"
+   ],
+   "tr": "nefes almak, solumak",
+   "ipa": "/bɹið/"
+  },
+  {
+   "w": "bridge",
+   "pos": [
+    "noun"
+   ],
+   "tr": "köprü",
+   "ipa": "/bɹɪd͡ʒ/"
+  },
+  {
+   "w": "bright",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "parlak, aydınlık, zeki",
+   "ipa": "/ˈbɹaɪ̯t/"
+  },
+  {
+   "w": "bring",
+   "pos": [
+    "verb"
+   ],
+   "tr": "getirmek",
+   "ipa": "/ˈbɹɪŋ/"
+  },
+  {
+   "w": "broken",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "kırık, bozuk",
+   "ipa": "/ˈbɹoʊ.kɪn/"
+  },
+  {
+   "w": "brother",
+   "pos": [
+    "noun"
+   ],
+   "tr": "erkek kardeş, ağabey, kardeş",
+   "ipa": "/ˈbɹʌðɚ/"
+  },
+  {
+   "w": "brown",
+   "pos": [
+    "adjective",
+    "noun"
+   ],
+   "tr": "kahverengi",
+   "ipa": "/ˈbɹaʊ̯n/"
+  },
+  {
+   "w": "brush",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: fırça; fiil: fırçalamak",
+   "ipa": "/bɹʌʃ/"
+  },
+  {
+   "w": "bucket",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kova",
+   "ipa": "/ˈbʌkɪt/"
+  },
+  {
+   "w": "build",
+   "pos": [
+    "verb"
+   ],
+   "tr": "inşa etmek, yapmak, kurmak",
+   "ipa": "/bɪld/"
+  },
+  {
+   "w": "building",
+   "pos": [
+    "noun"
+   ],
+   "tr": "bina, yapı",
+   "ipa": "/ˈbɪl.dɪŋ/"
+  },
+  {
+   "w": "burger",
+   "pos": [
+    "noun"
+   ],
+   "tr": "hamburger, burger",
+   "ipa": "/ˈbɝ.ɡɚ/"
+  },
+  {
+   "w": "bus",
+   "pos": [
+    "noun"
+   ],
+   "tr": "otobüs"
+  },
+  {
+   "w": "business",
+   "pos": [
+    "noun"
+   ],
+   "tr": "iş, ticaret, işletme",
+   "ipa": "/ˈbɪz.nɪs/"
+  },
+  {
+   "w": "busy",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "meşgul, yoğun",
+   "ipa": "/ˈbɪz.i/"
+  },
+  {
+   "w": "but",
+   "pos": [
+    "conjunction",
+    "preposition"
+   ],
+   "tr": "bağlaç: ama, fakat, ancak; edat: -den başka, hariç",
+   "ipa": "/ˈbʌt/"
+  },
+  {
+   "w": "butter",
+   "pos": [
+    "noun"
+   ],
+   "tr": "tereyağı",
+   "ipa": "/ˈbʌtɚ/"
+  },
+  {
+   "w": "butterfly",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kelebek",
+   "ipa": "[ˈbʌ.ɾɚ.flaɪ]"
+  },
+  {
+   "w": "button",
+   "pos": [
+    "noun"
+   ],
+   "tr": "düğme, tuş, buton",
+   "ipa": "/ˈbʌtən/"
+  },
+  {
+   "w": "buy",
+   "pos": [
+    "verb"
+   ],
+   "tr": "satın almak, almak",
+   "ipa": "[baɪ]"
+  },
+  {
+   "w": "by",
+   "pos": [
+    "preposition"
+   ],
+   "tr": "tarafından, ile (vasıtasıyla), -e kadar (zaman)",
+   "ipa": "/baɪ/"
+  },
+  {
+   "w": "bye",
+   "pos": [
+    "noun"
+   ],
+   "tr": "hoşça kal, güle güle",
+   "ipa": "/baɪ/"
+  },
+  {
+   "w": "cafe",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kafe"
+  },
+  {
+   "w": "cake",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kek, pasta",
+   "ipa": "/keɪk/"
+  },
+  {
+   "w": "call",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: arama, çağrı; fiil: aramak (telefonla), çağırmak, adlandırmak",
+   "ipa": "/kɔl/"
+  },
+  {
+   "w": "camera",
+   "pos": [
+    "noun"
+   ],
+   "tr": "fotoğraf makinesi, kamera",
+   "ipa": "/ˈkæməɹə/"
+  },
+  {
+   "w": "camp",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: kamp; fiil: kamp yapmak",
+   "ipa": "/ˈkeə̯mp/"
+  },
+  {
+   "w": "can",
+   "pos": [
+    "modal auxiliary",
+    "noun"
+   ],
+   "tr": "yardımcı fiil: -ebilmek, -abilmek; isim: kutu, teneke kutu",
+   "ipa": "/kæn/"
+  },
+  {
+   "w": "candy",
+   "pos": [
+    "noun"
+   ],
+   "tr": "şeker, şekerleme",
+   "ipa": "/ˈkæn.di/"
+  },
+  {
+   "w": "cap",
+   "pos": [
+    "noun"
+   ],
+   "tr": "şapka, kep, kapak"
+  },
+  {
+   "w": "car",
+   "pos": [
+    "noun"
+   ],
+   "tr": "araba, otomobil",
+   "ipa": "/kɑɹ/"
+  },
+  {
+   "w": "card",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kart",
+   "ipa": "/kɑɹd/"
+  },
+  {
+   "w": "care",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: bakım, özen, dikkat; fiil: önemsemek, umursamak",
+   "ipa": "/kɛɚ/"
+  },
+  {
+   "w": "careful",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "dikkatli",
+   "ipa": "/ˈkɛɹfəl/"
+  },
+  {
+   "w": "carefully",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "dikkatlice, özenle",
+   "ipa": "/ˈkɛɹf(ə)li/"
+  },
+  {
+   "w": "carry",
+   "pos": [
+    "verb"
+   ],
+   "tr": "taşımak, götürmek",
+   "ipa": "/ˈkæɹ.i/"
+  },
+  {
+   "w": "cartoon",
+   "pos": [
+    "noun"
+   ],
+   "tr": "çizgi film, karikatür"
+  },
+  {
+   "w": "case",
+   "pos": [
+    "noun"
+   ],
+   "tr": "durum, dava, kılıf (kutu)",
+   "ipa": "/keɪs/"
+  },
+  {
+   "w": "cat",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kedi",
+   "ipa": "/ˈkæt/"
+  },
+  {
+   "w": "catch",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "fiil: yakalamak, (otobüse vb.) yetişmek; isim: yakalama, av",
+   "ipa": "/kæt͡ʃ/"
+  },
+  {
+   "w": "CD",
+   "pos": [
+    "noun"
+   ],
+   "tr": "CD, kompakt disk"
+  },
+  {
+   "w": "CD player",
+   "pos": [
+    "noun"
+   ],
+   "tr": "CD çalar"
+  },
+  {
+   "w": "celebrate",
+   "pos": [
+    "verb"
+   ],
+   "tr": "kutlamak",
+   "ipa": "/ˈsɛl.ə.bɹeɪt/"
+  },
+  {
+   "w": "celebration",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kutlama",
+   "ipa": "/ˌsɛl.əˈbɹeɪ.ʃən/"
+  },
+  {
+   "w": "chair",
+   "pos": [
+    "noun"
+   ],
+   "tr": "sandalye, (toplantı) başkanı",
+   "ipa": "/t͡ʃɛɚ/"
+  },
+  {
+   "w": "change",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: değişiklik, değişim, bozuk para; fiil: değiştirmek, değişmek",
+   "ipa": "/ˈt͡ʃeɪnd͡ʒ/"
+  },
+  {
+   "w": "character",
+   "pos": [
+    "noun"
+   ],
+   "tr": "karakter, kişilik",
+   "ipa": "/ˈkæ.ɹɪk.tə/"
+  },
+  {
+   "w": "check",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: kontrol, çek, hesap (restoranda); fiil: kontrol etmek, denetlemek",
+   "ipa": "/t͡ʃɛk/"
+  },
+  {
+   "w": "cheese",
+   "pos": [
+    "noun"
+   ],
+   "tr": "peynir",
+   "ipa": "/t͡ʃiz/"
+  },
+  {
+   "w": "chicken",
+   "pos": [
+    "noun"
+   ],
+   "tr": "tavuk, piliç",
+   "ipa": "/ˈt͡ʃɪkɪn/"
+  },
+  {
+   "w": "child",
+   "pos": [
+    "noun"
+   ],
+   "tr": "çocuk",
+   "ipa": "/tʃaɪld/"
+  },
+  {
+   "w": "chocolate",
+   "pos": [
+    "noun"
+   ],
+   "tr": "çikolata",
+   "ipa": "/ˈtʃɔk.(ə.)lɪt/"
+  },
+  {
+   "w": "choose",
+   "pos": [
+    "verb"
+   ],
+   "tr": "seçmek",
+   "ipa": "/t͡ʃuz/"
+  },
+  {
+   "w": "church",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kilise",
+   "ipa": "/t͡ʃɝt͡ʃ/"
+  },
+  {
+   "w": "cinema",
+   "pos": [
+    "noun"
+   ],
+   "tr": "sinema",
+   "ipa": "/ˈsɪn.ə.mə/"
+  },
+  {
+   "w": "circle",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: daire, çember, çevre (arkadaş çevresi); fiil: daire içine almak, etrafında dönmek",
+   "ipa": "/ˈsɜɹkəl/"
+  },
+  {
+   "w": "city",
+   "pos": [
+    "noun"
+   ],
+   "tr": "şehir, kent",
+   "ipa": "/ˈsɪt.i/ [ˈsɪɾ.i]"
+  },
+  {
+   "w": "class",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: sınıf, ders; fiil: sınıflandırmak",
+   "ipa": "/klæs/"
+  },
+  {
+   "w": "classmate",
+   "pos": [
+    "noun"
+   ],
+   "tr": "sınıf arkadaşı",
+   "ipa": "/ˈklæs.meɪt/"
+  },
+  {
+   "w": "classroom",
+   "pos": [
+    "noun"
+   ],
+   "tr": "sınıf, derslik",
+   "ipa": "/ˈklɑːsɹʊm/"
+  },
+  {
+   "w": "clean",
+   "pos": [
+    "adjective",
+    "verb"
+   ],
+   "tr": "sıfat: temiz; fiil: temizlemek",
+   "ipa": "/kliːn/"
+  },
+  {
+   "w": "clever",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "zeki, akıllı, becerikli",
+   "ipa": "/ˈklɛv.ɚ/"
+  },
+  {
+   "w": "climb",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "fiil: tırmanmak, çıkmak; isim: tırmanış",
+   "ipa": "/ˈklaɪ̯m/"
+  },
+  {
+   "w": "clock",
+   "pos": [
+    "noun"
+   ],
+   "tr": "saat (duvar/masa saati)",
+   "ipa": "/klɑk/"
+  },
+  {
+   "w": "close",
+   "pos": [
+    "adjective",
+    "verb"
+   ],
+   "tr": "sıfat: yakın; fiil: kapatmak, kapanmak",
+   "ipa": "/ˈkloʊ̯z/"
+  },
+  {
+   "w": "closed",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "kapalı"
+  },
+  {
+   "w": "cloth",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kumaş, bez",
+   "ipa": "/klɒθ/"
+  },
+  {
+   "w": "clothes",
+   "pos": [
+    "noun"
+   ],
+   "tr": "giysiler, kıyafet, elbise",
+   "ipa": "/kloʊ(ð)z/"
+  },
+  {
+   "w": "cloud",
+   "pos": [
+    "noun"
+   ],
+   "tr": "bulut",
+   "ipa": "/ˈklaʊ̯d/"
+  },
+  {
+   "w": "cloudy",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "bulutlu, kapalı (hava)",
+   "ipa": "/ˈklaʊ̯diː/"
+  },
+  {
+   "w": "club",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kulüp, sopa (golf)",
+   "ipa": "/klʌb/"
+  },
+  {
+   "w": "coach",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: antrenör, koç, şehirlerarası otobüs; fiil: çalıştırmak, eğitmek",
+   "ipa": "/koʊt͡ʃ/"
+  },
+  {
+   "w": "coat",
+   "pos": [
+    "noun"
+   ],
+   "tr": "palto, kaban, (boya) kat",
+   "ipa": "/ˈkoʊ̯t/"
+  },
+  {
+   "w": "code",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kod, şifre, kurallar",
+   "ipa": "/koʊd/"
+  },
+  {
+   "w": "coffee",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kahve",
+   "ipa": "/ˈkɑfi/"
+  },
+  {
+   "w": "coke",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kola",
+   "ipa": "/koʊk/"
+  },
+  {
+   "w": "cold",
+   "pos": [
+    "adjective",
+    "noun"
+   ],
+   "tr": "sıfat: soğuk; isim: soğuk algınlığı, nezle",
+   "ipa": "/koʊld/"
+  },
+  {
+   "w": "collect",
+   "pos": [
+    "verb"
+   ],
+   "tr": "toplamak, biriktirmek, (birini) gidip almak",
+   "ipa": "/kəˈlɛkt/"
+  },
+  {
+   "w": "collection",
+   "pos": [
+    "noun"
+   ],
+   "tr": "koleksiyon, toplama",
+   "ipa": "/kəˈlɛkʃən/"
+  },
+  {
+   "w": "college",
+   "pos": [
+    "noun"
+   ],
+   "tr": "üniversite, yüksekokul, kolej",
+   "ipa": "/ˈkɑ.lɪdʒ/"
+  },
+  {
+   "w": "color",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: renk; fiil: boyamak, renklendirmek",
+   "ipa": "/ˈkʌl.ɚ/"
+  },
+  {
+   "w": "come",
+   "pos": [
+    "verb"
+   ],
+   "tr": "gelmek",
+   "ipa": "/kʌm/"
+  },
+  {
+   "w": "computer",
+   "pos": [
+    "noun"
+   ],
+   "tr": "bilgisayar",
+   "ipa": "/kəmˈpju.tɚ/"
+  },
+  {
+   "w": "concert",
+   "pos": [
+    "noun"
+   ],
+   "tr": "konser",
+   "ipa": "/kənˈsɝt/"
+  },
+  {
+   "w": "contest",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: yarışma, mücadele; fiil: itiraz etmek, için yarışmak",
+   "ipa": "/ˈkɑn.tɛst/"
+  },
+  {
+   "w": "conversation",
+   "pos": [
+    "noun"
+   ],
+   "tr": "sohbet, konuşma",
+   "ipa": "/ˌkɑn.vəɹˈseɪ.ʃən/"
+  },
+  {
+   "w": "cook",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: aşçı; fiil: yemek pişirmek, pişirmek",
+   "ipa": "/kʊk/"
+  },
+  {
+   "w": "cookie",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kurabiye, çerez (internet)",
+   "ipa": "/ˈkʊki/"
+  },
+  {
+   "w": "cool",
+   "pos": [
+    "adjective",
+    "verb"
+   ],
+   "tr": "sıfat: serin, sakin, havalı; fiil: soğutmak, serinletmek",
+   "ipa": "/kul/"
+  },
+  {
+   "w": "cop",
+   "pos": [
+    "noun"
+   ],
+   "tr": "polis (gündelik dil)",
+   "ipa": "/kɑp/"
+  },
+  {
+   "w": "copy",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: kopya, nüsha; fiil: kopyalamak, çoğaltmak",
+   "ipa": "/ˈkɑpi/"
+  },
+  {
+   "w": "corn",
+   "pos": [
+    "noun"
+   ],
+   "tr": "mısır",
+   "ipa": "/ˈkɔɹn/"
+  },
+  {
+   "w": "corner",
+   "pos": [
+    "noun"
+   ],
+   "tr": "köşe",
+   "ipa": "/ˈkɔɹnɚ/"
+  },
+  {
+   "w": "correct",
+   "pos": [
+    "adjective",
+    "verb"
+   ],
+   "tr": "sıfat: doğru, düzgün; fiil: düzeltmek",
+   "ipa": "/kəˈɹɛkt/"
+  },
+  {
+   "w": "couch",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kanepe",
+   "ipa": "/ˈkaʊ̯t͡ʃ/"
+  },
+  {
+   "w": "could",
+   "pos": [
+    "modal auxiliary"
+   ],
+   "tr": "-ebildi, -ebilirdi (can'in geçmişi), -ebilir misiniz? (rica)"
+  },
+  {
+   "w": "course",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kurs, ders, rota (yön)",
+   "ipa": "/kɔɹs/"
+  },
+  {
+   "w": "cousin",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kuzen",
+   "ipa": "/ˈkʌz(ə)n/"
+  },
+  {
+   "w": "cover",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: kapak, örtü; fiil: örtmek, kaplamak, (konuyu) ele almak",
+   "ipa": "/ˈkʌvɚ/"
+  },
+  {
+   "w": "cow",
+   "pos": [
+    "noun"
+   ],
+   "tr": "inek",
+   "ipa": "/kaʊ/"
+  },
+  {
+   "w": "credit card",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kredi kartı",
+   "ipa": "/ˈkɹɛdɪt ˌkɑɹd/"
+  },
+  {
+   "w": "cry",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "fiil: ağlamak, bağırmak; isim: ağlama, çığlık",
+   "ipa": "/kɹaɪ/"
+  },
+  {
+   "w": "culture",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kültür",
+   "ipa": "/ˈkʌlt͡ʃɚ/"
+  },
+  {
+   "w": "cup",
+   "pos": [
+    "noun"
+   ],
+   "tr": "fincan, bardak, kupa",
+   "ipa": "/ˈkʌp/"
+  },
+  {
+   "w": "cute",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "sevimli, şirin, tatlı",
+   "ipa": "/kjuːt/"
+  },
+  {
+   "w": "dad",
+   "pos": [
+    "noun"
+   ],
+   "tr": "baba",
+   "ipa": "/dæd/"
+  },
+  {
+   "w": "daddy",
+   "pos": [
+    "noun"
+   ],
+   "tr": "babacığım, baba"
+  },
+  {
+   "w": "dance",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: dans; fiil: dans etmek",
+   "ipa": "/dæns/"
+  },
+  {
+   "w": "dancing",
+   "pos": [
+    "noun"
+   ],
+   "tr": "dans, dans etme"
+  },
+  {
+   "w": "dark",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "karanlık, koyu",
+   "ipa": "/dɑɹk/"
+  },
+  {
+   "w": "date",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: tarih, randevu (buluşma), hurma; fiil: tarih atmak, (biriyle) çıkmak",
+   "ipa": "/deɪt/"
+  },
+  {
+   "w": "daughter",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kız evlat, kızı",
+   "ipa": "/ˈdɔ.tɚ/"
+  },
+  {
+   "w": "day",
+   "pos": [
+    "noun"
+   ],
+   "tr": "gün, gündüz",
+   "ipa": "/deɪ̯/"
+  },
+  {
+   "w": "dear",
+   "pos": [
+    "adjective",
+    "noun"
+   ],
+   "tr": "sıfat: sevgili, değerli, sayın (mektupta); isim: canım, tatlım",
+   "ipa": "/dɪɹ/"
+  },
+  {
+   "w": "December",
+   "pos": [
+    "noun"
+   ],
+   "tr": "aralık",
+   "ipa": "/dɪˈsɛm.bɚ/"
+  },
+  {
+   "w": "delicious",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "lezzetli, nefis",
+   "ipa": "/dɪˈlɪ.ʃəs/"
+  },
+  {
+   "w": "describe",
+   "pos": [
+    "verb"
+   ],
+   "tr": "tarif etmek, tanımlamak, betimlemek",
+   "ipa": "[dɪˈskɹaɪ̯b]"
+  },
+  {
+   "w": "design",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: tasarım, desen; fiil: tasarlamak",
+   "ipa": "/dɪˈzaɪn/"
+  },
+  {
+   "w": "desk",
+   "pos": [
+    "noun"
+   ],
+   "tr": "çalışma masası, masa, banko (danışma)",
+   "ipa": "/dɛsk/"
+  },
+  {
+   "w": "dictionary",
+   "pos": [
+    "noun"
+   ],
+   "tr": "sözlük",
+   "ipa": "/ˈdɪk.ʃəˌnɛ.ɹi/"
+  },
+  {
+   "w": "did",
+   "pos": [
+    "do-verb"
+   ],
+   "tr": "yaptı (do'nun geçmiş hâli), geçmiş zaman soru/olumsuz yardımcısı"
+  },
+  {
+   "w": "difference",
+   "pos": [
+    "noun"
+   ],
+   "tr": "fark, ayrım",
+   "ipa": "/ˈdɪf.(ə.)ɹəns/"
+  },
+  {
+   "w": "different",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "farklı, değişik, başka",
+   "ipa": "/ˈdɪf.ə.ɹənt/"
+  },
+  {
+   "w": "difficult",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "zor, güç",
+   "ipa": "/ˈdɪfɪkəlt/"
+  },
+  {
+   "w": "dig",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "fiil: kazmak; isim: kazı",
+   "ipa": "/dɪɡ/"
+  },
+  {
+   "w": "dining room",
+   "pos": [
+    "noun"
+   ],
+   "tr": "yemek odası",
+   "ipa": "/ˈdaɪnɪŋˌɹum/"
+  },
+  {
+   "w": "dinner",
+   "pos": [
+    "noun"
+   ],
+   "tr": "akşam yemeği",
+   "ipa": "/ˈdɪnɚ/"
+  },
+  {
+   "w": "dirty",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "kirli, pis",
+   "ipa": "/ˈdɝti/"
+  },
+  {
+   "w": "discuss",
+   "pos": [
+    "verb"
+   ],
+   "tr": "tartışmak, görüşmek, ele almak",
+   "ipa": "/dɪˈskʌs/"
+  },
+  {
+   "w": "dish",
+   "pos": [
+    "noun"
+   ],
+   "tr": "tabak, yemek (çeşit), bulaşık (dishes)",
+   "ipa": "/dɪʃ/"
+  },
+  {
+   "w": "do",
+   "pos": [
+    "do-verb"
+   ],
+   "tr": "yapmak, etmek, (soru/olumsuz yardımcı fiili)",
+   "ipa": "/də/"
+  },
+  {
+   "w": "doctor",
+   "pos": [
+    "noun"
+   ],
+   "tr": "doktor",
+   "ipa": "/ˈdɑktɚ/"
+  },
+  {
+   "w": "does",
+   "pos": [
+    "do-verb"
+   ],
+   "tr": "yapar (do'nun he/she/it hâli), soru/olumsuz yardımcısı"
+  },
+  {
+   "w": "dog",
+   "pos": [
+    "noun"
+   ],
+   "tr": "köpek",
+   "ipa": "/dɒɡ/"
+  },
+  {
+   "w": "doing",
+   "pos": [
+    "do-verb"
+   ],
+   "tr": "yapma, yapıyor (do'nun -ing hâli)",
+   "ipa": "/ˈduːɪŋ/"
+  },
+  {
+   "w": "doll",
+   "pos": [
+    "noun"
+   ],
+   "tr": "oyuncak bebek",
+   "ipa": "/dɑl/"
+  },
+  {
+   "w": "dollar",
+   "pos": [
+    "noun"
+   ],
+   "tr": "dolar",
+   "ipa": "/ˈdɑ.lɚ/"
+  },
+  {
+   "w": "door",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kapı",
+   "ipa": "/doɹ/"
+  },
+  {
+   "w": "drama",
+   "pos": [
+    "noun"
+   ],
+   "tr": "drama, dram, tiyatro",
+   "ipa": "/ˈdɹɑmə/"
+  },
+  {
+   "w": "dream",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: rüya, hayal; fiil: rüya görmek, hayal etmek",
+   "ipa": "/ˈdɹim/"
+  },
+  {
+   "w": "dress",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: elbise; fiil: giyinmek, giydirmek",
+   "ipa": "/dɹɛs/"
+  },
+  {
+   "w": "drink",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: içecek, içki; fiil: içmek",
+   "ipa": "/ˈdɹɪŋk/"
+  },
+  {
+   "w": "drive",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "fiil: (araba) sürmek, kullanmak, arabayla götürmek; isim: araba yolculuğu, sürüş",
+   "ipa": "/dɹaɪv/"
+  },
+  {
+   "w": "driver",
+   "pos": [
+    "noun"
+   ],
+   "tr": "sürücü, şoför",
+   "ipa": "/ˈdɹaɪvɚ/"
+  },
+  {
+   "w": "drum",
+   "pos": [
+    "noun"
+   ],
+   "tr": "davul, varil",
+   "ipa": "/ˈdɹʌm/"
+  },
+  {
+   "w": "dry",
+   "pos": [
+    "adjective",
+    "verb"
+   ],
+   "tr": "sıfat: kuru; fiil: kurutmak, kurumak",
+   "ipa": "/ˈdɹaɪ̯/"
+  },
+  {
+   "w": "due",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "beklenen, vadesi gelmiş, (due to) -den dolayı",
+   "ipa": "/djuː/"
+  },
+  {
+   "w": "DVD",
+   "pos": [
+    "noun"
+   ],
+   "tr": "DVD",
+   "ipa": "/ˌdi vi ˈdi/"
+  },
+  {
+   "w": "each",
+   "pos": [
+    "determiner",
+    "pronoun"
+   ],
+   "tr": "belirleyici: her; zamir: her biri",
+   "ipa": "/it͡ʃ/"
+  },
+  {
+   "w": "each other",
+   "pos": [
+    "pronoun"
+   ],
+   "tr": "birbirini, birbirine",
+   "ipa": "/iˈt͡ʃʌð.ɚ/"
+  },
+  {
+   "w": "ear",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kulak",
+   "ipa": "/ˈɪɚ/"
+  },
+  {
+   "w": "easy",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "kolay, rahat",
+   "ipa": "/ˈiːzi/"
+  },
+  {
+   "w": "eat",
+   "pos": [
+    "verb"
+   ],
+   "tr": "yemek, yemek yemek",
+   "ipa": "/it/"
+  },
+  {
+   "w": "egg",
+   "pos": [
+    "noun"
+   ],
+   "tr": "yumurta",
+   "ipa": "/ɛɡ/"
+  },
+  {
+   "w": "eight",
+   "pos": [
+    "number"
+   ],
+   "tr": "sekiz",
+   "ipa": "/eɪt/"
+  },
+  {
+   "w": "eighteen",
+   "pos": [
+    "number"
+   ],
+   "tr": "on sekiz",
+   "ipa": "/ˈeɪ(t).tin/"
+  },
+  {
+   "w": "eighty",
+   "pos": [
+    "number"
+   ],
+   "tr": "seksen",
+   "ipa": "[ˈ(ʔ)eɪ̯ɾi]"
+  },
+  {
+   "w": "either",
+   "pos": [
+    "adverb",
+    "conjunction",
+    "determiner",
+    "pronoun"
+   ],
+   "tr": "bağlaç: ya … ya da; belirleyici: (ikisinden) herhangi bir, her iki; zamir: ikisinden biri; zarf: de/da (olumsuz cümlede)",
+   "ipa": "/ˈaɪ.ðɚ/"
+  },
+  {
+   "w": "elementary",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "temel, basit, başlangıç (seviyesi)"
+  },
+  {
+   "w": "eleven",
+   "pos": [
+    "number"
+   ],
+   "tr": "on bir",
+   "ipa": "/əˈlɛv.ən/"
+  },
+  {
+   "w": "else",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "başka, (or else) yoksa"
+  },
+  {
+   "w": "end",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: son, uç; fiil: bitmek, bitirmek, sona ermek",
+   "ipa": "/ɛnd/"
+  },
+  {
+   "w": "engineer",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: mühendis, teknisyen; fiil: tasarlayıp yapmak, ayarlamak",
+   "ipa": "/ˌɛnd͡ʒɪˈnɪ(ə)ɹ/"
+  },
+  {
+   "w": "enjoy",
+   "pos": [
+    "verb"
+   ],
+   "tr": "keyif almak, zevk almak, hoşlanmak",
+   "ipa": "/ɛnˈd͡ʒɔɪ/"
+  },
+  {
+   "w": "evening",
+   "pos": [
+    "noun"
+   ],
+   "tr": "akşam",
+   "ipa": "/ˈiv.nɪŋ/"
+  },
+  {
+   "w": "event",
+   "pos": [
+    "noun"
+   ],
+   "tr": "olay, etkinlik",
+   "ipa": "/ɪˈvɛnt/"
+  },
+  {
+   "w": "every",
+   "pos": [
+    "determiner"
+   ],
+   "tr": "her",
+   "ipa": "/ˈɛv.(ə.)ɹi/"
+  },
+  {
+   "w": "everybody",
+   "pos": [
+    "pronoun"
+   ],
+   "tr": "herkes",
+   "ipa": "/ˈɛv.ɹiˌbɑdi/"
+  },
+  {
+   "w": "everyday",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "gündelik, günlük, sıradan",
+   "ipa": "/ˈɛvɹiˌdeɪ/"
+  },
+  {
+   "w": "everyone",
+   "pos": [
+    "pronoun"
+   ],
+   "tr": "herkes",
+   "ipa": "/ˈɛv.ɹiː.wʌn/"
+  },
+  {
+   "w": "everything",
+   "pos": [
+    "pronoun"
+   ],
+   "tr": "her şey",
+   "ipa": "/ˈɛv(ə)ɹiˌθɪŋ/"
+  },
+  {
+   "w": "everywhere",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "her yerde, her yere",
+   "ipa": "/ˈɛv.ɹi.(h)wɛɹ/"
+  },
+  {
+   "w": "example",
+   "pos": [
+    "noun"
+   ],
+   "tr": "örnek, misal",
+   "ipa": "/ɪɡˈzæm.pəl/"
+  },
+  {
+   "w": "excellent",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "mükemmel, harika",
+   "ipa": "/ˈɛk.sə.lənt/"
+  },
+  {
+   "w": "excited",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "heyecanlı",
+   "ipa": "/ɪkˈsaɪ.tɪd/"
+  },
+  {
+   "w": "exciting",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "heyecan verici",
+   "ipa": "/ɪkˈsʌɪtɪŋ/"
+  },
+  {
+   "w": "excuse",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: bahane, mazeret; fiil: affetmek, mazur görmek",
+   "ipa": "/ɪksˈkjuz/"
+  },
+  {
+   "w": "expensive",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "pahalı",
+   "ipa": "/ɪkˈspɛn.sɪv/"
+  },
+  {
+   "w": "eye",
+   "pos": [
+    "noun"
+   ],
+   "tr": "göz",
+   "ipa": "/ˈaɪ̯/"
+  },
+  {
+   "w": "face",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: yüz, surat; fiil: yüzleşmek, karşı karşıya kalmak, -e bakmak",
+   "ipa": "/ˈfeɪ̯s/"
+  },
+  {
+   "w": "factory",
+   "pos": [
+    "noun"
+   ],
+   "tr": "fabrika",
+   "ipa": "/ˈfæk.tɚ.i/"
+  },
+  {
+   "w": "fair",
+   "pos": [
+    "adjective",
+    "noun"
+   ],
+   "tr": "sıfat: adil, haklı, açık renk (ten, saç); isim: fuar, panayır",
+   "ipa": "/ˈfɛɚ/"
+  },
+  {
+   "w": "fairy",
+   "pos": [
+    "noun"
+   ],
+   "tr": "peri",
+   "ipa": "/ˈfɛəɹi/"
+  },
+  {
+   "w": "false",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "yanlış, sahte, yapay",
+   "ipa": "/fɔls/"
+  },
+  {
+   "w": "family",
+   "pos": [
+    "noun"
+   ],
+   "tr": "aile",
+   "ipa": "/ˈfæm(ɪ)li/"
+  },
+  {
+   "w": "famous",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "ünlü, meşhur",
+   "ipa": "/ˈfeɪ.məs/"
+  },
+  {
+   "w": "fan",
+   "pos": [
+    "noun"
+   ],
+   "tr": "hayran, taraftar, vantilatör",
+   "ipa": "/fæn/"
+  },
+  {
+   "w": "farm",
+   "pos": [
+    "noun"
+   ],
+   "tr": "çiftlik",
+   "ipa": "/ˈfɑɹm/"
+  },
+  {
+   "w": "farmer",
+   "pos": [
+    "noun"
+   ],
+   "tr": "çiftçi",
+   "ipa": "/ˈfɑɹ.mɚ/"
+  },
+  {
+   "w": "fast",
+   "pos": [
+    "adjective",
+    "adverb"
+   ],
+   "tr": "hızlı, çabuk, hızla",
+   "ipa": "/fæst/"
+  },
+  {
+   "w": "fat",
+   "pos": [
+    "adjective",
+    "noun"
+   ],
+   "tr": "sıfat: şişman, kalın; isim: yağ",
+   "ipa": "/ˈfæt/"
+  },
+  {
+   "w": "father",
+   "pos": [
+    "noun"
+   ],
+   "tr": "baba",
+   "ipa": "/ˈfɑ.ðəɹ/"
+  },
+  {
+   "w": "favorite",
+   "pos": [
+    "adjective",
+    "noun"
+   ],
+   "tr": "sıfat: en sevilen, favori; isim: favori, gözde"
+  },
+  {
+   "w": "February",
+   "pos": [
+    "noun"
+   ],
+   "tr": "şubat",
+   "ipa": "/ˈfɛb.ɹuˌɛɹi/"
+  },
+  {
+   "w": "feed",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "fiil: beslemek, yem vermek; isim: yem, (haber) akış",
+   "ipa": "/fiːd/"
+  },
+  {
+   "w": "feeling",
+   "pos": [
+    "noun"
+   ],
+   "tr": "duygu, his",
+   "ipa": "/ˈfi.lɪŋ/"
+  },
+  {
+   "w": "festival",
+   "pos": [
+    "noun"
+   ],
+   "tr": "festival, şenlik",
+   "ipa": "/ˈfɛstəvəl/"
+  },
+  {
+   "w": "fever",
+   "pos": [
+    "noun"
+   ],
+   "tr": "ateş (hastalıkta), yüksek ateş",
+   "ipa": "/ˈfivɚ/"
+  },
+  {
+   "w": "field",
+   "pos": [
+    "noun"
+   ],
+   "tr": "tarla, alan, saha",
+   "ipa": "/ˈfi(ː)ld/"
+  },
+  {
+   "w": "fifteen",
+   "pos": [
+    "number"
+   ],
+   "tr": "on beş",
+   "ipa": "/ˈfɪf.tiːn/"
+  },
+  {
+   "w": "fifty",
+   "pos": [
+    "number"
+   ],
+   "tr": "elli",
+   "ipa": "/ˈfɪfti/"
+  },
+  {
+   "w": "fight",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "fiil: kavga etmek, savaşmak, mücadele etmek; isim: kavga, mücadele",
+   "ipa": "/fəɪt/"
+  },
+  {
+   "w": "file",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: dosya, klasör; fiil: dosyalamak, (başvuru, dava) yapmak",
+   "ipa": "/faɪl/"
+  },
+  {
+   "w": "fill",
+   "pos": [
+    "verb"
+   ],
+   "tr": "doldurmak, dolmak",
+   "ipa": "/fɪl/"
+  },
+  {
+   "w": "find",
+   "pos": [
+    "verb"
+   ],
+   "tr": "bulmak",
+   "ipa": "/ˈfaɪ̯nd/"
+  },
+  {
+   "w": "fine",
+   "pos": [
+    "adjective",
+    "adverb",
+    "noun",
+    "verb"
+   ],
+   "tr": "sıfat: iyi, güzel, ince; zarf: iyi, güzel; isim: para cezası; fiil: para cezası vermek",
+   "ipa": "/faɪn/"
+  },
+  {
+   "w": "finish",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "fiil: bitirmek, bitmek; isim: bitiş, son",
+   "ipa": "/ˈfɪnɪʃ/"
+  },
+  {
+   "w": "fire",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: ateş, yangın; fiil: işten çıkarmak, ateş etmek",
+   "ipa": "/ˈfaɪ.ɚ/"
+  },
+  {
+   "w": "first",
+   "pos": [
+    "adjective",
+    "adverb"
+   ],
+   "tr": "sıfat: ilk, birinci; zarf: önce, ilk olarak",
+   "ipa": "/fɚst/"
+  },
+  {
+   "w": "fish",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: balık; fiil: balık tutmak",
+   "ipa": "/fɪʃ/"
+  },
+  {
+   "w": "fishing",
+   "pos": [
+    "noun"
+   ],
+   "tr": "balıkçılık, balık tutma",
+   "ipa": "/ˈfɪʃɪŋ/"
+  },
+  {
+   "w": "five",
+   "pos": [
+    "number"
+   ],
+   "tr": "beş",
+   "ipa": "/ˈfaɪ̯v/"
+  },
+  {
+   "w": "flag",
+   "pos": [
+    "noun"
+   ],
+   "tr": "bayrak",
+   "ipa": "/flæɡ/"
+  },
+  {
+   "w": "floor",
+   "pos": [
+    "noun"
+   ],
+   "tr": "zemin, yer, kat",
+   "ipa": "/floɹ/"
+  },
+  {
+   "w": "flower",
+   "pos": [
+    "noun"
+   ],
+   "tr": "çiçek",
+   "ipa": "/ˈflaʊ̯.ɚ/"
+  },
+  {
+   "w": "fly",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: sinek; fiil: uçmak, uçakla gitmek",
+   "ipa": "/flaɪ/"
+  },
+  {
+   "w": "foggy",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "sisli",
+   "ipa": "/ˈfɒɡi/"
+  },
+  {
+   "w": "following",
+   "pos": [
+    "adjective",
+    "preposition"
+   ],
+   "tr": "sıfat: sonraki, aşağıdaki, ertesi; edat: -in ardından, -den sonra",
+   "ipa": "/ˈfɑloʊɪŋ/"
+  },
+  {
+   "w": "food",
+   "pos": [
+    "noun"
+   ],
+   "tr": "yiyecek, yemek, gıda",
+   "ipa": "[fu̟(ː)d]"
+  },
+  {
+   "w": "football",
+   "pos": [
+    "noun"
+   ],
+   "tr": "futbol, futbol topu",
+   "ipa": "/ˈfʊt.bɔːl/"
+  },
+  {
+   "w": "foreign",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "yabancı, dış (ülke)",
+   "ipa": "/ˈfɔɹɪn/"
+  },
+  {
+   "w": "foreigner",
+   "pos": [
+    "noun"
+   ],
+   "tr": "yabancı",
+   "ipa": "/ˈfɔɹ.ɪ.nɚ/"
+  },
+  {
+   "w": "forget",
+   "pos": [
+    "verb"
+   ],
+   "tr": "unutmak",
+   "ipa": "/fɚˈɡɛt/"
+  },
+  {
+   "w": "form",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: form, biçim, şekil; fiil: oluşturmak, kurmak",
+   "ipa": "/fɔɹm/"
+  },
+  {
+   "w": "forty",
+   "pos": [
+    "number"
+   ],
+   "tr": "kırk",
+   "ipa": "/ˈfoɹti/"
+  },
+  {
+   "w": "four",
+   "pos": [
+    "number"
+   ],
+   "tr": "dört",
+   "ipa": "[fɔː]"
+  },
+  {
+   "w": "fourteen",
+   "pos": [
+    "number"
+   ],
+   "tr": "on dört",
+   "ipa": "/ˈfɔɹ.tin/"
+  },
+  {
+   "w": "free",
+   "pos": [
+    "adjective",
+    "adverb",
+    "verb"
+   ],
+   "tr": "sıfat: özgür, ücretsiz, boş; zarf: bedava, ücretsiz; fiil: serbest bırakmak, kurtarmak",
+   "ipa": "/fɹi/"
+  },
+  {
+   "w": "Friday",
+   "pos": [
+    "noun"
+   ],
+   "tr": "cuma",
+   "ipa": "/ˈfɹaɪ.deɪ/"
+  },
+  {
+   "w": "friend",
+   "pos": [
+    "noun"
+   ],
+   "tr": "arkadaş, dost",
+   "ipa": "/fɹɛnd/"
+  },
+  {
+   "w": "frog",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kurbağa",
+   "ipa": "/fɹɒɡ/"
+  },
+  {
+   "w": "from",
+   "pos": [
+    "preposition"
+   ],
+   "tr": "-den/-dan, -li/-lı (nereli)",
+   "ipa": "/ˈfɹʌm/"
+  },
+  {
+   "w": "front",
+   "pos": [
+    "adjective",
+    "noun"
+   ],
+   "tr": "ön, ön taraf, cephe",
+   "ipa": "/fɹʌnt/"
+  },
+  {
+   "w": "fruit",
+   "pos": [
+    "noun"
+   ],
+   "tr": "meyve",
+   "ipa": "/fɹut/"
+  },
+  {
+   "w": "full",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "dolu, tok, tam",
+   "ipa": "/fʊl/"
+  },
+  {
+   "w": "fun",
+   "pos": [
+    "adjective",
+    "noun"
+   ],
+   "tr": "isim: eğlence; sıfat: eğlenceli",
+   "ipa": "/fʌn/"
+  },
+  {
+   "w": "funny",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "komik, eğlenceli, tuhaf",
+   "ipa": "/ˈfʌni/"
+  },
+  {
+   "w": "game",
+   "pos": [
+    "noun"
+   ],
+   "tr": "oyun, maç",
+   "ipa": "[ɡeɪ̯m]"
+  },
+  {
+   "w": "garbage",
+   "pos": [
+    "noun"
+   ],
+   "tr": "çöp",
+   "ipa": "/ˈɡɑɹ.bɪd͡ʒ/"
+  },
+  {
+   "w": "garden",
+   "pos": [
+    "noun"
+   ],
+   "tr": "bahçe",
+   "ipa": "/ˈɡɑɹ.d(ə)n/"
+  },
+  {
+   "w": "get",
+   "pos": [
+    "verb"
+   ],
+   "tr": "almak, olmak (… hâle gelmek), varmak",
+   "ipa": "/ɡɛt/"
+  },
+  {
+   "w": "ghost",
+   "pos": [
+    "noun"
+   ],
+   "tr": "hayalet",
+   "ipa": "/ɡoʊst/"
+  },
+  {
+   "w": "gift",
+   "pos": [
+    "noun"
+   ],
+   "tr": "hediye, armağan, yetenek",
+   "ipa": "/ɡɪft/"
+  },
+  {
+   "w": "girl",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kız, kız çocuğu",
+   "ipa": "/ˈɡɜɹl/"
+  },
+  {
+   "w": "girlfriend",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kız arkadaş, sevgili",
+   "ipa": "/ˈɡɝlfɹɛnd/"
+  },
+  {
+   "w": "give",
+   "pos": [
+    "verb"
+   ],
+   "tr": "vermek",
+   "ipa": "/ˈɡɪv/"
+  },
+  {
+   "w": "glad",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "memnun, sevinçli"
+  },
+  {
+   "w": "glass",
+   "pos": [
+    "noun"
+   ],
+   "tr": "cam, bardak",
+   "ipa": "/ɡlæs/"
+  },
+  {
+   "w": "glasses",
+   "pos": [
+    "noun"
+   ],
+   "tr": "gözlük, bardaklar"
+  },
+  {
+   "w": "goal",
+   "pos": [
+    "noun"
+   ],
+   "tr": "hedef, amaç, gol",
+   "ipa": "/ɡoʊl/"
+  },
+  {
+   "w": "gold",
+   "pos": [
+    "adjective",
+    "noun"
+   ],
+   "tr": "altın, altın rengi",
+   "ipa": "/ɡoʊld/"
+  },
+  {
+   "w": "good",
+   "pos": [
+    "adjective",
+    "noun"
+   ],
+   "tr": "sıfat: iyi, güzel, uslu; isim: iyilik, yarar",
+   "ipa": "/ɡʊd/"
+  },
+  {
+   "w": "good afternoon",
+   "pos": [
+    "interjection"
+   ],
+   "tr": "tünaydın, iyi günler"
+  },
+  {
+   "w": "good morning",
+   "pos": [
+    "interjection"
+   ],
+   "tr": "günaydın",
+   "ipa": "/ˌɡʊd ˈmɔɹnɪŋ/"
+  },
+  {
+   "w": "good night",
+   "pos": [
+    "interjection"
+   ],
+   "tr": "iyi geceler",
+   "ipa": "/ɡʊd ˈnaɪt/"
+  },
+  {
+   "w": "grade",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: not, derece, sınıf (okulda); fiil: not vermek, derecelendirmek",
+   "ipa": "[ɡɹeɪd]"
+  },
+  {
+   "w": "grammar",
+   "pos": [
+    "noun"
+   ],
+   "tr": "dil bilgisi, gramer",
+   "ipa": "/ˈɡɹæm.ɚ/"
+  },
+  {
+   "w": "grandfather",
+   "pos": [
+    "noun"
+   ],
+   "tr": "dede, büyükbaba",
+   "ipa": "/ˈɡɹæn(d)ˌfɑðɚ/"
+  },
+  {
+   "w": "grandma",
+   "pos": [
+    "noun"
+   ],
+   "tr": "nine, babaanne, anneanne",
+   "ipa": "/ˈɡɹænmɑː/"
+  },
+  {
+   "w": "grandmother",
+   "pos": [
+    "noun"
+   ],
+   "tr": "büyükanne, babaanne, anneanne",
+   "ipa": "/ˈɡɹæn(d)ˌmʌðɚ/"
+  },
+  {
+   "w": "grandpa",
+   "pos": [
+    "noun"
+   ],
+   "tr": "dede, büyükbaba"
+  },
+  {
+   "w": "grandparent",
+   "pos": [
+    "noun"
+   ],
+   "tr": "büyükanne veya büyükbaba (dede, nine)"
+  },
+  {
+   "w": "grape",
+   "pos": [
+    "noun"
+   ],
+   "tr": "üzüm",
+   "ipa": "/ɡɹeɪp/"
+  },
+  {
+   "w": "grass",
+   "pos": [
+    "noun"
+   ],
+   "tr": "çim, çimen, ot",
+   "ipa": "[ɡɹ̠æs]"
+  },
+  {
+   "w": "gray",
+   "pos": [
+    "adjective",
+    "noun"
+   ],
+   "tr": "gri, kır (saç)",
+   "ipa": "/ɡɹeɪ/"
+  },
+  {
+   "w": "great",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "harika, büyük, önemli",
+   "ipa": "/ˈɡɹeɪt/"
+  },
+  {
+   "w": "green",
+   "pos": [
+    "adjective",
+    "noun"
+   ],
+   "tr": "yeşil, çevreci, toy (acemi)",
+   "ipa": "/ˈɡɹin/"
+  },
+  {
+   "w": "greet",
+   "pos": [
+    "verb"
+   ],
+   "tr": "selamlamak, karşılamak",
+   "ipa": "/ɡɹiːt/"
+  },
+  {
+   "w": "ground",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: yer, zemin, toprak; fiil: (uçağı) yerde tutmak, dayandırmak",
+   "ipa": "/ɡɹaʊnd/"
+  },
+  {
+   "w": "group",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: grup, küme; fiil: gruplamak, gruplandırmak",
+   "ipa": "/ɡɹup/"
+  },
+  {
+   "w": "grow",
+   "pos": [
+    "verb"
+   ],
+   "tr": "büyümek, yetiştirmek, artmak",
+   "ipa": "/ˈɡɹoʊ/"
+  },
+  {
+   "w": "guest",
+   "pos": [
+    "noun"
+   ],
+   "tr": "misafir, konuk",
+   "ipa": "/ɡɛst/"
+  },
+  {
+   "w": "guitar",
+   "pos": [
+    "noun"
+   ],
+   "tr": "gitar",
+   "ipa": "/ɡɪˈtɑɹ/"
+  },
+  {
+   "w": "guy",
+   "pos": [
+    "noun"
+   ],
+   "tr": "adam, arkadaş (gündelik dil)"
+  },
+  {
+   "w": "habit",
+   "pos": [
+    "noun"
+   ],
+   "tr": "alışkanlık, âdet",
+   "ipa": "/ˈhæb.ɪt/"
+  },
+  {
+   "w": "had",
+   "pos": [
+    "have-verb"
+   ],
+   "tr": "vardı, sahipti (have'in geçmiş hâli)"
+  },
+  {
+   "w": "hair",
+   "pos": [
+    "noun"
+   ],
+   "tr": "saç, kıl, tüy",
+   "ipa": "/ˈhɛɚ/"
+  },
+  {
+   "w": "haircut",
+   "pos": [
+    "noun"
+   ],
+   "tr": "saç kesimi, saç tıraşı",
+   "ipa": "/ˈhɛə(ɹ)kʌt/"
+  },
+  {
+   "w": "hall",
+   "pos": [
+    "noun"
+   ],
+   "tr": "salon, koridor, hol",
+   "ipa": "/hɔːl/"
+  },
+  {
+   "w": "hamburger",
+   "pos": [
+    "noun"
+   ],
+   "tr": "hamburger",
+   "ipa": "/ˈhæmˌbɜɹ.ɡɚ/"
+  },
+  {
+   "w": "hand",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: el, (saat) ibre; fiil: vermek, uzatmak",
+   "ipa": "/hænd/"
+  },
+  {
+   "w": "handsome",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "yakışıklı",
+   "ipa": "/ˈhæn.səm/"
+  },
+  {
+   "w": "happen",
+   "pos": [
+    "verb"
+   ],
+   "tr": "olmak, meydana gelmek",
+   "ipa": "/ˈhæpən/"
+  },
+  {
+   "w": "happy",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "mutlu, memnun",
+   "ipa": "/ˈhæpi/"
+  },
+  {
+   "w": "hard",
+   "pos": [
+    "adjective",
+    "adverb"
+   ],
+   "tr": "sıfat: zor, sert; zarf: sıkı, çok (work hard: çok çalışmak)",
+   "ipa": "/hɑɹd/"
+  },
+  {
+   "w": "has",
+   "pos": [
+    "have-verb"
+   ],
+   "tr": "sahip olmak (he/she/it ile), (…'si) var"
+  },
+  {
+   "w": "hat",
+   "pos": [
+    "noun"
+   ],
+   "tr": "şapka",
+   "ipa": "/hæt/"
+  },
+  {
+   "w": "have",
+   "pos": [
+    "have-verb"
+   ],
+   "tr": "sahip olmak, (…'si) olmak/var, yemek/içmek (have lunch)",
+   "ipa": "/ˈhæv/"
+  },
+  {
+   "w": "have to",
+   "pos": [
+    "modal auxiliary"
+   ],
+   "tr": "-mek zorunda olmak, -meli",
+   "ipa": "/ˈhæv.tuː/"
+  },
+  {
+   "w": "he",
+   "pos": [
+    "pronoun"
+   ],
+   "tr": "o (erkek)",
+   "ipa": "[hi(ː)]"
+  },
+  {
+   "w": "head",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: baş, kafa, başkan (yönetici); fiil: yönetmek, -e doğru gitmek",
+   "ipa": "/hɛd/"
+  },
+  {
+   "w": "headache",
+   "pos": [
+    "noun"
+   ],
+   "tr": "baş ağrısı",
+   "ipa": "/ˈhɛdeɪk/"
+  },
+  {
+   "w": "health",
+   "pos": [
+    "noun"
+   ],
+   "tr": "sağlık",
+   "ipa": "/ˈhɛlθ/"
+  },
+  {
+   "w": "healthy",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "sağlıklı",
+   "ipa": "/ˈhɛl.θi/"
+  },
+  {
+   "w": "hear",
+   "pos": [
+    "verb"
+   ],
+   "tr": "duymak, işitmek",
+   "ipa": "/ˈhɪɚ/"
+  },
+  {
+   "w": "heart",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kalp, yürek, gönül",
+   "ipa": "/hɑɹt/"
+  },
+  {
+   "w": "heavy",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "ağır, yoğun",
+   "ipa": "/ˈhɛv.i/"
+  },
+  {
+   "w": "hello",
+   "pos": [
+    "noun"
+   ],
+   "tr": "merhaba, selam, alo (telefonda)",
+   "ipa": "/hɛˈloʊ/"
+  },
+  {
+   "w": "her",
+   "pos": [
+    "determiner",
+    "pronoun"
+   ],
+   "tr": "belirleyici: onun (kadın için); zamir: onu, ona (kadın için)",
+   "ipa": "/ˈhɝ/"
+  },
+  {
+   "w": "here",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "burada, buraya, işte",
+   "ipa": "/ˈhɪɚ̯/"
+  },
+  {
+   "w": "hers",
+   "pos": [
+    "pronoun"
+   ],
+   "tr": "onunki (kadın için)"
+  },
+  {
+   "w": "hi",
+   "pos": [
+    "interjection"
+   ],
+   "tr": "merhaba, selam",
+   "ipa": "/haɪ/"
+  },
+  {
+   "w": "hide",
+   "pos": [
+    "verb"
+   ],
+   "tr": "saklamak, saklanmak, gizlemek",
+   "ipa": "/haɪd/"
+  },
+  {
+   "w": "high",
+   "pos": [
+    "adjective",
+    "adverb"
+   ],
+   "tr": "sıfat: yüksek; zarf: yükseğe, yüksekte",
+   "ipa": "/haɪ/"
+  },
+  {
+   "w": "hill",
+   "pos": [
+    "noun"
+   ],
+   "tr": "tepe, yokuş",
+   "ipa": "[hɪɫ]"
+  },
+  {
+   "w": "him",
+   "pos": [
+    "pronoun"
+   ],
+   "tr": "onu, ona (erkek için)",
+   "ipa": "/ˈhɪm/"
+  },
+  {
+   "w": "his",
+   "pos": [
+    "determiner",
+    "pronoun"
+   ],
+   "tr": "belirleyici: onun (erkek için); zamir: onunki (erkek için)",
+   "ipa": "/hɪz/"
+  },
+  {
+   "w": "history",
+   "pos": [
+    "noun"
+   ],
+   "tr": "tarih, geçmiş",
+   "ipa": "/ˈhɪs.tə.ɹi/"
+  },
+  {
+   "w": "hobby",
+   "pos": [
+    "noun"
+   ],
+   "tr": "hobi, uğraş",
+   "ipa": "/ˈhɑ.bi/"
+  },
+  {
+   "w": "hold",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "fiil: tutmak, (toplantı) düzenlemek, (hatta) beklemek; isim: tutuş, bekleme (on hold)",
+   "ipa": "/hoʊld/"
+  },
+  {
+   "w": "hole",
+   "pos": [
+    "noun"
+   ],
+   "tr": "delik, çukur",
+   "ipa": "/hoʊl/"
+  },
+  {
+   "w": "holiday",
+   "pos": [
+    "noun"
+   ],
+   "tr": "tatil, bayram",
+   "ipa": "/ˈhɑləˌdeɪ/"
+  },
+  {
+   "w": "hometown",
+   "pos": [
+    "noun"
+   ],
+   "tr": "memleket, doğduğu şehir",
+   "ipa": "/ˈhoʊmˌtaʊn/"
+  },
+  {
+   "w": "homework",
+   "pos": [
+    "noun"
+   ],
+   "tr": "ev ödevi, ödev"
+  },
+  {
+   "w": "hope",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: umut, ümit; fiil: umut etmek, ummak",
+   "ipa": "/ˈhoʊp/"
+  },
+  {
+   "w": "horse",
+   "pos": [
+    "noun"
+   ],
+   "tr": "at",
+   "ipa": "/hoɹs/"
+  },
+  {
+   "w": "hospital",
+   "pos": [
+    "noun"
+   ],
+   "tr": "hastane",
+   "ipa": "/ˈhɑs.pɪ.tl̩/"
+  },
+  {
+   "w": "hot",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "sıcak, acı (biber vb.)",
+   "ipa": "/hɑt/"
+  },
+  {
+   "w": "hotel",
+   "pos": [
+    "noun"
+   ],
+   "tr": "otel",
+   "ipa": "/həʊˈtɛl/"
+  },
+  {
+   "w": "hour",
+   "pos": [
+    "noun"
+   ],
+   "tr": "saat (60 dakika)",
+   "ipa": "/aʊɚ/"
+  },
+  {
+   "w": "house",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: ev; fiil: barındırmak, yerleştirmek",
+   "ipa": "/haʊ̯s/"
+  },
+  {
+   "w": "how",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "nasıl, ne kadar (how much/many)",
+   "ipa": "/haʊ/"
+  },
+  {
+   "w": "hungry",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "aç",
+   "ipa": "/ˈhʌŋ.ɡɹi/"
+  },
+  {
+   "w": "hurry",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: acele; fiil: acele etmek",
+   "ipa": "/ˈhʌ.ɹi/"
+  },
+  {
+   "w": "husband",
+   "pos": [
+    "noun"
+   ],
+   "tr": "koca, eş",
+   "ipa": "/ˈhʌzbənd/"
+  },
+  {
+   "w": "I",
+   "pos": [
+    "pronoun"
+   ],
+   "tr": "ben",
+   "ipa": "/ə/"
+  },
+  {
+   "w": "ice",
+   "pos": [
+    "noun"
+   ],
+   "tr": "buz",
+   "ipa": "/aɪs/"
+  },
+  {
+   "w": "ice cream",
+   "pos": [
+    "noun"
+   ],
+   "tr": "dondurma",
+   "ipa": "/ˌaɪsˈkɹiːm/"
+  },
+  {
+   "w": "idea",
+   "pos": [
+    "noun"
+   ],
+   "tr": "fikir, düşünce",
+   "ipa": "/aɪ̯ˈdi.ə/"
+  },
+  {
+   "w": "ideal",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "ideal, mükemmel, en uygun"
+  },
+  {
+   "w": "if",
+   "pos": [
+    "conjunction"
+   ],
+   "tr": "eğer, -se/-sa, -ip -mediğini",
+   "ipa": "/ɪf/"
+  },
+  {
+   "w": "imagine",
+   "pos": [
+    "verb"
+   ],
+   "tr": "hayal etmek, düşünmek, tasavvur etmek",
+   "ipa": "/ɪˈmæd͡ʒ.ɪn/"
+  },
+  {
+   "w": "important",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "önemli",
+   "ipa": "/ɪmˈpɔɹ.tənt/"
+  },
+  {
+   "w": "information",
+   "pos": [
+    "noun"
+   ],
+   "tr": "bilgi",
+   "ipa": "/ˌɪn.fɚˈmeɪ.ʃn̩/"
+  },
+  {
+   "w": "interested",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "ilgili, ilgilenen, meraklı",
+   "ipa": "/ˈɪntəɹɪstɪd/"
+  },
+  {
+   "w": "interesting",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "ilginç",
+   "ipa": "/ˈɪntəɹəstɪŋ/"
+  },
+  {
+   "w": "Internet",
+   "pos": [
+    "noun"
+   ],
+   "tr": "internet",
+   "ipa": "/ˈɪn.(t)ɚˌnɛt/"
+  },
+  {
+   "w": "interview",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: görüşme, mülakat, röportaj; fiil: görüşme yapmak, röportaj yapmak",
+   "ipa": "/ˈɪn.(t)ɚ.vju/"
+  },
+  {
+   "w": "interviewer",
+   "pos": [
+    "noun"
+   ],
+   "tr": "görüşmeci, mülakatçı, röportajcı",
+   "ipa": "/ˈɪntɚvjuɚ/"
+  },
+  {
+   "w": "into",
+   "pos": [
+    "preposition"
+   ],
+   "tr": "içine, -e/-a (içeri doğru)",
+   "ipa": "/ˈɪn.tu/"
+  },
+  {
+   "w": "introduce",
+   "pos": [
+    "verb"
+   ],
+   "tr": "tanıştırmak, tanıtmak, uygulamaya koymak",
+   "ipa": "/ˌɪntɹəˈdus/"
+  },
+  {
+   "w": "is",
+   "pos": [
+    "be-verb"
+   ],
+   "tr": "-dir/-dır (olmak; he/she/it ile)"
+  },
+  {
+   "w": "island",
+   "pos": [
+    "noun"
+   ],
+   "tr": "ada",
+   "ipa": "/ˈaɪlənd/"
+  },
+  {
+   "w": "it",
+   "pos": [
+    "pronoun"
+   ],
+   "tr": "o, onu, ona (cansız varlık ya da hayvan için; \"it is…\" gibi yapılarda Türkçede çoğu zaman karşılığı yok)",
+   "ipa": "/ɪt/"
+  },
+  {
+   "w": "item",
+   "pos": [
+    "noun"
+   ],
+   "tr": "madde, öge, ürün",
+   "ipa": "/ˈaɪ.təm/"
+  },
+  {
+   "w": "its",
+   "pos": [
+    "determiner",
+    "pronoun"
+   ],
+   "tr": "onun, onunki (cansız ya da hayvan için)",
+   "ipa": "/ɪʔ.s/"
+  },
+  {
+   "w": "jacket",
+   "pos": [
+    "noun"
+   ],
+   "tr": "ceket, mont",
+   "ipa": "/ˈd͡ʒæk.ɪt/"
+  },
+  {
+   "w": "January",
+   "pos": [
+    "noun"
+   ],
+   "tr": "ocak",
+   "ipa": "/ˈd͡ʒæn.juˌɛɹi/"
+  },
+  {
+   "w": "jeans",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kot pantolon, kot",
+   "ipa": "/d͡ʒiːnz/"
+  },
+  {
+   "w": "jet",
+   "pos": [
+    "noun"
+   ],
+   "tr": "jet (uçağı), fışkırma",
+   "ipa": "/ˈd͡ʒɛt/"
+  },
+  {
+   "w": "jewelry",
+   "pos": [
+    "noun"
+   ],
+   "tr": "mücevher, takı"
+  },
+  {
+   "w": "job",
+   "pos": [
+    "noun"
+   ],
+   "tr": "iş, görev, meslek",
+   "ipa": "/dʒɑb/"
+  },
+  {
+   "w": "join",
+   "pos": [
+    "verb"
+   ],
+   "tr": "katılmak, birleştirmek, üye olmak",
+   "ipa": "/ˈd͡ʒɔɪn/"
+  },
+  {
+   "w": "juice",
+   "pos": [
+    "noun"
+   ],
+   "tr": "meyve suyu, (sebze/et) suyu",
+   "ipa": "/d͡ʒus/"
+  },
+  {
+   "w": "July",
+   "pos": [
+    "noun"
+   ],
+   "tr": "temmuz",
+   "ipa": "/d͡ʒəˈlaɪ/"
+  },
+  {
+   "w": "June",
+   "pos": [
+    "noun"
+   ],
+   "tr": "haziran",
+   "ipa": "/d͡ʒun/"
+  },
+  {
+   "w": "just",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "sadece, az önce, tam (olarak)",
+   "ipa": "/d͡ʒʌst/"
+  },
+  {
+   "w": "keep",
+   "pos": [
+    "verb"
+   ],
+   "tr": "tutmak, saklamak, -meye devam etmek",
+   "ipa": "[k̟çi(ː)p]"
+  },
+  {
+   "w": "key",
+   "pos": [
+    "adjective",
+    "noun"
+   ],
+   "tr": "isim: anahtar, tuş; sıfat: kilit (çok önemli), temel",
+   "ipa": "/ki/"
+  },
+  {
+   "w": "kick",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "fiil: tekmelemek, tekme atmak; isim: tekme",
+   "ipa": "/kɪk/"
+  },
+  {
+   "w": "kid",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: çocuk; fiil: şaka yapmak, takılmak",
+   "ipa": "/ˈkɪd/"
+  },
+  {
+   "w": "kill",
+   "pos": [
+    "verb"
+   ],
+   "tr": "öldürmek",
+   "ipa": "/ˈkɪl/"
+  },
+  {
+   "w": "king",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kral",
+   "ipa": "/ˈkɪŋɡ/"
+  },
+  {
+   "w": "kiss",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: öpücük; fiil: öpmek",
+   "ipa": "/kɪs/"
+  },
+  {
+   "w": "kitchen",
+   "pos": [
+    "noun"
+   ],
+   "tr": "mutfak",
+   "ipa": "/ˈkɪt͡ʃ(ə)n/"
+  },
+  {
+   "w": "kite",
+   "pos": [
+    "noun"
+   ],
+   "tr": "uçurtma",
+   "ipa": "/kaɪt/"
+  },
+  {
+   "w": "knee",
+   "pos": [
+    "noun"
+   ],
+   "tr": "diz",
+   "ipa": "/ni/"
+  },
+  {
+   "w": "knife",
+   "pos": [
+    "noun"
+   ],
+   "tr": "bıçak",
+   "ipa": "/ˈnaɪ̯f/"
+  },
+  {
+   "w": "know",
+   "pos": [
+    "verb"
+   ],
+   "tr": "bilmek, tanımak",
+   "ipa": "/noʊ/"
+  },
+  {
+   "w": "lady",
+   "pos": [
+    "noun"
+   ],
+   "tr": "hanımefendi, bayan, hanım",
+   "ipa": "/ˈleɪ.di/"
+  },
+  {
+   "w": "language",
+   "pos": [
+    "noun"
+   ],
+   "tr": "dil, lisan",
+   "ipa": "/ˈlæŋ.ɡwɪd͡ʒ/"
+  },
+  {
+   "w": "large",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "büyük, geniş, iri",
+   "ipa": "/lɑɹd͡ʒ/"
+  },
+  {
+   "w": "last name",
+   "pos": [
+    "noun"
+   ],
+   "tr": "soyadı"
+  },
+  {
+   "w": "late",
+   "pos": [
+    "adjective",
+    "adverb"
+   ],
+   "tr": "sıfat: geç, gecikmiş, rahmetli; zarf: geç",
+   "ipa": "/leɪt/"
+  },
+  {
+   "w": "lazy",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "tembel",
+   "ipa": "/ˈleɪ̯zi(ː)/"
+  },
+  {
+   "w": "leader",
+   "pos": [
+    "noun"
+   ],
+   "tr": "lider, önder, yönetici",
+   "ipa": "/ˈli.dɚ/"
+  },
+  {
+   "w": "leaf",
+   "pos": [
+    "noun"
+   ],
+   "tr": "yaprak",
+   "ipa": "/lif/"
+  },
+  {
+   "w": "learn",
+   "pos": [
+    "verb"
+   ],
+   "tr": "öğrenmek",
+   "ipa": "/lɝn/"
+  },
+  {
+   "w": "left",
+   "pos": [
+    "adjective",
+    "adverb",
+    "noun"
+   ],
+   "tr": "sol, sola, sol taraf",
+   "ipa": "/ˈɫɛft/"
+  },
+  {
+   "w": "leg",
+   "pos": [
+    "noun"
+   ],
+   "tr": "bacak, (masa vb.) ayak",
+   "ipa": "/lɛɡ/"
+  },
+  {
+   "w": "lesson",
+   "pos": [
+    "noun"
+   ],
+   "tr": "ders",
+   "ipa": "/ˈlɛs.ən/"
+  },
+  {
+   "w": "let",
+   "pos": [
+    "verb"
+   ],
+   "tr": "izin vermek, bırakmak, (let's) hadi …-elim"
+  },
+  {
+   "w": "letter",
+   "pos": [
+    "noun"
+   ],
+   "tr": "mektup, harf",
+   "ipa": "/ˈlɛtɚ/"
+  },
+  {
+   "w": "library",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kütüphane",
+   "ipa": "/ˈlaɪˌbɹɛɹ.i/"
+  },
+  {
+   "w": "life",
+   "pos": [
+    "noun"
+   ],
+   "tr": "hayat, yaşam",
+   "ipa": "/ˈlaɪ̯f/"
+  },
+  {
+   "w": "light",
+   "pos": [
+    "adjective",
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: ışık, lamba; sıfat: hafif, açık (renk), aydınlık; fiil: yakmak, aydınlatmak",
+   "ipa": "[ɫɐɪt]"
+  },
+  {
+   "w": "lily",
+   "pos": [
+    "noun"
+   ],
+   "tr": "zambak",
+   "ipa": "/ˈlɪli/"
+  },
+  {
+   "w": "line",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: çizgi, satır, hat (telefon), sıra; fiil: sıralanmak, kaplamak (astarlamak)",
+   "ipa": "/laɪn/"
+  },
+  {
+   "w": "lion",
+   "pos": [
+    "noun"
+   ],
+   "tr": "aslan",
+   "ipa": "/ˈlaɪən/"
+  },
+  {
+   "w": "list",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: liste; fiil: listelemek, sıralamak",
+   "ipa": "/lɪst/"
+  },
+  {
+   "w": "listen",
+   "pos": [
+    "verb"
+   ],
+   "tr": "dinlemek",
+   "ipa": "/ˈlɪsən/"
+  },
+  {
+   "w": "little",
+   "pos": [
+    "adjective",
+    "adverb",
+    "determiner",
+    "pronoun"
+   ],
+   "tr": "sıfat: küçük, ufak; belirleyici: az, biraz (a little); zamir: az şey, biraz; zarf: az, pek az",
+   "ipa": "/ˈlɪ.tl̩/"
+  },
+  {
+   "w": "living",
+   "pos": [
+    "adjective",
+    "noun"
+   ],
+   "tr": "sıfat: canlı, yaşayan; isim: geçim (make a living), yaşam"
+  },
+  {
+   "w": "living room",
+   "pos": [
+    "noun"
+   ],
+   "tr": "oturma odası, salon",
+   "ipa": "/ˈlɪvɪŋ ɹuːm/"
+  },
+  {
+   "w": "lonely",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "yalnız, kimsesiz",
+   "ipa": "/ˈloʊnli/"
+  },
+  {
+   "w": "long",
+   "pos": [
+    "adjective",
+    "adverb"
+   ],
+   "tr": "sıfat: uzun; zarf: uzun süre, uzun zaman",
+   "ipa": "/lɑŋ/"
+  },
+  {
+   "w": "look",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "fiil: bakmak, görünmek; isim: bakış, görünüş",
+   "ipa": "/lʊk/"
+  },
+  {
+   "w": "lot",
+   "pos": [
+    "adverb",
+    "noun",
+    "pronoun"
+   ],
+   "tr": "zamir: çok, pek çok (a lot); zarf: çok (a lot); isim: arsa, parti (mal)",
+   "ipa": "/lɑt/"
+  },
+  {
+   "w": "love",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: aşk, sevgi; fiil: sevmek, bayılmak",
+   "ipa": "/ˈlʌv/"
+  },
+  {
+   "w": "lovely",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "güzel, hoş, sevimli"
+  },
+  {
+   "w": "luck",
+   "pos": [
+    "noun"
+   ],
+   "tr": "şans, talih",
+   "ipa": "/lʌk/"
+  },
+  {
+   "w": "lucky",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "şanslı, uğurlu",
+   "ipa": "/ˈlʌki/"
+  },
+  {
+   "w": "lunch",
+   "pos": [
+    "noun"
+   ],
+   "tr": "öğle yemeği",
+   "ipa": "/lʌnt͡ʃ/"
+  },
+  {
+   "w": "machine",
+   "pos": [
+    "noun"
+   ],
+   "tr": "makine",
+   "ipa": "/məˈʃin/"
+  },
+  {
+   "w": "magazine",
+   "pos": [
+    "noun"
+   ],
+   "tr": "dergi",
+   "ipa": "/ˌmæɡəˈziːn/"
+  },
+  {
+   "w": "mail",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: posta, e-posta; fiil: postalamak, e-posta göndermek",
+   "ipa": "/meɪl/"
+  },
+  {
+   "w": "man",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: adam, erkek, insan; fiil: başında durmak (görev yapmak)",
+   "ipa": "/ˈmæn/"
+  },
+  {
+   "w": "many",
+   "pos": [
+    "determiner",
+    "pronoun"
+   ],
+   "tr": "belirleyici: çok, birçok; zamir: birçoğu, çoğu",
+   "ipa": "/ˈmɛni/"
+  },
+  {
+   "w": "map",
+   "pos": [
+    "noun"
+   ],
+   "tr": "harita",
+   "ipa": "/mæp/"
+  },
+  {
+   "w": "March",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: mart (ay), yürüyüş; fiil: (tören adımıyla) yürümek",
+   "ipa": "/mɑɹt͡ʃ/"
+  },
+  {
+   "w": "match",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: maç, kibrit, eş (uygun olan); fiil: uymak, eşleştirmek",
+   "ipa": "/mæt͡ʃ/"
+  },
+  {
+   "w": "math",
+   "pos": [
+    "noun"
+   ],
+   "tr": "matematik"
+  },
+  {
+   "w": "matter",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: konu, mesele, madde; fiil: önemli olmak",
+   "ipa": "/ˈmætɚ/"
+  },
+  {
+   "w": "may",
+   "pos": [
+    "modal auxiliary",
+    "noun"
+   ],
+   "tr": "yardımcı fiil: -ebilir (olasılık), -ebilir miyim? (izin); isim: mayıs (May)",
+   "ipa": "/meɪ/"
+  },
+  {
+   "w": "maybe",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "belki",
+   "ipa": "/ˈmeɪ.bi/"
+  },
+  {
+   "w": "me",
+   "pos": [
+    "pronoun"
+   ],
+   "tr": "beni, bana"
+  },
+  {
+   "w": "meal",
+   "pos": [
+    "noun"
+   ],
+   "tr": "yemek, öğün",
+   "ipa": "/ˈmiːl/"
+  },
+  {
+   "w": "meat",
+   "pos": [
+    "noun"
+   ],
+   "tr": "et",
+   "ipa": "/mit/"
+  },
+  {
+   "w": "medicine",
+   "pos": [
+    "noun"
+   ],
+   "tr": "ilaç, tıp",
+   "ipa": "/ˈmɛd.ɪ.sɪn/"
+  },
+  {
+   "w": "meet",
+   "pos": [
+    "verb"
+   ],
+   "tr": "tanışmak, buluşmak, karşılamak",
+   "ipa": "/mit/"
+  },
+  {
+   "w": "meeting",
+   "pos": [
+    "noun"
+   ],
+   "tr": "toplantı, buluşma",
+   "ipa": "/ˈmitɪŋ/"
+  },
+  {
+   "w": "memory",
+   "pos": [
+    "noun"
+   ],
+   "tr": "hafıza, bellek, anı",
+   "ipa": "/ˈmɛm.ə.ɹi/"
+  },
+  {
+   "w": "merry",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "neşeli, mutlu, şen",
+   "ipa": "/ˈmɛ.ɹi/"
+  },
+  {
+   "w": "message",
+   "pos": [
+    "noun"
+   ],
+   "tr": "mesaj, ileti",
+   "ipa": "/ˈmɛs.ɪdʒ/"
+  },
+  {
+   "w": "middle",
+   "pos": [
+    "adjective",
+    "noun"
+   ],
+   "tr": "orta, ortadaki",
+   "ipa": "/ˈmɪdl̩/"
+  },
+  {
+   "w": "milk",
+   "pos": [
+    "noun"
+   ],
+   "tr": "süt",
+   "ipa": "/mɪlk/"
+  },
+  {
+   "w": "mind",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: akıl, zihin; fiil: aldırmak, sakıncası olmak (Do you mind?), dikkat etmek",
+   "ipa": "/maɪnd/"
+  },
+  {
+   "w": "minute",
+   "pos": [
+    "noun"
+   ],
+   "tr": "dakika",
+   "ipa": "/ˈmɪnɪt/"
+  },
+  {
+   "w": "Miss",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: bayan (evlenmemiş kadın için unvan); fiil: özlemek, kaçırmak, ıskalamak",
+   "ipa": "/mɪs/"
+  },
+  {
+   "w": "mobile phone",
+   "pos": [
+    "noun"
+   ],
+   "tr": "cep telefonu"
+  },
+  {
+   "w": "mom",
+   "pos": [
+    "noun"
+   ],
+   "tr": "anne"
+  },
+  {
+   "w": "moment",
+   "pos": [
+    "noun"
+   ],
+   "tr": "an",
+   "ipa": "/ˈmoʊmənt/"
+  },
+  {
+   "w": "mommy",
+   "pos": [
+    "noun"
+   ],
+   "tr": "anneciğim, anne"
+  },
+  {
+   "w": "Monday",
+   "pos": [
+    "noun"
+   ],
+   "tr": "pazartesi",
+   "ipa": "/ˈmʌn.deɪ/"
+  },
+  {
+   "w": "money",
+   "pos": [
+    "noun"
+   ],
+   "tr": "para",
+   "ipa": "/ˈmʌn.i/"
+  },
+  {
+   "w": "monkey",
+   "pos": [
+    "noun"
+   ],
+   "tr": "maymun",
+   "ipa": "/ˈmʌŋki/"
+  },
+  {
+   "w": "month",
+   "pos": [
+    "noun"
+   ],
+   "tr": "ay",
+   "ipa": "/mʌnθ/"
+  },
+  {
+   "w": "moon",
+   "pos": [
+    "noun"
+   ],
+   "tr": "ay (gök cismi)",
+   "ipa": "/mun/"
+  },
+  {
+   "w": "morning",
+   "pos": [
+    "noun"
+   ],
+   "tr": "sabah",
+   "ipa": "/ˈmoɹnɪŋ/"
+  },
+  {
+   "w": "mother",
+   "pos": [
+    "noun"
+   ],
+   "tr": "anne",
+   "ipa": "/ˈmʌðɚ/"
+  },
+  {
+   "w": "mountain",
+   "pos": [
+    "noun"
+   ],
+   "tr": "dağ",
+   "ipa": "/ˈmaʊn.t(ə)n/"
+  },
+  {
+   "w": "mouse",
+   "pos": [
+    "noun"
+   ],
+   "tr": "fare, (bilgisayar) faresi",
+   "ipa": "/maʊs/"
+  },
+  {
+   "w": "mouth",
+   "pos": [
+    "noun"
+   ],
+   "tr": "ağız",
+   "ipa": "/maʊθ/"
+  },
+  {
+   "w": "move",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "fiil: hareket etmek, taşınmak, taşımak; isim: hareket, hamle, taşınma",
+   "ipa": "/muːv/"
+  },
+  {
+   "w": "movie",
+   "pos": [
+    "noun"
+   ],
+   "tr": "film",
+   "ipa": "/ˈmuːvi/"
+  },
+  {
+   "w": "Mr.",
+   "pos": [
+    "noun"
+   ],
+   "tr": "bay, bey (erkekler için unvan)",
+   "ipa": "[ˈmɪstɚ]"
+  },
+  {
+   "w": "Mrs.",
+   "pos": [
+    "noun"
+   ],
+   "tr": "bayan, hanım (evli kadınlar için unvan)"
+  },
+  {
+   "w": "much",
+   "pos": [
+    "adverb",
+    "determiner",
+    "pronoun"
+   ],
+   "tr": "çok, fazla (sayılamayanlar için)",
+   "ipa": "/mʌt͡ʃ/"
+  },
+  {
+   "w": "mum",
+   "pos": [
+    "noun"
+   ],
+   "tr": "anne (İngiliz İngilizcesi)"
+  },
+  {
+   "w": "music",
+   "pos": [
+    "noun"
+   ],
+   "tr": "müzik",
+   "ipa": "/ˈmju.zɪk/"
+  },
+  {
+   "w": "musician",
+   "pos": [
+    "noun"
+   ],
+   "tr": "müzisyen",
+   "ipa": "/mjuˈzɪʃən/"
+  },
+  {
+   "w": "must",
+   "pos": [
+    "modal auxiliary"
+   ],
+   "tr": "-meli, -malı, -mek zorunda olmak",
+   "ipa": "/məst/"
+  },
+  {
+   "w": "my",
+   "pos": [
+    "determiner"
+   ],
+   "tr": "benim",
+   "ipa": "/maɪ/"
+  },
+  {
+   "w": "name",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: ad, isim; fiil: ad vermek, adlandırmak",
+   "ipa": "/neɪm/"
+  },
+  {
+   "w": "nationality",
+   "pos": [
+    "noun"
+   ],
+   "tr": "uyruk, milliyet",
+   "ipa": "/ˌnæʃ.əˈnæl.ɪ.ti/"
+  },
+  {
+   "w": "neck",
+   "pos": [
+    "noun"
+   ],
+   "tr": "boyun",
+   "ipa": "/ˈnɛk/"
+  },
+  {
+   "w": "need",
+   "pos": [
+    "modal auxiliary",
+    "noun",
+    "verb"
+   ],
+   "tr": "fiil: ihtiyaç duymak, gerekmek; isim: ihtiyaç, gereksinim; yardımcı fiil: -mesi gerekmek (needn't: gerek yok)",
+   "ipa": "/nid/"
+  },
+  {
+   "w": "neighbor",
+   "pos": [
+    "noun"
+   ],
+   "tr": "komşu",
+   "ipa": "/ˈneɪ.bɚ/"
+  },
+  {
+   "w": "never",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "asla, hiçbir zaman, hiç",
+   "ipa": "/ˈnɛv.ɚ/"
+  },
+  {
+   "w": "new",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "yeni",
+   "ipa": "/nu/"
+  },
+  {
+   "w": "news",
+   "pos": [
+    "noun"
+   ],
+   "tr": "haber, haberler",
+   "ipa": "/nuːz/"
+  },
+  {
+   "w": "newspaper",
+   "pos": [
+    "noun"
+   ],
+   "tr": "gazete",
+   "ipa": "/ˈn(j)usˌpeɪpɚ/"
+  },
+  {
+   "w": "nice",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "hoş, güzel, nazik",
+   "ipa": "/naɪ̯s/"
+  },
+  {
+   "w": "night",
+   "pos": [
+    "noun"
+   ],
+   "tr": "gece",
+   "ipa": "/ˈnaɪ̯t/"
+  },
+  {
+   "w": "nine",
+   "pos": [
+    "number"
+   ],
+   "tr": "dokuz",
+   "ipa": "/naɪn/"
+  },
+  {
+   "w": "nineteen",
+   "pos": [
+    "number"
+   ],
+   "tr": "on dokuz",
+   "ipa": "/ˈnaɪnˌtin/"
+  },
+  {
+   "w": "ninety",
+   "pos": [
+    "number"
+   ],
+   "tr": "doksan",
+   "ipa": "/ˈnaɪn.di/"
+  },
+  {
+   "w": "no",
+   "pos": [
+    "adverb",
+    "determiner"
+   ],
+   "tr": "zarf: hayır; belirleyici: hiç, hiçbir",
+   "ipa": "/noʊ/"
+  },
+  {
+   "w": "noise",
+   "pos": [
+    "noun"
+   ],
+   "tr": "gürültü, ses",
+   "ipa": "/ˈnoɪ̯z/"
+  },
+  {
+   "w": "nose",
+   "pos": [
+    "noun"
+   ],
+   "tr": "burun",
+   "ipa": "[noʊ̯z]"
+  },
+  {
+   "w": "not",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "değil, -me/-ma (olumsuzluk)",
+   "ipa": "/nɑt/"
+  },
+  {
+   "w": "note",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: not, nota, kâğıt para; fiil: not etmek, dikkat etmek",
+   "ipa": "/noʊ̯t/"
+  },
+  {
+   "w": "notebook",
+   "pos": [
+    "noun"
+   ],
+   "tr": "defter, not defteri, dizüstü bilgisayar",
+   "ipa": "/ˈnoʊtˌbʊk/"
+  },
+  {
+   "w": "nothing",
+   "pos": [
+    "pronoun"
+   ],
+   "tr": "hiçbir şey, hiç",
+   "ipa": "/ˈnʌθɪŋ/"
+  },
+  {
+   "w": "November",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kasım",
+   "ipa": "/noʊˈvɛmbɚ/"
+  },
+  {
+   "w": "now",
+   "pos": [
+    "adverb",
+    "conjunction"
+   ],
+   "tr": "zarf: şimdi, artık; bağlaç: madem, -diğine göre (now that)",
+   "ipa": "/naʊ/"
+  },
+  {
+   "w": "number",
+   "pos": [
+    "noun"
+   ],
+   "tr": "sayı, numara, rakam",
+   "ipa": "[ˈnʌ̟mbɚ]"
+  },
+  {
+   "w": "nurse",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: hemşire; fiil: (hastaya) bakmak, emzirmek",
+   "ipa": "/nɝs/"
+  },
+  {
+   "w": "o'clock",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "saat … (tam saat: two o'clock = saat iki)",
+   "ipa": "/əˈklɑk/"
+  },
+  {
+   "w": "October",
+   "pos": [
+    "noun"
+   ],
+   "tr": "ekim",
+   "ipa": "/ɑkˈtoʊ.bəɹ/"
+  },
+  {
+   "w": "of",
+   "pos": [
+    "preposition"
+   ],
+   "tr": "-in/-ın (iyelik), -den (biri), hakkında",
+   "ipa": "/ʌv/"
+  },
+  {
+   "w": "off",
+   "pos": [
+    "adjective",
+    "adverb",
+    "preposition"
+   ],
+   "tr": "sıfat: kapalı (cihaz), izinli, iptal; zarf: uzağa, kapalı (turn off); edat: -den (ayrı), -den aşağı"
+  },
+  {
+   "w": "office",
+   "pos": [
+    "noun"
+   ],
+   "tr": "ofis, büro, makam",
+   "ipa": "/ˈɔ.fɪs/"
+  },
+  {
+   "w": "officer",
+   "pos": [
+    "noun"
+   ],
+   "tr": "memur, polis memuru, subay",
+   "ipa": "/ˈɔ.fɪ.sɚ/"
+  },
+  {
+   "w": "often",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "sık sık, çoğu zaman",
+   "ipa": "/ˈɒfən/"
+  },
+  {
+   "w": "OK",
+   "pos": [
+    "adjective",
+    "adverb"
+   ],
+   "tr": "tamam, iyi, peki",
+   "ipa": "/ˌoʊˈkeɪ/"
+  },
+  {
+   "w": "old",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "yaşlı, eski",
+   "ipa": "/ˈoʊld/"
+  },
+  {
+   "w": "Olympics",
+   "pos": [
+    "noun"
+   ],
+   "tr": "olimpiyatlar, Olimpiyat Oyunları"
+  },
+  {
+   "w": "once",
+   "pos": [
+    "adverb",
+    "conjunction"
+   ],
+   "tr": "zarf: bir kez, bir zamanlar; bağlaç: -ince, -dikten sonra",
+   "ipa": "/wʌn(t)s/"
+  },
+  {
+   "w": "one",
+   "pos": [
+    "determiner",
+    "number",
+    "pronoun"
+   ],
+   "tr": "sayı: bir; belirleyici: bir, tek; zamir: biri, tane (the red one: kırmızı olan)",
+   "ipa": "/wʌn/"
+  },
+  {
+   "w": "only",
+   "pos": [
+    "adjective",
+    "adverb"
+   ],
+   "tr": "sıfat: tek, biricik; zarf: sadece, yalnızca",
+   "ipa": "/ˈoʊn.li/"
+  },
+  {
+   "w": "open",
+   "pos": [
+    "adjective",
+    "verb"
+   ],
+   "tr": "sıfat: açık; fiil: açmak, açılmak",
+   "ipa": "/ˈoʊ.pən/"
+  },
+  {
+   "w": "opera",
+   "pos": [
+    "noun"
+   ],
+   "tr": "opera",
+   "ipa": "/ˈɑp.ə.ɹə/"
+  },
+  {
+   "w": "or",
+   "pos": [
+    "conjunction"
+   ],
+   "tr": "veya, ya da, yoksa",
+   "ipa": "/ə(ɹ)/"
+  },
+  {
+   "w": "orange",
+   "pos": [
+    "adjective",
+    "noun"
+   ],
+   "tr": "isim: portakal, turuncu (renk); sıfat: turuncu",
+   "ipa": "/ˈɔɹənd͡ʒ/"
+  },
+  {
+   "w": "order",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: sipariş, sıra (düzen), emir; fiil: sipariş vermek, emretmek, sıralamak",
+   "ipa": "/ˈoɹ.dɚ/"
+  },
+  {
+   "w": "other",
+   "pos": [
+    "determiner",
+    "pronoun"
+   ],
+   "tr": "belirleyici: diğer, başka, öbür; zamir: diğeri, öbürü",
+   "ipa": "/ˈʌðɚ/"
+  },
+  {
+   "w": "our",
+   "pos": [
+    "determiner"
+   ],
+   "tr": "bizim",
+   "ipa": "/æwɝ/"
+  },
+  {
+   "w": "ours",
+   "pos": [
+    "pronoun"
+   ],
+   "tr": "bizimki",
+   "ipa": "/ˈaʊɚz/"
+  },
+  {
+   "w": "out",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "dışarı, dışarıda, bitmiş (tükenmiş)",
+   "ipa": "/ˈaʊ̯t/"
+  },
+  {
+   "w": "own",
+   "pos": [
+    "adjective",
+    "pronoun",
+    "verb"
+   ],
+   "tr": "sıfat: kendi, kendine ait; zamir: kendisininki (on my own: tek başıma); fiil: sahip olmak",
+   "ipa": "/oʊn/"
+  },
+  {
+   "w": "owner",
+   "pos": [
+    "noun"
+   ],
+   "tr": "sahip, mal sahibi",
+   "ipa": "/ˈoʊnɚ/"
+  },
+  {
+   "w": "p.m.",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "öğleden sonra (ÖS), akşam",
+   "ipa": "/piːˈɛm/"
+  },
+  {
+   "w": "page",
+   "pos": [
+    "noun"
+   ],
+   "tr": "sayfa",
+   "ipa": "/peɪd͡ʒ/"
+  },
+  {
+   "w": "paint",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: boya; fiil: boyamak, resim yapmak",
+   "ipa": "/peɪnt/"
+  },
+  {
+   "w": "painting",
+   "pos": [
+    "noun"
+   ],
+   "tr": "tablo, resim, boyama",
+   "ipa": "/ˈpeɪ.nɪŋ/"
+  },
+  {
+   "w": "pair",
+   "pos": [
+    "noun"
+   ],
+   "tr": "çift",
+   "ipa": "/pɛɹ/"
+  },
+  {
+   "w": "palace",
+   "pos": [
+    "noun"
+   ],
+   "tr": "saray",
+   "ipa": "/ˈpæləs/"
+  },
+  {
+   "w": "pants",
+   "pos": [
+    "noun"
+   ],
+   "tr": "pantolon (ABD), külot (İngiltere)",
+   "ipa": "/pænts/"
+  },
+  {
+   "w": "paper",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kâğıt, gazete, belge (evrak)",
+   "ipa": "/ˈpeɪ̯.pəɹ/"
+  },
+  {
+   "w": "paragraph",
+   "pos": [
+    "noun"
+   ],
+   "tr": "paragraf",
+   "ipa": "/ˈpæɹəɡɹæf/"
+  },
+  {
+   "w": "pardon",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: af, bağışlama; fiil: affetmek, bağışlamak (pardon?: efendim?)",
+   "ipa": "/ˈpɑɹdn̩/"
+  },
+  {
+   "w": "parent",
+   "pos": [
+    "noun"
+   ],
+   "tr": "ebeveyn, anne veya baba, veli",
+   "ipa": "/ˈpɛəɹənt/"
+  },
+  {
+   "w": "park",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: park; fiil: park etmek",
+   "ipa": "[pʰɑɹk]"
+  },
+  {
+   "w": "partner",
+   "pos": [
+    "noun"
+   ],
+   "tr": "ortak, eş, partner",
+   "ipa": "/ˈpɑɹt.nɚ/"
+  },
+  {
+   "w": "party",
+   "pos": [
+    "noun"
+   ],
+   "tr": "parti, eğlence, taraf",
+   "ipa": "/ˈpɑɹti/"
+  },
+  {
+   "w": "pay",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "fiil: ödemek, para ödemek; isim: maaş, ücret",
+   "ipa": "/peɪ/"
+  },
+  {
+   "w": "peace",
+   "pos": [
+    "noun"
+   ],
+   "tr": "barış, huzur",
+   "ipa": "/ˈpiːs/"
+  },
+  {
+   "w": "pen",
+   "pos": [
+    "noun"
+   ],
+   "tr": "tükenmez kalem, kalem",
+   "ipa": "/pɛn/"
+  },
+  {
+   "w": "pencil",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kurşun kalem",
+   "ipa": "/ˈpɛnsɪl/"
+  },
+  {
+   "w": "people",
+   "pos": [
+    "noun"
+   ],
+   "tr": "insanlar, halk, kişiler",
+   "ipa": "/ˈpi.pəl/"
+  },
+  {
+   "w": "period",
+   "pos": [
+    "noun"
+   ],
+   "tr": "dönem, süre, nokta (noktalama)",
+   "ipa": "/ˈpɪɚ.i.əd/"
+  },
+  {
+   "w": "person",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kişi, insan, şahıs",
+   "ipa": "/ˈpɜɹ.sən/"
+  },
+  {
+   "w": "personal",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "kişisel, özel, şahsi",
+   "ipa": "/ˈpɜɹ.sə.nəl/"
+  },
+  {
+   "w": "pet",
+   "pos": [
+    "noun"
+   ],
+   "tr": "evcil hayvan",
+   "ipa": "/pɛt/"
+  },
+  {
+   "w": "phone",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: telefon; fiil: telefon etmek, aramak",
+   "ipa": "/ˈfoʊ̯n/"
+  },
+  {
+   "w": "photo",
+   "pos": [
+    "noun"
+   ],
+   "tr": "fotoğraf",
+   "ipa": "/ˈfəʊ̯.təʊ̯/"
+  },
+  {
+   "w": "piano",
+   "pos": [
+    "noun"
+   ],
+   "tr": "piyano",
+   "ipa": "/piˈænoʊ/"
+  },
+  {
+   "w": "picnic",
+   "pos": [
+    "noun"
+   ],
+   "tr": "piknik",
+   "ipa": "/ˈpɪknɪk/"
+  },
+  {
+   "w": "picture",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: resim, fotoğraf, tablo; fiil: hayal etmek, gözünde canlandırmak",
+   "ipa": "/ˈpɪk.t͡ʃɚ/"
+  },
+  {
+   "w": "piece",
+   "pos": [
+    "noun"
+   ],
+   "tr": "parça, tane",
+   "ipa": "/piːs/"
+  },
+  {
+   "w": "pig",
+   "pos": [
+    "noun"
+   ],
+   "tr": "domuz",
+   "ipa": "/ˈpɪɡ/"
+  },
+  {
+   "w": "pink",
+   "pos": [
+    "adjective",
+    "noun"
+   ],
+   "tr": "pembe",
+   "ipa": "/ˈpɪŋk/"
+  },
+  {
+   "w": "pizza",
+   "pos": [
+    "noun"
+   ],
+   "tr": "pizza",
+   "ipa": "/ˈpi.tsə/"
+  },
+  {
+   "w": "place",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: yer, mekân; fiil: koymak, yerleştirmek, (sipariş) vermek",
+   "ipa": "/ˈpleɪ̯s/"
+  },
+  {
+   "w": "plan",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: plan; fiil: planlamak",
+   "ipa": "/plæn/"
+  },
+  {
+   "w": "plane",
+   "pos": [
+    "noun"
+   ],
+   "tr": "uçak, düzlem",
+   "ipa": "/pleɪn/"
+  },
+  {
+   "w": "play",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "fiil: oynamak, (müzik) çalmak, (rol) oynamak; isim: oyun, tiyatro oyunu",
+   "ipa": "/pleɪ̯/ [pɫ̥eɪ̯ ~ pʰɫeɪ̯]"
+  },
+  {
+   "w": "player",
+   "pos": [
+    "noun"
+   ],
+   "tr": "oyuncu, çalar (cihaz)",
+   "ipa": "/ˈpleɪ.ɚ/"
+  },
+  {
+   "w": "please",
+   "pos": [
+    "adverb",
+    "verb"
+   ],
+   "tr": "zarf: lütfen; fiil: memnun etmek, sevindirmek",
+   "ipa": "/pliz/"
+  },
+  {
+   "w": "pleasure",
+   "pos": [
+    "noun"
+   ],
+   "tr": "zevk, keyif, memnuniyet",
+   "ipa": "/ˈplɛʒɚ/"
+  },
+  {
+   "w": "pocket",
+   "pos": [
+    "noun"
+   ],
+   "tr": "cep",
+   "ipa": "/ˈpɑ.kɪt/"
+  },
+  {
+   "w": "poem",
+   "pos": [
+    "noun"
+   ],
+   "tr": "şiir",
+   "ipa": "/ˈpoʊ.əm/"
+  },
+  {
+   "w": "point",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: nokta, puan, asıl mesele; fiil: işaret etmek, göstermek",
+   "ipa": "/pɔɪnt/"
+  },
+  {
+   "w": "pollution",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kirlilik",
+   "ipa": "/pəˈluʃən/"
+  },
+  {
+   "w": "pool",
+   "pos": [
+    "noun"
+   ],
+   "tr": "havuz, su birikintisi, bilardo",
+   "ipa": "/pul/"
+  },
+  {
+   "w": "poor",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "fakir, zavallı, kötü (zayıf)",
+   "ipa": "/pʊɚ/"
+  },
+  {
+   "w": "pop",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: pop müzik, patlama sesi; fiil: patlamak, kısa süreliğine uğramak (pop in)"
+  },
+  {
+   "w": "post",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: posta, gönderi (paylaşım), görev (pozisyon); fiil: postalamak, (internette) paylaşmak, ilan etmek",
+   "ipa": "/poʊst/"
+  },
+  {
+   "w": "poster",
+   "pos": [
+    "noun"
+   ],
+   "tr": "poster, afiş",
+   "ipa": "/ˈpoʊstɚ/"
+  },
+  {
+   "w": "potato",
+   "pos": [
+    "noun"
+   ],
+   "tr": "patates",
+   "ipa": "/pəˈteɪ.toʊ/"
+  },
+  {
+   "w": "practice",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: pratik, alıştırma, uygulama; fiil: pratik yapmak, alıştırma yapmak, uygulamak",
+   "ipa": "/ˈpɹæktɪs/"
+  },
+  {
+   "w": "pray",
+   "pos": [
+    "verb"
+   ],
+   "tr": "dua etmek",
+   "ipa": "/pɹeɪ/"
+  },
+  {
+   "w": "pretty",
+   "pos": [
+    "adjective",
+    "adverb"
+   ],
+   "tr": "sıfat: güzel, hoş; zarf: oldukça, epey",
+   "ipa": "/ˈpɹɪt.i/"
+  },
+  {
+   "w": "price",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: fiyat; fiil: fiyat belirlemek, fiyatlandırmak",
+   "ipa": "/ˈpɹaɪ̯s/"
+  },
+  {
+   "w": "prince",
+   "pos": [
+    "noun"
+   ],
+   "tr": "prens",
+   "ipa": "/pɹɪns/"
+  },
+  {
+   "w": "princess",
+   "pos": [
+    "noun"
+   ],
+   "tr": "prenses",
+   "ipa": "/ˈpɹɪnsɛs/"
+  },
+  {
+   "w": "problem",
+   "pos": [
+    "noun"
+   ],
+   "tr": "sorun, problem",
+   "ipa": "/ˈpɹɑbləm/"
+  },
+  {
+   "w": "program",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: program; fiil: programlamak",
+   "ipa": "/ˈpɹoʊ̯ˌɡɹæm/"
+  },
+  {
+   "w": "put",
+   "pos": [
+    "verb"
+   ],
+   "tr": "koymak, yerleştirmek",
+   "ipa": "/pʊt/"
+  },
+  {
+   "w": "quarter",
+   "pos": [
+    "noun"
+   ],
+   "tr": "çeyrek, dörtte bir, semt",
+   "ipa": "/ˈk(w)ɔɹ.tɚ/"
+  },
+  {
+   "w": "question",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: soru, mesele; fiil: sorgulamak, soru sormak",
+   "ipa": "/ˈkwɛs.tʃən/"
+  },
+  {
+   "w": "quickly",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "hızlıca, çabucak",
+   "ipa": "/ˈkwɪk.li/"
+  },
+  {
+   "w": "quiet",
+   "pos": [
+    "adjective",
+    "noun"
+   ],
+   "tr": "sıfat: sessiz, sakin; isim: sessizlik, sükûnet",
+   "ipa": "/ˈkwaɪ̯.ət/"
+  },
+  {
+   "w": "rabbit",
+   "pos": [
+    "noun"
+   ],
+   "tr": "tavşan",
+   "ipa": "/ˈɹæbɪt/"
+  },
+  {
+   "w": "radio",
+   "pos": [
+    "noun"
+   ],
+   "tr": "radyo, telsiz",
+   "ipa": "/ˈɹeɪ.diˌoʊ/"
+  },
+  {
+   "w": "rain",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: yağmur; fiil: yağmur yağmak",
+   "ipa": "/ɹeɪn/"
+  },
+  {
+   "w": "rainy",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "yağmurlu",
+   "ipa": "/ˈɹeɪni/"
+  },
+  {
+   "w": "rat",
+   "pos": [
+    "noun"
+   ],
+   "tr": "sıçan, fare",
+   "ipa": "/ɹæt/"
+  },
+  {
+   "w": "read",
+   "pos": [
+    "verb"
+   ],
+   "tr": "okumak",
+   "ipa": "/ɹid/"
+  },
+  {
+   "w": "reader",
+   "pos": [
+    "noun"
+   ],
+   "tr": "okuyucu, okur",
+   "ipa": "/ˈɹi.dɚ/"
+  },
+  {
+   "w": "reading",
+   "pos": [
+    "noun"
+   ],
+   "tr": "okuma",
+   "ipa": "/ˈɹiːdɪŋ/"
+  },
+  {
+   "w": "ready",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "hazır",
+   "ipa": "/ˈɹɛd.i/"
+  },
+  {
+   "w": "real",
+   "pos": [
+    "adjective",
+    "adverb"
+   ],
+   "tr": "sıfat: gerçek, hakiki; zarf: gerçekten, çok (gündelik dil)",
+   "ipa": "/ˈɹi.əl/"
+  },
+  {
+   "w": "really",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "gerçekten, cidden, çok",
+   "ipa": "/ˈɹɪl.i/"
+  },
+  {
+   "w": "reason",
+   "pos": [
+    "noun"
+   ],
+   "tr": "neden, sebep",
+   "ipa": "/ˈɹiːzən/"
+  },
+  {
+   "w": "red",
+   "pos": [
+    "adjective",
+    "noun"
+   ],
+   "tr": "kırmızı, kızıl",
+   "ipa": "/ɹɛd/"
+  },
+  {
+   "w": "remember",
+   "pos": [
+    "verb"
+   ],
+   "tr": "hatırlamak, anımsamak",
+   "ipa": "/ɹɪˈmɛm.bɚ/"
+  },
+  {
+   "w": "repeat",
+   "pos": [
+    "verb"
+   ],
+   "tr": "tekrarlamak, tekrar etmek",
+   "ipa": "/ɹɪˈpiːt/"
+  },
+  {
+   "w": "reporter",
+   "pos": [
+    "noun"
+   ],
+   "tr": "muhabir",
+   "ipa": "/ɹɪˈpoɹ.tɚ/"
+  },
+  {
+   "w": "restaurant",
+   "pos": [
+    "noun"
+   ],
+   "tr": "restoran, lokanta",
+   "ipa": "/ˈɹɛst(ə)ˌɹɑnt/"
+  },
+  {
+   "w": "result",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: sonuç; fiil: sonuçlanmak, -den kaynaklanmak",
+   "ipa": "/ɹɪˈzʌlt/"
+  },
+  {
+   "w": "review",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: inceleme, değerlendirme, eleştiri; fiil: gözden geçirmek, incelemek",
+   "ipa": "/ɹɪˈvjuː/"
+  },
+  {
+   "w": "ribbon",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kurdele, şerit",
+   "ipa": "/ˈɹɪbən/"
+  },
+  {
+   "w": "rice",
+   "pos": [
+    "noun"
+   ],
+   "tr": "pirinç, pilav",
+   "ipa": "/ɹaɪs/"
+  },
+  {
+   "w": "rich",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "zengin, varlıklı, (yemek) ağır",
+   "ipa": "/ˈɹɪt͡ʃ/"
+  },
+  {
+   "w": "ride",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "fiil: (at, bisiklet, araç) binmek, sürmek; isim: yolculuk, gezinti",
+   "ipa": "/ɹaɪd/"
+  },
+  {
+   "w": "right",
+   "pos": [
+    "adjective",
+    "adverb",
+    "noun"
+   ],
+   "tr": "sıfat: doğru, sağ, haklı; zarf: sağa, hemen, tam; isim: hak, sağ (taraf)",
+   "ipa": "/ɹaɪt/"
+  },
+  {
+   "w": "river",
+   "pos": [
+    "noun"
+   ],
+   "tr": "nehir, ırmak",
+   "ipa": "/ˈɹɪvɚ/"
+  },
+  {
+   "w": "role",
+   "pos": [
+    "noun"
+   ],
+   "tr": "rol, görev",
+   "ipa": "/ɹoʊl/"
+  },
+  {
+   "w": "room",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: oda, yer (boş alan); fiil: (oda) paylaşmak, kalmak",
+   "ipa": "/ɹum/"
+  },
+  {
+   "w": "rose",
+   "pos": [
+    "noun"
+   ],
+   "tr": "gül",
+   "ipa": "/ɹoʊz/"
+  },
+  {
+   "w": "row",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: sıra, dizi, satır; fiil: kürek çekmek",
+   "ipa": "/ɹoʊ/"
+  },
+  {
+   "w": "rude",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "kaba, saygısız",
+   "ipa": "/ɹud/"
+  },
+  {
+   "w": "rule",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: kural; fiil: yönetmek, hükmetmek",
+   "ipa": "/ɹul/"
+  },
+  {
+   "w": "ruler",
+   "pos": [
+    "noun"
+   ],
+   "tr": "cetvel, hükümdar",
+   "ipa": "/ˈɹulɚ/"
+  },
+  {
+   "w": "run",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "fiil: koşmak, yönetmek (işletmek), çalışmak (makine); isim: koşu",
+   "ipa": "/ɹʌn/"
+  },
+  {
+   "w": "sad",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "üzgün, mutsuz, üzücü",
+   "ipa": "/ˈsæd/"
+  },
+  {
+   "w": "sailor",
+   "pos": [
+    "noun"
+   ],
+   "tr": "denizci, gemici",
+   "ipa": "/ˈseɪ.lɚ/"
+  },
+  {
+   "w": "salad",
+   "pos": [
+    "noun"
+   ],
+   "tr": "salata",
+   "ipa": "/ˈsæl.əd/"
+  },
+  {
+   "w": "sale",
+   "pos": [
+    "noun"
+   ],
+   "tr": "satış, indirim",
+   "ipa": "/seːl/"
+  },
+  {
+   "w": "same",
+   "pos": [
+    "adjective",
+    "adverb",
+    "pronoun"
+   ],
+   "tr": "aynı, aynı şey, aynı şekilde",
+   "ipa": "/seɪm/"
+  },
+  {
+   "w": "sandwich",
+   "pos": [
+    "noun"
+   ],
+   "tr": "sandviç"
+  },
+  {
+   "w": "Saturday",
+   "pos": [
+    "noun"
+   ],
+   "tr": "cumartesi",
+   "ipa": "/ˈsæt.ɚ.deɪ/"
+  },
+  {
+   "w": "save",
+   "pos": [
+    "verb"
+   ],
+   "tr": "kurtarmak, (para) biriktirmek, kaydetmek",
+   "ipa": "/seɪv/"
+  },
+  {
+   "w": "saw",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: testere; fiil: testereyle kesmek, gördü (see'nin geçmiş hâli)",
+   "ipa": "/sɔː/"
+  },
+  {
+   "w": "school",
+   "pos": [
+    "noun"
+   ],
+   "tr": "okul",
+   "ipa": "/skul/"
+  },
+  {
+   "w": "science",
+   "pos": [
+    "noun"
+   ],
+   "tr": "bilim, fen",
+   "ipa": "/ˈsaɪ.əns/"
+  },
+  {
+   "w": "scientist",
+   "pos": [
+    "noun"
+   ],
+   "tr": "bilim insanı",
+   "ipa": "/ˈsaɪəntəst/"
+  },
+  {
+   "w": "sea",
+   "pos": [
+    "noun"
+   ],
+   "tr": "deniz",
+   "ipa": "/siː/"
+  },
+  {
+   "w": "seat",
+   "pos": [
+    "noun"
+   ],
+   "tr": "koltuk, oturacak yer",
+   "ipa": "/siːt/"
+  },
+  {
+   "w": "second",
+   "pos": [
+    "adjective",
+    "adverb",
+    "noun",
+    "pronoun"
+   ],
+   "tr": "sıfat: ikinci; zarf: ikinci olarak; isim: saniye; zamir: ikincisi",
+   "ipa": "/ˈsɛk.ənd/"
+  },
+  {
+   "w": "section",
+   "pos": [
+    "noun"
+   ],
+   "tr": "bölüm, kısım",
+   "ipa": "/ˈsɛkʃən/"
+  },
+  {
+   "w": "see",
+   "pos": [
+    "verb"
+   ],
+   "tr": "görmek, anlamak, görüşmek (buluşmak)",
+   "ipa": "/si/"
+  },
+  {
+   "w": "self",
+   "pos": [
+    "noun"
+   ],
+   "tr": "benlik, kendi, öz",
+   "ipa": "/ˈsɛlf/"
+  },
+  {
+   "w": "sell",
+   "pos": [
+    "verb"
+   ],
+   "tr": "satmak",
+   "ipa": "/sɛl/"
+  },
+  {
+   "w": "sentence",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: cümle, (mahkeme) cezası, hüküm; fiil: mahkûm etmek, ceza vermek",
+   "ipa": "[ˈsɛn.tn̩(t)s]"
+  },
+  {
+   "w": "September",
+   "pos": [
+    "noun"
+   ],
+   "tr": "eylül",
+   "ipa": "/sɛpˈtɛmbɚ/"
+  },
+  {
+   "w": "seven",
+   "pos": [
+    "number"
+   ],
+   "tr": "yedi",
+   "ipa": "/ˈsɛvən/"
+  },
+  {
+   "w": "seventeen",
+   "pos": [
+    "number"
+   ],
+   "tr": "on yedi",
+   "ipa": "/ˈsɛv.ən.tiːn/"
+  },
+  {
+   "w": "seventy",
+   "pos": [
+    "number"
+   ],
+   "tr": "yetmiş",
+   "ipa": "/ˈsɛv.ən.di/"
+  },
+  {
+   "w": "shake",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "fiil: sallamak, sarsmak, titremek; isim: sallama, sarsıntı, milkshake"
+  },
+  {
+   "w": "she",
+   "pos": [
+    "pronoun"
+   ],
+   "tr": "o (kadın)",
+   "ipa": "/ʃi/"
+  },
+  {
+   "w": "sheep",
+   "pos": [
+    "noun"
+   ],
+   "tr": "koyun",
+   "ipa": "/ˈʃiːp/"
+  },
+  {
+   "w": "shelf",
+   "pos": [
+    "noun"
+   ],
+   "tr": "raf",
+   "ipa": "/ʃɛlf/"
+  },
+  {
+   "w": "ship",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: gemi; fiil: (kargoyla) göndermek, sevk etmek",
+   "ipa": "/ˈʃɪp/"
+  },
+  {
+   "w": "shirt",
+   "pos": [
+    "noun"
+   ],
+   "tr": "gömlek",
+   "ipa": "/ʃɜɹt/"
+  },
+  {
+   "w": "shoe",
+   "pos": [
+    "noun"
+   ],
+   "tr": "ayakkabı",
+   "ipa": "/ˈʃu/"
+  },
+  {
+   "w": "shop",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: dükkân, mağaza; fiil: alışveriş yapmak",
+   "ipa": "/ʃɑp/"
+  },
+  {
+   "w": "shopping",
+   "pos": [
+    "noun"
+   ],
+   "tr": "alışveriş",
+   "ipa": "/ˈʃɑpɪŋ/"
+  },
+  {
+   "w": "short",
+   "pos": [
+    "adjective",
+    "adverb",
+    "noun"
+   ],
+   "tr": "sıfat: kısa, eksik (yetersiz); zarf: aniden (durmak); isim: kısa film, (shorts) şort",
+   "ipa": "/ʃoɹt/"
+  },
+  {
+   "w": "should",
+   "pos": [
+    "modal auxiliary"
+   ],
+   "tr": "-meli, -malı (tavsiye)",
+   "ipa": "/ʃəd/"
+  },
+  {
+   "w": "shoulder",
+   "pos": [
+    "noun"
+   ],
+   "tr": "omuz",
+   "ipa": "/ˈʃoʊldɚ/"
+  },
+  {
+   "w": "shower",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: duş, sağanak; fiil: duş almak",
+   "ipa": "/ˈʃaʊ.ɚ/"
+  },
+  {
+   "w": "shy",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "utangaç, çekingen",
+   "ipa": "/ʃaɪ/"
+  },
+  {
+   "w": "sick",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "hasta, midesi bulanan, bıkmış (sick of)"
+  },
+  {
+   "w": "side",
+   "pos": [
+    "noun"
+   ],
+   "tr": "yan, taraf, kenar",
+   "ipa": "/ˈsaɪ̯d/"
+  },
+  {
+   "w": "sight",
+   "pos": [
+    "noun"
+   ],
+   "tr": "görme (duyusu), manzara, görülecek yer (sights)"
+  },
+  {
+   "w": "sign",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: işaret, tabela, belirti; fiil: imzalamak",
+   "ipa": "/saɪn/"
+  },
+  {
+   "w": "sing",
+   "pos": [
+    "verb"
+   ],
+   "tr": "şarkı söylemek, (kuş) ötmek",
+   "ipa": "/ˈsɪŋ/"
+  },
+  {
+   "w": "singer",
+   "pos": [
+    "noun"
+   ],
+   "tr": "şarkıcı",
+   "ipa": "/ˈsɪŋ.ɚ/"
+  },
+  {
+   "w": "sir",
+   "pos": [
+    "noun"
+   ],
+   "tr": "efendim, beyefendi",
+   "ipa": "/sɜɹ/"
+  },
+  {
+   "w": "sister",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kız kardeş, abla, rahibe",
+   "ipa": "/ˈsɪs.tɚ/"
+  },
+  {
+   "w": "sit",
+   "pos": [
+    "verb"
+   ],
+   "tr": "oturmak",
+   "ipa": "/sɪt/"
+  },
+  {
+   "w": "site",
+   "pos": [
+    "noun"
+   ],
+   "tr": "yer, alan (şantiye), (web) sitesi",
+   "ipa": "/saɪt/"
+  },
+  {
+   "w": "six",
+   "pos": [
+    "number"
+   ],
+   "tr": "altı",
+   "ipa": "/sɪks/"
+  },
+  {
+   "w": "sixteen",
+   "pos": [
+    "number"
+   ],
+   "tr": "on altı",
+   "ipa": "/ˈsɪks.tiːn/"
+  },
+  {
+   "w": "sixty",
+   "pos": [
+    "number"
+   ],
+   "tr": "altmış",
+   "ipa": "/ˈsɪksti/"
+  },
+  {
+   "w": "size",
+   "pos": [
+    "noun"
+   ],
+   "tr": "boyut, beden, numara (ayakkabı)",
+   "ipa": "/saɪz/"
+  },
+  {
+   "w": "skill",
+   "pos": [
+    "noun"
+   ],
+   "tr": "beceri, yetenek",
+   "ipa": "[skɪɫ]"
+  },
+  {
+   "w": "skirt",
+   "pos": [
+    "noun"
+   ],
+   "tr": "etek",
+   "ipa": "/skɚt/"
+  },
+  {
+   "w": "sky",
+   "pos": [
+    "noun"
+   ],
+   "tr": "gökyüzü, gök",
+   "ipa": "/skaɪ/"
+  },
+  {
+   "w": "slow",
+   "pos": [
+    "adjective",
+    "adverb",
+    "verb"
+   ],
+   "tr": "sıfat: yavaş, ağır; zarf: yavaşça; fiil: yavaşlamak, yavaşlatmak",
+   "ipa": "/sloʊ/"
+  },
+  {
+   "w": "small",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "küçük, ufak",
+   "ipa": "/smɔːl/"
+  },
+  {
+   "w": "smart",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "akıllı, zeki, şık",
+   "ipa": "/smɑɹt/"
+  },
+  {
+   "w": "smell",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: koku; fiil: koklamak, kokmak",
+   "ipa": "/smɛl/"
+  },
+  {
+   "w": "smile",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: gülümseme; fiil: gülümsemek",
+   "ipa": "/ˈsmaɪl/"
+  },
+  {
+   "w": "smith",
+   "pos": [
+    "noun"
+   ],
+   "tr": "demirci",
+   "ipa": "/smɪθ/"
+  },
+  {
+   "w": "smoke",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: duman; fiil: sigara içmek, tütmek",
+   "ipa": "/smoʊk/"
+  },
+  {
+   "w": "smoking",
+   "pos": [
+    "noun"
+   ],
+   "tr": "sigara içme",
+   "ipa": "/ˈsmoʊkɪŋ/"
+  },
+  {
+   "w": "snake",
+   "pos": [
+    "noun"
+   ],
+   "tr": "yılan",
+   "ipa": "/sneɪk/"
+  },
+  {
+   "w": "snow",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: kar; fiil: kar yağmak",
+   "ipa": "/snoʊ̯/"
+  },
+  {
+   "w": "snowy",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "karlı"
+  },
+  {
+   "w": "soccer",
+   "pos": [
+    "noun"
+   ],
+   "tr": "futbol",
+   "ipa": "/ˈsɑk.ɚ/"
+  },
+  {
+   "w": "social",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "sosyal, toplumsal",
+   "ipa": "/ˈsoʊ.ʃəl/"
+  },
+  {
+   "w": "sofa",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kanepe, koltuk",
+   "ipa": "/ˈsoʊ̯fə/"
+  },
+  {
+   "w": "solve",
+   "pos": [
+    "verb"
+   ],
+   "tr": "çözmek",
+   "ipa": "/sɒlv/"
+  },
+  {
+   "w": "some",
+   "pos": [
+    "determiner",
+    "pronoun"
+   ],
+   "tr": "belirleyici: bazı, biraz, birkaç; zamir: bazısı, biraz",
+   "ipa": "/sʌm/"
+  },
+  {
+   "w": "someone",
+   "pos": [
+    "pronoun"
+   ],
+   "tr": "biri, birisi",
+   "ipa": "/ˈsʌmwʌn/"
+  },
+  {
+   "w": "something",
+   "pos": [
+    "pronoun"
+   ],
+   "tr": "bir şey",
+   "ipa": "[ˈsʌm(p)θɪŋ]"
+  },
+  {
+   "w": "son",
+   "pos": [
+    "noun"
+   ],
+   "tr": "oğul, erkek evlat",
+   "ipa": "/sʌn/"
+  },
+  {
+   "w": "song",
+   "pos": [
+    "noun"
+   ],
+   "tr": "şarkı",
+   "ipa": "/sɒŋ/"
+  },
+  {
+   "w": "soon",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "yakında, birazdan, kısa süre sonra",
+   "ipa": "/sun/"
+  },
+  {
+   "w": "sorry",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "üzgün, pişman, (sorry!) özür dilerim",
+   "ipa": "/ˈsɑɹi/"
+  },
+  {
+   "w": "soup",
+   "pos": [
+    "noun"
+   ],
+   "tr": "çorba",
+   "ipa": "/sup/"
+  },
+  {
+   "w": "speak",
+   "pos": [
+    "verb"
+   ],
+   "tr": "konuşmak, (bir dili) konuşabilmek",
+   "ipa": "/spik/"
+  },
+  {
+   "w": "special",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "özel",
+   "ipa": "/ˈspɛʃ.əl/"
+  },
+  {
+   "w": "speech",
+   "pos": [
+    "noun"
+   ],
+   "tr": "konuşma, söz",
+   "ipa": "/spiːt͡ʃ/"
+  },
+  {
+   "w": "spell",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "fiil: hecelemek, (harf harf) söylemek/yazmak; isim: büyü, (kısa) dönem",
+   "ipa": "/spɛl/"
+  },
+  {
+   "w": "spend",
+   "pos": [
+    "verb"
+   ],
+   "tr": "harcamak, (zaman) geçirmek",
+   "ipa": "/spɛnd/"
+  },
+  {
+   "w": "sport",
+   "pos": [
+    "noun"
+   ],
+   "tr": "spor",
+   "ipa": "/spoɹt/"
+  },
+  {
+   "w": "spot",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: benek, leke, yer (nokta); fiil: fark etmek, görmek",
+   "ipa": "/spɑt/"
+  },
+  {
+   "w": "spring",
+   "pos": [
+    "noun"
+   ],
+   "tr": "ilkbahar, yay (zemberek), kaynak (pınar)",
+   "ipa": "/ˈspɹɪŋ/"
+  },
+  {
+   "w": "spy",
+   "pos": [
+    "noun"
+   ],
+   "tr": "casus, ajan",
+   "ipa": "/spaɪ/"
+  },
+  {
+   "w": "stage",
+   "pos": [
+    "noun"
+   ],
+   "tr": "isim: sahne, aşama, evre; fiil: sahnelemek, düzenlemek",
+   "ipa": "/steɪd͡ʒ/"
+  },
+  {
+   "w": "stand",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "fiil: ayakta durmak, ayağa kalkmak, dayanmak (katlanmak); isim: stant, tezgâh",
+   "ipa": "/ˈstænd/"
+  },
+  {
+   "w": "star",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: yıldız, ünlü; fiil: başrol oynamak",
+   "ipa": "/stɑɹ/"
+  },
+  {
+   "w": "start",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: başlangıç; fiil: başlamak, başlatmak",
+   "ipa": "/stɑɹt/"
+  },
+  {
+   "w": "station",
+   "pos": [
+    "noun"
+   ],
+   "tr": "istasyon, gar, durak",
+   "ipa": "/ˈsteɪʃən/"
+  },
+  {
+   "w": "still",
+   "pos": [
+    "adjective",
+    "adverb"
+   ],
+   "tr": "zarf: hâlâ, yine de; sıfat: hareketsiz, durgun, gazsız (su)",
+   "ipa": "/ˈstɪl/"
+  },
+  {
+   "w": "stone",
+   "pos": [
+    "noun"
+   ],
+   "tr": "taş, (meyve) çekirdeği",
+   "ipa": "/stoʊ̯n/"
+  },
+  {
+   "w": "stop",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "fiil: durmak, durdurmak, (-meyi) bırakmak; isim: durak, duraklama",
+   "ipa": "/stɒp/"
+  },
+  {
+   "w": "store",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: mağaza, dükkân, depo; fiil: saklamak, depolamak",
+   "ipa": "/stɔɹ/"
+  },
+  {
+   "w": "story",
+   "pos": [
+    "noun"
+   ],
+   "tr": "hikâye, öykü, haber",
+   "ipa": "/ˈstɔ.ɹi/"
+  },
+  {
+   "w": "strange",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "garip, tuhaf, yabancı",
+   "ipa": "/stɹeɪnd͡ʒ/"
+  },
+  {
+   "w": "street",
+   "pos": [
+    "noun"
+   ],
+   "tr": "sokak, cadde",
+   "ipa": "/stɹit/"
+  },
+  {
+   "w": "strict",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "katı, sıkı, sert"
+  },
+  {
+   "w": "strong",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "güçlü, kuvvetli, sağlam",
+   "ipa": "/stɹɔŋ/"
+  },
+  {
+   "w": "student",
+   "pos": [
+    "noun"
+   ],
+   "tr": "öğrenci",
+   "ipa": "/ˈstjuː.dn̩t/"
+  },
+  {
+   "w": "subject",
+   "pos": [
+    "noun"
+   ],
+   "tr": "konu, ders, özne",
+   "ipa": "/ˈsʌb.d͡ʒɪkt/"
+  },
+  {
+   "w": "subway",
+   "pos": [
+    "noun"
+   ],
+   "tr": "metro (ABD), alt geçit (İngiltere)",
+   "ipa": "/ˈsʌbˌweɪ/"
+  },
+  {
+   "w": "successful",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "başarılı",
+   "ipa": "/səkˈsɛs.fəl/"
+  },
+  {
+   "w": "sugar",
+   "pos": [
+    "noun"
+   ],
+   "tr": "şeker",
+   "ipa": "/ˈʃʊɡɚ/"
+  },
+  {
+   "w": "suggestion",
+   "pos": [
+    "noun"
+   ],
+   "tr": "öneri, teklif, tavsiye",
+   "ipa": "/sə(ɡ)ˈd͡ʒɛs.t͡ʃən/"
+  },
+  {
+   "w": "sum",
+   "pos": [
+    "noun"
+   ],
+   "tr": "toplam, (para) miktarı",
+   "ipa": "/sʌm/"
+  },
+  {
+   "w": "summer",
+   "pos": [
+    "noun"
+   ],
+   "tr": "yaz",
+   "ipa": "/ˈsʌmɚ/"
+  },
+  {
+   "w": "sun",
+   "pos": [
+    "noun"
+   ],
+   "tr": "güneş",
+   "ipa": "/sʌn/"
+  },
+  {
+   "w": "Sunday",
+   "pos": [
+    "noun"
+   ],
+   "tr": "pazar",
+   "ipa": "/ˈsʌn.deɪ/"
+  },
+  {
+   "w": "sunny",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "güneşli, neşeli",
+   "ipa": "/ˈsʌni/"
+  },
+  {
+   "w": "sunshine",
+   "pos": [
+    "noun"
+   ],
+   "tr": "güneş ışığı",
+   "ipa": "/ˈsʌnʃaɪn/"
+  },
+  {
+   "w": "super",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "süper, harika, mükemmel",
+   "ipa": "/ˈsupɚ/"
+  },
+  {
+   "w": "supermarket",
+   "pos": [
+    "noun"
+   ],
+   "tr": "süpermarket",
+   "ipa": "/ˌsupɚˈmɑɹkət/"
+  },
+  {
+   "w": "sure",
+   "pos": [
+    "adjective",
+    "adverb"
+   ],
+   "tr": "sıfat: emin; zarf: tabii, elbette, kesinlikle",
+   "ipa": "/ʃʊɹ/"
+  },
+  {
+   "w": "surf",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "fiil: sörf yapmak, (internette) gezinmek; isim: kıyıya vuran köpüklü dalgalar",
+   "ipa": "/sɝf/"
+  },
+  {
+   "w": "surprise",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: sürpriz, şaşkınlık; fiil: şaşırtmak",
+   "ipa": "/sə(ː)ˈpɹaɪ̯z/"
+  },
+  {
+   "w": "survey",
+   "pos": [
+    "noun"
+   ],
+   "tr": "anket, inceleme, araştırma",
+   "ipa": "/ˈsɝˌveɪ/"
+  },
+  {
+   "w": "sweet",
+   "pos": [
+    "adjective",
+    "noun"
+   ],
+   "tr": "sıfat: tatlı, şirin; isim: şeker (şekerleme), tatlı",
+   "ipa": "/swit/"
+  },
+  {
+   "w": "swim",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "fiil: yüzmek; isim: yüzme",
+   "ipa": "/swɪm/"
+  },
+  {
+   "w": "swimming",
+   "pos": [
+    "noun"
+   ],
+   "tr": "yüzme",
+   "ipa": "/ˈswɪmɪŋ/"
+  },
+  {
+   "w": "swimming pool",
+   "pos": [
+    "noun"
+   ],
+   "tr": "yüzme havuzu",
+   "ipa": "/ˈswɪmɪŋ ˌpuːl/"
+  },
+  {
+   "w": "table",
+   "pos": [
+    "noun"
+   ],
+   "tr": "masa, tablo, çizelge",
+   "ipa": "[ˈtʰeɪb(ə)ɫ]"
+  },
+  {
+   "w": "tall",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "uzun (boylu), yüksek",
+   "ipa": "/tɔl/"
+  },
+  {
+   "w": "taxi",
+   "pos": [
+    "noun"
+   ],
+   "tr": "taksi",
+   "ipa": "/ˈtæksi/"
+  },
+  {
+   "w": "tea",
+   "pos": [
+    "noun"
+   ],
+   "tr": "çay",
+   "ipa": "/ti/"
+  },
+  {
+   "w": "teach",
+   "pos": [
+    "verb"
+   ],
+   "tr": "öğretmek, ders vermek",
+   "ipa": "/ˈtiːt͡ʃ/"
+  },
+  {
+   "w": "teacher",
+   "pos": [
+    "noun"
+   ],
+   "tr": "öğretmen",
+   "ipa": "/ˈti.t͡ʃɚ/"
+  },
+  {
+   "w": "team",
+   "pos": [
+    "noun"
+   ],
+   "tr": "takım, ekip",
+   "ipa": "/ˈtiːm/"
+  },
+  {
+   "w": "technology",
+   "pos": [
+    "noun"
+   ],
+   "tr": "teknoloji",
+   "ipa": "/tɛkˈnɑ.lə.dʒi/"
+  },
+  {
+   "w": "telephone",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: telefon; fiil: telefon etmek, aramak",
+   "ipa": "/ˈtɛləˌfoʊn/"
+  },
+  {
+   "w": "television",
+   "pos": [
+    "noun"
+   ],
+   "tr": "televizyon",
+   "ipa": "/ˈtɛlɪˌvɪʒən/"
+  },
+  {
+   "w": "tell",
+   "pos": [
+    "verb"
+   ],
+   "tr": "söylemek, anlatmak, ayırt etmek",
+   "ipa": "/tɛl/"
+  },
+  {
+   "w": "temple",
+   "pos": [
+    "noun"
+   ],
+   "tr": "tapınak, şakak",
+   "ipa": "/tɪm.pl̩/"
+  },
+  {
+   "w": "ten",
+   "pos": [
+    "number"
+   ],
+   "tr": "on",
+   "ipa": "/tɛn/"
+  },
+  {
+   "w": "tennis",
+   "pos": [
+    "noun"
+   ],
+   "tr": "tenis",
+   "ipa": "/ˈtɛnɪs/"
+  },
+  {
+   "w": "terrible",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "korkunç, berbat, çok kötü",
+   "ipa": "/ˈtɛɹəbəl/"
+  },
+  {
+   "w": "test",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: test, sınav, deneme; fiil: test etmek, denemek, sınamak",
+   "ipa": "/tɛst/"
+  },
+  {
+   "w": "than",
+   "pos": [
+    "conjunction",
+    "preposition"
+   ],
+   "tr": "-den/-dan (karşılaştırmada), -e göre",
+   "ipa": "/ðæn/"
+  },
+  {
+   "w": "thank",
+   "pos": [
+    "verb"
+   ],
+   "tr": "teşekkür etmek",
+   "ipa": "/ˈθæŋk/"
+  },
+  {
+   "w": "thanks",
+   "pos": [
+    "noun"
+   ],
+   "tr": "teşekkürler, sağ ol, teşekkür",
+   "ipa": "[ˈfæŋks]"
+  },
+  {
+   "w": "the",
+   "pos": [
+    "determiner"
+   ],
+   "tr": "belirli tanımlık (bilinen, belirli olanı gösterir; Türkçede çoğu zaman karşılığı yok)"
+  },
+  {
+   "w": "theater",
+   "pos": [
+    "noun"
+   ],
+   "tr": "tiyatro, sinema salonu (ABD)",
+   "ipa": "/ˈθi(ə)tɚ/"
+  },
+  {
+   "w": "their",
+   "pos": [
+    "determiner"
+   ],
+   "tr": "onların",
+   "ipa": "/ðɛɚ/"
+  },
+  {
+   "w": "them",
+   "pos": [
+    "pronoun"
+   ],
+   "tr": "onları, onlara",
+   "ipa": "/ˈðɛm/"
+  },
+  {
+   "w": "then",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "sonra, o zaman, o hâlde",
+   "ipa": "/ðɛn/"
+  },
+  {
+   "w": "there",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "orada, oraya, (there is/are) var",
+   "ipa": "/ðə(ɹ)/"
+  },
+  {
+   "w": "these",
+   "pos": [
+    "determiner",
+    "pronoun"
+   ],
+   "tr": "belirleyici: bu (çoğul); zamir: bunlar",
+   "ipa": "/ðiz/"
+  },
+  {
+   "w": "they",
+   "pos": [
+    "pronoun"
+   ],
+   "tr": "onlar",
+   "ipa": "/ˈðeɪ̯/"
+  },
+  {
+   "w": "thick",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "kalın, yoğun, koyu",
+   "ipa": "/θɪk/"
+  },
+  {
+   "w": "thin",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "ince, zayıf",
+   "ipa": "/ˈθɪn/"
+  },
+  {
+   "w": "thing",
+   "pos": [
+    "noun"
+   ],
+   "tr": "şey, nesne, eşya (things)",
+   "ipa": "/θɪŋ/"
+  },
+  {
+   "w": "think",
+   "pos": [
+    "verb"
+   ],
+   "tr": "düşünmek, sanmak",
+   "ipa": "/ˈθɪŋk/"
+  },
+  {
+   "w": "thirteen",
+   "pos": [
+    "number"
+   ],
+   "tr": "on üç",
+   "ipa": "/ˌθɝtˈtin/"
+  },
+  {
+   "w": "thirty",
+   "pos": [
+    "number"
+   ],
+   "tr": "otuz",
+   "ipa": "/ˈθɝti/"
+  },
+  {
+   "w": "this",
+   "pos": [
+    "determiner",
+    "pronoun"
+   ],
+   "tr": "belirleyici: bu; zamir: bu, bunu",
+   "ipa": "/ðɪs/"
+  },
+  {
+   "w": "those",
+   "pos": [
+    "determiner",
+    "pronoun"
+   ],
+   "tr": "belirleyici: şu, o (çoğul); zamir: şunlar, onlar",
+   "ipa": "/ðoʊz/"
+  },
+  {
+   "w": "three",
+   "pos": [
+    "number"
+   ],
+   "tr": "üç",
+   "ipa": "/θɹiː/"
+  },
+  {
+   "w": "throw",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "fiil: atmak, fırlatmak; isim: atış, fırlatma",
+   "ipa": "/θɹoʊ/"
+  },
+  {
+   "w": "Thursday",
+   "pos": [
+    "noun"
+   ],
+   "tr": "perşembe",
+   "ipa": "/ˈθɝz.deɪ/"
+  },
+  {
+   "w": "ticket",
+   "pos": [
+    "noun"
+   ],
+   "tr": "bilet, (trafik) cezası",
+   "ipa": "/ˈtɪk.ɪt/"
+  },
+  {
+   "w": "tiger",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kaplan",
+   "ipa": "/ˈtaɪɡɚ/"
+  },
+  {
+   "w": "tight",
+   "pos": [
+    "adjective",
+    "adverb"
+   ],
+   "tr": "sıfat: sıkı, dar, gergin; zarf: sıkıca, sıkı sıkı",
+   "ipa": "/taɪt/"
+  },
+  {
+   "w": "time",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: zaman, vakit, kez (sefer); fiil: zamanlamak, süresini ölçmek",
+   "ipa": "/taɪm/"
+  },
+  {
+   "w": "tired",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "yorgun, bıkmış (tired of)",
+   "ipa": "[ˈtaɪ̯ɚd]"
+  },
+  {
+   "w": "to",
+   "pos": [
+    "infinitive-to",
+    "preposition"
+   ],
+   "tr": "edat: -e/-a (yönelme), -e kadar; mastar: -mek/-mak (to go: gitmek)"
+  },
+  {
+   "w": "today",
+   "pos": [
+    "adverb",
+    "noun"
+   ],
+   "tr": "bugün, günümüzde",
+   "ipa": "/təˈdeɪ/"
+  },
+  {
+   "w": "together",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "birlikte, beraber",
+   "ipa": "/tʊˈɡɛðɚ/"
+  },
+  {
+   "w": "toilet",
+   "pos": [
+    "noun"
+   ],
+   "tr": "tuvalet, klozet",
+   "ipa": "/ˈtɔɪ.lət/"
+  },
+  {
+   "w": "tomato",
+   "pos": [
+    "noun"
+   ],
+   "tr": "domates",
+   "ipa": "/təˈmeɪ.toʊ/"
+  },
+  {
+   "w": "tomorrow",
+   "pos": [
+    "adverb",
+    "noun"
+   ],
+   "tr": "yarın",
+   "ipa": "/təˈmɑɹoʊ/"
+  },
+  {
+   "w": "tonight",
+   "pos": [
+    "adverb",
+    "noun"
+   ],
+   "tr": "bu gece, bu akşam"
+  },
+  {
+   "w": "too",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "de/da, fazla (aşırı), çok",
+   "ipa": "/tu/"
+  },
+  {
+   "w": "tool",
+   "pos": [
+    "noun"
+   ],
+   "tr": "alet, araç",
+   "ipa": "/tul/"
+  },
+  {
+   "w": "tooth",
+   "pos": [
+    "noun"
+   ],
+   "tr": "diş",
+   "ipa": "/tuθ/"
+  },
+  {
+   "w": "topic",
+   "pos": [
+    "noun"
+   ],
+   "tr": "konu",
+   "ipa": "/ˈtɑpɪk/"
+  },
+  {
+   "w": "touch",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "fiil: dokunmak, ellemek; isim: dokunuş, temas (in touch: iletişimde)",
+   "ipa": "/tʌt͡ʃ/"
+  },
+  {
+   "w": "towel",
+   "pos": [
+    "noun"
+   ],
+   "tr": "havlu",
+   "ipa": "/ˈtaʊ̯əl/"
+  },
+  {
+   "w": "tower",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kule",
+   "ipa": "/ˈtaʊɚ/"
+  },
+  {
+   "w": "town",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kasaba, şehir",
+   "ipa": "/ˈtaʊ̯n/"
+  },
+  {
+   "w": "toy",
+   "pos": [
+    "noun"
+   ],
+   "tr": "oyuncak",
+   "ipa": "/tɔɪ/"
+  },
+  {
+   "w": "train",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: tren; fiil: eğitmek, antrenman yapmak",
+   "ipa": "/ˈtɹeɪn/"
+  },
+  {
+   "w": "tree",
+   "pos": [
+    "noun"
+   ],
+   "tr": "ağaç",
+   "ipa": "/tɹiː/"
+  },
+  {
+   "w": "trip",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: gezi, yolculuk, seyahat; fiil: tökezlemek, çelme takmak",
+   "ipa": "/tɹɪp/"
+  },
+  {
+   "w": "trousers",
+   "pos": [
+    "noun"
+   ],
+   "tr": "pantolon",
+   "ipa": "/ˈtɹaʊzəz/"
+  },
+  {
+   "w": "truck",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kamyon",
+   "ipa": "/tɹʌk/"
+  },
+  {
+   "w": "true",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "doğru, gerçek, sadık",
+   "ipa": "/tɹuː/"
+  },
+  {
+   "w": "try",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "fiil: denemek, çalışmak (çabalamak), tatmak; isim: deneme, girişim",
+   "ipa": "/tɹaɪ/"
+  },
+  {
+   "w": "T-shirt",
+   "pos": [
+    "noun"
+   ],
+   "tr": "tişört",
+   "ipa": "/ˈtiːʃɚt/"
+  },
+  {
+   "w": "tube",
+   "pos": [
+    "noun"
+   ],
+   "tr": "tüp, boru, (Londra) metro",
+   "ipa": "/tuːb/"
+  },
+  {
+   "w": "Tuesday",
+   "pos": [
+    "noun"
+   ],
+   "tr": "salı",
+   "ipa": "/ˈtuz.deɪ/"
+  },
+  {
+   "w": "turkey",
+   "pos": [
+    "noun"
+   ],
+   "tr": "hindi",
+   "ipa": "/ˈtɝki/"
+  },
+  {
+   "w": "turn",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "fiil: dönmek, döndürmek, (yaşına) girmek; isim: sıra, dönüş",
+   "ipa": "/tɜɹn/"
+  },
+  {
+   "w": "TV",
+   "pos": [
+    "noun"
+   ],
+   "tr": "televizyon, TV",
+   "ipa": "/ˌtiːˈviː/"
+  },
+  {
+   "w": "twelve",
+   "pos": [
+    "number"
+   ],
+   "tr": "on iki",
+   "ipa": "/twɛlv/"
+  },
+  {
+   "w": "twenty",
+   "pos": [
+    "number"
+   ],
+   "tr": "yirmi",
+   "ipa": "/ˈtwɛnti/ [-ɛɾ̃i]"
+  },
+  {
+   "w": "two",
+   "pos": [
+    "number"
+   ],
+   "tr": "iki",
+   "ipa": "/tu/"
+  },
+  {
+   "w": "type",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: tür, tip, çeşit; fiil: (klavyeyle) yazmak",
+   "ipa": "/taɪp/"
+  },
+  {
+   "w": "ugly",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "çirkin",
+   "ipa": "/ˈʌɡli/"
+  },
+  {
+   "w": "umbrella",
+   "pos": [
+    "noun"
+   ],
+   "tr": "şemsiye",
+   "ipa": "/ʌmˈbɹɛl.ə/"
+  },
+  {
+   "w": "uncle",
+   "pos": [
+    "noun"
+   ],
+   "tr": "amca, dayı, enişte",
+   "ipa": "/ˈʌŋ.kl̩/"
+  },
+  {
+   "w": "under",
+   "pos": [
+    "preposition"
+   ],
+   "tr": "altında, -in altında, -den az",
+   "ipa": "/ˈʌndɚ/"
+  },
+  {
+   "w": "underline",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "fiil: altını çizmek, vurgulamak; isim: alt çizgi",
+   "ipa": "/ˈʌndɚˌlaɪn/"
+  },
+  {
+   "w": "us",
+   "pos": [
+    "pronoun"
+   ],
+   "tr": "bizi, bize"
+  },
+  {
+   "w": "usually",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "genellikle, genelde",
+   "ipa": "/ˈjuːʒʊəli/"
+  },
+  {
+   "w": "vacation",
+   "pos": [
+    "noun"
+   ],
+   "tr": "tatil",
+   "ipa": "/veɪˈkeɪ.ʃən/"
+  },
+  {
+   "w": "vase",
+   "pos": [
+    "noun"
+   ],
+   "tr": "vazo",
+   "ipa": "/veɪ̯s/"
+  },
+  {
+   "w": "vegetable",
+   "pos": [
+    "noun"
+   ],
+   "tr": "sebze",
+   "ipa": "/ˈvɛd͡ʒ.tə.bəl/"
+  },
+  {
+   "w": "video",
+   "pos": [
+    "noun"
+   ],
+   "tr": "video",
+   "ipa": "/ˈvɪd.i.oʊ/"
+  },
+  {
+   "w": "visit",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "fiil: ziyaret etmek, (bir yeri) gezmek; isim: ziyaret",
+   "ipa": "/ˈvɪzɪt/"
+  },
+  {
+   "w": "volleyball",
+   "pos": [
+    "noun"
+   ],
+   "tr": "voleybol",
+   "ipa": "/ˈvɒlibɔ(ː)l/"
+  },
+  {
+   "w": "vote",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: oy, oylama; fiil: oy vermek, oylamak",
+   "ipa": "/voʊt/"
+  },
+  {
+   "w": "waiter",
+   "pos": [
+    "noun"
+   ],
+   "tr": "garson",
+   "ipa": "/ˈweɪ̯təː/"
+  },
+  {
+   "w": "waitress",
+   "pos": [
+    "noun"
+   ],
+   "tr": "garson (kadın)",
+   "ipa": "/ˈweɪ.tɹɪs/"
+  },
+  {
+   "w": "wake",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "fiil: uyanmak, uyandırmak; isim: (geminin) dümen suyu, iz (in the wake of: -in ardından)",
+   "ipa": "/ˈweɪ̯k/"
+  },
+  {
+   "w": "walk",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "fiil: yürümek, (köpek) gezdirmek; isim: yürüyüş",
+   "ipa": "/wɔːk/"
+  },
+  {
+   "w": "wall",
+   "pos": [
+    "noun"
+   ],
+   "tr": "duvar",
+   "ipa": "/wɔːl/"
+  },
+  {
+   "w": "war",
+   "pos": [
+    "noun"
+   ],
+   "tr": "savaş",
+   "ipa": "/wɔɹ/"
+  },
+  {
+   "w": "warm",
+   "pos": [
+    "adjective",
+    "verb"
+   ],
+   "tr": "sıfat: ılık, sıcak, samimi; fiil: ısıtmak, ısınmak",
+   "ipa": "/wɔɹm/"
+  },
+  {
+   "w": "was",
+   "pos": [
+    "be-verb"
+   ],
+   "tr": "idi, -di (be'nin geçmiş hâli; I/he/she/it ile)"
+  },
+  {
+   "w": "wash",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "fiil: yıkamak, yıkanmak; isim: yıkama",
+   "ipa": "/wɑʃ/"
+  },
+  {
+   "w": "watch",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: kol saati, nöbet; fiil: izlemek, seyretmek, dikkat etmek",
+   "ipa": "/ˈwɒt͡ʃ/"
+  },
+  {
+   "w": "water",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: su; fiil: sulamak",
+   "ipa": "/ˈwɔː.tə/"
+  },
+  {
+   "w": "way",
+   "pos": [
+    "noun"
+   ],
+   "tr": "yol, yöntem, şekil (tarz)",
+   "ipa": "/weɪ/"
+  },
+  {
+   "w": "we",
+   "pos": [
+    "pronoun"
+   ],
+   "tr": "biz",
+   "ipa": "/wi/"
+  },
+  {
+   "w": "wear",
+   "pos": [
+    "verb"
+   ],
+   "tr": "giymek, takmak (gözlük vb.), yıpranmak",
+   "ipa": "/wɛ(ə)ɹ/"
+  },
+  {
+   "w": "weather",
+   "pos": [
+    "noun"
+   ],
+   "tr": "hava, hava durumu",
+   "ipa": "/ˈwɛðɚ/"
+  },
+  {
+   "w": "Wednesday",
+   "pos": [
+    "noun"
+   ],
+   "tr": "çarşamba",
+   "ipa": "/ˈwɛnz.deɪ/"
+  },
+  {
+   "w": "week",
+   "pos": [
+    "noun"
+   ],
+   "tr": "hafta",
+   "ipa": "/wiːk/"
+  },
+  {
+   "w": "weekend",
+   "pos": [
+    "noun"
+   ],
+   "tr": "hafta sonu",
+   "ipa": "/ˈwiˌkɛnd/"
+  },
+  {
+   "w": "well",
+   "pos": [
+    "adjective",
+    "adverb"
+   ],
+   "tr": "zarf: iyi, iyice; sıfat: iyi, sağlıklı",
+   "ipa": "/ˈwɛl/"
+  },
+  {
+   "w": "were",
+   "pos": [
+    "be-verb"
+   ],
+   "tr": "idi, -di (be'nin geçmiş hâli; you/we/they ile)"
+  },
+  {
+   "w": "what",
+   "pos": [
+    "determiner",
+    "pronoun"
+   ],
+   "tr": "zamir: ne; belirleyici: hangi, ne (what time: saat kaç)",
+   "ipa": "/wɑt/"
+  },
+  {
+   "w": "wheel",
+   "pos": [
+    "noun"
+   ],
+   "tr": "tekerlek, direksiyon, çark",
+   "ipa": "/ˈwiːl/"
+  },
+  {
+   "w": "when",
+   "pos": [
+    "adverb",
+    "conjunction"
+   ],
+   "tr": "zarf: ne zaman; bağlaç: -dığında, -ince",
+   "ipa": "/ˈwɛn/"
+  },
+  {
+   "w": "where",
+   "pos": [
+    "adverb",
+    "conjunction"
+   ],
+   "tr": "zarf: nerede, nereye; bağlaç: -dığı yerde",
+   "ipa": "/ˈwɛə/"
+  },
+  {
+   "w": "which",
+   "pos": [
+    "determiner",
+    "pronoun"
+   ],
+   "tr": "belirleyici: hangi; zamir: hangisi, ki (… olan)",
+   "ipa": "/wɪt͡ʃ/"
+  },
+  {
+   "w": "white",
+   "pos": [
+    "adjective",
+    "noun"
+   ],
+   "tr": "beyaz, ak",
+   "ipa": "/ˈwaɪt/"
+  },
+  {
+   "w": "who",
+   "pos": [
+    "pronoun"
+   ],
+   "tr": "kim, ki (… olan kişi)",
+   "ipa": "/hu/"
+  },
+  {
+   "w": "whose",
+   "pos": [
+    "determiner",
+    "pronoun"
+   ],
+   "tr": "belirleyici: kimin; zamir: kiminki",
+   "ipa": "/huːz/"
+  },
+  {
+   "w": "why",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "neden, niçin, niye",
+   "ipa": "/waɪ̯/"
+  },
+  {
+   "w": "wife",
+   "pos": [
+    "noun"
+   ],
+   "tr": "eş, karı",
+   "ipa": "/wæf/"
+  },
+  {
+   "w": "will",
+   "pos": [
+    "modal auxiliary",
+    "noun"
+   ],
+   "tr": "yardımcı fiil: -ecek/-acak (gelecek zaman); isim: irade, istek, vasiyet",
+   "ipa": "[wɪɫ]"
+  },
+  {
+   "w": "wind",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: rüzgâr, yel; fiil: sarmak, (saat) kurmak, kıvrılmak (yol)",
+   "ipa": "/ˈwɪnd/"
+  },
+  {
+   "w": "window",
+   "pos": [
+    "noun"
+   ],
+   "tr": "pencere",
+   "ipa": "/ˈwɪndoʊ/"
+  },
+  {
+   "w": "winter",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kış",
+   "ipa": "/ˈwɪntə/"
+  },
+  {
+   "w": "wish",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: dilek, istek; fiil: dilemek, istemek, keşke … olsa",
+   "ipa": "/ˈwɪʃ/"
+  },
+  {
+   "w": "with",
+   "pos": [
+    "preposition"
+   ],
+   "tr": "ile, -le/-la, birlikte",
+   "ipa": "/wɪθ/"
+  },
+  {
+   "w": "woman",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kadın",
+   "ipa": "/ˈwʊmən/"
+  },
+  {
+   "w": "wonderful",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "harika, muhteşem",
+   "ipa": "/ˈwʌndɚfl̩/"
+  },
+  {
+   "w": "word",
+   "pos": [
+    "noun"
+   ],
+   "tr": "kelime, sözcük, söz",
+   "ipa": "/wɜɹd/"
+  },
+  {
+   "w": "work",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "isim: iş, çalışma, eser; fiil: çalışmak, işe yaramak",
+   "ipa": "/wɝk/"
+  },
+  {
+   "w": "worker",
+   "pos": [
+    "noun"
+   ],
+   "tr": "işçi, çalışan",
+   "ipa": "/ˈwɝ.kɚ/"
+  },
+  {
+   "w": "world",
+   "pos": [
+    "noun"
+   ],
+   "tr": "dünya",
+   "ipa": "/wɝld/"
+  },
+  {
+   "w": "worry",
+   "pos": [
+    "noun",
+    "verb"
+   ],
+   "tr": "fiil: endişelenmek, kaygılanmak, endişelendirmek; isim: endişe, kaygı",
+   "ipa": "/ˈwʌ.ɹi/"
+  },
+  {
+   "w": "would",
+   "pos": [
+    "modal auxiliary"
+   ],
+   "tr": "-erdi/-ardı (koşul), -ir misiniz? (rica), (would like) istemek",
+   "ipa": "/wəd/"
+  },
+  {
+   "w": "write",
+   "pos": [
+    "verb"
+   ],
+   "tr": "yazmak",
+   "ipa": "/ɹəɪt/"
+  },
+  {
+   "w": "writer",
+   "pos": [
+    "noun"
+   ],
+   "tr": "yazar",
+   "ipa": "/ˈɹaɪ.təɹ/"
+  },
+  {
+   "w": "wrong",
+   "pos": [
+    "adjective",
+    "adverb"
+   ],
+   "tr": "sıfat: yanlış, hatalı, ters; zarf: yanlış, hatalı şekilde",
+   "ipa": "/ˈɹɔŋ/"
+  },
+  {
+   "w": "yard",
+   "pos": [
+    "noun"
+   ],
+   "tr": "avlu, bahçe, yarda (91 cm)",
+   "ipa": "/ˈjɑɹd/"
+  },
+  {
+   "w": "year",
+   "pos": [
+    "noun"
+   ],
+   "tr": "yıl, sene, yaş (… years old)",
+   "ipa": "/ˈjɪɚ/"
+  },
+  {
+   "w": "yellow",
+   "pos": [
+    "adjective",
+    "noun"
+   ],
+   "tr": "sarı",
+   "ipa": "/ˈjɛloʊ/"
+  },
+  {
+   "w": "yes",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "evet",
+   "ipa": "/jɛs/"
+  },
+  {
+   "w": "yesterday",
+   "pos": [
+    "adverb"
+   ],
+   "tr": "dün",
+   "ipa": "/ˈjɛstɹdeɪ/"
+  },
+  {
+   "w": "yet",
+   "pos": [
+    "adverb",
+    "conjunction"
+   ],
+   "tr": "zarf: henüz, daha (olumsuz), şimdiden (soruda); bağlaç: ama, yine de",
+   "ipa": "/jɛt/"
+  },
+  {
+   "w": "yogurt",
+   "pos": [
+    "noun"
+   ],
+   "tr": "yoğurt",
+   "ipa": "/ˈjoʊ.ɡɚt/"
+  },
+  {
+   "w": "you",
+   "pos": [
+    "pronoun"
+   ],
+   "tr": "sen, siz, seni/sizi",
+   "ipa": "/jə/"
+  },
+  {
+   "w": "young",
+   "pos": [
+    "adjective"
+   ],
+   "tr": "genç, (yaşça) küçük",
+   "ipa": "/jʌŋ/"
+  },
+  {
+   "w": "your",
+   "pos": [
+    "determiner"
+   ],
+   "tr": "senin, sizin",
+   "ipa": "/jɔɹ/"
+  },
+  {
+   "w": "yours",
+   "pos": [
+    "pronoun"
+   ],
+   "tr": "seninki, sizinki"
+  },
+  {
+   "w": "yourself",
+   "pos": [
+    "pronoun"
+   ],
+   "tr": "kendin, kendiniz",
+   "ipa": "/jəˈsɛlf/"
+  },
+  {
+   "w": "zoo",
+   "pos": [
+    "noun"
+   ],
+   "tr": "hayvanat bahçesi",
+   "ipa": "/zuː/"
+  }
+ ]
+}

@@ -1,0 +1,582 @@
+{
+  "type": "sentence",
+  "sources": [
+    {
+      "title": "2013-YDS Örnek Sorular (Almanca, Fransızca, İngilizce)",
+      "site": "ÖSYM",
+      "url": "https://osym.gov.tr/2013yds-ornek-sorular-almanca-fransizca-ingilizce"
+    },
+    {
+      "title": "Conjunctions",
+      "site": "Cambridge Dictionary – English Grammar Today",
+      "url": "https://dictionary.cambridge.org/grammar/british-grammar/conjunctions"
+    },
+    {
+      "title": "Although or though?",
+      "site": "Cambridge Dictionary – English Grammar Today",
+      "url": "https://dictionary.cambridge.org/grammar/british-grammar/although-or-though"
+    }
+  ],
+  "items": [
+    {
+      "id": "sen-001",
+      "q": "Although the new vaccine has proved effective in clinical trials, ----.",
+      "options": [
+        "it has already been approved for use in every country",
+        "its long-term side effects are still unknown",
+        "the researchers were awarded a prize for their work",
+        "the trials were carried out in several countries",
+        "it was developed much faster than earlier vaccines"
+      ],
+      "answer": 1,
+      "explain_tr": "[en:Although] zıtlık kurar: aşı etkili olduğu hâlde beklenmeyen/olumsuz bir şey gelmeli — uzun vadeli yan etkilerin bilinmemesi. Diğer seçenekler olumlu ya da nötr bilgi verir; zıtlık oluşturmaz.",
+      "tags": ["although"]
+    },
+    {
+      "id": "sen-002",
+      "q": "Since most of the region's electricity still comes from coal-fired power plants, ----.",
+      "options": [
+        "the country has had the lowest carbon emissions in Europe for decades",
+        "solar panels had been installed on every public building by 2010",
+        "the switch to renewable sources is unlikely to happen overnight",
+        "coal mining was banned in the region several years ago",
+        "the government would have invested heavily in wind farms"
+      ],
+      "answer": 2,
+      "explain_tr": "[en:Since] burada neden bildirir: elektrik hâlâ kömürden geliyorsa, yenilenebilir kaynaklara geçişin bir gecede olmayacağı doğal bir sonuçtur; [en:still] de şimdiki zamanı gösterir. A ve D kömüre bağımlılıkla çelişir (en düşük emisyon, kömür madenciliğinin yasaklanması); E'deki [en:would have invested] gerçekleşmemiş bir koşulun sonucudur, nedensel cümleye uymaz.",
+      "tags": ["since", "cause"]
+    },
+    {
+      "id": "sen-003",
+      "q": "----, the hospital will have to cancel several non-urgent operations next month.",
+      "options": [
+        "Because its operating theatres have recently been fully modernised",
+        "Because the new wing was opened ahead of schedule",
+        "As long as the budget is increased as promised",
+        "Now that the shortage of staff has finally been resolved",
+        "Unless more nurses are recruited in the coming weeks"
+      ],
+      "answer": 4,
+      "explain_tr": "Ana cümle gelecekte olumsuz bir sonuç bildiriyor (ameliyatların iptali); [en:unless] (…-mezse) bu sonucun hangi koşulda gerçekleşeceğini verir: hemşire alınmazsa. [en:As long as] ve [en:Now that] olumlu bir koşul/neden sunar, iptalle çelişir; ameliyathanelerin yenilenmesi (A) ya da yeni binanın erken açılması (B) olumlu gelişmelerdir, iptal için neden olamaz.",
+      "tags": ["unless", "condition"]
+    },
+    {
+      "id": "sen-004",
+      "q": "The museum has extended its opening hours so that ----.",
+      "options": [
+        "visitors who work during the day can also see the exhibitions",
+        "it was closed for renovation throughout the previous winter",
+        "fewer people have been able to attend its evening events",
+        "the number of visitors had already doubled before the change",
+        "its collection is one of the largest in the country"
+      ],
+      "answer": 0,
+      "explain_tr": "[en:so that] amaç bildirir: saatler neden uzatıldı? Gündüz çalışanların da sergileri görebilmesi için; [en:can] amaç cümlesine uyar. C amaç değil, olumsuz bir sonuçtur; D'deki [en:had already doubled] değişiklikten önceki bir durumdur, amaç olamaz; B ve E açılış saatleriyle ilgisiz bilgi verir.",
+      "tags": ["so that", "purpose"]
+    },
+    {
+      "id": "sen-005",
+      "q": "----, whereas their counterparts in rural areas often have to travel for hours to reach a clinic.",
+      "options": [
+        "Most large cities have recently built new hospitals",
+        "Patients in large cities, too, often struggle to find a clinic nearby",
+        "Patients in rural areas are usually more patient than city dwellers",
+        "Patients in large cities can usually see a doctor within a day",
+        "Patients in large cities had rarely visited a doctor until the 1950s"
+      ],
+      "answer": 3,
+      "explain_tr": "[en:whereas] iki paralel durumu karşılaştırır; [en:their counterparts in rural areas] (kırsaldaki benzerleri) ifadesi öznenin şehirdeki hastalar olmasını ve zıt bir durumun verilmesini gerektirir. B'deki [en:too] benzerlik bildirir, zıtlık kurmaz; C'nin öznesi zaten kırsaldaki hastalardır, [en:their counterparts] boşa düşer; E'deki [en:had … visited] zaman açısından uymaz.",
+      "tags": ["whereas", "contrast"]
+    },
+    {
+      "id": "sen-006",
+      "q": "The company intends to launch its new electric model as soon as ----.",
+      "options": [
+        "it had sold more than a million petrol cars worldwide",
+        "the safety tests required by law have been completed",
+        "its main rival was founded in the early twentieth century",
+        "the demand for electric vehicles will have fallen considerably",
+        "it has been losing money on its traditional models for years"
+      ],
+      "answer": 1,
+      "explain_tr": "[en:as soon as] ile başlayan zaman yan cümlesinde gelecek için [en:will] değil şimdiki zaman kullanılır: [en:have been completed]. D'deki [en:will have fallen] hem bu kurala aykırıdır hem de talebin düşmesi yeni model çıkarmaya neden olmaz. A'daki [en:had sold] geçmişi anlatır, gelecekteki bir planla uyuşmaz; E süreklilik bildirir, 'olur olmaz' anlamına uymaz.",
+      "tags": ["as soon as", "time clause"]
+    },
+    {
+      "id": "sen-007",
+      "q": "----, most of the city's historic buildings had already been demolished.",
+      "options": [
+        "As long as the local council keeps approving new projects",
+        "Once the architects have finished the restoration work",
+        "By the time the conservation law came into force",
+        "In case the earthquake damages the remaining monuments",
+        "Even though the city will attract more tourists next year"
+      ],
+      "answer": 2,
+      "explain_tr": "Ana cümledeki [en:had already been demolished] (miş'li geçmiş) geçmişteki bir andan önce tamamlanmış bir işi anlatır; bu anı [en:By the time] + geçmiş zaman verir: yasa yürürlüğe girdiğinde binalar çoktan yıkılmıştı. Diğer seçeneklerin tümü şimdiki ya da gelecek zamanla kurulmuştur; geçmişteki bir referans noktası vermez.",
+      "tags": ["by the time", "past perfect"]
+    },
+    {
+      "id": "sen-008",
+      "q": "The bank agreed to extend the loan provided that ----.",
+      "options": [
+        "the company submitted a detailed plan for repaying its debts",
+        "it had already gone bankrupt the previous year",
+        "the interest rates will have been reduced by the central bank",
+        "the company's directors were unable to attend the meeting",
+        "the money was to be spent on a project that had already failed"
+      ],
+      "answer": 0,
+      "explain_tr": "[en:provided that] (… koşuluyla) bankanın krediyi hangi şartla uzattığını verir; mantıklı tek şart geri ödeme planının sunulmasıdır ve geçmiş zaman [en:agreed] ile uyumludur. B (iflas etmiş olmak), D (yöneticilerin gelmemesi) ve E (başarısız proje) krediyi uzatmak için şart olamaz; C'deki [en:will have been reduced] geçmişteki anlaşmayla zaman açısından uyuşmaz.",
+      "tags": ["provided that", "condition"]
+    },
+    {
+      "id": "sen-009",
+      "q": "----, children will not learn to read fluently unless they practise regularly at home.",
+      "options": [
+        "Because most of them already read fluently at school",
+        "Just as their parents learned to write at a very early age",
+        "As soon as the new reading scheme had been introduced",
+        "Despite the fact that they have never been taught to read",
+        "No matter how skilled their teachers are"
+      ],
+      "answer": 4,
+      "explain_tr": "[en:No matter how] (ne kadar … olursa olsun) ile kurulan yan cümle, ana cümledeki kesin yargıyı güçlendirir: öğretmen ne kadar iyi olursa olsun, evde çalışmayan çocuk akıcı okuyamaz. A ana cümleyle çelişir (zaten akıcı okuyorlar); D'de 'hiç öğretilmemiş' olmak bir zıtlık oluşturmaz; C'deki [en:had been introduced] gelecek anlamlı ana cümleyle zaman açısından uyumsuzdur.",
+      "tags": ["no matter how", "concession"]
+    },
+    {
+      "id": "sen-010",
+      "q": "Not only did the drought ruin the harvest in the south, ----.",
+      "options": [
+        "but it also produced a record harvest in the very same region",
+        "and it had been expected to continue for another decade",
+        "so that the farmers were able to sell their crops at a higher price",
+        "but it also forced thousands of farmers to leave their land",
+        "whereas the rains in the north arrived earlier than usual"
+      ],
+      "answer": 3,
+      "explain_tr": "[en:Not only] ile devrik başlayan cümle [en:but (it) also] ile tamamlanır ve aynı yöndeki ikinci bir olumsuz sonucu ekler: hasadın mahvolması + çiftçilerin göçü. A yapı olarak uyar ama anlamca çelişir (aynı bölgede rekor hasat); B, C ve E'deki [en:and], [en:so that], [en:whereas] bu kalıpla eşleşmez.",
+      "tags": ["not only but also", "inversion"]
+    },
+    {
+      "id": "sen-011",
+      "q": "----, the organisers have prepared an indoor hall for the opening ceremony.",
+      "options": [
+        "Because the weather was unusually warm throughout last summer",
+        "In case it rains heavily on the day of the festival",
+        "Unless the ceremony is held outdoors as planned",
+        "As soon as the festival had come to an end",
+        "Even if the hall had been too small to hold the audience"
+      ],
+      "answer": 1,
+      "explain_tr": "[en:In case] (… ihtimaline karşı) bir önlemin nedenini verir: yağmur yağarsa diye kapalı salon hazırlandı; yan cümlede gelecek için geniş zaman [en:rains] kullanılır. C'deki [en:Unless] tersine çalışır (tören açık havada yapılmazsa salon hazırlamak anlamsız olur); D'de festival bitmişken açılış töreni için hazırlık yapmak mantıksızdır; A'daki geçen yazın sıcak havası bir önlem gerekçesi değildir.",
+      "tags": ["in case", "precaution"]
+    },
+    {
+      "id": "sen-012",
+      "q": "Many people continue to smoke despite the fact that ----.",
+      "options": [
+        "the link between tobacco and lung cancer has been known for decades",
+        "cigarettes have become much cheaper in most countries",
+        "they had never been warned about its effects",
+        "tobacco companies spend billions on advertising every year",
+        "the number of smokers has been rising steadily since 2000"
+      ],
+      "answer": 0,
+      "explain_tr": "[en:despite the fact that] (…-e rağmen) zıtlık kurar: sigaranın kanserle bağı yıllardır bilindiği hâlde insanlar içmeye devam ediyor. B ve D sigara içmeyi destekleyen etkenlerdir (ucuzluk, reklam), zıtlık değil neden olur; E de aynı yöndeki bir bilgidir; C'deki [en:had never been warned] hem zaman hem anlam olarak uymaz.",
+      "tags": ["despite the fact that", "contrast"]
+    },
+    {
+      "id": "sen-013",
+      "q": "----, just as the printing press transformed the way knowledge was shared in the fifteenth century.",
+      "options": [
+        "The printing press was invented in Germany by Johannes Gutenberg",
+        "Few people today have heard of the earliest printed books",
+        "The internet has changed how people gain access to information",
+        "Medieval scholars copied manuscripts by hand for centuries",
+        "The number of libraries fell sharply during the twentieth century"
+      ],
+      "answer": 2,
+      "explain_tr": "[en:just as] (tıpkı … gibi) iki benzer olayı karşılaştırır: matbaanın 15. yüzyılda bilgi paylaşımını dönüştürmesi gibi internet de bilgiye erişimi değiştirdi. A'da özne yine matbaadır, karşılaştırılacak ikinci bir olay yoktur; D ve E dönüştürücü bir yenilik değil, aksine durağan ya da olumsuz bir durum anlatır; B de benzerlik kurmaz.",
+      "tags": ["just as", "comparison"]
+    },
+    {
+      "id": "sen-014",
+      "q": "While some economists argue that raising the minimum wage reduces employment, ----.",
+      "options": [
+        "they all agree that it will lead to large-scale redundancies",
+        "the minimum wage had been raised twice during the previous year",
+        "most of them were trained at the same universities in the 1980s",
+        "the unemployment rate is calculated by the national statistics office",
+        "others maintain that it has little effect on the number of jobs"
+      ],
+      "answer": 4,
+      "explain_tr": "[en:While] + [en:some economists] kalıbı bir karşıtlık hazırlar; doğal devamı [en:others] ile diğer görüştür. A'daki [en:they all agree] 'bazıları' ifadesiyle çelişir, ayrıca zıtlık değil aynı görüşü bildirir. B, C ve D ekonomistlerin tartışmasıyla ilgisiz bilgiler verir; B'deki [en:had been raised] zaman olarak da uymaz.",
+      "tags": ["while", "contrast"]
+    },
+    {
+      "id": "sen-015",
+      "q": "----, it becomes much harder to persuade them to change their minds.",
+      "options": [
+        "Because opinion polls are conducted more frequently nowadays",
+        "Once people have formed a strong opinion on a subject",
+        "As soon as the researchers had published their findings",
+        "Provided that people are shown convincing evidence",
+        "Even if the subject had never been discussed in public before"
+      ],
+      "answer": 1,
+      "explain_tr": "Ana cümledeki [en:them] bir insan grubuna gönderme yapar ve geniş zaman [en:becomes] genel bir kural anlatır; [en:Once] (bir kez … -ince) + [en:have formed] buna tam uyar. D'de [en:Provided that] koşulu tersine çalışır (ikna edici kanıt gösterilirse ikna zorlaşmaz). C ve E'deki [en:had] geçmiş zaman, geniş zamanlı ana cümleyle uyuşmaz; A'daki anketler ikna zorluğuna neden olmaz.",
+      "tags": ["once", "time clause"]
+    },
+    {
+      "id": "sen-016",
+      "q": "Even though the city has invested millions in public transport, ----.",
+      "options": [
+        "the buses are now cleaner and more frequent than ever",
+        "it had been praised for its cycling lanes in the 1990s",
+        "most residents have already stopped using their cars",
+        "the number of cars on its roads continues to rise every year",
+        "the new metro line will open earlier than planned"
+      ],
+      "answer": 3,
+      "explain_tr": "[en:Even though] zıtlık kurar: toplu taşımaya milyonlar harcandığı hâlde beklenenin tersi olmalı; araba sayısının artmaya devam etmesi tam bu zıtlıktır. A, C ve E yatırımın doğal, olumlu sonuçlarıdır; zıtlık oluşturmaz. B'deki [en:had been praised] zaman açısından da uymaz.",
+      "tags": ["even though", "contrast"]
+    },
+    {
+      "id": "sen-017",
+      "q": "----, patients with diabetes can lead an almost entirely normal life.",
+      "options": [
+        "As long as they monitor their blood sugar levels carefully",
+        "Unless they follow the diet recommended by their doctors",
+        "Even if the disease had been diagnosed at a very early stage",
+        "Since the number of people with diabetes has doubled since 1980",
+        "Now that the disease has finally been eradicated worldwide"
+      ],
+      "answer": 0,
+      "explain_tr": "[en:As long as] (… sürece) olumlu bir koşul verir: kan şekerini düzenli izledikleri sürece normal bir yaşam sürebilirler. B'deki [en:Unless] (…-mezse) tam tersini söyler; E hastalığın yeryüzünden silindiğini söyler, oysa ana cümle hâlâ diyabet hastalarından söz eder — çelişki; C'de [en:had been diagnosed] zaman uyumsuzdur; D'deki hasta sayısının artması normal yaşam için bir neden değildir.",
+      "tags": ["as long as", "condition"]
+    },
+    {
+      "id": "sen-018",
+      "q": "The researchers abandoned the experiment because ----.",
+      "options": [
+        "they will have published their findings in a leading journal",
+        "the funding they had applied for was granted in full",
+        "the equipment they were using kept producing inconsistent results",
+        "it turned out to be far more successful than they had expected",
+        "the volunteers they had recruited were all extremely enthusiastic"
+      ],
+      "answer": 2,
+      "explain_tr": "[en:because] deneyi bırakmanın nedenini ister; tutarsız sonuç veren cihazlar bunu açıklar ve [en:kept producing] geçmiş zamanla uyumludur. B (fonun tam verilmesi), D (beklenenden başarılı olması) ve E (gönüllülerin hevesli olması) deneyi bırakmak için değil sürdürmek için nedendir; A'daki [en:will have published] geçmişteki bir kararla zaman açısından uyuşmaz.",
+      "tags": ["because", "cause"]
+    },
+    {
+      "id": "sen-019",
+      "q": "The earthquake caused such widespread damage that ----.",
+      "options": [
+        "most of the buildings in the area had been constructed before 1950",
+        "its epicentre was located several kilometres beneath the surface",
+        "seismologists had predicted it almost a decade earlier",
+        "the region would have been evacuated well in advance",
+        "the government had to send in the army to help with the rescue"
+      ],
+      "answer": 4,
+      "explain_tr": "[en:such … that] (öyle … ki) kalıbı, hasarın büyüklüğünün yol açtığı sonucu ister: ordunun kurtarma çalışmalarına gönderilmesi. A ve C hasardan önce olmuş durumlardır ([en:had been constructed], [en:had predicted]), sonuç olamaz; B deprem merkezinin yeri hasarın sonucu değildir; D'deki [en:would have been evacuated] gerçekleşmemiş bir koşulun sonucudur.",
+      "tags": ["such that", "result"]
+    },
+    {
+      "id": "sen-020",
+      "q": "----, scientists are still unable to predict exactly when a volcano will erupt.",
+      "options": [
+        "Because they have mapped every active volcano on the planet",
+        "Although monitoring techniques have improved enormously in recent decades",
+        "As soon as the first warning signs had been detected",
+        "Now that satellite data can be analysed within minutes",
+        "Provided that the warning signs are detected early enough"
+      ],
+      "answer": 1,
+      "explain_tr": "[en:still] (hâlâ) beklenen bir ilerlemeye rağmen değişmeyen bir durumu gösterir; bu yüzden zıtlık bağlacı [en:Although] gerekir: teknikler gelişti ama yine de tahmin edilemiyor. A ve D'deki [en:Because] ve [en:Now that] neden bildirir; haritalama ve hızlı veri analizi tahmin edememenin nedeni olamaz. E'deki koşul da ana cümleyle çelişir; C zaman açısından uyumsuzdur.",
+      "tags": ["although", "contrast"]
+    },
+    {
+      "id": "sen-021",
+      "q": "In the nineteenth century most children in Europe left school before the age of twelve, whereas ----.",
+      "options": [
+        "their parents had also left school at a very early age",
+        "child labour was common in factories and mines at that time",
+        "very few schools in rural areas had more than one teacher",
+        "today the majority remain in education until they are at least sixteen",
+        "today most of them have become skilled workers"
+      ],
+      "answer": 3,
+      "explain_tr": "[en:whereas] iki zıt durumu karşılaştırır; 19. yüzyıl ile [en:today] arasındaki fark (12 yaşından önce okulu bırakmak / en az 16'ya kadar okumak) bu zıtlığı kurar. A ([en:also] ile) ve B aynı dönemde aynı yöndeki bilgilerdir, zıtlık oluşturmaz; E'de [en:most of them] 19. yüzyıl çocuklarına gönderme yapar, bugün vasıflı işçi olmaları anlamsızdır.",
+      "tags": ["whereas", "contrast"]
+    },
+    {
+      "id": "sen-022",
+      "q": "----, the proposal is unlikely to be approved by the full parliament.",
+      "options": [
+        "Because it has already been signed into law by the president",
+        "Once it had been rejected by the opposition parties",
+        "Even if the committee recommends it unanimously",
+        "As long as the governing party supports it wholeheartedly",
+        "Since the majority of members have voted for it twice before"
+      ],
+      "answer": 2,
+      "explain_tr": "[en:Even if] (…-se bile) olumlu bir koşula rağmen olumsuz sonucu bildirir: komite oybirliğiyle önerse bile meclis onaylamayabilir. D'deki [en:As long as] ve E'deki [en:Since] onay için neden/koşul sunar, 'onaylanması olası değil' ile çelişir; A'da teklif zaten yasalaşmıştır, meclis onayı konusu kalmaz; B'deki [en:had been rejected] zaman açısından uyumsuzdur.",
+      "tags": ["even if", "concession"]
+    },
+    {
+      "id": "sen-023",
+      "q": "Given that the population of the city has doubled in the past twenty years, ----.",
+      "options": [
+        "it is hardly surprising that housing has become so expensive",
+        "the number of residents has been falling steadily since 1990",
+        "the council had decided to close two of its secondary schools",
+        "most of the new housing was built in the early twentieth century",
+        "there would have been no need to build any new roads"
+      ],
+      "answer": 0,
+      "explain_tr": "[en:Given that] (… göz önüne alındığında) bir gerçekten çıkan doğal sonucu hazırlar: nüfus ikiye katlandıysa konutun pahalanması şaşırtıcı değildir. B nüfusun artmasıyla doğrudan çelişir; C'de okul kapatmak nüfus artışının sonucu olamaz ve [en:had decided] zaman açısından uyumsuzdur; E'deki [en:would have been] gerçek bir duruma dayanan cümleye uymaz.",
+      "tags": ["given that", "cause"]
+    },
+    {
+      "id": "sen-024",
+      "q": "----, the majority of the world's population will be living in cities.",
+      "options": [
+        "Because rural areas offered better job opportunities in the past",
+        "Because the first cities appeared more than five thousand years ago",
+        "Once the industrial revolution had spread across Europe",
+        "By the time the children born today reach middle age",
+        "As soon as the first census was carried out in 1801"
+      ],
+      "answer": 3,
+      "explain_tr": "Ana cümledeki [en:will be living] gelecekteki bir anda sürmekte olan durumu anlatır; bu anı [en:By the time] + geniş zaman ([en:reach]) verir. C ve E geçmişteki olaylara bağlanır ([en:had spread], [en:was carried out]), gelecekle uyuşmaz; A'daki geçmişteki kırsal iş olanakları da B'deki ilk şehirlerin beş bin yıl önce ortaya çıkması da gelecekteki kentleşmenin nedeni olamaz.",
+      "tags": ["by the time", "future"]
+    },
+    {
+      "id": "sen-025",
+      "q": "The species will almost certainly become extinct within a few decades unless ----.",
+      "options": [
+        "its population had been declining for more than a century",
+        "hunters continue to kill large numbers of them every year",
+        "it was first described by naturalists in the eighteenth century",
+        "the forests in which it lives will be cleared for farming",
+        "urgent measures are taken to protect what remains of its habitat"
+      ],
+      "answer": 4,
+      "explain_tr": "[en:unless] (…-mezse) kötü sonucu önleyecek koşulu ister: yaşam alanı korunmazsa tür yok olacak; yan cümlede geniş zaman [en:are taken] kullanılır. B'de avcıların öldürmeye devam etmesi yok oluşu önlemez, tersine hızlandırır; D hem [en:will] ile kurala aykırıdır hem de anlamca terstir; A ve C geçmiş bilgi verir, koşul oluşturmaz.",
+      "tags": ["unless", "condition"]
+    },
+    {
+      "id": "sen-026",
+      "q": "----, researchers can study the genetic make-up of thousands of individuals in a matter of days.",
+      "options": [
+        "Because the structure of DNA was still unknown in the early 1950s",
+        "Now that the cost of sequencing a human genome has fallen dramatically",
+        "Unless the ethical concerns about genetic data are resolved",
+        "Before the first complete genome had been sequenced",
+        "Even though the technology is still extremely slow and expensive"
+      ],
+      "answer": 1,
+      "explain_tr": "[en:Now that] (artık … olduğuna göre) yeni bir durumun getirdiği olanağı açıklar: maliyet düştüğü için binlerce kişi günler içinde incelenebiliyor. E'deki 'hâlâ yavaş ve pahalı' bilgisi ana cümleyle çelişir; C'deki [en:Unless] koşulu tersine çalışır; D'de [en:Before … had been sequenced] geçmişi anlatır, [en:can study] ile uyuşmaz; A'da 1950'lerde DNA'nın bilinmemesi bugünkü olanağın nedeni olamaz.",
+      "tags": ["now that", "cause"]
+    },
+    {
+      "id": "sen-027",
+      "q": "The committee has not yet decided whether ----.",
+      "options": [
+        "the conference should be held online or in person next spring",
+        "it had already approved the budget for the previous year",
+        "so many delegates were able to attend the last meeting",
+        "the venue will have been booked unless the dates are changed",
+        "the conference was held online or in person last spring"
+      ],
+      "answer": 0,
+      "explain_tr": "[en:decide whether … or] kalıbı, henüz verilmemiş bir karara ait iki seçeneği ister: çevrim içi mi yüz yüze mi; [en:should] ve [en:next spring] gelecekteki bir karara uyar. B, C ve E geçmişte olup bitmiş gerçeklerdir ([en:had approved], [en:were able], [en:was held]); komite bunlara 'karar veremez'. D'deki [en:will have been booked … unless] yapısı hem karmaşıktır hem de 'karar vermek' ile anlamca bağdaşmaz.",
+      "tags": ["whether or", "noun clause"]
+    },
+    {
+      "id": "sen-028",
+      "q": "----, the novel sold fewer than a thousand copies in the first year after it was published.",
+      "options": [
+        "Because it has since been translated into more than forty languages",
+        "As long as the author refused to give any interviews",
+        "Since it is now regarded as one of the greatest novels of the century",
+        "Despite the fact that it was praised by almost every leading critic",
+        "In case the publisher decided to print a second edition"
+      ],
+      "answer": 3,
+      "explain_tr": "Eleştirmenlerin övgüsü ile düşük satış arasındaki zıtlığı [en:Despite the fact that] kurar; [en:was praised] geçmiş zamanla da uyumludur. A ve C'deki [en:Because]/[en:Since] bugünkü ünü ilk yıldaki düşük satışın nedeni olarak sunar, zaman ve mantık açısından yanlıştır; B'deki [en:As long as] bir koşul bildirir, geçmişte olmuş bir satış rakamına uymaz; E'deki [en:In case] önlem anlamı burada anlamsızdır.",
+      "tags": ["despite the fact that", "contrast"]
+    },
+    {
+      "id": "sen-029",
+      "q": "Much as the government would like to cut income tax before the election, ----.",
+      "options": [
+        "it has already found the money to do so without borrowing",
+        "it has already announced a substantial reduction for next year",
+        "it simply cannot afford to lose the revenue at the moment",
+        "voters had been demanding lower taxes for many years",
+        "the economy will have grown faster than expected"
+      ],
+      "answer": 2,
+      "explain_tr": "[en:Much as] (her ne kadar … istese de) [en:although] gibi zıtlık kurar: hükümet vergiyi indirmek istiyor ama gelir kaybını göze alamıyor. A ve B zıtlık değil, isteğin önünde engel olmadığını ya da gerçekleştiğini söyler ([en:already]); D ve E'deki [en:had been demanding] ve [en:will have grown] hem zaman hem anlam olarak bu cümleye bağlanmaz.",
+      "tags": ["much as", "concession"]
+    },
+    {
+      "id": "sen-030",
+      "q": "----, but they also tend to recover from illness more quickly.",
+      "options": [
+        "Not only has a lack of social ties been shown to shorten people's lives",
+        "Because people with strong social ties are rarely seriously ill",
+        "Whereas people with few social ties tend to die younger",
+        "No matter how many close friends people may have",
+        "Not only do people with strong social ties live longer"
+      ],
+      "answer": 4,
+      "explain_tr": "[en:but … also] ile biten cümle [en:Not only] ile devrik başlayan bir yan cümle gerektirir; iki aday var: A ve E. A'da özne [en:a lack of social ties] (tekil, cansız); ana cümledeki [en:they] için uygun bir gönderge yoktur, üstelik 'ömrü kısaltıyor ama daha çabuk iyileşiyorlar' gibi çelişkili bir anlam çıkar. E'de uzun yaşam ve hızlı iyileşme aynı yöndedir. [en:Because], [en:Whereas], [en:No matter how] bu kalıpla eşleşmez.",
+      "tags": ["not only but also", "inversion"]
+    },
+    {
+      "id": "sen-031",
+      "q": "The new drug cannot be prescribed to patients until ----.",
+      "options": [
+        "it had been withdrawn from the market in several countries",
+        "the regulatory authorities have confirmed that it is safe",
+        "its side effects will become apparent in the long term",
+        "doctors have been prescribing it successfully for years",
+        "the company that developed it went bankrupt last year"
+      ],
+      "answer": 1,
+      "explain_tr": "[en:until] (…-e kadar) yan cümlesinde gelecek için [en:will] yerine şimdiki/geniş zaman kullanılır: [en:have confirmed]. C bu kurala aykırıdır ([en:will become]), üstelik yan etkilerin ortaya çıkması reçete yazmanın ön koşulu olamaz. D'de ilacın yıllardır yazılıyor olması 'yazılamaz' ile çelişir; A ve E'deki geçmiş zaman gelecekteki bir koşula uymaz.",
+      "tags": ["until", "time clause"]
+    },
+    {
+      "id": "sen-032",
+      "q": "----, while others believe that it merely reflects changes in how crime is reported.",
+      "options": [
+        "All experts agree that crime has fallen because of better policing",
+        "The police have been recording crime in the same way since 1990",
+        "Crime figures had been rising steadily until the late 1990s",
+        "Some criminologists attribute the fall in crime to better policing",
+        "Others argue that crime has not fallen at all in recent years"
+      ],
+      "answer": 3,
+      "explain_tr": "[en:while others believe] yapısı, önce bir grup ([en:some]) ve onların görüşünü ister; [en:it] de 'suçtaki düşüş'e gönderme yapmalıdır. A'daki [en:All experts agree] 'diğerleri' ile çelişir; E'de [en:Others … others] karşıtlık kurmaz ve [en:it] için uygun bir gönderge yoktur; B ve C bir görüş değil, olgu bildirir ve [en:it] boşa düşer.",
+      "tags": ["while", "contrast"]
+    },
+    {
+      "id": "sen-033",
+      "q": "Had it not been for the timely intervention of the central bank, ----.",
+      "options": [
+        "the crisis is certain to be avoided next time",
+        "several of the country's largest lenders would have collapsed",
+        "the banks had already begun to recover by the end of the year",
+        "investors would still be confident about the country's economy",
+        "the government has since raised interest rates twice"
+      ],
+      "answer": 1,
+      "explain_tr": "[en:Had it not been for] = [en:If it had not been for] (… olmasaydı): geçmişe yönelik gerçek dışı koşul, sonuç cümlesi [en:would have] + V3 ister. D de dil bilgisi olarak mümkün ([en:would still be]) ama anlamca terstir: müdahale olmasaydı yatırımcıların güvenini koruması değil, kaybetmesi beklenir. A, C ve E ([en:is certain], [en:had begun], [en:has raised]) koşul kalıbına uymaz.",
+      "tags": ["inverted conditional", "type 3"]
+    },
+    {
+      "id": "sen-034",
+      "q": "----, the authorities have decided to close the beach to swimmers until further notice.",
+      "options": [
+        "Because dangerous levels of bacteria have been detected in the water",
+        "Although several people were injured by jellyfish last week",
+        "Unless the water quality improves over the coming days",
+        "Provided that lifeguards remain on duty throughout the summer",
+        "Even if the number of visitors had fallen sharply last season"
+      ],
+      "answer": 0,
+      "explain_tr": "Plajı kapatma kararı bir neden ister; [en:Because] + tehlikeli bakteri düzeyi bunu verir ve [en:have been detected] ana cümlenin zamanına uyar. B'deki [en:Although] yanlıştır: denizanası yaralanmaları kapatmaya karşı değil, kapatma yönünde bir nedendir. C'deki [en:Unless] ve D'deki [en:Provided that] alınmış bir karar için koşul sunamaz; E zaman açısından da uyumsuzdur.",
+      "tags": ["because", "cause"]
+    },
+    {
+      "id": "sen-035",
+      "q": "Travellers to the region are advised to carry a paper map in case ----.",
+      "options": [
+        "they are already familiar with every road in the region",
+        "the roads had been closed because of heavy snow",
+        "their mobile phones lose signal in the mountains",
+        "there will be no petrol stations along the route",
+        "they would prefer to travel by public transport"
+      ],
+      "answer": 2,
+      "explain_tr": "[en:in case] (… ihtimaline karşı) olası bir soruna karşı önlem bildirir ve yan cümlede geniş zaman kullanılır: telefon çekmezse diye kâğıt harita. D'deki [en:will] bu kurala aykırıdır, ayrıca benzin istasyonu olmaması harita taşımanın gerekçesi değildir; A tersine çalışır: yolları zaten bilen birinin haritaya ihtiyacı olmaz; B'deki [en:had been closed] zaman açısından uymaz; E anlamsızdır.",
+      "tags": ["in case", "precaution"]
+    },
+    {
+      "id": "sen-036",
+      "q": "The student's research impressed the faculty so much that ----.",
+      "options": [
+        "she had decided to abandon her studies the previous year",
+        "her supervisor has been working at the university since 1995",
+        "the faculty will be moving to a new building next year",
+        "she would never have been admitted to the programme",
+        "she was offered a permanent post before she had even graduated"
+      ],
+      "answer": 4,
+      "explain_tr": "[en:so much that] (o kadar … ki) etkilenmenin sonucunu ister: henüz mezun olmadan kadro teklif edilmesi; [en:was offered] geçmiş zamanla uyumludur. A'daki [en:had decided to abandon] hem zaman olarak önce olmuştur hem de olumlu etkinin sonucu olamaz; D'deki [en:would never have been admitted] gerçek dışı koşul sonucudur; B ve C araştırmanın etkisiyle ilgisizdir.",
+      "tags": ["so that", "result"]
+    },
+    {
+      "id": "sen-037",
+      "q": "----, it is still far from clear how memories are stored in the brain.",
+      "options": [
+        "Now that the mechanism of memory has been fully explained",
+        "Although neuroscientists have identified the regions involved in memory",
+        "As soon as the first brain scanners had been developed",
+        "Unless the brain is damaged by injury or disease",
+        "Provided that the brain is studied using the latest techniques"
+      ],
+      "answer": 1,
+      "explain_tr": "[en:still far from clear] (hâlâ hiç açık değil) ifadesi, bir ilerlemeye rağmen süren belirsizliği anlatır; bu yüzden [en:Although] gerekir: bölgeler belirlendi ama depolama hâlâ bilinmiyor. A ana cümleyle doğrudan çelişir (mekanizma tamamen açıklandıysa belirsizlik kalmaz); D ve E'deki koşullar belirsizlikle ilgisizdir; C'deki [en:had been developed] zaman açısından uyumsuzdur.",
+      "tags": ["although", "contrast"]
+    },
+    {
+      "id": "sen-038",
+      "q": "The population of the town fell steadily throughout the 1980s as ----.",
+      "options": [
+        "the factories on which it depended closed one after another",
+        "new industries had attracted thousands of workers from abroad",
+        "its university will become one of the largest in the country",
+        "the town council has been investing heavily in new housing",
+        "it became a popular destination for young families"
+      ],
+      "answer": 0,
+      "explain_tr": "Buradaki [en:as] 'çünkü / …-dıkça' anlamında neden ve eşzamanlılık bildirir: fabrikalar birer birer kapandıkça nüfus azaldı; [en:closed] geçmiş zamanla uyumludur. B (yeni sanayinin işçi çekmesi) ve E (genç ailelerin gözdesi olmak) nüfusu artırır, azaltmaz; C'deki [en:will become] ve D'deki [en:has been investing] 1980'lerle zaman açısından uyuşmaz.",
+      "tags": ["as", "cause"]
+    },
+    {
+      "id": "sen-039",
+      "q": "----, no single study can prove that a particular diet prevents cancer.",
+      "options": [
+        "Since the link between diet and cancer has been proved beyond doubt",
+        "Once the results have been confirmed by other researchers",
+        "As long as the volunteers follow the diet for several years",
+        "However carefully it may have been designed",
+        "Even though it had been carried out on a very small scale"
+      ],
+      "answer": 3,
+      "explain_tr": "[en:However carefully] = [en:No matter how carefully] (ne kadar özenle … olursa olsun): tek bir çalışma ne kadar iyi tasarlanmış olsa da kesin kanıt sağlayamaz; [en:it] ileride gelen [en:study]'ye gönderme yapar. E'deki [en:Even though] yanlıştır: küçük ölçekli olmak kanıtlayamamanın nedenidir, zıtlık değil. A ana cümleyle çelişir; B ve C'deki koşullar 'kanıtlayamaz' yargısını açıklamaz.",
+      "tags": ["however", "concession"]
+    },
+    {
+      "id": "sen-040",
+      "q": "It was not until the 1960s that ----.",
+      "options": [
+        "the theory of continental drift had first been proposed by Wegener",
+        "earthquakes have been occurring along the boundaries of the plates",
+        "scientists fully accepted that the continents move on tectonic plates",
+        "the continents will be moving a few centimetres each year",
+        "geologists are still debating what causes volcanic eruptions"
+      ],
+      "answer": 2,
+      "explain_tr": "[en:It was not until … that] (ancak … -de) kalıbı vurgulu bir yapıdır; [en:that]'ten sonra, o tarihte gerçekleşen olay geçmiş zamanla gelir: bilim insanları 1960'larda kıtaların hareket ettiğini kabul etti. A'daki [en:had first been proposed] 'ilk kez önerilme'yi 1960'lardan önceye koyar, kalıpla çelişir; B, D ve E'deki [en:have been occurring], [en:will be moving], [en:are still debating] geçmişteki belirli bir tarihe bağlanamaz.",
+      "tags": ["not until", "cleft sentence"]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+/* Model cards: shared by the app (Ayarlar → Modeller) and the setup wizard.
+   Uses the page's color variables (--bg-2, --border, --accent, --ok, --warn, --err…). */
+.model-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; }
+.model-card {
+  display: flex; flex-direction: column; gap: 6px; position: relative;
+  border: 1px solid var(--border); border-radius: 14px; background: var(--bg-2); padding: 14px 16px;
+}
+.model-card.selectable { cursor: pointer; }
+.model-card.selectable:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.model-card.selected { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
+.model-card.disabled { opacity: .55; cursor: not-allowed; }
+.model-card .row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.model-card .name { font-weight: 700; }
+.badge { font-size: .75rem; font-weight: 700; padding: 2px 8px; border-radius: 999px; white-space: nowrap; }
+.badge.recommended { background: var(--ok); color: #0b1a10; }
+.badge.fit { border: 1px solid var(--ok); color: var(--ok); }
+.badge.slow { border: 1px solid var(--warn); color: var(--warn); }
+.badge.no { border: 1px solid var(--err); color: var(--err); }
+.badge.installed { background: var(--bg-3); color: var(--text); }
+.stars { letter-spacing: 1px; font-size: .85rem; }
+.stars .off { color: var(--border); }
+.model-card .warn-text { color: var(--warn, #d29922); }

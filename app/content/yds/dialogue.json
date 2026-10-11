@@ -1,0 +1,387 @@
+{
+  "type": "dialogue",
+  "sources": [
+    {"title": "YDS: Yabancı Dil Bilgisi Seviye Tespit Sınavı", "site": "ÖSYM", "url": "https://www.osym.gov.tr/SinavGrubu/Index/7"},
+    {"title": "Practise English speaking skills", "site": "British Council LearnEnglish", "url": "https://learnenglish.britishcouncil.org/skills/speaking"},
+    {"title": "English Grammar Today (British Grammar)", "site": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/"}
+  ],
+  "items": [
+    {
+      "id": "dia-001",
+      "lines": [
+        {"speaker": "Sarah", "text": "Mark, have you had a chance to look at the budget report I sent you yesterday?"},
+        {"speaker": "Mark", "text": "----"},
+        {"speaker": "Sarah", "text": "That's a relief. I was worried the figures for the marketing department looked too high."},
+        {"speaker": "Mark", "text": "No, they're in line with what we agreed in March. I'll sign it off this afternoon."}
+      ],
+      "options": [
+        "Not yet, I'm afraid. I've been in meetings all day and haven't even opened my inbox.",
+        "Yes, I went through it last night, and everything seems to add up.",
+        "I did, but I think we need to cut the marketing budget by at least half.",
+        "Which report do you mean? I don't remember receiving anything from you.",
+        "I had a look, and honestly, the marketing figures are far too high."
+      ],
+      "answer": 1,
+      "explain_tr": "Sarah'ın bir sonraki repliği 'Rahatladım' ([en:That's a relief]) diyor ve Mark en sonda rakamların uygun olduğunu söylüyor; yani boşluğa olumlu bir değerlendirme gelmeli. B bunu veriyor. A ve D'de rapor okunmamış, 'rahatladım' tepkisi anlamsız kalır; C ve E'de Mark rakamları fazla buluyor, oysa son replikte tam tersini söylüyor."
+    },
+    {
+      "id": "dia-002",
+      "lines": [
+        {"speaker": "Tom", "text": "Professor Hayes, I'd like to talk to you about the deadline for the research proposal."},
+        {"speaker": "Professor Hayes", "text": "Of course, Tom. Is there a problem with the timeline?"},
+        {"speaker": "Tom", "text": "----"},
+        {"speaker": "Professor Hayes", "text": "I see. In that case, I can give you until the end of next week, but no later."},
+        {"speaker": "Tom", "text": "Thank you, that would be a great help. I'll have it ready by then."}
+      ],
+      "options": [
+        "No problem at all. I've already submitted it to the department office this morning.",
+        "Actually, I was wondering whether I could change my topic to something completely different.",
+        "Not really, but I wanted to ask which referencing style you prefer for the bibliography.",
+        "Yes. The library has been closed for a week, so I couldn't access some of the key sources.",
+        "I'd rather hand it in early, if that's possible, since I'll be away for most of next month."
+      ],
+      "answer": 3,
+      "explain_tr": "Profesör 'Anlıyorum, o hâlde sana gelecek haftanın sonuna kadar süre verebilirim' diyor; demek ki Tom bir gecikme nedeni anlatmış olmalı. D (kütüphane kapalıydı) bunu sağlıyor. A'da teklif zaten teslim edilmiş, ek süreye gerek yok; E'de Tom erken teslim etmek istiyor, uzatma cevabı buna uymaz; B ve C konuyu değiştiriyor."
+    },
+    {
+      "id": "dia-003",
+      "lines": [
+        {"speaker": "Dr. Collins", "text": "Good morning, Mr. Baker. What seems to be the trouble?"},
+        {"speaker": "Mr. Baker", "text": "I've had a persistent cough for about three weeks now, and it's getting worse at night."},
+        {"speaker": "Dr. Collins", "text": "Have you been running a temperature or noticed any shortness of breath?"},
+        {"speaker": "Mr. Baker", "text": "----"},
+        {"speaker": "Dr. Collins", "text": "Then we'd better do a chest X-ray today, just to rule out an infection in the lungs."}
+      ],
+      "options": [
+        "No fever, but I do get out of breath when I climb the stairs at home.",
+        "Not at all, and to be honest the cough is almost gone now anyway.",
+        "I've been taking some cough syrup my wife bought at the pharmacy.",
+        "Yes, I already had an X-ray at another clinic last week, and it was clear.",
+        "I'd rather not have any tests done today, if that's all right with you."
+      ],
+      "answer": 0,
+      "explain_tr": "Doktor ateş ve nefes darlığı soruyor, sonra 'O hâlde ([en:then]) bugün akciğer filmi çekelim' diyor; yani hasta endişe verici bir belirti bildirmiş olmalı. A (nefes darlığı var) buna uyuyor. B'de belirti yok ve öksürük geçiyor, film çekme kararı mantıksız kalır; D'de film zaten çekilmiş ve temiz çıkmış; C soruyu yanıtlamıyor; E testi reddediyor."
+    },
+    {
+      "id": "dia-004",
+      "lines": [
+        {"speaker": "Emma", "text": "Excuse me, is this the right platform for the 10:15 train to Manchester?"},
+        {"speaker": "Daniel", "text": "----"},
+        {"speaker": "Emma", "text": "Oh no, I had no idea. Is there another train I could take this morning?"},
+        {"speaker": "Daniel", "text": "Yes, the next one leaves from platform 6 at 11:05, and your ticket will still be valid."}
+      ],
+      "options": [
+        "Yes, it is. The train should be arriving in about five minutes, so you're just in time.",
+        "I'm afraid I don't work here. You'd better ask at the information desk over there.",
+        "It's platform 6, just across the bridge, but there's no rush; it isn't due for another twenty minutes.",
+        "Tickets for Manchester can only be bought at the ticket office upstairs, not on the train.",
+        "It was, but I'm afraid that service has been cancelled because of a signal failure."
+      ],
+      "answer": 4,
+      "explain_tr": "Emma 'Olamaz, hiç bilmiyordum. Başka bir tren var mı?' diyor; demek ki görevli kötü bir haber (trenin iptali) vermiş. E bunu söylüyor. A ve C'de trene yetişmek hâlâ mümkün (tren geliyor ya da vakit var), 'başka tren var mı' sorusu anlamsız olur; B'de görevli burada çalışmadığını söylüyor ama sonra ayrıntılı bilgi veriyor; D bilet satışından söz ederek konuyu değiştiriyor."
+    },
+    {
+      "id": "dia-005",
+      "lines": [
+        {"speaker": "Linda", "text": "Hi George, I'm sorry to bother you, but the noise from your garden last night went on until well after midnight."},
+        {"speaker": "George", "text": "Oh, I'm really sorry about that. It was my daughter's birthday and things got a bit out of hand."},
+        {"speaker": "Linda", "text": "----"},
+        {"speaker": "George", "text": "Of course. I'll make sure everyone's inside by ten next time, and I'll let you know in advance."},
+        {"speaker": "Linda", "text": "Thanks, I appreciate that. Enjoy the rest of your weekend."}
+      ],
+      "options": [
+        "That's no excuse. I'm going to report it to the council first thing on Monday morning.",
+        "Happy birthday to her! How old is she now, by the way? She's grown so much.",
+        "It happens. Could you just keep it down after ten in future, and maybe warn me beforehand?",
+        "Don't worry, I didn't hear a thing. I was away for the whole weekend anyway.",
+        "Actually, I was wondering if you could lend me your lawnmower this weekend."
+      ],
+      "answer": 2,
+      "explain_tr": "George 'Tabii ([en:Of course]). Gelecek sefer herkes onda içeride olur, önceden de haber veririm' diyor; yani Linda saat ve önceden haber verme konusunda bir ricada bulunmuş. C tam bu ricayı yapıyor. A'da Linda belediyeye şikâyet edeceğini söylüyor, 'tabii' cevabı buna uymaz; D ilk replikle çelişiyor (gürültüyü duymuş); B ve E konuyu değiştiriyor."
+    },
+    {
+      "id": "dia-006",
+      "lines": [
+        {"speaker": "Rachel", "text": "Hello, I ordered a laptop from your website two weeks ago, and it still hasn't arrived."},
+        {"speaker": "Kevin", "text": "I'm sorry to hear that. Could you give me your order number so I can check the status?"},
+        {"speaker": "Rachel", "text": "It's 48213. I've already emailed twice, but nobody replied."},
+        {"speaker": "Kevin", "text": "----"},
+        {"speaker": "Rachel", "text": "Tomorrow would be fine, as long as someone is actually going to deliver it this time."},
+        {"speaker": "Kevin", "text": "I'll put a note on the order so the courier calls you before they come."}
+      ],
+      "options": [
+        "Sorry about that. The parcel was sent back to our warehouse by mistake, so we can resend it tomorrow or on Thursday.",
+        "I can see that the parcel was delivered last Monday and signed for by one of your neighbours.",
+        "Unfortunately, that model is out of stock at the moment and we have no idea when it will be available again.",
+        "I'm afraid I can't find any order under that number on our system. Are you sure you've read it correctly?",
+        "Would you prefer to cancel the order altogether and receive a full refund to your card within five days?"
+      ],
+      "answer": 0,
+      "explain_tr": "Rachel 'Yarın olur, yeter ki bu sefer gerçekten teslim edilsin' diyor; demek ki Kevin yeni bir teslimat günü seçeneği sunmuş. A bunu yapıyor. B'de paket zaten teslim edilmiş görünüyor, 'yarın' cevabı anlamsız; C'de ürün stokta yok, teslimat teklif edilemez; D sipariş bulunamıyor; E iptal ve iade öneriyor, Rachel'ın 'yarın teslim' cevabı buna uymaz."
+    },
+    {
+      "id": "dia-007",
+      "lines": [
+        {"speaker": "Ms. Turner", "text": "Your CV says you left your last position after only six months. Could you tell me why?"},
+        {"speaker": "James", "text": "----"},
+        {"speaker": "Ms. Turner", "text": "That's understandable. Relocation can be difficult. So you're settled in the city now?"},
+        {"speaker": "James", "text": "Yes, I moved here in January, and I'm looking for something long term."}
+      ],
+      "options": [
+        "I'd rather not discuss my previous employer in detail, if you don't mind.",
+        "Actually, I'm still working there, but I'm looking for a position with a better salary.",
+        "The company went bankrupt, so all of us were made redundant at the same time.",
+        "My wife was offered a job in this city, so we decided to move, and I couldn't continue from here.",
+        "To be honest, I didn't get on with my manager and the atmosphere became quite tense."
+      ],
+      "answer": 3,
+      "explain_tr": "Görüşmeci 'Anlaşılır bir şey, taşınmak ([en:relocation]) zor olabilir' diyor; yani James işten ayrılma nedeni olarak taşınmayı anlatmış olmalı. D bunu veriyor. C (iflas) ve E (yöneticiyle anlaşmazlık) gerçek nedenler ama taşınmayla ilgisi yok; B'de James hâlâ orada çalışıyor, oysa görüşmeci 'ayrıldın' diyor; A soruyu yanıtsız bırakıyor."
+    },
+    {
+      "id": "dia-008",
+      "lines": [
+        {"speaker": "Paul", "text": "Have you heard that the company is planning to move to a four-day working week next year?"},
+        {"speaker": "Nina", "text": "Yes, Helen mentioned it at lunch. I'm not sure how I feel about it, to be honest."},
+        {"speaker": "Paul", "text": "----"},
+        {"speaker": "Nina", "text": "That's exactly my worry. We'd probably end up doing the same amount of work in fewer hours."},
+        {"speaker": "Paul", "text": "Well, let's wait and see what the details are before we make up our minds."}
+      ],
+      "options": [
+        "I think it's a great idea. We'll finally have some proper time for our families.",
+        "Nor am I. I suspect the workload won't shrink just because the week does.",
+        "Really? I hadn't heard anything about it. When did they announce it?",
+        "Helen always knows everything before the rest of us, doesn't she?",
+        "As long as my salary stays the same, I honestly don't mind what they decide."
+      ],
+      "answer": 1,
+      "explain_tr": "Nina 'Benim endişem de tam bu; aynı işi daha az saatte yapmak zorunda kalırız' diyor; yani Paul iş yükünün azalmayacağı endişesini dile getirmiş. B bunu söylüyor. A'da Paul fikri çok beğeniyor, 'benim endişem de bu' cevabı uymaz; E'de endişe maaşla ilgili, iş yüküyle değil; C konuyu Paul'un kendisi açtığı için çelişkili; D konuyu değiştiriyor."
+    },
+    {
+      "id": "dia-009",
+      "lines": [
+        {"speaker": "Olivia", "text": "Hi Ben, are you going to the lecture on climate policy this afternoon?"},
+        {"speaker": "Ben", "text": "I'd like to, but I have a tutorial at the same time and I can't miss it."},
+        {"speaker": "Olivia", "text": "That's a shame. It's the last one in the series, and the speaker is supposed to be excellent."},
+        {"speaker": "Ben", "text": "----"},
+        {"speaker": "Olivia", "text": "Sure, I'll take plenty of notes and send them to you tonight."},
+        {"speaker": "Ben", "text": "Thanks, that's really kind of you."}
+      ],
+      "options": [
+        "Never mind. I've already read most of her papers, so I won't miss much.",
+        "Maybe I should skip the tutorial after all. It's only revision anyway.",
+        "Do you know whether the lecture will be recorded and put online afterwards?",
+        "Who is the speaker, by the way? I don't think you've mentioned the name.",
+        "I know. Would you mind letting me know afterwards what she says about carbon taxes?"
+      ],
+      "answer": 4,
+      "explain_tr": "Olivia 'Tabii, bol bol not alır, akşam sana gönderirim' diyor; bu, Ben'in dersin içeriğini aktarmasını rica etmesine verilen cevap. E bu ricayı yapıyor. C'de Ben kaydın olup olmadığını soruyor; cevap evet/hayır olmalı, not alma teklifi buna uymaz; A'da Ben dersi önemsemiyor, nota gerek yok; B'de dersi kendisi dinlemeyi düşünüyor; D konuşmacının adını soruyor."
+    },
+    {
+      "id": "dia-010",
+      "lines": [
+        {"speaker": "Dr. Patel", "text": "Your blood test results are back, Mrs. Green, and your cholesterol is quite a bit higher than it should be."},
+        {"speaker": "Mrs. Green", "text": "----"},
+        {"speaker": "Dr. Patel", "text": "Not necessarily. If you change your diet and exercise more, we can check again in three months before considering medication."},
+        {"speaker": "Mrs. Green", "text": "All right, I'd much rather try that first."}
+      ],
+      "options": [
+        "That's wonderful news, doctor. I was so worried before I came in today.",
+        "I knew it. My mother had exactly the same problem when she was my age.",
+        "Does that mean I'll have to start taking tablets for the rest of my life?",
+        "Could the laboratory have mixed up my results with someone else's?",
+        "I'd like to start on the strongest medication you can give me right away."
+      ],
+      "answer": 2,
+      "explain_tr": "Doktor 'Şart değil ([en:Not necessarily]). Beslenme ve egzersizle üç ay sonra tekrar bakarız, ilacı sonra düşünürüz' diyor; yani hasta ilaç kullanmak zorunda kalıp kalmayacağını sormuş. C bu soruyu soruyor. E'de hasta hemen ilaç istiyor, 'şart değil' cevabı buna uymaz; D'de sonuçların karışıp karışmadığı soruluyor, doktorun diyet önerisi buna cevap olmaz; A iyi haber sanıyor; B'ye 'şart değil' denmez."
+    },
+    {
+      "id": "dia-011",
+      "lines": [
+        {"speaker": "Chloe", "text": "Good evening, welcome to the Riverside Hotel. Do you have a reservation?"},
+        {"speaker": "Michael", "text": "Yes, under the name Michael Reed, for three nights, a double room with a river view."},
+        {"speaker": "Chloe", "text": "----"},
+        {"speaker": "Michael", "text": "That's disappointing. In that case, could you at least give me a discount on the room rate?"},
+        {"speaker": "Chloe", "text": "Certainly, I can take twenty percent off for the inconvenience, and you'll have the view from tomorrow night."}
+      ],
+      "options": [
+        "Here's your key card, sir. Room 412 overlooks the river, exactly as you requested when you booked.",
+        "I'm sorry, we have no record of a booking in that name. Could it have been made under another name?",
+        "Would you like to pay for the room now, or would you rather settle everything at the end of your stay?",
+        "I've found your booking, but all the river view rooms are taken tonight, so you'd have a city view for the first night.",
+        "Breakfast is served from seven until ten in the restaurant on the ground floor, just past the lifts."
+      ],
+      "answer": 3,
+      "explain_tr": "Michael 'Hayal kırıklığı. O hâlde en azından oda ücretinde indirim yapar mısınız?' diyor ve resepsiyonist 'manzarayı yarın akşamdan itibaren alırsınız' diye ekliyor; yani sorun yalnızca ilk gece manzaranın olmaması. D bunu açıklıyor. A'da her şey yolunda, hayal kırıklığı anlamsız; B'de rezervasyon bulunamıyor, 'o hâlde indirim' ve 'yarın manzara' buna uymaz; C ve E konuyla ilgisiz."
+    },
+    {
+      "id": "dia-012",
+      "lines": [
+        {"speaker": "Alan", "text": "Morning, Judy. I noticed a van outside your house yesterday. Are you moving out?"},
+        {"speaker": "Judy", "text": "----"},
+        {"speaker": "Alan", "text": "Oh, that explains it. Well, if you need any help carrying things upstairs, just knock."},
+        {"speaker": "Judy", "text": "That's very kind. I might take you up on it this weekend."}
+      ],
+      "options": [
+        "No, nothing like that. My son is moving back in, and he brought all his furniture with him.",
+        "Yes, we're leaving on Friday. The house has finally been sold after all these months.",
+        "What van? I was away all day yesterday and didn't see anything outside.",
+        "I'd rather not talk about it, Alan, if you don't mind. It's a long story.",
+        "Actually, I was going to ask whether you'd seen my cat. She's been missing since Tuesday."
+      ],
+      "answer": 0,
+      "explain_tr": "Alan 'Şimdi anlaşıldı. Eşyaları yukarı taşımak için yardım lazım olursa kapımı çal' diyor; yani Judy kamyonetin nedenini açıklamış ve eve eşya giriyor. A (oğlu eşyalarıyla geri taşınıyor) buna uyuyor. B'de Judy taşınıp gidiyor, 'yukarı taşımak' ve hafta sonu yardım buna uymaz; C'de açıklama yok, 'şimdi anlaşıldı' denemez; D ve E konuyu kapatıyor ya da değiştiriyor."
+    },
+    {
+      "id": "dia-013",
+      "lines": [
+        {"speaker": "Sophie", "text": "Thank you for calling Northern Energy. How can I help you today?"},
+        {"speaker": "David", "text": "I've just received my electricity bill, and it's almost double what I paid last month."},
+        {"speaker": "Sophie", "text": "----"},
+        {"speaker": "David", "text": "No, I haven't. It's been exactly the same two people living here all year."},
+        {"speaker": "Sophie", "text": "In that case, the increase is probably due to an estimated reading. Could you read the meter for me now?"}
+      ],
+      "options": [
+        "I'm sorry, but bills are calculated automatically and there's nothing we can do about it.",
+        "Would you like to switch to our monthly direct debit plan to spread the cost?",
+        "I see. Have you had any guests staying with you, or has anyone new moved in recently?",
+        "Prices went up by thirty percent in October, so most customers have seen a similar increase.",
+        "Could you confirm your account number and the address the bill was sent to?"
+      ],
+      "answer": 2,
+      "explain_tr": "David 'Hayır, olmadı ([en:No, I haven't]). Bütün yıl aynı iki kişi yaşıyor' diyor; yani Sophie evde yaşayan kişi sayısıyla ilgili bir evet/hayır sorusu sormuş. C bu soruyu soruyor. E'de hesap numarası isteniyor, 'hayır, olmadı' cevabı uymaz; B'de ödeme planı soruluyor, kişi sayısıyla ilgisi yok; A ve D soru değil, açıklama; sonraki 'o hâlde tahmini okuma' çıkarımı da onlara uymaz."
+    },
+    {
+      "id": "dia-014",
+      "lines": [
+        {"speaker": "Mr. Owen", "text": "Thank you for coming in, Laura. Before we finish, is there anything you'd like to ask us?"},
+        {"speaker": "Laura", "text": "Yes, I'd like to know what a typical first month in this role would look like."},
+        {"speaker": "Mr. Owen", "text": "You'd spend the first two weeks shadowing a senior analyst, and then you'd gradually take on your own clients."},
+        {"speaker": "Laura", "text": "----"},
+        {"speaker": "Mr. Owen", "text": "Not at all. Most people are given their first full project by the end of the second month."},
+        {"speaker": "Laura", "text": "That's reassuring. It sounds like a well-structured start."}
+      ],
+      "options": [
+        "That sounds perfect. I did a lot of shadowing in my previous job, so I'm used to it.",
+        "Would the senior analyst be the same person who interviewed me earlier today?",
+        "What kind of clients does the company mainly work with at the moment?",
+        "How many analysts are there in the team at the moment, and how is the work shared out?",
+        "I see. Would I be expected to handle clients entirely on my own after only a month?"
+      ],
+      "answer": 4,
+      "explain_tr": "Mr. Owen 'Hiç de değil ([en:Not at all]). Çoğu kişiye ilk tam proje ikinci ayın sonunda verilir' diyor; yani Laura, bir ay sonra müşterileri tek başına yönetmesinin beklenip beklenmediğini sormuş ve cevap 'hayır, o kadar erken değil' demek. E bu soruyu soruyor. B evet/hayır sorusu olsa da 'hiç de değil' ve 'proje verilir' bilgisi ona cevap olmaz; C ve D bilgi sorularıdır, onlara 'hiç de değil' denmez; A soru değil, yorum."
+    },
+    {
+      "id": "dia-015",
+      "lines": [
+        {"speaker": "Hannah", "text": "Chris, the client has just called. They want the presentation moved from Friday to tomorrow morning."},
+        {"speaker": "Chris", "text": "----"},
+        {"speaker": "Hannah", "text": "I know it's tight, but they're deciding between us and another agency, so we can't say no."},
+        {"speaker": "Chris", "text": "Fine. Then let's get the whole team together now and divide up the slides."}
+      ],
+      "options": [
+        "Great, that gives us two extra days to polish the slides properly.",
+        "Tomorrow? That's impossible. Half the figures aren't even ready yet.",
+        "Which client? I'm not working on any presentations this week.",
+        "No problem, the presentation has been ready since Monday afternoon.",
+        "Did they say why they changed their minds about the date?"
+      ],
+      "answer": 1,
+      "explain_tr": "Hannah 'Biliyorum, süre dar ([en:I know it's tight]) ama hayır diyemeyiz' diyor; yani Chris sürenin yetmeyeceğine itiraz etmiş. B bu itirazı yapıyor. A'da Chris ek süre kazandıklarını sanıyor (tarih öne alındı, ertelenmedi); D'de sunum hazır, 'süre dar' uyarısı anlamsız; E bir soru soruyor, Hannah cevap vermiyor; C konuyu bilmiyor."
+    },
+    {
+      "id": "dia-016",
+      "lines": [
+        {"speaker": "Amy", "text": "Dr. Shaw, I got my essay back, and I don't really understand why I lost so many marks."},
+        {"speaker": "Dr. Shaw", "text": "Let's have a look. Your argument is clear, but most of your sources are from websites rather than academic journals."},
+        {"speaker": "Amy", "text": "----"},
+        {"speaker": "Dr. Shaw", "text": "That's a fair point, but the library gives you free online access to all the major journals in the field."},
+        {"speaker": "Amy", "text": "I didn't know that. I'll make sure I use them for the next assignment."}
+      ],
+      "options": [
+        "Does that mean I'll be able to resubmit the essay for a higher mark before the end of term?",
+        "I see. So you'd like me to use fewer sources in total next time, rather than more?",
+        "The problem is that most journal articles are behind a paywall, and I can't afford them.",
+        "I spent weeks on that essay, so I honestly think the mark is quite unfair.",
+        "Could you recommend a few good books on the topic instead, so I know where to start?"
+      ],
+      "answer": 2,
+      "explain_tr": "Dr. Shaw 'Haklı bir nokta ama kütüphane sana bütün önemli dergilere ücretsiz erişim sağlıyor' diyor; yani Amy dergilere ulaşmanın ücretli olduğundan yakınmış. C bunu söylüyor. A ve E birer soru; 'haklı bir nokta' ve ücretsiz erişim cevabı onlara uymaz; B kaynak sayısını yanlış anlıyor; D'de not adaletsiz deniyor, erişim bilgisi buna cevap değil."
+    },
+    {
+      "id": "dia-017",
+      "lines": [
+        {"speaker": "Mr. Lewis", "text": "Excuse me, I think there's been a mistake. Someone is sitting in my seat, 14C."},
+        {"speaker": "Grace", "text": "Let me check your boarding pass, sir. Ah, you're booked on the earlier flight to Lisbon, which has already departed."},
+        {"speaker": "Mr. Lewis", "text": "What? But I was at the gate twenty minutes before the time printed on my ticket."},
+        {"speaker": "Grace", "text": "----"},
+        {"speaker": "Mr. Lewis", "text": "I see. Then I'll have to speak to someone at the desk about getting on this one."},
+        {"speaker": "Grace", "text": "I'll call ahead so they know you're coming. Please follow me."}
+      ],
+      "options": [
+        "The gate for that flight was moved and closed early, I'm afraid, and this plane is a later service.",
+        "Don't worry, sir. There's a free seat at the back of the cabin, so you can stay on this flight.",
+        "Please take seat 14C, sir. The passenger sitting there has the wrong boarding pass, not you.",
+        "That's correct, sir. This is your flight, and 14C is the seat you were assigned at check-in.",
+        "The seatbelt sign is on, sir, so I must ask you to sit down in any free seat for now."
+      ],
+      "answer": 0,
+      "explain_tr": "Mr. Lewis 'Anlıyorum. O hâlde bu uçağa binebilmek için bankodakilerle görüşmem gerekecek' diyor; yani Grace durumu açıklamış ve bu uçakta yerinin olmadığı anlaşılmış. A bu açıklamayı veriyor. B, C ve D'de yolcu bu uçakta kalabiliyor, bankoya gitmesi gereksiz; E yalnızca oturmasını istiyor, 'anlıyorum' ve banko kararı buna uymaz."
+    },
+    {
+      "id": "dia-018",
+      "lines": [
+        {"speaker": "Karen", "text": "Did you get the letter from the council about the new parking restrictions on our street?"},
+        {"speaker": "Steve", "text": "Yes, it came this morning. Permits only from next month, and only one per household."},
+        {"speaker": "Karen", "text": "----"},
+        {"speaker": "Steve", "text": "Same here. I've no idea where my daughter is going to park when she visits."},
+        {"speaker": "Karen", "text": "Maybe we should both write to the council and ask for visitor permits."}
+      ],
+      "options": [
+        "You're lucky you've got a garage, Steve, so it won't make any difference to you at all.",
+        "I haven't received anything yet. Could you show me your copy of the letter later today?",
+        "Will the permits be free, or do we have to pay for them every year like people in town?",
+        "I heard they're going to put up the new signs by the end of the week, probably on Friday.",
+        "That's a real problem for us. We've got two cars and nowhere else to put the second one."
+      ],
+      "answer": 4,
+      "explain_tr": "Steve 'Bizde de öyle ([en:Same here]). Kızım ziyarete gelince nereye park edecek bilmiyorum' diyor; yani Karen kendi park sorununu anlatmış olmalı. E bunu yapıyor. A'da Karen kendi durumundan değil Steve'in durumundan söz ediyor, 'bizde de öyle' buna cevap olamaz; B ilk replikle çelişiyor (mektubu alıp almadığını kendisi sormuştu); C soru soruyor; D bir haber veriyor, kişisel bir sorun değil."
+    },
+    {
+      "id": "dia-019",
+      "lines": [
+        {"speaker": "Dr. Morgan", "text": "I'd like you to come back in two weeks so we can see whether the new medication is working."},
+        {"speaker": "Tom", "text": "Two weeks? I'll be abroad for most of the month for work."},
+        {"speaker": "Dr. Morgan", "text": "----"},
+        {"speaker": "Tom", "text": "That would be ideal. I'll have internet access everywhere I'm going."},
+        {"speaker": "Dr. Morgan", "text": "Good. My secretary will send you the link and the instructions this afternoon."}
+      ],
+      "options": [
+        "Then you'll have to postpone the trip. This is far more important than work.",
+        "In that case, we can simply stop the medication until you return.",
+        "Could you ask a doctor abroad to check your blood pressure instead?",
+        "In that case, we could do the follow-up as a video consultation instead.",
+        "Make sure you take the tablets with food, especially while you're travelling."
+      ],
+      "answer": 3,
+      "explain_tr": "Tom 'İdeal olur. Gideceğim her yerde internet var' diyor ve doktor 'bağlantıyı ([en:link]) gönderecek'; yani çevrim içi bir görüşme önerilmiş. D bunu öneriyor. C'de yurt dışında bir doktora görünmesi öneriliyor, internet ve bağlantı buna uymaz; A seyahati ertelemesini istiyor; B ilacı kesiyor; E tavsiye veriyor, hiçbiri 'internet erişimim var' cevabını gerektirmez."
+    },
+    {
+      "id": "dia-020",
+      "lines": [
+        {"speaker": "Nathan", "text": "Hi, I bought these headphones here last week, and the left side has already stopped working."},
+        {"speaker": "Zoe", "text": "----"},
+        {"speaker": "Nathan", "text": "I'm afraid I threw it away with the packaging. But the purchase should be on my card statement."},
+        {"speaker": "Zoe", "text": "That's fine. If you can show me the transaction on your banking app, I can process an exchange."}
+      ],
+      "options": [
+        "I'm sorry, but we don't accept returns on electronic items once they've been opened.",
+        "I'm sorry to hear that. Do you still have the receipt?",
+        "Have you tried charging them fully before using them?",
+        "Would you prefer a refund or a replacement pair?",
+        "Did you buy them in this branch or from our online store?"
+      ],
+      "answer": 1,
+      "explain_tr": "Nathan 'Maalesef onu ambalajla birlikte attım; ama alışveriş kart ekstremde görünür' diyor; yani Zoe fişi ([en:receipt]) sormuş. B bu soruyu soruyor. A'da iade kabul edilmiyor, 'attım' cevabı ve sonraki değişim teklifi buna uymaz; C, D ve E'nin cevabı 'onu attım' olamaz; ayrıca E'de nerede alındığı soruluyor, oysa Nathan 'burada aldım' demişti."
+    }
+  ]
+}

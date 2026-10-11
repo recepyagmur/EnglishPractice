@@ -1,0 +1,234 @@
+{
+  "type": "paraphrase",
+  "sources": [
+    {"title": "YDS: Yabancı Dil Bilgisi Seviye Tespit Sınavı", "site": "ÖSYM", "url": "https://www.osym.gov.tr/SinavGrubu/Index/7"},
+    {"title": "English Grammar Today (British Grammar)", "site": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/grammar/british-grammar/"},
+    {"title": "Oxford Learner's Dictionaries", "site": "Oxford University Press", "url": "https://www.oxfordlearnersdictionaries.com/"}
+  ],
+  "items": [
+    {
+      "id": "par-001",
+      "q": "Although the company invested heavily in advertising, its sales did not increase as much as the managers had expected.",
+      "options": [
+        "Because the company spent so much money on advertising, its sales rose far beyond what the managers had expected.",
+        "The managers expected sales to fall, so the company decided not to invest any money in advertising at all.",
+        "The company's sales would have increased considerably if the managers had decided to invest more in advertising.",
+        "Sales grew less than the managers had anticipated, even though the company had spent a great deal on advertising.",
+        "The managers were surprised that the company's sales increased even though nothing had been invested in advertising."
+      ],
+      "answer": 3,
+      "explain_tr": "Asıl cümle: şirket reklama çok yatırım yaptı, ama satışlar beklenen kadar artmadı ([en:although] zıtlığı). D seçeneği aynı anlamı [en:even though] ile korur. A satışların beklentiyi aştığını söyleyerek anlamı tersine çevirir; C gerçek olmayan bir koşul ([en:would have increased if]) ekler; E reklama hiç yatırım yapılmadığını söyler.",
+      "tags": ["contrast"]
+    },
+    {
+      "id": "par-002",
+      "q": "Unless governments act quickly to reduce carbon emissions, the effects of climate change may become impossible to reverse within a few decades.",
+      "options": [
+        "Governments have acted quickly to reduce carbon emissions, so the effects of climate change will be reversed within a few decades.",
+        "If governments do not take prompt action to cut carbon emissions, climate change could become irreversible in the next few decades.",
+        "Even if governments reduce carbon emissions quickly, the effects of climate change cannot be reversed in a few decades.",
+        "The effects of climate change became irreversible decades ago because governments failed to reduce carbon emissions.",
+        "Governments are unlikely to reduce carbon emissions quickly, since the effects of climate change are already impossible to reverse."
+      ],
+      "answer": 1,
+      "explain_tr": "[en:Unless] = [en:if … not]: hükûmetler hızla harekete geçmezse iklim değişikliği geri döndürülemez hâle gelebilir; B bunu [en:if … do not] ve [en:could become irreversible] ile aynen verir. C koşulu kaldırıp ([en:even if]) sonucu kesinleştirir; D olayı geçmişe taşır; E ise sonucu neden yapar.",
+      "tags": ["conditional"]
+    },
+    {
+      "id": "par-003",
+      "q": "The study's findings are not as conclusive as the authors claim, since the sample was small and drawn from a single city.",
+      "options": [
+        "The authors admit that their findings are inconclusive because the sample was small and limited to one city.",
+        "The study's findings are conclusive despite the fact that the sample was small and drawn from a single city.",
+        "The authors claim that a small sample drawn from a single city makes their findings more conclusive.",
+        "If the sample had been drawn from a single city, the study's findings would have been as conclusive as the authors claim.",
+        "Because the sample was small and came from only one city, the study's findings are less conclusive than the authors suggest."
+      ],
+      "answer": 4,
+      "explain_tr": "Asıl cümle: bulgular yazarların iddia ettiği kadar kesin değil, çünkü örneklem küçük ve tek şehirden. E aynı nedeni ([en:because]) ve aynı karşılaştırmayı ([en:less conclusive than the authors suggest]) korur. A'da yazarlar bunu kendileri kabul ediyor, oysa asıl cümlede yazarlar bulguları kesin sayıyor; B bulguların kesin olduğunu söyleyerek anlamı tersine çevirir.",
+      "tags": ["comparison", "cause"]
+    },
+    {
+      "id": "par-004",
+      "q": "Few people realised at the time how profoundly the invention of the telephone would change the way business was conducted.",
+      "options": [
+        "At the time, hardly anyone understood how deeply the telephone would transform the conduct of business.",
+        "At the time, most people recognised that the telephone would completely change the way business was done.",
+        "The invention of the telephone changed business far less than people had expected at the time.",
+        "Few business people were willing to use the telephone when it was first invented.",
+        "People realised only later that the telephone had hardly changed the way business was conducted."
+      ],
+      "answer": 0,
+      "explain_tr": "[en:Few people realised] = çok az kişi fark etti; A bunu [en:hardly anyone understood] ile, [en:profoundly] sözcüğünü de [en:deeply] ile karşılar. B çoğunluğun fark ettiğini söyleyerek tersine çevirir; C ve E telefonun iş dünyasını az değiştirdiğini ileri sürer, oysa asıl cümlede değişim derindir; D konuyu telefon kullanma isteğine kaydırır.",
+      "tags": ["quantifier"]
+    },
+    {
+      "id": "par-005",
+      "q": "The new treatment is far more expensive than the conventional one, but it causes considerably fewer side effects in most patients.",
+      "options": [
+        "The new treatment is both cheaper and safer than the conventional one for most patients.",
+        "Because the new treatment causes fewer side effects, it has become more expensive than the conventional one.",
+        "Although the new treatment costs much more than the conventional one, most patients suffer far fewer side effects with it.",
+        "The conventional treatment is more expensive than the new one, although it causes fewer side effects.",
+        "Most patients prefer the conventional treatment, since the new one causes considerably more side effects."
+      ],
+      "answer": 2,
+      "explain_tr": "Asıl cümlede iki karşıt bilgi var: yeni tedavi çok daha pahalı, ama yan etkisi çok daha az. C bunu [en:although] ile aynen korur. A yeni tedaviyi daha ucuz gösterir; B iki bilgi arasına olmayan bir neden-sonuç ([en:because]) kurar; D ve E hangi tedavinin pahalı ya da yan etkili olduğunu ters çevirir.",
+      "tags": ["contrast", "comparison"]
+    },
+    {
+      "id": "par-006",
+      "q": "Had the city invested in flood defences a decade ago, the damage caused by last month's storm would have been far less severe.",
+      "options": [
+        "The city invested in flood defences ten years ago, which is why last month's storm caused so little damage.",
+        "The damage from last month's storm would not have been nearly so serious if the city had built flood defences ten years ago.",
+        "Last month's storm caused little damage, even though the city had not invested in flood defences.",
+        "The city will invest in flood defences so that future storms cause far less damage than last month's.",
+        "The damage caused by last month's storm would have been even worse if the city had built flood defences ten years ago."
+      ],
+      "answer": 1,
+      "explain_tr": "[en:Had the city invested …] devrik 3. tip koşuldur: şehir on yıl önce yatırım yapmadı, bu yüzden hasar ağır oldu. B aynı gerçek dışı koşulu [en:if the city had built …] ile kurar. A yatırımın gerçekten yapıldığını ve hasarın az olduğunu söyler; E koşulun sonucunu tersine çevirir ([en:even worse]); D geleceğe yönelik bir plandır.",
+      "tags": ["conditional", "inversion"]
+    },
+    {
+      "id": "par-007",
+      "q": "Contrary to popular belief, people who read fiction regularly tend to be better at understanding the emotions of others.",
+      "options": [
+        "As most people assume, regular readers of fiction find it harder to understand other people's emotions.",
+        "People who are good at understanding others' emotions tend to read fiction more regularly than other people.",
+        "It is widely believed that reading fiction regularly makes people better at understanding their own emotions.",
+        "Although many people assume otherwise, regular readers of fiction are generally more skilled at recognising other people's feelings.",
+        "Reading fiction occasionally is enough to make people better at understanding the emotions of others."
+      ],
+      "answer": 3,
+      "explain_tr": "[en:Contrary to popular belief] = yaygın inanışın aksine; D bunu [en:although many people assume otherwise] ile, [en:tend to be better at] ifadesini de [en:are generally more skilled at] ile karşılar. A yaygın inanışa uyduğunu ve okurların daha kötü olduğunu söyleyerek tersine çevirir; B özne-sonuç yönünü değiştirir (duyguları anlayanlar daha çok okur); C \"kendi duyguları\" diyerek nesneyi değiştirir.",
+      "tags": ["contrast"]
+    },
+    {
+      "id": "par-008",
+      "q": "The committee postponed its decision until the full report had been published, rather than relying on the preliminary findings alone.",
+      "options": [
+        "Instead of basing its decision only on the preliminary findings, the committee waited for the full report to be published.",
+        "The committee made its decision on the basis of the preliminary findings, since the full report had not yet been published.",
+        "The committee rejected the full report and decided to rely on the preliminary findings instead.",
+        "After the full report was published, the committee realised that the preliminary findings had been wrong.",
+        "The committee published the preliminary findings so that it could reach a decision before the full report appeared."
+      ],
+      "answer": 0,
+      "explain_tr": "Komite ön bulgulara güvenmek yerine ([en:rather than]) kararı tam rapor yayımlanana kadar erteledi; A bunu [en:instead of] ve [en:waited for the full report] ile aynen verir. B ve C komitenin ön bulgulara dayanarak karar verdiğini söyler, yani tam tersi; D raporun içeriği hakkında asıl cümlede olmayan bir yargı ekler.",
+      "tags": ["time clause"]
+    },
+    {
+      "id": "par-009",
+      "q": "While renewable energy sources are becoming cheaper every year, they still cannot meet the entire demand for electricity in most industrialised countries.",
+      "options": [
+        "Renewable energy sources now meet all the electricity demand in most industrialised countries, because they have become so cheap.",
+        "Renewable energy sources are becoming more expensive every year, so most industrialised countries still rely on other sources.",
+        "Most industrialised countries refuse to use renewable energy even though it could meet their entire demand for electricity.",
+        "Once renewable energy becomes cheaper, it will meet the entire demand for electricity in most industrialised countries.",
+        "Despite their falling costs, renewable sources are not yet able to supply all the electricity most industrialised countries need."
+      ],
+      "answer": 4,
+      "explain_tr": "[en:While] burada zıtlık kurar: yenilenebilir kaynaklar ucuzluyor, ama talebin tamamını hâlâ karşılayamıyor. E aynı zıtlığı [en:despite their falling costs] ve [en:not yet able to supply all] ile korur. A talebin tamamının karşılandığını söyler; B kaynakların pahalılaştığını ileri sürer; D bunu geleceğe ait bir koşula ([en:once … will]) dönüştürür.",
+      "tags": ["contrast"]
+    },
+    {
+      "id": "par-010",
+      "q": "It was not until the results of the second experiment were published that the scientific community began to take the theory seriously.",
+      "options": [
+        "The scientific community took the theory seriously long before the results of the second experiment were published.",
+        "The results of the second experiment convinced the scientific community that the theory was wrong.",
+        "The scientific community only started to treat the theory seriously after the results of the second experiment appeared.",
+        "The scientific community refused to take the theory seriously even after the second experiment was published.",
+        "The second experiment was carried out because the scientific community had already accepted the theory."
+      ],
+      "answer": 2,
+      "explain_tr": "[en:It was not until X that Y] = Y ancak X'ten sonra oldu: bilim dünyası kuramı ancak ikinci deneyin sonuçları yayımlanınca ciddiye almaya başladı. C bunu [en:only started … after] ile aynen verir. A kuramın çok önceden ciddiye alındığını söyler; D ikinci deneyden sonra bile ciddiye alınmadığını ileri sürer; B kuramın yanlış bulunduğunu ekler.",
+      "tags": ["cleft sentence", "time"]
+    },
+    {
+      "id": "par-011",
+      "q": "As the population of the city has grown, so has the pressure on its public transport system, which was designed for far fewer passengers.",
+      "options": [
+        "The city's transport system, built for far fewer passengers, has come under growing strain as the population has risen.",
+        "The city's public transport system was expanded in order to cope with the growth of its population.",
+        "Although the city's population has grown, its public transport system still has more capacity than it needs.",
+        "The city's population has grown because its public transport system was designed to carry a large number of passengers.",
+        "The pressure on the city's public transport system has fallen, since far fewer passengers use it than it was designed for."
+      ],
+      "answer": 0,
+      "explain_tr": "[en:As X has grown, so has Y] = X arttıkça Y de arttı: nüfus büyüdükçe, çok daha az yolcu için tasarlanmış ulaşım sistemi üzerindeki baskı da arttı. A bunu [en:come under growing strain as the population has risen] ile korur. B sistemin genişletildiğini söyler (asıl cümlede yok); C ve E baskının olmadığını ya da azaldığını ileri sürerek anlamı tersine çevirir.",
+      "tags": ["inversion", "cause"]
+    },
+    {
+      "id": "par-012",
+      "q": "Even the most experienced doctors occasionally misdiagnose the disease, because its early symptoms closely resemble those of a common cold.",
+      "options": [
+        "Only inexperienced doctors misdiagnose the disease, since its early symptoms are quite different from those of a common cold.",
+        "Experienced doctors never confuse the disease with a common cold, although the early symptoms of the two look rather similar.",
+        "The disease is often mistaken for a common cold by patients themselves, but experienced doctors always diagnose it correctly.",
+        "Because its early symptoms are so like those of a common cold, even very experienced doctors sometimes misidentify the disease.",
+        "Doctors frequently diagnose a common cold as the disease, because its later symptoms are so much more severe."
+      ],
+      "answer": 3,
+      "explain_tr": "Asıl cümle: en deneyimli doktorlar bile hastalığı ara sıra yanlış teşhis ediyor, çünkü erken belirtileri soğuk algınlığına çok benziyor. D aynı nedeni ([en:because]) ve aynı dereceyi ([en:even … sometimes misidentify]) korur. A yalnız deneyimsiz doktorların yanıldığını ve belirtilerin farklı olduğunu söyler; B ve C deneyimli doktorların hiç yanılmadığını ileri sürerek tersine çevirir.",
+      "tags": ["cause"]
+    },
+    {
+      "id": "par-013",
+      "q": "The author argues that economic growth alone cannot eliminate poverty unless its benefits are distributed more evenly across society.",
+      "options": [
+        "The author believes that economic growth will eliminate poverty regardless of how its benefits are distributed.",
+        "According to the author, growth by itself cannot end poverty if its gains are not shared more equally throughout society.",
+        "The author claims that distributing wealth more evenly would slow economic growth and therefore increase poverty.",
+        "In the author's view, poverty has already been eliminated because the benefits of growth have been shared evenly.",
+        "The author suggests that economic growth is unnecessary as long as existing wealth is distributed more evenly."
+      ],
+      "answer": 1,
+      "explain_tr": "Yazara göre büyüme tek başına yoksulluğu bitiremez; [en:unless] (… olmadıkça) ile bu ancak faydalar daha eşit dağıtılırsa mümkün olur. B bunu [en:cannot end poverty if its gains are not shared more equally] ile aynen verir. A koşulu kaldırıp ([en:regardless of]) büyümenin tek başına yeteceğini söyler; E büyümeyi gereksiz ilan eder; C ve D asıl cümlede olmayan sonuçlar ekler.",
+      "tags": ["conditional", "reported speech"]
+    },
+    {
+      "id": "par-014",
+      "q": "Students who were allowed to choose their own research topics produced noticeably better work than those who were assigned a topic by their teachers.",
+      "options": [
+        "Students produced equally good work whether they chose their own research topics or were given one by their teachers.",
+        "Teachers assigned research topics to the students who had produced the best work in the past.",
+        "Students who were given a research topic by their teachers did noticeably better than those who chose their own.",
+        "Students were allowed to choose their own research topics only after they had produced good work on an assigned one.",
+        "Students who picked their own research topics did clearly better work than those whose topics were chosen by their teachers."
+      ],
+      "answer": 4,
+      "explain_tr": "Asıl cümle bir karşılaştırma yapıyor: konusunu kendi seçen öğrencilerin işi, konusu öğretmence verilenlerinkinden belirgin biçimde daha iyi. E bunu [en:did clearly better work than] ile aynen korur. C karşılaştırmayı tersine çevirir; A fark olmadığını söyler; B ve D asıl cümlede olmayan bir zaman sırası ve koşul ekler.",
+      "tags": ["comparison", "relative clause"]
+    },
+    {
+      "id": "par-015",
+      "q": "The museum had to close for two years so that its historic building could be restored, which cost far more than the trustees had originally estimated.",
+      "options": [
+        "The museum closed for two years because the trustees could not afford to pay for restoring its historic building.",
+        "The trustees had estimated that restoring the museum's historic building would take two years, but it was completed much sooner.",
+        "Restoring the museum's historic building, which meant closing for two years, cost much more than the trustees had first calculated.",
+        "The museum remained open during the restoration of its historic building, which cost rather less than the trustees had expected.",
+        "The trustees decided to close the museum permanently, since restoring its historic building would have cost far too much."
+      ],
+      "answer": 2,
+      "explain_tr": "Asıl cümlede üç bilgi var: müze iki yıl kapandı, amaç binanın restorasyonuydu, maliyet ilk tahminin çok üzerine çıktı. C üçünü de korur ([en:meant closing for two years], [en:cost much more than … first calculated]). A kapanma nedenini para yokluğu yapar; B maliyeti süreye çevirir; D ve E müzenin açık kaldığını ya da kalıcı olarak kapandığını söyler.",
+      "tags": ["purpose", "comparison"]
+    },
+    {
+      "id": "par-016",
+      "q": "Although many employers now offer remote working, surveys suggest that younger employees in particular still value regular face-to-face contact with colleagues.",
+      "options": [
+        "Remote working is widely available today, yet surveys indicate that younger workers especially still appreciate meeting colleagues in person regularly.",
+        "Surveys suggest that younger employees prefer remote working because it frees them from regular contact with their colleagues.",
+        "Few employers offer remote working, which is why younger employees have so much face-to-face contact with their colleagues.",
+        "Older employees, unlike younger ones, still value regular face-to-face contact with colleagues even when remote working is offered.",
+        "Surveys show that employers have stopped offering remote working because employees of all ages prefer working in the office."
+      ],
+      "answer": 0,
+      "explain_tr": "[en:Although] zıtlığı: uzaktan çalışma yaygın olsa da anketlere göre özellikle genç çalışanlar yüz yüze teması hâlâ önemsiyor. A bunu [en:yet] ile ve [en:younger workers especially] diyerek aynen verir. B gençlerin uzaktan çalışmayı tercih ettiğini söyleyerek tersine çevirir; D yüz yüze teması önemseyen grubu yaşlı çalışanlar yapar; C ve E işverenlerin uzaktan çalışma sunmadığını ileri sürer.",
+      "tags": ["contrast"]
+    }
+  ]
+}

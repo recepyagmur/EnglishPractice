@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+.venv/
+runtime/
+models/
+data/
+logs/
+config/machines/
+config/pending_setup.json
+models/_downloads/
+docs/sohbet-arsivi/**/oturum.zip
+docs/sohbet-arsivi/**/*.jsonl
+docs/sohbet-arsivi/**/tool-results/
+
+# Personal: the development handoff note and the chat archive stay on this computer only (not on GitHub).
+DEVAM.md
+docs/sohbet-arsivi/
+# The original design notes describe the developer's own computers: local only.
+ingilizce-pratik-uygulamasi.md
+ek-ozellik-kurulum-sihirbazi.md

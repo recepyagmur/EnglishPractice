@@ -1,0 +1,271 @@
+{
+  "type": "irrelevant",
+  "sources": [
+    {"title": "2013-YDS Örnek Sorular (Almanca, Fransızca, İngilizce)", "site": "ÖSYM", "url": "https://osym.gov.tr/2013yds-ornek-sorular-almanca-fransizca-ingilizce"},
+    {"title": "C1 reading | LearnEnglish", "site": "British Council", "url": "https://learnenglish.britishcouncil.org/skills/reading/c1-reading"},
+    {"title": "Linking words and expressions", "site": "Cambridge Dictionary Grammar", "url": "https://dictionary.cambridge.org/grammar/british-grammar/linking-words-and-expressions"},
+    {"title": "C1 Advanced exam format", "site": "Cambridge English", "url": "https://www.cambridgeenglish.org/exams-and-tests/advanced/exam-format/"}
+  ],
+  "items": [
+    {
+      "id": "irr-001",
+      "sentences": [
+        "(I) Cities are often several degrees warmer than the surrounding countryside, a phenomenon known as the urban heat island effect.",
+        "(II) Many cities were originally founded beside rivers because transporting goods by water was cheaper than using roads.",
+        "(III) Concrete and asphalt absorb heat during the day and release it slowly at night, keeping temperatures high long after sunset.",
+        "(IV) The lack of trees and open water removes the cooling effect that evaporation would otherwise provide.",
+        "(V) Planting trees and painting roofs white are among the simplest ways of reducing the effect."
+      ],
+      "answer": 1,
+      "explain_tr": "Paragraf kentlerin neden daha sıcak olduğunu ([en:urban heat island]) ve çözümlerini anlatıyor; II. cümle şehirlerin neden nehir kıyısına kurulduğuna geçerek odağı bozuyor. I'den III'e geçiş doğal: önce etki tanımlanıyor, sonra nedenleri sayılıyor.",
+      "tags": ["environment"]
+    },
+    {
+      "id": "irr-002",
+      "sentences": [
+        "(I) The Romans built an extensive network of paved roads that connected the distant provinces to the capital.",
+        "(II) Roman concrete has survived for two thousand years, while modern concrete often cracks within a few decades.",
+        "(III) Researchers have recently discovered that the secret lies in small lumps of lime that were left in the mixture.",
+        "(IV) When water enters a crack, these lumps dissolve and form new crystals that seal the gap.",
+        "(V) Engineers are now trying to reproduce this self-healing property in modern building materials."
+      ],
+      "answer": 0,
+      "explain_tr": "II–V cümleleri Roma betonunun neden dayanıklı olduğunu (kireç parçacıkları, kendini onarma) ve bugünkü uygulamalarını anlatıyor. I. cümle Roma yollarından söz ediyor; aynı dönem ama betonla ilgisi yok, paragrafın odağı dışında kalıyor.",
+      "tags": ["history", "science"]
+    },
+    {
+      "id": "irr-003",
+      "sentences": [
+        "(I) Procrastination is often blamed on laziness, but psychologists increasingly see it as a problem of emotion rather than of time management.",
+        "(II) People put off tasks that make them feel anxious, bored or inadequate, and the relief of avoiding the task is immediately rewarding.",
+        "(III) The reward, unfortunately, is short-lived, since the task remains and the anxiety usually grows.",
+        "(IV) Studies suggest that forgiving oneself for past delays reduces procrastination more effectively than self-criticism does.",
+        "(V) Time management courses are among the most popular training programmes offered by large companies."
+      ],
+      "answer": 4,
+      "explain_tr": "Paragraf ertelemenin ([en:procrastination]) duygusal bir sorun olduğunu ve bununla nasıl başa çıkılacağını anlatıyor. V. cümle şirketlerin zaman yönetimi kurslarına geçiyor; ilk cümle bunun bir zaman yönetimi sorunu olmadığını söylediği için odak dağılıyor.",
+      "tags": ["psychology"]
+    },
+    {
+      "id": "irr-004",
+      "sentences": [
+        "(I) Inflation measures how quickly the general level of prices rises over time.",
+        "(II) Central banks usually aim for a low, stable rate of around two per cent a year.",
+        "(III) When inflation rises above this target, they typically raise interest rates to discourage borrowing and spending.",
+        "(IV) Higher interest rates, however, also make it more expensive for businesses to invest, which can slow economic growth.",
+        "(V) The euro replaced the national currencies of twelve European countries in 2002."
+      ],
+      "answer": 4,
+      "explain_tr": "Paragraf enflasyonu, merkez bankalarının hedefini ve faiz artışının etkilerini anlatıyor. V. cümle euronun kabul tarihine geçiyor; para konusu ama enflasyon ve faiz çizgisiyle bağ kurmuyor.",
+      "tags": ["economics"]
+    },
+    {
+      "id": "irr-005",
+      "sentences": [
+        "(I) Each year a tree adds a new ring of wood beneath its bark, and the width of the ring depends on the growing conditions.",
+        "(II) Oak is a popular choice for furniture because of its strength and its attractive grain.",
+        "(III) In a wet, warm year the ring is wide; in a year of drought it is narrow.",
+        "(IV) By matching patterns of wide and narrow rings, scientists can date wooden objects and reconstruct past climates.",
+        "(V) Using this method, researchers have traced a series of severe droughts that may explain the collapse of several ancient civilisations."
+      ],
+      "answer": 1,
+      "explain_tr": "Paragraf ağaç halkalarıyla tarihleme ve geçmiş iklimi yeniden kurmayı anlatıyor; III'teki [en:the ring] I'deki halkaya gönderme yapıyor. II. cümle meşenin mobilyada kullanımına geçerek bu bağı koparıyor.",
+      "tags": ["science"]
+    },
+    {
+      "id": "irr-006",
+      "sentences": [
+        "(I) Teenagers' body clocks shift during puberty, making it hard for them to fall asleep before eleven at night.",
+        "(II) Puberty also brings rapid physical growth and a marked increase in appetite.",
+        "(III) Yet most secondary schools begin lessons at eight or earlier, so many pupils arrive chronically short of sleep.",
+        "(IV) Schools that have moved their start time to nine o'clock report better attendance, fewer accidents and higher grades.",
+        "(V) Parents and employers, however, often object because later start times disrupt their own routines."
+      ],
+      "answer": 1,
+      "explain_tr": "Paragraf ergenlerin uyku saatleri ile okulun başlama saatini tartışıyor. II. cümle ergenlikteki büyüme ve iştah değişimine geçiyor; I'deki [en:body clocks] ile III'teki [en:yet most secondary schools] doğrudan birbirine bağlı.",
+      "tags": ["education", "health"]
+    },
+    {
+      "id": "irr-007",
+      "sentences": [
+        "(I) Microplastics are fragments of plastic smaller than five millimetres, produced when larger items break down or shed fibres.",
+        "(II) They have now been found in the deepest ocean trenches, in Arctic snow and in the air above remote mountains.",
+        "(III) Plastic was first produced on an industrial scale in the early twentieth century and quickly replaced natural materials.",
+        "(IV) Marine animals swallow the particles, which then pass up the food chain and have been detected in human blood.",
+        "(V) The health effects of this exposure are still unknown, but scientists are urging that it be reduced as a precaution."
+      ],
+      "answer": 2,
+      "explain_tr": "Paragraf mikroplastiklerin nerelerde bulunduğunu ve besin zincirindeki yolculuğunu anlatıyor. III. cümle plastiğin sanayi tarihine geçiyor; II'den IV'e ([en:the particles]) akış kesintisiz.",
+      "tags": ["environment"]
+    },
+    {
+      "id": "irr-008",
+      "sentences": [
+        "(I) When coffeehouses first appeared in London in the 1650s, they quickly became centres of business and political debate.",
+        "(II) For the price of a cup of coffee, a customer could read the newspapers, hear the latest news and argue with strangers for hours.",
+        "(III) Several famous institutions, including Lloyd's insurance market and the London Stock Exchange, began as coffeehouse gatherings.",
+        "(IV) Coffee beans are grown mainly in tropical regions, where the warm climate and rich soil suit the plant.",
+        "(V) The authorities grew so alarmed by the free discussion that the king briefly tried to close the coffeehouses in 1675."
+      ],
+      "answer": 3,
+      "explain_tr": "Paragraf 17. yüzyıl Londra kahvehanelerinin toplumsal ve siyasi rolünü anlatıyor. IV. cümle kahvenin nerede yetiştiğine geçerek dönemi ve odağı değiştiriyor; III'ten V'e ([en:the authorities grew so alarmed by the free discussion]) geçiş doğal.",
+      "tags": ["history", "society"]
+    },
+    {
+      "id": "irr-009",
+      "sentences": [
+        "(I) Ride-hailing and food-delivery apps have created a new category of work in which people are paid per task rather than per hour.",
+        "(II) Supporters praise the flexibility this gives workers, who can choose when and how much to work.",
+        "(III) Food delivery has become especially popular among students, who often order late at night.",
+        "(IV) Critics respond that the flexibility is largely illusory, since workers must accept whatever jobs appear in order to earn a living.",
+        "(V) Courts in several countries have ruled that such workers are employees entitled to a minimum wage and paid holidays."
+      ],
+      "answer": 2,
+      "explain_tr": "Paragraf platform işçiliğinde esneklik tartışmasını ve mahkeme kararlarını anlatıyor. III. cümle yemek siparişi veren öğrencilere, yani tüketicilere geçiyor; II'deki [en:flexibility] ile IV'teki [en:the flexibility is largely illusory] doğrudan bağlı.",
+      "tags": ["economics", "society"]
+    },
+    {
+      "id": "irr-010",
+      "sentences": [
+        "(I) When a large enough proportion of a population is vaccinated, a disease can no longer spread easily, even among those who are not immune.",
+        "(II) This protection, known as herd immunity, is especially important for infants and for people whose immune systems are too weak for vaccination.",
+        "(III) The proportion required varies by disease: for measles, which is highly contagious, it is around ninety-five per cent.",
+        "(IV) When vaccination rates fall below this level, outbreaks return, as several European countries discovered in the last decade.",
+        "(V) The first vaccine was developed by Edward Jenner in 1796, using material taken from cowpox sores."
+      ],
+      "answer": 4,
+      "explain_tr": "Paragraf toplumsal bağışıklığı ([en:herd immunity]) ve aşılama oranının önemini anlatıyor. V. cümle Jenner'in ilk aşısına, yani aşının tarihine geçiyor; IV ile biten akış zaten tamam.",
+      "tags": ["health"]
+    },
+    {
+      "id": "irr-011",
+      "sentences": [
+        "(I) Several studies have found that students who take notes by hand remember lecture content better than those who type.",
+        "(II) Typing is fast enough to record a lecture almost word for word, so typists tend to transcribe rather than think.",
+        "(III) Writing by hand is slower, which forces students to select and rephrase the main points as they go.",
+        "(IV) Laptops have become lighter and cheaper over the past decade, and most universities now expect students to own one.",
+        "(V) It is this processing, rather than the pen itself, that appears to produce the advantage."
+      ],
+      "answer": 3,
+      "explain_tr": "Paragraf el yazısıyla not almanın neden daha etkili olduğunu açıklıyor; V'teki [en:this processing] III'teki seçip yeniden ifade etme sürecine gönderme yapıyor. IV. cümle dizüstü bilgisayarların fiyatına geçerek bu bağı koparıyor.",
+      "tags": ["education", "psychology"]
+    },
+    {
+      "id": "irr-012",
+      "sentences": [
+        "(I) In the 1630s, the price of tulip bulbs in the Netherlands rose to extraordinary levels, with single bulbs reportedly selling for more than a house.",
+        "(II) Buyers were not gardeners but speculators, who hoped to sell the bulbs on at a higher price before they were ever planted.",
+        "(III) Tulips originally came to Europe from the Ottoman Empire, where they had been cultivated for centuries.",
+        "(IV) In February 1637 the market collapsed within days, leaving many people with contracts for bulbs that were suddenly worthless.",
+        "(V) Historians still disagree about how widespread the damage was, but the episode remains the classic example of a speculative bubble."
+      ],
+      "answer": 2,
+      "explain_tr": "Paragraf 1630'lardaki lale balonunu, spekülatörleri ve çöküşü anlatıyor. III. cümle lalenin Avrupa'ya nereden geldiğine geçiyor; konu lale ama paragrafın spekülasyon çizgisiyle ilgisi yok.",
+      "tags": ["history", "economics"]
+    },
+    {
+      "id": "irr-013",
+      "sentences": [
+        "(I) Noise is one of the most widespread forms of pollution in modern cities, yet it receives far less attention than air or water pollution.",
+        "(II) Long-term exposure to traffic noise has been linked to high blood pressure, heart disease and disturbed sleep.",
+        "(III) Children in schools near busy roads or airports also show slower progress in reading.",
+        "(IV) Some cities have responded by lowering speed limits, installing quieter road surfaces and restricting night flights.",
+        "(V) Many people enjoy listening to music at high volume, particularly at concerts and festivals."
+      ],
+      "answer": 4,
+      "explain_tr": "Paragraf gürültü kirliliğinin sağlık etkilerini ve şehirlerin aldığı önlemleri anlatıyor. V. cümle insanların konserde yüksek sesle müzik dinlemeyi sevmesine geçiyor; bu, çevresel gürültü ve önlemler çizgisinin dışında kalıyor.",
+      "tags": ["health", "environment"]
+    },
+    {
+      "id": "irr-014",
+      "sentences": [
+        "(I) Vegetarian diets have been followed for religious reasons in parts of Asia for thousands of years.",
+        "(II) Cultivated meat is produced by growing animal cells in a nutrient solution rather than by raising and slaughtering animals.",
+        "(III) Its supporters argue that it could sharply reduce the land, water and emissions associated with conventional livestock farming.",
+        "(IV) The first cultivated burger, unveiled in 2013, cost several hundred thousand dollars to produce.",
+        "(V) Since then costs have fallen dramatically, and a handful of countries have approved the product for sale."
+      ],
+      "answer": 0,
+      "explain_tr": "II–V cümleleri yapay etin ([en:cultivated meat]) nasıl üretildiğini, avantajlarını ve maliyetinin düşüşünü anlatıyor. I. cümle Asya'daki dini vejetaryenliğe değiniyor; et yemeyle ilgili olsa da yapay et konusuna hiç girmiyor.",
+      "tags": ["technology"]
+    },
+    {
+      "id": "irr-015",
+      "sentences": [
+        "(I) The modern shipping container, introduced in the 1950s, is one of the least glamorous but most important inventions of the twentieth century.",
+        "(II) Before its arrival, cargo was loaded piece by piece by gangs of dockworkers, and a ship could spend more time in port than at sea.",
+        "(III) Containers can be moved from ship to train to lorry without being opened, which has cut handling costs by more than ninety per cent.",
+        "(IV) Modern cargo ships are so large that only a few ports in the world have docks deep enough to receive them.",
+        "(V) This fall in costs made it practical to manufacture goods on one side of the world and sell them on the other."
+      ],
+      "answer": 3,
+      "explain_tr": "Paragraf standart konteynerin yükleme maliyetini nasıl düşürdüğünü anlatıyor; V'teki [en:this fall in costs] III'teki yüzde doksanlık düşüşe gönderme yapıyor. IV. cümle gemilerin büyüklüğüne geçerek bu bağı koparıyor.",
+      "tags": ["economics", "technology"]
+    },
+    {
+      "id": "irr-016",
+      "sentences": [
+        "(I) Throughout the twentieth century, average scores on intelligence tests rose by roughly three points per decade in almost every country where records were kept.",
+        "(II) Intelligence tests were first used on a large scale to select recruits for the American army in 1917.",
+        "(III) The trend, known as the Flynn effect, was so steady that tests had to be made harder every few years to keep the average at one hundred.",
+        "(IV) Explanations include better nutrition, smaller families, longer schooling and growing familiarity with abstract problem-solving.",
+        "(V) In several wealthy countries, however, the rise appears to have stopped or even reversed since the 1990s."
+      ],
+      "answer": 1,
+      "explain_tr": "Paragraf zekâ testi puanlarındaki yükselişi ([en:Flynn effect]) ve nedenlerini anlatıyor; III'teki [en:the trend] I'deki yükselişe gönderme yapıyor. II. cümle testlerin 1917'de orduda kullanılmasına geçerek bu bağı koparıyor.",
+      "tags": ["psychology"]
+    },
+    {
+      "id": "irr-017",
+      "sentences": [
+        "(I) As fresh water becomes scarcer, more countries are turning to desalination, the removal of salt from seawater.",
+        "(II) The most common method forces seawater through membranes fine enough to block salt molecules but not water.",
+        "(III) Sales of bottled water have grown rapidly in recent years, despite concerns about plastic waste.",
+        "(IV) The process is energy-intensive, and the concentrated brine left behind can harm marine life if it is discharged carelessly.",
+        "(V) Nevertheless, in dry coastal regions such as the Gulf states, desalination already supplies most of the drinking water."
+      ],
+      "answer": 2,
+      "explain_tr": "Paragraf deniz suyunu tuzdan arındırmayı ([en:desalination]), yöntemini, bedelini ve kullanımını anlatıyor; IV'teki [en:the process] II'deki membran yöntemine gönderme yapıyor. III. cümle şişe su satışlarına geçerek bu bağı koparıyor.",
+      "tags": ["environment", "technology"]
+    },
+    {
+      "id": "irr-018",
+      "sentences": [
+        "(I) Predictions that the internet would make public libraries obsolete have so far proved wrong.",
+        "(II) Visits have fallen in some countries, but libraries have responded by redefining what they offer.",
+        "(III) Many now lend laptops and e-books, run coding clubs and language classes, and provide the only free internet access in poor neighbourhoods.",
+        "(IV) The Library of Alexandria, founded in the third century BC, was the largest collection of texts in the ancient world.",
+        "(V) For many users, the library has become less a store of books than a shared public space."
+      ],
+      "answer": 3,
+      "explain_tr": "Paragraf kütüphanelerin dijital çağda nasıl dönüştüğünü anlatıyor. IV. cümle antik İskenderiye Kütüphanesi'ne geçiyor; kütüphane konusu ama zaman ve odak tamamen farklı. III'ten V'e ([en:for many users, the library has become…]) akış doğal.",
+      "tags": ["society", "education"]
+    },
+    {
+      "id": "irr-019",
+      "sentences": [
+        "(I) Large volcanic eruptions can cool the entire planet for a year or more.",
+        "(II) The eruption throws vast quantities of sulphur dioxide into the upper atmosphere, where it forms tiny droplets that reflect sunlight back into space.",
+        "(III) Volcanoes are found mainly along the boundaries of the tectonic plates, where the Earth's crust is weakest.",
+        "(IV) After the eruption of Mount Tambora in 1815, global temperatures fell by about half a degree, and 1816 became known in Europe as the year without a summer.",
+        "(V) Crops failed from Ireland to China, and food prices rose sharply."
+      ],
+      "answer": 2,
+      "explain_tr": "Paragraf büyük volkan patlamalarının iklimi nasıl soğuttuğunu ve Tambora örneğini anlatıyor. III. cümle volkanların nerede bulunduğuna (levha sınırları) geçiyor; bu jeoloji bilgisi, iklim etkisi çizgisine uymuyor.",
+      "tags": ["science"]
+    },
+    {
+      "id": "irr-020",
+      "sentences": [
+        "(I) In the 1840s, the Hungarian doctor Ignaz Semmelweis noticed that women whose babies were delivered by doctors died of fever far more often than those attended by midwives.",
+        "(II) He realised that the doctors often came directly from dissecting corpses and proposed that they carried something harmful on their hands.",
+        "(III) When he required them to wash their hands in a chlorine solution, the death rate fell dramatically.",
+        "(IV) Yet his colleagues rejected the idea, partly because it implied that they themselves were responsible for the deaths.",
+        "(V) Hospitals today employ specialist teams whose only task is to monitor and prevent infections."
+      ],
+      "answer": 4,
+      "explain_tr": "Paragraf Semmelweis'ın 1840'lardaki el yıkama keşfini ve meslektaşlarının tepkisini anlatıyor. V. cümle bugünün hastanelerindeki enfeksiyon ekiplerine geçerek zamanı ve odağı değiştiriyor; I–IV tek bir tarihsel anlatı oluşturuyor.",
+      "tags": ["history", "health"]
+    }
+  ]
+}

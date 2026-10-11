@@ -1,0 +1,14 @@
+{
+  "name": "English Practice",
+  "short_name": "English Practice",
+  "description": "Yerel İngilizce pratik uygulaması",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f1115",
+  "theme_color": "#3f6fe0",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "logo.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

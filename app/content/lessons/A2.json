@@ -1,0 +1,5022 @@
+{
+  "_comment": "A2 lessons. Format: app/content/lessons/README.md. Never rename an id (progress is stored by id).",
+  "lessons": [
+    {
+      "id": "a2-past-simple",
+      "title_tr": "Geçmiş zaman (Past Simple): was/were, worked, went",
+      "title_en": "Past simple: was/were, regular and irregular verbs",
+      "categories": [
+        "tense",
+        "verb_form"
+      ],
+      "intro_tr": "Geçmişte olup bitmiş olaylar için kullanılır: [tr:Dün toplantıya katıldım], [tr:Geçen yıl İzmir'e taşındık]. Genellikle [en:yesterday], [en:last week], [en:in 2020], [en:ago] gibi bir zaman ifadesiyle birlikte gelir. Türkçede [tr:-di] eki kişiye göre değişir (gittim, gittin, gitti); İngilizcede ise fiilin geçmiş hâli bütün öznelerle aynıdır: [en:I went], [en:she went], [en:they went].",
+      "sections": [
+        {
+          "title_tr": "[en:was / were]",
+          "text_tr": "[en:be] fiilinin geçmişi: [en:I / he / she / it] → [en:was], [en:you / we / they] → [en:were]. Olumsuz: [en:wasn't / weren't]. Soru: [en:Was he…?] / [en:Were they…?]\n\nTürkçede [tr:evdeydim], [tr:yorgundu], [tr:toplantıdaydık] gibi cümlelerde ayrı bir fiil yoktur; geçmiş, ekle gösterilir. İngilizcede bu cümlelerde mutlaka [en:was] ya da [en:were] gerekir: [en:I was at home.] [en:He was tired.] [en:We were in a meeting.]\n\nKısa cevaplarda da [en:was / were] kullanılır: [en:Were you at the office? — Yes, I was.] / [en:No, I wasn't.]",
+          "table": {
+            "head": [
+              "Özne",
+              "Olumlu",
+              "Olumsuz",
+              "Soru"
+            ],
+            "rows": [
+              [
+                "I / he / she / it",
+                "I was late.",
+                "I wasn't late.",
+                "Was I late?"
+              ],
+              [
+                "you / we / they",
+                "They were busy.",
+                "They weren't busy.",
+                "Were they busy?"
+              ]
+            ]
+          },
+          "examples": [
+            {
+              "en": "I was at home yesterday.",
+              "tr": "Dün evdeydim."
+            },
+            {
+              "en": "The meetings were very long last week.",
+              "tr": "Geçen hafta toplantılar çok uzundu."
+            },
+            {
+              "en": "She wasn't happy with the result.",
+              "tr": "Sonuçtan memnun değildi."
+            },
+            {
+              "en": "Were you at the meeting this morning? — No, I wasn't.",
+              "tr": "Bu sabah toplantıda mıydın? — Hayır, değildim."
+            }
+          ]
+        },
+        {
+          "title_tr": "Düzenli ve düzensiz fiiller",
+          "text_tr": "Düzenli fiillere [en:-ed] eklenir ([en:work] → [en:worked], [en:live] → [en:lived], [en:stop] → [en:stopped], [en:study] → [en:studied]). Çok kullanılan fiillerin çoğu düzensizdir ve ezberlenmelidir. Geçmiş zaman tüm öznelerle aynıdır; [en:he/she/it] için [en:-s] eklenmez.\n\nYazım kuralları: [en:-e] ile biten fiillere yalnızca [en:-d] eklenir ([en:live] → [en:lived], [en:close] → [en:closed]). Ünsüz + [key:y] ile bitenlerde [key:y] düşer ve [en:-ied] gelir ([en:study] → [en:studied], [en:try] → [en:tried]); ünlü + [key:y] ile bitenler yalnızca [en:-ed] alır ([en:play] → [en:played], [en:stay] → [en:stayed]). Tek heceli ve ünsüz-ünlü-ünsüz ile biten fiillerde son ünsüz ikilenir ([en:stop] → [en:stopped], [en:plan] → [en:planned]); [key:w], [key:x], [key:y] ile bitenlerde ikilenme olmaz ([en:fix] → [en:fixed]).\n\nDüzensiz fiilleri tek tek ezberlemek yerine cümle içinde öğrenmek daha kolaydır. Tablodaki fiiller iş hayatında en sık kullanılanlardır.",
+          "table": {
+            "head": [
+              "Yalın",
+              "Geçmiş",
+              "Türkçe"
+            ],
+            "rows": [
+              [
+                "go",
+                "went",
+                "gitmek"
+              ],
+              [
+                "have",
+                "had",
+                "sahip olmak"
+              ],
+              [
+                "make",
+                "made",
+                "yapmak"
+              ],
+              [
+                "take",
+                "took",
+                "almak"
+              ],
+              [
+                "buy",
+                "bought",
+                "satın almak"
+              ],
+              [
+                "see",
+                "saw",
+                "görmek"
+              ],
+              [
+                "get",
+                "got",
+                "almak / varmak"
+              ],
+              [
+                "send",
+                "sent",
+                "göndermek"
+              ],
+              [
+                "write",
+                "wrote",
+                "yazmak"
+              ],
+              [
+                "meet",
+                "met",
+                "tanışmak / buluşmak"
+              ],
+              [
+                "come",
+                "came",
+                "gelmek"
+              ],
+              [
+                "leave",
+                "left",
+                "ayrılmak / bırakmak"
+              ],
+              [
+                "give",
+                "gave",
+                "vermek"
+              ],
+              [
+                "say",
+                "said",
+                "söylemek"
+              ]
+            ]
+          },
+          "examples": [
+            {
+              "en": "We moved to Izmir three years ago.",
+              "tr": "Üç yıl önce İzmir'e taşındık."
+            },
+            {
+              "en": "Yesterday I went to the gym after work.",
+              "tr": "Dün işten sonra spor salonuna gittim."
+            },
+            {
+              "en": "He bought a new laptop last month.",
+              "tr": "Geçen ay yeni bir dizüstü bilgisayar aldı."
+            },
+            {
+              "en": "We planned the trip in May.",
+              "tr": "Geziyi mayısta planladık."
+            }
+          ]
+        },
+        {
+          "title_tr": "Ne zaman kullanılır? Zaman ifadeleri",
+          "text_tr": "Past simple, geçmişte belli bir zamanda olup bitmiş olaylar için kullanılır. Olayın ne zaman olduğu ya cümlede söylenir ya da konuşmadan anlaşılır.\n\nSık kullanılan zaman ifadeleri: [en:yesterday], [en:last night], [en:last week], [en:last year], [en:two days ago], [en:in 2019], [en:on Monday], [en:at 10 o'clock], [en:when I was a child]. [en:ago] süreden sonra gelir: [en:three years ago] (üç yıl önce). [tr:Dün gece] için [en:last night] denir; [en:yesterday night] pek kullanılmaz.\n\nArka arkaya olan olayları anlatırken de past simple kullanılır: [en:I got up, had breakfast and went to work.] Geçmişte bir süre devam edip bitmiş durumlar için de kullanılır: [en:I worked there for five years] (artık orada çalışmıyorum).",
+          "examples": [
+            {
+              "en": "I saw her two days ago.",
+              "tr": "Onu iki gün önce gördüm."
+            },
+            {
+              "en": "This morning I got up at six, had breakfast and took the bus.",
+              "tr": "Bu sabah altıda kalktım, kahvaltı yaptım ve otobüse bindim."
+            },
+            {
+              "en": "I worked in a bank for five years.",
+              "tr": "Beş yıl bir bankada çalıştım."
+            },
+            {
+              "en": "When I was a child, I lived in Bursa.",
+              "tr": "Çocukken Bursa'da yaşıyordum."
+            }
+          ]
+        },
+        {
+          "title_tr": "Türkçeden farkı ve sık karışanlar",
+          "text_tr": "Türkçede iki geçmiş zaman vardır: -di (gördüm) ve -miş (görmüş). İngilizcede ikisi için de çoğu zaman past simple kullanılır: [en:He left early.] hem [tr:Erken çıktı] hem de [tr:Erken çıkmış] diye çevrilebilir.\n\nSık hata: [tr:-di] ekini [en:was] ile karşılamaya çalışmak ([en:I was work there]). [en:was / were] yalnızca [en:be] fiilinin geçmişidir; başka bir fiilin önüne gelip onu geçmiş yapmaz. Doğrusu: [en:I worked there.]\n\nTürkçede fiil kişiye göre değişir (gittim, gitti, gittik); İngilizcede past simple bütün öznelerle aynıdır: [en:I went], [en:she went], [en:they went]. Olumsuz ve soru cümleleri ise [en:did] ile kurulur; bunu bir sonraki derste göreceksin.",
+          "examples": [
+            {
+              "en": "He left early.",
+              "tr": "Erken çıktı. / Erken çıkmış."
+            },
+            {
+              "en": "She came to work by taxi yesterday.",
+              "tr": "Dün işe taksiyle geldi."
+            }
+          ]
+        },
+        {
+          "title_tr": "💼 İş hayatında",
+          "work": true,
+          "text_tr": "Toplantılarda [tr:dün ne yaptın?] sorusuna, raporlarda ve e-postalarda yapılan işleri anlatırken geçmiş zaman kullanırsın.\n\nGünlük kısa toplantılarda ([en:daily stand-up]) dün yaptıklarını past simple ile sıralarsın: [en:Yesterday I fixed two bugs and tested the login page.] E-postada bir işin yapıldığını bildirirsin: [en:I sent the invoice on Monday.] Bir sorunu anlatırken olayları sırayla verirsin: [en:The system stopped at 3 p.m. and we lost some orders.]",
+          "examples": [
+            {
+              "en": "I sent you the report yesterday afternoon.",
+              "tr": "Raporu sana dün öğleden sonra gönderdim."
+            },
+            {
+              "en": "We finished the project two weeks ago.",
+              "tr": "Projeyi iki hafta önce bitirdik."
+            },
+            {
+              "en": "The client called this morning.",
+              "tr": "Müşteri bu sabah aradı."
+            },
+            {
+              "en": "The server was down for an hour.",
+              "tr": "Sunucu bir saat çalışmadı."
+            },
+            {
+              "en": "Yesterday I fixed two bugs and tested the login page.",
+              "tr": "Dün iki hatayı düzelttim ve giriş sayfasını test ettim."
+            },
+            {
+              "en": "We had a call with the supplier on Tuesday.",
+              "tr": "Salı günü tedarikçiyle bir görüşme yaptık."
+            }
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "Yesterday I go to the office.",
+          "right": "Yesterday I went to the office.",
+          "note_tr": "Geçmiş zaman ifadesi varsa fiil de geçmiş olmalı."
+        },
+        {
+          "wrong": "He goed home early.",
+          "right": "He went home early.",
+          "note_tr": "[en:go] düzensizdir: [en:went]."
+        },
+        {
+          "wrong": "I was work there.",
+          "right": "I worked there.",
+          "note_tr": "Fiilin geçmişi için [en:was] eklenmez; [en:-ed] yeter."
+        },
+        {
+          "wrong": "They was late.",
+          "right": "They were late.",
+          "note_tr": "[en:they] → [en:were]."
+        },
+        {
+          "wrong": "I saw him before two days.",
+          "right": "I saw him two days ago.",
+          "note_tr": "[tr:… önce] için süreden sonra [en:ago] gelir; [en:before two days] denmez."
+        },
+        {
+          "wrong": "Yesterday night I worked late.",
+          "right": "Last night I worked late.",
+          "note_tr": "[tr:Dün gece] İngilizcede [en:last night] olur."
+        },
+        {
+          "wrong": "We planed the trip in May.",
+          "right": "We planned the trip in May.",
+          "note_tr": "[en:plan] → [en:planned]: son ünsüz ikilenir."
+        },
+        {
+          "wrong": "I studyed hard for the exam.",
+          "right": "I studied hard for the exam.",
+          "note_tr": "Ünsüz + [key:y] → [en:-ied]: [en:study] → [en:studied]."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "q": "We ___ in London last summer.",
+          "options": [
+            "was",
+            "were",
+            "are"
+          ],
+          "answer": 1,
+          "explain_tr": "[en:we] → [en:were]."
+        },
+        {
+          "type": "choice",
+          "q": "I ___ my keys at the office yesterday.",
+          "options": [
+            "leave",
+            "leaved",
+            "left"
+          ],
+          "answer": 2,
+          "explain_tr": "[en:leave] düzensizdir: [en:left]."
+        },
+        {
+          "type": "choice",
+          "q": "She ___ a great presentation on Monday.",
+          "options": [
+            "gives",
+            "gave",
+            "gived"
+          ],
+          "answer": 1,
+          "explain_tr": "[en:give] → [en:gave]."
+        },
+        {
+          "type": "choice",
+          "q": "I ___ to the bank two hours ago, but it was closed.",
+          "options": [
+            "go",
+            "went",
+            "was go"
+          ],
+          "answer": 1,
+          "explain_tr": "[en:two hours ago] geçmişi gösterir; [en:go] → [en:went]."
+        },
+        {
+          "type": "choice",
+          "q": "Where were you yesterday? — I ___ at a conference in Ankara.",
+          "options": [
+            "am",
+            "was",
+            "were"
+          ],
+          "answer": 1,
+          "explain_tr": "Geçmiş ve [en:I] → [en:was]."
+        },
+        {
+          "type": "fill",
+          "q": "They ___ a new car last year. (buy)",
+          "answer": [
+            "bought"
+          ],
+          "explain_tr": "[en:buy] → [en:bought]."
+        },
+        {
+          "type": "fill",
+          "q": "I ___ English at school for six years. (study)",
+          "answer": [
+            "studied"
+          ],
+          "explain_tr": "Ünsüz + [key:y] → [en:-ied]."
+        },
+        {
+          "type": "fill",
+          "q": "The train ___ late this morning. (be)",
+          "answer": [
+            "was"
+          ],
+          "explain_tr": "[en:the train] = [en:it] → [en:was]."
+        },
+        {
+          "type": "fill",
+          "q": "We ___ the meeting at five. (stop)",
+          "answer": [
+            "stopped"
+          ],
+          "explain_tr": "Tek heceli ve ünsüz-ünlü-ünsüz ile biten fiillerde son ünsüz ikilenir: [en:stop] → [en:stopped]."
+        },
+        {
+          "type": "fill",
+          "q": "I met the new manager three days ___. (önce)",
+          "answer": [
+            "ago"
+          ],
+          "explain_tr": "[tr:… önce] → süreden sonra [en:ago] gelir."
+        },
+        {
+          "type": "fix",
+          "q": "Last week I meet my old manager.",
+          "answer": [
+            "Last week I met my old manager."
+          ],
+          "explain_tr": "[en:meet] → [en:met]."
+        },
+        {
+          "type": "fix",
+          "q": "She was finish the report.",
+          "answer": [
+            "She finished the report.",
+            "She was finishing the report."
+          ],
+          "explain_tr": "[en:was] fazla; [en:finish] → [en:finished]."
+        },
+        {
+          "type": "fix",
+          "q": "My parents was in Antalya last week.",
+          "answer": [
+            "My parents were in Antalya last week."
+          ],
+          "explain_tr": "[en:parents] = [en:they] → [en:were]."
+        },
+        {
+          "type": "fix",
+          "q": "He sended the email last night.",
+          "answer": [
+            "He sent the email last night."
+          ],
+          "explain_tr": "[en:send] düzensizdir: [en:sent]."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "Cümleyi geçmiş zamana çevir.",
+          "q": "She takes the bus to work.",
+          "answer": [
+            "She took the bus to work."
+          ],
+          "explain_tr": "[en:take] düzensizdir: [en:took]."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "Cümleyi geçmiş zamana çevir.",
+          "q": "We are in the meeting room.",
+          "answer": [
+            "We were in the meeting room."
+          ],
+          "explain_tr": "[en:are] → [en:were]."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "[en:every Saturday] yerine [en:last Saturday] kullanarak geçmiş zamana çevir.",
+          "q": "They play tennis every Saturday.",
+          "answer": [
+            "They played tennis last Saturday.",
+            "Last Saturday they played tennis."
+          ],
+          "explain_tr": "[en:play] düzenlidir: [en:played] (ünlü + [key:y] → [en:-ed])."
+        },
+        {
+          "type": "order",
+          "words": [
+            "I",
+            "sent",
+            "the report",
+            "to my manager",
+            "yesterday"
+          ],
+          "answer": [
+            "I sent the report to my manager yesterday.",
+            "Yesterday I sent the report to my manager."
+          ],
+          "explain_tr": "Özne + fiil + nesne + yer/kişi + zaman."
+        },
+        {
+          "type": "order",
+          "words": [
+            "We",
+            "moved",
+            "to Ankara",
+            "two years",
+            "ago"
+          ],
+          "answer": [
+            "We moved to Ankara two years ago.",
+            "Two years ago we moved to Ankara."
+          ],
+          "explain_tr": "[en:ago] süreden sonra gelir: [en:two years ago]."
+        },
+        {
+          "type": "order",
+          "words": [
+            "The meeting",
+            "was",
+            "very",
+            "long",
+            "last Monday"
+          ],
+          "answer": [
+            "The meeting was very long last Monday.",
+            "Last Monday the meeting was very long."
+          ],
+          "explain_tr": "[en:the meeting] = [en:it] → [en:was]."
+        },
+        {
+          "type": "match",
+          "q": "Geçmiş hâli Türkçe karşılığıyla eşleştir.",
+          "pairs": [
+            [
+              "went",
+              "gitti"
+            ],
+            [
+              "saw",
+              "gördü"
+            ],
+            [
+              "bought",
+              "satın aldı"
+            ],
+            [
+              "wrote",
+              "yazdı"
+            ],
+            [
+              "sent",
+              "gönderdi"
+            ]
+          ],
+          "explain_tr": "Bunlar düzensiz fiillerdir; [en:-ed] almazlar."
+        },
+        {
+          "type": "listen",
+          "text": "I sent the invoice to the client last Monday.",
+          "answer": [
+            "I sent the invoice to the client last Monday."
+          ],
+          "explain_tr": "[en:send] → [en:sent]; [en:last Monday] geçmişi gösterir."
+        },
+        {
+          "type": "listen",
+          "text": "We were very busy at work last week.",
+          "answer": [
+            "We were very busy at work last week."
+          ],
+          "explain_tr": "[en:we] → [en:were]."
+        }
+      ],
+      "practice": {
+        "focus": "what the learner did last weekend, on their last holiday and at work yesterday (past simple with regular and irregular verbs)",
+        "tasks": [
+          [
+            "Geçen hafta sonu ne yaptığını anlat",
+            "describe what they did last weekend"
+          ],
+          [
+            "Dün işte/okulda neler yaptığını anlat",
+            "describe what they did at work or school yesterday"
+          ]
+        ]
+      },
+      "sources": [
+        {
+          "title": "Past simple",
+          "site": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/past-simple"
+        },
+        {
+          "title": "Irregular verbs",
+          "site": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/irregular-verbs"
+        },
+        {
+          "title": "Past simple (I worked)",
+          "site": "Cambridge Dictionary Grammar",
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/past-simple-i-worked"
+        }
+      ]
+    },
+    {
+      "id": "a2-past-questions",
+      "title_tr": "Geçmişte soru ve olumsuz: did / didn't",
+      "title_en": "Past simple questions and negatives (did / didn't)",
+      "categories": [
+        "tense",
+        "word_order",
+        "verb_form"
+      ],
+      "intro_tr": "Geçmiş zamanda soru ve olumsuz için yardımcı fiil [en:did] kullanılır. [en:did] geçmiş zamanı zaten gösterdiği için ana fiil yalın kalır: [en:Did you see…?], [en:I didn't go]. Türkçede olumsuzluk ve soru fiile eklenir (gitmedim, gittin mi?); İngilizcede ise bu işi [en:did] yapar ve cümlenin başına ya da özneden sonra gelir.",
+      "sections": [
+        {
+          "title_tr": "Olumsuz: [en:didn't] + yalın fiil",
+          "text_tr": "Tüm öznelerle [en:didn't] ([en:did not]) kullanılır. [en:didn't went] gibi iki kez geçmiş yapılmaz. [en:be] fiili istisnadır: [en:wasn't / weren't] ([en:did] kullanılmaz).\n\nKonuşmada ve günlük e-postalarda genellikle kısa hâli [en:didn't] kullanılır; resmî yazılarda [en:did not] da görürsün. Anlam aynıdır.\n\nKural kısaca şudur: geçmişi [en:did] taşır, bu yüzden ana fiil yalın kalır. Olumlu cümlede [en:went] olan fiil, olumsuzda [en:didn't go] olur.",
+          "table": {
+            "head": [
+              "Olumlu",
+              "Olumsuz"
+            ],
+            "rows": [
+              [
+                "I worked late.",
+                "I didn't work late."
+              ],
+              [
+                "She went home.",
+                "She didn't go home."
+              ],
+              [
+                "They had lunch.",
+                "They didn't have lunch."
+              ],
+              [
+                "He was busy.",
+                "He wasn't busy."
+              ]
+            ]
+          },
+          "examples": [
+            {
+              "en": "I didn't have breakfast this morning.",
+              "tr": "Bu sabah kahvaltı yapmadım."
+            },
+            {
+              "en": "She didn't come to the party.",
+              "tr": "Partiye gelmedi."
+            },
+            {
+              "en": "We weren't at home.",
+              "tr": "Evde değildik."
+            },
+            {
+              "en": "He didn't send the file.",
+              "tr": "Dosyayı göndermedi."
+            }
+          ]
+        },
+        {
+          "title_tr": "Soru: (Soru kelimesi) + [en:did] + özne + yalın fiil",
+          "text_tr": "Kısa cevap: [en:Yes, I did.] / [en:No, he didn't.] Soru kelimesi başa gelir: [en:What did…?] [en:Where did…?] [en:When did…?]\n\nKısa cevapta ana fiil tekrar edilmez; yalnızca [en:did] ya da [en:didn't] söylenir. [en:be] fiiliyle soru ise [en:was / were] ile kurulur: [en:Were you at work yesterday? — No, I wasn't.]\n\nSoru cümlesinin sırası Türkçeden çok farklıdır. Türkçede fiil sondadır ve soru eki fiile eklenir (aradın mı?). İngilizcede ise [en:did] başa ya da soru kelimesinin hemen arkasına gelir; ardından özne, en son da yalın fiil gelir: [en:Did] + [en:you] + [en:call?] Bu sırayı birkaç kalıpla ezberlemek işini kolaylaştırır: [en:Did you…?] / [en:What did you…?] / [en:Where did you…?]",
+          "table": {
+            "head": [
+              "Soru kelimesi",
+              "did",
+              "özne",
+              "fiil",
+              "…"
+            ],
+            "rows": [
+              [
+                "—",
+                "Did",
+                "you",
+                "call",
+                "him?"
+              ],
+              [
+                "Where",
+                "did",
+                "they",
+                "go",
+                "on holiday?"
+              ],
+              [
+                "What time",
+                "did",
+                "the meeting",
+                "finish",
+                "yesterday?"
+              ]
+            ]
+          },
+          "examples": [
+            {
+              "en": "Did you enjoy the film? — Yes, I did.",
+              "tr": "Filmi beğendin mi? — Evet."
+            },
+            {
+              "en": "Where did you grow up?",
+              "tr": "Nerede büyüdün?"
+            },
+            {
+              "en": "What did he say?",
+              "tr": "Ne dedi?"
+            },
+            {
+              "en": "Were you at work yesterday? — No, I wasn't.",
+              "tr": "Dün işte miydin? — Hayır, değildim."
+            }
+          ]
+        },
+        {
+          "title_tr": "Soru kelimeleri ve [en:Who called?]",
+          "text_tr": "Sık kullanılan soru kelimeleri: [en:What] (ne), [en:Where] (nerede / nereye), [en:When] (ne zaman), [en:Who] (kim), [en:Why] (neden), [en:How] (nasıl), [en:What time] (saat kaçta), [en:How long] (ne kadar süre). Temel kalıp: soru kelimesi + [en:did] + özne + yalın fiil.\n\nDikkat: [en:who] ya da [en:what] cümlenin öznesini soruyorsa [en:did] kullanılmaz ve fiil geçmiş hâlde kalır: [en:Who called you?] (Seni kim aradı?). Ama [en:Who did you call?] (Sen kimi aradın?) sorusunda özne [en:you]'dur, bu yüzden [en:did] gelir. İlkinde arayan kişiyi, ikincisinde aranan kişiyi soruyorsun. [en:What happened?] (Ne oldu?) da aynı türden bir sorudur.",
+          "examples": [
+            {
+              "en": "Who called you this morning?",
+              "tr": "Bu sabah seni kim aradı?"
+            },
+            {
+              "en": "Who did you call?",
+              "tr": "Kimi aradın?"
+            },
+            {
+              "en": "Why did you leave so early?",
+              "tr": "Neden bu kadar erken çıktın?"
+            },
+            {
+              "en": "How long did the training take?",
+              "tr": "Eğitim ne kadar sürdü?"
+            }
+          ]
+        },
+        {
+          "title_tr": "Türkçeden farkı ve sık karışanlar",
+          "text_tr": "Türkçede olumsuzluk fiile eklenir (gitmedim), soru [tr:-mi] ile yapılır (gittin mi?). İngilizcede ise geçmişi [en:did] taşır ve ana fiil yalın kalır. Kısaca: [en:did] varsa fiil yalın.\n\nİkinci tuzak [en:be] fiilidir. [en:was / were] kendi başına olumsuz ve soru yapar: [en:I wasn't tired], [en:Were they late?]. [en:did] ile birlikte kullanılmaz.\n\nÜçüncü tuzak şimdiki zamanla karıştırmaktır: geçmiş için [en:do / does] değil [en:did] kullanılır. [en:Do you see the match yesterday?] yanlış, [en:Did you see the match yesterday?] doğrudur.\n\nSoru kelimesiyle olumsuz soru sorarken [en:didn't] özneden önce gelir: [en:Why didn't you come?]",
+          "examples": [
+            {
+              "en": "I wasn't tired, but I didn't want to go out.",
+              "tr": "Yorgun değildim ama dışarı çıkmak istemedim."
+            },
+            {
+              "en": "Why didn't you come to the meeting?",
+              "tr": "Toplantıya neden gelmedin?"
+            }
+          ]
+        },
+        {
+          "title_tr": "💼 İş hayatında",
+          "work": true,
+          "text_tr": "Bir işin yapılıp yapılmadığını kontrol ederken ve toplantı sonrası bilgi alırken [en:did] ile soru sorarsın.\n\nKibar bir hatırlatma için [en:Did you have a chance to…?] kalıbı çok kullanılır: [en:Did you have a chance to look at my offer?] (Teklifime bakma fırsatın oldu mu?). Bir sorunun nedenini sorarken [en:What happened?] ve [en:Why didn't…?] kullanılır. Olumsuz cümleyle de kısa ve net bilgi verirsin: [en:We didn't receive the invoice.]\n\nBir toplantıya katılamadıysan, sonrasında kısa sorularla bilgi alırsın: [en:What did the manager say?], [en:Did they agree to the new price?], [en:When did they decide?]",
+          "examples": [
+            {
+              "en": "Did you get my email?",
+              "tr": "E-postamı aldın mı?"
+            },
+            {
+              "en": "Why didn't the update work?",
+              "tr": "Güncelleme neden çalışmadı?"
+            },
+            {
+              "en": "How did the meeting with the client go?",
+              "tr": "Müşteriyle toplantı nasıl geçti?"
+            },
+            {
+              "en": "I didn't have time to check the numbers.",
+              "tr": "Rakamları kontrol etmeye vaktim olmadı."
+            },
+            {
+              "en": "Did you have a chance to look at my offer?",
+              "tr": "Teklifime bakma fırsatın oldu mu?"
+            },
+            {
+              "en": "We didn't receive the invoice for March.",
+              "tr": "Mart ayı faturasını almadık."
+            },
+            {
+              "en": "What happened to the server last night?",
+              "tr": "Dün gece sunucuya ne oldu?"
+            }
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "I didn't went to work.",
+          "right": "I didn't go to work.",
+          "note_tr": "[en:didn't]'ten sonra fiil yalın."
+        },
+        {
+          "wrong": "Where you went yesterday?",
+          "right": "Where did you go yesterday?",
+          "note_tr": "Soruda [en:did] gerekir ve fiil yalın kalır."
+        },
+        {
+          "wrong": "Did she called you?",
+          "right": "Did she call you?",
+          "note_tr": "[en:Did] + yalın fiil."
+        },
+        {
+          "wrong": "I didn't was at home.",
+          "right": "I wasn't at home.",
+          "note_tr": "[en:be] fiiliyle [en:did] kullanılmaz."
+        },
+        {
+          "wrong": "Do you see the match yesterday?",
+          "right": "Did you see the match yesterday?",
+          "note_tr": "Geçmiş için [en:do] değil [en:did] kullanılır."
+        },
+        {
+          "wrong": "Why you didn't come?",
+          "right": "Why didn't you come?",
+          "note_tr": "Soru kelimesinden sonra önce [en:didn't], sonra özne gelir."
+        },
+        {
+          "wrong": "Who did call you?",
+          "right": "Who called you?",
+          "note_tr": "[en:who] burada öznedir; normal bir soruda [en:did] kullanılmaz, fiil geçmiş hâlde kalır. ([en:Who did call you?] yalnızca [en:did] vurgulanarak, ısrarla sorulduğunda duyulur.)"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "q": "___ you see the news last night?",
+          "options": [
+            "Do",
+            "Did",
+            "Were"
+          ],
+          "answer": 1,
+          "explain_tr": "Geçmiş soru: [en:Did]."
+        },
+        {
+          "type": "choice",
+          "q": "He didn't ___ the answer.",
+          "options": [
+            "knew",
+            "know",
+            "knows"
+          ],
+          "answer": 1,
+          "explain_tr": "[en:didn't] + yalın fiil."
+        },
+        {
+          "type": "choice",
+          "q": "Which question is correct?",
+          "options": [
+            "What time you arrived?",
+            "What time did you arrive?",
+            "What time did you arrived?"
+          ],
+          "answer": 1,
+          "explain_tr": "Soru kelimesi + [en:did] + özne + yalın fiil."
+        },
+        {
+          "type": "choice",
+          "q": "___ the shop open on Sunday? — No, it wasn't.",
+          "options": [
+            "Did",
+            "Was",
+            "Were"
+          ],
+          "answer": 1,
+          "explain_tr": "[en:be] fiiliyle soru: [en:Was…?] Kısa cevap da [en:it wasn't]."
+        },
+        {
+          "type": "choice",
+          "q": "Who ___ the window? — Mehmet did.",
+          "options": [
+            "did open",
+            "opened",
+            "did opened"
+          ],
+          "answer": 1,
+          "explain_tr": "[en:who] özne → [en:did] kullanılmaz, fiil geçmiş hâlde: [en:opened]."
+        },
+        {
+          "type": "fill",
+          "q": "We ___ like the hotel. It was dirty. (olumsuz)",
+          "answer": [
+            "didn't",
+            "did not"
+          ],
+          "explain_tr": "Olumsuz: [en:didn't]."
+        },
+        {
+          "type": "fill",
+          "q": "Where ___ you buy that jacket?",
+          "answer": [
+            "did"
+          ],
+          "explain_tr": "Geçmiş soru: [en:did]."
+        },
+        {
+          "type": "fill",
+          "q": "They ___ at the office yesterday. (be, olumsuz)",
+          "answer": [
+            "weren't",
+            "were not"
+          ],
+          "explain_tr": "[en:be] ile: [en:weren't]."
+        },
+        {
+          "type": "fill",
+          "q": "Did your team ___ the deadline? (meet)",
+          "answer": [
+            "meet"
+          ],
+          "explain_tr": "[en:Did] + yalın fiil."
+        },
+        {
+          "type": "fill",
+          "q": "___ did you go on holiday? — To Antalya. (nereye)",
+          "answer": [
+            "Where"
+          ],
+          "explain_tr": "Yer soruyoruz: [en:Where]."
+        },
+        {
+          "type": "fix",
+          "q": "I didn't saw him at the meeting.",
+          "answer": [
+            "I didn't see him at the meeting.",
+            "I did not see him at the meeting."
+          ],
+          "explain_tr": "[en:didn't] + [en:see]."
+        },
+        {
+          "type": "fix",
+          "q": "When you started this job?",
+          "answer": [
+            "When did you start this job?"
+          ],
+          "explain_tr": "Soru: [en:When] + [en:did] + özne + yalın fiil."
+        },
+        {
+          "type": "fix",
+          "q": "Did they finished the work?",
+          "answer": [
+            "Did they finish the work?"
+          ],
+          "explain_tr": "[en:Did] + yalın fiil."
+        },
+        {
+          "type": "fix",
+          "q": "Why you didn't call me?",
+          "answer": [
+            "Why didn't you call me?",
+            "Why did you not call me?"
+          ],
+          "explain_tr": "Soru kelimesi + [en:didn't] + özne + yalın fiil."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "Olumsuz yap.",
+          "q": "She finished the project on time.",
+          "answer": [
+            "She didn't finish the project on time."
+          ],
+          "explain_tr": "[en:didn't] + yalın fiil: [en:finished] → [en:didn't finish]."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "Soru cümlesi yap.",
+          "q": "They went to the conference.",
+          "answer": [
+            "Did they go to the conference?"
+          ],
+          "explain_tr": "[en:Did] + özne + yalın fiil: [en:went] → [en:go]."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "Olumsuz yap.",
+          "q": "I was at the office on Friday.",
+          "answer": [
+            "I wasn't at the office on Friday."
+          ],
+          "explain_tr": "[en:be] fiilinde [en:did] kullanılmaz: [en:wasn't]."
+        },
+        {
+          "type": "order",
+          "words": [
+            "Did",
+            "you",
+            "send",
+            "the invoice",
+            "yesterday"
+          ],
+          "answer": [
+            "Did you send the invoice yesterday?"
+          ],
+          "explain_tr": "[en:Did] + özne + yalın fiil + nesne + zaman."
+        },
+        {
+          "type": "order",
+          "words": [
+            "What time",
+            "did",
+            "the meeting",
+            "start"
+          ],
+          "answer": [
+            "What time did the meeting start?"
+          ],
+          "explain_tr": "Soru kelimesi + [en:did] + özne + yalın fiil."
+        },
+        {
+          "type": "order",
+          "words": [
+            "I",
+            "didn't",
+            "have",
+            "time",
+            "for lunch"
+          ],
+          "answer": [
+            "I didn't have time for lunch."
+          ],
+          "explain_tr": "[en:didn't] + yalın fiil ([en:have])."
+        },
+        {
+          "type": "match",
+          "q": "Soruyu Türkçe karşılığıyla eşleştir.",
+          "pairs": [
+            [
+              "Where did you go?",
+              "Nereye gittin?"
+            ],
+            [
+              "When did you go?",
+              "Ne zaman gittin?"
+            ],
+            [
+              "Why did you go?",
+              "Neden gittin?"
+            ],
+            [
+              "How did you go?",
+              "Nasıl gittin?"
+            ],
+            [
+              "Who did you go with?",
+              "Kiminle gittin?"
+            ]
+          ],
+          "explain_tr": "Kalıp aynı kalır: soru kelimesi + [en:did] + özne + yalın fiil."
+        },
+        {
+          "type": "listen",
+          "text": "Did you have a chance to read my email?",
+          "answer": [
+            "Did you have a chance to read my email?"
+          ],
+          "explain_tr": "[en:Did] + özne + yalın fiil ([en:have])."
+        },
+        {
+          "type": "listen",
+          "text": "We didn't finish the report on Friday.",
+          "answer": [
+            "We didn't finish the report on Friday."
+          ],
+          "explain_tr": "[en:didn't] + yalın fiil ([en:finish])."
+        }
+      ],
+      "practice": {
+        "focus": "the learner's past: childhood, school, last holiday and yesterday; the learner must also ask the partner past simple questions with did",
+        "tasks": [
+          [
+            "Bana 'Did you…?' ile en az üç soru sor",
+            "ask the partner at least three 'Did you…?' questions"
+          ],
+          [
+            "Dün yapmadığın şeyleri söyle",
+            "say things they didn't do yesterday"
+          ]
+        ]
+      },
+      "sources": [
+        {
+          "title": "Past simple (questions and negatives)",
+          "site": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/past-simple"
+        },
+        {
+          "title": "Questions and negatives",
+          "site": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/questions-negatives"
+        },
+        {
+          "title": "Forming negative statements, questions and imperatives",
+          "site": "Cambridge Dictionary Grammar",
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/forming-negative-statements-questions-and-imperatives"
+        }
+      ]
+    },
+    {
+      "id": "a2-present-continuous",
+      "title_tr": "Şimdiki zaman (Present Continuous) ve geniş zamanla farkı",
+      "title_en": "Present continuous vs present simple",
+      "categories": [
+        "tense",
+        "verb_form"
+      ],
+      "intro_tr": "Şu anda olan ya da bu aralar süren işler için [en:am/is/are] + fiil[en:-ing] kullanılır: [en:I'm working from home this week.] Alışkanlıklar için ise geniş zaman: [en:I usually work in the office.] Türkçede ikisini de [tr:-iyor] ile söyleyebildiğimiz için karıştırılır.",
+      "sections": [
+        {
+          "title_tr": "[en:am / is / are] + [en:-ing]",
+          "text_tr": "Olumsuz: [en:I'm not / isn't / aren't] + [en:-ing]. Soru: [en:Are you…ing?] Kısa cevap: [en:Yes, I am.] / [en:No, she isn't.] Konuşmada kısa hâller kullanılır: [en:I'm], [en:she's], [en:we're], [en:they're].\n\nYazım kuralları: Çoğu fiile doğrudan [en:-ing] eklenir ([en:work] → [en:working], [en:read] → [en:reading]). Sessiz [en:-e] ile biten fiillerde [key:e] düşer ([en:make] → [en:making], [en:write] → [en:writing]). Tek heceli ve ünsüz-ünlü-ünsüz ile biten fiillerde son ünsüz ikilenir ([en:sit] → [en:sitting], [en:run] → [en:running], [en:stop] → [en:stopping]); [key:w], [key:x], [key:y] ile bitenlerde ikilenme olmaz ([en:fix] → [en:fixing]). [en:-ie] ile bitenlerde [en:-ying] gelir ([en:lie] → [en:lying]).",
+          "table": {
+            "head": [
+              "Özne",
+              "Olumlu",
+              "Olumsuz",
+              "Soru"
+            ],
+            "rows": [
+              [
+                "I",
+                "I'm working.",
+                "I'm not working.",
+                "Am I working?"
+              ],
+              [
+                "he / she / it",
+                "She's working.",
+                "She isn't working.",
+                "Is she working?"
+              ],
+              [
+                "you / we / they",
+                "They're working.",
+                "They aren't working.",
+                "Are they working?"
+              ]
+            ]
+          },
+          "examples": [
+            {
+              "en": "I'm cooking dinner right now.",
+              "tr": "Şu an akşam yemeği yapıyorum."
+            },
+            {
+              "en": "She isn't listening to me.",
+              "tr": "Beni dinlemiyor."
+            },
+            {
+              "en": "Are you watching this?",
+              "tr": "Bunu izliyor musun?"
+            },
+            {
+              "en": "Is Ayşe working today? — No, she isn't.",
+              "tr": "Ayşe bugün çalışıyor mu? — Hayır."
+            }
+          ]
+        },
+        {
+          "title_tr": "Hangisi ne zaman?",
+          "text_tr": "Present continuous: şu an, bu aralar, geçici durumlar ([en:now], [en:at the moment], [en:today], [en:this week]). Present simple: alışkanlık, rutin, kalıcı durum ([en:usually], [en:every day], [en:always]). Bazı [tr:durum] fiilleri genellikle [en:-ing] almaz: [en:like], [en:love], [en:want], [en:need], [en:know], [en:understand], [en:believe].\n\nKendine şu soruyu sor: Bu şey şu an ya da bu aralar mı oluyor, yoksa her zaman, düzenli olarak mı? [en:He works in Istanbul] kalıcı işini anlatır. [en:He's working in Ankara this month] ise geçici bir durumu anlatır; ay bitince değişecek.",
+          "table": {
+            "head": [
+              "Present continuous",
+              "Present simple"
+            ],
+            "rows": [
+              [
+                "I'm reading a good book at the moment.",
+                "I read every evening."
+              ],
+              [
+                "He's working in Ankara this month.",
+                "He works in Istanbul."
+              ],
+              [
+                "It's raining now.",
+                "It rains a lot in November."
+              ]
+            ]
+          },
+          "examples": [
+            {
+              "en": "I understand you. (not: I'm understanding)",
+              "tr": "Seni anlıyorum."
+            },
+            {
+              "en": "I usually drive, but today I'm taking the bus.",
+              "tr": "Genelde araba kullanırım ama bugün otobüse biniyorum."
+            },
+            {
+              "en": "She speaks three languages.",
+              "tr": "Üç dil konuşuyor."
+            }
+          ]
+        },
+        {
+          "title_tr": "Durum fiilleri (state verbs)",
+          "text_tr": "Bazı fiiller bir hareket değil, bir durum anlatır: [en:like], [en:love], [en:hate], [en:want], [en:need], [en:know], [en:understand], [en:believe], [en:remember], [en:mean], [en:cost], [en:belong]. Bu fiiller genellikle [en:-ing] almaz; şu an için bile present simple kullanılır.\n\nTürkçede [tr:biliyorum], [tr:istiyorum], [tr:anlıyorum] dediğimiz için İngilizcede de [en:-ing] kullanmak isteriz. Ama doğrusu: [en:I know], [en:I want], [en:I understand].\n\n[en:have] sahip olmak anlamında durum fiilidir: [en:I have a car.] Ama [en:have lunch], [en:have a meeting], [en:have a shower] gibi bir eylem anlatıyorsa [en:-ing] alabilir: [en:We're having a meeting.]",
+          "examples": [
+            {
+              "en": "I need your help now.",
+              "tr": "Şu an yardımına ihtiyacım var."
+            },
+            {
+              "en": "Do you remember his name?",
+              "tr": "Adını hatırlıyor musun?"
+            },
+            {
+              "en": "We're having a meeting at the moment.",
+              "tr": "Şu an toplantıdayız."
+            },
+            {
+              "en": "This bag belongs to Mehmet.",
+              "tr": "Bu çanta Mehmet'in."
+            }
+          ]
+        },
+        {
+          "title_tr": "Türkçeden farkı ve zaman ifadeleri",
+          "text_tr": "Türkçedeki [tr:-iyor] eki hem şu anı hem de alışkanlığı ya da kalıcı durumu anlatabilir: [tr:Şu an çalışıyorum] ve [tr:Bir bankada çalışıyorum]. İngilizcede bu ikisi ayrılır: [en:I'm working now] (şu an) ama [en:I work in a bank] (kalıcı iş).\n\nPresent continuous ile sık gelen ifadeler: [en:now], [en:right now], [en:at the moment], [en:today], [en:this week], [en:this month], [en:these days]. [en:Look!] ve [en:Listen!] ile başlayan cümleler de genellikle şu anı anlatır.\n\nPresent simple ile sık gelen ifadeler: [en:always], [en:usually], [en:often], [en:sometimes], [en:never], [en:every day], [en:on Mondays], [en:once a week].\n\nPresent continuous gelecekteki kesin planlar için de kullanılır ([en:I'm meeting Ali tomorrow]); bunu [tr:Gelecek] dersinde göreceksin.",
+          "examples": [
+            {
+              "en": "I work in a bank, but this month I'm working at the head office.",
+              "tr": "Bir bankada çalışıyorum ama bu ay genel müdürlükteyim."
+            },
+            {
+              "en": "Listen! Someone is knocking on the door.",
+              "tr": "Dinle! Biri kapıyı çalıyor."
+            }
+          ]
+        },
+        {
+          "title_tr": "💼 İş hayatında",
+          "work": true,
+          "text_tr": "Projelerin durumunu anlatırken ([tr:Şu an … üzerinde çalışıyoruz]) present continuous çok kullanılır.\n\nTelefonda ve e-postada şu kalıplar sık geçer: [en:I'm calling about…] (… hakkında arıyorum), [en:I'm writing to ask…] (… sormak için yazıyorum). Durum güncellemesinde: [en:We're testing the new version this week.] Değişen eğilimler için: [en:Prices are going up.]\n\nAma şirketin genel olarak ne yaptığını anlatırken present simple kullanılır: [en:Our company makes software.] Türkçede burada da [tr:-iyor] dediğimize dikkat et.",
+          "examples": [
+            {
+              "en": "We're working on a new version of the app.",
+              "tr": "Uygulamanın yeni bir sürümü üzerinde çalışıyoruz."
+            },
+            {
+              "en": "Sorry, Ali is talking to a customer at the moment.",
+              "tr": "Kusura bakmayın, Ali şu an bir müşteriyle görüşüyor."
+            },
+            {
+              "en": "Sales are growing this year.",
+              "tr": "Bu yıl satışlar artıyor."
+            },
+            {
+              "en": "I'm calling about the order we placed last week.",
+              "tr": "Geçen hafta verdiğimiz sipariş hakkında arıyorum."
+            },
+            {
+              "en": "I'm writing to ask about the training dates.",
+              "tr": "Eğitim tarihlerini sormak için yazıyorum."
+            },
+            {
+              "en": "Our company makes software for hospitals.",
+              "tr": "Şirketimiz hastaneler için yazılım üretiyor."
+            }
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "I working now.",
+          "right": "I'm working now.",
+          "note_tr": "[en:am/is/are] unutulmaz."
+        },
+        {
+          "wrong": "I am go to work every day.",
+          "right": "I go to work every day.",
+          "note_tr": "Rutin → geniş zaman; [en:am] kullanılmaz."
+        },
+        {
+          "wrong": "I'm knowing the answer.",
+          "right": "I know the answer.",
+          "note_tr": "[en:know] bir durum fiilidir; [en:-ing] almaz."
+        },
+        {
+          "wrong": "She is work from home today.",
+          "right": "She is working from home today.",
+          "note_tr": "[en:is] + fiil[en:-ing]."
+        },
+        {
+          "wrong": "I'm having a car.",
+          "right": "I have a car.",
+          "note_tr": "Sahip olmak anlamındaki [en:have] [en:-ing] almaz."
+        },
+        {
+          "wrong": "Look! It rains.",
+          "right": "Look! It's raining.",
+          "note_tr": "Şu an olan bir şey → present continuous."
+        },
+        {
+          "wrong": "He is siting at his desk.",
+          "right": "He is sitting at his desk.",
+          "note_tr": "[en:sit] → [en:sitting]: son ünsüz ikilenir."
+        },
+        {
+          "wrong": "I'm makeing coffee.",
+          "right": "I'm making coffee.",
+          "note_tr": "Sessiz [key:e] düşer: [en:make] → [en:making]."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "q": "Be quiet! The baby ___.",
+          "options": [
+            "sleeps",
+            "is sleeping",
+            "sleep"
+          ],
+          "answer": 1,
+          "explain_tr": "Şu an olan bir şey → [en:is sleeping]."
+        },
+        {
+          "type": "choice",
+          "q": "My father ___ coffee every morning.",
+          "options": [
+            "drinks",
+            "is drinking",
+            "drinking"
+          ],
+          "answer": 0,
+          "explain_tr": "Alışkanlık → [en:drinks]."
+        },
+        {
+          "type": "choice",
+          "q": "I ___ what you mean.",
+          "options": [
+            "am understanding",
+            "understand",
+            "understanding"
+          ],
+          "answer": 1,
+          "explain_tr": "[en:understand] durum fiili → [en:-ing] almaz."
+        },
+        {
+          "type": "choice",
+          "q": "Sorry, I can't talk. I ___ dinner at the moment.",
+          "options": [
+            "have",
+            "am having",
+            "has"
+          ],
+          "answer": 1,
+          "explain_tr": "Burada [en:have] bir eylem (yemek yemek) ve şu an oluyor → [en:am having]."
+        },
+        {
+          "type": "choice",
+          "q": "This laptop ___ to the IT department.",
+          "options": [
+            "belongs",
+            "is belonging",
+            "belong"
+          ],
+          "answer": 0,
+          "explain_tr": "[en:belong] durum fiili, [en:-ing] almaz; [en:it] → [en:belongs]."
+        },
+        {
+          "type": "fill",
+          "q": "Look! It ___ . (snow)",
+          "answer": [
+            "is snowing",
+            "'s snowing"
+          ],
+          "explain_tr": "Şu an → [en:is snowing]."
+        },
+        {
+          "type": "fill",
+          "q": "We ___ a new office this month. (look for)",
+          "answer": [
+            "are looking for",
+            "'re looking for"
+          ],
+          "explain_tr": "Bu aralar süren iş → [en:are looking for]."
+        },
+        {
+          "type": "fill",
+          "q": "She ___ this week. She's on holiday. (not / work)",
+          "answer": [
+            "isn't working",
+            "is not working"
+          ],
+          "explain_tr": "Geçici durum (bu hafta) → [en:isn't working]."
+        },
+        {
+          "type": "fill",
+          "q": "He usually ___ to work by metro. (go)",
+          "answer": [
+            "goes"
+          ],
+          "explain_tr": "[en:usually] → geniş zaman."
+        },
+        {
+          "type": "fill",
+          "q": "___ you working on the budget today? (soru)",
+          "answer": [
+            "Are"
+          ],
+          "explain_tr": "[en:you] → [en:Are you …ing?]"
+        },
+        {
+          "type": "fix",
+          "q": "I am wanting a coffee.",
+          "answer": [
+            "I want a coffee."
+          ],
+          "explain_tr": "[en:want] durum fiili."
+        },
+        {
+          "type": "fix",
+          "q": "They playing football now.",
+          "answer": [
+            "They are playing football now.",
+            "They're playing football now."
+          ],
+          "explain_tr": "[en:are] eksik."
+        },
+        {
+          "type": "fix",
+          "q": "What are you usually doing on Sundays?",
+          "answer": [
+            "What do you usually do on Sundays?"
+          ],
+          "explain_tr": "[en:usually] → geniş zaman."
+        },
+        {
+          "type": "fix",
+          "q": "He is siting next to the window.",
+          "answer": [
+            "He is sitting next to the window."
+          ],
+          "explain_tr": "[en:sit] → [en:sitting]: son ünsüz ikilenir."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "Olumsuz yap.",
+          "q": "I'm working on the report.",
+          "answer": [
+            "I'm not working on the report."
+          ],
+          "explain_tr": "[en:I'm not] + fiil[en:-ing]."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "Soru cümlesi yap.",
+          "q": "They are waiting for us.",
+          "answer": [
+            "Are they waiting for us?"
+          ],
+          "explain_tr": "Soru: [en:Are] + özne + fiil[en:-ing]."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "[en:every day] yerine [en:now] kullanarak present continuous'a çevir.",
+          "q": "She answers emails every day.",
+          "answer": [
+            "She is answering emails now.",
+            "Now she is answering emails."
+          ],
+          "explain_tr": "[en:now] → [en:is answering]."
+        },
+        {
+          "type": "order",
+          "words": [
+            "We",
+            "are",
+            "working",
+            "on",
+            "a new project"
+          ],
+          "answer": [
+            "We are working on a new project."
+          ],
+          "explain_tr": "Özne + [en:are] + fiil[en:-ing]."
+        },
+        {
+          "type": "order",
+          "words": [
+            "Is",
+            "Ahmet",
+            "talking",
+            "to the client",
+            "at the moment"
+          ],
+          "answer": [
+            "Is Ahmet talking to the client at the moment?"
+          ],
+          "explain_tr": "Soru: [en:Is] + özne + fiil[en:-ing]."
+        },
+        {
+          "type": "order",
+          "words": [
+            "I",
+            "usually",
+            "take",
+            "the metro",
+            "to work"
+          ],
+          "answer": [
+            "I usually take the metro to work.",
+            "Usually I take the metro to work."
+          ],
+          "explain_tr": "[en:usually] → alışkanlık → present simple."
+        },
+        {
+          "type": "match",
+          "q": "Zaman ifadesini Türkçe karşılığıyla eşleştir.",
+          "pairs": [
+            [
+              "right now",
+              "tam şu an"
+            ],
+            [
+              "these days",
+              "bu aralar"
+            ],
+            [
+              "usually",
+              "genellikle"
+            ],
+            [
+              "every day",
+              "her gün"
+            ],
+            [
+              "never",
+              "hiçbir zaman"
+            ]
+          ],
+          "explain_tr": "[en:right now] ve [en:these days] genelde present continuous ile; [en:usually], [en:every day] ve [en:never] present simple ile kullanılır."
+        },
+        {
+          "type": "listen",
+          "text": "We're testing the new version of the app this week.",
+          "answer": [
+            "We're testing the new version of the app this week."
+          ],
+          "explain_tr": "Bu hafta süren iş → present continuous."
+        },
+        {
+          "type": "listen",
+          "text": "Sorry, Elif is talking to a customer right now.",
+          "answer": [
+            "Sorry, Elif is talking to a customer right now.",
+            "Sorry, Elif's talking to a customer right now."
+          ],
+          "explain_tr": "Şu an olan iş → [en:is talking]."
+        }
+      ],
+      "practice": {
+        "focus": "what the learner is doing these days (projects, courses, changes) compared with their normal routine (present continuous vs present simple)",
+        "tasks": [
+          [
+            "Bu aralar neyle meşgul olduğunu anlat",
+            "say what they are doing these days"
+          ],
+          [
+            "Normal bir gününü ve bu haftanın farklılığını karşılaştır",
+            "compare their usual routine with this week"
+          ]
+        ]
+      },
+      "sources": [
+        {
+          "title": "Present continuous",
+          "site": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/present-continuous"
+        },
+        {
+          "title": "Present simple or present continuous?",
+          "site": "Cambridge Dictionary Grammar",
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/present-simple-or-present-continuous"
+        },
+        {
+          "title": "Present continuous (I am working)",
+          "site": "Cambridge Dictionary Grammar",
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/present-continuous-i-am-working"
+        }
+      ]
+    },
+    {
+      "id": "a2-future",
+      "title_tr": "Gelecek: going to, will ve planlar",
+      "title_en": "Future forms: be going to, will, present continuous for arrangements",
+      "categories": [
+        "tense"
+      ],
+      "intro_tr": "İngilizcede gelecek için tek bir zaman yok; ne söylemek istediğine göre seçilir. Önceden karar verilmiş plan: [en:going to]. O an verilen karar, teklif, tahmin: [en:will]. Saati/günü belli randevu: present continuous. Türkçede bunların çoğunu [tr:-ecek] ile söyleriz (bazen de [tr:Ben açarım], [tr:Yarın gidiyorum] deriz); İngilizcede ise yapı seçimi anlamı değiştirir.",
+      "sections": [
+        {
+          "title_tr": "Biçim: [en:going to] ve [en:will]",
+          "text_tr": "[en:going to]: [en:am / is / are] + [en:going to] + yalın fiil. [en:will]: [en:will] + yalın fiil; [en:will] bütün öznelerle aynıdır ([en:I will], [en:she will], [en:they will]).\n\nKonuşmada kısa hâller kullanılır: [en:I'm going to], [en:she's going to], [en:I'll], [en:we'll]. [en:will]'in olumsuzu [en:won't] ([en:will not]) olur.\n\nİki yapıda da fiil yalın kalır. [en:to] yalnızca [en:going to] içinde vardır; [en:will]'den sonra [en:to] gelmez.",
+          "table": {
+            "head": [
+              "Cümle",
+              "be going to",
+              "will"
+            ],
+            "rows": [
+              [
+                "Olumlu",
+                "She's going to call.",
+                "She'll call."
+              ],
+              [
+                "Olumsuz",
+                "She isn't going to call.",
+                "She won't call."
+              ],
+              [
+                "Soru",
+                "Is she going to call?",
+                "Will she call?"
+              ]
+            ]
+          },
+          "examples": [
+            {
+              "en": "Are you going to apply for the job?",
+              "tr": "O işe başvuracak mısın?"
+            },
+            {
+              "en": "Will you be at the office tomorrow?",
+              "tr": "Yarın ofiste olacak mısın?"
+            }
+          ]
+        },
+        {
+          "title_tr": "[en:be going to]: planlar ve kanıta dayalı tahmin",
+          "text_tr": "[en:am/is/are] + [en:going to] + yalın fiil. Önceden düşünülmüş niyetler ve [tr:belli ki olacak] tahminleri için.\n\nKararı konuşmadan önce verdiysen [en:going to] kullanırsın: [en:I'm going to buy a new car] (karar verdim, planım bu). Tahminde ise elinde bir kanıt vardır: gökyüzünde kara bulutlar görüyorsun, o yüzden [en:It's going to rain] dersin.",
+          "examples": [
+            {
+              "en": "I'm going to learn Spanish next year.",
+              "tr": "Gelecek yıl İspanyolca öğreneceğim (planım bu)."
+            },
+            {
+              "en": "Look at those clouds. It's going to rain.",
+              "tr": "Şu bulutlara bak. Yağmur yağacak."
+            },
+            {
+              "en": "He's going to be late. The traffic is terrible.",
+              "tr": "Geç kalacak. Trafik berbat."
+            }
+          ]
+        },
+        {
+          "title_tr": "[en:will]: anlık karar, teklif, söz, genel tahmin",
+          "text_tr": "[en:will] + yalın fiil (kısaca [en:'ll], olumsuz [en:won't]). Konuşma anında verilen kararlar, yardım teklifleri ve [tr:bence] tahminleri için.\n\nSöz verirken de [en:will] kullanılır: [en:I'll call you tomorrow.] Kişisel görüşe dayanan tahminlerde genellikle [en:I think], [en:I'm sure], [en:probably] gibi ifadeler gelir. Olumsuz bir tahminde [en:I don't think it will…] daha doğaldır: [en:I don't think the price will change.]\n\nRica ederken de [en:Will you…?] kullanılabilir: [en:Will you help me?] Ama iş yerinde daha kibar bir rica için genellikle [en:Can you…?] ya da [en:Could you…?] tercih edilir.",
+          "examples": [
+            {
+              "en": "The phone is ringing. — I'll answer it.",
+              "tr": "Telefon çalıyor. — Ben açarım."
+            },
+            {
+              "en": "I think it will be a good year.",
+              "tr": "Bence iyi bir yıl olacak."
+            },
+            {
+              "en": "Don't worry, I won't forget.",
+              "tr": "Merak etme, unutmayacağım."
+            },
+            {
+              "en": "I don't think the price will change.",
+              "tr": "Fiyatın değişeceğini sanmıyorum."
+            }
+          ]
+        },
+        {
+          "title_tr": "Present continuous: kesinleşmiş randevular",
+          "text_tr": "Gün ve saati belli, ayarlanmış işler için: [en:I'm seeing the dentist at 4.] Takvime yazılmış bir şey gibi düşün.\n\nGenellikle bir zaman ifadesiyle gelir: [en:tonight], [en:tomorrow], [en:on Friday], [en:at 3 p.m.], [en:next week]. Başka biriyle ayarlanmış, kesinleşmiş planlar için kullanılır. Bu durumda [en:going to] da yanlış olmaz; ama present continuous, işin takvimde olduğunu daha net gösterir. Hava durumu gibi tahminler için kullanılmaz: [en:It will rain tomorrow] ya da [en:It's going to rain tomorrow] denir.",
+          "examples": [
+            {
+              "en": "We're flying to Berlin on Friday.",
+              "tr": "Cuma günü Berlin'e uçuyoruz."
+            },
+            {
+              "en": "What are you doing this weekend?",
+              "tr": "Bu hafta sonu ne yapıyorsun?"
+            },
+            {
+              "en": "She's starting her new job on Monday.",
+              "tr": "Pazartesi yeni işine başlıyor."
+            }
+          ]
+        },
+        {
+          "title_tr": "Hangisini seçmeli? Türkçeden farkı",
+          "text_tr": "Basit bir test: Karar ne zaman verildi? Şimdi, konuşurken → [en:will]. Daha önce → [en:going to]. Gün ve saat belli, başkasıyla ayarlandı → present continuous.\n\nTürkçede [tr:Yarın doktora gidiyorum] diyebiliriz; İngilizcede de [en:Tomorrow I'm going to the doctor] doğrudur. Ama geniş zaman (present simple) gelecek planları için genellikle kullanılmaz: [en:Tomorrow I go to the doctor] yanlıştır. İstisna: tarifeler ve programlar. [en:The train leaves at 7.] (Tren yedide kalkıyor.)\n\nGelecekle sık kullanılan zaman ifadeleri: [en:tomorrow], [en:tonight], [en:next week], [en:next year], [en:soon], [en:this weekend], [en:in two days] (iki gün sonra).",
+          "examples": [
+            {
+              "en": "The train leaves at 7:15 tomorrow morning.",
+              "tr": "Tren yarın sabah 7.15'te kalkıyor."
+            },
+            {
+              "en": "We need milk. — Really? I'll buy some on the way home.",
+              "tr": "Süt lazım. — Öyle mi? Eve dönerken alırım."
+            }
+          ]
+        },
+        {
+          "title_tr": "💼 İş hayatında",
+          "work": true,
+          "text_tr": "Toplantıda iş bölümü yaparken [en:I'll…] (ben hallederim), planları anlatırken [en:We're going to…], takvimdeki görüşmeler için present continuous kullanılır.\n\nMüşteriye söz verirken [en:will] çok kullanılır: [en:We'll deliver the order by Friday.] Takvimin sorulduğunda ayarlanmış görüşmelerini present continuous ile söylersin: [en:Are you free on Tuesday? — No, I'm visiting a client.] Rakamlara bakarak tahmin yaparken [en:going to] kullanılabilir.",
+          "examples": [
+            {
+              "en": "I'll send you the details after the meeting.",
+              "tr": "Ayrıntıları toplantıdan sonra sana gönderirim."
+            },
+            {
+              "en": "We're going to hire two new developers.",
+              "tr": "İki yeni geliştirici işe alacağız."
+            },
+            {
+              "en": "I'm meeting the client on Thursday at ten.",
+              "tr": "Perşembe saat onda müşteriyle görüşüyorum."
+            },
+            {
+              "en": "We'll deliver the order by Friday.",
+              "tr": "Siparişi cuma gününe kadar teslim ederiz."
+            },
+            {
+              "en": "Are you free on Tuesday? — No, I'm visiting a client.",
+              "tr": "Salı günü müsait misin? — Hayır, bir müşteriyi ziyaret edeceğim."
+            },
+            {
+              "en": "Look at these orders. Sales are going to rise next month.",
+              "tr": "Şu siparişlere bak. Gelecek ay satışlar artacak."
+            }
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "I will to call you.",
+          "right": "I will call you.",
+          "note_tr": "[en:will]'den sonra [en:to] yok."
+        },
+        {
+          "wrong": "I going to visit my parents.",
+          "right": "I'm going to visit my parents.",
+          "note_tr": "[en:am/is/are] eksik."
+        },
+        {
+          "wrong": "Tomorrow I go to the doctor.",
+          "right": "Tomorrow I'm going to the doctor.",
+          "note_tr": "Gelecekteki randevu için geniş zaman değil, present continuous ya da [en:going to]."
+        },
+        {
+          "wrong": "I think it is going to be rain.",
+          "right": "I think it is going to rain.",
+          "note_tr": "[en:going to] + yalın fiil ([en:rain])."
+        },
+        {
+          "wrong": "I'll going to call you.",
+          "right": "I'm going to call you.",
+          "note_tr": "[en:will] ile [en:going to] birlikte kullanılmaz; birini seç."
+        },
+        {
+          "wrong": "She will going to the meeting.",
+          "right": "She will go to the meeting.",
+          "note_tr": "[en:will] + yalın fiil; [en:-ing] gelmez."
+        },
+        {
+          "wrong": "Will you to come to the party?",
+          "right": "Will you come to the party?",
+          "note_tr": "Soruda da [en:will]'den sonra [en:to] gelmez."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "q": "It's cold in here. — I ___ close the window.",
+          "options": [
+            "'ll",
+            "'m going to",
+            "close"
+          ],
+          "answer": 0,
+          "explain_tr": "Anlık karar/teklif → [en:will]."
+        },
+        {
+          "type": "choice",
+          "q": "We've decided. We ___ buy a house next year.",
+          "options": [
+            "will",
+            "are going to",
+            "buy"
+          ],
+          "answer": 1,
+          "explain_tr": "Önceden verilmiş karar → [en:going to]."
+        },
+        {
+          "type": "choice",
+          "q": "I ___ my sister at the airport at 6 tonight. It's all arranged.",
+          "options": [
+            "meet",
+            "am meeting",
+            "will meet"
+          ],
+          "answer": 1,
+          "explain_tr": "Ayarlanmış randevu → present continuous."
+        },
+        {
+          "type": "choice",
+          "q": "I promise I ___ be late again.",
+          "options": [
+            "won't",
+            "don't",
+            "not"
+          ],
+          "answer": 0,
+          "explain_tr": "Söz → [en:will]; olumsuzu [en:won't]."
+        },
+        {
+          "type": "choice",
+          "q": "My flight ___ at 7 a.m. tomorrow, so I need to get up early.",
+          "options": [
+            "leaves",
+            "leave",
+            "leaving"
+          ],
+          "answer": 0,
+          "explain_tr": "Tarife ve programlar için present simple: [en:it] → [en:leaves]."
+        },
+        {
+          "type": "fill",
+          "q": "Don't worry. I ___ tell anyone. (will, olumsuz)",
+          "answer": [
+            "won't",
+            "will not"
+          ],
+          "explain_tr": "[en:will not] = [en:won't]."
+        },
+        {
+          "type": "fill",
+          "q": "Look at that car! It ___ crash! (going to)",
+          "answer": [
+            "is going to",
+            "'s going to"
+          ],
+          "explain_tr": "Kanıta dayalı tahmin → [en:is going to]."
+        },
+        {
+          "type": "fill",
+          "q": "___ you help me with this box? (rica)",
+          "answer": [
+            "Will",
+            "Can",
+            "Could",
+            "Would"
+          ],
+          "explain_tr": "Rica: [en:Will/Can/Could/Would you…?]"
+        },
+        {
+          "type": "fill",
+          "q": "We ___ open a new office in Izmir next year. It's in our plan. (going to)",
+          "answer": [
+            "are going to",
+            "'re going to"
+          ],
+          "explain_tr": "Önceden verilmiş karar → [en:are going to]."
+        },
+        {
+          "type": "fill",
+          "q": "Wait, I ___ help you with those bags. (will)",
+          "answer": [
+            "'ll",
+            "will"
+          ],
+          "explain_tr": "Konuşma anında verilen teklif → [en:I'll]."
+        },
+        {
+          "type": "fix",
+          "q": "I will to finish it tomorrow.",
+          "answer": [
+            "I will finish it tomorrow.",
+            "I'll finish it tomorrow."
+          ],
+          "explain_tr": "[en:will] + yalın fiil."
+        },
+        {
+          "type": "fix",
+          "q": "She going to start a new job.",
+          "answer": [
+            "She is going to start a new job.",
+            "She's going to start a new job."
+          ],
+          "explain_tr": "[en:is] eksik."
+        },
+        {
+          "type": "fix",
+          "q": "What do you do this weekend? (plan soruluyor)",
+          "answer": [
+            "What are you doing this weekend?",
+            "What are you going to do this weekend?"
+          ],
+          "explain_tr": "Plan sorusu → present continuous ya da [en:going to]."
+        },
+        {
+          "type": "fix",
+          "q": "She will going to the meeting.",
+          "answer": [
+            "She will go to the meeting.",
+            "She is going to the meeting.",
+            "She is going to go to the meeting."
+          ],
+          "explain_tr": "[en:will] + yalın fiil ([en:go]); ya da plan için [en:is going to]."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "Olumsuz yap.",
+          "q": "I'll be at the office tomorrow.",
+          "answer": [
+            "I won't be at the office tomorrow."
+          ],
+          "explain_tr": "[en:will] → [en:won't] ([en:will not])."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "Soru cümlesi yap.",
+          "q": "They are going to move to a new building.",
+          "answer": [
+            "Are they going to move to a new building?"
+          ],
+          "explain_tr": "Soru: [en:Are] + özne + [en:going to] + yalın fiil."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "[en:will] yerine [en:going to] kullan (karar önceden verildi).",
+          "q": "I will study for the exam tonight.",
+          "answer": [
+            "I'm going to study for the exam tonight.",
+            "Tonight I'm going to study for the exam."
+          ],
+          "explain_tr": "Önceden verilmiş karar → [en:am going to]."
+        },
+        {
+          "type": "order",
+          "words": [
+            "I'll",
+            "send",
+            "you",
+            "the file",
+            "after lunch"
+          ],
+          "answer": [
+            "I'll send you the file after lunch.",
+            "After lunch I'll send you the file."
+          ],
+          "explain_tr": "Teklif/söz → [en:I'll] + yalın fiil."
+        },
+        {
+          "type": "order",
+          "words": [
+            "We're",
+            "meeting",
+            "the new client",
+            "on Thursday"
+          ],
+          "answer": [
+            "We're meeting the new client on Thursday.",
+            "On Thursday we're meeting the new client."
+          ],
+          "explain_tr": "Ayarlanmış randevu → present continuous."
+        },
+        {
+          "type": "order",
+          "words": [
+            "Are",
+            "you",
+            "going to",
+            "apply",
+            "for the job"
+          ],
+          "answer": [
+            "Are you going to apply for the job?"
+          ],
+          "explain_tr": "Soru: [en:Are] + özne + [en:going to] + yalın fiil."
+        },
+        {
+          "type": "match",
+          "q": "Yapıyı kullanımıyla eşleştir.",
+          "pairs": [
+            [
+              "will",
+              "anlık karar, teklif, söz"
+            ],
+            [
+              "be going to",
+              "önceden verilmiş karar"
+            ],
+            [
+              "present continuous",
+              "ayarlanmış randevu"
+            ],
+            [
+              "present simple",
+              "tarife, program"
+            ]
+          ],
+          "explain_tr": "Gelecek için yapı, söylemek istediğin anlama göre seçilir."
+        },
+        {
+          "type": "listen",
+          "text": "I'm going to visit our office in Berlin next month.",
+          "answer": [
+            "I'm going to visit our office in Berlin next month."
+          ],
+          "explain_tr": "Önceden yapılmış plan → [en:going to]."
+        },
+        {
+          "type": "listen",
+          "text": "Don't worry, I'll send you the report tonight.",
+          "answer": [
+            "Don't worry, I'll send you the report tonight."
+          ],
+          "explain_tr": "Söz → [en:I'll] + yalın fiil."
+        }
+      ],
+      "practice": {
+        "focus": "the learner's plans for the weekend, the next year and their career; offer to help with something (going to, will, present continuous)",
+        "tasks": [
+          [
+            "Bu hafta sonu ve gelecek yıl için planlarını anlat",
+            "talk about their plans for the weekend and next year"
+          ],
+          [
+            "Bir konuda yardım teklif et (I'll…)",
+            "offer to help with something using I'll"
+          ]
+        ]
+      },
+      "sources": [
+        {
+          "title": "Future forms: 'will', 'be going to' and present continuous",
+          "site": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/future-forms-will-be-going-present-continuous"
+        },
+        {
+          "title": "Talking about the future",
+          "site": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/talking-about-future"
+        },
+        {
+          "title": "Future: be going to",
+          "site": "Cambridge Dictionary Grammar",
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/future-be-going-to-i-am-going-to-work"
+        },
+        {
+          "title": "Future: present continuous (I'm working tomorrow)",
+          "site": "Cambridge Dictionary Grammar",
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/future-present-continuous-to-talk-about-the-future-i-m-working-tomorrow"
+        }
+      ]
+    },
+    {
+      "id": "a2-comparatives",
+      "title_tr": "Karşılaştırma: bigger, more expensive, the best",
+      "title_en": "Comparative and superlative adjectives",
+      "categories": [
+        "word_choice",
+        "extra_word"
+      ],
+      "intro_tr": "İki şeyi karşılaştırırken [tr:daha … ] (comparative), bir grubun en … olanını söylerken [tr:en …] (superlative) kullanılır. Kısa sıfatlar ek alır, uzun sıfatların önüne [en:more / the most] gelir. Türkçede [tr:daha] ve [tr:en] her sıfatla aynıdır ve [tr:-den] eki kullanılır (Ankara'dan büyük); İngilizcede ise sıfatın biçimi değişir ve [en:than] kullanılır ([en:bigger than Ankara]).",
+      "sections": [
+        {
+          "title_tr": "Kurallar",
+          "text_tr": "Tek heceli: [en:-er / the -est] ([en:cheap] → [en:cheaper] → [en:the cheapest]; [en:big] → [en:bigger] → [en:the biggest]). [en:-y] ile biten: [en:-ier / the -iest] ([en:easy] → [en:easier] → [en:the easiest]). İki heceli sıfatların çoğu ve daha uzun sıfatlar: [en:more / the most] ([en:expensive] → [en:more expensive] → [en:the most expensive]). Karşılaştırmada [en:than] kullanılır.\n\nYazım ayrıntıları: [en:-e] ile biten sıfatlar yalnızca [en:-r / -st] alır ([en:nice] → [en:nicer] → [en:the nicest], [en:large] → [en:larger]). Ünsüz-ünlü-ünsüz ile biten tek heceli sıfatlarda son ünsüz ikilenir ([en:big] → [en:bigger], [en:hot] → [en:hotter], [en:thin] → [en:thinner]); [key:w] ile bitenlerde ikilenme olmaz ([en:new] → [en:newer]). [en:-y] ile biten iki heceli sıfatlarda da [en:-ier] kullanılır ([en:busy] → [en:busier], [en:happy] → [en:happier]).\n\n[en:good], [en:bad] ve [en:far] düzensizdir; tablodaki biçimleri ezberle.",
+          "table": {
+            "head": [
+              "Sıfat",
+              "Daha …",
+              "En …"
+            ],
+            "rows": [
+              [
+                "cheap",
+                "cheaper",
+                "the cheapest"
+              ],
+              [
+                "big",
+                "bigger",
+                "the biggest"
+              ],
+              [
+                "nice",
+                "nicer",
+                "the nicest"
+              ],
+              [
+                "easy",
+                "easier",
+                "the easiest"
+              ],
+              [
+                "good",
+                "better",
+                "the best"
+              ],
+              [
+                "bad",
+                "worse",
+                "the worst"
+              ],
+              [
+                "far",
+                "farther / further",
+                "the farthest / furthest"
+              ],
+              [
+                "fast",
+                "faster",
+                "the fastest"
+              ],
+              [
+                "important",
+                "more important",
+                "the most important"
+              ]
+            ]
+          },
+          "examples": [
+            {
+              "en": "Istanbul is bigger than Ankara.",
+              "tr": "İstanbul Ankara'dan daha büyük."
+            },
+            {
+              "en": "This phone is more expensive than mine.",
+              "tr": "Bu telefon benimkinden daha pahalı."
+            },
+            {
+              "en": "It was the best day of my life.",
+              "tr": "Hayatımın en güzel günüydü."
+            }
+          ]
+        },
+        {
+          "title_tr": "Superlative: [en:the] + [en:-est] / [en:the most]",
+          "text_tr": "Bir grubun en … olanını anlatırken superlative kullanılır. Önüne neredeyse her zaman [en:the] gelir: [en:the biggest], [en:the most important].\n\nArdından çoğu zaman [en:in] (yer, grup) ya da [en:of] (zaman dilimi, grup) gelir: [en:the best in the team] (ekibin en iyisi), [en:the busiest day of the week] (haftanın en yoğun günü).\n\nTürkçede [tr:en] kelimesi hiç değişmez. İngilizcede ise kısa sıfat [en:-est] alır, uzun sıfatın önüne [en:the most] gelir: [en:the cheapest] (en ucuz), [en:the most expensive] (en pahalı). İkisi birlikte kullanılmaz: [en:the most cheapest] yanlıştır.",
+          "examples": [
+            {
+              "en": "Friday is the busiest day of the week.",
+              "tr": "Cuma haftanın en yoğun günü."
+            },
+            {
+              "en": "Murat is the most experienced engineer in our team.",
+              "tr": "Murat ekibimizin en deneyimli mühendisi."
+            },
+            {
+              "en": "This is the cheapest option.",
+              "tr": "Bu en ucuz seçenek."
+            }
+          ]
+        },
+        {
+          "title_tr": "[en:as … as] ve [en:not as … as]",
+          "text_tr": "Eşitlik: [en:as] + sıfat + [en:as] (… kadar). Olumsuzu: [en:not as … as] (… kadar değil).\n\nBu yapıda sıfat yalın kalır: [en:as big as] denir, [en:as bigger as] denmez. İki tarafta da [en:as] kullanılır; [en:as big than] yanlıştır.\n\n[en:not as … as] çoğu zaman daha yumuşak bir karşılaştırmadır. [en:The hotel wasn't as clean as we expected] (otel beklediğimiz kadar temiz değildi) cümlesi, [en:dirtier] demekten daha kibar durur.",
+          "examples": [
+            {
+              "en": "My English is not as good as yours.",
+              "tr": "İngilizcem seninki kadar iyi değil."
+            },
+            {
+              "en": "The new office is as big as the old one.",
+              "tr": "Yeni ofis eskisi kadar büyük."
+            },
+            {
+              "en": "The second hotel wasn't as clean as the first one.",
+              "tr": "İkinci otel ilki kadar temiz değildi."
+            }
+          ]
+        },
+        {
+          "title_tr": "Türkçeden farkı ve sık karışanlar",
+          "text_tr": "Türkçede [tr:-den / -dan] eki karşılaştırılan şeye eklenir (Ankara'dan büyük). İngilizcede bunun yerine [en:than] kelimesi kullanılır: [en:bigger than Ankara]. Burada [en:from] ya da [en:that] kullanılmaz.\n\n[tr:daha] kelimesini ayrıca çevirmeye çalışma: [en:-er] ya da [en:more] zaten [tr:daha] demektir. Bu yüzden [en:more bigger] ve [en:more better] yanlıştır.\n\nFarkın büyüklüğünü anlatmak için comparative'in önüne [en:much], [en:a lot] ya da [en:a bit] gelebilir: [en:much cheaper] (çok daha ucuz), [en:a bit longer] (biraz daha uzun). [en:very] bu görevde kullanılmaz: [en:very cheaper] yanlıştır.\n\n[en:than]'dan sonra konuşmada genellikle [en:me], [en:him], [en:her], [en:us], [en:them] kullanılır: [en:He is taller than me.]",
+          "examples": [
+            {
+              "en": "The new model is much cheaper than the old one.",
+              "tr": "Yeni model eskisinden çok daha ucuz."
+            },
+            {
+              "en": "This route is a bit longer, but it's faster.",
+              "tr": "Bu yol biraz daha uzun ama daha hızlı."
+            },
+            {
+              "en": "My sister is older than me.",
+              "tr": "Ablam benden büyük."
+            }
+          ]
+        },
+        {
+          "title_tr": "💼 İş hayatında",
+          "work": true,
+          "text_tr": "Teklifleri, ürünleri ve sonuçları karşılaştırırken bu yapıları sürekli kullanırsın.\n\nRaporlarda sonuçları geçen dönemle karşılaştırırsın: [en:Sales were higher than last year.] Tedarikçi seçerken artıları ve eksileri sıralarsın: [en:Supplier A is cheaper, but Supplier B is more reliable.] Sunumlarda öne çıkan ürünü anlatırsın: [en:This is our most popular product.] Kibar bir eleştiri için [en:not as … as] kullanabilirsin: [en:The results were not as good as we hoped.]",
+          "examples": [
+            {
+              "en": "The second offer is cheaper, but the first one is faster.",
+              "tr": "İkinci teklif daha ucuz ama birincisi daha hızlı."
+            },
+            {
+              "en": "This was our most successful quarter.",
+              "tr": "Bu bizim en başarılı çeyreğimizdi."
+            },
+            {
+              "en": "The new system is easier to use than the old one.",
+              "tr": "Yeni sistemin kullanımı eskisinden daha kolay."
+            },
+            {
+              "en": "Sales were 10% higher than last year.",
+              "tr": "Satışlar geçen yıla göre %10 daha yüksekti."
+            },
+            {
+              "en": "Supplier A is cheaper, but Supplier B is more reliable.",
+              "tr": "A tedarikçisi daha ucuz ama B tedarikçisi daha güvenilir."
+            },
+            {
+              "en": "The results were not as good as we hoped.",
+              "tr": "Sonuçlar umduğumuz kadar iyi değildi."
+            }
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "This is more better.",
+          "right": "This is better.",
+          "note_tr": "[en:better] zaten [tr:daha iyi]; [en:more] fazla."
+        },
+        {
+          "wrong": "He is taller from me.",
+          "right": "He is taller than me.",
+          "note_tr": "Karşılaştırmada [en:than]."
+        },
+        {
+          "wrong": "It's the most cheap one.",
+          "right": "It's the cheapest one.",
+          "note_tr": "Kısa sıfat → [en:-est]."
+        },
+        {
+          "wrong": "She is more intelligent that her brother.",
+          "right": "She is more intelligent than her brother.",
+          "note_tr": "[en:that] değil [en:than]."
+        },
+        {
+          "wrong": "This laptop is very cheaper.",
+          "right": "This laptop is much cheaper.",
+          "note_tr": "Comparative'i güçlendirmek için [en:very] değil [en:much / a lot] kullanılır."
+        },
+        {
+          "wrong": "My office is as big than yours.",
+          "right": "My office is as big as yours.",
+          "note_tr": "[en:as … as] kalıbında iki tarafta da [en:as] kullanılır."
+        },
+        {
+          "wrong": "It's the bigest room.",
+          "right": "It's the biggest room.",
+          "note_tr": "[en:big] → [en:biggest]: son ünsüz ikilenir."
+        },
+        {
+          "wrong": "Today is busyer than yesterday.",
+          "right": "Today is busier than yesterday.",
+          "note_tr": "[en:-y] → [en:-ier]: [en:busy] → [en:busier]."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "q": "My car is ___ than yours.",
+          "options": [
+            "older",
+            "more old",
+            "oldest"
+          ],
+          "answer": 0,
+          "explain_tr": "Tek heceli → [en:older]."
+        },
+        {
+          "type": "choice",
+          "q": "This is ___ restaurant in town.",
+          "options": [
+            "the better",
+            "the best",
+            "the most good"
+          ],
+          "answer": 1,
+          "explain_tr": "[en:good] → [en:the best]."
+        },
+        {
+          "type": "choice",
+          "q": "Flying is ___ than driving.",
+          "options": [
+            "more fast",
+            "faster",
+            "fastest"
+          ],
+          "answer": 1,
+          "explain_tr": "[en:fast] → [en:faster]."
+        },
+        {
+          "type": "choice",
+          "q": "The new printer is ___ than the old one.",
+          "options": [
+            "much faster",
+            "very faster",
+            "more faster"
+          ],
+          "answer": 0,
+          "explain_tr": "Farkı güçlendirmek için [en:much]: [en:much faster]."
+        },
+        {
+          "type": "choice",
+          "q": "December is ___ month of the year for our shop.",
+          "options": [
+            "the busiest",
+            "the busier",
+            "busiest"
+          ],
+          "answer": 0,
+          "explain_tr": "Bir grubun en … olanı → [en:the] + [en:-iest]: [en:the busiest]."
+        },
+        {
+          "type": "fill",
+          "q": "Today is ___ than yesterday. (hot)",
+          "answer": [
+            "hotter"
+          ],
+          "explain_tr": "[en:hot] → [en:hotter] (ünsüz ikilenir)."
+        },
+        {
+          "type": "fill",
+          "q": "This exercise is ___ than the last one. (easy)",
+          "answer": [
+            "easier"
+          ],
+          "explain_tr": "[en:-y] → [en:-ier]."
+        },
+        {
+          "type": "fill",
+          "q": "It's the ___ important meeting of the year. (en)",
+          "answer": [
+            "most"
+          ],
+          "explain_tr": "Uzun sıfat → [en:the most]."
+        },
+        {
+          "type": "fill",
+          "q": "My job isn't as stressful ___ yours.",
+          "answer": [
+            "as"
+          ],
+          "explain_tr": "[en:not as … as]."
+        },
+        {
+          "type": "fill",
+          "q": "Our new office is ___ than the old one. (modern)",
+          "answer": [
+            "more modern"
+          ],
+          "explain_tr": "İki heceli sıfat → [en:more modern]."
+        },
+        {
+          "type": "fix",
+          "q": "The weather is more worse today.",
+          "answer": [
+            "The weather is worse today."
+          ],
+          "explain_tr": "[en:worse] zaten karşılaştırma; [en:more] fazla."
+        },
+        {
+          "type": "fix",
+          "q": "She is the most tall person in our team.",
+          "answer": [
+            "She is the tallest person in our team.",
+            "She is the tallest person on our team."
+          ],
+          "explain_tr": "[en:tall] → [en:the tallest]."
+        },
+        {
+          "type": "fix",
+          "q": "Trains are cheaper that planes.",
+          "answer": [
+            "Trains are cheaper than planes."
+          ],
+          "explain_tr": "[en:than]."
+        },
+        {
+          "type": "fix",
+          "q": "This is the bigest project in our company.",
+          "answer": [
+            "This is the biggest project in our company."
+          ],
+          "explain_tr": "[en:big] → [en:biggest]: son ünsüz ikilenir."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "İki cümleyi [en:than] ile tek cümlede karşılaştır.",
+          "q": "The red bag is cheap. The blue bag is expensive.",
+          "answer": [
+            "The red bag is cheaper than the blue bag.",
+            "The red bag is cheaper than the blue one.",
+            "The blue bag is more expensive than the red bag.",
+            "The blue bag is more expensive than the red one."
+          ],
+          "explain_tr": "[en:cheap] → [en:cheaper than]; [en:expensive] → [en:more expensive than]."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "Aynı anlamda [en:not as … as] ile yeniden yaz ([en:big] kullan).",
+          "q": "Ankara is smaller than Istanbul.",
+          "answer": [
+            "Ankara is not as big as Istanbul.",
+            "Ankara isn't as big as Istanbul."
+          ],
+          "explain_tr": "[en:smaller than] = [en:not as big as]."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "Superlative ([en:the …est]) kullanarak yeniden yaz.",
+          "q": "Elif is taller than everyone else in the team.",
+          "answer": [
+            "Elif is the tallest person in the team.",
+            "Elif is the tallest in the team.",
+            "Elif is the tallest person on the team.",
+            "Elif is the tallest on the team."
+          ],
+          "explain_tr": "Herkesten daha uzun = en uzun: [en:the tallest]."
+        },
+        {
+          "type": "order",
+          "q": "Kelimeleri sırala: [tr:Bu otel diğerinden daha pahalı.]",
+          "words": [
+            "This hotel",
+            "is",
+            "more expensive",
+            "than",
+            "the other one"
+          ],
+          "answer": [
+            "This hotel is more expensive than the other one."
+          ],
+          "explain_tr": "Uzun sıfat: [en:more expensive than]."
+        },
+        {
+          "type": "order",
+          "q": "Kelimeleri sırala: [tr:Cuma haftanın en yoğun günü.]",
+          "words": [
+            "Friday",
+            "is",
+            "the busiest",
+            "day",
+            "of the week"
+          ],
+          "answer": [
+            "Friday is the busiest day of the week."
+          ],
+          "explain_tr": "[en:the] + [en:-iest] + [en:of the week]."
+        },
+        {
+          "type": "order",
+          "q": "Kelimeleri sırala: [tr:Yeni işim eski işim kadar stresli değil.]",
+          "words": [
+            "My new job",
+            "isn't",
+            "as stressful",
+            "as",
+            "my old job"
+          ],
+          "answer": [
+            "My new job isn't as stressful as my old job."
+          ],
+          "explain_tr": "[en:not as] + sıfat + [en:as]."
+        },
+        {
+          "type": "match",
+          "q": "İngilizce yapıyı Türkçe karşılığıyla eşleştir.",
+          "pairs": [
+            [
+              "cheaper",
+              "daha ucuz"
+            ],
+            [
+              "the cheapest",
+              "en ucuz"
+            ],
+            [
+              "more expensive",
+              "daha pahalı"
+            ],
+            [
+              "the most expensive",
+              "en pahalı"
+            ],
+            [
+              "as cheap as",
+              "… kadar ucuz"
+            ]
+          ],
+          "explain_tr": "Kısa sıfat [en:-er / -est] alır; uzun sıfatın önüne [en:more / the most] gelir."
+        },
+        {
+          "type": "listen",
+          "text": "The new system is much faster than the old one.",
+          "answer": [
+            "The new system is much faster than the old one."
+          ],
+          "explain_tr": "[en:much] + comparative: [en:much faster than]."
+        },
+        {
+          "type": "listen",
+          "text": "This is the most important project of the year.",
+          "answer": [
+            "This is the most important project of the year."
+          ],
+          "explain_tr": "Uzun sıfat → [en:the most important]."
+        }
+      ],
+      "practice": {
+        "focus": "comparing cities, jobs, phones and ways of travelling, and talking about the best and worst things (comparatives and superlatives)",
+        "tasks": [
+          [
+            "Yaşadığın şehri başka bir şehirle karşılaştır",
+            "compare their city with another city"
+          ],
+          [
+            "Hayatındaki en iyi/en kötü bir şeyi anlat",
+            "talk about the best or worst thing in their life"
+          ]
+        ]
+      },
+      "sources": [
+        {
+          "title": "Comparative adjectives",
+          "site": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2/comparative-adjectives"
+        },
+        {
+          "title": "Comparative and superlative adjectives",
+          "site": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/comparative-superlative-adjectives"
+        },
+        {
+          "title": "Comparison: adjectives (bigger, biggest, more interesting)",
+          "site": "Cambridge Dictionary Grammar",
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/comparison-adjectives-bigger-biggest-more-interesting"
+        }
+      ]
+    },
+    {
+      "id": "a2-countable",
+      "title_tr": "Sayılabilen / sayılamayan isimler: much, many, a lot of, some, any",
+      "title_en": "Countable and uncountable nouns: much, many, a lot of, some, any",
+      "categories": [
+        "plural",
+        "word_choice"
+      ],
+      "intro_tr": "Bazı isimler sayılamaz ve çoğul yapılmaz: [en:water], [en:money], [en:information], [en:advice], [en:furniture], [en:news], [en:work], [en:homework]. Türkçede [tr:bilgiler], [tr:tavsiyeler] diyebildiğimiz için [en:informations] gibi hatalar çok yapılır. Bu derste hangi isimlerin sayılıp sayılamadığını ve [tr:çok, biraz, hiç] anlamlarını İngilizcede doğru kelimeyle ([en:many], [en:much], [en:a lot of], [en:some], [en:any]) söylemeyi öğreneceksin.",
+      "sections": [
+        {
+          "title_tr": "Sayılabilen ve sayılamayan isimler",
+          "text_tr": "Sayılabilen isimler tek tek sayılabilir: [en:an email], [en:two emails], [en:three meetings]. Tekilde önlerine [en:a/an] gelir, çoğulda [en:-s] alırlar.\n\nSayılamayan isimler bir bütün olarak düşünülür: [en:water], [en:money], [en:time], [en:information], [en:advice], [en:furniture], [en:news], [en:work]. Bunlar [en:a/an] almaz, çoğul yapılmaz ve tekil fiille kullanılır: [en:The information is correct.] [en:news] [en:-s] ile bitse de tekildir: [en:The news is good.]\n\nSayılamayan bir şeyi saymak istersen bir ölçü kelimesi eklersin: [en:two pieces of information], [en:three cups of coffee].\n\nBir ismin sayılıp sayılamadığından emin değilsen sözlüğe bak: sözlüklerde sayılabilen isimler [C], sayılamayanlar [U] ile gösterilir.",
+          "table": {
+            "head": [
+              "Biçim",
+              "Sayılabilen",
+              "Sayılamayan"
+            ],
+            "rows": [
+              [
+                "Tekil",
+                "an email / a chair",
+                "information / furniture (a/an yok)"
+              ],
+              [
+                "Çoğul",
+                "emails / chairs",
+                "— (çoğulu yok)"
+              ],
+              [
+                "Fiil",
+                "The emails are ready.",
+                "The information is correct."
+              ],
+              [
+                "Sayı ile",
+                "three emails",
+                "three pieces of information"
+              ]
+            ]
+          },
+          "examples": [
+            {
+              "en": "I have two meetings today.",
+              "tr": "Bugün iki toplantım var."
+            },
+            {
+              "en": "The news is good.",
+              "tr": "Haberler iyi."
+            },
+            {
+              "en": "This information is very useful.",
+              "tr": "Bu bilgi çok faydalı."
+            }
+          ]
+        },
+        {
+          "title_tr": "[en:many / much / a lot of]",
+          "text_tr": "[en:many] + sayılabilen çoğul ([en:many people]), [en:much] + sayılamayan ([en:much time]). [en:much] ve [en:many] daha çok soru ve olumsuzda kullanılır; olumlu cümlede genellikle [en:a lot of] (her ikisiyle) denir. [en:How many…?] / [en:How much…?]\n\n[tr:Az, biraz] anlamında: [en:a few] + sayılabilen çoğul ([en:a few questions] = birkaç soru), [en:a little] + sayılamayan ([en:a little time] = biraz zaman). Fiyat sorarken de [en:much] kullanılır: [en:How much is it?] (Ne kadar?)\n\nOlumlu cümlede [en:much] çok resmî ya da garip durur: [en:I have much work] yerine [en:I have a lot of work] de.\n\nİpucu kelimeler: [en:many], [en:a few], [en:how many] ve sayılar sayılabilen isimle; [en:much], [en:a little] ve [en:how much] sayılamayan isimle kullanılır. [en:a lot of], [en:some] ve [en:any] ise her ikisiyle de kullanılabilir.",
+          "table": {
+            "head": [
+              "Anlam",
+              "Sayılabilen",
+              "Sayılamayan"
+            ],
+            "rows": [
+              [
+                "Çok (olumlu)",
+                "a lot of emails",
+                "a lot of work"
+              ],
+              [
+                "Çok (soru/olumsuz)",
+                "many emails",
+                "much work"
+              ],
+              [
+                "Biraz / birkaç",
+                "a few emails",
+                "a little work"
+              ],
+              [
+                "Ne kadar / kaç",
+                "How many emails?",
+                "How much work?"
+              ]
+            ]
+          },
+          "examples": [
+            {
+              "en": "How many people work here?",
+              "tr": "Burada kaç kişi çalışıyor?"
+            },
+            {
+              "en": "We don't have much time.",
+              "tr": "Çok vaktimiz yok."
+            },
+            {
+              "en": "She drinks a lot of coffee.",
+              "tr": "Çok kahve içiyor."
+            },
+            {
+              "en": "I have a few questions about the report.",
+              "tr": "Raporla ilgili birkaç sorum var."
+            },
+            {
+              "en": "We have a little time before the meeting.",
+              "tr": "Toplantıdan önce biraz vaktimiz var."
+            },
+            {
+              "en": "How much is this laptop?",
+              "tr": "Bu dizüstü bilgisayar ne kadar?"
+            }
+          ]
+        },
+        {
+          "title_tr": "[en:some / any] ve [en:a piece of]",
+          "text_tr": "[en:some] olumluda, [en:any] olumsuz ve soruda (ikram ve ricada [en:some]: [en:Would you like some tea?]). Sayılamayanı saymak için: [en:a piece of advice], [en:a piece of information], [en:a bottle of water], [en:a cup of tea].\n\n[en:some] ve [en:any] hem sayılabilen çoğul hem de sayılamayan isimlerle kullanılır: [en:some emails], [en:some water]; [en:any questions], [en:any money]. Türkçeye çoğu zaman [tr:biraz], [tr:birkaç] ya da [tr:hiç] diye çevrilir; bazen hiç çevrilmez: [en:Do you have any questions?] = [tr:Sorunuz var mı?]",
+          "table": {
+            "head": [
+              "İsim türü",
+              "Olumlu",
+              "Olumsuz",
+              "Soru"
+            ],
+            "rows": [
+              [
+                "Sayılabilen",
+                "I have some questions.",
+                "I don't have any questions.",
+                "Do you have any questions?"
+              ],
+              [
+                "Sayılamayan",
+                "There is some coffee.",
+                "There isn't any coffee.",
+                "Is there any coffee?"
+              ]
+            ]
+          },
+          "examples": [
+            {
+              "en": "Can I give you a piece of advice?",
+              "tr": "Sana bir tavsiye verebilir miyim?"
+            },
+            {
+              "en": "Is there any news about the project?",
+              "tr": "Projeyle ilgili bir haber var mı?"
+            },
+            {
+              "en": "Would you like some water?",
+              "tr": "Biraz su ister misin?"
+            },
+            {
+              "en": "We don't have any paper for the printer.",
+              "tr": "Yazıcı için hiç kâğıdımız yok."
+            },
+            {
+              "en": "Do you have any questions?",
+              "tr": "Sorunuz var mı?"
+            }
+          ]
+        },
+        {
+          "title_tr": "Türkçeden farkı ve sık karıştırılanlar",
+          "text_tr": "Türkçede [tr:bilgiler], [tr:tavsiyeler], [tr:mobilyalar], [tr:eşyalar] diyebiliriz. İngilizcede ise [en:information], [en:advice], [en:furniture], [en:luggage] ve [en:equipment] çoğul olmaz. [en:informations], [en:advices], [en:furnitures] yanlıştır.\n\nTersine, [en:people] çoğuldur: [en:People are…] denir, [en:People is…] denmez. Tek bir kişi için [en:person] kullanılır.\n\nBazı kelimelerin iki anlamı vardır. [en:work] (iş, çalışma) sayılamaz ama [en:job] (iş, meslek) sayılabilir: [en:I have a lot of work.] ama [en:I have a new job.] [en:time] (zaman) sayılamaz ama [en:times] (kere) sayılabilir: [en:I called him three times.]\n\nKafede [en:a coffee] ya da [en:two teas] demek doğaldır; burada [tr:bir fincan kahve] anlamı vardır.",
+          "examples": [
+            {
+              "en": "I have a new job.",
+              "tr": "Yeni bir işim var."
+            },
+            {
+              "en": "I called the client three times today.",
+              "tr": "Bugün müşteriyi üç kez aradım."
+            },
+            {
+              "en": "There are a lot of people in the meeting room.",
+              "tr": "Toplantı odasında çok insan var."
+            }
+          ]
+        },
+        {
+          "title_tr": "💼 İş hayatında",
+          "work": true,
+          "text_tr": "[en:information], [en:advice], [en:feedback], [en:equipment], [en:software], [en:work] sayılamaz; e-postalarda tekil kalır.\n\nBunlara [en:a/an] koyamazsın. Tek bir tanesinden söz etmek için [en:a piece of information], [en:some feedback] ya da sayılabilen başka bir kelime kullan: [en:a tip] (bir ipucu), [en:a suggestion] (bir öneri).\n\nBuna karşılık [en:task], [en:project], [en:meeting], [en:email], [en:report] ve [en:job] sayılabilir: [en:I have three tasks today.] Toplantı planlarken [en:How many people are coming?] ve [en:How much time do we have?] sorularını sık duyarsın.",
+          "examples": [
+            {
+              "en": "Thank you for the information.",
+              "tr": "Bilgi için teşekkürler."
+            },
+            {
+              "en": "Do you have any feedback on my presentation?",
+              "tr": "Sunumum hakkında geri bildiriminiz var mı?"
+            },
+            {
+              "en": "We don't have much money left in the budget this year.",
+              "tr": "Bu yıl bütçede fazla para kalmadı."
+            },
+            {
+              "en": "I have three tasks to finish today.",
+              "tr": "Bugün bitirmem gereken üç iş var."
+            },
+            {
+              "en": "How much time do we have for the presentation?",
+              "tr": "Sunum için ne kadar vaktimiz var?"
+            },
+            {
+              "en": "We need some new equipment for the office.",
+              "tr": "Ofis için yeni ekipmana ihtiyacımız var."
+            }
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "Thank you for the informations.",
+          "right": "Thank you for the information.",
+          "note_tr": "[en:information] sayılamaz, [en:-s] almaz."
+        },
+        {
+          "wrong": "How much people came?",
+          "right": "How many people came?",
+          "note_tr": "[en:people] sayılabilen → [en:many]."
+        },
+        {
+          "wrong": "He gave me an advice.",
+          "right": "He gave me some advice.",
+          "note_tr": "[en:advice] sayılamaz; [en:an] almaz. Tek bir tavsiye için: [en:a piece of advice]."
+        },
+        {
+          "wrong": "I have many works today.",
+          "right": "I have a lot of work today.",
+          "note_tr": "[en:work] (iş) sayılamaz."
+        },
+        {
+          "wrong": "The news are very good.",
+          "right": "The news is very good.",
+          "note_tr": "[en:news] [en:-s] ile bitse de tekildir → [en:is]."
+        },
+        {
+          "wrong": "I don't have some money.",
+          "right": "I don't have any money.",
+          "note_tr": "Olumsuz cümlede [en:any] kullanılır."
+        },
+        {
+          "wrong": "There is a lot of people here.",
+          "right": "There are a lot of people here.",
+          "note_tr": "[en:people] çoğuldur → [en:there are]. (Gündelik konuşmada [en:There's a lot of people] da duyulur ama doğru ve güvenli biçim [en:there are].)"
+        },
+        {
+          "wrong": "We need new equipments.",
+          "right": "We need new equipment.",
+          "note_tr": "[en:equipment] sayılamaz, [en:-s] almaz."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "q": "How ___ money do you need?",
+          "options": [
+            "many",
+            "much",
+            "a few"
+          ],
+          "answer": 1,
+          "explain_tr": "[en:money] sayılamaz → [en:much]."
+        },
+        {
+          "type": "choice",
+          "q": "There aren't ___ chairs in the room.",
+          "options": [
+            "much",
+            "many",
+            "a little"
+          ],
+          "answer": 1,
+          "explain_tr": "[en:chairs] sayılabilen → [en:many]."
+        },
+        {
+          "type": "choice",
+          "q": "Can I ask you for some ___?",
+          "options": [
+            "advices",
+            "advice",
+            "an advice"
+          ],
+          "answer": 1,
+          "explain_tr": "[en:advice] sayılamaz."
+        },
+        {
+          "type": "choice",
+          "q": "I have a few ___ about the contract.",
+          "options": [
+            "question",
+            "questions",
+            "information"
+          ],
+          "answer": 1,
+          "explain_tr": "[en:a few] + sayılabilen çoğul isim: [en:a few questions]."
+        },
+        {
+          "type": "choice",
+          "q": "The news ___ very good today.",
+          "options": [
+            "is",
+            "are",
+            "were"
+          ],
+          "answer": 0,
+          "explain_tr": "[en:news] tekildir → [en:is]."
+        },
+        {
+          "type": "fill",
+          "q": "We have ___ of work this week. (çok)",
+          "answer": [
+            "a lot",
+            "lots"
+          ],
+          "explain_tr": "Olumlu cümlede: [en:a lot of]."
+        },
+        {
+          "type": "fill",
+          "q": "Is there ___ milk in the fridge? (hiç)",
+          "answer": [
+            "any"
+          ],
+          "explain_tr": "Soru → [en:any]."
+        },
+        {
+          "type": "fill",
+          "q": "I need a ___ of paper. (parça)",
+          "answer": [
+            "piece",
+            "sheet"
+          ],
+          "explain_tr": "[en:a piece of paper]."
+        },
+        {
+          "type": "fill",
+          "q": "Only a ___ people came to the meeting. (birkaç)",
+          "answer": [
+            "few"
+          ],
+          "explain_tr": "Sayılabilen → [en:a few]."
+        },
+        {
+          "type": "fill",
+          "q": "How ___ people work in your team? (kaç)",
+          "answer": [
+            "many"
+          ],
+          "explain_tr": "[en:people] sayılabilen → [en:How many]."
+        },
+        {
+          "type": "fix",
+          "q": "Can you give me more informations?",
+          "answer": [
+            "Can you give me more information?"
+          ],
+          "explain_tr": "[en:information] [en:-s] almaz."
+        },
+        {
+          "type": "fix",
+          "q": "How much emails did you get?",
+          "answer": [
+            "How many emails did you get?"
+          ],
+          "explain_tr": "[en:emails] sayılabilen → [en:many]."
+        },
+        {
+          "type": "fix",
+          "q": "The furnitures are new.",
+          "answer": [
+            "The furniture is new."
+          ],
+          "explain_tr": "[en:furniture] sayılamaz → tekil fiil."
+        },
+        {
+          "type": "fix",
+          "q": "We don't have some paper in the printer.",
+          "answer": [
+            "We don't have any paper in the printer.",
+            "We don't have paper in the printer.",
+            "We have no paper in the printer."
+          ],
+          "explain_tr": "Olumsuz cümlede [en:some] değil [en:any] kullanılır."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "Olumsuz yap ([en:any] kullan)",
+          "q": "We have some meetings this afternoon.",
+          "answer": [
+            "We don't have any meetings this afternoon."
+          ],
+          "explain_tr": "Olumsuzda [en:some] → [en:any]: [en:don't have any]."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "Soru cümlesi yap ([en:any] kullan)",
+          "q": "There is some milk in the fridge.",
+          "answer": [
+            "Is there any milk in the fridge?"
+          ],
+          "explain_tr": "Soruda [en:is] başa gelir, [en:some] → [en:any]."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "[en:How many] ile başlayan bir soru yap",
+          "q": "She has three meetings today.",
+          "answer": [
+            "How many meetings does she have today?",
+            "How many meetings has she got today?"
+          ],
+          "explain_tr": "[en:meetings] sayılabilen → [en:How many] + [en:does she have]."
+        },
+        {
+          "type": "order",
+          "q": "Kelimeleri sıraya koy.",
+          "words": [
+            "How much",
+            "time",
+            "do we",
+            "have?"
+          ],
+          "answer": [
+            "How much time do we have?"
+          ],
+          "explain_tr": "[en:time] sayılamaz → [en:How much time]."
+        },
+        {
+          "type": "order",
+          "q": "Kelimeleri sıraya koy.",
+          "words": [
+            "There",
+            "aren't",
+            "many",
+            "people",
+            "in the office",
+            "today"
+          ],
+          "answer": [
+            "There aren't many people in the office today.",
+            "Today there aren't many people in the office."
+          ],
+          "explain_tr": "Olumsuz cümle + sayılabilen çoğul → [en:not many]."
+        },
+        {
+          "type": "order",
+          "q": "Kelimeleri sıraya koy.",
+          "words": [
+            "Could you",
+            "give me",
+            "some",
+            "advice",
+            "about",
+            "the project?"
+          ],
+          "answer": [
+            "Could you give me some advice about the project?"
+          ],
+          "explain_tr": "Ricada [en:some] kullanılır; [en:advice] [en:-s] almaz."
+        },
+        {
+          "type": "match",
+          "q": "Sayılamayan isimleri anlamlarıyla eşleştir.",
+          "pairs": [
+            [
+              "information",
+              "bilgi"
+            ],
+            [
+              "advice",
+              "tavsiye"
+            ],
+            [
+              "furniture",
+              "mobilya"
+            ],
+            [
+              "luggage",
+              "bagaj"
+            ],
+            [
+              "equipment",
+              "ekipman"
+            ]
+          ],
+          "explain_tr": "Bu isimlerin hepsi sayılamaz; [en:-s] almaz ve [en:a/an] ile kullanılmaz."
+        },
+        {
+          "type": "listen",
+          "text": "We don't have much time before the meeting.",
+          "answer": [
+            "We don't have much time before the meeting."
+          ],
+          "explain_tr": "Olumsuz cümle + sayılamayan isim → [en:much time]."
+        },
+        {
+          "type": "listen",
+          "text": "How many people are coming to the presentation?",
+          "answer": [
+            "How many people are coming to the presentation?"
+          ],
+          "explain_tr": "[en:people] sayılabilen → [en:How many]."
+        }
+      ],
+      "practice": {
+        "focus": "shopping, food, money and work load: how much / how many, a lot of, some, any, and uncountable nouns like information and advice",
+        "tasks": [
+          [
+            "Alışveriş listeni miktarlarıyla söyle",
+            "say their shopping list with quantities"
+          ],
+          [
+            "Bu hafta ne kadar işin olduğunu anlat",
+            "describe how much work they have this week"
+          ]
+        ]
+      },
+      "sources": [
+        {
+          "title": "Nouns: countable and uncountable",
+          "site": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2/nouns-countable-uncountable"
+        },
+        {
+          "title": "Quantifiers",
+          "site": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/quantifiers"
+        },
+        {
+          "title": "Much, many, a lot of, lots of: quantifiers",
+          "site": "Cambridge Dictionary Grammar",
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/much-many-a-lot-of-lots-of-quantifiers"
+        }
+      ]
+    },
+    {
+      "id": "a2-articles",
+      "title_tr": "the, a/an ve tanımlıksız kullanım",
+      "title_en": "Articles: the, a/an and no article",
+      "categories": [
+        "article"
+      ],
+      "intro_tr": "Türkçede tanımlık olmadığı için [en:the] Türklerin en çok zorlandığı konulardandır. Temel fikir: [en:a/an] [tr:herhangi bir, ilk kez söz edilen]; [en:the] [tr:hangisi olduğunu ikimizin de bildiği]. Genel anlamda konuşurken ise çoğul ve sayılamayan isimlerle hiç tanımlık kullanılmaz.",
+      "sections": [
+        {
+          "title_tr": "[en:a] ve [en:an]: ses kuralı",
+          "text_tr": "[en:a] ve [en:an] aynı anlamdadır: [tr:bir] ya da [tr:herhangi bir]. Sadece tekil ve sayılabilen isimlerle kullanılır; [en:a water], [en:an information] olmaz.\n\nSeçim yazıya göre değil, sese göre yapılır. Ünsüz sesle başlayan kelimeden önce [en:a]: [en:a meeting], [en:a manager]. Ünlü sesle başlayan kelimeden önce [en:an]: [en:an email], [en:an office], [en:an idea].\n\nDikkat: [en:hour] [key:h] ile yazılır ama ünlü sesle okunur: [en:an hour]. [en:university] ve [en:user] ise [tr:yu] sesiyle başlar: [en:a university], [en:a user].\n\nMeslek söylerken de [en:a/an] gerekir: [en:She is an engineer.] Türkçede [tr:O mühendis] deriz, İngilizcede [en:a/an] atlanmaz.",
+          "table": {
+            "head": [
+              "Tanımlık",
+              "Ne zaman?",
+              "Örnek"
+            ],
+            "rows": [
+              [
+                "a",
+                "ünsüz sesle başlayan tekil isim, ilk kez söz edilen",
+                "a meeting, a user, a university"
+              ],
+              [
+                "an",
+                "ünlü sesle başlayan tekil isim, ilk kez söz edilen",
+                "an email, an hour, an idea"
+              ],
+              [
+                "the",
+                "bildiğimiz, tek olan ya da superlative",
+                "the report, the sun, the best"
+              ],
+              [
+                "— (yok)",
+                "genel anlamda çoğul ve sayılamayan isimler",
+                "Coffee is popular. I like dogs."
+              ]
+            ]
+          },
+          "examples": [
+            {
+              "en": "I have an idea.",
+              "tr": "Bir fikrim var."
+            },
+            {
+              "en": "We'll finish in an hour.",
+              "tr": "Bir saat içinde bitiririz."
+            },
+            {
+              "en": "She is an engineer at a big company.",
+              "tr": "Büyük bir şirkette mühendis."
+            },
+            {
+              "en": "He works at a university.",
+              "tr": "Bir üniversitede çalışıyor."
+            }
+          ]
+        },
+        {
+          "title_tr": "[en:a/an] mı, [en:the] mı?",
+          "text_tr": "İlk kez söz ederken [en:a/an], ikinci kez [en:the]. Tek olan şeyler ([en:the sun], [en:the internet]), bağlamdan belli olan şeyler ([en:Can you close the door?]) ve superlative ([en:the best]) için [en:the].\n\nİsim [tr:hangisi?] sorusuna cevap veren bir ifadeyle belirli hâle geliyorsa [en:the] kullanılır: [en:the report on my desk], [en:the manager of this team]. Konuşan ve dinleyenin ikisinin de bildiği yerler ve kişiler için de [en:the] gelir: [en:the office], [en:the boss] (bizim ofis, bizim patron).\n\nİpucu: [en:first], [en:second], [en:best], [en:only] ve [en:same] gibi kelimelerden önce genellikle [en:the] gelir: [en:the first time], [en:the only person], [en:the same day].",
+          "examples": [
+            {
+              "en": "I bought a book and a pen. The book was expensive.",
+              "tr": "Bir kitap ve bir kalem aldım. Kitap pahalıydı."
+            },
+            {
+              "en": "Can you turn off the light?",
+              "tr": "Işığı kapatır mısın? (odadaki ışık)"
+            },
+            {
+              "en": "She's the best manager in the company.",
+              "tr": "Şirketteki en iyi yönetici o."
+            },
+            {
+              "en": "The report on my desk is from last year.",
+              "tr": "Masamdaki rapor geçen yıldan."
+            },
+            {
+              "en": "The boss wants to see you.",
+              "tr": "Patron seni görmek istiyor."
+            }
+          ]
+        },
+        {
+          "title_tr": "Tanımlık kullanılmayan durumlar",
+          "text_tr": "Genel olarak konuşurken çoğul ve sayılamayan isimlerle [en:the] kullanılmaz: [en:I like dogs.] [en:Money isn't everything.] Ayrıca çoğu ülke ve şehir adı, öğünler, diller, sporlar ve [en:go to work / school / bed] kalıplarında: [en:I go to work by bus.] [en:go home] kalıbında [en:to] da kullanılmaz. İstisna: [en:the USA], [en:the UK].\n\n[en:next] ve [en:last] ile kurulan zaman ifadelerinde de tanımlık yoktur: [en:next Monday], [en:last week], [en:next year].",
+          "examples": [
+            {
+              "en": "Coffee is popular in Turkey.",
+              "tr": "Türkiye'de kahve popülerdir. (genel)"
+            },
+            {
+              "en": "The coffee in this café is great.",
+              "tr": "Bu kafedeki kahve harika. (belirli)"
+            },
+            {
+              "en": "We had lunch at one.",
+              "tr": "Saat birde öğle yemeği yedik."
+            },
+            {
+              "en": "She speaks German and French.",
+              "tr": "Almanca ve Fransızca konuşuyor."
+            },
+            {
+              "en": "I'll see you next Monday.",
+              "tr": "Gelecek pazartesi görüşürüz."
+            }
+          ]
+        },
+        {
+          "title_tr": "Türkçeden farkı ve sık karıştırılanlar",
+          "text_tr": "Türkçede [en:the] yoktur; belirlilik çoğu zaman belirtme durumu ekiyle (-ı, -i, -u, -ü) anlatılır. [tr:Dosyayı gönderdim.] → [en:I sent the file.] [tr:Bir dosya gönderdim.] → [en:I sent a file.] Bu ipucu çoğu zaman işe yarar.\n\nTürkçede [tr:bir] kelimesi çoğu zaman söylenmez: [tr:Arabam var.] İngilizcede ise tekil sayılabilen isim tek başına kalmaz: [en:I have a car.] Önünde [en:a/an], [en:the] ya da [en:my], [en:your], [en:this] gibi bir kelime olmalıdır.\n\nSık karıştırılanlar: [en:go to work] (işe gitmek) ama [en:go to the office] (ofise gitmek); [en:at home] ama [en:at the office]; [en:have lunch] (genel) ama [en:The lunch with the clients was great.] (belirli bir yemek).",
+          "examples": [
+            {
+              "en": "I sent the file this morning.",
+              "tr": "Dosyayı bu sabah gönderdim."
+            },
+            {
+              "en": "I have a car, but I go to work by metro.",
+              "tr": "Arabam var ama işe metroyla gidiyorum."
+            },
+            {
+              "en": "I'm at the office until six.",
+              "tr": "Altıya kadar ofisteyim."
+            }
+          ]
+        },
+        {
+          "title_tr": "💼 İş hayatında",
+          "work": true,
+          "text_tr": "E-postalarda daha önce bahsedilen dosya, toplantı ya da proje için [en:the] kullanılır: [en:the file I sent you].\n\nİlk kez söz ettiğin bir şeyi [en:a/an] ile tanıtırsın: [en:We have a problem with the server.] Burada [en:the server] denir, çünkü şirketin sunucusu herkesçe bilinir.\n\nŞirket içindeki tek birimler ve görevler genellikle [en:the] alır: [en:the sales team], [en:the IT department], [en:the CEO]. Şirket adları ise genelde tanımlık almaz: [en:She works for Aksoy Foods.]\n\nUnvanlarda da fark vardır: [en:She is a manager.] (bir yönetici, mesleği bu) ama [en:She is the manager of the sales team.] (satış ekibinin yöneticisi; tek kişi).",
+          "examples": [
+            {
+              "en": "I attached the file you asked for.",
+              "tr": "İstediğin dosyayı ekledim."
+            },
+            {
+              "en": "We need a new supplier.",
+              "tr": "Yeni bir tedarikçiye ihtiyacımız var."
+            },
+            {
+              "en": "The meeting with the supplier is on Monday.",
+              "tr": "Tedarikçiyle toplantı pazartesi."
+            },
+            {
+              "en": "We have a problem with the server.",
+              "tr": "Sunucuyla ilgili bir sorunumuz var."
+            },
+            {
+              "en": "Please send it to the IT department.",
+              "tr": "Lütfen bunu BT departmanına gönder."
+            },
+            {
+              "en": "She is the CEO of a small company.",
+              "tr": "Küçük bir şirketin CEO'su."
+            }
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "The money isn't everything.",
+          "right": "Money isn't everything.",
+          "note_tr": "Genel anlamda konuşurken sayılamayan isimle tanımlık kullanılmaz."
+        },
+        {
+          "wrong": "Sun is very hot today.",
+          "right": "The sun is very hot today.",
+          "note_tr": "Tek olan şeyler → [en:the]."
+        },
+        {
+          "wrong": "I go to the work by car.",
+          "right": "I go to work by car.",
+          "note_tr": "[en:go to work] kalıptır."
+        },
+        {
+          "wrong": "He is best player in the team.",
+          "right": "He is the best player in the team.",
+          "note_tr": "Superlative → [en:the]."
+        },
+        {
+          "wrong": "She is engineer.",
+          "right": "She is an engineer.",
+          "note_tr": "Meslek söylerken [en:a/an] gerekir."
+        },
+        {
+          "wrong": "I have a idea.",
+          "right": "I have an idea.",
+          "note_tr": "Ünlü sesten önce [en:an] kullanılır."
+        },
+        {
+          "wrong": "I have car.",
+          "right": "I have a car.",
+          "note_tr": "Tekil sayılabilen isim tek başına kalmaz."
+        },
+        {
+          "wrong": "We met the last week.",
+          "right": "We met last week.",
+          "note_tr": "[en:next / last] ile kurulan zaman ifadelerinde [en:the] yok."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "q": "I saw ___ interesting film yesterday.",
+          "options": [
+            "a",
+            "an",
+            "the"
+          ],
+          "answer": 1,
+          "explain_tr": "İlk kez söz ediliyor, ünlü ses → [en:an]."
+        },
+        {
+          "type": "choice",
+          "q": "Could you pass me ___ salt, please?",
+          "options": [
+            "a",
+            "the",
+            "—"
+          ],
+          "answer": 1,
+          "explain_tr": "Masadaki belli tuz → [en:the]."
+        },
+        {
+          "type": "choice",
+          "q": "___ life is short.",
+          "options": [
+            "The",
+            "A",
+            "—"
+          ],
+          "answer": 2,
+          "explain_tr": "Genel anlam → tanımlık yok."
+        },
+        {
+          "type": "choice",
+          "q": "It takes about ___ hour to get to the airport.",
+          "options": [
+            "a",
+            "an",
+            "the"
+          ],
+          "answer": 1,
+          "explain_tr": "[en:hour] ünlü sesle okunur ([key:h] okunmaz) → [en:an hour]."
+        },
+        {
+          "type": "choice",
+          "q": "My brother is ___ university student.",
+          "options": [
+            "a",
+            "an",
+            "the"
+          ],
+          "answer": 0,
+          "explain_tr": "[en:university] [tr:yu] sesiyle başlar → [en:a]."
+        },
+        {
+          "type": "fill",
+          "q": "I have a cat and a dog. ___ cat is black.",
+          "answer": [
+            "The"
+          ],
+          "explain_tr": "İkinci kez söz edilen → [en:the]."
+        },
+        {
+          "type": "fill",
+          "q": "My sister lives in ___ USA.",
+          "answer": [
+            "the"
+          ],
+          "explain_tr": "[en:the USA] istisnadır."
+        },
+        {
+          "type": "fill",
+          "q": "What's ___ biggest city in Turkey?",
+          "answer": [
+            "the"
+          ],
+          "explain_tr": "Superlative → [en:the]."
+        },
+        {
+          "type": "fill",
+          "q": "She is ___ engineer.",
+          "answer": [
+            "an"
+          ],
+          "explain_tr": "Meslekte [en:a/an] gerekir; [en:engineer] ünlü sesle başlar → [en:an]."
+        },
+        {
+          "type": "fill",
+          "q": "I read about it on ___ internet.",
+          "answer": [
+            "the"
+          ],
+          "explain_tr": "Tek olan şeyler → [en:the internet]."
+        },
+        {
+          "type": "fix",
+          "q": "I usually have the breakfast at 7.",
+          "answer": [
+            "I usually have breakfast at 7."
+          ],
+          "explain_tr": "Öğünlerde tanımlık yok."
+        },
+        {
+          "type": "fix",
+          "q": "Moon is beautiful tonight.",
+          "answer": [
+            "The moon is beautiful tonight."
+          ],
+          "explain_tr": "Tek olan şey → [en:the]."
+        },
+        {
+          "type": "fix",
+          "q": "She speaks the English very well.",
+          "answer": [
+            "She speaks English very well."
+          ],
+          "explain_tr": "Dillerde tanımlık yok."
+        },
+        {
+          "type": "fix",
+          "q": "My brother is doctor.",
+          "answer": [
+            "My brother is a doctor."
+          ],
+          "explain_tr": "Meslek söylerken [en:a/an] gerekir."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "Çoğul yap",
+          "q": "I need a new laptop.",
+          "answer": [
+            "I need new laptops.",
+            "I need some new laptops."
+          ],
+          "explain_tr": "Çoğulda [en:a/an] kullanılmaz."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "Tekil yap ([en:a/an] kullan)",
+          "q": "We need new chairs.",
+          "answer": [
+            "We need a new chair."
+          ],
+          "explain_tr": "Tekil sayılabilen isim → [en:a new chair]."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "Soru cümlesi yap",
+          "q": "There is a bank near the office.",
+          "answer": [
+            "Is there a bank near the office?"
+          ],
+          "explain_tr": "Soruda [en:is] başa gelir; tanımlıklar değişmez."
+        },
+        {
+          "type": "order",
+          "q": "Kelimeleri sıraya koy.",
+          "words": [
+            "I have",
+            "a meeting",
+            "with",
+            "the sales team",
+            "at 10"
+          ],
+          "answer": [
+            "I have a meeting with the sales team at 10.",
+            "At 10 I have a meeting with the sales team."
+          ],
+          "explain_tr": "İlk kez söz edilen toplantı → [en:a]; bilinen ekip → [en:the]."
+        },
+        {
+          "type": "order",
+          "q": "Kelimeleri sıraya koy.",
+          "words": [
+            "She is",
+            "an",
+            "engineer",
+            "at",
+            "a big company."
+          ],
+          "answer": [
+            "She is an engineer at a big company."
+          ],
+          "explain_tr": "Meslekte [en:an], ilk kez söz edilen şirkette [en:a]."
+        },
+        {
+          "type": "order",
+          "q": "Kelimeleri sıraya koy.",
+          "words": [
+            "I",
+            "go to",
+            "work",
+            "by",
+            "bus."
+          ],
+          "answer": [
+            "I go to work by bus."
+          ],
+          "explain_tr": "[en:go to work] kalıbında tanımlık yok."
+        },
+        {
+          "type": "match",
+          "q": "Tanımlıkları kullanımlarıyla eşleştir.",
+          "pairs": [
+            [
+              "a",
+              "ünsüz sesten önce: bir"
+            ],
+            [
+              "an",
+              "ünlü sesten önce: bir"
+            ],
+            [
+              "the",
+              "belirli, ikimizin de bildiği"
+            ],
+            [
+              "— (tanımlık yok)",
+              "genel anlamda çoğul ya da sayılamayan isim"
+            ]
+          ],
+          "explain_tr": "[en:a/an] herhangi bir, [en:the] belirli; genel anlamda tanımlık yok."
+        },
+        {
+          "type": "listen",
+          "text": "I sent you an email about the meeting this morning.",
+          "answer": [
+            "I sent you an email about the meeting this morning."
+          ],
+          "explain_tr": "İlk kez söz edilen e-posta → [en:an]; bilinen toplantı → [en:the]."
+        },
+        {
+          "type": "listen",
+          "text": "The new manager has an office on the third floor.",
+          "answer": [
+            "The new manager has an office on the third floor."
+          ],
+          "explain_tr": "Bilinen yönetici → [en:the]; ofis ilk kez → [en:an]; sıra sayısı → [en:the third floor]."
+        }
+      ],
+      "practice": {
+        "focus": "describing objects, places and things the learner bought or saw recently, mentioning them first with a/an and then with the; general likes without articles",
+        "tasks": [
+          [
+            "Son aldığın bir şeyi anlat (önce a, sonra the)",
+            "describe something they bought recently"
+          ],
+          [
+            "Genel olarak neleri sevdiğini söyle (I like …)",
+            "say what they like in general"
+          ]
+        ]
+      },
+      "sources": [
+        {
+          "title": "Articles: 'a', 'an', 'the'",
+          "site": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2-grammar/articles-a-an-the"
+        },
+        {
+          "title": "Articles: 'the' or no article",
+          "site": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2-grammar/articles-the-or-no-article"
+        },
+        {
+          "title": "A/an and the",
+          "site": "Cambridge Dictionary Grammar",
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/a-an-and-the"
+        }
+      ]
+    },
+    {
+      "id": "a2-questions",
+      "title_tr": "Soru kurmak: Wh- soruları ve özne soruları",
+      "title_en": "Question forms: wh- questions, subject and object questions",
+      "categories": [
+        "word_order"
+      ],
+      "intro_tr": "Türkçede soru ekiyle soru yapılır ve kelime sırası değişmez; İngilizcede ise yardımcı fiil öznenin önüne geçer. [en:Where you are going?] Türklerin en tipik hatalarındandır. Bu derste soru kelimelerini, doğru sırayı ve [en:do/did] kullanılmayan özne sorularını öğreneceksin.",
+      "sections": [
+        {
+          "title_tr": "Soru kelimesi + yardımcı fiil + özne + fiil",
+          "text_tr": "Yardımcı fiil: [en:be] ([en:am/is/are/was/were]), [en:do/does/did], [en:can], [en:will], [en:have]… Her zamanda aynı sıra geçerlidir.\n\nTürkçede soruyu [tr:-mı] eki ya da [tr:ne, nerede] gibi kelimeler yapar, sıra değişmez: [tr:Nereye gidiyorsun?] İngilizcede iki şey olur: soru kelimesi başa gelir ve yardımcı fiil öznenin önüne geçer.\n\nCümlede yardımcı fiil yoksa (present simple, past simple) [en:do/does/did] eklenir ve ana fiil yalın hâle döner: [en:She works here.] → [en:Where does she work?] [en:They arrived late.] → [en:When did they arrive?]\n\n[en:be], [en:can], [en:will] ve [en:have] gibi yardımcı fiiller cümlede zaten varsa [en:do] eklenmez; o yardımcı fiil öznenin önüne geçer: [en:You can help me.] → [en:How can you help me?]",
+          "table": {
+            "head": [
+              "Soru kelimesi",
+              "Yardımcı",
+              "Özne",
+              "Fiil …"
+            ],
+            "rows": [
+              [
+                "Where",
+                "are",
+                "you",
+                "going?"
+              ],
+              [
+                "What",
+                "does",
+                "she",
+                "do?"
+              ],
+              [
+                "When",
+                "did",
+                "they",
+                "arrive?"
+              ],
+              [
+                "How long",
+                "will",
+                "it",
+                "take?"
+              ]
+            ]
+          },
+          "examples": [
+            {
+              "en": "Why are you laughing?",
+              "tr": "Neden gülüyorsun?"
+            },
+            {
+              "en": "How often do you go to the gym?",
+              "tr": "Spor salonuna ne sıklıkla gidiyorsun?"
+            },
+            {
+              "en": "Which bus goes to the airport?",
+              "tr": "Havalimanına hangi otobüs gidiyor?"
+            }
+          ]
+        },
+        {
+          "title_tr": "Soru kelimeleri",
+          "text_tr": "En sık kullanılan soru kelimeleri: [en:What] (ne), [en:Who] (kim), [en:Where] (nerede, nereye), [en:When] (ne zaman), [en:Why] (neden), [en:Which] (hangi), [en:Whose] (kimin) ve [en:How] (nasıl).\n\n[en:How] ile birçok kalıp kurulur: [en:How much] (ne kadar; sayılamayan isim ve fiyat), [en:How many] (kaç; sayılabilen isim), [en:How long] (ne kadar süre), [en:How often] (ne sıklıkla), [en:How old] (kaç yaşında), [en:How far] (ne kadar uzak).\n\n[en:What] ile [en:Which] farkı: seçenekler belliyse [en:Which], belli değilse [en:What] kullanılır. [en:Which room do you want, A or B?] ama [en:What do you want to drink?]\n\n[en:Whose] ve [en:Which]'ten sonra çoğu zaman bir isim gelir: [en:Whose bag is this?] [en:Which day suits you?]",
+          "table": {
+            "head": [
+              "Soru kelimesi",
+              "Anlamı",
+              "Örnek"
+            ],
+            "rows": [
+              [
+                "What",
+                "ne",
+                "What do you need?"
+              ],
+              [
+                "Who",
+                "kim",
+                "Who is your manager?"
+              ],
+              [
+                "Where",
+                "nerede / nereye",
+                "Where do you work?"
+              ],
+              [
+                "When",
+                "ne zaman",
+                "When does the meeting start?"
+              ],
+              [
+                "Why",
+                "neden",
+                "Why are you late?"
+              ],
+              [
+                "Which",
+                "hangi (seçenekler belli)",
+                "Which room are we in?"
+              ],
+              [
+                "Whose",
+                "kimin",
+                "Whose laptop is this?"
+              ],
+              [
+                "How long",
+                "ne kadar süre",
+                "How long does it take?"
+              ]
+            ]
+          },
+          "examples": [
+            {
+              "en": "How long is the meeting?",
+              "tr": "Toplantı ne kadar sürüyor?"
+            },
+            {
+              "en": "Which file do you need, the old one or the new one?",
+              "tr": "Hangi dosyaya ihtiyacın var, eskisine mi yenisine mi?"
+            },
+            {
+              "en": "Whose phone is this?",
+              "tr": "Bu kimin telefonu?"
+            }
+          ]
+        },
+        {
+          "title_tr": "Özne soruları: [en:Who called?] ([en:do] yok)",
+          "text_tr": "Soru kelimesi cümlenin öznesini soruyorsa (kim aradı? ne oldu?) [en:do/does/did] kullanılmaz: [en:Who called you?] (seni kim aradı) ama [en:Who did you call?] (sen kimi aradın).\n\nKarşılaştır: [en:Who called you?] → [en:Ali called me.] (Ali özne). [en:Who did you call?] → [en:I called Ali.] (Ali nesne). Özne sorusunda fiil normal cümledeki gibi çekimlenir: present simple'da [en:-s] alır ([en:Who works here?]), geçmişte geçmiş hâli kullanılır ([en:What happened?]).\n\n[en:What], [en:Which] ve [en:How many] ile de özne sorusu kurulur: [en:What happened?], [en:Which team won?], [en:How many people came?]",
+          "examples": [
+            {
+              "en": "Who wrote this email?",
+              "tr": "Bu e-postayı kim yazdı?"
+            },
+            {
+              "en": "What happened at the meeting?",
+              "tr": "Toplantıda ne oldu?"
+            },
+            {
+              "en": "Who did you meet at the conference?",
+              "tr": "Konferansta kiminle tanıştın?"
+            },
+            {
+              "en": "Who works in the finance department?",
+              "tr": "Finans departmanında kim çalışıyor?"
+            },
+            {
+              "en": "How many people came to the training?",
+              "tr": "Eğitime kaç kişi geldi?"
+            }
+          ]
+        },
+        {
+          "title_tr": "Sık hatalar ve Türkçeden farkı",
+          "text_tr": "Türkler en çok üç hata yapar. Birincisi, yardımcı fiili unutmak ya da öznenin arkasında bırakmak: [en:Where you are going?] yerine [en:Where are you going?]\n\nİkincisi, [en:do/does/did] kullanınca fiili de çekimlemek: [en:Where does she works?] yanlıştır; [en:-s] zaten [en:does]'tadır: [en:Where does she work?] Aynı şekilde [en:What did you bought?] değil, [en:What did you buy?]\n\nÜçüncüsü, normal bir özne sorusuna [en:did] eklemek: [en:Who did call you?] değil, [en:Who called you?] ([en:Who did call you?] yalnızca [en:did] vurgulanarak, ısrarla sorulduğunda duyulur.)\n\nAyrıca [en:be] fiiliyle [en:do] kullanılmaz: [en:Where do you are?] değil, [en:Where are you?] Edatlar genellikle cümlenin sonunda kalır: [en:Who are you talking to?] [en:What is this email about?]",
+          "examples": [
+            {
+              "en": "Where does your brother work?",
+              "tr": "Kardeşin nerede çalışıyor?"
+            },
+            {
+              "en": "What did you buy for the office?",
+              "tr": "Ofis için ne aldın?"
+            },
+            {
+              "en": "What is this email about?",
+              "tr": "Bu e-posta ne hakkında?"
+            },
+            {
+              "en": "Who are you talking to?",
+              "tr": "Kiminle konuşuyorsun?"
+            }
+          ]
+        },
+        {
+          "title_tr": "💼 İş hayatında",
+          "work": true,
+          "text_tr": "Doğru kurulmuş sorular toplantılarda ve e-postalarda profesyonel görünmenin anahtarıdır.\n\nToplantıda ya da müşteriyle konuşurken wh- soruları evet/hayır sorularından daha çok bilgi getirir: [en:What do you think about the new plan?] [en:How can we help you?]\n\nÇok doğrudan bir soruyu yumuşatmak için [en:Could you tell me…?] ile başlayabilirsin. Bu kalıpta özne ve fiil normal cümledeki sırada kalır: [en:Could you tell me when the meeting starts?] (Bunu B1'de daha ayrıntılı göreceksin.)",
+          "examples": [
+            {
+              "en": "When do you need the report?",
+              "tr": "Rapora ne zaman ihtiyacınız var?"
+            },
+            {
+              "en": "Who is responsible for this project?",
+              "tr": "Bu projeden kim sorumlu?"
+            },
+            {
+              "en": "How much does the service cost?",
+              "tr": "Hizmetin ücreti ne kadar?"
+            },
+            {
+              "en": "What do you think about the new plan?",
+              "tr": "Yeni plan hakkında ne düşünüyorsunuz?"
+            },
+            {
+              "en": "How can I help you?",
+              "tr": "Size nasıl yardımcı olabilirim?"
+            },
+            {
+              "en": "Could you tell me when the meeting starts?",
+              "tr": "Toplantının ne zaman başladığını söyleyebilir misiniz?"
+            }
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "Where you are going?",
+          "right": "Where are you going?",
+          "note_tr": "Yardımcı fiil ([en:are]) öznenin önüne geçer."
+        },
+        {
+          "wrong": "What you want?",
+          "right": "What do you want?",
+          "note_tr": "Geniş zamanda [en:do] gerekir."
+        },
+        {
+          "wrong": "Who did call you?",
+          "right": "Who called you?",
+          "note_tr": "Normal bir özne sorusunda [en:did] kullanılmaz: [en:Who called you?] ([en:Who did call you?] yalnızca [en:did] vurgulanarak, ısrarla sorulduğunda duyulur.)"
+        },
+        {
+          "wrong": "How much costs it?",
+          "right": "How much does it cost?",
+          "note_tr": "[en:does] + özne + yalın fiil."
+        },
+        {
+          "wrong": "Where does she works?",
+          "right": "Where does she work?",
+          "note_tr": "[en:does]'tan sonra fiil yalın kalır."
+        },
+        {
+          "wrong": "What did you bought?",
+          "right": "What did you buy?",
+          "note_tr": "[en:did]'den sonra fiil yalın kalır."
+        },
+        {
+          "wrong": "Where do you are?",
+          "right": "Where are you?",
+          "note_tr": "[en:be] fiiliyle [en:do] kullanılmaz."
+        },
+        {
+          "wrong": "How many does it cost?",
+          "right": "How much does it cost?",
+          "note_tr": "Fiyat sorarken [en:How much] kullanılır."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "q": "Which question is correct?",
+          "options": [
+            "Where you live?",
+            "Where do you live?",
+            "Where you do live?"
+          ],
+          "answer": 1,
+          "explain_tr": "Soru kelimesi + [en:do] + özne + fiil."
+        },
+        {
+          "type": "choice",
+          "q": "Who ___ the window? — Ahmet did.",
+          "options": [
+            "did break",
+            "broke",
+            "did broke"
+          ],
+          "answer": 1,
+          "explain_tr": "Özne sorusu → [en:did] yok: [en:Who broke…?]"
+        },
+        {
+          "type": "choice",
+          "q": "What time ___ the shop open?",
+          "options": [
+            "does",
+            "do",
+            "are"
+          ],
+          "answer": 0,
+          "explain_tr": "[en:the shop] = [en:it] → [en:does]."
+        },
+        {
+          "type": "choice",
+          "q": "___ is your new manager? — Ms Demir.",
+          "options": [
+            "Who",
+            "Where",
+            "When"
+          ],
+          "answer": 0,
+          "explain_tr": "Kişiyi soruyoruz → [en:Who]."
+        },
+        {
+          "type": "choice",
+          "q": "___ does the train leave? — At 8:15.",
+          "options": [
+            "Where",
+            "When",
+            "Why"
+          ],
+          "answer": 1,
+          "explain_tr": "Cevap bir saat → [en:When]."
+        },
+        {
+          "type": "fill",
+          "q": "How long ___ you been here? (have)",
+          "answer": [
+            "have"
+          ],
+          "explain_tr": "Yardımcı fiil başa: [en:have you…]"
+        },
+        {
+          "type": "fill",
+          "q": "Why ___ she crying? (be)",
+          "answer": [
+            "is",
+            "was"
+          ],
+          "explain_tr": "[en:be] + özne + fiil[en:-ing]: [en:Why is she crying?] (geçmişte: [en:Why was she crying?])"
+        },
+        {
+          "type": "fill",
+          "q": "Where ___ you go on holiday last year?",
+          "answer": [
+            "did"
+          ],
+          "explain_tr": "Geçmiş soru → [en:did]."
+        },
+        {
+          "type": "fill",
+          "q": "How ___ does this laptop cost? (ne kadar)",
+          "answer": [
+            "much"
+          ],
+          "explain_tr": "Fiyat → [en:How much]."
+        },
+        {
+          "type": "fill",
+          "q": "___ team won the match, ours or theirs? (hangi)",
+          "answer": [
+            "Which"
+          ],
+          "explain_tr": "Seçenekler belli → [en:Which]."
+        },
+        {
+          "type": "fix",
+          "q": "What you are doing?",
+          "answer": [
+            "What are you doing?"
+          ],
+          "explain_tr": "[en:are] öznenin önüne."
+        },
+        {
+          "type": "fix",
+          "q": "How much it costs?",
+          "answer": [
+            "How much does it cost?"
+          ],
+          "explain_tr": "[en:does] + özne + yalın fiil."
+        },
+        {
+          "type": "fix",
+          "q": "Who did tell you that?",
+          "answer": [
+            "Who told you that?"
+          ],
+          "explain_tr": "Normal bir özne sorusunda [en:did] kullanılmaz: [en:Who told you that?] ([en:did]'li biçim yalnızca vurgulu sorularda duyulur.)"
+        },
+        {
+          "type": "fix",
+          "q": "Where does she works?",
+          "answer": [
+            "Where does she work?"
+          ],
+          "explain_tr": "[en:does]'tan sonra fiil yalın kalır: [en:work]."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "[en:When] ile soru yap",
+          "q": "The meeting starts at 9.",
+          "answer": [
+            "When does the meeting start?"
+          ],
+          "explain_tr": "[en:When] + [en:does] + özne + yalın fiil."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "[en:Where] ile soru yap",
+          "q": "She works in Istanbul.",
+          "answer": [
+            "Where does she work?"
+          ],
+          "explain_tr": "[en:works] → [en:does … work]."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "[en:Who] ile özne sorusu yap (cevap: Ali)",
+          "q": "Ali sent the report.",
+          "answer": [
+            "Who sent the report?"
+          ],
+          "explain_tr": "Özneyi soruyoruz → [en:did] yok: [en:Who sent…?]"
+        },
+        {
+          "type": "order",
+          "q": "Kelimeleri sıraya koy.",
+          "words": [
+            "What time",
+            "does",
+            "the meeting",
+            "start?"
+          ],
+          "answer": [
+            "What time does the meeting start?"
+          ],
+          "explain_tr": "Soru kelimesi + [en:does] + özne + yalın fiil."
+        },
+        {
+          "type": "order",
+          "q": "Kelimeleri sıraya koy.",
+          "words": [
+            "Where",
+            "did",
+            "you",
+            "have lunch",
+            "yesterday?"
+          ],
+          "answer": [
+            "Where did you have lunch yesterday?"
+          ],
+          "explain_tr": "Geçmiş soru: [en:Where] + [en:did] + özne + yalın fiil."
+        },
+        {
+          "type": "order",
+          "q": "Kelimeleri sıraya koy.",
+          "words": [
+            "Who",
+            "is",
+            "responsible",
+            "for",
+            "the budget?"
+          ],
+          "answer": [
+            "Who is responsible for the budget?"
+          ],
+          "explain_tr": "Özne sorusu: [en:Who] + [en:is] …"
+        },
+        {
+          "type": "match",
+          "q": "Soru kelimelerini anlamlarıyla eşleştir.",
+          "pairs": [
+            [
+              "Where",
+              "nerede / nereye"
+            ],
+            [
+              "When",
+              "ne zaman"
+            ],
+            [
+              "Why",
+              "neden"
+            ],
+            [
+              "Whose",
+              "kimin"
+            ],
+            [
+              "How often",
+              "ne sıklıkla"
+            ]
+          ],
+          "explain_tr": "Soru kelimesi genellikle cümlenin başına gelir."
+        },
+        {
+          "type": "listen",
+          "text": "When did you send the invoice to the client?",
+          "answer": [
+            "When did you send the invoice to the client?"
+          ],
+          "explain_tr": "[en:When] + [en:did] + özne + yalın fiil."
+        },
+        {
+          "type": "listen",
+          "text": "Who is going to lead the meeting tomorrow?",
+          "answer": [
+            "Who is going to lead the meeting tomorrow?"
+          ],
+          "explain_tr": "Özne sorusu: [en:Who] + [en:is going to] …"
+        }
+      ],
+      "practice": {
+        "focus": "an interview where the LEARNER asks most of the questions (wh- questions in different tenses, subject questions)",
+        "tasks": [
+          [
+            "Bana farklı soru kelimeleriyle en az beş soru sor",
+            "ask the partner at least five questions with different question words"
+          ],
+          [
+            "'Who …?' ile bir özne sorusu sor",
+            "ask a subject question with Who"
+          ]
+        ]
+      },
+      "sources": [
+        {
+          "title": "Question forms",
+          "site": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2/question-forms"
+        },
+        {
+          "title": "Questions: wh- questions",
+          "site": "Cambridge Dictionary Grammar",
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/questions-wh-questions"
+        },
+        {
+          "title": "Questions: interrogative pronouns (what, who)",
+          "site": "Cambridge Dictionary Grammar",
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/questions-interrogative-pronouns-what-who"
+        }
+      ]
+    },
+    {
+      "id": "a2-work-email",
+      "tags": [
+        "work"
+      ],
+      "title_tr": "İş e-postası yazmak",
+      "title_en": "Writing a simple work email",
+      "categories": [
+        "word_choice",
+        "punctuation"
+      ],
+      "intro_tr": "İyi bir iş e-postası kısa ve nettir: selamlama, amaç, ayrıntı/rica, kapanış. Türkçeden kelime kelime çeviri ([en:I am writing for to inform]) yerine kalıpları öğrenmek en hızlı yoldur. Bu derste resmî ve samimi e-posta kalıplarını, kibar rica cümlelerini ve sık yapılan hataları öğreneceksin.",
+      "sections": [
+        {
+          "title_tr": "E-postanın bölümleri",
+          "text_tr": "Selamlama: [en:Dear Ms Kaya,] (resmî), [en:Hi Ali,] (tanıdık). Amaç: [en:I'm writing to…] / [en:I'm writing about…]. Rica: [en:Could you…?] / [en:Would it be possible to…?]. Ek: [en:Please find attached…] / [en:I've attached…]. Kapanış: [en:Best regards,] / [en:Kind regards,] + adın.\n\nSelamlamadan sonra virgül konur ve yeni satıra geçilir. Kapanış kalıbından sonra da virgül koyup adını alt satıra yazarsın.\n\nAmaç cümlesi e-postanın ilk ya da ikinci cümlesi olmalıdır; okuyan kişi neden yazdığını hemen anlamalıdır.",
+          "table": {
+            "head": [
+              "Bölüm",
+              "Kalıp"
+            ],
+            "rows": [
+              [
+                "Selamlama",
+                "Dear Mr Demir, / Hi Elif,"
+              ],
+              [
+                "Amaç",
+                "I'm writing to ask about … / I'm writing about the meeting on Friday."
+              ],
+              [
+                "Rica",
+                "Could you send me …? / Would it be possible to move the meeting?"
+              ],
+              [
+                "Ek dosya",
+                "Please find attached the report. / I've attached the slides."
+              ],
+              [
+                "Kapanış",
+                "Please let me know if you have any questions. Best regards, Ali"
+              ]
+            ]
+          },
+          "examples": [
+            {
+              "en": "Thank you for your email.",
+              "tr": "E-postanız için teşekkürler."
+            },
+            {
+              "en": "I'm writing to confirm our meeting on Tuesday.",
+              "tr": "Salı günkü toplantımızı teyit etmek için yazıyorum."
+            },
+            {
+              "en": "I look forward to hearing from you.",
+              "tr": "Dönüşünüzü bekliyorum."
+            },
+            {
+              "en": "I've attached the latest version of the report.",
+              "tr": "Raporun son hâlini ekledim."
+            }
+          ]
+        },
+        {
+          "title_tr": "Kibarlık",
+          "text_tr": "Doğrudan emir ([en:Send me the file.]) İngilizcede kaba durabilir. [en:Could you…?], [en:Please…] ve [en:Thanks in advance] ile yumuşatılır. Gecikmeli cevapta: [en:Sorry for the late reply.]\n\n[en:Please] tek başına emri tamamen yumuşatmaz: [en:Please send me the file.] kibar ama net bir talimattır; [en:Could you please send me the file?] daha yumuşaktır. Kötü bir haber verirken [en:Unfortunately, …] ile başlayabilirsin.",
+          "examples": [
+            {
+              "en": "Could you send me the invoice by Friday, please?",
+              "tr": "Faturayı cuma gününe kadar gönderebilir misiniz lütfen?"
+            },
+            {
+              "en": "Sorry for the late reply.",
+              "tr": "Geç cevap için kusura bakmayın."
+            },
+            {
+              "en": "Thanks in advance for your help.",
+              "tr": "Yardımınız için şimdiden teşekkürler."
+            },
+            {
+              "en": "Unfortunately, I can't attend the meeting on Monday.",
+              "tr": "Maalesef pazartesi günkü toplantıya katılamıyorum."
+            },
+            {
+              "en": "Could you please check the numbers?",
+              "tr": "Rakamları kontrol edebilir misiniz lütfen?"
+            }
+          ]
+        },
+        {
+          "title_tr": "Resmî mi, samimi mi?",
+          "text_tr": "Kime yazdığına göre ton değişir. Tanımadığın biri, müşteri ya da üst düzey bir yönetici için resmî yazarsın; her gün birlikte çalıştığın bir iş arkadaşına daha samimi yazabilirsin.\n\nKişinin adını bilmiyorsan [en:Dear Sir or Madam,] çok resmîdir; bugün daha çok [en:Dear Sales Team,] ya da [en:Hello,] kullanılır. Soyadıyla [en:Mr] (erkek) ve [en:Ms] (kadın) kullanılır. [en:Mrs] yalnızca evli olduğunu bildiğin ve bu unvanı tercih eden kadınlar için kullanılır; emin değilsen [en:Ms] yaz. [en:Mr] ve [en:Ms] ilk adla kullanılmaz: [en:Dear Mr Ali] değil, [en:Dear Mr Demir] ya da [en:Hi Ali].\n\nCevap e-postası genellikle bir teşekkürle başlar: [en:Thanks for your quick reply.]",
+          "table": {
+            "head": [
+              "Bölüm",
+              "Resmî",
+              "Samimi"
+            ],
+            "rows": [
+              [
+                "Selamlama",
+                "Dear Ms Kaya,",
+                "Hi Elif,"
+              ],
+              [
+                "Amaç",
+                "I'm writing to ask about the new prices.",
+                "Just a quick question about the meeting."
+              ],
+              [
+                "Rica",
+                "Could you please…? / Would it be possible to…?",
+                "Can you…?"
+              ],
+              [
+                "Kapanış",
+                "Kind regards, / Best regards,",
+                "Thanks, / Best,"
+              ]
+            ]
+          },
+          "examples": [
+            {
+              "en": "Hi Elif, just a quick question about the meeting.",
+              "tr": "Selam Elif, toplantıyla ilgili kısa bir sorum var."
+            },
+            {
+              "en": "Thanks for your quick reply.",
+              "tr": "Hızlı cevabın için teşekkürler."
+            },
+            {
+              "en": "Dear Sales Team, I'm writing to ask about your prices.",
+              "tr": "Değerli Satış Ekibi, fiyatlarınızı sormak için yazıyorum."
+            }
+          ]
+        },
+        {
+          "title_tr": "Türkçeden farkı",
+          "text_tr": "Türkçe e-postalar çoğu zaman [tr:Merhaba, kolay gelsin] gibi kalıplarla başlar. [tr:Kolay gelsin]'in İngilizcede birebir karşılığı yoktur; yerine [en:I hope you're well.] denebilir ya da doğrudan konuya geçilir.\n\n[tr:Saygılarımla] genellikle [en:Kind regards,] ya da [en:Best regards,] olur; [en:Respects,] diye çevrilmez.\n\n[tr:… göndermenizi rica ederim] cümlesini [en:I request you to send…] diye çevirme; bu çok sert ve doğal olmayan bir cümle olur. Onun yerine [en:Could you send…?] kullan. Konu satırını ([en:subject]) da kısa ve net yaz: [en:Meeting on Friday – new time].\n\nTürkçede [tr:Ali Bey], [tr:Elif Hanım] deriz. İngilizcede resmî karşılığı soyadıyla kullanımdır: [en:Mr Demir], [en:Ms Kaya]. Şirket içinde ise çoğu zaman sadece ilk ad kullanılır: [en:Hi Ali,].",
+          "examples": [
+            {
+              "en": "I hope you're well.",
+              "tr": "Umarım iyisinizdir."
+            },
+            {
+              "en": "Could you send me the contract by Friday?",
+              "tr": "Sözleşmeyi cumaya kadar gönderebilir misiniz?"
+            }
+          ]
+        },
+        {
+          "title_tr": "💼 İş hayatında",
+          "work": true,
+          "text_tr": "Her bölüm bir ya da iki cümle olsun; uzun paragraflar okunmaz ve önemli bilgi kaybolur.\n\nBir konuyu takip ederken [en:I'm just following up on…] (… konusunu hatırlatmak için yazıyorum), bilgi verirken [en:Just to let you know, …] (bilginiz olsun, …) kalıplarını kullanabilirsin. Birini bilgiye eklediğinde [en:I've copied Ayşe in.] ya da [en:I've cc'd Ayşe.] yazarsın.\n\nGöndermeden önce kontrol et: Ek dosya gerçekten ekli mi? İsim doğru yazılmış mı? Konu satırı net mi?\n\nCevap beklediğin bir tarih varsa bunu açıkça yaz: [en:Could you reply by Wednesday?]",
+          "examples": [
+            {
+              "en": "I'm just following up on my email from last week.",
+              "tr": "Geçen haftaki e-postamı hatırlatmak için yazıyorum."
+            },
+            {
+              "en": "Just to let you know, the meeting is now at 3 p.m.",
+              "tr": "Bilginiz olsun, toplantı artık saat 15.00'te."
+            },
+            {
+              "en": "I've copied Ayşe in.",
+              "tr": "Ayşe'yi de bilgiye ekledim."
+            },
+            {
+              "en": "Would it be possible to move the meeting to Thursday?",
+              "tr": "Toplantıyı perşembeye almak mümkün mü?"
+            }
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "I am writing for to ask the price.",
+          "right": "I am writing to ask about the price.",
+          "note_tr": "[en:writing to] + fiil; [en:for to] olmaz."
+        },
+        {
+          "wrong": "Please find attached the files on the email.",
+          "right": "Please find attached the files.",
+          "note_tr": "[en:attached] zaten e-postaya eklenmiş demek."
+        },
+        {
+          "wrong": "I look forward to hear from you.",
+          "right": "I look forward to hearing from you.",
+          "note_tr": "[en:look forward to] + [en:-ing]."
+        },
+        {
+          "wrong": "Send me the report.",
+          "right": "Could you send me the report, please?",
+          "note_tr": "Dilbilgisi olarak doğru ama e-postada emir gibi, kaba durabilir; ricayı kibar kur."
+        },
+        {
+          "wrong": "Dear Mr Ali,",
+          "right": "Dear Mr Demir, / Hi Ali,",
+          "note_tr": "[en:Mr / Ms] soyadıyla kullanılır, ilk adla değil."
+        },
+        {
+          "wrong": "Respects, Ali",
+          "right": "Kind regards, Ali",
+          "note_tr": "[tr:Saygılarımla] birebir çevrilmez; [en:Kind regards] ya da [en:Best regards] kullan."
+        },
+        {
+          "wrong": "Thanks for your helps.",
+          "right": "Thanks for your help.",
+          "note_tr": "[en:help] sayılamaz, [en:-s] almaz."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "q": "Formal greeting to a client you don't know:",
+          "options": [
+            "Hey!",
+            "Dear Mr Aksoy,",
+            "Hello my friend,"
+          ],
+          "answer": 1,
+          "explain_tr": "Resmî: [en:Dear Mr/Ms] + soyadı."
+        },
+        {
+          "type": "choice",
+          "q": "I look forward to ___ from you.",
+          "options": [
+            "hear",
+            "hearing",
+            "heard"
+          ],
+          "answer": 1,
+          "explain_tr": "[en:look forward to] + [en:-ing]."
+        },
+        {
+          "type": "choice",
+          "q": "Which is the most polite?",
+          "options": [
+            "Send the file now.",
+            "You must send the file.",
+            "Could you send the file, please?"
+          ],
+          "answer": 2,
+          "explain_tr": "[en:Could you … please?] kibar ricadır."
+        },
+        {
+          "type": "choice",
+          "q": "You are writing to a colleague you know well. Which greeting is best?",
+          "options": [
+            "Dear Sir or Madam,",
+            "Hi Mert,",
+            "To whom it may concern,"
+          ],
+          "answer": 1,
+          "explain_tr": "Tanıdığın bir iş arkadaşına samimi selamlama: [en:Hi] + ad."
+        },
+        {
+          "type": "choice",
+          "q": "___, I can't attend the meeting on Friday.",
+          "options": [
+            "Unfortunately",
+            "Fortunately",
+            "Hopefully"
+          ],
+          "answer": 0,
+          "explain_tr": "Kötü haber → [en:Unfortunately] (maalesef)."
+        },
+        {
+          "type": "fill",
+          "q": "Please find ___ the presentation. (ekte)",
+          "answer": [
+            "attached"
+          ],
+          "explain_tr": "[en:Please find attached …]"
+        },
+        {
+          "type": "fill",
+          "q": "I'm writing ___ confirm the order.",
+          "answer": [
+            "to"
+          ],
+          "explain_tr": "[en:writing to] + fiil."
+        },
+        {
+          "type": "fill",
+          "q": "Sorry ___ the late reply.",
+          "answer": [
+            "for",
+            "about"
+          ],
+          "explain_tr": "[en:Sorry for …] ([en:Sorry about …] da olur)."
+        },
+        {
+          "type": "fill",
+          "q": "Best ___, Ali (kapanış)",
+          "answer": [
+            "regards",
+            "wishes"
+          ],
+          "explain_tr": "[en:Best regards] / [en:Best wishes]."
+        },
+        {
+          "type": "fill",
+          "q": "Thanks ___ advance for your help.",
+          "answer": [
+            "in"
+          ],
+          "explain_tr": "[en:Thanks in advance] = şimdiden teşekkürler."
+        },
+        {
+          "type": "fix",
+          "q": "I am writing for to inform you about the delay.",
+          "answer": [
+            "I am writing to inform you about the delay.",
+            "I'm writing to inform you about the delay."
+          ],
+          "explain_tr": "[en:for] fazla."
+        },
+        {
+          "type": "fix",
+          "q": "Please let me know if you have any question.",
+          "answer": [
+            "Please let me know if you have any questions."
+          ],
+          "explain_tr": "[en:any] + sayılabilen çoğul: [en:questions]."
+        },
+        {
+          "type": "fix",
+          "q": "Thanks for your helps.",
+          "answer": [
+            "Thanks for your help.",
+            "Thank you for your help."
+          ],
+          "explain_tr": "[en:help] sayılamaz, [en:-s] almaz."
+        },
+        {
+          "type": "fix",
+          "q": "I look forward to see you on Monday.",
+          "answer": [
+            "I look forward to seeing you on Monday."
+          ],
+          "explain_tr": "[en:look forward to] + [en:-ing]: [en:seeing]."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "Kibar bir ricaya çevir ([en:Could you …] ile başla)",
+          "q": "Send me the report.",
+          "answer": [
+            "Could you send me the report, please?",
+            "Could you please send me the report?",
+            "Could you send me the report?"
+          ],
+          "explain_tr": "Emir yerine [en:Could you …?] kullan."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "Kibar bir ricaya çevir ([en:Would it be possible to …] ile başla)",
+          "q": "Move the meeting to Thursday.",
+          "answer": [
+            "Would it be possible to move the meeting to Thursday?",
+            "Would it be possible to move the meeting to Thursday, please?"
+          ],
+          "explain_tr": "[en:Would it be possible to] + yalın fiil …?"
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "[en:I've attached] ile yeniden yaz",
+          "q": "Please find attached the invoice.",
+          "answer": [
+            "I've attached the invoice."
+          ],
+          "explain_tr": "İki kalıp da aynı anlamdadır: dosyayı ekledim."
+        },
+        {
+          "type": "order",
+          "q": "Kelimeleri sıraya koy.",
+          "words": [
+            "I'm writing",
+            "to ask",
+            "about",
+            "your prices."
+          ],
+          "answer": [
+            "I'm writing to ask about your prices."
+          ],
+          "explain_tr": "[en:I'm writing to] + fiil: amacı söyler."
+        },
+        {
+          "type": "order",
+          "q": "Kelimeleri sıraya koy.",
+          "words": [
+            "Please",
+            "let me know",
+            "if you have",
+            "any questions"
+          ],
+          "answer": [
+            "Please let me know if you have any questions.",
+            "Let me know if you have any questions, please."
+          ],
+          "explain_tr": "Klasik kapanış cümlesi."
+        },
+        {
+          "type": "order",
+          "q": "Kelimeleri sıraya koy.",
+          "words": [
+            "I look forward",
+            "to hearing",
+            "from",
+            "you."
+          ],
+          "answer": [
+            "I look forward to hearing from you."
+          ],
+          "explain_tr": "[en:look forward to] + [en:-ing]."
+        },
+        {
+          "type": "match",
+          "q": "E-posta kalıplarını anlamlarıyla eşleştir.",
+          "pairs": [
+            [
+              "Please find attached…",
+              "Ekte … bulabilirsiniz."
+            ],
+            [
+              "I look forward to hearing from you.",
+              "Dönüşünüzü bekliyorum."
+            ],
+            [
+              "Sorry for the late reply.",
+              "Geç cevap için kusura bakmayın."
+            ],
+            [
+              "Thanks in advance.",
+              "Şimdiden teşekkürler."
+            ],
+            [
+              "Kind regards,",
+              "Saygılarımla,"
+            ]
+          ],
+          "explain_tr": "Bu kalıplar e-postalarda olduğu gibi kullanılır."
+        },
+        {
+          "type": "listen",
+          "text": "Could you send me the updated price list by Friday?",
+          "answer": [
+            "Could you send me the updated price list by Friday?"
+          ],
+          "explain_tr": "Kibar rica: [en:Could you] + yalın fiil …?"
+        },
+        {
+          "type": "listen",
+          "text": "I'm writing to confirm our meeting on Tuesday morning.",
+          "answer": [
+            "I'm writing to confirm our meeting on Tuesday morning."
+          ],
+          "explain_tr": "Amaç: [en:I'm writing to] + fiil."
+        }
+      ],
+      "practice": {
+        "focus": "writing and replying to short work emails: the learner explains (by speaking or typing) what they would write to ask for information, move a meeting or send a file, using email phrases",
+        "tasks": [
+          [
+            "Toplantıyı ertelemek için bir e-posta cümlesi kur",
+            "say how they would write an email to move a meeting"
+          ],
+          [
+            "Bir dosya isteyen kibar bir rica cümlesi kur",
+            "make a polite request for a file"
+          ]
+        ]
+      },
+      "sources": [
+        {
+          "title": "Unit 4: Starting and finishing emails",
+          "site": "British Council LearnEnglish (English for emails)",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/business/english-emails/unit-4-starting-finishing-emails"
+        },
+        {
+          "title": "An email to ask a colleague to do something (A2 writing)",
+          "site": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/writing/a2/email-ask-colleague-do-something"
+        },
+        {
+          "title": "Unit 9: Email etiquette",
+          "site": "British Council LearnEnglish (English for emails)",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/business/english-emails/unit-9-email-etiquette"
+        }
+      ]
+    },
+    {
+      "id": "a2-work-phone",
+      "tags": [
+        "work"
+      ],
+      "title_tr": "Telefonda İngilizce",
+      "title_en": "Telephone English at work",
+      "categories": [
+        "word_choice",
+        "verb_form"
+      ],
+      "intro_tr": "Telefonda karşındakinin yüzünü görmediğin için hazır kalıplar çok işe yarar: kendini tanıtmak, kimi aradığını söylemek, beklemesini istemek, mesaj bırakmak, tekrar etmesini rica etmek. Türkçedeki [tr:Alo, ben Ali] gibi cümleler İngilizceye birebir çevrilmez; bu derste telefonda kullanılan doğal kalıpları öğreneceksin.",
+      "sections": [
+        {
+          "title_tr": "Arayan ve açan için kalıplar",
+          "text_tr": "Telefonda [en:I am Ali] yerine [en:This is Ali] ya da [en:It's Ali from …] denir. Kimi aradığını: [en:Could I speak to…?]. Bekletirken: [en:Hold on, please.] / [en:One moment, please.]. Yoksa: [en:I'm afraid she's not available. Can I take a message?]\n\nArayan kişi kendini tanıttıktan sonra hemen amacını söyler: [en:I'm calling about…]. Telefonu açan kişi aramayı başka birine bağlarken [en:I'll put you through.] der.\n\nTelefonu açarken [en:Good morning] ya da [en:Good afternoon] ile başlamak kibar ve profesyoneldir.",
+          "table": {
+            "head": [
+              "Durum",
+              "Kalıp"
+            ],
+            "rows": [
+              [
+                "Açarken",
+                "Good morning, ABC Software, Elif speaking."
+              ],
+              [
+                "Kendini tanıtmak",
+                "Hi, this is Ali from XYZ."
+              ],
+              [
+                "Birini istemek",
+                "Could I speak to Mr Yılmaz, please?"
+              ],
+              [
+                "Bekletmek",
+                "One moment, please. I'll put you through."
+              ],
+              [
+                "Mesaj",
+                "Can I take a message? / Could you ask him to call me back?"
+              ]
+            ]
+          },
+          "examples": [
+            {
+              "en": "I'm calling about your order.",
+              "tr": "Siparişiniz hakkında arıyorum."
+            },
+            {
+              "en": "She's in a meeting. Can I take a message?",
+              "tr": "Toplantıda. Mesajınızı alabilir miyim?"
+            },
+            {
+              "en": "Could you ask her to call me back?",
+              "tr": "Beni geri aramasını söyleyebilir misiniz?"
+            },
+            {
+              "en": "I'll put you through to the sales department.",
+              "tr": "Sizi satış departmanına bağlıyorum."
+            }
+          ]
+        },
+        {
+          "title_tr": "Anlamadığında",
+          "text_tr": "Anlamamak normaldir; kibarca tekrar istemek profesyonelliktir. [en:Sorry, could you repeat that?], [en:Could you speak a bit more slowly, please?], [en:Sorry, the line is bad.]\n\nİsim ya da e-posta adresi alırken harf harf söylemesini iste: [en:Could you spell that, please?] E-posta adreslerinde [key:@] işareti [en:at], nokta [en:dot] diye okunur: [en:ali.demir@abc.com] = [en:ali dot demir at abc dot com].\n\nAnladığını tekrar ederek kontrol etmek de iyi bir yöntemdir: [en:Did you say Tuesday or Thursday?]",
+          "examples": [
+            {
+              "en": "Sorry, I didn't catch your name.",
+              "tr": "Pardon, adınızı anlayamadım."
+            },
+            {
+              "en": "Could you spell that for me?",
+              "tr": "Bunu benim için harf harf söyler misiniz?"
+            },
+            {
+              "en": "Let me check that I have the right number.",
+              "tr": "Numarayı doğru aldığımı kontrol edeyim."
+            },
+            {
+              "en": "Could you speak a bit more slowly, please?",
+              "tr": "Biraz daha yavaş konuşabilir misiniz lütfen?"
+            }
+          ]
+        },
+        {
+          "title_tr": "Mesaj bırakmak ve almak",
+          "text_tr": "Aradığın kişi yoksa mesaj bırakırsın: adını, şirketini, numaranı ve neden aradığını söyle. Numaraları tek tek ve yavaş söyle. Telefon numaralarında [key:0] rakamı genellikle [en:oh] diye okunur; İngiliz İngilizcesinde yan yana iki aynı rakam [en:double] ile söylenebilir: 55 = [en:double five].\n\nMesajı alan kişi bilgiyi tekrar ederek kontrol eder: [en:So that's Ali Demir from XYZ, and your number is…] Görüşmenin sonunda [en:Thanks for calling.] ve [en:Have a nice day.] sık kullanılır.",
+          "table": {
+            "head": [
+              "Arayan",
+              "Telefonu açan"
+            ],
+            "rows": [
+              [
+                "Could I leave a message?",
+                "Can I take a message?"
+              ],
+              [
+                "Could you tell him I called?",
+                "Who's calling, please?"
+              ],
+              [
+                "My number is …",
+                "Could you spell your name, please?"
+              ],
+              [
+                "Could you ask her to call me back?",
+                "I'll ask her to call you back."
+              ]
+            ]
+          },
+          "examples": [
+            {
+              "en": "Could I leave a message for Mr Yılmaz?",
+              "tr": "Yılmaz Bey'e bir mesaj bırakabilir miyim?"
+            },
+            {
+              "en": "I'm sorry, he's out of the office today.",
+              "tr": "Kusura bakmayın, bugün ofiste değil."
+            },
+            {
+              "en": "Could you tell her that Ali called?",
+              "tr": "Ali'nin aradığını ona söyleyebilir misiniz?"
+            }
+          ]
+        },
+        {
+          "title_tr": "Türkçeden farkı ve sık hatalar",
+          "text_tr": "Türkçede telefonu çoğu zaman [tr:Alo?] diye açarız. İş telefonunda İngilizcede şirket adı ve kendi adınla açman beklenir: [en:Good morning, ABC Software, Elif speaking.]\n\n[tr:Ben Ali] cümlesini [en:I am Ali] diye çevirme; telefonda [en:This is Ali.] ya da [en:It's Ali.] denir. Karşındakinin kim olduğunu sorarken [en:Who are you?] kaba durur; [en:Who's calling, please?] ya da [en:May I ask who's calling?] kullan.\n\n[tr:Bekleyin] için [en:Wait me] denmez. Doğru kalıplar: [en:Hold on, please.] ve [en:One moment, please.] Telefonda [tr:duymak] için [en:listen] değil [en:hear] kullanılır: [en:I can't hear you.] Söz verirken [en:will] kullan: [en:I'll call you back.]\n\nTelefonu kapatırken [en:Bye.] yeterlidir; [en:Goodbye.] biraz daha resmîdir.",
+          "examples": [
+            {
+              "en": "Good afternoon, Kaya Logistics, Mert speaking.",
+              "tr": "İyi günler, Kaya Lojistik, ben Mert."
+            },
+            {
+              "en": "May I ask who's calling?",
+              "tr": "Kiminle görüşüyorum acaba?"
+            },
+            {
+              "en": "Sorry, I can't hear you very well.",
+              "tr": "Pardon, sizi pek iyi duyamıyorum."
+            }
+          ]
+        },
+        {
+          "title_tr": "💼 İş hayatında",
+          "work": true,
+          "text_tr": "Önemli bir aramadan önce kısa notlar hazırla: neden arıyorsun, hangi bilgileri isteyeceksin? [en:I'm calling about…] ile hemen amacını söyle.\n\nBir tarih ya da saati teyit ederken bilgiyi tekrar et: [en:So, the meeting is on Monday at ten, right?] Aramanın sonunda bir sonraki adımı netleştir: [en:I'll send you an email with the details.]\n\nKonuşmayı kibarca bitirmek için: [en:Thanks for your help. Bye.] ya da telefonu açan tarafsan [en:Thank you for calling. Have a nice day.]\n\nGörüşme sırasında not al: isim, numara, tarih ve yapılacak iş. Sonra kısa bir e-postayla konuşulanları yazılı hâle getirebilirsin: [en:As we discussed on the phone, …]",
+          "examples": [
+            {
+              "en": "I'm calling about the delivery date.",
+              "tr": "Teslim tarihiyle ilgili arıyorum."
+            },
+            {
+              "en": "So, the meeting is on Monday at ten, right?",
+              "tr": "Yani toplantı pazartesi saat onda, değil mi?"
+            },
+            {
+              "en": "I'll send you an email with the details.",
+              "tr": "Ayrıntıları size e-postayla göndereceğim."
+            },
+            {
+              "en": "Thank you for calling. Have a nice day.",
+              "tr": "Aradığınız için teşekkürler. İyi günler."
+            }
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "Hello, I am Ali.",
+          "right": "Hello, this is Ali.",
+          "note_tr": "Telefonda kendini genellikle [en:This is …] ile tanıtırsın; [en:I am Ali] daha çok yüz yüze tanışırken kullanılır."
+        },
+        {
+          "wrong": "Can I speak Mr Yılmaz?",
+          "right": "Could I speak to Mr Yılmaz, please?",
+          "note_tr": "[en:speak]'ten sonra [en:to] gerekir: [en:speak to someone]."
+        },
+        {
+          "wrong": "Wait me, please.",
+          "right": "Hold on, please. / One moment, please.",
+          "note_tr": "[en:wait me] yanlış; [en:wait for me] olurdu ama telefonda [en:hold on] denir."
+        },
+        {
+          "wrong": "I call you back later.",
+          "right": "I'll call you back later.",
+          "note_tr": "Söz/anlık karar → [en:will]."
+        },
+        {
+          "wrong": "Sorry, I can't listen you.",
+          "right": "Sorry, I can't hear you.",
+          "note_tr": "Sesi algılamak [en:hear]'dır; [en:listen] [tr:dinlemek] demektir ve [en:to] ister."
+        },
+        {
+          "wrong": "I'll put you to the sales department.",
+          "right": "I'll put you through to the sales department.",
+          "note_tr": "Telefonu birine bağlamak: [en:put someone through (to …)]."
+        },
+        {
+          "wrong": "Could you spell me your name?",
+          "right": "Could you spell your name for me?",
+          "note_tr": "[en:spell]'den sonra doğrudan [en:me] gelmez: [en:spell your name (for me)]."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "q": "On the phone: [en:Hi, ___ Ayşe from Koç Holding.]",
+          "options": [
+            "I am",
+            "this is",
+            "here is"
+          ],
+          "answer": 1,
+          "explain_tr": "Telefonda: [en:this is …]"
+        },
+        {
+          "type": "choice",
+          "q": "She's not here. Can I ___ a message?",
+          "options": [
+            "take",
+            "make",
+            "do"
+          ],
+          "answer": 0,
+          "explain_tr": "[en:take a message]."
+        },
+        {
+          "type": "choice",
+          "q": "Sorry, I didn't ___ that. Could you repeat it?",
+          "options": [
+            "catch",
+            "take",
+            "hold"
+          ],
+          "answer": 0,
+          "explain_tr": "[en:didn't catch] = duyamadım/anlayamadım."
+        },
+        {
+          "type": "choice",
+          "q": "Sorry, the line is bad. I can't ___ you.",
+          "options": [
+            "hear",
+            "listen",
+            "listen to"
+          ],
+          "answer": 0,
+          "explain_tr": "Hat kötü, ses gelmiyor → [en:hear]."
+        },
+        {
+          "type": "choice",
+          "q": "One moment, please. I'll ___ you through to the sales department.",
+          "options": [
+            "put",
+            "take",
+            "give"
+          ],
+          "answer": 0,
+          "explain_tr": "[en:put someone through] = telefonu birine bağlamak."
+        },
+        {
+          "type": "fill",
+          "q": "Could I speak ___ the manager, please?",
+          "answer": [
+            "to",
+            "with"
+          ],
+          "explain_tr": "[en:speak to]."
+        },
+        {
+          "type": "fill",
+          "q": "Hold ___, please. I'll put you through.",
+          "answer": [
+            "on"
+          ],
+          "explain_tr": "[en:Hold on] = bekleyin."
+        },
+        {
+          "type": "fill",
+          "q": "I'm calling ___ the invoice you sent.",
+          "answer": [
+            "about"
+          ],
+          "explain_tr": "[en:calling about …]"
+        },
+        {
+          "type": "fill",
+          "q": "Could you ask him to call me ___?",
+          "answer": [
+            "back"
+          ],
+          "explain_tr": "[en:call back] = geri aramak."
+        },
+        {
+          "type": "fill",
+          "q": "Could you ___ your surname, please? (harf harf söylemek)",
+          "answer": [
+            "spell"
+          ],
+          "explain_tr": "[en:spell] = harf harf söylemek."
+        },
+        {
+          "type": "fix",
+          "q": "Wait me one minute, please.",
+          "answer": [
+            "Wait for me one minute, please.",
+            "Wait one minute, please.",
+            "Wait a minute, please.",
+            "Hold on one minute, please.",
+            "Hold on a minute, please.",
+            "Hold on, please.",
+            "One moment, please.",
+            "One minute, please."
+          ],
+          "explain_tr": "[en:wait for me] / [en:hold on]."
+        },
+        {
+          "type": "fix",
+          "q": "I call you back in ten minutes.",
+          "answer": [
+            "I'll call you back in ten minutes.",
+            "I will call you back in ten minutes."
+          ],
+          "explain_tr": "Söz → [en:will]."
+        },
+        {
+          "type": "fix",
+          "q": "I will put you to the sales department.",
+          "answer": [
+            "I will put you through to the sales department."
+          ],
+          "explain_tr": "Telefonu bağlamak: [en:put someone through to …]"
+        },
+        {
+          "type": "fix",
+          "q": "I can't listen you very well.",
+          "answer": [
+            "I can't hear you very well."
+          ],
+          "explain_tr": "Sesi duymak → [en:hear]."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "Kibar bir soruya çevir ([en:Could I …] ile başla)",
+          "q": "I want to speak to Ms Aksoy.",
+          "answer": [
+            "Could I speak to Ms Aksoy, please?",
+            "Could I speak to Ms Aksoy?",
+            "Could I please speak to Ms Aksoy?",
+            "Could I speak with Ms Aksoy, please?",
+            "Could I speak with Ms Aksoy?"
+          ],
+          "explain_tr": "Telefonda birini isterken: [en:Could I speak to …, please?]"
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "Telefonda kendini tanıtır gibi yeniden yaz ([en:This is …] ile)",
+          "q": "I am Elif from ABC Software.",
+          "answer": [
+            "This is Elif from ABC Software."
+          ],
+          "explain_tr": "Telefonda [en:I am] yerine [en:this is] kullanılır."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "Kibar bir ricaya çevir ([en:Could you …] ile başla)",
+          "q": "Repeat that.",
+          "answer": [
+            "Could you repeat that, please?",
+            "Could you please repeat that?",
+            "Could you repeat that?"
+          ],
+          "explain_tr": "Emir yerine [en:Could you …?] kullan."
+        },
+        {
+          "type": "order",
+          "q": "Kelimeleri sıraya koy.",
+          "words": [
+            "Could I",
+            "speak to",
+            "Mr Demir,",
+            "please?"
+          ],
+          "answer": [
+            "Could I speak to Mr Demir, please?"
+          ],
+          "explain_tr": "[en:Could I speak to] + kişi, [en:please?]"
+        },
+        {
+          "type": "order",
+          "q": "Kelimeleri sıraya koy.",
+          "words": [
+            "I'm",
+            "calling",
+            "about",
+            "the invoice",
+            "you sent."
+          ],
+          "answer": [
+            "I'm calling about the invoice you sent."
+          ],
+          "explain_tr": "Amaç: [en:I'm calling about …]"
+        },
+        {
+          "type": "order",
+          "q": "Kelimeleri sıraya koy.",
+          "words": [
+            "She's",
+            "in a meeting.",
+            "Can I",
+            "take a message?"
+          ],
+          "answer": [
+            "She's in a meeting. Can I take a message?"
+          ],
+          "explain_tr": "Kişi yoksa: [en:Can I take a message?]"
+        },
+        {
+          "type": "match",
+          "q": "Telefon kalıplarını anlamlarıyla eşleştir.",
+          "pairs": [
+            [
+              "Hold on, please.",
+              "Hatta kalın lütfen."
+            ],
+            [
+              "I'll put you through.",
+              "Sizi bağlıyorum."
+            ],
+            [
+              "Can I take a message?",
+              "Mesajınızı alabilir miyim?"
+            ],
+            [
+              "Could you call me back?",
+              "Beni geri arayabilir misiniz?"
+            ],
+            [
+              "I didn't catch that.",
+              "Tam anlayamadım."
+            ]
+          ],
+          "explain_tr": "Bu kalıplar telefonda olduğu gibi kullanılır."
+        },
+        {
+          "type": "listen",
+          "text": "Could you ask her to call me back this afternoon?",
+          "answer": [
+            "Could you ask her to call me back this afternoon?"
+          ],
+          "explain_tr": "[en:ask someone to call back] = birinden geri aramasını istemek."
+        },
+        {
+          "type": "listen",
+          "text": "I'm calling about the meeting on Thursday morning.",
+          "answer": [
+            "I'm calling about the meeting on Thursday morning."
+          ],
+          "explain_tr": "Amaç: [en:I'm calling about …]"
+        }
+      ],
+      "practice": {
+        "focus": "a business phone call: the AI is a receptionist or a client; the learner introduces themselves, asks for someone, leaves a message and asks the other person to repeat or spell things",
+        "tasks": [
+          [
+            "Birini iste ve mesaj bırak",
+            "ask for someone and leave a message"
+          ],
+          [
+            "Anlamadığın bir şeyi tekrar ettir",
+            "ask the other person to repeat or spell something"
+          ]
+        ]
+      },
+      "sources": [
+        {
+          "title": "Leaving a message (A2 listening)",
+          "site": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/listening/a2/leaving-message"
+        },
+        {
+          "title": "A phone call from a customer (B1 listening)",
+          "site": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/listening/b1/phone-call-customer"
+        },
+        {
+          "title": "Telephoning",
+          "site": "Cambridge Dictionary Grammar",
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/telephoning"
+        }
+      ]
+    }
+  ]
+}

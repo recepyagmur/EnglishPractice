@@ -1,0 +1,235 @@
+{
+  "type": "paragraph",
+  "sources": [
+    {"title": "2013-YDS Örnek Sorular (Almanca, Fransızca, İngilizce)", "site": "ÖSYM", "url": "https://osym.gov.tr/2013yds-ornek-sorular-almanca-fransizca-ingilizce"},
+    {"title": "C1 reading | LearnEnglish", "site": "British Council", "url": "https://learnenglish.britishcouncil.org/skills/reading/c1-reading"},
+    {"title": "Linking words and expressions", "site": "Cambridge Dictionary Grammar", "url": "https://dictionary.cambridge.org/grammar/british-grammar/linking-words-and-expressions"},
+    {"title": "C1 Advanced exam format", "site": "Cambridge English", "url": "https://www.cambridgeenglish.org/exams-and-tests/advanced/exam-format/"}
+  ],
+  "items": [
+    {
+      "id": "pcm-001",
+      "passage": "----. During deep sleep, the brain replays the day's experiences and strengthens the connections between the neurons that encode them. Researchers have shown that people who sleep after learning a list of words recall more of them than those who stay awake for the same period. This effect is particularly strong for information that the learner considers important. For this reason, students who revise late into the night and then sleep only briefly may be undermining the very learning they are trying to secure.",
+      "options": [
+        "Despite decades of research, scientists still doubt whether sleep has any effect on how memories are formed.",
+        "Insomnia, the most common sleep disorder, is usually treated with a combination of medication and therapy.",
+        "Sleep is now understood to play an active role in consolidating memory, not merely in resting the body.",
+        "The replay of experiences, however, occurs only while the sleeper is dreaming, not during deep sleep.",
+        "These findings suggest that caffeine should be avoided in the hours before going to bed."
+      ],
+      "answer": 2,
+      "explain_tr": "Paragrafın tamamı uykunun hafızayı pekiştirmedeki rolünü anlatıyor: [en:during deep sleep the brain replays…], [en:researchers have shown…]. Giriş cümlesi bu konuyu açmalı; C seçeneği [en:consolidating memory] ifadesiyle tam bunu yapıyor. A, araştırmacıların gösterdiği sonuçla çelişiyor; E'deki [en:these findings] ise paragrafın başında hiçbir şeye gönderme yapamaz.",
+      "tags": ["health", "opening sentence"]
+    },
+    {
+      "id": "pcm-002",
+      "passage": "Economists have long debated whether raising the minimum wage reduces employment. Standard theory predicts that if labour becomes more expensive, employers will hire fewer workers. ----. In those studies, fast-food restaurants in a state that had raised its minimum wage employed no fewer people than similar restaurants across the border, where wages had not changed. Critics have questioned the methods used, but the evidence has forced many economists to accept that modest increases do not automatically cost jobs.",
+      "options": [
+        "However, a series of influential studies in the 1990s found little evidence of such an effect.",
+        "Such studies, therefore, confirmed that employment falls sharply whenever wages are raised.",
+        "A national minimum wage was introduced in the United States in 1938, during the Great Depression.",
+        "Employers in such cases usually respond by reducing the number of people they hire.",
+        "Fast-food restaurants are generally among the largest employers of young and unskilled workers."
+      ],
+      "answer": 0,
+      "explain_tr": "Boşluktan sonraki cümle [en:in those studies] diye başlıyor; dolayısıyla boşlukta araştırmalardan söz edilmeli ve bu araştırmalar standart teoriye ters bir sonuç vermeli ([en:however]). A seçeneği tam bunu yapıyor. B'de [en:such studies] gönderme yapacak bir şey bulamaz ve sonraki cümleyle çelişir; D ise bir önceki cümleyi tekrar eder.",
+      "tags": ["economics", "middle sentence"]
+    },
+    {
+      "id": "pcm-003",
+      "passage": "Coral reefs occupy less than one per cent of the ocean floor, yet they support around a quarter of all marine species. The corals themselves depend on tiny algae that live within their tissues and supply them with energy through photosynthesis. When the water becomes too warm, the corals expel these algae and turn white, a process known as bleaching. A bleached coral is not dead, and it can recover if temperatures fall quickly enough. ----.",
+      "options": [
+        "Bleaching, in other words, is a sign that the water around the reef has become unusually cold.",
+        "This is why reefs are home to such a large proportion of the world's marine species.",
+        "Algae are also harvested in several countries as a source of food, fuel and fertiliser.",
+        "Scuba diving has become one of the most popular tourist activities in tropical waters.",
+        "If the heat persists for several weeks, however, the coral starves and the reef may be lost for decades."
+      ],
+      "answer": 4,
+      "explain_tr": "Önceki cümle ağarmış mercanın ölmediğini, sıcaklık düşerse toparlanabileceğini söylüyor. Doğal devam bunun zıddı koşul: sıcaklık sürerse mercan aç kalır ([en:if the heat persists, however]). A, ağarmanın soğuk sudan kaynaklandığını söyleyerek paragrafla çelişiyor; B'deki [en:this is why] ise önceki cümleye bağlanmıyor ve ilk cümledeki bilgiyi tekrar ediyor.",
+      "tags": ["environment", "closing sentence"]
+    },
+    {
+      "id": "pcm-004",
+      "passage": "----. Before its invention, books were copied by hand, a process so slow and expensive that only monasteries, universities and wealthy individuals could afford them. Within fifty years of Gutenberg's first press, millions of volumes had been produced across Europe, and the price of a book fell dramatically. Ideas that had once travelled slowly, if at all, could now be reproduced and spread in a matter of weeks. Many historians therefore regard the press as a precondition for the Reformation and the scientific revolution that followed.",
+      "options": [
+        "The Reformation began in 1517, when Martin Luther published his ninety-five theses in Wittenberg.",
+        "Few inventions have changed the way knowledge circulates as profoundly as the printing press.",
+        "Hand-copied manuscripts, however, remained far more accurate than the earliest printed books.",
+        "The telegraph allowed news to cross continents in minutes rather than weeks.",
+        "Gutenberg himself made little money from his work, having lost control of his workshop to a creditor."
+      ],
+      "answer": 1,
+      "explain_tr": "İkinci cümle [en:before its invention] ile başlıyor; [en:its] bir icada gönderme yapmalı ve paragrafın geri kalanı matbaayı anlatıyor. B seçeneği matbaayı bilginin dolaşımını değiştiren icat olarak tanıtıyor. D'de telgraf bir icat ama sonraki cümle elle kopyalanan kitaplardan ve Gutenberg'den söz ettiği için uymaz; A ise paragrafın en sonunda gelecek bir bilgiyi başa taşıyor.",
+      "tags": ["history", "opening sentence"]
+    },
+    {
+      "id": "pcm-005",
+      "passage": "The value of homework has been questioned for as long as schools have assigned it. Supporters argue that it reinforces what has been taught and teaches children to work independently. ----. In primary schools, in particular, the amount of homework completed seems to have almost no relationship with later achievement. Among teenagers the picture is somewhat different, and moderate amounts of homework do appear to raise test scores. The debate, then, is less about whether homework works than about how much of it, and at what age, is appropriate.",
+      "options": [
+        "Studies confirm that homework is equally effective at every stage of a child's schooling.",
+        "Such reinforcement, in other words, helps pupils remember what they have learned in class.",
+        "Opponents of standardised testing make a similar argument about end-of-year examinations.",
+        "The research evidence, however, offers only limited support for these claims.",
+        "This is why many parents complain about the time their children spend on it each evening."
+      ],
+      "answer": 3,
+      "explain_tr": "Önceki cümle ev ödevini savunanların iddialarını, sonraki cümle ise ilkokulda ödevin başarıyla neredeyse ilişkisiz olduğunu söylüyor. Arada bir dönüş olmalı: [en:the research evidence, however, offers only limited support for these claims]; [en:these claims] savunucuların iddialarına gönderme yapar. A, sonraki cümlelerle çelişiyor; B önceki cümleyi tekrar ediyor; E'deki [en:this is why] bağlanacak bir neden bulamıyor.",
+      "tags": ["education", "middle sentence"]
+    },
+    {
+      "id": "pcm-006",
+      "passage": "Facial recognition systems are now used to unlock phones, check passports and monitor public spaces. The technology works by measuring the distances between key points on a face and comparing the result with images stored in a database. Its accuracy has improved rapidly, but it remains uneven: error rates are consistently higher for women and for people with darker skin, largely because the systems were trained on unrepresentative data. Several cities have responded by banning police use of the technology altogether. ----.",
+      "options": [
+        "As a result, error rates are now identical for every group of users, regardless of skin colour.",
+        "Passports, in contrast, are still checked by hand at the majority of international airports.",
+        "Others, however, have chosen to regulate it instead, requiring audits and human review before any arrest.",
+        "The technology compares the measurements of a face with images held in a database.",
+        "Smartphone sales have fallen slightly in Europe over the past two years, according to analysts."
+      ],
+      "answer": 2,
+      "explain_tr": "Önceki cümle bazı şehirlerin teknolojiyi tamamen yasakladığını söylüyor; [en:several cities] ifadesinden sonra [en:others, however] ile farklı bir tepki (yasaklamak yerine düzenlemek) gelmesi doğal. A, hata oranlarının artık eşit olduğunu söyleyerek paragrafla çelişiyor; D ise teknolojinin nasıl çalıştığını tekrar ediyor ve sonuç cümlesi olamaz.",
+      "tags": ["technology", "closing sentence"]
+    },
+    {
+      "id": "pcm-007",
+      "passage": "----. In a classic experiment, participants who believed they were alone with a person having a seizure went for help in the great majority of cases, whereas those who thought four others could also hear the emergency often did nothing. The psychologists who designed the study explained the result in terms of diffusion of responsibility: when many people are present, each assumes that someone else will act. Later research has refined the picture, showing that the effect weakens when the danger is obvious or when the bystanders know one another.",
+      "options": [
+        "Contrary to common belief, a person in trouble is not always safer in a crowd.",
+        "Crowds tend to react more quickly to emergencies than isolated individuals do.",
+        "In this experiment, however, the participants were all trained medical staff.",
+        "Seizures are among the most common neurological emergencies treated in hospitals.",
+        "Such findings have led many universities to review their research ethics procedures."
+      ],
+      "answer": 0,
+      "explain_tr": "Boşluktan sonra bir deney anlatılıyor: insan yalnızken yardım ediyor, başkalarının da duyduğunu sanınca etmiyor. Giriş cümlesi bu bulguyu genel bir iddia olarak sunmalı: kalabalık içinde olmak her zaman daha güvenli değil. B, deneyin sonucuyla çelişiyor. C'deki [en:in this experiment] ve E'deki [en:such findings] paragrafın başında gönderme yapacak bir şey bulamaz.",
+      "tags": ["psychology", "opening sentence"]
+    },
+    {
+      "id": "pcm-008",
+      "passage": "Antibiotics transformed medicine in the twentieth century, turning once-fatal infections into minor inconveniences. Their success, however, has encouraged their overuse, both in hospitals and in agriculture, where they are routinely added to animal feed. ----. The bacteria that survive a course of treatment are, by definition, the ones that carry some resistance, and they pass this advantage on to their descendants. Infections that were easily cured a generation ago are now becoming difficult, and in some cases impossible, to treat. Unless new drugs are developed and existing ones used more carefully, the era of effective antibiotics may be drawing to a close.",
+      "options": [
+        "As a result, most farm animals are now raised entirely without the use of antibiotics.",
+        "Bacteria, in contrast, reproduce far more slowly than viruses and are easier to control.",
+        "Antibiotics are also widely used in farming to make animals grow faster.",
+        "The first antibiotic, penicillin, was discovered by accident in a London laboratory in 1928.",
+        "Every time an antibiotic is used, it acts as a selective pressure on the bacterial population."
+      ],
+      "answer": 4,
+      "explain_tr": "Sonraki cümle [en:the bacteria that survive a course of treatment] diyerek direnci taşıyan bakterileri anlatıyor; boşlukta antibiyotik kullanımının bakteriler üzerinde seçici bir baskı oluşturduğu söylenmeli. E bunu tam olarak yapıyor. C, bir önceki cümledeki hayvan yemi bilgisini tekrar ediyor; A ise aşırı kullanım anlatılırken hayvanların artık antibiyotiksiz yetiştirildiğini söyleyerek çelişiyor.",
+      "tags": ["science", "middle sentence"]
+    },
+    {
+      "id": "pcm-009",
+      "passage": "Loneliness is increasingly described as a public health problem rather than a private misfortune. Large surveys in Europe and North America suggest that a substantial proportion of adults feel lonely much of the time, and that the figure is highest not among the elderly, as is often assumed, but among people under thirty. The health consequences are measurable: prolonged loneliness is associated with higher blood pressure, weaker immune function and an increased risk of early death. ----.",
+      "options": [
+        "Older people, as the surveys confirm, are the group most seriously affected by it.",
+        "Some governments have therefore begun to treat it as a policy matter, funding community programmes.",
+        "Blood pressure, however, can usually be controlled with regular exercise and a balanced diet.",
+        "Loneliness is, in other words, a private matter that concerns no one but the individual.",
+        "Surveys of this kind are usually conducted by telephone or through online questionnaires."
+      ],
+      "answer": 1,
+      "explain_tr": "Paragraf yalnızlığın özel değil, bir halk sağlığı sorunu olduğunu kuruyor ve sağlık sonuçlarını sayıyor. Kapanış cümlesi bu çizgiyi sonuca bağlamalı: hükümetlerin bunu bir politika meselesi olarak ele alması ([en:therefore]). A, yaşlıların en çok etkilenen grup olduğunu söyleyerek ikinci cümleyle çelişiyor; D ise ilk cümlenin tam tersini savunuyor.",
+      "tags": ["society", "closing sentence"]
+    },
+    {
+      "id": "pcm-010",
+      "passage": "----. Office occupancy in major cities has stayed well below its 2019 level, and the cafés, shops and transport systems that depended on commuters have suffered accordingly. Landlords have responded by converting unused office space into flats, though the cost of doing so is often prohibitive. Some economists see the change as a temporary adjustment that will reverse as employers insist on a return to the office. Others believe that a permanent shift has taken place and that city centres will have to find a new purpose.",
+      "options": [
+        "Remote working has proved a short-lived experiment that few companies still permit.",
+        "Commuting by train is generally cheaper than driving into a city centre and parking there.",
+        "This explains why so many office workers have chosen to move to smaller towns.",
+        "The rise of remote working has had consequences that reach far beyond the individual employee.",
+        "Converting empty offices into flats has become a common response among city landlords."
+      ],
+      "answer": 3,
+      "explain_tr": "İkinci cümle ofis doluluk oranının 2019 seviyesinin altında kaldığını, esnaf ve ulaşımın bundan etkilendiğini anlatıyor; paragrafın geri kalanı uzaktan çalışmanın şehir merkezlerine etkisini tartışıyor. D bu etkileri genel bir cümleyle tanıtıyor. A, uzaktan çalışmanın bittiğini söyleyerek sonraki cümleyle çelişiyor; C'deki [en:this] paragraf başında gönderme yapacak bir şey bulamıyor; E ise üçüncü cümleyi tekrar ediyor.",
+      "tags": ["economics", "opening sentence"]
+    },
+    {
+      "id": "pcm-011",
+      "passage": "Rewilding, the practice of returning land to a wilder state by reintroducing lost species, has moved from the fringes of conservation to its mainstream. The most famous example is the return of wolves to Yellowstone National Park in 1995. ----. With fewer elk grazing along the rivers, willows and aspens recovered, which in turn brought back beavers, songbirds and fish. Critics argue that the story has been simplified and that other factors, such as drought and hunting, also played a role. Even so, the Yellowstone case has inspired similar projects across Europe.",
+      "options": [
+        "Elk numbers nevertheless continued to rise steadily after the wolves arrived.",
+        "Wolves, however, were never native to the region and had to be brought in from Canada.",
+        "The wolves did more than reduce the elk population; they changed where and how the elk grazed.",
+        "Beavers build dams that create ponds and slow the flow of rivers through the park.",
+        "Rewilding projects are also under way in Scotland, Portugal and the Netherlands."
+      ],
+      "answer": 2,
+      "explain_tr": "Boşluktan sonraki cümle [en:with fewer elk grazing along the rivers] diyor; yani boşlukta kurtların geyiklerin sayısını ve otlama biçimini değiştirdiği söylenmeli. C bu bağlantıyı kuruyor. A, geyik sayısının artmaya devam ettiğini söyleyerek çelişiyor; B ise kurtların bölgeye yabancı olduğunu söyleyerek [en:return] ve [en:lost species] ifadeleriyle çelişiyor.",
+      "tags": ["environment", "middle sentence"]
+    },
+    {
+      "id": "pcm-012",
+      "passage": "The Silk Road was never a single road but a shifting network of routes that linked China with the Mediterranean for more than a thousand years. Silk gave the network its name, yet it was only one of many goods carried along it; paper, spices, glass and horses travelled in both directions. Merchants rarely covered the whole distance themselves, passing their goods from one trading post to the next. Ideas moved with the goods: Buddhism reached China along these routes, and Chinese techniques for making paper eventually arrived in Europe the same way. ----.",
+      "options": [
+        "The exchange, then, was as much cultural as commercial, and its effects outlasted the trade itself.",
+        "Silk, in fact, was the only product that merchants were permitted to carry along the routes.",
+        "Most merchants, as a result, travelled the full distance from China to the Mediterranean.",
+        "These modern railways now follow many of the same routes across the deserts of Central Asia.",
+        "Paper money, by contrast, was not widely used in Europe until the seventeenth century."
+      ],
+      "answer": 0,
+      "explain_tr": "Paragraf İpek Yolu'nda malların yanı sıra fikirlerin (Budizm, kâğıt yapımı) de taşındığını anlatıyor. Kapanış cümlesi bunu özetlemeli: alışveriş ticari olduğu kadar kültüreldi ([en:then]). B, ipeğin tek ürün olduğunu söyleyerek ikinci cümleyle çelişiyor; C ise tüccarların tüm yolu kat ettiğini söyleyerek üçüncü cümleyle çelişiyor; D'deki [en:these modern railways] paragrafta gönderme yapacak bir demiryolu bulamaz.",
+      "tags": ["history", "closing sentence"]
+    },
+    {
+      "id": "pcm-013",
+      "passage": "----. Patients given sugar pills frequently report less pain, better sleep or improved mood, and these changes are not merely imagined: brain scans show that a placebo can trigger the release of the body's own pain-relieving chemicals. The effect is stronger when the treatment is expensive, when it is given by a confident doctor, or when it involves an injection rather than a tablet. For this reason, every new drug must be tested against a placebo before its real benefit can be known.",
+      "options": [
+        "Sugar pills, as doctors have long known, have no measurable effect on patients at all.",
+        "Injections are generally more painful than tablets and should be avoided where possible.",
+        "This is why most clinical trials now take place in several countries at the same time.",
+        "Such tests, however, are expensive and can take many years to complete.",
+        "The placebo effect is one of the most puzzling and best-documented phenomena in medicine."
+      ],
+      "answer": 4,
+      "explain_tr": "Paragraf şeker haplarının gerçek etkilerini, beyin taramalarını ve ilaç testlerinde plasebonun önemini anlatıyor; giriş cümlesi plasebo etkisini tanıtmalı. A, şeker haplarının hiçbir etkisi olmadığını söyleyerek ikinci cümleyle çelişiyor. C'deki [en:this is why] ve D'deki [en:such tests] paragrafın ilk cümlesinde gönderme yapacak bir şey bulamaz.",
+      "tags": ["health", "opening sentence"]
+    },
+    {
+      "id": "pcm-014",
+      "passage": "Honeybees have one of the most sophisticated communication systems known outside human language. When a forager returns to the hive after finding a rich source of nectar, she performs a repeated figure-of-eight movement known as the waggle dance. ----. The angle of the dance relative to the vertical indicates the direction of the food in relation to the sun, while its duration indicates the distance. Other bees follow the dancer closely and then fly out to the location she has described. The system was decoded in the 1940s by Karl von Frisch, who later received a Nobel Prize for the discovery.",
+      "options": [
+        "The dance, however, tells the other bees nothing about where the food can be found.",
+        "The dance is not simply a display of excitement; it encodes precise information.",
+        "Pheromones, by contrast, are chemical signals that bees use to warn the hive of danger.",
+        "Nectar is converted into honey and stored in the wax cells of the comb.",
+        "Von Frisch, therefore, was awarded the prize for this work in 1973."
+      ],
+      "answer": 1,
+      "explain_tr": "Boşluktan sonra dansın açısının yönü, süresinin mesafeyi gösterdiği anlatılıyor; boşluk dansın kesin bilgi içerdiğini söylemeli. B tam bu geçişi sağlıyor. A, dansın yer hakkında bilgi vermediğini söyleyerek sonraki cümleyle çelişiyor; C'deki [en:by contrast] karşılaştıracak bir şey bulamıyor ve feromonlara geçerek akışı bölüyor; E'deki [en:therefore] bir nedene bağlanmıyor ve son cümleyi tekrar ediyor.",
+      "tags": ["science", "middle sentence"]
+    },
+    {
+      "id": "pcm-015",
+      "passage": "For much of the twentieth century, parents were warned that raising a child in two languages would confuse it and delay its speech. Research over the past three decades has overturned this view. Bilingual children reach the main milestones of language development at the same age as their monolingual peers, and although their vocabulary in each language may be slightly smaller, their combined vocabulary is usually larger. There is also evidence that switching between languages strengthens the ability to ignore distractions and to shift attention. ----.",
+      "options": [
+        "Parents, accordingly, are still advised to speak only one language at home.",
+        "Monolingual children, by contrast, usually learn to speak several months earlier.",
+        "Most children begin to produce their first words at around twelve months of age.",
+        "The old advice, in short, was not merely unhelpful but the opposite of the truth.",
+        "Attention, for this reason, develops more slowly in children who grow up hearing two languages."
+      ],
+      "answer": 3,
+      "explain_tr": "Paragraf, iki dilli çocukların geri kaldığı yönündeki eski uyarının araştırmalarla çürütüldüğünü anlatıyor. Kapanış cümlesi bunu toparlamalı: eski tavsiye yararsız olmakla kalmıyor, gerçeğin tam tersiydi ([en:in short]). A, B ve E paragrafın bulgularıyla çelişiyor; C ise konuyla ilgisiz genel bir bilgi veriyor.",
+      "tags": ["education", "closing sentence"]
+    },
+    {
+      "id": "pcm-016",
+      "passage": "Electric vehicles produce no exhaust emissions, but their batteries raise environmental questions of their own. Manufacturing a battery requires lithium, cobalt and nickel, metals whose extraction consumes large amounts of water and energy and often takes place under poor working conditions. ----. At present, only a small fraction of used batteries are collected, and the processes for recovering their metals are expensive and inefficient. Manufacturers are now investing heavily in new recycling techniques, partly because the price of the raw materials has made recovered metal commercially attractive. Whether these efforts keep pace with the growing number of vehicles reaching the end of their lives remains to be seen.",
+      "options": [
+        "Cobalt, however, has already been removed from every battery now in production.",
+        "These metals are extracted in conditions that are frequently unsafe for the workers involved.",
+        "What happens to a battery when it can no longer power a car is an equally serious concern.",
+        "Petrol cars, for this reason, remain cheaper to run than their electric equivalents.",
+        "Recycling rates for glass and paper have risen steadily in most European countries."
+      ],
+      "answer": 2,
+      "explain_tr": "Boşluktan önce üretim aşamasındaki sorunlar, sonra ise kullanılmış pillerin toplanması ve geri dönüşümü anlatılıyor; boşluk bu ikinci konuya geçişi yapmalı ([en:an equally serious concern]). B önceki cümleyi tekrar ediyor; E cam ve kâğıt geri dönüşümüne geçerek konuyu dağıtıyor; A, pil üretiminin kobalt gerektirdiğini söyleyen önceki cümleyle çelişiyor.",
+      "tags": ["technology", "middle sentence"]
+    }
+  ]
+}

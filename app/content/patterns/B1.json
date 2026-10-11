@@ -1,0 +1,438 @@
+{
+  "level": "B1",
+  "count": 60,
+  "sources": [
+    {"title": "Business English", "site": "British Council LearnEnglish", "url": "https://learnenglish.britishcouncil.org/business-english"},
+    {"title": "Practise English speaking skills", "site": "British Council LearnEnglish", "url": "https://learnenglish.britishcouncil.org/skills/speaking"},
+    {"title": "Conditionals: zero, first and second (B1-B2 grammar)", "site": "British Council LearnEnglish", "url": "https://learnenglish.britishcouncil.org/grammar/b1-b2-grammar/conditionals-1"},
+    {"title": "Reported speech: statements (B1-B2 grammar)", "site": "British Council LearnEnglish", "url": "https://learnenglish.britishcouncil.org/grammar/b1-b2-grammar/reported-speech-1-statements"},
+    {"title": "come up with something", "site": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/dictionary/english/come-up-with"},
+    {"title": "on the same page", "site": "Cambridge Dictionary", "url": "https://dictionary.cambridge.org/dictionary/english/on-the-same-page"},
+    {"title": "The English We Speak", "site": "BBC Learning English", "url": "https://www.bbc.co.uk/learningenglish/english/features/the-english-we-speak"}
+  ],
+  "patterns": [
+    {"id": "b1-biz-001", "p": "Let's move on to ___.", "tr": "… konusuna geçelim.",
+     "cat": "business", "topic": "meetings", "register": "neutral",
+     "note_tr": "Toplantıda bir maddeyi bitirip sıradakine geçerken kullanılır. [en:move on] “ilerlemek” demektir; önceki bir konuya dönmek için [en:go back to] kullanılır.",
+     "examples": [
+       {"en": "Let's move on to the budget for next quarter.", "tr": "Gelecek çeyreğin bütçesi konusuna geçelim."},
+       {"en": "If there are no more questions, let's move on to the next item.", "tr": "Başka soru yoksa sıradaki maddeye geçelim."}
+     ]},
+    {"id": "b1-biz-002", "p": "Can we go back to ___?", "tr": "… konusuna geri dönebilir miyiz?",
+     "cat": "business", "topic": "meetings", "register": "neutral",
+     "note_tr": "Toplantıda daha önce konuşulan bir maddeye dönmek için. Nazik giriş: [en:Sorry, can we go back to…]. Konuyu değiştirmek için değil, geri almak için kullanılır.",
+     "examples": [
+       {"en": "Can we go back to the delivery dates for a moment?", "tr": "Bir dakikalığına teslim tarihleri konusuna geri dönebilir miyiz?"},
+       {"en": "Sorry, can we go back to the second point on the agenda?", "tr": "Pardon, gündemdeki ikinci maddeye geri dönebilir miyiz?"}
+     ]},
+    {"id": "b1-biz-003", "p": "To sum up, ___.", "tr": "Özetlemek gerekirse, …",
+     "cat": "business", "topic": "meetings", "register": "neutral",
+     "note_tr": "Toplantı ya da sunumun sonunda ana noktaları toplarken. [en:In short] daha kısa ve samimi, [en:To sum up] daha düzenli bir kapanış. Virgülden sonra tam bir cümle gelir.",
+     "examples": [
+       {"en": "To sum up, sales went up and costs stayed the same.", "tr": "Özetlemek gerekirse, satışlar arttı ve maliyetler aynı kaldı."},
+       {"en": "To sum up, we need two more people on the project.", "tr": "Özetlemek gerekirse, projede iki kişiye daha ihtiyacımız var."}
+     ]},
+    {"id": "b1-biz-004", "p": "I'm writing to ___.", "tr": "… için yazıyorum.",
+     "cat": "business", "topic": "email", "register": "formal",
+     "note_tr": "Resmi e-postanın ilk cümlesi; amacı hemen söyler. Ardından fiil gelir: [en:I'm writing to confirm], [en:to ask about], [en:to complain about]. “Bu e-postayı … için yazıyorum” diye uzatmaya gerek yok.",
+     "examples": [
+       {"en": "I'm writing to confirm our meeting on Thursday at ten.", "tr": "Perşembe saat ondaki toplantımızı teyit etmek için yazıyorum."},
+       {"en": "I'm writing to ask about the status of my order.", "tr": "Siparişimin durumunu sormak için yazıyorum."}
+     ]},
+    {"id": "b1-biz-005", "p": "Please find attached ___.", "tr": "… ekte bulabilirsiniz.",
+     "cat": "business", "topic": "email", "register": "formal",
+     "note_tr": "E-postada ek gönderirken standart cümle. [en:attached] kelimesinden hemen sonra belge gelir: [en:Please find attached the invoice]. Samimi yazışmada [en:I've attached…] de olur.",
+     "examples": [
+       {"en": "Please find attached the invoice for last month.", "tr": "Geçen ayın faturasını ekte bulabilirsiniz."},
+       {"en": "Please find attached the updated version of the contract.", "tr": "Sözleşmenin güncellenmiş halini ekte bulabilirsiniz."}
+     ]},
+    {"id": "b1-biz-006", "p": "Please let me know if ___.", "tr": "… olursa lütfen bana haber verin.",
+     "cat": "business", "topic": "email", "register": "neutral",
+     "note_tr": "E-postayı kibarca kapatırken. Devamı: [en:if you have any questions], [en:if this works for you]. [en:let me know] “bana haber ver” demektir; [en:tell me] daha sert durur.",
+     "examples": [
+       {"en": "Please let me know if you have any questions.", "tr": "Sorunuz olursa lütfen bana haber verin."},
+       {"en": "Please let me know if Tuesday doesn't work for you.", "tr": "Salı size uymazsa lütfen bana haber verin."}
+     ]},
+    {"id": "b1-biz-007", "p": "Thank you for getting back to me about ___.", "tr": "… konusunda bana dönüş yaptığınız için teşekkürler.",
+     "cat": "business", "topic": "email", "register": "neutral",
+     "note_tr": "Birinin cevabına teşekkür ederek e-postaya başlarken. [en:get back to someone] “birine dönüş yapmak” demektir; “geri dönmek” diye düşünüp [en:return to me] deme. Hızlı cevap için: [en:Thanks for getting back to me so quickly].",
+     "examples": [
+       {"en": "Thank you for getting back to me about the invoice.", "tr": "Fatura konusunda bana dönüş yaptığınız için teşekkürler."},
+       {"en": "Thank you for getting back to me about the training dates.", "tr": "Eğitim tarihleri konusunda bana dönüş yaptığınız için teşekkürler."}
+     ]},
+    {"id": "b1-biz-008", "p": "I'm afraid ___ is not available at the moment.", "tr": "Maalesef … şu anda müsait değil.",
+     "cat": "business", "topic": "phone", "register": "formal",
+     "note_tr": "Telefonda aranan kişi yerinde olmayınca. [en:available] “müsait” demektir; [en:not here] daha samimi. Ardından [en:Can I take a message?] ya da [en:Would you like to call back later?] gelir.",
+     "examples": [
+       {"en": "I'm afraid Mr Lee is not available at the moment.", "tr": "Maalesef Lee Bey şu anda müsait değil."},
+       {"en": "I'm afraid the manager is not available at the moment.", "tr": "Maalesef müdür şu anda müsait değil."}
+     ]},
+    {"id": "b1-biz-009", "p": "I'll put you through to ___.", "tr": "Sizi …'e bağlıyorum.",
+     "cat": "business", "topic": "phone", "register": "formal",
+     "note_tr": "Telefonda aramayı başka bir kişiye ya da bölüme aktarırken. [en:put through] “bağlamak” demektir; [en:connect] de olur ama bu daha doğal. Önce [en:One moment, please] demek kibar olur.",
+     "examples": [
+       {"en": "One moment, I'll put you through to the sales department.", "tr": "Bir dakika, sizi satış bölümüne bağlıyorum."},
+       {"en": "I'll put you through to her assistant now.", "tr": "Sizi şimdi asistanına bağlıyorum."}
+     ]},
+    {"id": "b1-biz-010", "p": "From my point of view, ___.", "tr": "Benim açımdan, …",
+     "cat": "business", "topic": "opinions", "register": "neutral",
+     "note_tr": "Kendi bakış açından görüş belirtirken; [en:In my opinion] ile aynı işi görür. [en:point of view] “bakış açısı” demektir, [en:from my point] diye kısaltılmaz. Toplantıda farklı görüşleri sıralarken kullanışlı.",
+     "examples": [
+       {"en": "From my point of view, the new office is too far from the station.", "tr": "Benim açımdan yeni ofis istasyona fazla uzak."},
+       {"en": "From my point of view, we should hire a second designer.", "tr": "Benim açımdan ikinci bir tasarımcı almalıyız."}
+     ]},
+    {"id": "b1-biz-011", "p": "I'm afraid I don't agree with ___.", "tr": "Maalesef … konusunda aynı fikirde değilim.",
+     "cat": "business", "topic": "agreeing", "register": "neutral",
+     "note_tr": "Nazikçe karşı çıkarken; [en:I'm afraid] cümleyi yumuşatır. [en:agree with] kişi ya da görüşle kullanılır: [en:agree with you], [en:agree with the plan]. [en:I'm not agree] yanlış; [en:agree] bir fiildir.",
+     "examples": [
+       {"en": "I'm afraid I don't agree with the new pricing plan.", "tr": "Maalesef yeni fiyat planı konusunda aynı fikirde değilim."},
+       {"en": "I'm afraid I don't agree with you on this one.", "tr": "Maalesef bu konuda seninle aynı fikirde değilim."}
+     ]},
+    {"id": "b1-biz-012", "p": "I'm having trouble with ___.", "tr": "… ile sorun yaşıyorum.",
+     "cat": "business", "topic": "problems", "register": "neutral",
+     "note_tr": "Bir şeyin düzgün çalışmadığını ya da zorlandığını bildirirken. [en:trouble] burada hep tekil: [en:a trouble] ya da [en:troubles] denmez. Fiille de olur: [en:I'm having trouble logging in].",
+     "examples": [
+       {"en": "I'm having trouble with the new login system.", "tr": "Yeni giriş sistemiyle sorun yaşıyorum."},
+       {"en": "I'm having trouble with the supplier's invoices this month.", "tr": "Bu ay tedarikçinin faturalarıyla sorun yaşıyorum."}
+     ]},
+    {"id": "b1-biz-013", "p": "Let me look into ___.", "tr": "… konusuna bir bakayım.",
+     "cat": "business", "topic": "problems", "register": "neutral",
+     "note_tr": "Sorunu hemen çözemeyince “araştırıp dönerim” demek için. [en:look into] “incelemek” demektir; [en:look at] sadece bakmaktır. Genelde [en:and get back to you] ile devam eder.",
+     "examples": [
+       {"en": "Let me look into it and get back to you this afternoon.", "tr": "Konuya bir bakayım, bu öğleden sonra size dönerim."},
+       {"en": "Let me look into the delivery problem before the meeting.", "tr": "Toplantıdan önce teslimat sorununa bir bakayım."}
+     ]},
+    {"id": "b1-biz-014", "p": "Does ___ work for you?", "tr": "… size uyar mı?",
+     "cat": "business", "topic": "scheduling", "register": "neutral",
+     "note_tr": "Randevu zamanı önerirken. [en:work] burada “uymak” demektir, çalışmak değil. Cevap: [en:Yes, that works for me] ya da [en:I'm afraid not].",
+     "examples": [
+       {"en": "Does ten o'clock on Monday work for you?", "tr": "Pazartesi saat on size uyar mı?"},
+       {"en": "Does the end of next week work for you?", "tr": "Gelecek haftanın sonu size uyar mı?"}
+     ]},
+    {"id": "b1-biz-015", "p": "Something has come up, so ___.", "tr": "Bir şey çıktı, o yüzden …",
+     "cat": "business", "topic": "scheduling", "register": "neutral",
+     "note_tr": "Planı değiştirmek ya da iptal etmek zorunda kalınca; sebebi açıklamadan nazikçe bildirir. Konuşmada [en:Something's come up]. [en:come up] burada “beklenmedik bir şey çıkmak” demektir; [en:come up with] (fikir bulmak) ile karıştırma.",
+     "examples": [
+       {"en": "Something has come up, so I'll have to miss tomorrow's meeting.", "tr": "Bir şey çıktı, o yüzden yarınki toplantıya katılamayacağım."},
+       {"en": "Something has come up, so could we talk at three instead?", "tr": "Bir şey çıktı, o yüzden onun yerine saat üçte konuşabilir miyiz?"}
+     ]},
+    {"id": "b1-biz-016", "p": "What do you mean by ___?", "tr": "… derken neyi kastediyorsunuz?",
+     "cat": "business", "topic": "clarifying", "register": "neutral",
+     "note_tr": "Bir kelime ya da ifadeyi netleştirmek için. [en:by] zorunlu: [en:What do you mean by urgent?]. Tek başına [en:What do you mean?] sert durabilir; başına [en:Sorry] koyarak yumuşat.",
+     "examples": [
+       {"en": "Sorry, what do you mean by a soft deadline?", "tr": "Pardon, esnek teslim tarihi derken neyi kastediyorsunuz?"},
+       {"en": "What do you mean by the final version?", "tr": "Son sürüm derken neyi kastediyorsunuz?"}
+     ]},
+    {"id": "b1-biz-017", "p": "If I understand correctly, ___.", "tr": "Doğru anladıysam, …",
+     "cat": "business", "topic": "clarifying", "register": "neutral",
+     "note_tr": "Duyduğunu kendi sözlerinle tekrar edip teyit alırken; yanlış anlamayı önler. [en:So you mean…] daha samimi. Sonuna [en:is that right?] eklemek doğal.",
+     "examples": [
+       {"en": "If I understand correctly, the client wants the report a week earlier.", "tr": "Doğru anladıysam, müşteri raporu bir hafta erken istiyor."},
+       {"en": "If I understand correctly, you need the figures by Monday.", "tr": "Doğru anladıysam, rakamlara pazartesiye kadar ihtiyacınız var."}
+     ]},
+    {"id": "b1-biz-018", "p": "Would it be possible to ___?", "tr": "… mümkün olur mu?",
+     "cat": "business", "topic": "requests", "register": "formal",
+     "note_tr": "Çok kibar rica; karşı tarafı zorlamaz. [en:Could you…] kişiye yönelir, bu kalıp ise işin mümkün olup olmadığını sorar. Resmi e-posta ve toplantı için uygun.",
+     "examples": [
+       {"en": "Would it be possible to move the meeting to Friday?", "tr": "Toplantıyı cumaya almak mümkün olur mu?"},
+       {"en": "Would it be possible to get a copy of the slides?", "tr": "Slaytların bir kopyasını almak mümkün olur mu?"}
+     ]},
+    {"id": "b1-biz-019", "p": "I'd like to start by ___.", "tr": "… ile başlamak istiyorum.",
+     "cat": "business", "topic": "presentations", "register": "formal",
+     "note_tr": "Sunuma giriş. [en:by] sonrası fiile [en:-ing] gelir: [en:start by giving], [en:start by showing]. [en:start with] ise isimle kullanılır: [en:start with the figures].",
+     "examples": [
+       {"en": "I'd like to start by giving you a short overview of the project.", "tr": "Size projeyle ilgili kısa bir genel bakış sunarak başlamak istiyorum."},
+       {"en": "I'd like to start by thanking everyone for coming today.", "tr": "Bugün geldiği için herkese teşekkür ederek başlamak istiyorum."}
+     ]},
+    {"id": "b1-biz-020", "p": "What if we ___?", "tr": "Ya … yapsak?",
+     "cat": "business", "topic": "negotiation", "register": "neutral",
+     "note_tr": "Pazarlıkta ya da toplantıda yeni bir seçenek önerirken. Fiil genelde geçmiş halde gelir, bu öneriyi yumuşatır: [en:What if we paid in two instalments?]. Şimdiki zamanla da olur: [en:What if we offer a discount?].",
+     "examples": [
+       {"en": "What if we paid in two instalments instead of one?", "tr": "Ya tek seferde değil de iki taksitte ödesek?"},
+       {"en": "What if we extended the contract by another year?", "tr": "Ya sözleşmeyi bir yıl daha uzatsak?"}
+     ]},
+
+    {"id": "b1-day-001", "p": "I was wondering if ___.", "tr": "Acaba … diye soracaktım.",
+     "cat": "daily", "topic": "invitations", "register": "neutral",
+     "note_tr": "Çok nazik rica ya da davet. Geçmiş zaman gibi görünür ama şimdiyi anlatır; [en:I wonder if] de olur, geçmiş hali daha nazik ve çekingendir. Devamında [en:you could] ya da [en:you'd like to] gelir.",
+     "examples": [
+       {"en": "I was wondering if you'd like to join us for dinner on Saturday.", "tr": "Acaba cumartesi akşam yemeğine bize katılmak ister misin diye soracaktım."},
+       {"en": "I was wondering if you could give me a lift to the station.", "tr": "Acaba beni istasyona bırakabilir misin diye soracaktım."}
+     ]},
+    {"id": "b1-day-002", "p": "Sorry, I completely forgot ___.", "tr": "Kusura bakma, … tamamen unutmuşum.",
+     "cat": "daily", "topic": "apologies", "register": "informal",
+     "note_tr": "Unutkanlık için özür. [en:completely] özrü güçlendirir; [en:totally] de olur. [en:forgot about] + isim, [en:forgot to] + fiil: [en:forgot to call you]. [en:I forgot] tek başına biraz kuru kalır.",
+     "examples": [
+       {"en": "Sorry, I completely forgot about our meeting this morning.", "tr": "Kusura bakma, bu sabahki toplantımızı tamamen unutmuşum."},
+       {"en": "Sorry, I completely forgot to call you back yesterday.", "tr": "Kusura bakma, dün seni geri aramayı tamamen unutmuşum."}
+     ]},
+    {"id": "b1-day-003", "p": "It's a pity that ___.", "tr": "… olması çok yazık.",
+     "cat": "daily", "topic": "feelings", "register": "neutral",
+     "note_tr": "Üzüntü ya da hayal kırıklığı belirtir. [en:It's a shame that] aynı anlamda ve çok yaygın; [en:shame] burada “utanç” değildir. Konuşmada [en:that] düşebilir: [en:It's a pity you can't come].",
+     "examples": [
+       {"en": "It's a pity that you can't come to the party.", "tr": "Partiye gelememen çok yazık."},
+       {"en": "It's a pity that the weather was so bad on holiday.", "tr": "Tatilde havanın bu kadar kötü olması çok yazık."}
+     ]},
+    {"id": "b1-day-004", "p": "I'm fed up with ___.", "tr": "…'den bıktım.",
+     "cat": "daily", "topic": "feelings", "register": "informal",
+     "note_tr": "Uzun süredir sinir bozan bir şeyden bıktığını söyler. [en:with] sonrası isim ya da [en:-ing] gelir: [en:fed up with waiting]. [en:bored with] sadece “sıkıldım” demektir, daha hafif.",
+     "examples": [
+       {"en": "I'm fed up with waiting for the bus every morning.", "tr": "Her sabah otobüs beklemekten bıktım."},
+       {"en": "Honestly, I'm fed up with this cold weather.", "tr": "Açıkçası bu soğuk havadan bıktım."}
+     ]},
+    {"id": "b1-day-005", "p": "I'm not in the mood for ___.", "tr": "Canım … istemiyor.",
+     "cat": "daily", "topic": "feelings", "register": "informal",
+     "note_tr": "Bir şeyi o an canın istemediğinde. [en:for] sonrası isim gelir; fiille [en:in the mood to] denir: [en:not in the mood to go out]. Tam tersi: [en:I'm in the mood for pizza]. Kaba değildir ama samimidir.",
+     "examples": [
+       {"en": "I'm not in the mood for a long meeting today.", "tr": "Bugün canım uzun bir toplantı istemiyor."},
+       {"en": "Sorry, I'm not in the mood for a party tonight.", "tr": "Kusura bakma, bu akşam canım parti istemiyor."}
+     ]},
+    {"id": "b1-day-006", "p": "Do I need to change ___?", "tr": "… değiştirmem (aktarma yapmam) gerekiyor mu?",
+     "cat": "daily", "topic": "travel", "register": "neutral",
+     "note_tr": "Yolculukta aktarma sormak için. [en:change] burada “aktarma yapmak” demektir: [en:change trains], [en:change at Reading]. Araç adı çoğul gelir: [en:change buses].",
+     "examples": [
+       {"en": "Do I need to change trains to get to Oxford?", "tr": "Oxford'a gitmek için aktarma yapmam gerekiyor mu?"},
+       {"en": "Excuse me, do I need to change buses for the airport?", "tr": "Affedersiniz, havaalanı için otobüs aktarması yapmam gerekiyor mu?"}
+     ]},
+    {"id": "b1-day-007", "p": "___ has been delayed.", "tr": "… gecikti (rötar yaptı).",
+     "cat": "daily", "topic": "travel", "register": "neutral",
+     "note_tr": "Uçuş, tren ya da teslimat gecikince. [en:delayed] “gecikmiş” demektir; kişiler için [en:late] kullanılır: [en:I'm late]. Süre için [en:by]: [en:delayed by two hours].",
+     "examples": [
+       {"en": "Unfortunately, my flight to Istanbul has been delayed.", "tr": "Maalesef İstanbul uçağım rötar yaptı."},
+       {"en": "I'll be late because my train has been delayed.", "tr": "Trenim geciktiği için geç kalacağım."}
+     ]},
+    {"id": "b1-day-008", "p": "I think I'm coming down with ___.", "tr": "Galiba … oluyorum.",
+     "cat": "daily", "topic": "health", "register": "neutral",
+     "note_tr": "Hastalığın başlangıcında, henüz tam hasta değilken. [en:come down with] “bir hastalığa yakalanmaya başlamak” demektir. Belirsizse: [en:coming down with something].",
+     "examples": [
+       {"en": "I think I'm coming down with a cold.", "tr": "Galiba soğuk algınlığı oluyorum."},
+       {"en": "I think I'm coming down with something, so I'll work from home.", "tr": "Galiba hastalanıyorum, o yüzden evden çalışacağım."}
+     ]},
+    {"id": "b1-day-009", "p": "It hurts when I ___.", "tr": "… yapınca ağrıyor.",
+     "cat": "daily", "topic": "health", "register": "neutral",
+     "note_tr": "Doktora ağrıyı anlatırken. [en:hurt] “acımak, ağrımak” demektir; [en:pain] isimdir: [en:I have a pain in my knee]. Yeri göstermek için [en:It hurts here].",
+     "examples": [
+       {"en": "It hurts when I bend my knee.", "tr": "Dizimi bükünce ağrıyor."},
+       {"en": "It hurts when I swallow, and I have a fever too.", "tr": "Yutkununca ağrıyor, ayrıca ateşim de var."}
+     ]},
+    {"id": "b1-day-010", "p": "I really appreciate ___.", "tr": "… için gerçekten minnettarım.",
+     "cat": "daily", "topic": "apologies", "register": "neutral",
+     "note_tr": "Teşekkürün daha güçlü hali. Sonrasında isim ya da [en:-ing] gelir: [en:I appreciate you coming] olur, [en:I appreciate to come] olmaz. [en:I appreciate it] “bunun için teşekkürler” demektir.",
+     "examples": [
+       {"en": "I really appreciate your help with the move.", "tr": "Taşınmadaki yardımın için gerçekten minnettarım."},
+       {"en": "I really appreciate you coming all this way.", "tr": "Bu kadar yolu gelmen için gerçekten minnettarım."}
+     ]},
+    {"id": "b1-day-011", "p": "Do you fancy ___?", "tr": "… ister misin?",
+     "cat": "daily", "topic": "invitations", "register": "informal",
+     "note_tr": "İngiliz İngilizcesinde samimi davet. [en:fancy] sonrası isim ya da [en:-ing] gelir: [en:fancy a coffee], [en:fancy going out]. Amerikalılar genelde [en:Do you want to] der.",
+     "examples": [
+       {"en": "Do you fancy going for a coffee after work?", "tr": "İşten sonra kahve içmeye gitmek ister misin?"},
+       {"en": "Do you fancy a walk this afternoon?", "tr": "Bu öğleden sonra yürüyüşe çıkmak ister misin?"}
+     ]},
+    {"id": "b1-day-012", "p": "Sorry to bother you, but ___.", "tr": "Rahatsız ettiğim için kusura bakmayın ama …",
+     "cat": "daily", "topic": "apologies", "register": "neutral",
+     "note_tr": "Birini işinden alıkoyarken kibar giriş. [en:bother] “rahatsız etmek” demektir. Telefon ya da e-postada da olur: [en:Sorry to bother you again]. Çok resmi değildir, iş yerinde de rahatça kullanılır.",
+     "examples": [
+       {"en": "Sorry to bother you, but I need your signature on this form.", "tr": "Rahatsız ettiğim için kusura bakmayın ama bu formda imzanız gerekiyor."},
+       {"en": "Sorry to bother you, but the printer isn't working again.", "tr": "Rahatsız ettiğim için kusura bakma ama yazıcı yine çalışmıyor."}
+     ]},
+    {"id": "b1-day-013", "p": "Could you do me a favour and ___?", "tr": "Bana bir iyilik yapıp … yapabilir misin?",
+     "cat": "daily", "topic": "help", "register": "informal",
+     "note_tr": "Samimi rica. [en:do me a favour] “bana bir iyilik yap” demektir; [en:make me a favour] yanlış. Amerikan yazımı [en:favor]. Önce [en:Could you do me a favour?] diye sorup sonra ricayı söylemek de doğal.",
+     "examples": [
+       {"en": "Could you do me a favour and water my plants next week?", "tr": "Bana bir iyilik yapıp gelecek hafta çiçeklerimi sulayabilir misin?"},
+       {"en": "Could you do me a favour and check this email for mistakes?", "tr": "Bana bir iyilik yapıp bu e-postada hata var mı diye bakabilir misin?"}
+     ]},
+    {"id": "b1-day-014", "p": "I'm afraid I won't be able to make it ___.", "tr": "Maalesef … gelemeyeceğim.",
+     "cat": "daily", "topic": "appointments", "register": "neutral",
+     "note_tr": "Randevu ya da daveti nazikçe iptal ederken. [en:make it] “yetişmek, gelebilmek” demektir. [en:I can't come] daha doğrudan; [en:I'm afraid] ile yumuşar.",
+     "examples": [
+       {"en": "I'm afraid I won't be able to make it to the party on Saturday.", "tr": "Maalesef cumartesi partiye gelemeyeceğim."},
+       {"en": "I'm afraid I won't be able to make it on Thursday after all.", "tr": "Perşembe gelebilirim demiştim ama maalesef gelemeyeceğim."}
+     ]},
+
+    {"id": "b1-gra-001", "p": "If I were you, I'd ___.", "tr": "Senin yerinde olsam …",
+     "cat": "grammar", "topic": "conditionals", "register": "neutral",
+     "note_tr": "Tavsiye verirken. [en:were] her kişi için kullanılır: [en:If I were you]; [en:If I was you] konuşmada duyulur ama yazıda [en:were] tercih edilir. [en:I'd] = [en:I would].",
+     "examples": [
+       {"en": "If I were you, I'd talk to your manager first.", "tr": "Senin yerinde olsam önce müdürünle konuşurdum."},
+       {"en": "If I were you, I'd book the tickets now.", "tr": "Senin yerinde olsam biletleri şimdi alırdım."}
+     ]},
+    {"id": "b1-gra-002", "p": "Unless ___, ___.", "tr": "… olmazsa, …",
+     "cat": "grammar", "topic": "conditionals", "register": "neutral",
+     "note_tr": "[en:unless] = [en:if … not]: [en:Unless we hurry] = [en:If we don't hurry]. Sık hata: [en:unless] ile [en:not] birlikte kullanmak. Gelecekten söz etse de [en:unless] kısmı şimdiki zamanda kalır.",
+     "examples": [
+       {"en": "Unless we hurry, we'll miss the train.", "tr": "Acele etmezsek treni kaçıracağız."},
+       {"en": "Unless the client agrees, we can't change the design.", "tr": "Müşteri kabul etmezse tasarımı değiştiremeyiz."}
+     ]},
+    {"id": "b1-gra-003", "p": "If ___, I would ___.", "tr": "… olsa, … yapardım.",
+     "cat": "grammar", "topic": "conditionals", "register": "neutral",
+     "note_tr": "Hayali ya da pek olası olmayan durumlar için: [en:If I had more time, I would learn Spanish]. İlk kısım geçmiş gibi görünür ama şimdiki durumdan söz eder. Konuşmada [en:would] yerine [en:'d] denir.",
+     "examples": [
+       {"en": "If I had more time, I would learn Spanish.", "tr": "Daha çok vaktim olsa İspanyolca öğrenirdim."},
+       {"en": "If we had a bigger office, I would hire two more people.", "tr": "Daha büyük bir ofisimiz olsa iki kişi daha işe alırdım."}
+     ]},
+    {"id": "b1-gra-004", "p": "I wish I ___.", "tr": "Keşke …",
+     "cat": "grammar", "topic": "wishes", "register": "neutral",
+     "note_tr": "Şu anki durumla ilgili dilek; fiil geçmiş halde olur ama şimdiyi anlatır: [en:I wish I lived], [en:I wish I could]. [en:I wish I can] yanlıştır. Geçmiş pişmanlığı için üçüncü hal: [en:I wish I had asked]. [en:I hope] gerçekleşebilecek umutlar içindir.",
+     "examples": [
+       {"en": "I wish I lived closer to the office.", "tr": "Keşke ofise daha yakın otursam."},
+       {"en": "I wish I could speak French.", "tr": "Keşke Fransızca konuşabilsem."}
+     ]},
+    {"id": "b1-gra-005", "p": "I'm used to ___.", "tr": "…'e alışkınım.",
+     "cat": "grammar", "topic": "habits", "register": "neutral",
+     "note_tr": "Bir şeyin artık normal geldiğini söyler; sonrası isim ya da [en:-ing]: [en:I'm used to working late]. [en:I used to work late] ise “eskiden geç çalışırdım” demektir, bambaşka. Alışma süreci için [en:get used to].",
+     "examples": [
+       {"en": "I'm used to working late on Fridays.", "tr": "Cuma günleri geç saate kadar çalışmaya alışkınım."},
+       {"en": "I'm used to the cold weather now.", "tr": "Artık soğuk havaya alışkınım."}
+     ]},
+    {"id": "b1-gra-006", "p": "I'd prefer to ___ rather than ___.", "tr": "… yerine … yapmayı tercih ederim.",
+     "cat": "grammar", "topic": "preferences", "register": "neutral",
+     "note_tr": "İki seçenek arasında kibar tercih. [en:prefer to] + fiil, [en:rather than] + fiil: [en:I'd prefer to meet in person rather than online]. [en:I'd rather] daha kısa ve samimidir; sonrasında [en:to] gelmez.",
+     "examples": [
+       {"en": "I'd prefer to meet in person rather than talk online.", "tr": "Çevrimiçi konuşmak yerine yüz yüze görüşmeyi tercih ederim."},
+       {"en": "I'd prefer to take the train rather than drive to Ankara.", "tr": "Ankara'ya arabayla gitmek yerine trene binmeyi tercih ederim."}
+     ]},
+    {"id": "b1-gra-007", "p": "___ told me that ___.", "tr": "… bana … söyledi.",
+     "cat": "grammar", "topic": "reported", "register": "neutral",
+     "note_tr": "Birinin sözünü aktarırken fiil bir adım geriye gider: [en:I'm busy] → [en:She told me that she was busy]. [en:tell] kişiyle kullanılır ([en:told me]), [en:say] kişisiz ([en:said that]). [en:She said me] yanlış.",
+     "examples": [
+       {"en": "My manager told me that the deadline had changed.", "tr": "Müdürüm bana teslim tarihinin değiştiğini söyledi."},
+       {"en": "Anna told me that she was leaving the company.", "tr": "Anna bana şirketten ayrılacağını söyledi."}
+     ]},
+    {"id": "b1-gra-008", "p": "___ asked me if ___.", "tr": "… bana … mı diye sordu.",
+     "cat": "grammar", "topic": "reported", "register": "neutral",
+     "note_tr": "Evet/hayır sorusunu aktarırken: [en:Can you work late?] → [en:She asked me if I could work late]. Aktarınca soru sırası bozulur, düz cümle olur; [en:asked me if could I] yanlış. [en:whether] de olur.",
+     "examples": [
+       {"en": "She asked me if I could work late on Friday.", "tr": "Bana cuma geç saate kadar çalışıp çalışamayacağımı sordu."},
+       {"en": "The customer asked me if the shop was open on Sundays.", "tr": "Müşteri bana dükkânın pazar günleri açık olup olmadığını sordu."}
+     ]},
+    {"id": "b1-gra-009", "p": "It's worth ___.", "tr": "… yapmaya değer.",
+     "cat": "grammar", "topic": "suggestions", "register": "neutral",
+     "note_tr": "Bir şeyin zahmetine değdiğini söyler; sonrası [en:-ing]: [en:It's worth checking]. [en:It's worth to check] yanlış. İsimle de olur: [en:It's worth the money]. Olumsuz: [en:It's not worth it].",
+     "examples": [
+       {"en": "It's worth checking the contract before you sign it.", "tr": "İmzalamadan önce sözleşmeyi kontrol etmeye değer."},
+       {"en": "It's worth asking for a discount if you order ten.", "tr": "On tane sipariş verirsen indirim istemeye değer."}
+     ]},
+    {"id": "b1-gra-010", "p": "I'm supposed to ___.", "tr": "… yapmam gerekiyor (benden bu bekleniyor).",
+     "cat": "grammar", "topic": "obligation", "register": "neutral",
+     "note_tr": "Kural, plan ya da başkasının beklentisi gereği yapılması gereken şey; [en:must] kadar güçlü değildir. Sık hata: [en:I suppose to] — [en:be] fiili zorunlu. Olumsuz: [en:You're not supposed to smoke here] (yasak).",
+     "examples": [
+       {"en": "I'm supposed to be in a meeting at ten.", "tr": "Saat onda toplantıda olmam gerekiyor."},
+       {"en": "I'm supposed to send the report today, but it isn't ready.", "tr": "Raporu bugün göndermem gerekiyor, ama hazır değil."}
+     ]},
+    {"id": "b1-gra-011", "p": "The more ___, the more ___.", "tr": "Ne kadar çok …, o kadar çok …",
+     "cat": "grammar", "topic": "comparison", "register": "neutral",
+     "note_tr": "İki şeyin birlikte arttığını anlatır: [en:The more I practise, the more confident I feel]. [en:more] yerine başka karşılaştırma da olur: [en:The sooner, the better]. [en:the] iki tarafta da zorunlu.",
+     "examples": [
+       {"en": "The more I practise, the more confident I feel.", "tr": "Ne kadar çok pratik yaparsam, o kadar özgüvenli hissediyorum."},
+       {"en": "The more you earn, the more tax you pay.", "tr": "Ne kadar çok kazanırsan, o kadar çok vergi ödersin."}
+     ]},
+    {"id": "b1-gra-012", "p": "By the time ___, ___.", "tr": "… olduğunda, … (çoktan) …",
+     "cat": "grammar", "topic": "time", "register": "neutral",
+     "note_tr": "Bir olayın başka bir olaydan önce bitmiş olacağını anlatır. Gelecek için ilk kısım şimdiki zamanda kalır: [en:By the time you arrive, the meeting will be over]. [en:until] ile karıştırma: o “…e kadar” demektir.",
+     "examples": [
+       {"en": "By the time we arrived, the meeting had already started.", "tr": "Biz vardığımızda toplantı çoktan başlamıştı."},
+       {"en": "By the time you read this, I'll be on the plane.", "tr": "Sen bunu okuduğunda ben uçakta olacağım."}
+     ]},
+    {"id": "b1-gra-013", "p": "___ so that ___.", "tr": "…, … diye (amacıyla).",
+     "cat": "grammar", "topic": "purpose", "register": "neutral",
+     "note_tr": "Amaç bildirir: [en:I left early so that I could catch the train]. [en:so that] sonrasında genelde [en:can], [en:could] ya da [en:will] gelir. [en:to] + fiil daha kısa, ama özne değişince [en:so that] gerekir.",
+     "examples": [
+       {"en": "I left early so that I could catch the train.", "tr": "Trene yetişebileyim diye erken çıktım."},
+       {"en": "We moved the meeting so that everyone could join.", "tr": "Herkes katılabilsin diye toplantıyı taşıdık."}
+     ]},
+    {"id": "b1-gra-014", "p": "Do you know if ___?", "tr": "… mı, biliyor musun?",
+     "cat": "grammar", "topic": "questions", "register": "neutral",
+     "note_tr": "Dolaylı, daha kibar soru. Devamı düz cümle sırasında olur: [en:Do you know if the shop is open?]; [en:Do you know if is the shop open] yanlış. [en:whether] de olur.",
+     "examples": [
+       {"en": "Do you know if the shop is open on Sundays?", "tr": "Dükkân pazar günleri açık mı, biliyor musun?"},
+       {"en": "Do you know if Mark has sent the invoice yet?", "tr": "Mark faturayı gönderdi mi, biliyor musun?"}
+     ]},
+
+    {"id": "b1-idi-001", "p": "get on with ___", "tr": "…'e devam etmek, … işine koyulmak",
+     "cat": "idiom", "topic": "phrasal_verbs", "register": "neutral",
+     "note_tr": "Boşa vakit geçirmeden işe koyulmak: [en:Let's get on with it]. İkinci anlamı “iyi geçinmek”: [en:I get on with my colleagues]. [en:carry on with] de “devam etmek” demektir; [en:get on with] ayrıca “oyalanmadan yap” vurgusu taşır.",
+     "examples": [
+       {"en": "Let's stop talking and get on with the work.", "tr": "Konuşmayı bırakıp işe koyulalım."},
+       {"en": "I need to get on with this report before lunch.", "tr": "Öğle yemeğinden önce bu rapora devam etmem gerekiyor."}
+     ]},
+    {"id": "b1-idi-002", "p": "put off ___", "tr": "…'i ertelemek",
+     "cat": "idiom", "topic": "phrasal_verbs", "register": "neutral",
+     "note_tr": "[en:postpone] ile aynı, daha konuşma dili. Nesne araya da girebilir: [en:put the meeting off]; zamirle hep arada: [en:put it off]. “Soğutmak, vazgeçirmek” anlamı da var: [en:The price put me off].",
+     "examples": [
+       {"en": "We had to put off the launch until March.", "tr": "Lansmanı mart ayına ertelemek zorunda kaldık."},
+       {"en": "Don't put off the decision any longer.", "tr": "Kararı daha fazla erteleme."}
+     ]},
+    {"id": "b1-idi-003", "p": "deal with ___", "tr": "…'le ilgilenmek, …'in üstesinden gelmek",
+     "cat": "idiom", "topic": "phrasal_verbs", "register": "neutral",
+     "note_tr": "Sorun, müşteri ya da işle ilgilenmek: [en:deal with a problem], [en:deal with customers]. [en:handle] de olur. “…'le anlaşma yapmak” için [en:do a deal with] denir, karıştırma.",
+     "examples": [
+       {"en": "Who is going to deal with the IT problem?", "tr": "BT sorunuyla kim ilgilenecek?"},
+       {"en": "I'll deal with the customer's complaint this afternoon.", "tr": "Müşterinin şikâyetiyle bu öğleden sonra ilgileneceğim."}
+     ]},
+    {"id": "b1-idi-004", "p": "come up with ___", "tr": "… (fikir, çözüm) bulmak, üretmek",
+     "cat": "idiom", "topic": "phrasal_verbs", "register": "neutral",
+     "note_tr": "Düşünüp bir fikir ya da çözüm üretmek: [en:come up with an idea], [en:come up with a solution]. [en:find] var olanı bulmaktır; bu kalıp “üretmek”tir. Üç kelime birlikte kullanılır: [en:come up an idea] yanlış.",
+     "examples": [
+       {"en": "We need to come up with a cheaper solution.", "tr": "Daha ucuz bir çözüm bulmamız gerekiyor."},
+       {"en": "Did you come up with a name for the project?", "tr": "Proje için bir isim buldun mu?"}
+     ]},
+    {"id": "b1-idi-005", "p": "get rid of ___", "tr": "…'den kurtulmak",
+     "cat": "idiom", "topic": "phrasal_verbs", "register": "neutral",
+     "note_tr": "İstemediğin bir şeyi atmak, ondan kurtulmak: [en:get rid of old files], [en:get rid of a cold]. [en:of] zorunlu; [en:get rid from] yanlış. Resmi yazıda [en:remove] ya da [en:dispose of] tercih edilir.",
+     "examples": [
+       {"en": "We should get rid of the old printers in the storeroom.", "tr": "Depodaki eski yazıcılardan kurtulmalıyız."},
+       {"en": "How do I get rid of this error message?", "tr": "Bu hata mesajından nasıl kurtulurum?"}
+     ]},
+    {"id": "b1-idi-006", "p": "on the same page", "tr": "aynı noktada olmak, aynı şeyi anlamış olmak",
+     "cat": "idiom", "topic": "idioms", "register": "neutral",
+     "note_tr": "Herkesin aynı bilgiye ve anlayışa sahip olması: [en:make sure we're on the same page]. Toplantılarda çok sık; “aynı sayfa” diye düşünme. [en:be] ile kullanılır: [en:we're on the same page].",
+     "examples": [
+       {"en": "Let's have a quick call to make sure we're on the same page.", "tr": "Aynı noktada olduğumuzdan emin olmak için kısa bir görüşme yapalım."},
+       {"en": "Before we start, I want everyone on the same page about the deadline.", "tr": "Başlamadan önce herkesin teslim tarihi konusunda aynı noktada olmasını istiyorum."}
+     ]},
+    {"id": "b1-idi-007", "p": "keep in touch", "tr": "irtibatta kalmak, haberleşmek",
+     "cat": "idiom", "topic": "idioms", "register": "neutral",
+     "note_tr": "Ayrılırken ya da e-posta sonunda: [en:Let's keep in touch]. Kişi için [en:with]: [en:keep in touch with]. [en:stay in touch] aynı; [en:get in touch] ise “iletişime geçmek”tir, tek seferlik.",
+     "examples": [
+       {"en": "Let's keep in touch after the conference.", "tr": "Konferanstan sonra irtibatta kalalım."},
+       {"en": "I still keep in touch with my old colleagues.", "tr": "Eski iş arkadaşlarımla hâlâ haberleşiyorum."}
+     ]},
+    {"id": "b1-idi-008", "p": "make up ___ mind", "tr": "… kararını vermek (my, your, his…)",
+     "cat": "idiom", "topic": "idioms", "register": "neutral",
+     "note_tr": "Kararsızlık sonrası karar vermek: [en:I can't make up my mind]. Araya hep iyelik kelimesi girer: [en:make up my mind]; [en:make up the mind] yanlış. [en:decide] daha nötr ve resmi.",
+     "examples": [
+       {"en": "I can't make up my mind about the new flat.", "tr": "Yeni daire konusunda bir türlü karar veremiyorum."},
+       {"en": "He needs to make up his mind before Friday.", "tr": "Cumadan önce kararını vermesi gerekiyor."}
+     ]},
+    {"id": "b1-idi-009", "p": "set up ___", "tr": "…'i kurmak, ayarlamak",
+     "cat": "idiom", "topic": "phrasal_verbs", "register": "neutral",
+     "note_tr": "Şirket, sistem ya da toplantı kurmak/ayarlamak: [en:set up a meeting], [en:set up a company], [en:set up an account]. Zamirle arada: [en:set it up]. Tek kelime [en:setup] isimdir: [en:the setup].",
+     "examples": [
+       {"en": "We need to set up a meeting with the supplier.", "tr": "Tedarikçiyle bir toplantı ayarlamamız gerekiyor."},
+       {"en": "She decided to set up her own company last year.", "tr": "Geçen yıl kendi şirketini kurmaya karar verdi."}
+     ]},
+    {"id": "b1-idi-010", "p": "turn down ___", "tr": "…'i reddetmek, geri çevirmek",
+     "cat": "idiom", "topic": "phrasal_verbs", "register": "neutral",
+     "note_tr": "Teklif, davet ya da iş başvurusunu reddetmek: [en:turn down an offer]. [en:reject] daha sert ve resmi. Zamirle arada: [en:turn it down]. “Sesi kısmak” anlamı da var: [en:turn down the volume].",
+     "examples": [
+       {"en": "Why did you turn down the job offer?", "tr": "İş teklifini neden reddettin?"},
+       {"en": "I had to turn down the invitation because of work.", "tr": "İş yüzünden daveti geri çevirmek zorunda kaldım."}
+     ]},
+    {"id": "b1-idi-011", "p": "get the hang of ___", "tr": "…'in püf noktasını kapmak, …'e alışmak",
+     "cat": "idiom", "topic": "idioms", "register": "informal",
+     "note_tr": "Yeni bir beceriyi öğrenip rahatça yapar hale gelmek: [en:get the hang of the software]. Samimi; resmi yazıda [en:learn how to use] de. Zamirle: [en:You'll get the hang of it].",
+     "examples": [
+       {"en": "It took me a week to get the hang of the new software.", "tr": "Yeni yazılımın püf noktasını kapmam bir haftamı aldı."},
+       {"en": "Don't worry, you'll soon get the hang of it.", "tr": "Merak etme, yakında alışırsın."}
+     ]},
+    {"id": "b1-idi-012", "p": "in the long run", "tr": "uzun vadede",
+     "cat": "idiom", "topic": "idioms", "register": "neutral",
+     "note_tr": "Hemen değil, zamanla ortaya çıkan sonuçlar için: [en:It saves money in the long run]. Cümlenin başında da sonunda da olur. Karşıtı: [en:in the short run] ya da [en:in the short term].",
+     "examples": [
+       {"en": "In the long run, training staff saves money.", "tr": "Uzun vadede personeli eğitmek para kazandırır."},
+       {"en": "The new office costs more now, but it will pay off in the long run.", "tr": "Yeni ofis şimdi daha pahalı, ama uzun vadede kendini amorti eder."}
+     ]}
+  ]
+}

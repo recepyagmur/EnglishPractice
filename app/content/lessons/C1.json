@@ -1,0 +1,4124 @@
+{
+  "_comment": "C1 lessons. Format: app/content/lessons/README.md. Never rename an id (progress is stored by id).",
+  "lessons": [
+    {
+      "id": "c1-inversion",
+      "title_tr": "Vurgu için devrik yapı: Never have I…, Not only…",
+      "title_en": "Inversion for emphasis",
+      "categories": [
+        "word_order"
+      ],
+      "intro_tr": "Olumsuz ya da kısıtlayıcı bir zarf ([en:never], [en:rarely], [en:not only], [en:hardly], [en:under no circumstances…]) cümlenin başına alınınca, ardından soru sırası gelir: [en:Never have I seen such a mess.] Resmî konuşma ve yazıda güçlü bir vurgu yaratır. Türkçede vurgu için öğelerin yerini serbestçe değiştirebilirsin; İngilizcede ise bu zarfı başa aldığında yardımcı fiili öznenin önüne koymak zorundasın.",
+      "sections": [
+        {
+          "title_tr": "Yapı: zarf + yardımcı fiil + özne",
+          "text_tr": "Olumsuz ya da kısıtlayıcı bir ifade cümlenin başına gelince soru cümlesindeki sıra kullanılır: önce yardımcı fiil, sonra özne, sonra ana fiil. [en:I have never seen such a mess] → [en:Never have I seen such a mess.]\n\nHangi yardımcı fiilin öne geçeceğini cümlenin zamanı belirler. Cümlede [en:be], [en:have] (perfect zamanlarda) ya da [en:can], [en:should], [en:will] gibi bir modal varsa onu öne alırsın. Yardımcı fiil yoksa (present simple ve past simple) [en:do/does/did] eklersin ve ana fiil yalın hâle döner: [en:Rarely do we see such results.] [en:Only later did I realise my mistake.]\n\nKısacası mantık soru kurmakla aynıdır: [en:Do we see…?] sorusunu nasıl kuruyorsan devrik cümlede de aynı sırayı kurarsın. Fark şu: cümle bir soru değil, güçlü bir ifadedir; sonunda soru işareti olmaz.",
+          "table": {
+            "head": [
+              "Normal",
+              "Devrik (vurgulu)"
+            ],
+            "rows": [
+              [
+                "I have never seen such a mess.",
+                "Never have I seen such a mess."
+              ],
+              [
+                "We rarely get complaints.",
+                "Rarely do we get complaints."
+              ],
+              [
+                "She not only speaks French but also speaks Arabic.",
+                "Not only does she speak French, but she also speaks Arabic."
+              ],
+              [
+                "I had just arrived when it started.",
+                "Hardly had I arrived when it started."
+              ],
+              [
+                "You should not open this door under any circumstances.",
+                "Under no circumstances should you open this door."
+              ],
+              [
+                "We realised the problem only later.",
+                "Only later did we realise the problem."
+              ]
+            ]
+          },
+          "examples": [
+            {
+              "en": "Under no circumstances should you share your password.",
+              "tr": "Hiçbir koşulda şifreni paylaşmamalısın."
+            },
+            {
+              "en": "Only later did I realise my mistake.",
+              "tr": "Hatamı ancak sonra fark ettim."
+            },
+            {
+              "en": "No sooner had we sat down than the fire alarm went off.",
+              "tr": "Oturur oturmaz yangın alarmı çaldı."
+            },
+            {
+              "en": "Rarely do we receive complaints about this product.",
+              "tr": "Bu ürünle ilgili nadiren şikâyet alırız."
+            }
+          ]
+        },
+        {
+          "title_tr": "Devrik yapı isteyen ifadeler",
+          "text_tr": "Bu ifadelerin ortak noktası olumsuz ya da kısıtlayıcı bir anlam taşımalarıdır: [en:never], [en:rarely], [en:seldom], [en:hardly], [en:little], [en:not only], [en:not until], [en:only after], [en:under no circumstances], [en:at no time], [en:on no account…]\n\n[en:Hardly… when] ve [en:No sooner… than] iki olayın hemen ardı ardına olduğunu anlatır (Türkçedeki [tr:-ir -mez]). Genelde past perfect ile kullanılır: ilk olay [en:had] + V3, ikinci olay past simple olur.\n\n[en:Only after], [en:Only when] ve [en:Not until] ile dikkat: bunlardan sonra bir yan cümle gelirse devrik yapı yan cümlede değil, ana cümlede olur: [en:Only after the meeting ended did we understand the problem.] Yan cümle ([en:the meeting ended]) normal sırada kalır.\n\n[en:Little did I know…] hikâye anlatırken çok kullanılır ve [tr:o zaman hiç farkında değildim] anlamı verir.",
+          "table": {
+            "head": [
+              "İfade",
+              "Anlamı",
+              "Örnek"
+            ],
+            "rows": [
+              [
+                "never / never before",
+                "hiç, daha önce hiç",
+                "Never before have we grown so fast."
+              ],
+              [
+                "rarely / seldom",
+                "nadiren",
+                "Seldom do we work late."
+              ],
+              [
+                "little",
+                "hiç (farkında olmamak)",
+                "Little did I know what was coming."
+              ],
+              [
+                "not only… but (also)",
+                "sadece… değil, … da",
+                "Not only is it cheap, but it is also fast."
+              ],
+              [
+                "hardly / scarcely… when",
+                "-ir -mez",
+                "Hardly had I sat down when the phone rang."
+              ],
+              [
+                "no sooner… than",
+                "-ir -mez",
+                "No sooner had we left than it began to rain."
+              ],
+              [
+                "not until…",
+                "ancak … -ince",
+                "Not until Friday did they reply."
+              ],
+              [
+                "only after / only when / only then",
+                "ancak … -dikten sonra / -ince / o zaman",
+                "Only then did I understand."
+              ],
+              [
+                "under no circumstances / on no account",
+                "hiçbir koşulda, kesinlikle",
+                "On no account should you sign it."
+              ],
+              [
+                "at no time",
+                "hiçbir zaman",
+                "At no time was the data at risk."
+              ]
+            ]
+          },
+          "examples": [
+            {
+              "en": "Seldom have I worked with such a dedicated team.",
+              "tr": "Bu kadar özverili bir ekiple nadiren çalıştım."
+            },
+            {
+              "en": "Hardly had the meeting started when the projector broke down.",
+              "tr": "Toplantı başlar başlamaz projektör bozuldu."
+            },
+            {
+              "en": "Not until the audit did we discover the error.",
+              "tr": "Hatayı ancak denetim sırasında fark ettik."
+            },
+            {
+              "en": "Only when the results came in did we celebrate.",
+              "tr": "Ancak sonuçlar gelince kutlama yaptık."
+            }
+          ]
+        },
+        {
+          "title_tr": "Türkçeden farkı ve sık karıştırılanlar",
+          "text_tr": "Türkçede vurgu için öğelerin yerini istediğin gibi değiştirebilirsin ve yardımcı fiil diye bir derdin yoktur. İngilizcede ise bu ifadeleri başa aldığın anda yardımcı fiil öznenin önüne geçmek zorundadır. [en:Never I have seen] Türkçe mantığıyla doğal gelir ama yanlıştır.\n\nİfade başta değilse devrik yapı da yoktur: [en:I have never seen such a mess] tamamen doğrudur ve günlük konuşmada daha yaygındır. Devrik yapı bir zorunluluk değil, vurgu ve üslup tercihidir.\n\n[en:Only] özneyi niteliyorsa devrik yapı olmaz: [en:Only Ali knows the password.] Devrik yapı ancak [en:only] bir zaman, koşul ya da yöntem ifadesiyle başa geldiğinde gerekir ([en:Only then…], [en:Only after…], [en:Only by…]).\n\nSık karıştırılanlar: [en:No sooner] ile [en:than], [en:Hardly] ile [en:when] kullanılır. [en:Did]'den sonra fiil yalın hâldedir: [en:Not only did she write…] ([en:wrote] değil). [en:Hardly] [tr:neredeyse hiç] demektir; [en:hard] (sıkı, zor) ile karıştırma.",
+          "examples": [
+            {
+              "en": "Only Ali knows the password.",
+              "tr": "Şifreyi sadece Ali biliyor."
+            },
+            {
+              "en": "We rarely work at weekends.",
+              "tr": "Hafta sonları nadiren çalışırız."
+            }
+          ]
+        },
+        {
+          "title_tr": "Ne zaman kullanılır?",
+          "text_tr": "Devrik yapı resmî ve vurgulu bir üsluptur. En çok resmî yazılarda, duyurularda, konuşma ve sunumlarda, haberlerde ve hikâye anlatırken görürsün.\n\nGünlük sohbette [en:Never have I…] biraz dramatik ya da esprili durur. Arkadaşınla konuşurken [en:I've never seen anything like it] demek daha doğaldır.\n\nBir metinde üst üste devrik cümle kurarsan yazı yapay ve abartılı görünür. Bir paragrafta bir tane yeterlidir; vurgu ancak seyrek kullanılınca etkili olur.",
+          "examples": [
+            {
+              "en": "I've never seen anything like it.",
+              "tr": "Böyle bir şey hiç görmedim."
+            },
+            {
+              "en": "Little did we know that the client was about to cancel the contract.",
+              "tr": "Müşterinin sözleşmeyi iptal etmek üzere olduğundan hiç haberimiz yoktu."
+            }
+          ]
+        },
+        {
+          "title_tr": "💼 İş hayatında",
+          "work": true,
+          "text_tr": "Resmî duyurularda, sunumların vurgulu cümlelerinde ve güvenlik kurallarında kullanılır; günlük e-postada aşırı kullanmak yapay durur.\n\nSunumda bir başarıyı öne çıkarmak için [en:Not only… but also…] çok etkilidir. Güvenlik ve uyum ([en:compliance]) kurallarında [en:Under no circumstances…] ve [en:On no account…] kesin bir yasak bildirir. Bir sorundan sonra müşteriye güvence verirken [en:At no time was your data at risk] gibi bir cümle güçlü ve profesyonel bir mesaj verir.\n\nİpucu: Önemli mesajını bir kez devrik cümleyle vurgula, gerisini normal sırayla yaz. Böylece vurgu gerçekten dikkat çeker.",
+          "examples": [
+            {
+              "en": "Not only did we meet our targets, but we also reduced costs.",
+              "tr": "Yalnızca hedeflerimize ulaşmakla kalmadık, maliyetleri de düşürdük."
+            },
+            {
+              "en": "At no time was customer data at risk.",
+              "tr": "Müşteri verileri hiçbir zaman risk altında değildi."
+            },
+            {
+              "en": "Never before have we had so many new customers in a single quarter.",
+              "tr": "Daha önce hiç tek bir çeyrekte bu kadar çok yeni müşterimiz olmamıştı."
+            },
+            {
+              "en": "Only by working together can we meet this deadline.",
+              "tr": "Bu teslim tarihine ancak birlikte çalışarak yetişebiliriz."
+            },
+            {
+              "en": "Under no circumstances should confidential files leave the office.",
+              "tr": "Gizli dosyalar hiçbir koşulda ofis dışına çıkmamalı."
+            },
+            {
+              "en": "On no account should passwords be shared by email.",
+              "tr": "Şifreler kesinlikle e-postayla paylaşılmamalı."
+            }
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "Never I have seen this.",
+          "right": "Never have I seen this.",
+          "note_tr": "Devrikte yardımcı fiil özneden önce."
+        },
+        {
+          "wrong": "Not only she is smart, but also kind.",
+          "right": "Not only is she smart, but she is also kind.",
+          "note_tr": "[en:Not only] + yardımcı fiil + özne."
+        },
+        {
+          "wrong": "Rarely we eat out.",
+          "right": "Rarely do we eat out.",
+          "note_tr": "Yardımcı fiil yoksa [en:do] eklenir."
+        },
+        {
+          "wrong": "Not only did she wrote the report, but she also presented it.",
+          "right": "Not only did she write the report, but she also presented it.",
+          "note_tr": "[en:Did] zaten geçmiş zamanı taşır; ardından fiil yalın hâlde gelir."
+        },
+        {
+          "wrong": "No sooner had we sat down when the alarm went off.",
+          "right": "No sooner had we sat down than the alarm went off.",
+          "note_tr": "[en:No sooner… than], [en:Hardly… when]: bağlaçları karıştırma."
+        },
+        {
+          "wrong": "Only after the meeting ended we understood the problem.",
+          "right": "Only after the meeting ended did we understand the problem.",
+          "note_tr": "[en:Only after] + yan cümleden sonra devrik yapı ana cümlede olur."
+        },
+        {
+          "wrong": "Under no circumstances you should open this door.",
+          "right": "Under no circumstances should you open this door.",
+          "note_tr": "Modal ([en:should]) öznenin önüne geçer."
+        },
+        {
+          "wrong": "Little I knew that he was leaving.",
+          "right": "Little did I know that he was leaving.",
+          "note_tr": "[en:Little] başa gelince [en:did] + özne + yalın fiil gelir."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "q": "Never ___ such a beautiful sunset.",
+          "options": [
+            "I have seen",
+            "have I seen",
+            "I saw"
+          ],
+          "answer": 1,
+          "explain_tr": "[en:Never] + [en:have] + [en:I]."
+        },
+        {
+          "type": "choice",
+          "q": "Rarely ___ late for meetings.",
+          "options": [
+            "he is",
+            "is he",
+            "he does"
+          ],
+          "answer": 1,
+          "explain_tr": "[en:Rarely] + [en:is] + [en:he]."
+        },
+        {
+          "type": "choice",
+          "q": "Not only ___ the report, but she also presented it.",
+          "options": [
+            "she wrote",
+            "did she write",
+            "wrote she"
+          ],
+          "answer": 1,
+          "explain_tr": "[en:Not only] + [en:did] + [en:she] + yalın fiil."
+        },
+        {
+          "type": "choice",
+          "q": "Hardly had the presentation begun ___ the lights went out.",
+          "options": [
+            "than",
+            "when",
+            "then"
+          ],
+          "answer": 1,
+          "explain_tr": "[en:Hardly… when]; [en:than] ise [en:No sooner] ile kullanılır."
+        },
+        {
+          "type": "choice",
+          "q": "Little ___ that the company was about to be sold.",
+          "options": [
+            "we knew",
+            "did we know",
+            "we did know"
+          ],
+          "answer": 1,
+          "explain_tr": "[en:Little] başta olunca [en:did] + [en:we] + [en:know] gelir."
+        },
+        {
+          "type": "fill",
+          "q": "Hardly ___ I closed my eyes when the phone rang. (had)",
+          "answer": [
+            "had"
+          ],
+          "explain_tr": "[en:Hardly had I…]"
+        },
+        {
+          "type": "fill",
+          "q": "Under no circumstances ___ you leave the building during the test. (should)",
+          "answer": [
+            "should"
+          ],
+          "explain_tr": "[en:Under no circumstances should you…]"
+        },
+        {
+          "type": "fill",
+          "q": "Only after the meeting ___ we understand the problem. (did)",
+          "answer": [
+            "did"
+          ],
+          "explain_tr": "[en:Only after… did we understand.]"
+        },
+        {
+          "type": "fill",
+          "q": "No sooner had the CEO finished speaking ___ the questions began.",
+          "answer": [
+            "than"
+          ],
+          "explain_tr": "[en:No sooner… than] kalıbı birlikte kullanılır."
+        },
+        {
+          "type": "fill",
+          "q": "Not only ___ the project late, but it was also over budget. (be, geçmiş)",
+          "answer": [
+            "was"
+          ],
+          "explain_tr": "[en:Not only] + [en:was] + özne: [en:be] fiili kendisi öne geçer."
+        },
+        {
+          "type": "fix",
+          "q": "Seldom we have seen such growth.",
+          "answer": [
+            "Seldom have we seen such growth.",
+            "We have seldom seen such growth."
+          ],
+          "explain_tr": "[en:Seldom] + [en:have] + [en:we]."
+        },
+        {
+          "type": "fix",
+          "q": "No sooner we had arrived than it started to rain.",
+          "answer": [
+            "No sooner had we arrived than it started to rain.",
+            "We had no sooner arrived than it started to rain."
+          ],
+          "explain_tr": "[en:No sooner] + [en:had] + [en:we]."
+        },
+        {
+          "type": "fix",
+          "q": "Under no circumstances you should share this file.",
+          "answer": [
+            "Under no circumstances should you share this file.",
+            "You should not share this file under any circumstances.",
+            "You should under no circumstances share this file."
+          ],
+          "explain_tr": "[en:Under no circumstances] + [en:should] + [en:you]."
+        },
+        {
+          "type": "fix",
+          "q": "Not only did he forgot the meeting, but he also lost the files.",
+          "answer": [
+            "Not only did he forget the meeting, but he also lost the files.",
+            "Not only did he forget the meeting, he also lost the files.",
+            "He not only forgot the meeting but also lost the files."
+          ],
+          "explain_tr": "[en:Did]'den sonra fiil yalın hâlde: [en:forget]."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "[en:Never] ile başlayarak devrik yap",
+          "q": "I have never worked with such a talented team.",
+          "answer": [
+            "Never have I worked with such a talented team.",
+            "Never before have I worked with such a talented team."
+          ],
+          "explain_tr": "[en:Never] + [en:have] + [en:I] + V3."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "[en:Rarely] ile başlayarak devrik yap",
+          "q": "We rarely receive complaints about our service.",
+          "answer": [
+            "Rarely do we receive complaints about our service."
+          ],
+          "explain_tr": "Yardımcı fiil yok → [en:do] + [en:we] + yalın fiil."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "[en:Only after] ile başlayarak devrik yap",
+          "q": "We understood the risk only after we had read the report.",
+          "answer": [
+            "Only after we had read the report did we understand the risk.",
+            "Only after we'd read the report did we understand the risk.",
+            "Only after we read the report did we understand the risk.",
+            "Only after reading the report did we understand the risk.",
+            "Only after having read the report did we understand the risk."
+          ],
+          "explain_tr": "Yan cümle normal kalır; devrik yapı ana cümlede: [en:did we understand]."
+        },
+        {
+          "type": "order",
+          "q": "Kelimeleri doğru sıraya koy (yasak bildiren devrik cümle):",
+          "words": [
+            "Under no circumstances",
+            "should",
+            "you",
+            "open",
+            "this door"
+          ],
+          "answer": [
+            "Under no circumstances should you open this door."
+          ],
+          "explain_tr": "[en:Under no circumstances] + [en:should] + [en:you] + yalın fiil."
+        },
+        {
+          "type": "order",
+          "words": [
+            "Seldom",
+            "have",
+            "we",
+            "seen",
+            "such",
+            "strong results"
+          ],
+          "answer": [
+            "Seldom have we seen such strong results."
+          ],
+          "explain_tr": "[en:Seldom] + [en:have] + [en:we] + V3."
+        },
+        {
+          "type": "order",
+          "words": [
+            "Not only",
+            "did",
+            "we",
+            "finish early,",
+            "but",
+            "we",
+            "also",
+            "saved money"
+          ],
+          "answer": [
+            "Not only did we finish early, but we also saved money."
+          ],
+          "explain_tr": "İlk kısım devrik ([en:did we finish]), [en:but]'tan sonraki kısım normal sırada."
+        },
+        {
+          "type": "match",
+          "pairs": [
+            [
+              "never",
+              "hiç, asla"
+            ],
+            [
+              "rarely",
+              "nadiren"
+            ],
+            [
+              "no sooner… than",
+              "-ir -mez"
+            ],
+            [
+              "under no circumstances",
+              "hiçbir koşulda"
+            ],
+            [
+              "little did I know",
+              "hiç bilmiyordum ki"
+            ]
+          ],
+          "explain_tr": "Bu ifadeler cümle başına gelince devrik yapı ister."
+        },
+        {
+          "type": "listen",
+          "text": "Never have I seen such a busy week at the office.",
+          "answer": [
+            "Never have I seen such a busy week at the office."
+          ],
+          "explain_tr": "[en:Never] + [en:have] + [en:I] + [en:seen]."
+        },
+        {
+          "type": "listen",
+          "text": "Under no circumstances should you share your password with anyone.",
+          "answer": [
+            "Under no circumstances should you share your password with anyone."
+          ],
+          "explain_tr": "[en:Under no circumstances] + [en:should] + [en:you]."
+        }
+      ],
+      "practice": {
+        "focus": "dramatic and emphatic statements about the learner's experiences and achievements (Never have I…, Not only…, Rarely do I…), in a lively conversation about memorable moments",
+        "tasks": [
+          [
+            "'Never have I…' ile en etkileyici deneyimini anlat",
+            "describe an amazing experience starting with Never have I"
+          ],
+          [
+            "Bir başarını 'Not only… but also…' ile anlat",
+            "describe an achievement with Not only… but also"
+          ]
+        ]
+      },
+      "sources": [
+        {
+          "title": "Inversion after negative adverbials",
+          "site": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/inversion-after-negative-adverbials"
+        },
+        {
+          "title": "Emphasis: cleft sentences, inversion and auxiliaries",
+          "site": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/emphasis-cleft-sentences-inversion-auxiliaries"
+        },
+        {
+          "title": "Inversion",
+          "site": "Cambridge Dictionary Grammar",
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/inversion"
+        }
+      ]
+    },
+    {
+      "id": "c1-cleft-sentences",
+      "title_tr": "Vurgulu cümleler: What I need is…, It was… that…",
+      "title_en": "Cleft sentences for emphasis",
+      "categories": [
+        "word_order"
+      ],
+      "intro_tr": "Cümlenin bir parçasını öne çıkarmak için cümleyi ikiye bölersin: [tr:Asıl ihtiyacım olan şey biraz zaman.] = [en:What I need is some time]. [tr:Hatayı yapan Ali'ydi] = [en:It was Ali who made the mistake]. Türkçede vurguyu çoğu zaman kelime sırası ya da ses tonuyla yaparsın; İngilizcede kelime sırası daha katı olduğu için bu kalıplara başvurursun.",
+      "sections": [
+        {
+          "title_tr": "What-cleft: [en:What I need is…]",
+          "text_tr": "Yapı: [en:What] + özne + fiil + [en:is/was] + vurgulanan kısım. [en:We need a clear plan] → [en:What we need is a clear plan.] Vurgulamak istediğin bilgi cümlenin sonuna gelir; İngilizcede yeni ve önemli bilgi genelde sondadır.\n\nBir eylemi vurgulamak için [en:do] kullanılır: [en:What we should do is call the client.] [en:What I did was send the file again.] [en:Is/was]'tan sonra eylem genelde yalın hâlde ([en:to]'suz) gelir.\n\nBütün bir olayı vurgulamak için [en:What happened was (that)…] kalıbı kullanılır: [en:What happened was that the server crashed.]\n\nBu kalıpta genelde tekil [en:is/was] kullanılır. Kalıbı ters de çevirebilirsin: [en:A clear plan is what we need.]",
+          "table": {
+            "head": [
+              "Normal cümle",
+              "What-cleft"
+            ],
+            "rows": [
+              [
+                "We need a clear plan.",
+                "What we need is a clear plan."
+              ],
+              [
+                "The delay worries me.",
+                "What worries me is the delay."
+              ],
+              [
+                "We should call the client.",
+                "What we should do is call the client."
+              ],
+              [
+                "I sent the file again.",
+                "What I did was send the file again."
+              ],
+              [
+                "The server crashed.",
+                "What happened was that the server crashed."
+              ]
+            ]
+          },
+          "examples": [
+            {
+              "en": "What we need is a clear plan.",
+              "tr": "Bize gereken şey net bir plan."
+            },
+            {
+              "en": "What I did was call the supplier directly.",
+              "tr": "Yaptığım şey, doğrudan tedarikçiyi aramak oldu."
+            },
+            {
+              "en": "What happened was that the server crashed during the update.",
+              "tr": "Olan şu: güncelleme sırasında sunucu çöktü."
+            }
+          ]
+        },
+        {
+          "title_tr": "It-cleft: [en:It was… who/that…]",
+          "text_tr": "Yapı: [en:It] + [en:is/was] + vurgulanan kısım + [en:who/that] + cümlenin geri kalanı. Bu kalıpla özneyi, nesneyi, zamanı ya da yeri vurgulayabilirsin: [en:It was in 2015 that we met.]\n\nVurgulanan kısım bir insansa [en:who] ya da [en:that], insan değilse [en:that] kullanılır. Vurgulanan kısım çoğul olsa bile başta hep [en:it is / it was] gelir: [en:It was the managers who decided.]\n\nZaman: geçmişteki bir olay için [en:It was], şimdiki ya da genel bir durum için [en:It is / It's] kullanılır.\n\nIt-cleft düzeltme yaparken çok işe yarar: [en:It wasn't the price that worried them; it was the delivery time.] [en:It wasn't until… that…] kalıbı ise [tr:ancak … -ince] anlamı verir: [en:It wasn't until Friday that the client replied.]",
+          "table": {
+            "head": [
+              "Normal cümle",
+              "Vurgulanan",
+              "It-cleft"
+            ],
+            "rows": [
+              [
+                "My manager suggested the idea.",
+                "özne",
+                "It was my manager who suggested the idea."
+              ],
+              [
+                "I need the sales figures.",
+                "nesne",
+                "It's the sales figures that I need."
+              ],
+              [
+                "We met in 2015.",
+                "zaman",
+                "It was in 2015 that we met."
+              ],
+              [
+                "We signed the deal in London.",
+                "yer",
+                "It was in London that we signed the deal."
+              ]
+            ]
+          },
+          "examples": [
+            {
+              "en": "It was my manager who suggested the idea.",
+              "tr": "Fikri öneren müdürümdü."
+            },
+            {
+              "en": "It wasn't until Friday that the client replied.",
+              "tr": "Müşteri ancak cuma günü cevap verdi."
+            },
+            {
+              "en": "It wasn't the price that worried them; it was the delivery time.",
+              "tr": "Onları endişelendiren fiyat değil, teslim süresiydi."
+            }
+          ]
+        },
+        {
+          "title_tr": "Diğer vurgu kalıpları: [en:All…], [en:The thing…], [en:The reason why…]",
+          "text_tr": "What-cleft'in benzerleri de çok kullanılır.\n\n[en:All I want is…] = [tr:Tek istediğim…]. Bir şeyin tek ve yeterli olduğunu vurgular: [en:All I need is a cup of coffee.] Eylemle kullanılırsa yalın fiil gelir: [en:All we can do now is wait.]\n\n[en:The thing (that)… is…], [en:The person (who)… is…], [en:The place where… is…] kalıpları what-cleft gibi çalışır ama daha somuttur: [en:The thing that impressed me most was her attitude.]\n\n[en:The reason why… is that…] bir sebebi vurgular. Burada [en:because] değil, [en:that] kullanılır: [en:The reason why I'm calling is that the order hasn't arrived.]",
+          "examples": [
+            {
+              "en": "All I want is a quiet weekend.",
+              "tr": "Tek istediğim sakin bir hafta sonu."
+            },
+            {
+              "en": "The reason why I'm calling is that the order hasn't arrived.",
+              "tr": "Aramamın sebebi siparişin gelmemiş olması."
+            },
+            {
+              "en": "The thing that impressed me most was her attitude.",
+              "tr": "En çok etkilendiğim şey onun tavrıydı."
+            },
+            {
+              "en": "The person you should talk to is Elif in accounting.",
+              "tr": "Konuşman gereken kişi muhasebedeki Elif."
+            },
+            {
+              "en": "All we can do now is wait.",
+              "tr": "Şu an yapabileceğimiz tek şey beklemek."
+            }
+          ]
+        },
+        {
+          "title_tr": "Türkçeden farkı ve sık hatalar",
+          "text_tr": "Türkçede bu vurguyu çoğu zaman [tr:-an] ve [tr:-dığı] ekleriyle yaparsın: [tr:Hatayı yapan Ali'ydi], [tr:Bana gereken şey zaman.] İngilizce kalıplar buna çok benzer, ama birkaç tuzak vardır.\n\nFazladan [en:it] ekleme: [en:What I need it is…] yanlıştır, çünkü [en:What I need] zaten öznedir.\n\n[en:The thing what…] yanlıştır; [en:The thing that…] ya da sadece [en:What…] kullan.\n\nİnsan için [en:which] kullanma: [en:It was Ayşe who called you.]\n\n[en:Be] fiilini unutma: Türkçede [tr:Beni şaşırtan fiyattı] dersin, İngilizcede ise [en:is/was] zorunludur: [en:What surprised me was the price.]",
+          "examples": [
+            {
+              "en": "It was Ayşe who called you this morning.",
+              "tr": "Bu sabah seni arayan Ayşe'ydi."
+            },
+            {
+              "en": "It's not the money that matters; it's the experience.",
+              "tr": "Önemli olan para değil, deneyim."
+            }
+          ]
+        },
+        {
+          "title_tr": "💼 İş hayatında",
+          "work": true,
+          "text_tr": "Toplantıda asıl noktanın altını çizmek ve yanlış anlamaları düzeltmek için çok etkilidir.\n\nBir sunumda ana mesajını [en:What we need to decide today is…] ile vermek dinleyicinin dikkatini toplar. Bir e-postada sebebi netleştirmek için [en:The reason I'm writing is that…] kullanabilirsin. Bir sorunun kimden ya da nereden kaynaklandığını açıklarken it-cleft hem net hem de kibar bir yoldur.\n\nÖneri yaparken [en:What I'd suggest is…] kalıbı doğrudan [en:You should…] demekten daha yumuşak durur.",
+          "examples": [
+            {
+              "en": "What worries me is the timeline, not the budget.",
+              "tr": "Beni endişelendiren bütçe değil, zaman çizelgesi."
+            },
+            {
+              "en": "It's the testing phase that usually takes longest.",
+              "tr": "Genellikle en uzun süren test aşamasıdır."
+            },
+            {
+              "en": "What we need to decide today is the launch date.",
+              "tr": "Bugün karar vermemiz gereken şey lansman tarihi."
+            },
+            {
+              "en": "It was the IT team that solved the problem, not us.",
+              "tr": "Sorunu çözen biz değil, BT ekibiydi."
+            },
+            {
+              "en": "What I'd suggest is a short call on Monday.",
+              "tr": "Benim önerim pazartesi kısa bir görüşme yapmak."
+            }
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "What I need it is time.",
+          "right": "What I need is time.",
+          "note_tr": "Fazladan [en:it] yok."
+        },
+        {
+          "wrong": "It was Ayşe which called you.",
+          "right": "It was Ayşe who called you.",
+          "note_tr": "İnsan → [en:who] (ya da [en:that])."
+        },
+        {
+          "wrong": "The reason is because I was ill.",
+          "right": "The reason is that I was ill.",
+          "note_tr": "[en:The reason… is that…]"
+        },
+        {
+          "wrong": "The thing what I need is a break.",
+          "right": "The thing that I need is a break.",
+          "note_tr": "[en:The thing]'den sonra [en:what] gelmez; [en:that] kullan ya da hiçbir şey koyma."
+        },
+        {
+          "wrong": "What surprised me the price.",
+          "right": "What surprised me was the price.",
+          "note_tr": "What-cleft'te [en:be] fiili ([en:is/was]) zorunlu."
+        },
+        {
+          "wrong": "It were the managers who decided.",
+          "right": "It was the managers who decided.",
+          "note_tr": "Vurgulanan çoğul olsa da başta hep [en:it is / it was]."
+        },
+        {
+          "wrong": "What I did was called the client.",
+          "right": "What I did was call the client.",
+          "note_tr": "[en:What… do… is/was]'tan sonra eylem yalın hâlde gelir."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "q": "___ I like about Istanbul is the energy.",
+          "options": [
+            "That",
+            "What",
+            "Which"
+          ],
+          "answer": 1,
+          "explain_tr": "What-cleft."
+        },
+        {
+          "type": "choice",
+          "q": "It was in Ankara ___ I first met her.",
+          "options": [
+            "that",
+            "what",
+            "which"
+          ],
+          "answer": 0,
+          "explain_tr": "[en:It was… that…]"
+        },
+        {
+          "type": "choice",
+          "q": "All I need ___ a cup of coffee.",
+          "options": [
+            "are",
+            "is",
+            "be"
+          ],
+          "answer": 1,
+          "explain_tr": "[en:All I need is…]"
+        },
+        {
+          "type": "choice",
+          "q": "It was the finance director ___ approved the budget.",
+          "options": [
+            "who",
+            "what",
+            "which"
+          ],
+          "answer": 0,
+          "explain_tr": "Vurgulanan bir insan → [en:who] (ya da [en:that])."
+        },
+        {
+          "type": "choice",
+          "q": "What we should do ___ call the client today.",
+          "options": [
+            "is",
+            "are",
+            "does"
+          ],
+          "answer": 0,
+          "explain_tr": "[en:What we should do is] + yalın fiil."
+        },
+        {
+          "type": "fill",
+          "q": "It was the marketing team ___ came up with the slogan.",
+          "answer": [
+            "who",
+            "that"
+          ],
+          "explain_tr": "[en:who/that]."
+        },
+        {
+          "type": "fill",
+          "q": "What surprised me ___ the price. (be, geçmiş)",
+          "answer": [
+            "was"
+          ],
+          "explain_tr": "[en:What surprised me was…]"
+        },
+        {
+          "type": "fill",
+          "q": "The reason why we're late is ___ the road was closed.",
+          "answer": [
+            "that"
+          ],
+          "explain_tr": "[en:is that…]"
+        },
+        {
+          "type": "fill",
+          "q": "What I did ___ send the report again. (be, geçmiş)",
+          "answer": [
+            "was"
+          ],
+          "explain_tr": "[en:What I did was] + yalın fiil."
+        },
+        {
+          "type": "fill",
+          "q": "It wasn't ___ Monday that the parts arrived. (-e kadar)",
+          "answer": [
+            "until",
+            "till"
+          ],
+          "explain_tr": "[en:It wasn't until… that…] = ancak … -ince."
+        },
+        {
+          "type": "fix",
+          "q": "What I want it is a new laptop.",
+          "answer": [
+            "What I want is a new laptop."
+          ],
+          "explain_tr": "[en:it] fazla."
+        },
+        {
+          "type": "fix",
+          "q": "The reason is because the server crashed.",
+          "answer": [
+            "The reason is that the server crashed."
+          ],
+          "explain_tr": "[en:is that]."
+        },
+        {
+          "type": "fix",
+          "q": "It was Mehmet which fixed the printer.",
+          "answer": [
+            "It was Mehmet who fixed the printer.",
+            "It was Mehmet that fixed the printer."
+          ],
+          "explain_tr": "İnsan için [en:which] değil, [en:who] ya da [en:that]."
+        },
+        {
+          "type": "fix",
+          "q": "The thing what worries me is the cost.",
+          "answer": [
+            "The thing that worries me is the cost.",
+            "The thing which worries me is the cost.",
+            "What worries me is the cost."
+          ],
+          "explain_tr": "[en:The thing that…] ya da sadece [en:What…]"
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "[en:What] ile başlayan vurgulu cümleye çevir",
+          "q": "We need more time.",
+          "answer": [
+            "What we need is more time.",
+            "More time is what we need."
+          ],
+          "explain_tr": "[en:What] + özne + fiil + [en:is] + vurgulanan kısım."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "[en:It was… who…] ile özneyi vurgula",
+          "q": "Elif found the mistake.",
+          "answer": [
+            "It was Elif who found the mistake.",
+            "It was Elif that found the mistake."
+          ],
+          "explain_tr": "[en:It was] + [en:Elif] + [en:who] + geri kalanı."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "[en:It was… that…] ile zamanı vurgula",
+          "q": "We launched the product in March.",
+          "answer": [
+            "It was in March that we launched the product."
+          ],
+          "explain_tr": "[en:It was] + [en:in March] + [en:that] + geri kalanı."
+        },
+        {
+          "type": "order",
+          "words": [
+            "What",
+            "I",
+            "love",
+            "about my job",
+            "is",
+            "the people"
+          ],
+          "answer": [
+            "What I love about my job is the people."
+          ],
+          "explain_tr": "What-cleft: vurgulanan bilgi ([en:the people]) sonda."
+        },
+        {
+          "type": "order",
+          "words": [
+            "It",
+            "was",
+            "the client",
+            "who",
+            "cancelled",
+            "the meeting"
+          ],
+          "answer": [
+            "It was the client who cancelled the meeting."
+          ],
+          "explain_tr": "[en:It was] + vurgulanan + [en:who] + geri kalanı."
+        },
+        {
+          "type": "order",
+          "words": [
+            "The reason",
+            "why",
+            "I'm calling",
+            "is",
+            "that",
+            "the invoice",
+            "is wrong"
+          ],
+          "answer": [
+            "The reason why I'm calling is that the invoice is wrong."
+          ],
+          "explain_tr": "[en:The reason why… is that…]"
+        },
+        {
+          "type": "match",
+          "pairs": [
+            [
+              "What I need is…",
+              "Bana gereken şey…"
+            ],
+            [
+              "It was Ali who…",
+              "… yapan Ali'ydi"
+            ],
+            [
+              "All I want is…",
+              "Tek istediğim…"
+            ],
+            [
+              "The reason why… is that…",
+              "… sebebi şu: …"
+            ],
+            [
+              "What happened was…",
+              "Olan şu: …"
+            ]
+          ],
+          "explain_tr": "Hepsi cümlenin bir parçasını öne çıkaran vurgu kalıplarıdır."
+        },
+        {
+          "type": "listen",
+          "text": "What worries me most is the deadline, not the budget.",
+          "answer": [
+            "What worries me most is the deadline, not the budget."
+          ],
+          "explain_tr": "[en:What worries me] + [en:is] + vurgulanan kısım."
+        },
+        {
+          "type": "listen",
+          "text": "It was the sales team that found the solution.",
+          "answer": [
+            "It was the sales team that found the solution.",
+            "It was the sales team who found the solution."
+          ],
+          "explain_tr": "[en:It was] + vurgulanan + [en:that] + geri kalanı."
+        }
+      ],
+      "practice": {
+        "focus": "expressing what really matters to the learner and correcting misunderstandings, using What I…, It was… that… and The reason why… is that…",
+        "tasks": [
+          [
+            "İşinde en çok neyi sevdiğini 'What I love about… is…' ile söyle",
+            "say what they love about their job with a what-cleft"
+          ],
+          [
+            "Bir yanlış anlamayı 'It wasn't…, it was…' ile düzelt",
+            "correct a misunderstanding with an it-cleft"
+          ]
+        ]
+      },
+      "sources": [
+        {
+          "title": "Emphasis: cleft sentences, inversion and auxiliaries",
+          "site": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/emphasis-cleft-sentences-inversion-auxiliaries"
+        },
+        {
+          "title": "Cleft sentences",
+          "site": "Cambridge Dictionary Grammar",
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/cleft-sentences-it-was-in-june-we-got-married"
+        }
+      ]
+    },
+    {
+      "id": "c1-advanced-conditionals",
+      "title_tr": "İleri koşul yapıları: Had I known…, Should you need…, provided that",
+      "title_en": "Inverted conditionals and alternatives to if",
+      "categories": [
+        "word_order",
+        "verb_form"
+      ],
+      "intro_tr": "Resmî İngilizcede [en:if] düşürülüp devrik yapı kullanılabilir: [en:If I had known] → [en:Had I known]. Ayrıca [en:unless, provided that, as long as, otherwise, in case] gibi koşul bağlaçları anlamı daha net yapar. Türkçede bunların çoğunu [tr:-se/-sa] ekiyle söylersin; İngilizcede ise koşulun türüne (olasılık, şart, önlem) göre doğru kelimeyi seçmen gerekir.",
+      "sections": [
+        {
+          "title_tr": "Devrik koşullar: [en:Should], [en:Were], [en:Had]",
+          "text_tr": "Resmî İngilizcede [en:if] düşürülür ve yardımcı fiil öznenin önüne geçer. Üç kalıp vardır.\n\n[en:Should] + özne + yalın fiil (= [en:if… happens to]): olası bir gelecek koşul. [en:Should you need help, call me.] Buradaki [en:should] [tr:gerekir] anlamına gelmez; [tr:olur da… -rsa] demektir.\n\n[en:Were] + özne + [en:to] + fiil ya da [en:Were] + özne + tamamlayıcı: hayalî bir koşul. [en:Were I to lose my job…], [en:Were I in your position…], [en:Were it not for your help…]. Devrikte özne ne olursa olsun [en:were] kullanılır; [en:was] kullanılmaz.\n\n[en:Had] + özne + V3: geçmişte gerçekleşmemiş bir koşul. [en:Had we known, we would have acted.] Olumsuzda [en:not] özneden sonra gelir ve kısaltma yapılmaz: [en:Had we not acted quickly…] ([en:Hadn't we…] değil).",
+          "table": {
+            "head": [
+              "if'li cümle",
+              "Devrik (resmî)",
+              "Tür"
+            ],
+            "rows": [
+              [
+                "If you need help, call me.",
+                "Should you need help, call me.",
+                "olası gelecek (1. tür)"
+              ],
+              [
+                "If I were in your position, I would accept.",
+                "Were I in your position, I would accept.",
+                "hayalî şimdi (2. tür)"
+              ],
+              [
+                "If the company were to close, we would lose our jobs.",
+                "Were the company to close, we would lose our jobs.",
+                "hayalî gelecek (2. tür)"
+              ],
+              [
+                "If we had known, we would have acted.",
+                "Had we known, we would have acted.",
+                "hayalî geçmiş (3. tür)"
+              ],
+              [
+                "If it had not been for your help, we would have failed.",
+                "Had it not been for your help, we would have failed.",
+                "hayalî geçmiş (3. tür)"
+              ]
+            ]
+          },
+          "examples": [
+            {
+              "en": "Should you have any questions, please contact me.",
+              "tr": "Herhangi bir sorunuz olursa lütfen benimle iletişime geçin."
+            },
+            {
+              "en": "Had I known about the delay, I would have stayed at home.",
+              "tr": "Gecikmeden haberim olsaydı evde kalırdım."
+            },
+            {
+              "en": "Had it not been for her support, I would have given up.",
+              "tr": "Onun desteği olmasaydı pes ederdim."
+            },
+            {
+              "en": "Were I in your position, I would accept the offer.",
+              "tr": "Senin yerinde olsam teklifi kabul ederdim."
+            },
+            {
+              "en": "Had we not acted quickly, we would have lost the client.",
+              "tr": "Hızlı davranmasaydık müşteriyi kaybederdik."
+            }
+          ]
+        },
+        {
+          "title_tr": "[en:if]'in alternatifleri",
+          "text_tr": "[en:unless] = [en:if not] ([en:Unless you hurry, you'll miss it]). [en:provided (that) / as long as] = sadece şu koşulla. [en:otherwise] = aksi takdirde. [en:in case] = ihtimaline karşı (koşul değil, önlem: [en:Take an umbrella in case it rains]).\n\n[en:unless], [en:provided that], [en:as long as], [en:in case] ve [en:even if]'ten sonra gelecek anlamı olsa bile present simple kullanılır: [en:as long as you bring it back] ([en:will bring] değil). [en:otherwise] ise bir bağlaç değil, zarftır; ardından normal bir ana cümle gelir: [en:Hurry, otherwise you'll be late.]\n\n[en:unless] zaten olumsuz anlam taşır; ardından olumsuz fiil gelmez. [en:in case] ise bir önlemdir: şemsiyeyi her durumda alırsın, yağmur yağsa da yağmasa da. [en:if] ile kurulan cümlede ise bir şeyi ancak koşul gerçekleşirse yaparsın.\n\n[en:even if] [tr:-se bile] demektir; [en:supposing (that)] ise [tr:diyelim ki] anlamında bir olasılığı tartışmaya açar.",
+          "table": {
+            "head": [
+              "Bağlaç",
+              "Anlamı",
+              "Örnek"
+            ],
+            "rows": [
+              [
+                "unless",
+                "-mezse, -medikçe (= if not)",
+                "Unless you hurry, you'll miss the train."
+              ],
+              [
+                "provided (that) / providing (that)",
+                "… şartıyla",
+                "We'll sign provided that the price stays the same."
+              ],
+              [
+                "as long as / so long as",
+                "… sürece, … şartıyla",
+                "You can work from home as long as you're online."
+              ],
+              [
+                "on condition that",
+                "… koşuluyla",
+                "We'll agree on condition that you pay in advance."
+              ],
+              [
+                "otherwise",
+                "aksi takdirde, yoksa",
+                "Hurry, otherwise you'll be late."
+              ],
+              [
+                "in case",
+                "… ihtimaline karşı",
+                "Take an umbrella in case it rains."
+              ],
+              [
+                "even if",
+                "-se bile",
+                "I'll go even if it rains."
+              ],
+              [
+                "supposing (that)",
+                "diyelim ki, farz et ki",
+                "Supposing the client says no, what will we do?"
+              ]
+            ]
+          },
+          "examples": [
+            {
+              "en": "You can borrow my car as long as you bring it back by six.",
+              "tr": "Altıya kadar geri getirdiğin sürece arabamı alabilirsin."
+            },
+            {
+              "en": "We'll sign the contract provided that the price stays the same.",
+              "tr": "Fiyat aynı kaldığı takdirde sözleşmeyi imzalarız."
+            },
+            {
+              "en": "Save your work, otherwise you might lose it.",
+              "tr": "Çalışmanı kaydet, yoksa kaybedebilirsin."
+            },
+            {
+              "en": "I'll accept the job even if the salary is lower.",
+              "tr": "Maaş daha düşük olsa bile işi kabul edeceğim."
+            },
+            {
+              "en": "Supposing the supplier lets us down, do we have a plan B?",
+              "tr": "Diyelim ki tedarikçi bizi yüzüstü bıraktı, B planımız var mı?"
+            }
+          ]
+        },
+        {
+          "title_tr": "Karışık koşullar (mixed conditionals)",
+          "text_tr": "Bazen geçmişteki hayalî bir koşulun sonucu bugüne uzanır. O zaman koşul kısmı 3. tür ([en:had] + V3), sonuç kısmı 2. tür ([en:would] + yalın fiil) olur: [en:If I had taken that job, I would be in London now.] Devrik hâli de mümkündür: [en:Had I taken that job, I would be in London now.]\n\nTers yönde, bugün hâlâ geçerli olan bir durum geçmişteki bir sonucu açıklar: [en:If I spoke German, I would have applied for the job in Berlin.] Almanca bilmemek bugün de geçerlidir, başvurmamak ise geçmişte kaldı.",
+          "examples": [
+            {
+              "en": "Had I taken that job, I would be living in London now.",
+              "tr": "O işi kabul etseydim şimdi Londra'da yaşıyor olurdum."
+            },
+            {
+              "en": "If we had hired more staff last year, we wouldn't be so busy now.",
+              "tr": "Geçen yıl daha fazla eleman alsaydık şimdi bu kadar yoğun olmazdık."
+            }
+          ]
+        },
+        {
+          "title_tr": "Türkçeden farkı ve sık karıştırılanlar",
+          "text_tr": "Türkçede bu koşulların çoğunu [tr:-se/-sa] ekiyle söylersin: [tr:yağarsa], [tr:yağmazsa], [tr:yağsa bile]. İngilizcede ise koşulun türüne göre farklı bir kelime seçmen gerekir: önlem için [en:in case], şart için [en:provided that], olumsuz koşul için [en:unless].\n\n[en:if]'li yan cümlede [en:would] kullanılmaz: [en:If I had known] doğru, [en:If I would have known] yanlış.\n\nDevrik koşulda [en:if] kalmaz: [en:Had I known] doğru, [en:If had I known] yanlış.\n\n[en:unless] ile olumsuz fiil kullanma: [en:Unless you hurry] = [en:If you don't hurry].",
+          "examples": [
+            {
+              "en": "Unless you reply by Friday, we'll assume you agree.",
+              "tr": "Cumaya kadar cevap vermezsen kabul ettiğini varsayacağız."
+            },
+            {
+              "en": "Bring your laptop in case the projector doesn't work.",
+              "tr": "Projektör çalışmazsa diye dizüstü bilgisayarını getir."
+            }
+          ]
+        },
+        {
+          "title_tr": "💼 İş hayatında",
+          "work": true,
+          "text_tr": "Resmî e-posta kapanışlarının klasiği: [en:Should you require any further information, please do not hesitate to contact me.]\n\nSözleşme ve tekliflerde [en:provided that] ve [en:on condition that] şartları netleştirir. Pazarlıkta [en:as long as] esnek ama net bir sınır çizer: [en:We can deliver earlier as long as you confirm today.] Risklerden bahsederken [en:in case] ve [en:otherwise] kullanılır.\n\nDevrik koşullar ([en:Should you…], [en:Were we to…]) resmî e-postalarda, raporlarda ve sözleşmelerde kibar ve profesyonel durur. Günlük konuşmada ise [en:If you need anything…] daha doğaldır.",
+          "examples": [
+            {
+              "en": "Should you require any further information, please do not hesitate to contact me.",
+              "tr": "Ek bilgiye ihtiyaç duyarsanız lütfen benimle iletişime geçmekten çekinmeyin."
+            },
+            {
+              "en": "Unless we receive payment by Friday, the order will be cancelled.",
+              "tr": "Cumaya kadar ödeme almazsak sipariş iptal edilecek."
+            },
+            {
+              "en": "We can offer a 10% discount provided that you order before the end of the month.",
+              "tr": "Ay sonundan önce sipariş verirseniz %10 indirim sunabiliriz."
+            },
+            {
+              "en": "Should the problem persist, please contact our support team.",
+              "tr": "Sorun devam ederse lütfen destek ekibimizle iletişime geçin."
+            },
+            {
+              "en": "Were the project to be delayed again, we would need to inform the board.",
+              "tr": "Proje yeniden ertelenecek olursa yönetim kurulunu bilgilendirmemiz gerekir."
+            }
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "Had I know, I would have told you.",
+          "right": "Had I known, I would have told you.",
+          "note_tr": "[en:Had] + V3."
+        },
+        {
+          "wrong": "Unless you don't hurry, you'll be late.",
+          "right": "Unless you hurry, you'll be late.",
+          "note_tr": "[en:unless] zaten olumsuz anlam taşır."
+        },
+        {
+          "wrong": "Take a jacket if it gets cold. (önlem anlamında)",
+          "right": "Take a jacket in case it gets cold.",
+          "note_tr": "Önlem → [en:in case]."
+        },
+        {
+          "wrong": "If had I known, I would have come.",
+          "right": "Had I known, I would have come.",
+          "note_tr": "Devrik koşulda [en:if] düşer."
+        },
+        {
+          "wrong": "Hadn't we acted quickly, we would have lost the client.",
+          "right": "Had we not acted quickly, we would have lost the client.",
+          "note_tr": "Olumsuz devrik koşulda kısaltma yok; [en:not] özneden sonra gelir."
+        },
+        {
+          "wrong": "Was I in your position, I would accept.",
+          "right": "Were I in your position, I would accept.",
+          "note_tr": "Devrik koşulda her özneyle [en:were] kullanılır."
+        },
+        {
+          "wrong": "You can leave early provided that you will finish the report.",
+          "right": "You can leave early provided that you finish the report.",
+          "note_tr": "Koşul bağlacından sonra gelecek için present simple."
+        },
+        {
+          "wrong": "If I would have known, I would have helped.",
+          "right": "If I had known, I would have helped.",
+          "note_tr": "[en:if]'li yan cümlede [en:would] kullanılmaz."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "q": "___ you need any help, just let me know.",
+          "options": [
+            "Should",
+            "Would",
+            "Had"
+          ],
+          "answer": 0,
+          "explain_tr": "[en:Should you need…]"
+        },
+        {
+          "type": "choice",
+          "q": "___ we left earlier, we would have caught the train.",
+          "options": [
+            "If",
+            "Had",
+            "Should"
+          ],
+          "answer": 1,
+          "explain_tr": "[en:Had we left] (devrik third conditional)."
+        },
+        {
+          "type": "choice",
+          "q": "You won't pass ___ you study.",
+          "options": [
+            "if",
+            "unless",
+            "in case"
+          ],
+          "answer": 1,
+          "explain_tr": "[en:unless] = [en:if not]."
+        },
+        {
+          "type": "choice",
+          "q": "Take some cash with you ___ the card machine isn't working.",
+          "options": [
+            "unless",
+            "in case",
+            "otherwise"
+          ],
+          "answer": 1,
+          "explain_tr": "Önlem anlamı → [en:in case]."
+        },
+        {
+          "type": "choice",
+          "q": "___ I to accept the offer, I would have to move to Izmir.",
+          "options": [
+            "Were",
+            "Was",
+            "Should"
+          ],
+          "answer": 0,
+          "explain_tr": "[en:Were] + özne + [en:to] + fiil; devrikte [en:was] kullanılmaz."
+        },
+        {
+          "type": "fill",
+          "q": "I'll lend you the money ___ long as you pay me back next month.",
+          "answer": [
+            "as",
+            "so"
+          ],
+          "explain_tr": "[en:as long as]."
+        },
+        {
+          "type": "fill",
+          "q": "Write down the address ___ case you forget it.",
+          "answer": [
+            "in"
+          ],
+          "explain_tr": "[en:in case]."
+        },
+        {
+          "type": "fill",
+          "q": "___ it not for the rain, we would go to the beach. (be)",
+          "answer": [
+            "Were"
+          ],
+          "explain_tr": "[en:Were it not for…]"
+        },
+        {
+          "type": "fill",
+          "q": "Should you ___ any further information, please let me know. (require)",
+          "answer": [
+            "require",
+            "need"
+          ],
+          "explain_tr": "[en:Should] + özne + yalın fiil."
+        },
+        {
+          "type": "fill",
+          "q": "Had I ___ about the strike, I would have booked a different flight. (know)",
+          "answer": [
+            "known"
+          ],
+          "explain_tr": "[en:Had] + özne + V3."
+        },
+        {
+          "type": "fix",
+          "q": "Unless you don't call me, I'll wait here.",
+          "answer": [
+            "Unless you call me, I'll wait here.",
+            "If you don't call me, I'll wait here."
+          ],
+          "explain_tr": "[en:unless] + olumlu."
+        },
+        {
+          "type": "fix",
+          "q": "Had I knew the answer, I would have said it.",
+          "answer": [
+            "Had I known the answer, I would have said it.",
+            "If I had known the answer, I would have said it.",
+            "If I'd known the answer, I would have said it."
+          ],
+          "explain_tr": "[en:Had] + [en:known]."
+        },
+        {
+          "type": "fix",
+          "q": "Hadn't we checked the figures, we would have lost thousands.",
+          "answer": [
+            "Had we not checked the figures, we would have lost thousands.",
+            "If we hadn't checked the figures, we would have lost thousands."
+          ],
+          "explain_tr": "Olumsuz devrik koşul: [en:Had we not…]"
+        },
+        {
+          "type": "fix",
+          "q": "You can take the day off provided that you will finish the report first.",
+          "answer": [
+            "You can take the day off provided that you finish the report first.",
+            "You can take the day off provided you finish the report first."
+          ],
+          "explain_tr": "[en:provided that] + present simple."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "[en:if] olmadan, [en:Had] ile başlayarak yaz",
+          "q": "If I had known about the meeting, I would have come.",
+          "answer": [
+            "Had I known about the meeting, I would have come.",
+            "I would have come had I known about the meeting."
+          ],
+          "explain_tr": "[en:If I had known] → [en:Had I known]."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "[en:Should] ile başlayarak resmî hâle getir",
+          "q": "If you have any questions, please call me.",
+          "answer": [
+            "Should you have any questions, please call me.",
+            "Please call me should you have any questions."
+          ],
+          "explain_tr": "[en:If you have] → [en:Should you have]."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "[en:unless] kullanarak yeniden yaz",
+          "q": "If we don't receive payment, we will cancel the order.",
+          "answer": [
+            "Unless we receive payment, we will cancel the order.",
+            "We will cancel the order unless we receive payment."
+          ],
+          "explain_tr": "[en:if… not] → [en:unless] + olumlu fiil."
+        },
+        {
+          "type": "order",
+          "words": [
+            "Should",
+            "you",
+            "need",
+            "any help,",
+            "please",
+            "call me"
+          ],
+          "answer": [
+            "Should you need any help, please call me.",
+            "Please call me should you need any help."
+          ],
+          "explain_tr": "[en:Should] + [en:you] + yalın fiil, sonra ana cümle."
+        },
+        {
+          "type": "order",
+          "words": [
+            "Had",
+            "we",
+            "left",
+            "earlier,",
+            "we",
+            "would have",
+            "caught",
+            "the train"
+          ],
+          "answer": [
+            "Had we left earlier, we would have caught the train.",
+            "We would have caught the train had we left earlier."
+          ],
+          "explain_tr": "[en:Had] + [en:we] + V3, [en:we would have] + V3."
+        },
+        {
+          "type": "order",
+          "words": [
+            "We'll",
+            "sign",
+            "the contract",
+            "provided that",
+            "the price",
+            "stays",
+            "the same"
+          ],
+          "answer": [
+            "We'll sign the contract provided that the price stays the same.",
+            "Provided that the price stays the same, we'll sign the contract."
+          ],
+          "explain_tr": "[en:provided that] + present simple ([en:stays])."
+        },
+        {
+          "type": "match",
+          "pairs": [
+            [
+              "unless",
+              "-mezse, -medikçe"
+            ],
+            [
+              "provided that",
+              "… şartıyla"
+            ],
+            [
+              "in case",
+              "… ihtimaline karşı"
+            ],
+            [
+              "otherwise",
+              "aksi takdirde"
+            ],
+            [
+              "even if",
+              "-se bile"
+            ]
+          ],
+          "explain_tr": "Her bağlaç farklı bir koşul türü anlatır."
+        },
+        {
+          "type": "listen",
+          "text": "Should you have any questions, please do not hesitate to call.",
+          "answer": [
+            "Should you have any questions, please do not hesitate to call."
+          ],
+          "explain_tr": "[en:Should you have…] = [en:If you have…]"
+        },
+        {
+          "type": "listen",
+          "text": "Had we known about the delay, we would have changed our plans.",
+          "answer": [
+            "Had we known about the delay, we would have changed our plans."
+          ],
+          "explain_tr": "[en:Had we known…] = [en:If we had known…]"
+        }
+      ],
+      "practice": {
+        "focus": "formal conditions and agreements: conditions for a deal or a favour (provided that, as long as, unless) and formal hypotheticals (Had I known…, Should you…)",
+        "tasks": [
+          [
+            "Bir iyilik için koşullarını söyle (as long as / provided that)",
+            "state conditions for doing a favour"
+          ],
+          [
+            "'Had I known…' ile bir pişmanlığını anlat",
+            "describe a regret starting with Had I known"
+          ]
+        ]
+      },
+      "sources": [
+        {
+          "title": "Inversion and conditionals",
+          "site": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/inversion-conditionals"
+        },
+        {
+          "title": "Conditionals: other expressions (unless, should, as long as)",
+          "site": "Cambridge Dictionary Grammar",
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/conditionals-other-expressions-unless-should-as-long-as"
+        },
+        {
+          "title": "As long as and so long as",
+          "site": "Cambridge Dictionary Grammar",
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/as-long-as-and-so-long-as"
+        }
+      ]
+    },
+    {
+      "id": "c1-participle-clauses",
+      "title_tr": "Sıfat-fiil yapıları: Having finished…, Written in 1990…",
+      "title_en": "Participle clauses",
+      "categories": [
+        "verb_form",
+        "word_order"
+      ],
+      "intro_tr": "İki cümleyi kısaltıp daha akıcı ve resmî yapmanın yolu: [en:When I finished the report, I went home] → [en:Having finished the report, I went home.] Türkçedeki [tr:-ip, -ınca, -dıktan sonra, -an] yapılarına benzer. En büyük tuzak şu: participle clause'un gizli öznesi ana cümlenin öznesiyle aynı olmalıdır.",
+      "sections": [
+        {
+          "title_tr": "Üç tür",
+          "text_tr": "[en:-ing] (etken, aynı anda ya da sebep): [en:Feeling tired, I went to bed.] [en:Having] + V3 (önce olan): [en:Having lived in London, he speaks fluent English.] V3 (edilgen): [en:Built in 1890, the house needs repairs.] Dikkat: iki cümlenin öznesi aynı olmalı.\n\nParticiple clause, bir yan cümleden bağlacı ve özneyi atıp fiili participle hâline getirerek kurulur: [en:When I finished the report, I went home] → [en:Having finished the report, I went home.]\n\nOlumsuz yapmak için başa sadece [en:not] eklenir: [en:Not knowing the answer, I said nothing.] [en:Don't] ya da [en:didn't] kullanılmaz.\n\nEdilgen bir olay ana olaydan önce olduysa [en:Having been] + V3 kullanılır: [en:Having been warned about the traffic, we left early.]",
+          "table": {
+            "head": [
+              "Tür",
+              "Biçim",
+              "Anlamı",
+              "Örnek"
+            ],
+            "rows": [
+              [
+                "Present participle",
+                "-ing",
+                "aynı anda ya da sebep (etken)",
+                "Feeling tired, I went to bed."
+              ],
+              [
+                "Perfect participle",
+                "having + V3",
+                "önce olan (etken)",
+                "Having lived in London, he speaks fluent English."
+              ],
+              [
+                "Past participle",
+                "V3",
+                "edilgen",
+                "Built in 1890, the house needs repairs."
+              ],
+              [
+                "Perfect passive",
+                "having been + V3",
+                "önce olan (edilgen)",
+                "Having been warned, we left early."
+              ],
+              [
+                "Olumsuz",
+                "not + participle",
+                "olumsuz",
+                "Not knowing the answer, I said nothing."
+              ]
+            ]
+          },
+          "examples": [
+            {
+              "en": "Walking along the beach, we saw a dolphin.",
+              "tr": "Sahil boyunca yürürken bir yunus gördük."
+            },
+            {
+              "en": "Having read the contract, she signed it.",
+              "tr": "Sözleşmeyi okuduktan sonra imzaladı."
+            },
+            {
+              "en": "Made in Italy, these shoes are very expensive.",
+              "tr": "İtalya'da üretilen bu ayakkabılar çok pahalı."
+            },
+            {
+              "en": "Not having a car, I take the bus to work.",
+              "tr": "Arabam olmadığı için işe otobüsle gidiyorum."
+            }
+          ]
+        },
+        {
+          "title_tr": "Ne anlatır? Zaman, sebep, koşul, sonuç",
+          "text_tr": "Participle clause'un anlamını bağlam belirler.\n\nZaman: [en:Having finished the report, I went home.] (bitirdikten sonra)\n\nSebep: [en:Being the only engineer on site, I had to fix it myself.] (olduğum için)\n\nKoşul: [en:Used correctly, this tool can save you hours.] (kullanılırsa)\n\nSonuç: Cümlenin sonuna gelen [en:-ing] kısmı ana olayın sonucunu anlatabilir: [en:The server crashed, causing a two-hour delay.]\n\nAyrıca participle bir isimden sonra gelerek kısaltılmış bir relative clause gibi çalışır: [en:Anyone wishing to attend should register by Friday] (= [en:anyone who wishes to attend]), [en:the goods ordered last week] (= [en:the goods which were ordered last week]).",
+          "examples": [
+            {
+              "en": "Being the only engineer on site, I had to fix it myself.",
+              "tr": "Sahadaki tek mühendis olduğum için onu kendim tamir etmek zorunda kaldım."
+            },
+            {
+              "en": "Used correctly, this tool can save you hours.",
+              "tr": "Doğru kullanılırsa bu araç sana saatler kazandırabilir."
+            },
+            {
+              "en": "The server crashed, causing a two-hour delay.",
+              "tr": "Sunucu çöktü ve iki saatlik bir gecikmeye yol açtı."
+            },
+            {
+              "en": "Anyone wishing to attend should register by Friday.",
+              "tr": "Katılmak isteyen herkes cuma gününe kadar kayıt olmalı."
+            }
+          ]
+        },
+        {
+          "title_tr": "Bağlaçla kullanım ve sinyal kelimeler",
+          "text_tr": "Anlamı netleştirmek için participle'dan önce bir bağlaç koyabilirsin.\n\n[en:after], [en:before], [en:while], [en:when], [en:since] ve [en:on] + [en:-ing]: [en:While waiting for the train, I checked my emails.] [en:Before signing, read the contract carefully.] [en:On] + [en:-ing] [tr:yapar yapmaz] anlamı verir: [en:On arriving at the office, she went straight into a meeting.]\n\n[en:once], [en:if], [en:unless], [en:when], [en:until] + V3 (edilgen): [en:Once opened, the product should be used within a week.] [en:Unless stated otherwise, all prices include VAT.]\n\nBu kalıplar özellikle talimatlarda, sözleşmelerde ve resmî yazılarda yaygındır.",
+          "examples": [
+            {
+              "en": "While waiting for the train, I checked my emails.",
+              "tr": "Treni beklerken e-postalarımı kontrol ettim."
+            },
+            {
+              "en": "Once opened, the product should be used within a week.",
+              "tr": "Ürün açıldıktan sonra bir hafta içinde kullanılmalıdır."
+            },
+            {
+              "en": "Unless stated otherwise, all prices include VAT.",
+              "tr": "Aksi belirtilmedikçe tüm fiyatlara KDV dâhildir."
+            }
+          ]
+        },
+        {
+          "title_tr": "Türkçeden farkı ve sık hatalar",
+          "text_tr": "Türkçede [tr:-ip], [tr:-ince], [tr:-dikten sonra], [tr:-erek] ekleriyle cümleleri sürekli birleştirirsin, bu yüzden mantık tanıdık gelir. Ancak iki önemli fark var.\n\nBirincisi: Participle clause'un gizli öznesi ana cümlenin öznesiyle aynı olmalıdır. [en:Walking to work, the rain started] cümlesinde yürüyen sanki yağmurdur. Doğrusu: [en:Walking to work, I got caught in the rain.] Türkçede [tr:İşe yürüyerek giderken yağmur başladı] doğal bir cümledir; İngilizcede bu yapı yanlıştır.\n\nİkincisi: Türkçede [tr:yazan] (etken) ile [tr:yazılan] (edilgen) arasında ayrım yaparsın; İngilizcede bu ayrım [en:-ing] ile V3 arasında yapılır: [en:the engineer writing the report] (raporu yazan mühendis), [en:the report written by the engineer] (mühendisin yazdığı rapor). En sık hata, edilgen anlamda [en:-ing] kullanmaktır: [en:Writing in 1950] değil, [en:Written in 1950].\n\nAyrıca participle clause'dan sonra [en:so] gibi bir bağlaç gelmez: [en:Being tired, I left early.]",
+          "examples": [
+            {
+              "en": "The engineer writing the report is new to the team.",
+              "tr": "Raporu yazan mühendis ekipte yeni."
+            },
+            {
+              "en": "The report written by the engineer is very detailed.",
+              "tr": "Mühendisin yazdığı rapor çok ayrıntılı."
+            }
+          ]
+        },
+        {
+          "title_tr": "💼 İş hayatında",
+          "work": true,
+          "text_tr": "Raporlarda ve özgeçmişte yoğun ve profesyonel bir üslup sağlar.\n\nÖzgeçmişte ve LinkedIn profilinde [en:Working closely with…], [en:Having managed…], [en:Based in…] gibi başlangıçlar az kelimeyle çok bilgi verir. Raporlarda [en:Having analysed the data, we…] sonucu sürecin ardından sunar. Resmî e-postalarda [en:Having reviewed your application…] çok yaygın bir açılıştır.\n\nDikkat: Uzun ve üst üste participle clause'lar okumayı zorlaştırır. Bir cümlede bir tane yeterlidir; özneyi mutlaka kontrol et.",
+          "examples": [
+            {
+              "en": "Having analysed the data, we recommend option B.",
+              "tr": "Verileri analiz ettikten sonra B seçeneğini öneriyoruz."
+            },
+            {
+              "en": "Founded in 2010, the company now employs 300 people.",
+              "tr": "2010'da kurulan şirket bugün 300 kişi istihdam ediyor."
+            },
+            {
+              "en": "Working closely with the sales team, I increased revenue by 20%.",
+              "tr": "Satış ekibiyle yakın çalışarak geliri %20 artırdım."
+            },
+            {
+              "en": "Based in Istanbul, our team serves clients across Europe.",
+              "tr": "İstanbul merkezli ekibimiz tüm Avrupa'daki müşterilere hizmet veriyor."
+            },
+            {
+              "en": "Having reviewed your application, we would like to invite you to an interview.",
+              "tr": "Başvurunuzu inceledikten sonra sizi bir görüşmeye davet etmek istiyoruz."
+            },
+            {
+              "en": "Faced with rising costs, the company cut its marketing budget.",
+              "tr": "Artan maliyetlerle karşı karşıya kalan şirket pazarlama bütçesini kıstı."
+            }
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "Walking to work, the rain started.",
+          "right": "Walking to work, I got caught in the rain.",
+          "note_tr": "Öznesi aynı olmalı (yürüyen yağmur değil)."
+        },
+        {
+          "wrong": "Having finish the work, he left.",
+          "right": "Having finished the work, he left.",
+          "note_tr": "[en:Having] + V3."
+        },
+        {
+          "wrong": "Writing in 1950, the book is still popular.",
+          "right": "Written in 1950, the book is still popular.",
+          "note_tr": "Edilgen anlam → V3."
+        },
+        {
+          "wrong": "Having been finished the report, I sent it.",
+          "right": "Having finished the report, I sent it.",
+          "note_tr": "Etken anlamda [en:been] yok; [en:having been] + V3 sadece edilgendir."
+        },
+        {
+          "wrong": "Being tired, so I went home early.",
+          "right": "Being tired, I went home early.",
+          "note_tr": "Participle clause'dan sonra [en:so] gibi bir bağlaç gelmez."
+        },
+        {
+          "wrong": "After finish work, I go to the gym.",
+          "right": "After finishing work, I go to the gym.",
+          "note_tr": "[en:after], [en:before], [en:while] + [en:-ing]."
+        },
+        {
+          "wrong": "Don't knowing what to say, I kept quiet.",
+          "right": "Not knowing what to say, I kept quiet.",
+          "note_tr": "Olumsuzda sadece [en:not] kullanılır."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "q": "___ the email, she closed her laptop.",
+          "options": [
+            "Having sent",
+            "Sent",
+            "Having send"
+          ],
+          "answer": 0,
+          "explain_tr": "Önce olan → [en:Having sent]."
+        },
+        {
+          "type": "choice",
+          "q": "___ in 1453, the fortress is a popular tourist site.",
+          "options": [
+            "Building",
+            "Built",
+            "Having built"
+          ],
+          "answer": 1,
+          "explain_tr": "Edilgen → [en:Built]."
+        },
+        {
+          "type": "choice",
+          "q": "___ hungry, I ordered a pizza.",
+          "options": [
+            "Feeling",
+            "Felt",
+            "Feel"
+          ],
+          "answer": 0,
+          "explain_tr": "Etken anlamda sebep → [en:Feeling]. [en:Felt] (V3) edilgen anlam verir; [en:Feel] ise çekimli fiil gibi tek başına bu yapıda kullanılamaz."
+        },
+        {
+          "type": "choice",
+          "q": "The woman ___ to the manager is our new client.",
+          "options": [
+            "talking",
+            "talked",
+            "having talked"
+          ],
+          "answer": 0,
+          "explain_tr": "Şu an konuşan kişi (etken) → [en:talking]."
+        },
+        {
+          "type": "choice",
+          "q": "The goods ___ last week have not arrived yet.",
+          "options": [
+            "ordering",
+            "ordered",
+            "having ordered"
+          ],
+          "answer": 1,
+          "explain_tr": "Mallar sipariş edildi (edilgen) → [en:ordered]."
+        },
+        {
+          "type": "fill",
+          "q": "Having ___ the instructions, I started the machine. (read)",
+          "answer": [
+            "read"
+          ],
+          "explain_tr": "[en:Having] + V3."
+        },
+        {
+          "type": "fill",
+          "q": "___ by thousands of companies, the software has become an industry standard. (use)",
+          "answer": [
+            "Used"
+          ],
+          "explain_tr": "Edilgen → [en:Used]."
+        },
+        {
+          "type": "fill",
+          "q": "Not ___ what to say, I stayed silent. (know)",
+          "answer": [
+            "knowing"
+          ],
+          "explain_tr": "[en:Not knowing…]"
+        },
+        {
+          "type": "fill",
+          "q": "___ in Istanbul, the company has offices in five countries. (base)",
+          "answer": [
+            "Based"
+          ],
+          "explain_tr": "Edilgen anlam → V3: [en:Based]."
+        },
+        {
+          "type": "fill",
+          "q": "While ___ for the bus, I read the news on my phone. (wait)",
+          "answer": [
+            "waiting"
+          ],
+          "explain_tr": "[en:while] + [en:-ing]."
+        },
+        {
+          "type": "fix",
+          "q": "Having eat breakfast, we left the hotel.",
+          "answer": [
+            "Having eaten breakfast, we left the hotel."
+          ],
+          "explain_tr": "[en:Having eaten]."
+        },
+        {
+          "type": "fix",
+          "q": "Designing by a famous architect, the building won many awards.",
+          "answer": [
+            "Designed by a famous architect, the building won many awards."
+          ],
+          "explain_tr": "Edilgen → [en:Designed]."
+        },
+        {
+          "type": "fix",
+          "q": "Being tired, so I left early.",
+          "answer": [
+            "Being tired, I left early.",
+            "I was tired, so I left early."
+          ],
+          "explain_tr": "Participle clause'dan sonra [en:so] gelmez."
+        },
+        {
+          "type": "fix",
+          "q": "Not knew the address, I called the hotel.",
+          "answer": [
+            "Not knowing the address, I called the hotel.",
+            "I didn't know the address, so I called the hotel.",
+            "Because I didn't know the address, I called the hotel."
+          ],
+          "explain_tr": "[en:Not] + [en:-ing]: [en:Not knowing]."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "[en:Having] ile başlayan participle clause'a çevir",
+          "q": "After I had checked the figures, I sent the report.",
+          "answer": [
+            "Having checked the figures, I sent the report."
+          ],
+          "explain_tr": "Önce olan eylem → [en:Having] + V3."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "V3 ile başlayan participle clause'a çevir",
+          "q": "The bridge was built in 1973, and it connects Europe and Asia.",
+          "answer": [
+            "Built in 1973, the bridge connects Europe and Asia.",
+            "The bridge, built in 1973, connects Europe and Asia."
+          ],
+          "explain_tr": "Edilgen anlam → [en:Built…]"
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "[en:Not] + [en:-ing] ile başlayan participle clause'a çevir",
+          "q": "Because she didn't know anyone at the party, she left early.",
+          "answer": [
+            "Not knowing anyone at the party, she left early."
+          ],
+          "explain_tr": "Olumsuz sebep → [en:Not knowing…]"
+        },
+        {
+          "type": "order",
+          "words": [
+            "Having",
+            "finished",
+            "the report,",
+            "she",
+            "sent it",
+            "to her manager"
+          ],
+          "answer": [
+            "Having finished the report, she sent it to her manager."
+          ],
+          "explain_tr": "[en:Having] + V3, sonra ana cümle."
+        },
+        {
+          "type": "order",
+          "words": [
+            "Founded",
+            "in 2010,",
+            "the company",
+            "now employs",
+            "300 people"
+          ],
+          "answer": [
+            "Founded in 2010, the company now employs 300 people.",
+            "The company, founded in 2010, now employs 300 people."
+          ],
+          "explain_tr": "Edilgen anlam → [en:Founded]."
+        },
+        {
+          "type": "order",
+          "words": [
+            "Not",
+            "knowing",
+            "what to say,",
+            "I",
+            "stayed",
+            "silent"
+          ],
+          "answer": [
+            "Not knowing what to say, I stayed silent.",
+            "I stayed silent, not knowing what to say."
+          ],
+          "explain_tr": "Olumsuz participle: [en:Not] + [en:-ing]."
+        },
+        {
+          "type": "match",
+          "pairs": [
+            [
+              "Having finished…",
+              "… bitirdikten sonra"
+            ],
+            [
+              "Built in…",
+              "… yılında inşa edilen"
+            ],
+            [
+              "Feeling tired…",
+              "Yorgun hissettiğim için…"
+            ],
+            [
+              "Not knowing…",
+              "… bilmediğim için"
+            ],
+            [
+              "While waiting…",
+              "… beklerken"
+            ]
+          ],
+          "explain_tr": "Her participle clause, Türkçedeki bir yan cümle ekine karşılık gelir."
+        },
+        {
+          "type": "listen",
+          "text": "Having read the contract carefully, she decided to sign it.",
+          "answer": [
+            "Having read the contract carefully, she decided to sign it."
+          ],
+          "explain_tr": "[en:Having] + V3 ([en:read])."
+        },
+        {
+          "type": "listen",
+          "text": "Founded in 2010, the company now has offices in five countries.",
+          "answer": [
+            "Founded in 2010, the company now has offices in five countries."
+          ],
+          "explain_tr": "Edilgen anlam → [en:Founded]."
+        }
+      ],
+      "practice": {
+        "focus": "summarising the learner's career and recent events concisely with participle clauses (Having worked…, Based in…, Working with…), like a CV summary or a short news report",
+        "tasks": [
+          [
+            "Kariyerini participle clause'larla özetle",
+            "summarise their career using participle clauses"
+          ],
+          [
+            "Bir olayı haber dili gibi kısa anlat",
+            "describe a recent event like a short news report"
+          ]
+        ]
+      },
+      "sources": [
+        {
+          "title": "Participle clauses",
+          "site": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/c1/participle-clauses"
+        },
+        {
+          "title": "Clauses: finite and non-finite",
+          "site": "Cambridge Dictionary Grammar",
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/clauses-finite-and-non-finite"
+        }
+      ]
+    },
+    {
+      "id": "c1-hedging",
+      "title_tr": "Kesinliği yumuşatmak (hedging): It seems that, tend to, arguably",
+      "title_en": "Hedging and tentative language",
+      "categories": [
+        "word_choice"
+      ],
+      "intro_tr": "İleri seviyede iddiaları kesin değil, ölçülü söylemek hem akademik hem iş dilinde beklenir: [en:This is the best option] yerine [en:This seems to be the most suitable option.] Böylece hem daha kibar hem daha inandırıcı olursun. Türkçede bunu çoğu zaman [tr:galiba, sanırım] ya da [tr:-dır] ekiyle yaparız; İngilizcede ise fiiller ([en:seem], [en:tend to]), modallar ([en:may], [en:might]) ve zarflar ([en:probably], [en:arguably]) kullanılır.",
+      "sections": [
+        {
+          "title_tr": "Araçlar",
+          "text_tr": "Hedging, bir iddiayı kesin değil ölçülü söylemektir. İngilizcede bunun için dört grup araç var.\n\nFiiller: [en:seem], [en:appear], [en:tend to], [en:suggest], [en:indicate]. Modallar: [en:may], [en:might], [en:could]. Zarflar: [en:probably], [en:possibly], [en:arguably], [en:generally], [en:largely], [en:to some extent]. Kalıplar: [en:It seems that…], [en:There is some evidence that…], [en:It could be argued that…], [en:In most cases…]\n\nAmaç bilgiyi saklamak değil, ne kadar emin olduğunu dürüstçe göstermektir. Aşağıdaki tabloda aynı fikrin kesin ve yumuşatılmış hâllerini görebilirsin.",
+          "table": {
+            "head": [
+              "Kesin",
+              "Yumuşatılmış"
+            ],
+            "rows": [
+              [
+                "This will fail.",
+                "This may not work as well as expected."
+              ],
+              [
+                "Customers hate the new design.",
+                "Some customers seem to dislike the new design."
+              ],
+              [
+                "Remote work is better.",
+                "Remote work tends to improve productivity in some teams."
+              ],
+              [
+                "You're wrong.",
+                "I'm not entirely sure that's the case."
+              ]
+            ]
+          },
+          "examples": [
+            {
+              "en": "The data suggests that prices will rise.",
+              "tr": "Veriler fiyatların yükseleceğine işaret ediyor."
+            },
+            {
+              "en": "It could be argued that the plan is too ambitious.",
+              "tr": "Planın fazla iddialı olduğu söylenebilir."
+            },
+            {
+              "en": "This is arguably the best book on the subject.",
+              "tr": "Bu kitabın konuyla ilgili en iyi kitap olduğu söylenebilir."
+            }
+          ]
+        },
+        {
+          "title_tr": "Yapı: [en:seem], [en:appear], [en:tend to]",
+          "text_tr": "[en:seem] ve [en:appear] [tr:gibi görünmek] demektir; arkalarından [en:to] + yalın fiil gelir: [en:The plan seems to work]. Şu anda süren bir durum için [en:to be] + [en:-ing] ([en:Sales appear to be falling]), geçmişteki bir olay için [en:to have] + V3 kullanılır ([en:The email seems to have been deleted]).\n\n[en:tend to] [tr:genelde …-mek, …-me eğiliminde olmak] anlamına gelir ve bir fiildir: [en:Clients tend to pay late]. Bu yüzden önüne [en:am / is / are] gelmez.\n\nOlumsuzda en doğal biçim [en:don't / doesn't seem to]'dur; [en:seems not to] daha resmîdir. [en:There seems to be…] kalıbı [tr:… var gibi görünüyor] demenin kibar yoludur. [en:It seems that] + cümle yapısı da çok kullanılır: [en:It seems that the client is not happy].\n\n[tr:gibi görünmek] anlamında [en:seem] ve [en:appear] durum fiilidir; [en:is seeming] gibi [en:-ing] hâlleri kullanılmaz.",
+          "table": {
+            "head": [
+              "Yapı",
+              "Olumlu",
+              "Olumsuz",
+              "Soru"
+            ],
+            "rows": [
+              [
+                "seem to",
+                "The plan seems to work.",
+                "The plan doesn't seem to work.",
+                "Does the plan seem to work?"
+              ],
+              [
+                "appear to",
+                "Sales appear to be falling.",
+                "Sales don't appear to be falling.",
+                "Do sales appear to be falling?"
+              ],
+              [
+                "tend to",
+                "Clients tend to pay late.",
+                "Clients don't tend to pay late.",
+                "Do clients tend to pay late?"
+              ],
+              [
+                "There seems to be",
+                "There seems to be a problem.",
+                "There doesn't seem to be a problem.",
+                "Does there seem to be a problem?"
+              ]
+            ]
+          },
+          "examples": [
+            {
+              "en": "The new software seems to have solved the problem.",
+              "tr": "Yeni yazılım sorunu çözmüş gibi görünüyor."
+            },
+            {
+              "en": "There doesn't seem to be enough budget for this project.",
+              "tr": "Bu proje için yeterli bütçe yok gibi görünüyor."
+            },
+            {
+              "en": "Clients tend to reply faster to short emails.",
+              "tr": "Müşteriler kısa e-postalara genellikle daha hızlı cevap veriyor."
+            },
+            {
+              "en": "The printer appears to be working again.",
+              "tr": "Yazıcı yeniden çalışıyor gibi görünüyor."
+            }
+          ]
+        },
+        {
+          "title_tr": "Modallar, zarflar ve olasılık kalıpları",
+          "text_tr": "[en:may], [en:might] ve [en:could] bir şeyin olası olduğunu gösterir: [en:The project may be delayed]. [en:might] ve [en:could] genellikle biraz daha zayıf bir olasılık anlatır. Olumsuzda [en:may not / might not] kullanılır: [en:It may not work] (işe yaramayabilir). [en:couldn't] ise [tr:olamaz, imkânsız] gibi çok daha güçlü bir anlam taşır.\n\n[en:probably] [tr:büyük ihtimalle], [en:possibly] [tr:belki, olasılıkla] demektir. Yerlerine dikkat et: [en:probably] [en:will]'den sonra, [en:won't]'tan önce gelir: [en:It will probably rain]. / [en:It probably won't rain]. [en:likely] ise bir sıfattır: [en:be likely to] + fiil ([en:Prices are likely to rise]) ya da [en:It is likely that…]\n\n[en:arguably] güçlü bir fikri ölçülü sunar; [tr:tartışmaya açık ama öyle denebilir] anlamı taşır: [en:This is arguably our best product]. Genellemeleri yumuşatmak için [en:generally], [en:in most cases], [en:largely], [en:to some extent] kullanılır.\n\nSinyal kelimeler: [en:seem], [en:appear], [en:tend], [en:likely], [en:probably], [en:possibly], [en:perhaps], [en:arguably], [en:to some extent], [en:it could be argued].",
+          "examples": [
+            {
+              "en": "The project will probably be finished by the end of May.",
+              "tr": "Proje büyük ihtimalle mayıs sonuna kadar tamamlanır."
+            },
+            {
+              "en": "Prices are likely to increase next quarter.",
+              "tr": "Fiyatların gelecek çeyrekte artması muhtemel."
+            },
+            {
+              "en": "To some extent, the delay was caused by the supplier.",
+              "tr": "Gecikmeye bir ölçüde tedarikçi sebep oldu."
+            },
+            {
+              "en": "In most cases, customers are satisfied with the service.",
+              "tr": "Çoğu durumda müşteriler hizmetten memnun."
+            }
+          ]
+        },
+        {
+          "title_tr": "Türkçeden farkı ve sık karışanlar",
+          "text_tr": "Türkçede ölçülülüğü çoğu zaman tek bir kelimeyle ya da ekle veririz: [tr:galiba], [tr:sanırım], [tr:-dır] (Gecikme tedarikçiden kaynaklanıyordur). İngilizcede ise bu iş fiil, modal ve zarflarla yapılır. Bunu yapmazsan cümle fazla kesin, hatta kaba görünebilir.\n\n[en:maybe] ile [en:may be]'yi karıştırma. [en:maybe] bir zarftır ve genelde cümle başında gelir: [en:Maybe the figures are wrong]. [en:may be] ise modal + [en:be]'dir: [en:The figures may be wrong]. Aynı cümlede ikisini birden kullanmak gereksiz tekrar olur.\n\nAşırı yumuşatmaktan da kaçın: [en:It seems that maybe it could possibly be late] gibi bir cümle kararsız görünür. Bir cümlede bir ya da iki hedging aracı yeterlidir. Kesin bildiğin bir gerçeği de yumuşatma: Toplantı saat 10'daysa [en:The meeting seems to be at 10] deme.",
+          "examples": [
+            {
+              "en": "The figures may be wrong.",
+              "tr": "Rakamlar yanlış olabilir."
+            },
+            {
+              "en": "Maybe the figures are wrong.",
+              "tr": "Belki de rakamlar yanlıştır."
+            }
+          ]
+        },
+        {
+          "title_tr": "💼 İş hayatında",
+          "work": true,
+          "text_tr": "Hedging'i raporlarda tahminleri, toplantılarda eleştiriyi ve e-postalarda olumsuz haberi yumuşatmak için kullanırsın.\n\nToplantıda karşı çıkarken [en:You're wrong] yerine [en:I'm not entirely sure that's the case] ya da [en:I'm not entirely convinced] de. Bir öneriyi yumuşatmak için [en:We might want to…], [en:It might be worth…] ve [en:I wonder if we could…] kalıpları çok kullanılır.\n\nKötü haber verirken suçu doğrudan karşı tarafa yüklemeyen yapılar seç: [en:You sent the wrong file] yerine [en:There appears to have been a mix-up with the files.] Raporlarda [en:The results suggest…] ve [en:This is likely to…] gibi kalıplar, verinin gösterdiğiyle senin yorumunu birbirinden ayırır. [en:slightly], [en:a little] ve [en:a bit] gibi kelimeler de sorunu olduğundan büyük göstermez: [en:We are slightly behind schedule].",
+          "examples": [
+            {
+              "en": "It appears that there may have been a misunderstanding.",
+              "tr": "Görünüşe göre bir yanlış anlaşılma olmuş olabilir."
+            },
+            {
+              "en": "The new process seems to be working well so far.",
+              "tr": "Yeni süreç şimdiye kadar iyi işliyor gibi görünüyor."
+            },
+            {
+              "en": "We might want to reconsider the deadline.",
+              "tr": "Teslim tarihini yeniden düşünmek isteyebiliriz."
+            },
+            {
+              "en": "I'm not entirely convinced that this is the right approach.",
+              "tr": "Bunun doğru yaklaşım olduğuna tam olarak ikna olmuş değilim."
+            },
+            {
+              "en": "There appears to have been a delay with your order.",
+              "tr": "Siparişinizde bir gecikme yaşanmış gibi görünüyor."
+            },
+            {
+              "en": "We are slightly behind schedule, but it should be manageable.",
+              "tr": "Takvimin biraz gerisindeyiz ama bu muhtemelen sorun olmaz."
+            },
+            {
+              "en": "I wonder if we could move the meeting to Thursday.",
+              "tr": "Toplantıyı perşembeye alabilir miyiz acaba?"
+            }
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "It seems that he is maybe right.",
+          "right": "It seems that he is right. / He may be right.",
+          "note_tr": "Aşırı yumuşatma (iki kez) gereksiz."
+        },
+        {
+          "wrong": "People are tend to work late.",
+          "right": "People tend to work late.",
+          "note_tr": "[en:tend] fiildir; [en:are] kullanılmaz."
+        },
+        {
+          "wrong": "The results are seeming positive.",
+          "right": "The results seem positive.",
+          "note_tr": "[en:seem] durum fiilidir; [en:-ing] almaz."
+        },
+        {
+          "wrong": "He seems working hard.",
+          "right": "He seems to be working hard.",
+          "note_tr": "Süren bir durum için [en:seem to be] + [en:-ing] kullanılır."
+        },
+        {
+          "wrong": "This is may be the reason.",
+          "right": "This may be the reason. / Maybe this is the reason.",
+          "note_tr": "[en:may be] (olabilir) bir fiil yapısıdır, [en:is] ile birlikte kullanılmaz; [en:maybe] (belki) ise zarftır."
+        },
+        {
+          "wrong": "The meeting seems to cancelled.",
+          "right": "The meeting seems to have been cancelled.",
+          "note_tr": "Geçmişteki bir olay için [en:seem to have] + V3 kullanılır."
+        },
+        {
+          "wrong": "Prices are likely increase.",
+          "right": "Prices are likely to increase.",
+          "note_tr": "[en:likely] sıfattır: [en:be likely to] + fiil."
+        },
+        {
+          "wrong": "It is appeared that the file is missing.",
+          "right": "It appears that the file is missing.",
+          "note_tr": "[en:appear] edilgen yapılmaz: [en:It appears that…]"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "q": "Most tentative:",
+          "options": [
+            "This plan is wrong.",
+            "This plan may need some changes.",
+            "This plan is terrible."
+          ],
+          "answer": 1,
+          "explain_tr": "[en:may] + [en:some] ifadeyi yumuşatır."
+        },
+        {
+          "type": "choice",
+          "q": "Young people ___ to spend more time online.",
+          "options": [
+            "are tend",
+            "tend",
+            "tending"
+          ],
+          "answer": 1,
+          "explain_tr": "[en:tend] bir fiildir: özne + [en:tend to] + fiil."
+        },
+        {
+          "type": "choice",
+          "q": "It ___ that the meeting has been postponed.",
+          "options": [
+            "seems",
+            "is seeming",
+            "seem"
+          ],
+          "answer": 0,
+          "explain_tr": "[en:It seems that…]; [en:seem] [en:-ing] almaz ve [en:it] ile [en:-s] alır."
+        },
+        {
+          "type": "choice",
+          "q": "Prices are ___ to rise next year.",
+          "options": [
+            "likely",
+            "probably",
+            "possibly"
+          ],
+          "answer": 0,
+          "explain_tr": "[en:be likely to] + fiil; [en:probably] ve [en:possibly] zarftır, [en:to] ile kullanılmaz."
+        },
+        {
+          "type": "choice",
+          "q": "Choose the correct sentence:",
+          "options": [
+            "The figures maybe wrong.",
+            "The figures may be wrong.",
+            "The figures may wrong."
+          ],
+          "answer": 1,
+          "explain_tr": "[en:may be] = olabilir (modal + [en:be]); [en:maybe] ise [tr:belki] anlamında bir zarftır."
+        },
+        {
+          "type": "fill",
+          "q": "It could be ___ that the price is too high. (argue)",
+          "answer": [
+            "argued"
+          ],
+          "explain_tr": "[en:It could be argued that…] = … söylenebilir."
+        },
+        {
+          "type": "fill",
+          "q": "The figures ___ that sales are slowing down. (işaret etmek)",
+          "answer": [
+            "suggest",
+            "indicate",
+            "show"
+          ],
+          "explain_tr": "[en:suggest / indicate]: veriler … işaret ediyor."
+        },
+        {
+          "type": "fill",
+          "q": "There ___ to be a problem with the server. (görünmek)",
+          "answer": [
+            "seems",
+            "appears",
+            "seemed",
+            "appeared"
+          ],
+          "explain_tr": "[en:There seems to be…] = … var gibi görünüyor."
+        },
+        {
+          "type": "fill",
+          "q": "The email seems to ___ been sent to the wrong address. (geçmiş)",
+          "answer": [
+            "have"
+          ],
+          "explain_tr": "Geçmişteki bir olay için [en:seem to have] + V3 kullanılır."
+        },
+        {
+          "type": "fill",
+          "q": "Clients ___ to pay late at the end of the year. (eğiliminde olmak)",
+          "answer": [
+            "tend",
+            "tended"
+          ],
+          "explain_tr": "[en:tend to] + fiil = genelde …-mek, …-me eğiliminde olmak."
+        },
+        {
+          "type": "fix",
+          "q": "Our customers are tend to prefer online payment.",
+          "answer": [
+            "Our customers tend to prefer online payment."
+          ],
+          "explain_tr": "[en:tend] fiildir; [en:are] fazladır."
+        },
+        {
+          "type": "fix",
+          "q": "It is seeming that we have a problem.",
+          "answer": [
+            "It seems that we have a problem.",
+            "It seems we have a problem.",
+            "It appears that we have a problem.",
+            "It appears we have a problem."
+          ],
+          "explain_tr": "[en:seem] durum fiilidir; [en:-ing] almaz."
+        },
+        {
+          "type": "fix",
+          "q": "The supplier seems to forgotten our order.",
+          "answer": [
+            "The supplier seems to have forgotten our order.",
+            "The supplier appears to have forgotten our order."
+          ],
+          "explain_tr": "Geçmiş için [en:seem to have] + V3: [en:seems to have forgotten]."
+        },
+        {
+          "type": "fix",
+          "q": "Costs are likely increase next month.",
+          "answer": [
+            "Costs are likely to increase next month.",
+            "Costs will likely increase next month.",
+            "Costs will probably increase next month."
+          ],
+          "explain_tr": "[en:be likely to] + fiil: [en:are likely to increase]."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "Yumuşat: [en:seem] kullan.",
+          "q": "The new system is slower.",
+          "answer": [
+            "The new system seems to be slower.",
+            "The new system seems slower.",
+            "It seems that the new system is slower.",
+            "It seems the new system is slower."
+          ],
+          "explain_tr": "[en:seem (to be)] + sıfat ya da [en:It seems that] + cümle."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "Yumuşat: [en:always] yerine [en:tend to] kullan.",
+          "q": "Our customers always order online.",
+          "answer": [
+            "Our customers tend to order online."
+          ],
+          "explain_tr": "[en:tend to], [en:always] gibi kesin bir genellemeyi yumuşatır."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "Yumuşat: [en:It could be argued that…] ile başla.",
+          "q": "The price is too high.",
+          "answer": [
+            "It could be argued that the price is too high."
+          ],
+          "explain_tr": "[en:It could be argued that] + cümle, bir fikri ölçülü sunar."
+        },
+        {
+          "type": "order",
+          "q": "Kelimeleri doğru sıraya koy:",
+          "words": [
+            "The results",
+            "seem",
+            "to be",
+            "positive",
+            "so far"
+          ],
+          "answer": [
+            "The results seem to be positive so far.",
+            "So far the results seem to be positive.",
+            "The results so far seem to be positive."
+          ],
+          "explain_tr": "[en:seem] + [en:to be] + sıfat."
+        },
+        {
+          "type": "order",
+          "q": "Kelimeleri doğru sıraya koy:",
+          "words": [
+            "It",
+            "could be",
+            "argued",
+            "that",
+            "the deadline",
+            "is",
+            "unrealistic"
+          ],
+          "answer": [
+            "It could be argued that the deadline is unrealistic."
+          ],
+          "explain_tr": "[en:It could be argued that] + cümle."
+        },
+        {
+          "type": "order",
+          "q": "Kelimeleri doğru sıraya koy:",
+          "words": [
+            "There",
+            "appears",
+            "to have been",
+            "a",
+            "misunderstanding"
+          ],
+          "answer": [
+            "There appears to have been a misunderstanding."
+          ],
+          "explain_tr": "Geçmiş için [en:There appears to have been…]"
+        },
+        {
+          "type": "match",
+          "q": "Eşleştir: önce İngilizce ifadeye, sonra Türkçe anlamına tıkla.",
+          "pairs": [
+            [
+              "seem to",
+              "gibi görünmek"
+            ],
+            [
+              "tend to",
+              "eğiliminde olmak"
+            ],
+            [
+              "be likely to",
+              "muhtemel olmak"
+            ],
+            [
+              "arguably",
+              "… denebilir"
+            ],
+            [
+              "to some extent",
+              "bir ölçüde"
+            ]
+          ],
+          "explain_tr": "Bunlar en sık kullanılan hedging araçlarıdır."
+        },
+        {
+          "type": "listen",
+          "text": "The new process seems to be working quite well.",
+          "answer": [
+            "The new process seems to be working quite well."
+          ],
+          "explain_tr": "[en:seem to be] + [en:-ing]: süren bir durumu yumuşatır."
+        },
+        {
+          "type": "listen",
+          "text": "Sales are likely to increase slightly next quarter.",
+          "answer": [
+            "Sales are likely to increase slightly next quarter."
+          ],
+          "explain_tr": "[en:be likely to] + fiil ve [en:slightly] ile ölçülü bir tahmin."
+        }
+      ],
+      "practice": {
+        "focus": "discussing debatable topics (AI at work, four-day week, social media) and giving cautious, balanced opinions with hedging language",
+        "tasks": [
+          [
+            "Tartışmalı bir konuda ölçülü bir fikir bildir",
+            "give a cautious opinion on a debatable topic"
+          ],
+          [
+            "Bir eleştiriyi yumuşatarak söyle",
+            "soften a criticism using hedging"
+          ]
+        ]
+      },
+      "sources": [
+        {
+          "title": "Hedges",
+          "site": "Cambridge Dictionary Grammar",
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/hedges-just"
+        },
+        {
+          "title": "Politeness",
+          "site": "Cambridge Dictionary Grammar",
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/politeness"
+        },
+        {
+          "title": "Vague expressions",
+          "site": "Cambridge Dictionary Grammar",
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/vague-expressions"
+        }
+      ]
+    },
+    {
+      "id": "c1-register",
+      "title_tr": "Resmî ve gayriresmî dil (register)",
+      "title_en": "Formal and informal language (register)",
+      "categories": [
+        "word_choice"
+      ],
+      "intro_tr": "Aynı mesaj kime yazdığına göre çok farklı söylenir: arkadaşa [en:Can you help me out?], müşteriye [en:Would you be able to assist us?]. C1'de beklenen, durumun gerektirdiği üslubu seçebilmektir. Türkçede resmîliği büyük ölçüde [tr:sen / siz] ayrımı taşır; İngilizcede [en:you] hep aynıdır, resmîlik kelime seçimi, kısaltmalar, cümle uzunluğu ve kalıplarla sağlanır.",
+      "sections": [
+        {
+          "title_tr": "Farklar",
+          "text_tr": "Resmî dil: daha uzun ve Latin kökenli kelimeler ([en:obtain], [en:require], [en:assist], [en:inform]), edilgen yapı, kısaltma yok ([en:do not]). Gayriresmî dil: günlük kelimeler ve phrasal verb'ler ([en:get], [en:find out], [en:help out]), kısaltmalar ([en:don't]), doğrudan sorular, [en:Thanks!]\n\nİkisinin arasında geniş bir [tr:nötr] alan da vardır. İş arkadaşlarına yazılan e-postaların çoğu ne çok resmî ne de çok samimidir: [en:Could you…?], [en:Thanks for…], [en:Best regards].\n\nÜslubu seçmek için kendine üç soru sor: Karşımdaki kim (müşteri, yönetici, yakın bir arkadaş)? Aramızdaki ilişki ne kadar yakın? Konu ne kadar ciddi (şikâyet, sözleşme, özür)?",
+          "table": {
+            "head": [
+              "Gayriresmî",
+              "Resmî"
+            ],
+            "rows": [
+              [
+                "get",
+                "obtain / receive"
+              ],
+              [
+                "find out",
+                "discover / ascertain"
+              ],
+              [
+                "help",
+                "assist"
+              ],
+              [
+                "ask for",
+                "request"
+              ],
+              [
+                "tell",
+                "inform"
+              ],
+              [
+                "Sorry about…",
+                "We apologise for…"
+              ],
+              [
+                "Thanks a lot!",
+                "Thank you for your assistance."
+              ]
+            ]
+          },
+          "examples": [
+            {
+              "en": "Hi Ece, can you send me the file? Thanks!",
+              "tr": "Selam Ece, dosyayı gönderebilir misin? Sağ ol!"
+            },
+            {
+              "en": "Dear Ms Uçar, I would be grateful if you could send me the document.",
+              "tr": "Sayın Uçar, belgeyi gönderebilirseniz minnettar olurum."
+            },
+            {
+              "en": "Let me know if you need anything else.",
+              "tr": "Başka bir şeye ihtiyacın olursa haber ver."
+            },
+            {
+              "en": "Please do not hesitate to contact me if you require any further information.",
+              "tr": "Daha fazla bilgiye ihtiyaç duyarsanız lütfen benimle iletişime geçmekten çekinmeyin."
+            }
+          ]
+        },
+        {
+          "title_tr": "Rica, soru ve ret kalıpları",
+          "text_tr": "Resmîlik arttıkça rica cümlesi uzar ve dolaylı olur: [en:Can you…?] → [en:Could you…?] → [en:Would you be able to…?] → [en:I would be grateful if you could…] Resmî yazıda [en:want] yerine [en:would like] kullan: [en:I would like to request…]\n\nDolaylı sorularda ([en:Could you tell me…?], [en:Do you know…?]) ikinci kısım düz cümle sırasıyla kurulur. [en:Could you tell me when the meeting starts?] doğrudur; [en:Could you tell me when does the meeting start?] yanlıştır.\n\n[en:I was wondering if you could…] ve [en:I would appreciate it if you could…] kalıpları ricayı daha da kibar yapar. Olumsuz cevapta [en:I can't] yerine [en:I'm afraid…] ya da daha resmî olarak [en:Unfortunately, I am unable to…] tercih edilir.",
+          "table": {
+            "head": [
+              "Amaç",
+              "Gayriresmî",
+              "Nötr",
+              "Resmî"
+            ],
+            "rows": [
+              [
+                "Rica",
+                "Can you send it?",
+                "Could you send it, please?",
+                "I would be grateful if you could send it."
+              ],
+              [
+                "Bilgi isteme",
+                "When does it start?",
+                "Could you tell me when it starts?",
+                "I would appreciate it if you could let me know when it starts."
+              ],
+              [
+                "Reddetme",
+                "Sorry, I can't make it.",
+                "I'm afraid I can't make it.",
+                "Unfortunately, I am unable to attend."
+              ],
+              [
+                "Teşekkür",
+                "Thanks!",
+                "Thanks for your help.",
+                "Thank you for your assistance."
+              ],
+              [
+                "Kapanış",
+                "Cheers,",
+                "Best regards,",
+                "Yours sincerely,"
+              ]
+            ]
+          },
+          "examples": [
+            {
+              "en": "I was wondering if you could help me with the report.",
+              "tr": "Raporda bana yardımcı olabilir misiniz acaba?"
+            },
+            {
+              "en": "Could you tell me when the invoice will be paid?",
+              "tr": "Faturanın ne zaman ödeneceğini söyleyebilir misiniz?"
+            }
+          ]
+        },
+        {
+          "title_tr": "Resmî dilin araçları",
+          "text_tr": "Resmî yazıda edilgen yapı sık kullanılır; böylece kişi değil iş öne çıkar: [en:Your order has been dispatched]. Phrasal verb yerine tek kelimelik bir fiil seçilir: [en:find out] → [en:discover], [en:put off] → [en:postpone], [en:look into] → [en:investigate].\n\nBağlaçlar da üslubu gösterir: [en:but] → [en:however], [en:also] → [en:furthermore / in addition], [en:so] → [en:therefore / consequently]. Resmî yazıda kısaltmalar ([en:don't], [en:I'm]) ve [en:info, asap, thx] gibi kısaltılmış kelimeler kullanılmaz.\n\nSinyal ifadeler: [en:Dear…], [en:I am writing to…], [en:Please find attached…], [en:I look forward to hearing from you], [en:Yours sincerely]. Dikkat: [en:look forward to] kalıbındaki [en:to] bir edattır; arkasından [en:-ing] gelir.",
+          "examples": [
+            {
+              "en": "Please find attached the signed contract.",
+              "tr": "İmzalı sözleşme ekte yer almaktadır."
+            },
+            {
+              "en": "Your order has been dispatched and should arrive within three days.",
+              "tr": "Siparişiniz kargoya verildi; üç gün içinde elinize ulaşması bekleniyor."
+            },
+            {
+              "en": "The meeting has been postponed until further notice.",
+              "tr": "Toplantı ikinci bir duyuruya kadar ertelendi."
+            },
+            {
+              "en": "However, we are unable to offer a discount at this time.",
+              "tr": "Ancak şu anda indirim sunamıyoruz."
+            }
+          ]
+        },
+        {
+          "title_tr": "Türkçeden farkı ve sık karışanlar",
+          "text_tr": "Türkçede resmîliği büyük ölçüde [tr:sen / siz] ayrımı taşır. İngilizcede [en:you] her zaman aynıdır; resmîlik kelime seçimi, cümle uzunluğu, kısaltmalar ve hitap şekliyle sağlanır.\n\nHitapta en sık hata Türkçedeki [tr:Ahmet Bey] alışkanlığıdır. İngilizcede [en:Mr / Ms] soyadıyla kullanılır: [en:Dear Mr Yılmaz]. Adı kullanacaksan unvan koyma: [en:Dear Ahmet]. Medeni durumu bilmiyorsan kadınlar için [en:Ms] kullan. Kişinin adını bilmiyorsan [en:Dear Sir or Madam] yaz. İngiliz geleneğinde bu durumda e-posta [en:Yours faithfully] ile, isim biliniyorsa [en:Yours sincerely] ile kapanır.\n\nTers yönde bir hata da var: gereğinden resmî olmak. Yakın bir iş arkadaşına sohbet uygulamasında [en:I would be grateful if you could…] yazmak soğuk ve mesafeli görünür.",
+          "examples": [
+            {
+              "en": "Dear Mr Yılmaz, thank you for your quick reply.",
+              "tr": "Sayın Yılmaz, hızlı yanıtınız için teşekkür ederim."
+            },
+            {
+              "en": "Hi Ahmet, thanks for getting back to me so quickly.",
+              "tr": "Selam Ahmet, bana bu kadar hızlı döndüğün için teşekkürler."
+            }
+          ]
+        },
+        {
+          "title_tr": "💼 İş hayatında",
+          "work": true,
+          "text_tr": "Yeni bir müşteriye resmî başla; karşı taraf samimi yazarsa (adınla, [en:Hi]) sen de yumuşatabilirsin. Şikâyet ve özür e-postaları her zaman daha resmîdir.\n\nKarşı tarafın üslubunu takip etmek güvenli bir yoldur: müşteri [en:Hi Ayşe] diye yazıyorsa sen de [en:Hi Mark] diyebilirsin. Şirket içi sohbet uygulamalarında kısa ve samimi cümleler normaldir; e-posta biraz daha düzenli olur; sözleşme ve şikâyet yazışmaları ise tamamen resmîdir.\n\nKüçük değişiklikler bile üslubu değiştirir: [en:Let me know] yerine [en:Please let me know], [en:Thanks] yerine [en:Thank you], [en:Can you] yerine [en:Could you] yazmak e-postayı hemen daha profesyonel yapar.",
+          "examples": [
+            {
+              "en": "We regret to inform you that your application was unsuccessful.",
+              "tr": "Başvurunuzun olumlu sonuçlanmadığını üzülerek bildiririz."
+            },
+            {
+              "en": "Please accept our apologies for the inconvenience.",
+              "tr": "Yaşanan aksaklık için lütfen özürlerimizi kabul edin."
+            },
+            {
+              "en": "Just a quick reminder about tomorrow's call.",
+              "tr": "Yarınki görüşme için kısa bir hatırlatma."
+            },
+            {
+              "en": "Could you let me know if Tuesday works for you?",
+              "tr": "Salı günü sizin için uygun mu, bana haber verebilir misiniz?"
+            },
+            {
+              "en": "I'm afraid I won't be able to attend the meeting.",
+              "tr": "Korkarım toplantıya katılamayacağım."
+            }
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "Dear Sir, can u send me the info asap?",
+          "right": "Dear Sir or Madam, could you please send me the information as soon as possible?",
+          "note_tr": "Resmî e-postada kısaltma ve argo yok."
+        },
+        {
+          "wrong": "Hey Mr Demir, what's up?",
+          "right": "Dear Mr Demir, I hope you are well.",
+          "note_tr": "Unvan + soyadı varsa resmî selamlama."
+        },
+        {
+          "wrong": "I want the money back.",
+          "right": "I would like to request a refund.",
+          "note_tr": "Şikâyette resmî ve kibar ifade."
+        },
+        {
+          "wrong": "Dear Mr Ahmet,",
+          "right": "Dear Mr Yılmaz, / Dear Ahmet,",
+          "note_tr": "[en:Mr / Ms] soyadıyla kullanılır; [tr:Ahmet Bey] gibi ad + unvan İngilizcede olmaz."
+        },
+        {
+          "wrong": "I look forward to hear from you.",
+          "right": "I look forward to hearing from you.",
+          "note_tr": "[en:look forward to]'daki [en:to] bir edattır; arkasından [en:-ing] gelir."
+        },
+        {
+          "wrong": "Could you tell me where is the meeting room?",
+          "right": "Could you tell me where the meeting room is?",
+          "note_tr": "Dolaylı soruda düz cümle sırası kullanılır."
+        },
+        {
+          "wrong": "Thank you for the informations.",
+          "right": "Thank you for the information.",
+          "note_tr": "[en:information] sayılamaz; çoğul [en:-s] almaz."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "q": "Formal equivalent of [en:find out]:",
+          "options": [
+            "discover",
+            "get out",
+            "look up"
+          ],
+          "answer": 0,
+          "explain_tr": "[en:find out] → [en:discover / ascertain]."
+        },
+        {
+          "type": "choice",
+          "q": "Formal: [en:Sorry for the delay.]",
+          "options": [
+            "My bad!",
+            "We apologise for the delay.",
+            "Oops, sorry!"
+          ],
+          "answer": 1,
+          "explain_tr": "Resmî özür: [en:We apologise for…]"
+        },
+        {
+          "type": "choice",
+          "q": "Informal equivalent of [en:assist]:",
+          "options": [
+            "help",
+            "obtain",
+            "request"
+          ],
+          "answer": 0,
+          "explain_tr": "[en:assist] → [en:help]."
+        },
+        {
+          "type": "choice",
+          "q": "Best closing for a formal email to a client you have never met:",
+          "options": [
+            "Cheers,",
+            "Kind regards,",
+            "Love,"
+          ],
+          "answer": 1,
+          "explain_tr": "[en:Kind regards] nötr-resmî bir kapanıştır; [en:Cheers] ve [en:Love] samimidir."
+        },
+        {
+          "type": "choice",
+          "q": "Could you tell me when ___?",
+          "options": [
+            "does the training start",
+            "the training starts",
+            "starts the training"
+          ],
+          "answer": 1,
+          "explain_tr": "Dolaylı soruda düz cümle sırası: [en:when the training starts]."
+        },
+        {
+          "type": "fill",
+          "q": "I would be ___ if you could reply by Friday. (minnettar)",
+          "answer": [
+            "grateful",
+            "obliged"
+          ],
+          "explain_tr": "[en:I would be grateful if you could…] = … minnettar olurum."
+        },
+        {
+          "type": "fill",
+          "q": "We ___ to inform you that the event has been cancelled. (üzülerek)",
+          "answer": [
+            "regret"
+          ],
+          "explain_tr": "[en:We regret to inform you…] = üzülerek bildiririz."
+        },
+        {
+          "type": "fill",
+          "q": "I am writing to ___ a refund. (talep etmek, resmî)",
+          "answer": [
+            "request",
+            "claim"
+          ],
+          "explain_tr": "[en:request a refund] = para iadesi talep etmek."
+        },
+        {
+          "type": "fill",
+          "q": "I look forward to ___ from you. (hear)",
+          "answer": [
+            "hearing"
+          ],
+          "explain_tr": "[en:look forward to] + [en:-ing]."
+        },
+        {
+          "type": "fill",
+          "q": "Please do not ___ to contact me if you have any questions. (çekinmek)",
+          "answer": [
+            "hesitate"
+          ],
+          "explain_tr": "[en:Please do not hesitate to contact me] = benimle iletişime geçmekten çekinmeyin."
+        },
+        {
+          "type": "fix",
+          "q": "Dear Mr Kılıç, thanks a lot for ur help!",
+          "answer": [
+            "Dear Mr Kılıç, thank you very much for your help.",
+            "Dear Mr Kılıç, thank you for your help.",
+            "Dear Mr Kılıç, thank you so much for your help.",
+            "Dear Mr Kılıç, many thanks for your help.",
+            "Dear Mr Kılıç, thank you for all your help."
+          ],
+          "explain_tr": "Resmî üslupta [en:thanks a lot] ve [en:ur] kullanılmaz."
+        },
+        {
+          "type": "fix",
+          "q": "I want to get some info about the course. (resmî e-posta)",
+          "answer": [
+            "I would like to obtain some information about the course.",
+            "I would like to receive some information about the course.",
+            "I would like some information about the course.",
+            "I would like to request some information about the course.",
+            "I would like to obtain information about the course.",
+            "I would like to receive information about the course.",
+            "I would like to request information about the course.",
+            "I would like more information about the course.",
+            "I would like to request further information about the course.",
+            "I would like further information about the course."
+          ],
+          "explain_tr": "Resmî: [en:want] → [en:would like], [en:get] → [en:obtain / receive], [en:info] → [en:information]."
+        },
+        {
+          "type": "fix",
+          "q": "Could you tell me where is the invoice?",
+          "answer": [
+            "Could you tell me where the invoice is?"
+          ],
+          "explain_tr": "Dolaylı soruda özne fiilden önce gelir: [en:where the invoice is]."
+        },
+        {
+          "type": "fix",
+          "q": "I look forward to meet you on Monday.",
+          "answer": [
+            "I look forward to meeting you on Monday.",
+            "I am looking forward to meeting you on Monday."
+          ],
+          "explain_tr": "[en:look forward to] + [en:-ing]: [en:meeting]."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "Resmî yap: [en:I would be grateful if…] kalıbını kullan.",
+          "q": "Can you send me the report?",
+          "answer": [
+            "I would be grateful if you could send me the report.",
+            "I'd be grateful if you could send me the report.",
+            "I would be grateful if you would send me the report.",
+            "I'd be grateful if you would send me the report."
+          ],
+          "explain_tr": "[en:I would be grateful if you could] + fiil, resmî bir ricadır."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "Resmî yap: [en:tell] yerine [en:inform] kullan.",
+          "q": "We will tell you when it is ready.",
+          "answer": [
+            "We will inform you when it is ready.",
+            "We will inform you as soon as it is ready."
+          ],
+          "explain_tr": "[en:tell] → [en:inform] (resmî)."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "Gayriresmî yap (yakın bir iş arkadaşına): [en:help out] kullan.",
+          "q": "Would you be able to assist me with the presentation?",
+          "answer": [
+            "Can you help me out with the presentation?",
+            "Could you help me out with the presentation?"
+          ],
+          "explain_tr": "[en:assist] → [en:help out]; [en:Would you be able to…] → [en:Can / Could you…]"
+        },
+        {
+          "type": "order",
+          "q": "Kelimeleri doğru sıraya koy:",
+          "words": [
+            "I",
+            "would be",
+            "grateful",
+            "if you could",
+            "reply",
+            "by Friday"
+          ],
+          "answer": [
+            "I would be grateful if you could reply by Friday.",
+            "If you could reply by Friday, I would be grateful."
+          ],
+          "explain_tr": "[en:I would be grateful if you could] + fiil."
+        },
+        {
+          "type": "order",
+          "q": "Kelimeleri doğru sıraya koy:",
+          "words": [
+            "Please",
+            "find",
+            "attached",
+            "the",
+            "updated",
+            "price list"
+          ],
+          "answer": [
+            "Please find attached the updated price list.",
+            "Please find the updated price list attached."
+          ],
+          "explain_tr": "[en:Please find attached…] resmî e-postada ek belirtir."
+        },
+        {
+          "type": "order",
+          "q": "Kelimeleri doğru sıraya koy:",
+          "words": [
+            "We",
+            "regret",
+            "to inform you",
+            "that",
+            "the position",
+            "has been filled"
+          ],
+          "answer": [
+            "We regret to inform you that the position has been filled."
+          ],
+          "explain_tr": "[en:We regret to inform you that…] = üzülerek bildiririz ki…"
+        },
+        {
+          "type": "match",
+          "q": "Eşleştir: resmî fiiller ve anlamları.",
+          "pairs": [
+            [
+              "obtain",
+              "elde etmek"
+            ],
+            [
+              "assist",
+              "yardımcı olmak"
+            ],
+            [
+              "inform",
+              "bilgilendirmek"
+            ],
+            [
+              "request",
+              "talep etmek"
+            ],
+            [
+              "ascertain",
+              "kesin olarak öğrenmek"
+            ]
+          ],
+          "explain_tr": "Bunlar [en:get], [en:help], [en:tell], [en:ask for] ve [en:find out]'un resmî karşılıklarıdır."
+        },
+        {
+          "type": "listen",
+          "text": "Please do not hesitate to contact me if you have any questions.",
+          "answer": [
+            "Please do not hesitate to contact me if you have any questions."
+          ],
+          "explain_tr": "Resmî e-postanın tipik kapanış cümlesi."
+        },
+        {
+          "type": "listen",
+          "text": "I look forward to hearing from you soon.",
+          "answer": [
+            "I look forward to hearing from you soon."
+          ],
+          "explain_tr": "[en:look forward to] + [en:-ing]: [en:hearing]."
+        }
+      ],
+      "practice": {
+        "focus": "switching register: the learner says the same message in an informal way (to a friend or close colleague) and in a formal way (to a client or senior manager)",
+        "tasks": [
+          [
+            "Aynı ricayı önce bir arkadaşa, sonra bir müşteriye söyle",
+            "make the same request informally and formally"
+          ],
+          [
+            "Bir gecikme için resmî bir özür cümlesi kur",
+            "make a formal apology for a delay"
+          ]
+        ]
+      },
+      "sources": [
+        {
+          "title": "Formal and informal language",
+          "site": "Cambridge Dictionary Grammar",
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/formal-and-informal-language"
+        },
+        {
+          "title": "Register",
+          "site": "Cambridge Dictionary Grammar",
+          "url": "https://dictionary.cambridge.org/grammar/british-grammar/register"
+        },
+        {
+          "title": "Unit 4: Starting and finishing emails",
+          "site": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/business/english-emails/unit-4-starting-finishing-emails"
+        },
+        {
+          "title": "An email request (C1 writing)",
+          "site": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/writing/c1/email-request"
+        }
+      ]
+    },
+    {
+      "id": "c1-work-reports",
+      "tags": [
+        "work"
+      ],
+      "title_tr": "Rapor ve öneri yazmak",
+      "title_en": "Writing reports and proposals at work",
+      "categories": [
+        "word_choice",
+        "punctuation"
+      ],
+      "intro_tr": "İyi bir rapor okuyanın zamanını korur: amaç başta, bulgular net, öneriler somut. İngilizce raporun dili nesnel ve ölçülüdür; edilgen yapı, hedging ve açık başlıklar kullanılır. Türkçe raporlarda sık görülen uzun, iç içe cümleler yerine İngilizcede kısa cümleler ve her paragrafta tek fikir tercih edilir.",
+      "sections": [
+        {
+          "title_tr": "Raporun bölümleri ve kalıpları",
+          "text_tr": "Giriş (amaç), bulgular, sonuç, öneriler. Öneri kalıpları: [en:It is recommended that…], [en:We suggest that the company (should) invest…], [en:One option would be to…]. Bulgular: [en:The survey shows/revealed that…], [en:A majority of respondents…].\n\nKısa raporlarda başlıklar genelde şunlardır: [en:Introduction], [en:Findings], [en:Conclusion], [en:Recommendations]. Uzun raporların başında bir [en:executive summary] (yönetici özeti) olur; yoğun bir yönetici çoğu zaman yalnızca bu kısmı okur.\n\nÖneri metni ([en:proposal]) rapora benzer ama geleceğe bakar: bir sorunu tanımlar, çözüm önerir, maliyeti ve faydayı açıklar. Bu yüzden proposal'da [en:would] ve [en:could] sık geçer: [en:This would reduce costs by 10%].",
+          "table": {
+            "head": [
+              "Bölüm",
+              "Kalıp"
+            ],
+            "rows": [
+              [
+                "Amaç",
+                "The aim of this report is to evaluate… / This report examines…"
+              ],
+              [
+                "Bulgular",
+                "It was found that… / The data indicates that… / Over 60% of staff…"
+              ],
+              [
+                "Sonuç",
+                "Overall, it is clear that… / In conclusion,…"
+              ],
+              [
+                "Öneri",
+                "It is recommended that… / We would suggest… / The best course of action would be to…"
+              ]
+            ]
+          },
+          "examples": [
+            {
+              "en": "The aim of this report is to assess our current onboarding process.",
+              "tr": "Bu raporun amacı mevcut işe alışma sürecimizi değerlendirmektir."
+            },
+            {
+              "en": "It was found that most new employees felt unprepared.",
+              "tr": "Yeni çalışanların çoğunun kendini hazırlıksız hissettiği tespit edildi."
+            },
+            {
+              "en": "It is recommended that each new employee be assigned a mentor.",
+              "tr": "Her yeni çalışana bir mentor atanması önerilir."
+            }
+          ]
+        },
+        {
+          "title_tr": "Öneri kalıpları: [en:recommend] ve [en:suggest]",
+          "text_tr": "[en:recommend], [en:suggest], [en:propose] gibi fiillerden sonra [en:that] gelirse arkasından özne + yalın fiil gelir. Özne tekil olsa bile fiil [en:-s] almaz: [en:We recommend that the team use…] ([en:uses] değil). Olumsuzda [en:not] fiilden önce gelir: [en:that the team not use…] İngiliz İngilizcesinde [en:should] de kullanılabilir: [en:We suggest that the company should hire…]\n\nKişiden bahsetmeden önermek için [en:-ing] kullan: [en:We recommend using…] / [en:We suggest reducing…] [en:suggest somebody to do] yapısı yanlıştır; [en:We suggest you to…] denmez.\n\nÖneri soru biçiminde de istenebilir: [en:What would you recommend?] / [en:What do you suggest we do?] Daha yumuşak bir öneri için [en:One option would be to…] ya da [en:It might be worth] + [en:-ing] kullan.",
+          "table": {
+            "head": [
+              "Yapı",
+              "Olumlu",
+              "Olumsuz"
+            ],
+            "rows": [
+              [
+                "recommend that + yalın fiil",
+                "We recommend that the team use the new tool.",
+                "We recommend that the team not use the old tool."
+              ],
+              [
+                "recommend + -ing",
+                "We recommend using the new tool.",
+                "We recommend not using the old tool."
+              ],
+              [
+                "It is recommended that…",
+                "It is recommended that costs be reduced.",
+                "It is recommended that the project not be extended."
+              ],
+              [
+                "suggest that + (should)",
+                "We suggest that the company (should) hire a consultant.",
+                "We suggest that the company should not hire a consultant."
+              ]
+            ]
+          },
+          "examples": [
+            {
+              "en": "We recommend that the contract be renewed for another year.",
+              "tr": "Sözleşmenin bir yıl daha yenilenmesini öneriyoruz."
+            },
+            {
+              "en": "We suggest reducing the number of weekly meetings.",
+              "tr": "Haftalık toplantı sayısının azaltılmasını öneriyoruz."
+            },
+            {
+              "en": "One option would be to outsource the IT support.",
+              "tr": "Seçeneklerden biri BT desteğini dış kaynağa vermek olabilir."
+            }
+          ]
+        },
+        {
+          "title_tr": "Bulguları ve sayıları anlatmak",
+          "text_tr": "Bulguları anlatırken kişisel değil nesnel yapılar seç: [en:It was found that…], [en:The survey shows that…], [en:The data indicates that…], [en:A majority of respondents said…] Ankete katılanlara [en:respondents] denir.\n\nDeğişim için [en:increase / rise] (artmak), [en:decrease / fall / drop] (azalmak, düşmek) kullan. Değişimin büyüklüğünü zarflarla göster: [en:slightly] (biraz), [en:steadily] (istikrarlı biçimde), [en:significantly / considerably] (önemli ölçüde), [en:sharply] (keskin biçimde).\n\nEdatlar Türklerin en çok karıştırdığı noktadır. Farkı [en:by] ile, son değeri [en:to] ile, başlangıcı [en:from] ile verirsin. İsim kullanırsan [en:of] miktarı, [en:in] neyin değiştiğini gösterir.\n\nDikkat: [en:research] ve [en:information] sayılamaz; [en:researches, informations] denmez. [en:data] da çoğul [en:-s] almaz. Araştırma yapmak [en:make a research] değil, [en:carry out / conduct research] olur.",
+          "table": {
+            "head": [
+              "Yapı",
+              "Anlamı",
+              "Örnek"
+            ],
+            "rows": [
+              [
+                "rise by 10%",
+                "%10 artmak (fark)",
+                "Sales rose by 10%."
+              ],
+              [
+                "rise to 440",
+                "440'a çıkmak (son değer)",
+                "Sales rose to 440."
+              ],
+              [
+                "rise from 400 to 440",
+                "400'den 440'a çıkmak",
+                "Sales rose from 400 to 440."
+              ],
+              [
+                "an increase of 10%",
+                "%10'luk bir artış",
+                "There was an increase of 10%."
+              ],
+              [
+                "an increase in sales",
+                "satışlarda artış",
+                "We saw an increase in sales."
+              ]
+            ]
+          },
+          "examples": [
+            {
+              "en": "Sales rose by 12% in the second quarter.",
+              "tr": "Satışlar ikinci çeyrekte %12 arttı."
+            },
+            {
+              "en": "The number of complaints fell from 80 to 35.",
+              "tr": "Şikâyet sayısı 80'den 35'e düştü."
+            },
+            {
+              "en": "A majority of respondents said they would prefer flexible hours.",
+              "tr": "Ankete katılanların çoğu esnek çalışma saatlerini tercih edeceklerini söyledi."
+            }
+          ]
+        },
+        {
+          "title_tr": "Netlik için ipuçları",
+          "text_tr": "Kısa paragraflar ve başlıklar kullan; her paragraf tek fikir. Sayılarla destekle. [en:Very, really, a lot] yerine kesin ifadeler: [en:significantly, considerably, 23%]. Kişisel [en:I think] yerine nesnel [en:The evidence suggests].\n\nNesnel üslup için edilgen yapı ve [en:it] ile başlayan kalıplar kullanılır: [en:It was decided that…], [en:It is expected that…] Kendi yorumunu belirtmen gerekiyorsa [en:In our view] ya da [en:We believe that…] de; ölçülü olmak için hedging ekle: [en:The results suggest…], [en:This is likely to…]\n\nFikirleri bağlaçlarla bağla: [en:However] (ancak), [en:Therefore / As a result] (bu yüzden, bunun sonucunda), [en:In addition] (ayrıca), [en:Overall] (genel olarak). Raporda kısaltma ([en:don't], [en:it's]) yerine tam biçimler ([en:do not], [en:it is]) tercih edilir.",
+          "examples": [
+            {
+              "en": "Customer complaints decreased significantly after the change.",
+              "tr": "Değişiklikten sonra müşteri şikâyetleri önemli ölçüde azaldı."
+            },
+            {
+              "en": "In conclusion, the pilot project was a success and should be extended.",
+              "tr": "Sonuç olarak pilot proje başarılı oldu ve genişletilmeli."
+            },
+            {
+              "en": "However, the costs were higher than expected.",
+              "tr": "Ancak maliyetler beklenenden yüksek oldu."
+            },
+            {
+              "en": "As a result, the average delivery time has fallen by two days.",
+              "tr": "Bunun sonucunda ortalama teslim süresi iki gün kısaldı."
+            }
+          ]
+        },
+        {
+          "title_tr": "Türkçeden farkı ve sık karışanlar",
+          "text_tr": "Türkçe raporlarda [tr:tespit edilmiştir, önerilmektedir] gibi edilgen yapılar zaten yaygındır; İngilizcede de karşılıkları vardır: [en:It was found that…], [en:It is recommended that…] Ama Türkçedeki uzun, iç içe cümleler İngilizceye aynen aktarılınca okunması zorlaşır. Bir cümlede bir ana fikir kalsın.\n\n[tr:Bana göre] için [en:according to me] denmez; [en:In my view] ya da [en:In my opinion] kullan. [en:according to] başkasının görüşü ya da bir kaynak için kullanılır: [en:According to the survey, …]\n\nYüzde işareti Türkçede sayıdan önce (%15), İngilizcede sonra gelir (15%). [en:with %15 increase] gibi Türkçe yapılar yerine [en:by 15%] ya da [en:an increase of 15%] kullan. Ayrıca [en:The aim of this report is…] kalıbında [en:is]'ten sonra [en:to] + fiil gelir.",
+          "examples": [
+            {
+              "en": "The research was carried out in March.",
+              "tr": "Araştırma mart ayında yapıldı."
+            },
+            {
+              "en": "In our view, the second supplier offers better value.",
+              "tr": "Bize göre ikinci tedarikçinin fiyat-performans oranı daha iyi."
+            }
+          ]
+        },
+        {
+          "title_tr": "💼 İş hayatında",
+          "work": true,
+          "text_tr": "Raporu e-postayla gönderirken kısa bir ön yazı ekle: amacı, en önemli bulguyu ve senden beklenen kararı birkaç cümlede söyle. Yoğun yöneticiler genellikle yalnızca bu e-postayı ve yönetici özetini okur.\n\nToplantıda raporu sunarken de aynı sıra işe yarar: [en:The purpose of this report is…], [en:Our key finding is that…], [en:We recommend that…]. Önerilerini maddeler hâlinde yaz ve her maddeye bir fiille başla ([en:Introduce…], [en:Reduce…], [en:Review…]).\n\nBir yöneticiye proposal sunarken maliyeti ve kazancı sayılarla göster, kapanışta da tartışmaya açık olduğunu belirt: [en:I would be happy to discuss this further.]",
+          "examples": [
+            {
+              "en": "Please find attached the final report on the pilot project.",
+              "tr": "Pilot projeyle ilgili nihai rapor ekte yer almaktadır."
+            },
+            {
+              "en": "The key findings are summarised below.",
+              "tr": "Temel bulgular aşağıda özetlenmiştir."
+            },
+            {
+              "en": "I would be happy to discuss these recommendations at the next meeting.",
+              "tr": "Bu önerileri bir sonraki toplantıda konuşmaktan memnuniyet duyarım."
+            }
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "It is recommended that we would hire more staff.",
+          "right": "It is recommended that we hire more staff.",
+          "note_tr": "[en:recommend that] + özne + yalın fiil ([en:would] yok)."
+        },
+        {
+          "wrong": "The sales increased a lot.",
+          "right": "Sales increased significantly (by 18%).",
+          "note_tr": "Raporda kesin ve ölçülü ifade."
+        },
+        {
+          "wrong": "I think the project is very good.",
+          "right": "The evidence suggests that the project has been effective.",
+          "note_tr": "Nesnel üslup."
+        },
+        {
+          "wrong": "We suggest the management to increase the budget.",
+          "right": "We suggest that the management increase the budget. / We suggest increasing the budget.",
+          "note_tr": "[en:suggest] + kişi + [en:to] yapısı yanlıştır; [en:that] + yalın fiil ya da [en:-ing] kullan."
+        },
+        {
+          "wrong": "Sales increased with 15%.",
+          "right": "Sales increased by 15%.",
+          "note_tr": "Değişimin miktarı [en:by] ile verilir."
+        },
+        {
+          "wrong": "We made a research on customer satisfaction.",
+          "right": "We carried out research on customer satisfaction.",
+          "note_tr": "[en:research] sayılamaz ve [en:make] ile kullanılmaz: [en:carry out / conduct research]."
+        },
+        {
+          "wrong": "According to me, the project should continue.",
+          "right": "In my view, the project should continue.",
+          "note_tr": "Kendi görüşün için [en:according to] değil, [en:in my view / in my opinion]."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "q": "The ___ of this report is to compare two suppliers.",
+          "options": [
+            "aim",
+            "goal to",
+            "target of"
+          ],
+          "answer": 0,
+          "explain_tr": "[en:The aim of this report is to…] = bu raporun amacı …"
+        },
+        {
+          "type": "choice",
+          "q": "It is recommended that the company ___ its prices.",
+          "options": [
+            "to review",
+            "review",
+            "would review"
+          ],
+          "answer": 1,
+          "explain_tr": "[en:recommend that] + özne + yalın fiil."
+        },
+        {
+          "type": "choice",
+          "q": "Most suitable for a report:",
+          "options": [
+            "Costs went up a lot.",
+            "Costs rose considerably (by 12%).",
+            "Costs were crazy high."
+          ],
+          "answer": 1,
+          "explain_tr": "Raporda ölçülü ve sayısal ifade kullanılır."
+        },
+        {
+          "type": "choice",
+          "q": "Sales rose ___ 8% last year.",
+          "options": [
+            "by",
+            "with",
+            "at"
+          ],
+          "answer": 0,
+          "explain_tr": "Değişimin miktarı [en:by] ile verilir: [en:rose by 8%]."
+        },
+        {
+          "type": "choice",
+          "q": "We suggest ___ the deadline by one week.",
+          "options": [
+            "to extend",
+            "extending",
+            "extend"
+          ],
+          "answer": 1,
+          "explain_tr": "[en:suggest] + [en:-ing]: [en:suggest extending]."
+        },
+        {
+          "type": "fill",
+          "q": "It was ___ that 70% of customers prefer online orders. (find)",
+          "answer": [
+            "found"
+          ],
+          "explain_tr": "[en:It was found that…] = … tespit edildi."
+        },
+        {
+          "type": "fill",
+          "q": "In ___, the new system has saved time and money. (sonuç olarak)",
+          "answer": [
+            "conclusion",
+            "summary"
+          ],
+          "explain_tr": "[en:In conclusion] = sonuç olarak."
+        },
+        {
+          "type": "fill",
+          "q": "The data ___ that demand will grow next year. (işaret ediyor)",
+          "answer": [
+            "suggests",
+            "indicates",
+            "shows",
+            "suggest",
+            "indicate",
+            "show"
+          ],
+          "explain_tr": "[en:The data suggests / indicates that…] = veriler … işaret ediyor."
+        },
+        {
+          "type": "fill",
+          "q": "There was a sharp ___ in costs in March. (artış)",
+          "answer": [
+            "increase",
+            "rise",
+            "jump"
+          ],
+          "explain_tr": "[en:an increase / a rise in] + neyin arttığı."
+        },
+        {
+          "type": "fill",
+          "q": "The survey was ___ out in three branches. (yapılmak)",
+          "answer": [
+            "carried"
+          ],
+          "explain_tr": "[en:carry out a survey / research] = anket / araştırma yapmak."
+        },
+        {
+          "type": "fix",
+          "q": "We suggest that the company would open a new branch.",
+          "answer": [
+            "We suggest that the company open a new branch.",
+            "We suggest that the company should open a new branch.",
+            "We suggest the company open a new branch.",
+            "We suggest the company should open a new branch."
+          ],
+          "explain_tr": "[en:suggest that] + ([en:should]) + yalın fiil."
+        },
+        {
+          "type": "fix",
+          "q": "The aim of this report is evaluating the training program.",
+          "answer": [
+            "The aim of this report is to evaluate the training program.",
+            "The aim of this report is to evaluate the training programme."
+          ],
+          "explain_tr": "[en:The aim … is to] + fiil."
+        },
+        {
+          "type": "fix",
+          "q": "We suggest the company to hire two more engineers.",
+          "answer": [
+            "We suggest that the company hire two more engineers.",
+            "We suggest that the company should hire two more engineers.",
+            "We suggest the company hire two more engineers.",
+            "We suggest the company should hire two more engineers.",
+            "We suggest hiring two more engineers."
+          ],
+          "explain_tr": "[en:suggest] + kişi + [en:to] yanlıştır; [en:that] + ([en:should]) + yalın fiil kullan."
+        },
+        {
+          "type": "fix",
+          "q": "Profits increased with 20% in 2025.",
+          "answer": [
+            "Profits increased by 20% in 2025.",
+            "Profits increased by 20 percent in 2025.",
+            "Profits increased by 20 per cent in 2025."
+          ],
+          "explain_tr": "Değişimin miktarı [en:by] ile verilir."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "Nesnel yap: [en:It was found that…] ile başla.",
+          "q": "We found that most staff want flexible hours.",
+          "answer": [
+            "It was found that most staff want flexible hours.",
+            "It was found that most staff wanted flexible hours."
+          ],
+          "explain_tr": "[en:It was found that…] kişisel [en:we found] yerine nesnel bir yapıdır."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "[en:It is recommended that…] kalıbına çevir.",
+          "q": "The company should update its website.",
+          "answer": [
+            "It is recommended that the company update its website.",
+            "It is recommended that the company should update its website."
+          ],
+          "explain_tr": "[en:It is recommended that] + özne + ([en:should]) + yalın fiil."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "[en:We recommend] + [en:-ing] kalıbıyla yeniden yaz.",
+          "q": "We think the team should use a shared calendar.",
+          "answer": [
+            "We recommend using a shared calendar.",
+            "We would recommend using a shared calendar."
+          ],
+          "explain_tr": "[en:recommend] + [en:-ing], kişiden bahsetmeden öneri yapar."
+        },
+        {
+          "type": "order",
+          "q": "Kelimeleri doğru sıraya koy:",
+          "words": [
+            "The aim",
+            "of this report",
+            "is",
+            "to evaluate",
+            "the new",
+            "pricing strategy"
+          ],
+          "answer": [
+            "The aim of this report is to evaluate the new pricing strategy."
+          ],
+          "explain_tr": "[en:The aim of this report is to] + fiil."
+        },
+        {
+          "type": "order",
+          "q": "Kelimeleri doğru sıraya koy:",
+          "words": [
+            "It",
+            "is recommended",
+            "that",
+            "the contract",
+            "be renewed"
+          ],
+          "answer": [
+            "It is recommended that the contract be renewed."
+          ],
+          "explain_tr": "[en:It is recommended that] + özne + [en:be] + V3 (edilgen öneri)."
+        },
+        {
+          "type": "order",
+          "q": "Kelimeleri doğru sıraya koy:",
+          "words": [
+            "Customer complaints",
+            "fell",
+            "by 30%",
+            "after",
+            "the change"
+          ],
+          "answer": [
+            "Customer complaints fell by 30% after the change.",
+            "After the change customer complaints fell by 30%."
+          ],
+          "explain_tr": "[en:fall by] + miktar."
+        },
+        {
+          "type": "match",
+          "q": "Eşleştir: rapor kelimeleri ve anlamları.",
+          "pairs": [
+            [
+              "rise",
+              "artmak"
+            ],
+            [
+              "fall",
+              "düşmek"
+            ],
+            [
+              "significantly",
+              "önemli ölçüde"
+            ],
+            [
+              "slightly",
+              "biraz"
+            ],
+            [
+              "respondents",
+              "ankete katılanlar"
+            ]
+          ],
+          "explain_tr": "Bunlar bulguları anlatırken en sık kullanılan kelimelerdir."
+        },
+        {
+          "type": "listen",
+          "text": "It is recommended that the pilot project be extended.",
+          "answer": [
+            "It is recommended that the pilot project be extended."
+          ],
+          "explain_tr": "[en:It is recommended that] + özne + [en:be] + V3."
+        },
+        {
+          "type": "listen",
+          "text": "The survey shows that most customers prefer online payment.",
+          "answer": [
+            "The survey shows that most customers prefer online payment."
+          ],
+          "explain_tr": "[en:The survey shows that…] ile nesnel bir bulgu."
+        }
+      ],
+      "practice": {
+        "focus": "presenting the main points of a short report or proposal from the learner's work: aim, key findings with numbers, conclusion and recommendations, in an objective tone",
+        "tasks": [
+          [
+            "İşinden bir konuda kısa bir raporun amacını ve bulgularını anlat",
+            "present the aim and findings of a short report"
+          ],
+          [
+            "'It is recommended that…' ile somut bir öneri sun",
+            "make a concrete recommendation"
+          ]
+        ]
+      },
+      "sources": [
+        {
+          "title": "A report on a research study (C1 writing)",
+          "site": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/writing/c1/report-research-study"
+        },
+        {
+          "title": "A proposal for a digital newspaper (C1 writing)",
+          "site": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/writing/c1/proposal-digital-newspaper"
+        },
+        {
+          "title": "A report on working abroad (B2 writing)",
+          "site": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/writing/b2/report-working-abroad"
+        },
+        {
+          "title": "English at Work – writing a proposal",
+          "site": "BBC Learning English",
+          "url": "https://www.bbc.co.uk/learningenglish/english/features/english-at-work/42-language-writing-a-proposal"
+        }
+      ]
+    },
+    {
+      "id": "c1-work-feedback",
+      "tags": [
+        "work"
+      ],
+      "title_tr": "Geri bildirim vermek ve zor konuşmalar",
+      "title_en": "Giving feedback and handling difficult conversations",
+      "categories": [
+        "word_choice"
+      ],
+      "intro_tr": "Bir iş arkadaşına eleştiri vermek, bir müşteriye [tr:hayır] demek ya da bir anlaşmazlığı çözmek… Bu konuşmalarda İngilizce, kişiyi değil davranışı konuşan, [en:I] ile başlayan ve çözüme odaklanan bir dil kullanır. Türkçede doğrudan söylemek çoğu zaman samimiyet sayılır; İngilizcede ise eleştiri genellikle yumuşatılır ([en:might], [en:could], [en:a bit]) ve öneri ya da soru olarak sunulur.",
+      "sections": [
+        {
+          "title_tr": "Yapıcı geri bildirim",
+          "text_tr": "Olumlu bir şeyle başla, somut davranışı söyle (genelleme yapma: [en:always/never] yerine örnek ver), etkisini anlat, birlikte çözüm öner. [en:You're careless] yerine [en:I noticed that the last two reports had some errors.]\n\nBu sıraya kısaca [tr:durum – davranış – etki] denir: [en:In yesterday's meeting] (durum), [en:you interrupted Ayşe twice] (davranış), [en:and she couldn't finish her point] (etki). Kişiliği değil davranışı konuş: [en:You're lazy] bir yargıdır, [en:The report arrived two days late] bir gözlemdir.\n\nGeri bildirimden sonra söz sırasını karşı tarafa ver: [en:How do you see it?] ya da [en:What do you think would help?] diye sor. Konuşmayı birlikte kararlaştırdığınız bir planla bitir.",
+          "table": {
+            "head": [
+              "Kaçın",
+              "Tercih et"
+            ],
+            "rows": [
+              [
+                "You always miss deadlines.",
+                "I've noticed the last two deliveries were late. Is anything getting in the way?"
+              ],
+              [
+                "This is bad.",
+                "I think this part could be clearer."
+              ],
+              [
+                "You must change this.",
+                "It might be worth trying a different approach here."
+              ],
+              [
+                "That's not my problem.",
+                "I understand your concern. Let me see what I can do."
+              ]
+            ]
+          },
+          "examples": [
+            {
+              "en": "I really appreciate your effort on this. One thing I'd suggest is adding more data.",
+              "tr": "Bu konudaki emeğini gerçekten takdir ediyorum. Önereceğim bir şey daha fazla veri eklemen."
+            },
+            {
+              "en": "How do you feel the project went?",
+              "tr": "Sence proje nasıl geçti?"
+            },
+            {
+              "en": "Could we find a way to avoid this next time?",
+              "tr": "Bir dahakine bundan kaçınmanın bir yolunu bulabilir miyiz?"
+            },
+            {
+              "en": "You did a great job on the presentation; the slides were very clear.",
+              "tr": "Sunumda harika iş çıkardın; slaytlar çok netti."
+            }
+          ]
+        },
+        {
+          "title_tr": "Yumuşatma kalıpları",
+          "text_tr": "İngilizcede eleştiri genellikle doğrudan bir emir olarak değil, öneri ya da soru olarak verilir. Bu kalıplarda dilbilgisine dikkat et: [en:worth]'tan sonra [en:-ing] gelir ([en:worth trying]; [en:worth to try] değil). [en:Have you thought about…?] ve [en:Have you considered…?] sorularından sonra da [en:-ing] gelir.\n\n[en:suggest] kişiyle birlikte [en:to] almaz: [en:I suggest you talk to him] ya da [en:I'd suggest talking to him] de. [en:appreciate]'ten sonra isim ya da [en:-ing] gelir: [en:I appreciate your help]. / [en:I appreciate you helping out].\n\nCümleyi yumuşatan küçük kelimeler: [en:a bit], [en:slightly], [en:perhaps], [en:might], [en:could]. [en:This is wrong] yerine [en:This might need a bit more work] demek çok daha yapıcıdır.",
+          "table": {
+            "head": [
+              "Amaç",
+              "Kalıp",
+              "Örnek"
+            ],
+            "rows": [
+              [
+                "Takdir",
+                "I really appreciate…",
+                "I really appreciate the way you handled the client."
+              ],
+              [
+                "Gözlem",
+                "I've noticed (that)…",
+                "I've noticed that you've been quiet in meetings."
+              ],
+              [
+                "Öneri",
+                "It might be worth + -ing",
+                "It might be worth checking the figures again."
+              ],
+              [
+                "Soru ile öneri",
+                "Have you thought about + -ing?",
+                "Have you thought about asking Selin for help?"
+              ],
+              [
+                "Fikir sorma",
+                "How do you feel about…?",
+                "How do you feel about the new schedule?"
+              ]
+            ]
+          },
+          "examples": [
+            {
+              "en": "It might be worth checking the figures again before we send them.",
+              "tr": "Göndermeden önce rakamları bir kez daha kontrol etmekte fayda olabilir."
+            },
+            {
+              "en": "Have you thought about asking Selin for help?",
+              "tr": "Selin'den yardım istemeyi düşündün mü?"
+            },
+            {
+              "en": "I really appreciate the way you handled that client.",
+              "tr": "O müşteriyle ilgilenme şeklini gerçekten takdir ediyorum."
+            },
+            {
+              "en": "I've noticed that you've been very quiet in meetings recently.",
+              "tr": "Son zamanlarda toplantılarda çok sessiz olduğunu fark ettim."
+            }
+          ]
+        },
+        {
+          "title_tr": "Hayır demek ve gerilimi azaltmak",
+          "text_tr": "Hayır derken nedenini kısaca açıkla ve alternatif sun: [en:I'm afraid I can't take this on right now, but I could help next week.] Gergin anlarda duyguyu kabul et: [en:I can see why you're frustrated.]\n\nHayır demek için üç adım işe yarar: kibar bir giriş ([en:I'm afraid…], [en:Unfortunately…], [en:I'd love to, but…]), kısa bir neden ([en:I'm fully booked this week]) ve bir alternatif ([en:I could help on Monday] / [en:Have you asked Deniz?]).\n\nKızgın bir müşteri ya da iş arkadaşıyla konuşurken önce duyguyu kabul et, sonra çözüme geç: [en:I understand your concern], [en:Let me look into it]. [en:Calm down] ya da [en:That's not my fault] gibi ifadeler gerilimi artırır. Gerekirse özür dile ve ne yapacağını net söyle: [en:I'm sorry about the delay. I'll make sure it's sent today.]",
+          "examples": [
+            {
+              "en": "I'm afraid that won't be possible, but here's what we can do.",
+              "tr": "Korkarım bu mümkün olmayacak ama yapabileceğimiz şu."
+            },
+            {
+              "en": "I can see why you're upset, and I'd like to help fix this.",
+              "tr": "Neden üzgün olduğunuzu anlıyorum ve bunu düzeltmek için yardım etmek isterim."
+            },
+            {
+              "en": "I'd love to help, but I'm fully booked until Thursday.",
+              "tr": "Yardım etmeyi çok isterim ama perşembeye kadar programım tamamen dolu."
+            },
+            {
+              "en": "I understand your concern, and I'll look into it today.",
+              "tr": "Endişenizi anlıyorum, bugün konuyla ilgileneceğim."
+            },
+            {
+              "en": "I'm sorry this has caused you so much trouble.",
+              "tr": "Bunun size bu kadar sorun çıkardığı için üzgünüm."
+            }
+          ]
+        },
+        {
+          "title_tr": "Türkçeden farkı ve sık karışanlar",
+          "text_tr": "Türkçede doğrudan söylemek çoğu zaman samimiyet ve dürüstlük sayılır: [tr:Bu rapor olmamış.] İngilizce konuşulan iş ortamlarında aynı cümle sert bulunur; eleştiri genellikle olumlu bir cümleyle başlar ve öneri olarak sunulur. Tersine, İngilizcede [en:quite good] gibi ifadeler bazen [tr:fena değil ama yeterli değil] anlamına gelebilir; tonu dikkatle dinle.\n\n[en:feedback] sayılamaz: [en:a feedback] ya da [en:feedbacks] denmez; [en:some feedback] ya da [en:a piece of feedback] kullan. [en:You must…] ve [en:You have to…] emir gibi duyulur; [en:You might want to…] ya da [en:Could you…?] daha uygundur.\n\n[en:understand] ve [en:know] gibi durum fiilleri [en:-ing] almaz: [en:I am understanding] değil, [en:I understand].",
+          "examples": [
+            {
+              "en": "Could I give you some feedback on the report?",
+              "tr": "Raporla ilgili sana biraz geri bildirim verebilir miyim?"
+            },
+            {
+              "en": "I see your point, but I see it slightly differently.",
+              "tr": "Ne demek istediğini anlıyorum ama ben biraz farklı görüyorum."
+            }
+          ]
+        },
+        {
+          "title_tr": "💼 İş hayatında",
+          "work": true,
+          "text_tr": "Performans görüşmelerinde ([en:appraisal / performance review]) hem güçlü yönleri hem gelişim alanlarını konuşursun: [en:One of your strengths is…], [en:One area to work on is…]. Hedefleri somut ve tarihli koy: [en:Let's aim to reduce errors by the end of the quarter.]\n\nGeri bildirim alırken savunmaya geçme. Teşekkür et, gerekirse örnek iste ve ne yapacağını söyle: [en:Thanks, that's really useful.], [en:Could you give me an example?], [en:I'll work on that.]\n\nToplantıda bir fikre katılmadığında doğrudan [en:You're wrong] deme; önce karşı tarafın görüşünü kabul et: [en:I see your point, but…], [en:I'm not sure I agree.], [en:Could we look at it from a different angle?]",
+          "examples": [
+            {
+              "en": "Thanks, that's really useful feedback.",
+              "tr": "Teşekkürler, gerçekten faydalı bir geri bildirim."
+            },
+            {
+              "en": "Could you give me an example of what you mean?",
+              "tr": "Ne demek istediğine bir örnek verebilir misin?"
+            },
+            {
+              "en": "Let's agree on a plan and check in again next week.",
+              "tr": "Bir plan üzerinde anlaşalım ve gelecek hafta yeniden konuşalım."
+            }
+          ]
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "You never listen in meetings.",
+          "right": "In yesterday's meeting, I felt that my point wasn't heard.",
+          "note_tr": "Genelleme yerine somut durum ve [en:I]."
+        },
+        {
+          "wrong": "No, I can't do it.",
+          "right": "I'm afraid I can't do it this week, but I could help on Monday.",
+          "note_tr": "Yumuşat ve alternatif sun."
+        },
+        {
+          "wrong": "I am understanding your frustration.",
+          "right": "I understand your frustration.",
+          "note_tr": "[en:understand] durum fiili."
+        },
+        {
+          "wrong": "Can I give you a feedback?",
+          "right": "Can I give you some feedback?",
+          "note_tr": "[en:feedback] sayılamaz; [en:a / an] almaz."
+        },
+        {
+          "wrong": "It's worth to discuss this with the team.",
+          "right": "It's worth discussing this with the team.",
+          "note_tr": "[en:worth] + [en:-ing]."
+        },
+        {
+          "wrong": "I suggest you to talk to your manager.",
+          "right": "I suggest (that) you talk to your manager. / I suggest talking to your manager.",
+          "note_tr": "[en:suggest] + kişi + [en:to] yapısı yanlıştır."
+        },
+        {
+          "wrong": "You must to be more careful with the numbers.",
+          "right": "You might need to be a bit more careful with the numbers.",
+          "note_tr": "[en:must]'tan sonra [en:to] gelmez; ayrıca [en:might need to] ve [en:a bit] eleştiriyi yumuşatır."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "choice",
+          "q": "Most constructive:",
+          "options": [
+            "Your report is terrible.",
+            "The report is a good start; the conclusion could be clearer.",
+            "Do it again."
+          ],
+          "answer": 1,
+          "explain_tr": "Olumlu başlangıç + somut nokta + çözüm."
+        },
+        {
+          "type": "choice",
+          "q": "Best way to say no:",
+          "options": [
+            "No.",
+            "That's not my job.",
+            "I'm afraid I can't, but I could ask Deniz to help."
+          ],
+          "answer": 2,
+          "explain_tr": "[en:I'm afraid] + alternatif, kibar bir rettir."
+        },
+        {
+          "type": "choice",
+          "q": "I can see ___ you're frustrated.",
+          "options": [
+            "why",
+            "what",
+            "that why"
+          ],
+          "answer": 0,
+          "explain_tr": "[en:I can see why…] = neden … anlıyorum."
+        },
+        {
+          "type": "choice",
+          "q": "Can I give you ___ feedback on your presentation?",
+          "options": [
+            "a",
+            "some",
+            "many"
+          ],
+          "answer": 1,
+          "explain_tr": "[en:feedback] sayılamaz: [en:some feedback]."
+        },
+        {
+          "type": "choice",
+          "q": "Have you thought about ___ the client directly?",
+          "options": [
+            "to call",
+            "calling",
+            "call"
+          ],
+          "answer": 1,
+          "explain_tr": "[en:think about] + [en:-ing]: [en:thought about calling]."
+        },
+        {
+          "type": "fill",
+          "q": "I really ___ the extra hours you put in. (takdir etmek)",
+          "answer": [
+            "appreciate"
+          ],
+          "explain_tr": "[en:appreciate] = takdir etmek."
+        },
+        {
+          "type": "fill",
+          "q": "It might be ___ trying a different approach. (değer)",
+          "answer": [
+            "worth"
+          ],
+          "explain_tr": "[en:It might be worth] + [en:-ing]."
+        },
+        {
+          "type": "fill",
+          "q": "I've ___ that you seem a bit stressed lately. (fark etmek)",
+          "answer": [
+            "noticed"
+          ],
+          "explain_tr": "[en:I've noticed that…] = … fark ettim."
+        },
+        {
+          "type": "fill",
+          "q": "I'm ___ I can't take on any more projects this month. (korkarım)",
+          "answer": [
+            "afraid"
+          ],
+          "explain_tr": "[en:I'm afraid…] kötü haberi kibarca verir."
+        },
+        {
+          "type": "fill",
+          "q": "I understand your ___, and I'll look into it right away. (endişe)",
+          "answer": [
+            "concern",
+            "concerns"
+          ],
+          "explain_tr": "[en:I understand your concern] = endişenizi anlıyorum."
+        },
+        {
+          "type": "fix",
+          "q": "I am understanding why you are angry.",
+          "answer": [
+            "I understand why you are angry.",
+            "I understand why you're angry."
+          ],
+          "explain_tr": "[en:understand] durum fiilidir; [en:-ing] almaz."
+        },
+        {
+          "type": "fix",
+          "q": "It might be worth to try another supplier.",
+          "answer": [
+            "It might be worth trying another supplier."
+          ],
+          "explain_tr": "[en:worth] + [en:-ing]."
+        },
+        {
+          "type": "fix",
+          "q": "I suggest you to discuss it with the team first.",
+          "answer": [
+            "I suggest that you discuss it with the team first.",
+            "I suggest you discuss it with the team first.",
+            "I suggest discussing it with the team first.",
+            "I suggest that you should discuss it with the team first.",
+            "I suggest you should discuss it with the team first."
+          ],
+          "explain_tr": "[en:suggest] + kişi + [en:to] yanlıştır; [en:suggest (that) you] + yalın fiil ya da [en:suggest] + [en:-ing]."
+        },
+        {
+          "type": "fix",
+          "q": "Can I give you a feedback about the report?",
+          "answer": [
+            "Can I give you some feedback about the report?",
+            "Can I give you some feedback on the report?",
+            "Can I give you feedback about the report?",
+            "Can I give you feedback on the report?"
+          ],
+          "explain_tr": "[en:feedback] sayılamaz; [en:a] almaz."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "Yumuşat: [en:It might be worth…] ile başla.",
+          "q": "Check the figures again.",
+          "answer": [
+            "It might be worth checking the figures again."
+          ],
+          "explain_tr": "[en:It might be worth] + [en:-ing], emri öneriye çevirir."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "Yumuşat: [en:Have you thought about…?] sorusuna çevir.",
+          "q": "Ask Mert for help.",
+          "answer": [
+            "Have you thought about asking Mert for help?"
+          ],
+          "explain_tr": "[en:Have you thought about] + [en:-ing]? emri soruya çevirir."
+        },
+        {
+          "type": "transform",
+          "instruction_tr": "Kibarca reddet: [en:I'm afraid…] ile başla.",
+          "q": "I can't attend the meeting on Friday.",
+          "answer": [
+            "I'm afraid I can't attend the meeting on Friday.",
+            "I'm afraid that I can't attend the meeting on Friday.",
+            "I'm afraid I won't be able to attend the meeting on Friday."
+          ],
+          "explain_tr": "[en:I'm afraid…] olumsuz cevabı yumuşatır."
+        },
+        {
+          "type": "order",
+          "q": "Kelimeleri doğru sıraya koy:",
+          "words": [
+            "I",
+            "can see",
+            "why",
+            "you're",
+            "frustrated",
+            "with",
+            "the delay"
+          ],
+          "answer": [
+            "I can see why you're frustrated with the delay."
+          ],
+          "explain_tr": "[en:I can see why] + özne + fiil (düz cümle sırası)."
+        },
+        {
+          "type": "order",
+          "q": "Kelimeleri doğru sıraya koy:",
+          "words": [
+            "It",
+            "might be",
+            "worth",
+            "trying",
+            "a different",
+            "approach"
+          ],
+          "answer": [
+            "It might be worth trying a different approach."
+          ],
+          "explain_tr": "[en:It might be worth] + [en:-ing]."
+        },
+        {
+          "type": "order",
+          "q": "Kelimeleri doğru sıraya koy:",
+          "words": [
+            "I'm afraid",
+            "I can't",
+            "take this on",
+            "right now"
+          ],
+          "answer": [
+            "I'm afraid I can't take this on right now.",
+            "Right now, I'm afraid I can't take this on.",
+            "I'm afraid right now I can't take this on."
+          ],
+          "explain_tr": "[en:I'm afraid] + olumsuz cümle: kibar ret."
+        },
+        {
+          "type": "match",
+          "q": "Eşleştir: kalıplar ve Türkçe karşılıkları.",
+          "pairs": [
+            [
+              "I'm afraid…",
+              "Maalesef… / Korkarım…"
+            ],
+            [
+              "It might be worth…",
+              "… fayda olabilir"
+            ],
+            [
+              "I can see why…",
+              "Neden … anlıyorum"
+            ],
+            [
+              "I really appreciate…",
+              "… gerçekten takdir ediyorum"
+            ],
+            [
+              "Have you thought about…?",
+              "… düşündün mü?"
+            ]
+          ],
+          "explain_tr": "Bunlar zor konuşmaları yumuşatan temel kalıplardır."
+        },
+        {
+          "type": "listen",
+          "text": "I really appreciate the extra effort you put into this project.",
+          "answer": [
+            "I really appreciate the extra effort you put into this project."
+          ],
+          "explain_tr": "Geri bildirime takdirle başlamak konuşmayı yumuşatır."
+        },
+        {
+          "type": "listen",
+          "text": "I understand your concern, and I'll look into it today.",
+          "answer": [
+            "I understand your concern, and I'll look into it today."
+          ],
+          "explain_tr": "Önce duyguyu kabul et, sonra çözüm sun."
+        }
+      ],
+      "practice": {
+        "focus": "role-plays of difficult workplace conversations: giving constructive feedback to a colleague, saying no to an extra task, and calming an unhappy client",
+        "tasks": [
+          [
+            "Bir iş arkadaşına yapıcı geri bildirim ver",
+            "give constructive feedback to a colleague"
+          ],
+          [
+            "Ek bir işi kibarca reddet ve alternatif sun",
+            "politely refuse an extra task and offer an alternative"
+          ]
+        ]
+      },
+      "sources": [
+        {
+          "title": "Conflict management (Business magazine)",
+          "site": "British Council LearnEnglish",
+          "url": "https://learnenglish.britishcouncil.org/free-resources/business/business/magazine/conflict-management"
+        },
+        {
+          "title": "English at Work – giving feedback",
+          "site": "BBC Learning English",
+          "url": "https://www.bbc.co.uk/learningenglish/english/features/english-at-work/14-giving-feedback"
+        },
+        {
+          "title": "English at Work – dealing with a difficult colleague",
+          "site": "BBC Learning English",
+          "url": "https://www.bbc.co.uk/learningenglish/english/features/english-at-work/37-dealing-with-difficult-staff"
+        },
+        {
+          "title": "English at Work – language for an appraisal",
+          "site": "BBC Learning English",
+          "url": "https://www.bbc.co.uk/learningenglish/english/features/english-at-work/40-language-to-use-in-an-appraisal"
+        }
+      ]
+    }
+  ]
+}

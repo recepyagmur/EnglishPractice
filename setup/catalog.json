@@ -1,0 +1,135 @@
+{
+  "_comment": "Models offered by the setup wizard. download_gb is only a fallback: the wizard reads the real size from the Ollama registry. min_memory_gb = memory the model needs with a 4096-token context (qwen3:8b measured 5.4 GB, gemma4:e4b 4.6 GB on an RTX 4060). quality/speed: rough 1-5 guide. verified: passed our correctness tests (Turkish teacher answers, corrections, lesson checks, exams, translation: docs/model-karsilastirma-*.md, dev/tests/model_quality_ab.py); ONLY verified models get the 'recommended' badge. gpu_tps / cpu_tps: measured tokens/s on an RTX 4060 / on the CPU only (Ryzen 5 5600, 6 cores, num_gpu 0) — the wizard scales cpu_tps to the computer's CPU (installer.cpu_speed_factor). thinking_mode: send think=false for chat.",
+  "models": [
+    {
+      "id": "qwen3:4b-instruct",
+      "name": "Qwen3 4B",
+      "description_tr": "Hızlı ve hafif. Zayıf bilgisayarlarda iyi bir seçim.",
+      "download_gb": 2.5,
+      "min_memory_gb": 3.2,
+      "quality": 2,
+      "speed": 5,
+      "verified": false,
+      "thinking_mode": false,
+      "notes_tr": "Düşünmesiz (instruct) sürüm: 'qwen3:4b' etiketi her zaman düşünen sürüm ve think=false'u yok sayıyor."
+    },
+    {
+      "id": "qwen3:8b",
+      "name": "Qwen3 8B",
+      "description_tr": "Dengeli kalite ve hız. Türkçesi zayıf.",
+      "download_gb": 5.2,
+      "min_memory_gb": 5.6,
+      "quality": 3,
+      "speed": 3,
+      "verified": false,
+      "gpu_tps": 46,
+      "thinking_mode": true,
+      "notes_tr": "Düşünme modu sohbette kapalı tutulur."
+    },
+    {
+      "id": "gemma4:e4b",
+      "name": "Gemma 4 E4B",
+      "description_tr": "Google'ın modeli; Türkçesi en iyisi, düzeltmeleri doğru. Testlerimizden geçen model.",
+      "download_gb": 6.6,
+      "min_memory_gb": 4.8,
+      "quality": 5,
+      "speed": 4,
+      "verified": true,
+      "gpu_tps": 80,
+      "cpu_tps": 8.1,
+      "thinking_mode": true,
+      "notes_tr": "Ekran kartında ~4.6 GB, işlemcide ~6–7 GB RAM kullanır (Ollama ekran kartı için 0.3 GB diye yanlış gösterir). Karşılaştırma: docs/model-karsilastirma-turkce.md"
+    },
+    {
+      "id": "gemma4:e2b",
+      "name": "Gemma 4 E2B",
+      "description_tr": "Gemma 4'ün küçük sürümü: işlemcide 2 kat hızlı, ama Türkçe açıklamalarda ve düzeltmelerde hata yapıyor.",
+      "download_gb": 4.6,
+      "min_memory_gb": 3.6,
+      "quality": 3,
+      "speed": 5,
+      "verified": false,
+      "gpu_tps": 100,
+      "cpu_tps": 16,
+      "thinking_mode": true,
+      "notes_tr": "Testte 'I am working here since 2020' cümlesine doğru dedi, 'I have been to London last year' hatasını kaçırdı (docs/model-karsilastirma-e2b.md). Sadece belleği 16 GB'tan az bilgisayarlar için."
+    },
+    {
+      "id": "qwen3.5:4b",
+      "name": "Qwen3.5 4B",
+      "description_tr": "Daha yeni nesil, hızlı.",
+      "download_gb": 3.3,
+      "min_memory_gb": 4.0,
+      "quality": 3,
+      "speed": 4,
+      "verified": false,
+      "thinking_mode": true,
+      "notes_tr": "Düşünme modu sohbette kapalı tutulur."
+    },
+    {
+      "id": "qwen3.5:9b",
+      "name": "Qwen3.5 9B",
+      "description_tr": "Daha yeni nesil, daha kaliteli.",
+      "download_gb": 6.6,
+      "min_memory_gb": 7.0,
+      "quality": 5,
+      "speed": 3,
+      "verified": false,
+      "thinking_mode": true,
+      "notes_tr": "Düşünme modu sohbette kapalı tutulur."
+    },
+    {
+      "id": "gemma4:26b",
+      "name": "Gemma 4 26B",
+      "description_tr": "Yüksek kalite (MoE). Sadece belleği bol bilgisayarlar için.",
+      "download_gb": 18.7,
+      "min_memory_gb": 19.5,
+      "quality": 5,
+      "speed": 2,
+      "verified": false,
+      "thinking_mode": true,
+      "notes_tr": "Ekran kartına sığmazsa bir kısmı işlemcide çalışır ve yavaşlar."
+    }
+  ],
+  "translation_model": {
+    "id": "translategemma:4b",
+    "name": "TranslateGemma 4B",
+    "description_tr": "Sadece cümle çevirisi için (kelimeye tıklayınca 'Cümleyi çevir'). İsteğe bağlı.",
+    "download_gb": 3.3,
+    "thinking_mode": false
+  },
+  "whisper_models": [
+    {"id": "base.en", "repo": "Systran/faster-whisper-base.en", "name": "base.en", "description_tr": "Hızlı, daha az doğru.", "download_mb": 150},
+    {"id": "small.en", "repo": "Systran/faster-whisper-small.en", "name": "small.en", "description_tr": "Önerilen: hız ve doğruluk dengesi.", "download_mb": 490},
+    {"id": "distil-large-v3", "repo": "Systran/faster-distil-whisper-large-v3", "name": "distil-large-v3", "description_tr": "En doğru, daha yavaş ve büyük.", "download_mb": 1520}
+  ],
+  "kokoro": {
+    "files": [
+      {"name": "kokoro-v1.0.onnx", "url": "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.onnx", "size": 325532387, "sha256": "7d5df8ecf7d4b1878015a32686053fd0eebe2bc377234608764cc0ef3636a6c5"},
+      {"name": "voices-v1.0.bin", "url": "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/voices-v1.0.bin", "size": 28214398, "sha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d"}
+    ],
+    "voices": {
+      "a": ["af_heart", "af_bella", "af_nicole", "af_sarah", "af_sky", "am_michael", "am_adam", "am_eric", "am_liam"],
+      "b": ["bf_emma", "bf_isabella", "bf_alice", "bf_lily", "bm_george", "bm_lewis", "bm_daniel", "bm_fable"]
+    }
+  },
+  "ollama": {
+    "url": "https://github.com/ollama/ollama/releases/latest/download/ollama-windows-amd64.zip",
+    "download_gb": 1.5
+  },
+  "ollama_linux": {
+    "url": "https://github.com/ollama/ollama/releases/latest/download/ollama-linux-amd64.tar.zst",
+    "rocm_url": "https://github.com/ollama/ollama/releases/latest/download/ollama-linux-amd64-rocm.tar.zst",
+    "download_gb": 1.45
+  },
+  "python": {
+    "url": "https://www.python.org/ftp/python/3.12.10/python-3.12.10-embed-amd64.zip",
+    "get_pip": "https://bootstrap.pypa.io/get-pip.py"
+  },
+  "python_linux": {
+    "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20260924/cpython-3.12.14%2B20260924-x86_64-unknown-linux-gnu-install_only.tar.gz",
+    "size": 66890910,
+    "sha256": "5eae8cf79dd47fc2496a4fccc892936be831ce7a84d984b2299dfb1cdb592682",
+    "note": "setup/bootstrap.sh downloads it (same values there)"
+  }
+}
