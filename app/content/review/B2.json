@@ -38,7 +38,7 @@
         "Gelecekte belli bir anda sürüyor olacak eylem için [en:will be] + [en:-ing] kullanılır ([tr:-iyor olacağım]): [en:This time tomorrow I'll be lying on a beach.]",
         "Gelecekte bir zamana kadar tamamlanmış olacak eylem için [en:will have] + V3 kullanılır ([tr:-mış olacağım]); neredeyse her zaman [en:by] ile gelir: [en:By 2030, I'll have paid off my loan.]",
         "[en:by Friday] = en geç cuma, [en:until Friday] = cumaya kadar sürekli. Future perfect ile [en:until] değil, [en:by] kullanılır.",
-        "[en:by the time] ve [en:when]'den sonra [en:will] kullanılmaz, present simple gelir: [en:By the time you arrive, we'll have started.]",
+        "Gelecekten söz eden [en:by the time] ve [en:when] yan cümlesinde [en:will] kullanılmaz, present simple gelir: [en:By the time you arrive, we'll have started.]",
         "Future continuous birinin planını kibarca sormak için de kullanılır: [en:Will you be using the room this afternoon?] Bu soru, [en:Will you…?] ile yapılan bir ricadan daha yumuşak duyulur."
       ],
       "remember_tr": "[en:At six I'll be leaving] = altıda çıkıyor olacağım; [en:By six I'll have left] = altıya kadar çoktan çıkmış olacağım.",
@@ -52,7 +52,7 @@
     "b2-third-conditional": {
       "rules_tr": [
         "Geçmişte olmamış bir şeyi ve hayalî sonucunu anlatırken [en:If] + [en:had] + V3, [en:would have] + V3 kullanılır: [en:If I had left earlier, I wouldn't have missed the bus.]",
-        "[en:if] kısmında asla [en:would] kullanılmaz. Kısaltmada [en:if] kısmındaki [en:'d] = [en:had], sonuç kısmındaki [en:'d] = [en:would]: [en:If I'd known, I'd have called you.]",
+        "Koşulu anlatan [en:if] kısmında [en:would] kullanılmaz. Kısaltmada [en:if] kısmındaki [en:'d] = [en:had], sonuç kısmındaki [en:'d] = [en:would]: [en:If I'd known, I'd have called you.]",
         "Türkçede [tr:Bilseydim gelirdim] hem şimdiyi hem geçmişi anlatabilir; İngilizcede seçmek zorundasın: şimdi için [en:If I knew, I would come], geçmiş için [en:If I had known, I would have come].",
         "Mixed conditional: geçmişteki bir koşulun şimdiki sonucu için [en:If] + [en:had] + V3, [en:would] + yalın fiil: [en:If I hadn't missed the flight, I would be in Rome now.]",
         "Sonuç kısmında [en:would] yerine [en:could/might have] + V3 de olabilir. [en:have] fiilinin past perfect hâli [en:had had]'dir: [en:If I had had more time, I would have finished.]"
@@ -150,7 +150,7 @@
         "Pazarlıkta doğrudan cümleler yerine yumuşatılmış ve koşullu yapılar tercih edilir: [en:Your price is too high] yerine [en:I'm afraid the price is a bit higher than we expected.]",
         "Kibarlık çoğu zaman dilbilgisiyle sağlanır: [en:will] yerine [en:would], [en:can] yerine [en:could], düz cümle yerine soru, [en:We want] yerine [en:We'd like]: [en:Would you be able to offer a discount?]",
         "Gerçekçi bir teklif için [en:If] + present, [en:will/can] + fiil; daha esnek, varsayımsal bir öneri için [en:If] + past, [en:would/could] + fiil: [en:If you increased the order, we could offer free delivery.]",
-        "[en:if], [en:as long as] ve [en:provided that]'ten sonra [en:will] gelmez: [en:We can accept these terms as long as delivery is in May.]",
+        "Koşul bildiren [en:if], [en:as long as] ve [en:provided that]'ten sonra geleceği anlatmak için [en:will] gelmez: [en:We can accept these terms as long as delivery is in May.]",
         "[en:I'm afraid] burada [tr:maalesef] anlamındadır ve kötü haberi yumuşatır. [tr:İndirim yapmak] = [en:give / offer a discount]; istek için [en:would like] + kişi + [en:to] + fiil: [en:We'd like you to send the final contract by Friday.]"
       ],
       "remember_tr": "Türkçede normal duyulan [tr:İndirim istiyoruz] İngilizcede kaba duyulabilir; isteğini soruyla yap: [en:Is there any flexibility on the price?]",

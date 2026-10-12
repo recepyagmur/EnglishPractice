@@ -57,7 +57,7 @@
         },
         {
           "title_tr": "Düzenli ve düzensiz fiiller",
-          "text_tr": "Düzenli fiillere [en:-ed] eklenir ([en:work] → [en:worked], [en:live] → [en:lived], [en:stop] → [en:stopped], [en:study] → [en:studied]). Çok kullanılan fiillerin çoğu düzensizdir ve ezberlenmelidir. Geçmiş zaman tüm öznelerle aynıdır; [en:he/she/it] için [en:-s] eklenmez.\n\nYazım kuralları: [en:-e] ile biten fiillere yalnızca [en:-d] eklenir ([en:live] → [en:lived], [en:close] → [en:closed]). Ünsüz + [key:y] ile bitenlerde [key:y] düşer ve [en:-ied] gelir ([en:study] → [en:studied], [en:try] → [en:tried]); ünlü + [key:y] ile bitenler yalnızca [en:-ed] alır ([en:play] → [en:played], [en:stay] → [en:stayed]). Tek heceli ve ünsüz-ünlü-ünsüz ile biten fiillerde son ünsüz ikilenir ([en:stop] → [en:stopped], [en:plan] → [en:planned]); [key:w], [key:x], [key:y] ile bitenlerde ikilenme olmaz ([en:fix] → [en:fixed]).\n\nDüzensiz fiilleri tek tek ezberlemek yerine cümle içinde öğrenmek daha kolaydır. Tablodaki fiiller iş hayatında en sık kullanılanlardır.",
+          "text_tr": "Düzenli fiillere [en:-ed] eklenir ([en:work] → [en:worked], [en:live] → [en:lived], [en:stop] → [en:stopped], [en:study] → [en:studied]). Çok kullanılan fiillerin çoğu düzensizdir ve ezberlenmelidir. Geçmiş zaman tüm öznelerle aynıdır; [en:he/she/it] için [en:-s] eklenmez.\n\nYazım kuralları: [en:-e] ile biten fiillere yalnızca [en:-d] eklenir ([en:live] → [en:lived], [en:close] → [en:closed]). Ünsüz + [key:y] ile bitenlerde [key:y] düşer ve [en:-ied] gelir ([en:study] → [en:studied], [en:try] → [en:tried]); ünlü + [key:y] ile bitenler yalnızca [en:-ed] alır ([en:play] → [en:played], [en:stay] → [en:stayed]). Tek heceli ve ünsüz-ünlü-ünsüz ile biten fiillerde son ünsüz ikilenir ([en:stop] → [en:stopped], [en:plan] → [en:planned]); [key:w], [key:x], [key:y] ile bitenlerde ikilenme olmaz ([en:fix] → [en:fixed]).\n\nDüzensiz fiilleri tek tek ezberlemek yerine cümle içinde öğrenmek daha kolaydır. Tablodaki fiiller iş hayatında en sık kullanılanlardandır.",
           "table": {
             "head": [
               "Yalın",
@@ -1123,7 +1123,7 @@
           },
           "examples": [
             {
-              "en": "I understand you. (not: I'm understanding)",
+              "en": "I understand you.",
               "tr": "Seni anlıyorum."
             },
             {
@@ -1213,7 +1213,7 @@
         {
           "wrong": "I am go to work every day.",
           "right": "I go to work every day.",
-          "note_tr": "Rutin → geniş zaman; [en:am] kullanılmaz."
+          "note_tr": "Rutin → geniş zaman: [en:I go]. [en:am] + yalın fiil ([en:am go]) olmaz."
         },
         {
           "wrong": "I'm knowing the answer.",
@@ -4611,7 +4611,7 @@
         },
         {
           "title_tr": "Mesaj bırakmak ve almak",
-          "text_tr": "Aradığın kişi yoksa mesaj bırakırsın: adını, şirketini, numaranı ve neden aradığını söyle. Numaraları tek tek ve yavaş söyle. Telefon numaralarında [key:0] rakamı genellikle [en:oh] diye okunur; İngiliz İngilizcesinde yan yana iki aynı rakam [en:double] ile söylenebilir: 55 = [en:double five].\n\nMesajı alan kişi bilgiyi tekrar ederek kontrol eder: [en:So that's Ali Demir from XYZ, and your number is…] Görüşmenin sonunda [en:Thanks for calling.] ve [en:Have a nice day.] sık kullanılır.",
+          "text_tr": "Aradığın kişi yoksa mesaj bırakırsın: adını, şirketini, numaranı ve neden aradığını söyle. Numaraları tek tek ve yavaş söyle. Telefon numaralarında [key:0] rakamı [en:oh] ya da [en:zero] diye okunur, ikisi de anlaşılır; İngiliz İngilizcesinde yan yana iki aynı rakam [en:double] ile söylenebilir: 55 = [en:double five].\n\nMesajı alan kişi bilgiyi tekrar ederek kontrol eder: [en:So that's Ali Demir from XYZ, and your number is…] Görüşmenin sonunda [en:Thanks for calling.] ve [en:Have a nice day.] sık kullanılır.",
           "table": {
             "head": [
               "Arayan",

@@ -22,7 +22,7 @@
         "Geçmişte belirli bir anda devam etmekte olan eylem için [en:was / were] + fiil[en:-ing] kullanılır: [en:At 8 o'clock I was having dinner.] [en:I/he/she/it] ile [en:was], [en:you/we/they] ile [en:were].",
         "Uzun, arka plandaki eylem past continuous, onu kesen kısa olay past simple olur: [en:I was reading a report when the lights went out.]",
         "[en:while] uzun, süren eylemin; [en:when] daha çok kısa olayın önüne gelir. Aynı anda süren iki eylemin ikisi de past continuous olur: [en:While I was cooking, the children were doing their homework.]",
-        "Türkçedeki [tr:-yordu] geçmişteki alışkanlığı da anlatır, ama İngilizcede alışkanlık için past continuous değil, past simple ya da [en:used to] kullanılır: [en:I played (used to play) football every day].",
+        "Türkçedeki [tr:-yordu] geçmişteki alışkanlığı da anlatır, ama İngilizcede alışkanlık için genellikle past continuous değil, past simple ya da [en:used to] kullanılır: [en:I played (used to play) football every day].",
         "[en:know], [en:want], [en:understand] gibi durum fiilleri genellikle [en:-ing] almaz: [en:I didn't know the answer.] Bitmiş bir eylemin toplam süresi de past simple ile söylenir: [en:I worked there for two years.]"
       ],
       "remember_tr": "Hikâyede sahneyi past continuous ile kurar, olayları past simple ile sıralarsın.",
@@ -67,7 +67,7 @@
     },
     "b1-conditionals": {
       "rules_tr": [
-        "[en:if] cümlesinde [en:will] kullanılmaz; [en:when], [en:as soon as], [en:until] ve [en:unless] için de aynısı geçerlidir. Türkçede [tr:gelince] derken geleceği düşünsen de bu kısım present simple olur: [en:I'll tell her when she arrives.]",
+        "Koşul bildiren [en:if] cümlesinde geleceği anlatmak için [en:will] kullanılmaz; [en:when], [en:as soon as], [en:until] ve [en:unless] için de aynısı geçerlidir. Türkçede [tr:gelince] derken geleceği düşünsen de bu kısım present simple olur: [en:I'll tell her when she arrives.]",
         "First conditional gerçek bir olasılık içindir: [en:if] + present simple, ana cümlede [en:will] + fiil: [en:If it rains, I'll stay home.]",
         "Second conditional şu an gerçek olmayan ya da ihtimali çok düşük durumlar içindir: [en:if] + past simple, [en:would] + fiil. Buradaki past simple geçmişi anlatmaz: [en:If I had time, I'd help you.]",
         "Tavsiye kalıbı [en:If I were you]'dur: [en:If I were you, I would accept the offer.] Yazıda [en:I], [en:he], [en:she], [en:it] ile de [en:were] daha güvenlidir.",

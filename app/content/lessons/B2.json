@@ -545,7 +545,7 @@
         },
         {
           "title_tr": "Süre mi, sonuç mu?",
-          "text_tr": "[en:How long…?] sorusu ve [en:for/since] ile süre → continuous. [en:How many/much…?] ve tamamlanmış sonuç → simple. Durum fiilleri ([en:know], [en:like], [en:own], [en:believe]) continuous olmaz: [en:I've known her for years.]\n\nAynı fiille iki zaman farklı şey söyler. [en:I've been painting the room] = odayı boyuyordum; iş belki bitmedi, üstüm boya. [en:I've painted the room] = odayı boyadım; iş bitti. Kaç tane, ne kadar sorusu varsa ya da iş tamamlandıysa simple kullan.",
+          "text_tr": "[en:How long…?] sorusu ve [en:for/since] ile süre → continuous. [en:How many/much…?] ve tamamlanmış sonuç → simple. Durum fiilleri ([en:know], [en:like], [en:own], [en:believe]) continuous olmaz: [en:I've known her for years.]\n\nAynı fiille iki zaman farklı şey söyler. [en:I've been painting the room] = [tr:odayı boyuyordum]; iş belki bitmedi, üstüm boya. [en:I've painted the room] = [tr:odayı boyadım]; iş bitti. Kaç tane, ne kadar sorusu varsa ya da iş tamamlandıysa simple kullan.",
           "table": {
             "head": [
               "Present perfect continuous (süre)",
@@ -602,7 +602,7 @@
         {
           "title_tr": "💼 İş hayatında",
           "work": true,
-          "text_tr": "Durum güncellemelerinde ne kadar süredir bir şey üzerinde çalışıldığını anlatırken çok doğaldır.\n\nToplantılarda [en:What have you been working on?] (Son zamanlarda ne üzerinde çalışıyorsun?) sorusu sık sorulur. Cevap verirken süreyi continuous ile, ulaşılan sonucu simple ile söyle: [en:I've been preparing the budget, and I've finished the first draft.]\n\nE-postalarda da sık görülür: [en:I've been looking into the issue, and I'll update you by Friday.] Böylece konuyla bir süredir ilgilendiğini ve işin sürdüğünü söylersin. Bir müşterinin uzun süredir beklediğini kabul ederken de kullanılır: [en:I know you've been waiting for a reply, and I apologise for the delay.]",
+          "text_tr": "Durum güncellemelerinde ne kadar süredir bir şey üzerinde çalışıldığını anlatırken çok doğaldır.\n\nToplantılarda [en:What have you been working on?] ([tr:Son zamanlarda ne üzerinde çalışıyorsun?]) sorusu sık sorulur. Cevap verirken süreyi continuous ile, ulaşılan sonucu simple ile söyle: [en:I've been preparing the budget, and I've finished the first draft.]\n\nE-postalarda da sık görülür: [en:I've been looking into the issue, and I'll update you by Friday.] Böylece konuyla bir süredir ilgilendiğini ve işin sürdüğünü söylersin. Bir müşterinin uzun süredir beklediğini kabul ederken de kullanılır: [en:I know you've been waiting for a reply, and I apologise for the delay.]",
           "examples": [
             {
               "en": "We've been working on this project since January.",
@@ -962,7 +962,7 @@
       "categories": [
         "tense"
       ],
-      "intro_tr": "Gelecekte belli bir anda sürüyor olacak eylem için [en:will be] + [en:-ing] (Yarın bu saatte uçuyor olacağım), gelecekte bir zamana kadar tamamlanmış olacak eylem için [en:will have] + V3 (Cumaya kadar bitirmiş olacağım) kullanılır. Türkçedeki [tr:-iyor olacağım] ve [tr:-mış olacağım] kalıplarına benzer. İş hayatında teslim tarihlerini, planları ve müsaitliği anlatırken çok kullanılır.",
+      "intro_tr": "Gelecekte belli bir anda sürüyor olacak eylem için [en:will be] + [en:-ing] ([tr:Yarın bu saatte uçuyor olacağım]), gelecekte bir zamana kadar tamamlanmış olacak eylem için [en:will have] + V3 ([tr:Cumaya kadar bitirmiş olacağım]) kullanılır. Türkçedeki [tr:-iyor olacağım] ve [tr:-mış olacağım] kalıplarına benzer. İş hayatında teslim tarihlerini, planları ve müsaitliği anlatırken çok kullanılır.",
       "sections": [
         {
           "title_tr": "[en:will be] + [en:-ing] / [en:will have] + V3",
@@ -1026,7 +1026,7 @@
         },
         {
           "title_tr": "Future perfect: ne zaman?",
-          "text_tr": "Future perfect, gelecekteki bir zamana bakıp [tr:o zamana kadar bitmiş olacak] der. Neredeyse her zaman [en:by] ile kullanılır: [en:by Friday], [en:by 2030], [en:by the time you arrive].\n\n[en:by the time] ve [en:when]'den sonra [en:will] kullanılmaz, present simple gelir: [en:By the time you arrive, we'll have started.] ([en:By the time you will arrive] yanlıştır.)\n\nSüreyi vurgulamak için future perfect continuous da vardır: [en:will have been] + [en:-ing]. [en:By June, I'll have been working here for ten years.]",
+          "text_tr": "Future perfect, gelecekteki bir zamana bakıp [tr:o zamana kadar bitmiş olacak] der. Neredeyse her zaman [en:by] ile kullanılır: [en:by Friday], [en:by 2030], [en:by the time you arrive].\n\nGelecekten söz eden [en:by the time] ve [en:when] yan cümlesinde [en:will] kullanılmaz, present simple gelir: [en:By the time you arrive, we'll have started.] ([en:By the time you will arrive] yanlıştır.)\n\nSüreyi vurgulamak için future perfect continuous da vardır: [en:will have been] + [en:-ing]. [en:By June, I'll have been working here for ten years.]",
           "examples": [
             {
               "en": "By the time you read this email, I'll have left the office.",
@@ -1044,7 +1044,7 @@
         },
         {
           "title_tr": "Sinyal kelimeler ve karıştırılanlar",
-          "text_tr": "Future continuous ile: [en:this time tomorrow], [en:this time next week], [en:at 5 p.m. tomorrow], [en:all day tomorrow]. Future perfect ile: [en:by Friday], [en:by the end of the month], [en:by the time…]\n\n[en:will], [en:will be] + [en:-ing] ve [en:will have] + V3 farklı şeyler söyler. [en:At six I'll leave] = saat altıda çıkacağım (eylem altıda olur). [en:At six I'll be leaving] = altıda çıkıyor olacağım (o sırada çıkış hâlindeyim). [en:By six I'll have left] = altıya kadar çoktan çıkmış olacağım.\n\n[en:by] ile [en:until]'i karıştırma: [en:by Friday] = en geç cuma, [en:until Friday] = cumaya kadar sürekli. Future perfect ile [en:until] değil, [en:by] kullanılır.\n\nTürkçede [tr:-iyor olacağım] future continuous'a, [tr:-mış olacağım] future perfect'e karşılık gelir. Bu kalıpları düşünürsen doğru yapıyı seçmen kolaylaşır.",
+          "text_tr": "Future continuous ile: [en:this time tomorrow], [en:this time next week], [en:at 5 p.m. tomorrow], [en:all day tomorrow]. Future perfect ile: [en:by Friday], [en:by the end of the month], [en:by the time…]\n\n[en:will], [en:will be] + [en:-ing] ve [en:will have] + V3 farklı şeyler söyler. [en:At six I'll leave] = [tr:saat altıda çıkacağım] (eylem altıda olur). [en:At six I'll be leaving] = [tr:altıda çıkıyor olacağım] (o sırada çıkış hâlindeyim). [en:By six I'll have left] = [tr:altıya kadar çoktan çıkmış olacağım].\n\n[en:by] ile [en:until]'i karıştırma: [en:by Friday] = en geç cuma, [en:until Friday] = cumaya kadar sürekli. Future perfect ile [en:until] değil, [en:by] kullanılır.\n\nTürkçede [tr:-iyor olacağım] future continuous'a, [tr:-mış olacağım] future perfect'e karşılık gelir. Bu kalıpları düşünürsen doğru yapıyı seçmen kolaylaşır.",
           "examples": [
             {
               "en": "At six I'll leave.",
@@ -1107,7 +1107,7 @@
         {
           "wrong": "By the time you will arrive, we will have finished.",
           "right": "By the time you arrive, we will have finished.",
-          "note_tr": "[en:by the time] / [en:when]'den sonra [en:will] kullanılmaz; present simple gelir."
+          "note_tr": "Gelecekten söz eden [en:by the time] / [en:when] yan cümlesinde [en:will] kullanılmaz; present simple gelir."
         },
         {
           "wrong": "I will have finished the report until Friday.",
@@ -1426,7 +1426,7 @@
       "sections": [
         {
           "title_tr": "Third conditional",
-          "text_tr": "Pişmanlık ve eleştiri için çok kullanılır. [en:would] yerine [en:could/might have] + V3 de olabilir. Konuşmada [en:If I'd known, I'd have…] kısaltmaları yaygındır.\n\nYapı: [en:if] kısmında [en:had] + V3 (koşul), diğer kısımda [en:would have] + V3 (sonuç). [en:if] kısmında asla [en:would] kullanılmaz. Cümle [en:if] ile başlıyorsa iki kısım arasına virgül konur; sonuç önce gelirse virgül gerekmez: [en:I would have called you if I had known.]\n\nKısaltmalara dikkat: [en:if] kısmındaki [en:'d] = [en:had] ([en:If I'd known]), sonuç kısmındaki [en:'d] = [en:would] ([en:I'd have called]).",
+          "text_tr": "Pişmanlık ve eleştiri için çok kullanılır. [en:would] yerine [en:could/might have] + V3 de olabilir. Konuşmada [en:If I'd known, I'd have…] kısaltmaları yaygındır.\n\nYapı: [en:if] kısmında [en:had] + V3 (koşul), diğer kısımda [en:would have] + V3 (sonuç). Koşulu anlatan [en:if] kısmında [en:would] kullanılmaz. Cümle [en:if] ile başlıyorsa iki kısım arasına virgül konur; sonuç önce gelirse virgül gerekmez: [en:I would have called you if I had known.]\n\nKısaltmalara dikkat: [en:if] kısmındaki [en:'d] = [en:had] ([en:If I'd known]), sonuç kısmındaki [en:'d] = [en:would] ([en:I'd have called]).",
           "table": {
             "head": [
               "Biçim",
@@ -1557,7 +1557,7 @@
         {
           "wrong": "If I would have known, I would have come.",
           "right": "If I had known, I would have come.",
-          "note_tr": "[en:if] kısmında [en:would] yok: [en:had known]."
+          "note_tr": "Koşulu anlatan [en:if] kısmında [en:would] yok: [en:had known]."
         },
         {
           "wrong": "If I had known, I would come.",
@@ -1918,7 +1918,7 @@
       "categories": [
         "verb_form"
       ],
-      "intro_tr": "Bir şeyden ne kadar emin olduğunu söylerken modal fiiller kullanılır: neredeyse emin ([en:must]), olabilir ([en:might/may/could]), imkânsız ([en:can't]). Geçmiş için modal + [en:have] + V3: [en:He must have forgotten.] (Unutmuş olmalı.) Türkçedeki [tr:-malı], [tr:-mış olabilir], [tr:-mış olamaz] kalıplarına karşılık gelir; ama olumsuz kesinlikte [en:mustn't] değil [en:can't] kullanılır.",
+      "intro_tr": "Bir şeyden ne kadar emin olduğunu söylerken modal fiiller kullanılır: neredeyse emin ([en:must]), olabilir ([en:might/may/could]), imkânsız ([en:can't]). Geçmiş için modal + [en:have] + V3: [en:He must have forgotten.] ([tr:Unutmuş olmalı.]) Türkçedeki [tr:-malı], [tr:-mış olabilir], [tr:-mış olamaz] kalıplarına karşılık gelir; ama olumsuz kesinlikte [en:mustn't] değil [en:can't] kullanılır.",
       "sections": [
         {
           "title_tr": "Şimdi ve geçmiş",
@@ -1964,7 +1964,7 @@
         },
         {
           "title_tr": "Yapı ayrıntıları",
-          "text_tr": "Şu anda süren bir şey için modal + [en:be] + [en:-ing]: [en:He must be working late.] Geçmişte sürmekte olan bir şey için modal + [en:have been] + [en:-ing]: [en:She might have been driving.] Edilgen yapı (passive) için modal + [en:have been] + V3: [en:The file must have been deleted.]\n\nOlumsuz olasılık için [en:might not / may not]: [en:She may not know about the change.] (Bilmiyor olabilir.) [en:couldn't] ise [en:can't] gibi imkânsızlık bildirir: [en:It couldn't have been Ahmet.]\n\nTahmin sorarken genellikle [en:could] kullanılır: [en:Could he have taken the wrong train?]",
+          "text_tr": "Şu anda süren bir şey için modal + [en:be] + [en:-ing]: [en:He must be working late.] Geçmişte sürmekte olan bir şey için modal + [en:have been] + [en:-ing]: [en:She might have been driving.] Edilgen yapı (passive) için modal + [en:have been] + V3: [en:The file must have been deleted.]\n\nOlumsuz olasılık için [en:might not / may not]: [en:She may not know about the change.] ([tr:Bilmiyor olabilir.]) [en:couldn't] ise [en:can't] gibi imkânsızlık bildirir: [en:It couldn't have been Ahmet.]\n\nTahmin sorarken genellikle [en:could] kullanılır: [en:Could he have taken the wrong train?]",
           "examples": [
             {
               "en": "He must be working late tonight.",
@@ -2000,7 +2000,7 @@
         },
         {
           "title_tr": "Türkçeden farkı ve karıştırılanlar",
-          "text_tr": "Türkçedeki [tr:-malı/-meli] de İngilizcedeki [en:must] gibi hem zorunluluk hem tahmin bildirir: [tr:Evde olmalı.] Ama olumsuzda yollar ayrılır. [tr:Evde olmamalı] anlamındaki tahmin İngilizcede [en:She can't be at home] olur; [en:mustn't] yasak bildirir.\n\nKalıplar: [tr:-mış olmalı] = [en:must have] + V3, [tr:-mış olabilir] = [en:might/may/could have] + V3, [tr:-mış olamaz] = [en:can't/couldn't have] + V3.\n\n[en:should have] ile karıştırma: [en:You must have been worried] = endişelenmiş olmalısın (tahmin). [en:You should have called me] = beni araman gerekirdi (eleştiri).\n\n[en:can] genel, teorik olasılık için kullanılır: [en:It can be very cold here in winter.] (Burası kışın çok soğuk olabilir; genelde böyledir.) Ama belirli bir an ya da durum hakkında tahmin yürütürken olumlu cümlede [en:can] değil [en:could/might/may] kullanılır: [en:He can be at home now] değil, [en:He could/might be at home now.] Olumsuzda ise [en:can't] doğrudur: [en:He can't be at home.]",
+          "text_tr": "Türkçedeki [tr:-malı/-meli] de İngilizcedeki [en:must] gibi hem zorunluluk hem tahmin bildirir: [tr:Evde olmalı.] Ama olumsuzda yollar ayrılır. [tr:Evde olmamalı] anlamındaki tahmin İngilizcede [en:She can't be at home] olur; [en:mustn't] yasak bildirir.\n\nKalıplar: [tr:-mış olmalı] = [en:must have] + V3, [tr:-mış olabilir] = [en:might/may/could have] + V3, [tr:-mış olamaz] = [en:can't/couldn't have] + V3.\n\n[en:should have] ile karıştırma: [en:You must have been worried] = [tr:endişelenmiş olmalısın] (tahmin). [en:You should have called me] = [tr:beni araman gerekirdi] (eleştiri).\n\n[en:can] genel, teorik olasılık için kullanılır: [en:It can be very cold here in winter.] ([tr:Burası kışın çok soğuk olabilir]; genelde böyledir.) Ama belirli bir an ya da durum hakkında tahmin yürütürken olumlu cümlede [en:can] değil [en:could/might/may] kullanılır: [en:He can be at home now] değil, [en:He could/might be at home now.] Olumsuzda ise [en:can't] doğrudur: [en:He can't be at home.]",
           "examples": [
             {
               "en": "You must have been worried.",
@@ -2916,7 +2916,7 @@
       "sections": [
         {
           "title_tr": "Üç kullanım",
-          "text_tr": "Şimdi: [en:wish] + past simple (resmî dilde: [en:I wish I were]; günlük dilde [en:I wish I was]). Geçmiş: [en:wish] + past perfect. Başkasının davranışından şikâyet: [en:wish] + [en:would] ([en:I wish you would stop talking]).\n\nŞimdiki dilekte fiil past biçimindedir ama anlam şimdidir: [en:I wish I knew] = Keşke bilsem (şu an bilmiyorum). Geçmiş pişmanlıkta [en:had] + V3 kullanılır: [en:I wish I had known] = Keşke bilseydim (o zaman bilmiyordum).\n\n[en:wish] + [en:would] daha çok başkasının alışkanlığından ya da yapmadığı bir şeyden yakınmak için kullanılır ve bir değişiklik isteği taşır: [en:I wish you would reply to my emails.] Kendi durumun için [en:I wish I would…] denmez.",
+          "text_tr": "Şimdi: [en:wish] + past simple (resmî dilde: [en:I wish I were]; günlük dilde [en:I wish I was]). Geçmiş: [en:wish] + past perfect. Başkasının davranışından şikâyet: [en:wish] + [en:would] ([en:I wish you would stop talking]).\n\nŞimdiki dilekte fiil past biçimindedir ama anlam şimdidir: [en:I wish I knew] = [tr:Keşke bilsem] (şu an bilmiyorum). Geçmiş pişmanlıkta [en:had] + V3 kullanılır: [en:I wish I had known] = [tr:Keşke bilseydim] (o zaman bilmiyordum).\n\n[en:wish] + [en:would] daha çok başkasının alışkanlığından ya da yapmadığı bir şeyden yakınmak için kullanılır ve bir değişiklik isteği taşır: [en:I wish you would reply to my emails.] Kendi durumun için [en:I wish I would…] denmez.",
           "table": {
             "head": [
               "Anlam",
@@ -2966,7 +2966,7 @@
         },
         {
           "title_tr": "[en:If only], [en:were] ve [en:could]",
-          "text_tr": "[en:If only] aynı yapıları kullanır ama daha güçlü bir duygu, bazen de çaresizlik anlatır: [en:If only I had more time!] Çoğu zaman tek başına, ünlem gibi söylenir.\n\n[en:be] fiili: Resmî dilde ve sınavlarda tüm kişilerle [en:were] kullanılır: [en:I wish I were taller.] Günlük konuşmada [en:was] da çok yaygındır: [en:I wish it was Friday.] İkisi de doğrudur.\n\nYetenek ya da imkân için [en:could] kullanılır: [en:I wish I could join you] (Keşke size katılabilsem). Geçmişte yapamadığın bir şey için [en:could have] + V3 gelir: [en:I wish I could have helped more.]",
+          "text_tr": "[en:If only] aynı yapıları kullanır ama daha güçlü bir duygu, bazen de çaresizlik anlatır: [en:If only I had more time!] Çoğu zaman tek başına, ünlem gibi söylenir.\n\n[en:be] fiili: Resmî dilde ve sınavlarda tüm kişilerle [en:were] kullanılır: [en:I wish I were taller.] Günlük konuşmada [en:was] da çok yaygındır: [en:I wish it was Friday.] İkisi de doğrudur.\n\nYetenek ya da imkân için [en:could] kullanılır: [en:I wish I could join you] ([tr:Keşke size katılabilsem]). Geçmişte yapamadığın bir şey için [en:could have] + V3 gelir: [en:I wish I could have helped more.]",
           "examples": [
             {
               "en": "If only we had a bigger budget!",
@@ -2984,7 +2984,7 @@
         },
         {
           "title_tr": "[en:wish] mi, [en:hope] mu?",
-          "text_tr": "Türkçede ikisi de [tr:keşke] ya da [tr:umarım] gibi görünebilir ama anlamları farklıdır. [en:hope] gerçekten olabilecek şeyler içindir ve arkasından normal zaman gelir: [en:I hope you get the job] (Umarım işi alırsın). [en:wish] ise gerçek olmayan ya da artık değişemeyecek durumlar içindir: [en:I wish I had applied for that job] (Keşke o işe başvursaydım).\n\nGeleceğe dair umut için [en:I wish you will…] denmez; [en:I hope you will…] ya da [en:I hope you…] de. Ama [en:wish] + kişi + isim kalıbı kalıplaşmış iyi dileklerde doğrudur: [en:We wish you every success.] (Size başarılar dileriz.)",
+          "text_tr": "Türkçede ikisi de [tr:keşke] ya da [tr:umarım] gibi görünebilir ama anlamları farklıdır. [en:hope] gerçekten olabilecek şeyler içindir ve arkasından normal zaman gelir: [en:I hope you get the job] ([tr:Umarım işi alırsın]). [en:wish] ise gerçek olmayan ya da artık değişemeyecek durumlar içindir: [en:I wish I had applied for that job] ([tr:Keşke o işe başvursaydım]).\n\nGeleceğe dair umut için [en:I wish you will…] denmez; [en:I hope you will…] ya da [en:I hope you…] de. Ama [en:wish] + kişi + isim kalıbı kalıplaşmış iyi dileklerde doğrudur: [en:We wish you every success.] ([tr:Size başarılar dileriz.])",
           "examples": [
             {
               "en": "I hope the client likes our proposal.",
@@ -4479,7 +4479,7 @@
         },
         {
           "title_tr": "Koşullu teklif ve karşı teklif",
-          "text_tr": "Pazarlığın kalbi [tr:bir şey ver, bir şey al] mantığıdır. Gerçekçi bir teklif için first conditional kullanılır: [en:If] + present, [en:will/can] + fiil: [en:If you pay in advance, we can lower the price.] [en:if]'li kısımda [en:will] kullanılmaz.\n\nDaha esnek, varsayımsal bir öneri için second conditional: [en:If] + past, [en:would/could] + fiil: [en:If you increased the order, we could offer free delivery.] Bu yapı [tr:bu bir fikir, henüz söz değil] mesajı verir ve daha diplomatiktir.\n\nKoşulu vurgulamak için [en:as long as / provided that] (… şartıyla, … olduğu sürece) kullanılır. Bunlardan sonra da [en:will] gelmez: [en:We can accept these terms as long as delivery is in May.]",
+          "text_tr": "Pazarlığın kalbi [tr:bir şey ver, bir şey al] mantığıdır. Gerçekçi bir teklif için first conditional kullanılır: [en:If] + present, [en:will/can] + fiil: [en:If you pay in advance, we can lower the price.] Koşul bildiren [en:if]'li kısımda geleceği anlatmak için [en:will] kullanılmaz.\n\nDaha esnek, varsayımsal bir öneri için second conditional: [en:If] + past, [en:would/could] + fiil: [en:If you increased the order, we could offer free delivery.] Bu yapı [tr:bu bir fikir, henüz söz değil] mesajı verir ve daha diplomatiktir.\n\nKoşulu vurgulamak için [en:as long as / provided that] (… şartıyla, … olduğu sürece) kullanılır. Bunlardan sonra da [en:will] gelmez: [en:We can accept these terms as long as delivery is in May.]",
           "table": {
             "head": [
               "Yapı",
@@ -4597,7 +4597,7 @@
         {
           "wrong": "If you will order more, we will give a discount.",
           "right": "If you order more, we will give a discount.",
-          "note_tr": "[en:if] cümlesinde [en:will] yok."
+          "note_tr": "Gerçekçi teklifte (first conditional) [en:if] cümlesinde geleceği anlatmak için [en:will] yok; present simple gelir."
         },
         {
           "wrong": "Can you make us a discount?",
@@ -4736,7 +4736,7 @@
             "If you pay in advance, we will lower the price.",
             "If you pay in advance, we'll lower the price."
           ],
-          "explain_tr": "[en:if] cümlesinde [en:will] yok."
+          "explain_tr": "Gerçekçi teklifte (first conditional) [en:if] cümlesinde geleceği anlatmak için [en:will] yok; present simple gelir."
         },
         {
           "type": "fix",

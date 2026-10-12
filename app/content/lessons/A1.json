@@ -135,7 +135,7 @@
         },
         {
           "title_tr": "Türkçeden farkı ve sık karışanlar",
-          "text_tr": "Türkçede [tr:Doktorum] tek kelimedir. İngilizcede üç kelime gerekir: [en:I am a doctor.] Fiili ([en:am]) ve [en:a] kelimesini unutma.\n\nYaş için [en:have] kullanılmaz. [en:I have 30 years.] yanlıştır; doğrusu [en:I am 30 years old.] ya da [en:I'm 30.]\n\n[en:be] fiili başka bir fiille yan yana gelmez: [en:I am work here.] ya da [en:I'm agree.] yanlıştır; doğrusu [en:I work here.] ve [en:I agree.] ([en:I am working] gibi [en:-ing]'li yapıları ileride ayrı bir derste göreceksin.)\n\nSık kullanılan kalıplar: [en:be busy] (meşgul olmak), [en:be free] (müsait olmak), [en:be late] (geç kalmak), [en:be ready] (hazır olmak), [en:be at work / at home] (işte / evde olmak), [en:be from] (…lı olmak).",
+          "text_tr": "Türkçede [tr:Doktorum] tek kelimedir. İngilizcede dört kelime gerekir: [en:I am a doctor.] Fiili ([en:am]) ve [en:a] kelimesini unutma.\n\nYaş için [en:have] kullanılmaz. [en:I have 30 years.] yanlıştır; doğrusu [en:I am 30 years old.] ya da [en:I'm 30.]\n\n[en:am / is / are] ile [en:work], [en:agree] gibi bir fiilin yalın hali yan yana gelmez: [en:I am work here.] ya da [en:I'm agree.] yanlıştır; doğrusu [en:I work here.] ve [en:I agree.] ([en:I am working] gibi [en:-ing]'li yapıları ileride ayrı bir derste göreceksin.)\n\nSık kullanılan kalıplar: [en:be busy] (meşgul olmak), [en:be free] (müsait olmak), [en:be late] (geç kalmak), [en:be ready] (hazır olmak), [en:be at work / at home] (işte / evde olmak), [en:be from] (…lı olmak).",
           "examples": [
             {
               "en": "I'm a doctor.",
@@ -505,7 +505,7 @@
       "categories": [
         "pronoun"
       ],
-      "intro_tr": "Türkçede [tr:o] kadın için de erkek için de aynıdır. İngilizcede ayrılır: erkek için [en:he], kadın için [en:she], eşya ve hayvan için [en:it]. Türklerin en sık yaptığı hatalardan biri [en:he/she] karışıklığıdır. Ayrıca Türkçede [tr:beni], [tr:benim] gibi ekler kullanırız; İngilizcede bunlar ayrı kelimelerdir: [en:me, my].",
+      "intro_tr": "Türkçede [tr:o] kadın için de erkek için de aynıdır. İngilizcede ayrılır: erkek için [en:he], kadın için [en:she], eşya için ve genellikle hayvanlar için [en:it]. Türklerin en sık yaptığı hatalardan biri [en:he/she] karışıklığıdır. Ayrıca Türkçede [tr:beni], [tr:benim] gibi ekler kullanırız; İngilizcede bunlar ayrı kelimelerdir: [en:me, my].",
       "sections": [
         {
           "title_tr": "Özne, nesne ve iyelik",
@@ -762,9 +762,13 @@
           "q": "I have a dog. ___ name is Karabaş. (onun - köpeğin)",
           "answer": [
             "Its",
-            "its"
+            "its",
+            "His",
+            "his",
+            "Her",
+            "her"
           ],
-          "explain_tr": "Hayvan/eşya için iyelik: [en:its] ([en:it's] değil!)."
+          "explain_tr": "Hayvan için iyelik genellikle [en:its] ([en:it's] değil!); kendi evcil hayvanından bahsederken [en:his / her] da doğaldır."
         },
         {
           "type": "fix",
@@ -1494,7 +1498,7 @@
       "sections": [
         {
           "title_tr": "[en:he / she / it] → fiil + [en:s]",
-          "text_tr": "[en:I, you, we, they] ile fiil yalın kalır ([en:I work]). [en:he, she, it] ile [en:-s] alır ([en:she works]).\n\nÖzne bir isim de olabilir. O zaman ismi zamir gibi düşün: [en:my father] = [en:he] → [en:works], [en:my parents] = [en:they] → [en:work], [en:the company] = [en:it] → [en:makes].\n\nDikkat: [en:-s] fiile eklenir, özneye değil. [en:I works] ya da [en:They lives] yanlıştır. Ayrıca bu zamanda [en:am / is / are] kullanılmaz: [en:I am work] değil, [en:I work].",
+          "text_tr": "[en:I, you, we, they] ile fiil yalın kalır ([en:I work]). [en:he, she, it] ile [en:-s] alır ([en:she works]).\n\nÖzne bir isim de olabilir. O zaman ismi zamir gibi düşün: [en:my father] = [en:he] → [en:works], [en:my parents] = [en:they] → [en:work], [en:the company] = [en:it] → [en:makes].\n\nDikkat: [en:-s] fiile eklenir, özneye değil. [en:I works] ya da [en:They lives] yanlıştır. Ayrıca fiilin yalın halinin önüne [en:am / is / are] gelmez: [en:I am work] değil, [en:I work].",
           "table": {
             "head": [
               "Özne",
@@ -1702,7 +1706,7 @@
         {
           "wrong": "I am work every day.",
           "right": "I work every day.",
-          "note_tr": "Geniş zamanda [en:am] kullanılmaz."
+          "note_tr": "Geniş zamanda fiilin önüne [en:am] gelmez: [en:I work]."
         },
         {
           "wrong": "I drink usually tea.",
@@ -4185,7 +4189,7 @@
         {
           "wrong": "I am work as a designer.",
           "right": "I work as a designer.",
-          "note_tr": "[en:work] fiilinden önce [en:am] gelmez."
+          "note_tr": "[en:am] + yalın fiil olmaz: [en:I work as a designer.]"
         },
         {
           "wrong": "She is a engineer.",

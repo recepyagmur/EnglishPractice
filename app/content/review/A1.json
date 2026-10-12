@@ -7,7 +7,7 @@
         "Olumsuz yapmak için fiilden sonra [en:not] gelir ([en:isn't, aren't]). [en:am not] kısaltılırken [en:I'm not] denir; [en:amn't] diye bir şey yoktur.",
         "Soruda fiil öznenin önüne geçer: [en:Are you happy?] Kısa cevapta fiil tekrar edilir; [en:Yes] ile kısaltma kullanılmaz: [en:Yes, I am.] / [en:No, I'm not.]",
         "Kim olduğunu, nereli ve nerede olduğunu, nasıl hissettiğini ve yaşını [en:be] ile söylersin: [en:I'm 30 years old.] ([en:have] değil). Türkçedeki [tr:acıktım], [tr:yoruldum] da şu anki durumdur: [en:I'm hungry.], [en:I'm tired.]",
-        "[en:be] ile [en:work], [en:agree] gibi bir fiil yan yana gelmez; bu fiiller tek başına kullanılır: [en:I work here.], [en:I agree.] ([en:-ing]'li yapıları ileride ayrı bir derste göreceksin.)"
+        "[en:am / is / are] ile [en:work], [en:agree] gibi bir fiilin yalın hali yan yana gelmez; doğrusu: [en:I work here.], [en:I agree.] ([en:-ing]'li yapıları ileride ayrı bir derste göreceksin.)"
       ],
       "remember_tr": "Türkçede [tr:Doktorum] tek kelimedir; İngilizcede fiili ve [en:a] kelimesini unutma: [en:I am a doctor.]",
       "table": 1,
@@ -54,7 +54,7 @@
         "[en:I, you, we, they] ile fiil yalın kalır ([en:I work]); [en:he, she, it] ile [en:-s] alır ([en:she works]). İsim özneyi zamir gibi düşün: [en:my father] = [en:he] → [en:works].",
         "Alışkanlıklar ve rutinler, genel gerçekler, kalıcı durumlar ve programlar için kullanılır: [en:I drink tea every morning.], [en:The shop opens at nine.]",
         "Yazım: [en:-s, -sh, -ch, -x, -o] ile biten fiiller [en:-es] alır ([en:goes], [en:watches]); ünsüz + [key:y] → [en:ies] ([en:studies]); düzensiz: [en:have] → [en:has].",
-        "Türkçede rutinler için [tr:-iyor] da kullanırız, İngilizcede present simple kullanılır: [en:I go to work by bus every day.] Fiilden önce [en:am / is / are] gelmez: [en:I work every day.]",
+        "Türkçede rutinler için [tr:-iyor] da kullanırız, İngilizcede present simple kullanılır: [en:I go to work by bus every day.] Yalın fiilden önce [en:am / is / are] gelmez: [en:I work every day.]",
         "Sıklık zarfları ([en:always, usually, often, sometimes, never]) genellikle ana fiilden önce, [en:be] fiilinden sonra gelir: [en:I usually drink tea.], [en:She is always late.]"
       ],
       "remember_tr": "Türkçede fiil her özneye göre ek alır; İngilizcede ise sadece [en:he / she / it] ile değişir: [en:I work], [en:she works].",

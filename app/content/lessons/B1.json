@@ -583,7 +583,7 @@
       "categories": [
         "tense"
       ],
-      "intro_tr": "Geçmişte bir anda devam etmekte olan bir olay için [en:was/were] + [en:-ing] kullanılır: [tr:Saat 8'de yemek yiyordum.] Çoğu zaman araya giren kısa bir olayla (past simple) birlikte gelir: [en:I was cooking when the phone rang.] Türkçedeki [tr:-yordu] ekine benzer, ama geçmişteki alışkanlıklar için İngilizcede past continuous kullanılmaz.",
+      "intro_tr": "Geçmişte bir anda devam etmekte olan bir olay için [en:was/were] + [en:-ing] kullanılır: [tr:Saat 8'de yemek yiyordum.] Çoğu zaman araya giren kısa bir olayla (past simple) birlikte gelir: [en:I was cooking when the phone rang.] Türkçedeki [tr:-yordu] ekine benzer, ama geçmişteki alışkanlıklar için İngilizcede genellikle past continuous değil, past simple ya da [en:used to] kullanılır.",
       "sections": [
         {
           "title_tr": "[en:was / were] + [en:-ing]",
@@ -2062,7 +2062,7 @@
         },
         {
           "title_tr": "Zero ve first conditional",
-          "text_tr": "Zero: genel doğrular, kurallar ve talimatlar — [en:If] + present, present ([en:If you heat ice, it melts]). Burada [en:if] yerine [en:when] de kullanılabilir; anlam hemen hemen aynıdır.\n\nFirst: gerçek olasılık, gelecekte gerçekten olabilecek bir şey — [en:If] + present, [en:will] + fiil. Ana cümlede [en:will] yerine [en:can], [en:may], [en:might] ya da emir cümlesi de gelebilir: [en:If you see Ali, tell him to call me.]\n\nEn önemli kural: [en:if] cümlesinde [en:will] kullanılmaz ([en:when], [en:before], [en:after], [en:as soon as], [en:until] ve [en:unless] için de aynı). Türkçede [tr:gelince], [tr:gelirse] derken geleceği düşünürüz, ama İngilizcede bu kısım present simple olur: [en:when she arrives] (o gelince).",
+          "text_tr": "Zero: genel doğrular, kurallar ve talimatlar — [en:If] + present, present ([en:If you heat ice, it melts]). Burada [en:if] yerine [en:when] de kullanılabilir; anlam hemen hemen aynıdır.\n\nFirst: gerçek olasılık, gelecekte gerçekten olabilecek bir şey — [en:If] + present, [en:will] + fiil. Ana cümlede [en:will] yerine [en:can], [en:may], [en:might] ya da emir cümlesi de gelebilir: [en:If you see Ali, tell him to call me.]\n\nEn önemli kural: koşul bildiren [en:if] cümlesinde geleceği anlatmak için [en:will] kullanılmaz ([en:when], [en:before], [en:after], [en:as soon as], [en:until] ve [en:unless] için de aynı). Türkçede [tr:gelince], [tr:gelirse] derken geleceği düşünürüz, ama İngilizcede bu kısım present simple olur: [en:when she arrives] (o gelince).",
           "examples": [
             {
               "en": "If you press this button, the machine stops.",
@@ -2166,7 +2166,7 @@
         {
           "wrong": "If it will rain, we will stay at home.",
           "right": "If it rains, we will stay at home.",
-          "note_tr": "[en:if] cümlesinde [en:will] yok."
+          "note_tr": "Gelecekten söz eden koşul cümlesinde (first conditional) [en:will] yok; [en:if] + present simple."
         },
         {
           "wrong": "If I would have money, I would buy a car.",
@@ -2181,7 +2181,7 @@
         {
           "wrong": "I call you when I will arrive.",
           "right": "I'll call you when I arrive.",
-          "note_tr": "[en:when] cümlesinde de [en:will] yok."
+          "note_tr": "Gelecekten söz eden [en:when] cümlesinde de [en:will] yok; present simple gelir."
         },
         {
           "wrong": "Unless you don't hurry, you'll miss the train.",
@@ -2306,7 +2306,7 @@
             "If it is sunny, we will go to the beach.",
             "If it's sunny, we will go to the beach."
           ],
-          "explain_tr": "[en:if] cümlesinde [en:will] yok."
+          "explain_tr": "Gelecekten söz eden koşul cümlesinde (first conditional) [en:will] yok; [en:if] + present simple."
         },
         {
           "type": "fix",
@@ -4110,7 +4110,7 @@
         },
         {
           "title_tr": "Ne zaman kullanılır?",
-          "text_tr": "1) Geçmişte düzenli olarak tekrarlanan, artık olmayan alışkanlıklar: [en:I used to take the bus to work.] (Artık otobüsle gitmiyorum.)\n\n2) Geçmişte uzun süre devam eden ama artık doğru olmayan durumlar. Burada genelde [en:be], [en:have], [en:live], [en:like], [en:know] gibi durum fiilleri (state verbs) kullanılır: [en:There used to be a café here.], [en:He used to be very shy.]\n\n3) Geçmişle şimdiyi karşılaştırmak: [en:I used to…, but now I…]. Bu kalıp hem günlük hayatta hem iş görüşmelerinde çok kullanılır.\n\nDikkat: Tek seferlik olaylarda, belirli bir tarih ya da sayı varsa [en:used to] kullanılmaz; past simple kullanılır: [en:I went to London in 2015.], [en:I called him three times.] [en:used to] [tr:kaç kez] ya da [tr:tam olarak ne zaman] sorusuna cevap vermez; genel bir dönemden söz eder.",
+          "text_tr": "1) Geçmişte düzenli olarak tekrarlanan, artık olmayan alışkanlıklar: [en:I used to take the bus to work.] (Artık otobüsle gitmiyorum.)\n\n2) Geçmişte uzun süre devam eden ama artık doğru olmayan durumlar. Burada genelde [en:be], [en:have], [en:like], [en:know] gibi durum fiilleri (state verbs) ve [en:live] gibi süregelen durumları anlatan fiiller kullanılır: [en:There used to be a café here.], [en:He used to be very shy.]\n\n3) Geçmişle şimdiyi karşılaştırmak: [en:I used to…, but now I…]. Bu kalıp hem günlük hayatta hem iş görüşmelerinde çok kullanılır.\n\nDikkat: Tek seferlik olaylarda, belirli bir tarih ya da sayı varsa [en:used to] kullanılmaz; past simple kullanılır: [en:I went to London in 2015.], [en:I called him three times.] [en:used to] [tr:kaç kez] ya da [tr:tam olarak ne zaman] sorusuna cevap vermez; genel bir dönemden söz eder.",
           "examples": [
             {
               "en": "I used to take the bus to work, but now I cycle.",
@@ -4154,7 +4154,7 @@
         },
         {
           "title_tr": "Türkçeden farkı ve karıştırılan yapılar",
-          "text_tr": "Türkçede [tr:-erdi / -ardı] (giderdim, çalışırdık) geçmiş alışkanlığı anlatır; İngilizcedeki karşılığı [en:used to]'dur. Ama [tr:-erdi] Türkçede başka anlamlarda da kullanılır ([tr:Bilseydim gelirdim]); bunlar [en:used to] ile çevrilmez.\n\nKarıştırılan üç yapı:\n• [en:used to] + yalın fiil = eskiden yapardım: [en:I used to work late.]\n• [en:be used to] + [en:-ing] / isim = alışkın olmak: [en:I'm used to working late.]\n• [en:get used to] + [en:-ing] / isim = alışmak (süreç): [en:I'm getting used to the new software.]\n\n[en:be used to] ve [en:get used to] her zamanla kullanılabilir. Bu yapılarda [en:to] bir edattır (preposition), bu yüzden arkasından gelen fiil [en:-ing] alır.\n\n[en:would] de geçmişte tekrarlanan eylemler için kullanılabilir: [en:Every summer we would visit our grandparents.] Ama durum fiilleriyle ([en:be], [en:have], [en:live], [en:like]) [en:would] bu anlamda kullanılmaz: [en:I used to live in Izmir.] doğrudur. Emin değilsen [en:used to] kullan.",
+          "text_tr": "Türkçede [tr:-erdi / -ardı] (giderdim, çalışırdık) geçmiş alışkanlığı anlatır; İngilizcedeki karşılığı [en:used to]'dur. Ama [tr:-erdi] Türkçede başka anlamlarda da kullanılır ([tr:Bilseydim gelirdim]); bunlar [en:used to] ile çevrilmez.\n\nKarıştırılan üç yapı:\n• [en:used to] + yalın fiil = eskiden yapardım: [en:I used to work late.]\n• [en:be used to] + [en:-ing] / isim = alışkın olmak: [en:I'm used to working late.]\n• [en:get used to] + [en:-ing] / isim = alışmak (süreç): [en:I'm getting used to the new software.]\n\n[en:be used to] ve [en:get used to] her zamanla kullanılabilir. Bu yapılarda [en:to] bir edattır (preposition), bu yüzden arkasından gelen fiil [en:-ing] alır.\n\n[en:would] de geçmişte tekrarlanan eylemler için kullanılabilir: [en:Every summer we would visit our grandparents.] Ama durum fiilleriyle ([en:be], [en:have], [en:like]) ve [en:live] gibi süregelen bir durumu anlatan fiillerle [en:would] bu anlamda kullanılmaz: [en:I used to live in Izmir.] doğrudur. Emin değilsen [en:used to] kullan.",
           "examples": [
             {
               "en": "I used to work late.",
@@ -4662,7 +4662,7 @@
         },
         {
           "title_tr": "Türkçeden farkı: [tr:yapmak] her zaman [en:make/do] değil",
-          "text_tr": "Türkçede [tr:yapmak] çok genel bir fiildir; İngilizcede ise isimlerin çoğu kendi fiiliyle kullanılır. Bazen ne [en:make] ne de [en:do] kullanılır:\n• [en:take]: [en:take a photo] (fotoğraf çekmek), [en:take a shower] (duş almak), [en:take a break] (mola vermek), [en:take an exam] (sınava girmek)\n• [en:have]: [en:have a meeting] (toplantı yapmak), [en:have breakfast] (kahvaltı yapmak), [en:have a party] (parti vermek)\n• [en:give]: [en:give a presentation] (sunum yapmak; [en:make a presentation] da denir), [en:give a speech] (konuşma yapmak)\n• [en:ask]: [en:ask a question] (soru sormak); [en:make a question] denmez.\n\nEmin değilsen sözlükte ismin örnek cümlelerine bak; hangi fiille kullanıldığını orada görürsün.",
+          "text_tr": "Türkçede [tr:yapmak] çok genel bir fiildir; İngilizcede ise isimlerin çoğu kendi fiiliyle kullanılır. Bazı isimlerle [en:make] ya da [en:do] yerine başka bir fiil kullanılır:\n• [en:take]: [en:take a photo] (fotoğraf çekmek), [en:take a shower] (duş almak), [en:take a break] (mola vermek), [en:take an exam] (sınava girmek)\n• [en:have]: [en:have a meeting] (toplantı yapmak), [en:have breakfast] (kahvaltı yapmak), [en:have a party] (parti vermek)\n• [en:give]: [en:give a presentation] (sunum yapmak; [en:make a presentation] da denir), [en:give a speech] (konuşma yapmak)\n• [en:ask]: [en:ask a question] (soru sormak); [en:make a question] denmez.\n\nEmin değilsen sözlükte ismin örnek cümlelerine bak; hangi fiille kullanıldığını orada görürsün.",
           "examples": [
             {
               "en": "Let's take a short break.",
@@ -5110,7 +5110,7 @@
         },
         {
           "title_tr": "Kibarca katılmamak: yumuşatma",
-          "text_tr": "İş ortamında doğrudan [en:No.] ya da [en:You are wrong.] demek kaba görünür. Bunun yerine cümleyi yumuşatırsın (softening). Sık kullanılan yumuşatıcılar:\n• [en:I'm afraid…] ([tr:maalesef] anlamında): [en:I'm afraid I don't agree].\n• [en:I'm not sure…] : [en:I'm not sure that's the best option].\n• [en:I don't think…] : Türkçede [tr:Bence iyi bir fikir değil] deriz, ama İngilizcede olumsuzluk [en:think]'e geçer: [en:I don't think it's a good idea.] Bu, [en:I think it isn't a good idea] demekten çok daha doğaldır.\n• [en:a bit], [en:maybe], [en:might]: [en:That might be a bit expensive.], [en:Maybe we could look at other options.]\n\nSoru şeklindeki öneriler de kibardır: [en:Have you thought about…?], [en:What about…?]",
+          "text_tr": "İş ortamında doğrudan [en:No.] ya da [en:You are wrong.] demek kaba görünür. Bunun yerine cümleyi yumuşatırsın (softening). Sık kullanılan yumuşatıcılar:\n• [en:I'm afraid…] ([tr:maalesef] anlamında): [en:I'm afraid I don't agree].\n• [en:I'm not sure…]: [en:I'm not sure that's the best option].\n• [en:I don't think…]: Türkçede [tr:Bence iyi bir fikir değil] deriz, ama İngilizcede olumsuzluk [en:think]'e geçer: [en:I don't think it's a good idea.] Bu, [en:I think it isn't a good idea] demekten çok daha doğaldır.\n• [en:a bit], [en:maybe], [en:might]: [en:That might be a bit expensive.], [en:Maybe we could look at other options.]\n\nSoru şeklindeki öneriler de kibardır: [en:Have you thought about…?], [en:What about…?]",
           "examples": [
             {
               "en": "I'm afraid I don't agree with that.",
@@ -5760,7 +5760,7 @@
         {
           "wrong": "I am graduated from METU.",
           "right": "I graduated from METU.",
-          "note_tr": "[en:graduate] bir fiil; [en:am] kullanılmaz."
+          "note_tr": "[en:graduate] bir fiildir; [tr:mezun oldum] için [en:I graduated] de, [en:I am graduated] deme."
         },
         {
           "wrong": "I am good in teamwork.",

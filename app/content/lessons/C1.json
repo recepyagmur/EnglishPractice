@@ -1180,7 +1180,7 @@
         },
         {
           "title_tr": "Türkçeden farkı ve sık karıştırılanlar",
-          "text_tr": "Türkçede bu koşulların çoğunu [tr:-se/-sa] ekiyle söylersin: [tr:yağarsa], [tr:yağmazsa], [tr:yağsa bile]. İngilizcede ise koşulun türüne göre farklı bir kelime seçmen gerekir: önlem için [en:in case], şart için [en:provided that], olumsuz koşul için [en:unless].\n\n[en:if]'li yan cümlede [en:would] kullanılmaz: [en:If I had known] doğru, [en:If I would have known] yanlış.\n\nDevrik koşulda [en:if] kalmaz: [en:Had I known] doğru, [en:If had I known] yanlış.\n\n[en:unless] ile olumsuz fiil kullanma: [en:Unless you hurry] = [en:If you don't hurry].",
+          "text_tr": "Türkçede bu koşulların çoğunu [tr:-se/-sa] ekiyle söylersin: [tr:yağarsa], [tr:yağmazsa], [tr:yağsa bile]. İngilizcede ise koşulun türüne göre farklı bir kelime seçmen gerekir: önlem için [en:in case], şart için [en:provided that], olumsuz koşul için [en:unless].\n\nKoşulu anlatan [en:if]'li yan cümlede [en:would] kullanılmaz: [en:If I had known] doğru, [en:If I would have known] yanlış. ([en:If you would like…], [en:I'd be grateful if you would…] gibi kibar teklif ve rica kalıpları ayrıdır.)\n\nDevrik koşulda [en:if] kalmaz: [en:Had I known] doğru, [en:If had I known] yanlış.\n\n[en:unless] ile olumsuz fiil kullanma: [en:Unless you hurry] = [en:If you don't hurry].",
           "examples": [
             {
               "en": "Unless you reply by Friday, we'll assume you agree.",
@@ -1259,7 +1259,7 @@
         {
           "wrong": "If I would have known, I would have helped.",
           "right": "If I had known, I would have helped.",
-          "note_tr": "[en:if]'li yan cümlede [en:would] kullanılmaz."
+          "note_tr": "Koşulu anlatan [en:if]'li yan cümlede [en:would] kullanılmaz; [en:had] + V3."
         }
       ],
       "exercises": [
