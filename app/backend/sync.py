@@ -6,11 +6,14 @@ Instead each computer keeps its own data/app.db and exchanges a consistent copy:
   lock.json (which computer has the app open, refreshed every few minutes);
 - in data/sync.json (this computer only): the cloud folder, and "base" — the cloud version this computer last
   had — with the hash of the data at that moment, to tell whether it changed here since.
-On opening: if the cloud has a newer version and nothing changed here → take it. If both changed (the app was
-used on both computers without closing one) → the newer one wins, the other is saved to data/backups
-("cakisma-…db") and a notice is shown; nothing is lost, nothing is merged (the learner chose this).
-While open and on closing: a new snapshot is sent when the data changed. A local backup is taken before
-the data here is ever replaced.
+Every version sent carries its lineage (the versions it grew from), so a computer can tell whether the cloud's
+version continued from what it had (then it is simply taken, deletions included) or came from another line —
+e.g. the other computer still had week-old data and sent it. Then, and when the data changed on both computers
+(the app was used on both without closing one), the version with the newer work wins (the learner's latest
+activity inside the data, never a file's modification time: opening the app touches the file), the other is
+saved to data/backups ("cakisma-…db") and a notice is shown; nothing is lost, nothing is merged (the learner
+chose this). While open and on closing: a new snapshot is sent when the data changed. A local backup is taken
+before the data here is ever replaced.
 """
 
 import hashlib
@@ -34,6 +37,16 @@ CLOUD_DB, CLOUD_META, CLOUD_LOCK = "app.db", "sync.json", "lock.json"
 PUSH_EVERY = 120      # seconds between checks while the app is open
 LOCK_FRESH = 600      # a lock refreshed within this many seconds means "open there now"
 FOLDER_NAME = "EnglishPractice"
+LINEAGE_KEEP = 200    # versions remembered per lineage (one is sent every few minutes at most)
+# When the learner last did something, per table: work, not visits (lesson_progress.*_opened_at and ui_state
+# change when a page is merely opened: old data where a lesson was opened again would look "newer").
+ACTIVITY = {
+    "messages": ("created_at",), "sessions": ("started_at", "ended_at"), "corrections": ("created_at",),
+    "error_log": ("created_at",), "writings": ("created_at",), "vocab": ("created_at", "last_reviewed_at"),
+    "word_examples": ("created_at",), "lesson_progress": ("completed_at",),
+    "exam_attempts": ("started_at", "finished_at"), "practice_days": ("day",),
+    "pattern_progress": ("created_at", "last_reviewed_at"), "selftest_attempts": ("started_at", "finished_at"),
+}
 _lock = threading.RLock()
 
 
@@ -137,6 +150,67 @@ def _schema(path: Path) -> int:
         con.close()
 
 
+def _when(value) -> datetime | None:
+    """A stored time as UTC; a bare day (practice_days) is that day's start in local time."""
+    try:
+        t = datetime.fromisoformat(str(value))
+    except ValueError:
+        return None
+    return t.astimezone(timezone.utc)  # naive (a bare day) → taken as local time
+
+
+def _activity_of(con: sqlite3.Connection) -> datetime | None:
+    tables = {r[0] for r in con.execute("SELECT name FROM sqlite_master WHERE type = 'table'")}
+    latest = []
+    for table, cols in ACTIVITY.items():
+        if table not in tables:
+            continue
+        have = {r[1] for r in con.execute(f"PRAGMA table_info({table})")}
+        for col in cols:
+            if col in have:
+                value = con.execute(f"SELECT MAX({col}) FROM {table}").fetchone()[0]
+                if value and (t := _when(value)):
+                    latest.append(t)
+    return max(latest, default=None)
+
+
+def activity(path: Path) -> datetime | None:
+    """When the learner last did something in this database (a cloud file or a snapshot), None when empty."""
+    con = _open_cloud(path)
+    try:
+        return _activity_of(con)
+    finally:
+        con.close()
+
+
+def local_activity() -> datetime | None:
+    if not DB_PATH.exists():
+        return None
+    snap, _ = _snapshot()
+    try:
+        return activity(snap)
+    finally:
+        snap.unlink(missing_ok=True)
+
+
+def _newer(a: datetime | None, b: datetime | None) -> bool:
+    """a's work is strictly newer than b's."""
+    return a is not None and (b is None or a > b)
+
+
+def _lineage() -> list[str]:
+    """The versions this computer's data grew from (its base last)."""
+    loc = local()
+    return list(loc.get("lineage") or ([loc["base"]] if loc.get("base") else []))
+
+
+def _continues_mine(meta: dict) -> bool | None:
+    """Did the cloud's version grow from what this computer last had? None: unknown (sent by an older app)."""
+    if "lineage" not in meta:
+        return None
+    return local().get("base") in meta["lineage"]
+
+
 def local_changed() -> bool:
     if not DB_PATH.exists():
         return False
@@ -169,9 +243,12 @@ def push(force: bool = False) -> bool:
             for leftover in (d / f"{CLOUD_DB}-wal", d / f"{CLOUD_DB}-shm"):  # from an older version
                 leftover.unlink(missing_ok=True)
             gen = uuid.uuid4().hex
+            lineage = (_lineage() + [gen])[-LINEAGE_KEEP:]
+            when = activity(snap)
             _write(d / CLOUD_META, {"gen": gen, "saved_at": _now(), "machine": machine.machine_name(),
-                                    "sha256": sha, "schema": _schema(snap)})
-            _save_local(base=gen, base_hash=sha, last_sync=_now())
+                                    "sha256": sha, "schema": _schema(snap), "lineage": lineage,
+                                    "activity": when.isoformat(timespec="seconds") if when else None})
+            _save_local(base=gen, base_hash=sha, lineage=lineage, last_sync=_now())
             log.info("Eşitleme: veriler buluta gönderildi")
             return True
         finally:
@@ -182,17 +259,27 @@ class SyncError(Exception):
     pass
 
 
+def _ready_cloud() -> tuple[Path, dict]:
+    """The cloud folder and its sync.json, when its app.db is there and fully downloaded."""
+    d = folder()
+    meta = cloud_meta()
+    if not (d and meta and (d / CLOUD_DB).exists()):
+        raise SyncError("Bulut klasöründe veri yok.")
+    if _sha(d / CLOUD_DB) != meta.get("sha256"):
+        raise SyncError("Google Drive dosyayı henüz tam indirmedi; biraz sonra tekrar dene.")
+    return d, meta
+
+
+def _day(t: datetime | None) -> str:
+    return t.astimezone().strftime("%d.%m.%Y %H:%M") if t else "çalışma yok"
+
+
 def pull() -> None:
     """Replace this computer's data with the cloud's (a backup is taken first)."""
     from .db import MIGRATIONS
 
     with _lock:
-        d = folder()
-        meta = cloud_meta()
-        if not (d and meta and (d / CLOUD_DB).exists()):
-            raise SyncError("Bulut klasöründe veri yok.")
-        if _sha(d / CLOUD_DB) != meta.get("sha256"):
-            raise SyncError("Google Drive dosyayı henüz tam indirmedi; biraz sonra tekrar dene.")
+        d, meta = _ready_cloud()
         if meta.get("schema", 0) > len(MIGRATIONS):
             raise SyncError(f"Buluttaki veri uygulamanın daha yeni bir sürümüyle kaydedilmiş ({meta.get('machine')}). "
                             f"Önce bu bilgisayarda {script('update')} ile güncelle.")
@@ -207,7 +294,7 @@ def pull() -> None:
             src.close()
         snap, sha = _snapshot()
         snap.unlink(missing_ok=True)
-        _save_local(base=meta["gen"], base_hash=sha, last_sync=_now())
+        _save_local(base=meta["gen"], base_hash=sha, lineage=meta.get("lineage") or [meta["gen"]], last_sync=_now())
         log.info("Eşitleme: %s bilgisayarının verileri alındı", meta.get("machine"))
 
 
@@ -232,24 +319,41 @@ def sync_on_open() -> list[str]:
             return ["Eşitleme: veriler buluta ilk kez gönderildi."]
         if meta.get("gen") == local().get("base"):
             return msgs  # the cloud has nothing newer than what this computer had
-        if not local_changed() or not DB_PATH.exists():
+        if not DB_PATH.exists():
             pull()
             return [f"Eşitleme: {meta.get('machine')} bilgisayarındaki son çalışman alındı ✓"]
-        # Changed on both computers: the newer wins, the other is kept as a backup.
-        mine = datetime.fromtimestamp(DB_PATH.stat().st_mtime, timezone.utc)
-        theirs = datetime.fromisoformat(meta["saved_at"])
-        if theirs >= mine:
+        d, meta = _ready_cloud()
+        who = meta.get("machine") or "bulut"
+        changed = local_changed()
+        mine, theirs = local_activity(), activity(d / CLOUD_DB)
+        continues = _continues_mine(meta)
+        if continues is None:  # sent by an older version of the app (no lineage): judge by the work inside
+            continues = not _newer(mine, theirs)
+        if continues and not changed:
+            pull()
+            return [f"Eşitleme: {who} bilgisayarındaki son çalışman alındı ✓"]
+        # Changed on both computers, or the cloud's data did not grow from this computer's: the newer work wins
+        # (equal: the cloud when it continues this computer's data), the other is kept as a backup.
+        if _newer(theirs, mine) or (continues and not _newer(mine, theirs)):
             snap, _ = _snapshot()
             kept = _keep_conflict(snap, machine.machine_name())
             snap.unlink(missing_ok=True)
             pull()
-            msg = (f"⚠ Eşitleme: iki bilgisayarda da kapatılmadan çalışılmış. {meta.get('machine')} bilgisayarındaki "
-                   f"daha yeni veri alındı; bu bilgisayardaki önceki hali yedekte: {kept.name}")
+            why = ("iki bilgisayarda da kapatılmadan çalışılmış." if changed else
+                   f"{who} bilgisayarındaki veri bu bilgisayardakinin devamı değil.")
+            msg = (f"⚠ Eşitleme: {why} {who} bilgisayarındaki daha yeni veri alındı (son çalışma {_day(theirs)}); "
+                   f"bu bilgisayardaki önceki hali (son çalışma {_day(mine)}) yedekte: {kept.name}")
         else:
-            kept = _keep_conflict(folder() / CLOUD_DB, meta.get("machine") or "bulut")
+            kept = _keep_conflict(d / CLOUD_DB, who)
+            _save_local(lineage=(_lineage() + [meta["gen"]])[-LINEAGE_KEEP:])  # that version is settled now
             push(force=True)
-            msg = (f"⚠ Eşitleme: iki bilgisayarda da kapatılmadan çalışılmış. Bu bilgisayardaki daha yeni veri "
-                   f"gönderildi; {meta.get('machine')} bilgisayarındaki hali yedekte: {kept.name}")
+            if changed and continues:
+                msg = (f"⚠ Eşitleme: iki bilgisayarda da kapatılmadan çalışılmış. Bu bilgisayardaki daha yeni veri "
+                       f"(son çalışma {_day(mine)}) gönderildi; {who} bilgisayarındaki hali yedekte: {kept.name}")
+            else:
+                msg = (f"⚠ Eşitleme: buluttaki veri ({who}, son çalışma {_day(theirs)}) bu bilgisayardakinden "
+                       f"(son çalışma {_day(mine)}) eski, alınmadı. Bu bilgisayardaki veri gönderildi; "
+                       f"buluttaki hali yedekte: {kept.name}")
         _save_local(notice=msg, notice_at=_now())
         return [msg]
 
@@ -311,7 +415,7 @@ def status() -> dict:
     return {
         "enabled": enabled(), "dir": str(d) if d else None, "dir_missing": bool(d) and not enabled(),
         "suggested": suggest_folder(), "machine": machine.machine_name(),
-        "cloud": {k: meta.get(k) for k in ("machine", "saved_at")} if meta else None,
+        "cloud": {k: meta.get(k) for k in ("machine", "saved_at", "activity")} if meta else None,
         "last_sync": loc.get("last_sync"), "notice": loc.get("notice"), "notice_at": loc.get("notice_at"),
         "other_open": other.get("machine") if other else None,
     }
@@ -325,10 +429,19 @@ def setup(path: str) -> dict:
         raise SyncError(f"Klasör bulunamadı: {p.parent}. Google Drive bu bilgisayarda açık mı?")
     p.mkdir(parents=True, exist_ok=True)
     with _lock:
-        _save_local(dir=str(p), base=None, base_hash=None, notice=None)
+        _save_local(dir=str(p), base=None, base_hash=None, lineage=[], notice=None)
         meta = cloud_meta()
         if meta and meta.get("machine") != machine.machine_name():
-            return {"choose": True, "cloud": {k: meta.get(k) for k in ("machine", "saved_at")}}
+            # Each side's latest work, so the learner sees which one is newer before choosing.
+            try:
+                theirs = activity(p / CLOUD_DB) if (p / CLOUD_DB).exists() else None
+            except sqlite3.Error:  # not fully downloaded yet
+                theirs = None
+            mine = local_activity()
+            stamp = lambda t: t.isoformat(timespec="seconds") if t else None
+            return {"choose": True, "cloud": {k: meta.get(k) for k in ("machine", "saved_at")},
+                    "cloud_activity": stamp(theirs), "local_activity": stamp(mine),
+                    "newer": "cloud" if _newer(theirs, mine) else "local" if _newer(mine, theirs) else None}
         push(force=True)
         touch_lock()
         return {"choose": False}
@@ -341,8 +454,11 @@ def choose(action: str) -> None:
             pull()
         elif action == "push":
             d = folder()
+            meta = cloud_meta() or {}
             if (d / CLOUD_DB).exists():
-                _keep_conflict(d / CLOUD_DB, (cloud_meta() or {}).get("machine") or "bulut")
+                _keep_conflict(d / CLOUD_DB, meta.get("machine") or "bulut")
+            if meta.get("gen"):  # the learner chose this data over the cloud's: the other computer takes it
+                _save_local(lineage=(meta.get("lineage") or [meta["gen"]])[-LINEAGE_KEEP:])
             push(force=True)
         else:
             raise SyncError("Geçersiz seçim.")

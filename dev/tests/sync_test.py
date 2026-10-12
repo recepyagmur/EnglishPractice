@@ -3,6 +3,7 @@ temporary folder standing for Google Drive. Never touches the real data. Usage: 
 
 import json
 import os
+import time
 import subprocess
 import sys
 import tempfile
@@ -78,7 +79,7 @@ import time
 time.sleep(1.2)
 add("LAPTOP", "lap-change")  # newer
 out = run("LAPTOP", "print(sync.sync_on_open())")
-check("daha yeni veri gönderildi" in out and "lap-change" in words("LAPTOP"), "çakışma: daha yeni olan (laptop) kaldı")
+check("Bu bilgisayardaki daha yeni veri" in out and "lap-change" in words("LAPTOP"), "çakışma: daha yeni olan (laptop) kaldı")
 kept = [p for p in (PCS["LAPTOP"] / "backups").iterdir() if p.name.startswith("cakisma-MASAUSTU")]
 check(len(kept) == 1, "çakışma: masaüstünün hali yedeğe kondu (cakisma-MASAUSTU-…)")
 run("MASAUSTU", "print(sync.sync_on_open())")
@@ -105,6 +106,66 @@ check("fresh" in words("MASAUSTU"), "sonra normal alınır")
 
 leftovers = [p.name for p in CLOUD.iterdir() if p.name.endswith(("-wal", "-shm", ".tmp"))]
 check(not leftovers, f"bulut klasöründe yalnız app.db / sync.json / lock.json (artık dosya yok: {leftovers})")
+
+# 8. The other computer sends week-old data (it had not taken the newer work first): never taken over newer work.
+def cloud_meta():
+    return json.loads((CLOUD / "sync.json").read_text(encoding="utf-8"))
+
+
+def backups(pc, prefix):
+    return [p for p in (PCS[pc] / "backups").iterdir() if p.name.startswith(prefix)]
+
+
+run("LAPTOP", "print(sync.sync_on_open())")  # both have the same data now
+for old_app in (True, False):  # sent by an older app version (no lineage) / by this version
+    time.sleep(1.2)
+    add("MASAUSTU", f"newer-{old_app}")
+    run("MASAUSTU", "sync.release()")
+    run("LAPTOP", "sync.push(force=True)")  # the laptop's older data replaces the cloud's
+    if old_app:
+        (CLOUD / "sync.json").write_text(json.dumps({k: v for k, v in cloud_meta().items()
+                                                     if k not in ("lineage", "activity")}), encoding="utf-8")
+    before = len(backups("MASAUSTU", "cakisma-LAPTOP"))
+    out = run("MASAUSTU", "print(sync.sync_on_open())")
+    what = "eski uygulamadan" if old_app else "bu sürümden"
+    check("eski, alınmadı" in out and f"newer-{old_app}" in words("MASAUSTU"),
+          f"eski veri ({what}) yeni çalışmanın üzerine yazılmadı, uyarı verildi")
+    check(len(backups("MASAUSTU", "cakisma-LAPTOP")) == before + 1 and cloud_meta()["machine"] == "MASAUSTU",
+          f"eski veri ({what}) yedekte, bulutta yine yeni veri var")
+    out = run("LAPTOP", "print(sync.sync_on_open())")
+    check(f"newer-{old_app}" in words("LAPTOP") and "⚠" not in out, f"laptop sonra yeni veriyi sessizce aldı ({what})")
+
+# 9. The incident: on the computer with old data, opening a page re-saved something (ui_state, newer timestamp,
+# no new work) — the cloud's newer work still wins there, the old data goes to backups.
+time.sleep(1.2)
+add("MASAUSTU", "real-work")
+run("MASAUSTU", "sync.release()")
+time.sleep(1.2)
+run("LAPTOP", "from backend import lessons, ui_state\nlessons.open_lesson('a1-there-is')\n"
+              "ui_state.put('lesson:a1-there-is', {'exercises': {}})")
+out = run("LAPTOP", "print(sync.sync_on_open())")
+check("real-work" in words("LAPTOP") and "daha yeni veri alındı" in out and backups("LAPTOP", "cakisma-LAPTOP"),
+      "ders açmak (lesson_progress, ui_state) eski veriyi 'yeni' yapmaz: buluttaki gerçek çalışma alındı")
+
+# 10. Deleting is a change too: a word deleted on one computer is deleted on the other (the cloud's data is
+# "older" by its newest work, but it continues what the other computer had).
+run("MASAUSTU", "print(sync.sync_on_open())")
+run("MASAUSTU", "with get_conn() as c: vid = c.execute(\"SELECT id FROM vocab WHERE word = 'real-work'\").fetchone()[0]\n"
+                "vocab.delete(vid)")
+run("MASAUSTU", "sync.release()")
+out = run("LAPTOP", "print(sync.sync_on_open())")
+check("real-work" not in words("LAPTOP") and "⚠" not in out, "silinen kelime öbür bilgisayarda da silindi")
+
+# 11. Second computer's first setup: each side's latest work is reported, the newer one marked.
+run("LAPTOP", "sync.turn_off()")
+time.sleep(1.2)
+add("LAPTOP", "laptop-newest")
+r = json.loads(run("LAPTOP", f"print(json.dumps(sync.setup({str(CLOUD)!r})))"))
+check(r.get("choose") and r.get("newer") == "local" and r.get("cloud_activity") and r.get("local_activity"),
+      "kurulumda iki tarafın son çalışması gösterilir (yeni olan işaretli)")
+run("LAPTOP", "sync.choose('push')")
+out = run("MASAUSTU", "print(sync.sync_on_open())")
+check("laptop-newest" in words("MASAUSTU") and "⚠" not in out, "kurulumda 'bunu gönder' seçilince öbürü onu alır")
 
 # 7. Off: nothing is exchanged any more.
 run("MASAUSTU", "sync.turn_off()")

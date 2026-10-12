@@ -1095,15 +1095,26 @@ async function loadSyncSection() {
       Text.render(msg, "Hazırlanıyor…");
       const r = await api("/api/sync/setup", { method: "POST", body: { dir: input.value } });
       if (!r.choose) return loadSyncSection();
-      // The folder already has data from the other computer: which one to keep?
+      // The folder already has data from the other computer: which one to keep? Each side's latest work is shown
+      // (and the older one needs a confirmation), so week-old data does not replace newer work by mistake.
+      const other = r.cloud.machine;
+      const older = (side) => r.newer && r.newer !== side
+        && !window.confirm(`${side === "cloud" ? `${other} bilgisayarındaki` : "Bu bilgisayardaki"} veri daha ESKİ `
+          + `(son çalışma ${syncTime(r[`${side}_activity`])}). Yine de bu mu kalsın? Öbürü yedekte kalır.`);
+      const mark = (side) => (r.newer === side ? " · daha yeni ✓" : "");
+      Text.render(msg, "");
       box.replaceChildren(
-        Text.create("p", `Bu klasörde ${r.cloud.machine} bilgisayarının verileri var (${syncTime(r.cloud.saved_at)}). Hangisi kalsın?`),
+        Text.create("p", `Bu klasörde ${other} bilgisayarının verileri var (${syncTime(r.cloud.saved_at)}). Hangisi kalsın?`),
+        Text.create("p", `${other}: son çalışma ${syncTime(r.cloud_activity)}${mark("cloud")}`, "muted small"),
+        Text.create("p", `Bu bilgisayar: son çalışma ${syncTime(r.local_activity)}${mark("local")}`, "muted small"),
         lnode("div", "sync-row",
-          button(`⬇ ${r.cloud.machine} verilerini al`, "primary small", async () => {
+          button(`⬇ ${other} verilerini al`, r.newer === "local" ? "ghost small" : "primary small", async () => {
+            if (older("cloud")) return;
             const c = await api("/api/sync/choose", { method: "POST", body: { action: "pull" } });
             if (c.reload) location.reload();
           }),
-          button("⬆ Bu bilgisayardakini gönder", "ghost small", async () => {
+          button("⬆ Bu bilgisayardakini gönder", r.newer === "local" ? "primary small" : "ghost small", async () => {
+            if (older("local")) return;
             await api("/api/sync/choose", { method: "POST", body: { action: "push" } });
             loadSyncSection();
           })),
@@ -1121,7 +1132,8 @@ async function loadSyncSection() {
     lnode("div", "sync-status",
       Text.create("span", `✓ Açık · ${s.dir}`),
       Text.create("span", `Bu bilgisayar: ${s.machine} · son eşitleme: ${syncTime(s.last_sync)}`, "muted small"),
-      s.cloud && Text.create("span", `Buluttaki son kayıt: ${s.cloud.machine} · ${syncTime(s.cloud.saved_at)}`, "muted small"),
+      s.cloud && Text.create("span", `Buluttaki son kayıt: ${s.cloud.machine} · ${syncTime(s.cloud.saved_at)}`
+        + (s.cloud.activity ? ` · son çalışma: ${syncTime(s.cloud.activity)}` : ""), "muted small"),
       s.other_open && Text.create("span", `⚠️ Uygulama şu anda ${s.other_open} bilgisayarında da açık görünüyor.`, "sync-notice")),
     s.notice && lnode("div", "sync-notice", Text.create("span", s.notice),
       button("Tamam", "ghost small", async () => {

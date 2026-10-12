@@ -544,7 +544,12 @@ Google Drive üzerinden aynı tutulur:
 Sonrası kendiliğinden: uygulama açılırken öbür bilgisayardaki son çalışmanı alır, açıkken birkaç dakikada bir
 ve **kapanırken** (Ctrl+C ya da siyah pencereyi kapatınca) gönderir. **Bir seferde tek bilgisayarda aç:**
 öbüründe açıksa uyarır. İkisinde de kapatmadan çalışılırsa birleştirilmez: daha yeni olan kalır, öbürü
-`data\backups\cakisma-….db` olarak yedeklenir ve uyarı gösterilir. Veri değişmeden önce her zaman yedek alınır.
+`data\backups\cakisma-….db` olarak yedeklenir ve uyarı gösterilir. "Daha yeni", verinin içindeki **son çalışma**
+(mesaj, kelime, tamamlanan ders, test, pratik günü) demektir; bir sayfayı açmak sayılmaz. Öbür bilgisayar eski
+verisini gönderirse (ör. önce yeni veriyi almadan) bu bilgisayardaki yeni çalışmanın üzerine yazılmaz: eski hali
+yedeklenir, uyarı gösterilir. Bir bilgisayarda silinen bir şey öbüründe de silinir. İkinci bilgisayarı ilk
+bağlarken iki tarafın son çalışma tarihi gösterilir; eski olanı seçersen onay istenir. Veri değişmeden önce her
+zaman yedek alınır.
 Uygulamanın kendisi ve modeller eşitlenmez: güncellemeler için laptopta `Guncelle.bat`.
 Linux bilgisayarda Drive klasörü için bkz. "Linux'ta kurulum".
 Ayrıntı: `app/backend/sync.py`.
