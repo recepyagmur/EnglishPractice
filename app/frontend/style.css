@@ -685,7 +685,9 @@ mark.err:hover .err-tip, mark.err:focus .err-tip { display: flex; }
 .review-row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; padding: 8px 0; border-top: 1px solid var(--border); }
 .review-row .review-title { flex: 1; min-width: 180px; font-weight: 500; }
 .warn-text { color: var(--warn); }
-.review-card { border: 1px solid var(--border); border-radius: 12px; padding: 12px 18px; margin: 12px 0; background: var(--bg-2); }
+#page-review .page-inner { max-width: 1100px; margin: 0 auto; }  /* the review: centred, wide */
+.review-card { border: 1px solid var(--border); border-radius: 12px; padding: 16px 24px; margin: 12px 0; background: var(--bg-2); }
+.review-card .lesson-table { width: 100%; }
 .review-label { font-size: .85rem; color: var(--muted); margin: 12px 0 4px; }
 .review-rules { margin: 0; padding-left: 20px; line-height: 1.8; }
 .review-remember { margin-top: 12px; padding: 8px 12px; border-radius: 8px; background: color-mix(in srgb, var(--warn) 14%, transparent); }
