@@ -1,0 +1,165 @@
+{
+  "_comment": "B2 ders özetleri (tekrar kartları) — biçim ve kurallar: README.md",
+  "reviews": {
+    "b2-past-perfect": {
+      "rules_tr": [
+        "Geçmişteki bir olaydan daha önce olmuş bir şeyi anlatırken tüm öznelerle [en:had] + V3 kullanılır: [en:When I got to the station, the train had already left.] Düzensiz fiillerde V2 değil V3 gelir: [en:had gone].",
+        "Past perfect tek başına çok eski geçmiş demek değildir; her zaman geçmişteki başka bir andan öncesini gösterir. Bu yüzden [tr:Geçen yıl Paris'e gitmiştim] İngilizcede past simple ile söylenir, çünkü önünde başka bir geçmiş olay yok: [en:I went to Paris last year.]",
+        "Olayları sırayla anlatıyorsan past simple kullan; past perfect'i yalnızca sırayı bozup geriye döndüğünde kullan.",
+        "[en:when] ile anlam değişir: [en:When I arrived, she left] = önce ben geldim, sonra o çıktı; [en:When I arrived, she had left] = ben geldiğimde o çoktan çıkmıştı.",
+        "Hikâyede past continuous sahneyi kurar, past simple hikâyeyi ilerletir, past perfect geriye dönüş yapar. Önceki eylemin ne kadar sürdüğünü vurgulamak için [en:had been] + [en:-ing]: [en:I had been waiting for an hour.]"
+      ],
+      "remember_tr": "Past perfect bir geriye dönüştür: geçmişteki bir andan daha önce olanı anlatır, sadece [tr:çok eskiden] demek değildir.",
+      "table": 0,
+      "mistakes": [
+        0,
+        4,
+        1
+      ]
+    },
+    "b2-present-perfect-continuous": {
+      "rules_tr": [
+        "Geçmişte başlayıp hâlâ süren ya da az önce bitip izi görülen bir eylemin süresine vurgu yaparken [en:have/has been] + [en:-ing] kullanılır: [en:I've been working here since 2021.] [en:been] asla düşmez.",
+        "Türkçedeki [tr:İki yıldır burada çalışıyorum] gibi cümleler İngilizcede present continuous ile kurulmaz; doğrusu: [en:I've been working here for two years.]",
+        "Süre ([en:How long…?], [en:for/since]) → continuous; kaç tane, ne kadar ([en:How many/much…?]) ya da tamamlanmış sonuç → simple: [en:I've been reading this book all week.] / [en:I've read three chapters.]",
+        "Durum fiilleri ([en:know], [en:like], [en:own], [en:believe]) yalnızca simple ile kullanılır: [en:I've known her for years.] [en:work], [en:live] gibi fiillerle iki zaman da doğrudur: [en:I've lived here for six years] = [en:I've been living here for six years.]",
+        "Süre → [en:for] ([en:for two hours]), başlangıç anı → [en:since] ([en:since Monday]). İkisini karıştırma."
+      ],
+      "remember_tr": "Eylemin kendisi ve süresi → [en:I've been painting the room]; bitmiş iş, sonuç → [en:I've painted the room].",
+      "table": 2,
+      "mistakes": [
+        0,
+        1,
+        2
+      ]
+    },
+    "b2-future-forms": {
+      "rules_tr": [
+        "Gelecekte belli bir anda sürüyor olacak eylem için [en:will be] + [en:-ing] kullanılır ([tr:-iyor olacağım]): [en:This time tomorrow I'll be lying on a beach.]",
+        "Gelecekte bir zamana kadar tamamlanmış olacak eylem için [en:will have] + V3 kullanılır ([tr:-mış olacağım]); neredeyse her zaman [en:by] ile gelir: [en:By 2030, I'll have paid off my loan.]",
+        "[en:by Friday] = en geç cuma, [en:until Friday] = cumaya kadar sürekli. Future perfect ile [en:until] değil, [en:by] kullanılır.",
+        "[en:by the time] ve [en:when]'den sonra [en:will] kullanılmaz, present simple gelir: [en:By the time you arrive, we'll have started.]",
+        "Future continuous birinin planını kibarca sormak için de kullanılır: [en:Will you be using the room this afternoon?] Bu soru, [en:Will you…?] ile yapılan bir ricadan daha yumuşak duyulur."
+      ],
+      "remember_tr": "[en:At six I'll be leaving] = altıda çıkıyor olacağım; [en:By six I'll have left] = altıya kadar çoktan çıkmış olacağım.",
+      "table": 0,
+      "mistakes": [
+        1,
+        0,
+        3
+      ]
+    },
+    "b2-third-conditional": {
+      "rules_tr": [
+        "Geçmişte olmamış bir şeyi ve hayalî sonucunu anlatırken [en:If] + [en:had] + V3, [en:would have] + V3 kullanılır: [en:If I had left earlier, I wouldn't have missed the bus.]",
+        "[en:if] kısmında asla [en:would] kullanılmaz. Kısaltmada [en:if] kısmındaki [en:'d] = [en:had], sonuç kısmındaki [en:'d] = [en:would]: [en:If I'd known, I'd have called you.]",
+        "Türkçede [tr:Bilseydim gelirdim] hem şimdiyi hem geçmişi anlatabilir; İngilizcede seçmek zorundasın: şimdi için [en:If I knew, I would come], geçmiş için [en:If I had known, I would have come].",
+        "Mixed conditional: geçmişteki bir koşulun şimdiki sonucu için [en:If] + [en:had] + V3, [en:would] + yalın fiil: [en:If I hadn't missed the flight, I would be in Rome now.]",
+        "Sonuç kısmında [en:would] yerine [en:could/might have] + V3 de olabilir. [en:have] fiilinin past perfect hâli [en:had had]'dir: [en:If I had had more time, I would have finished.]"
+      ],
+      "remember_tr": "Third conditional gerçeğin tersini söyler: [en:If I had known, I would have come] → aslında bilmiyordum, gelmedim.",
+      "table": 0,
+      "mistakes": [
+        0,
+        1,
+        3
+      ]
+    },
+    "b2-modals-deduction": {
+      "rules_tr": [
+        "Ne kadar emin olduğunu modal ile söylersin: neredeyse emin → [en:must], olabilir → [en:might/may/could], imkânsız → [en:can't]: [en:The lights are on. They must be at home.]",
+        "Olumsuz kesinlik için [en:mustn't] değil [en:can't] kullan; [en:mustn't] yasak bildirir: [en:That can't be the final price — it's too low.]",
+        "Geçmiş hakkında tahmin: modal + [en:have] + V3. Modal'dan sonra her zaman [en:have] gelir, [en:has] ya da [en:had] gelmez: [en:She must have left.] / [en:He might have missed the bus.]",
+        "Belirli bir an hakkında olumlu tahminde [en:can] değil [en:could/might/may] kullanılır: [en:He could/might be at home now.] [en:can] genel olasılık içindir: [en:It can be very cold here in winter.]",
+        "[tr:Belki değil] demek için [en:might not] ya da [en:may not] kullan, çünkü [en:couldn't] imkânsızlık bildirir: [en:She may not know about the change yet.]"
+      ],
+      "remember_tr": "[tr:-mış olmalı] = [en:must have] + V3, [tr:-mış olabilir] = [en:might/may/could have] + V3, [tr:-mış olamaz] = [en:can't/couldn't have] + V3.",
+      "table": 0,
+      "mistakes": [
+        0,
+        1,
+        3
+      ]
+    },
+    "b2-passive-advanced": {
+      "rules_tr": [
+        "Edilgen yapının formülü hep aynıdır: [en:be]'nin uygun biçimi + V3. Zamanı ve modal anlamı [en:be] taşır, asıl fiil hep V3 kalır: [en:The form must be signed.] / [en:The order has been shipped.]",
+        "Süren edilgen için [en:is being] + V3 kullanılır: [en:The road is being repaired.] [en:The road is repairing] ise yolun bir şeyi tamir ettiği anlamına gelir.",
+        "Bir işi başkasına yaptırdığını söylerken [en:have] + nesne + V3 kullanılır (konuşmada [en:get] de olur): [en:I had my hair cut.] [en:I had cut my hair] ise past perfect'tir: kendin kesmiştin.",
+        "Kaynak belirtmeden bilgi aktarmak için ya [en:It is said that…] ya da Özne + [en:is said to…] kalıbını kullan. Daha önce olmuş bir şey için [en:to have] + V3: [en:The CEO is believed to have resigned.]",
+        "[en:happen], [en:arrive], [en:occur], [en:die] gibi nesne almayan fiiller edilgen yapılamaz: [en:The accident happened last night.]"
+      ],
+      "remember_tr": "Türkçedeki [tr:-ıl/-ın] eki İngilizcede [en:be] + V3, [tr:-dır/-t] eki ise [en:have] + nesne + V3 olur.",
+      "table": 0,
+      "mistakes": [
+        0,
+        2,
+        1
+      ]
+    },
+    "b2-wish": {
+      "rules_tr": [
+        "[en:wish] ile zaman bir adım geri kayar: şimdiki dilek için past ([en:I wish I lived closer to work]), geçmişteki pişmanlık için [en:had] + V3 ([en:I wish I had studied harder]).",
+        "[en:wish]'ten sonraki past biçim geçmişi anlatmaz: [en:I wish I had a car] = şu an arabam yok. Cümlede [en:yesterday], [en:last year] gibi geçmiş ifadeleri varsa [en:had] + V3 kullan.",
+        "Başkasının davranışından şikâyet ederken [en:wish] + [en:would] kullanılır: [en:I wish he wouldn't interrupt me all the time.] Kendi durumun için [en:would] değil past kullanılır.",
+        "[en:hope] gerçekten olabilecek şeyler içindir ve arkasından normal zaman gelir: [en:I hope you get the job.] [en:wish] ise gerçek olmayan ya da artık değişemeyecek durumlar içindir; kalıplaşmış iyi dileklerde [en:We wish you every success] doğrudur.",
+        "[en:be] ile resmî dilde [en:were] ([en:I wish I were taller]), günlük dilde [en:was] da kullanılır. Yetenek için [en:could]: [en:I wish I could speak French.] [en:If only] aynı yapılarla daha güçlü bir duygu anlatır."
+      ],
+      "remember_tr": "[tr:Keşke bilsem] = [en:I wish I knew], [tr:keşke bilseydim] = [en:I wish I had known]: fiilin zamanı bir adım geri gider.",
+      "table": 0,
+      "mistakes": [
+        0,
+        1,
+        3
+      ]
+    },
+    "b2-linkers": {
+      "rules_tr": [
+        "Bağlacı arkasından ne geldiğine bakarak seç: tam cümle (özne + fiil) → [en:although]; isim ya da [en:-ing] → [en:despite / in spite of]: [en:Although the price was high, we signed the contract.] / [en:Despite the high price, we signed the contract.]",
+        "[en:despite]'tan sonra [en:of] gelmez, [en:in spite of]'tan ise [en:of] düşmez. [en:despite] ile cümle kurmak istersen [en:despite the fact that] + cümle kullan.",
+        "[en:however] bir zarf gibi davranır ve iki cümleyi tek başına birleştiremez: [en:The plan is good. However, it's expensive.] ya da [en:The plan is good; however, it's expensive.]",
+        "Türkçede iki bağlaç bir arada kullanılabilir, ama İngilizcede [en:although] ile [en:but] aynı cümlede kullanılmaz: [en:Although it was late, we continued working.]",
+        "[en:whereas] ve [en:while] iki farklı durumu karşılaştırır: [en:I work in sales, whereas my brother works in IT.] [en:while] [tr:iken, sırasında] anlamına da geldiği için resmî yazıda [en:whereas] daha nettir."
+      ],
+      "remember_tr": "[tr:-masına rağmen] (fiilli yapı) → [en:although]; [tr:isim + -e rağmen] → [en:despite].",
+      "table": 0,
+      "mistakes": [
+        1,
+        0,
+        2
+      ]
+    },
+    "b2-work-presentations": {
+      "rules_tr": [
+        "Açılışta amacı ve planı söyle, geçişlerde dinleyiciye nerede olduğunu hatırlat, kapanışta özetle ve soru davet et. Kapanışta yeni bilgi verme.",
+        "Geçiş kalıpları yol gösterir: sıralama için [en:First of all / Next / Finally], konu değiştirmek için [en:Let's move on to…], önceki bir noktaya dönmek için [en:As I mentioned earlier…]. Slaytlar için [en:on] kullanılır: [en:on this slide].",
+        "Grafiklerde miktar için [en:by] ([en:rise by 10%]), ulaşılan değer için [en:to] ([en:rise to 2 million]) kullanılır. İsimle: [en:an increase of 10%] (miktar), [en:an increase in sales] (neyin arttığı).",
+        "Aynı fikri fiil + zarf ya da sıfat + isim ile söyleyebilirsin: [en:Sales rose sharply.] = [en:There was a sharp rise in sales.] Fiili zarf niteler: [en:sharply].",
+        "Türkçeden gelen edat hatalarına dikkat: [en:explain something to someone], [en:talk to you], [en:present something to the board]. [en:I want to] yerine [en:I'd like to] daha kibar duyulur."
+      ],
+      "remember_tr": "Sunum kalıplarında edat çok önemlidir: [en:talk to you], [en:explain something to someone], [en:rise by 10%].",
+      "table": 0,
+      "mistakes": [
+        0,
+        1,
+        3
+      ]
+    },
+    "b2-work-negotiation": {
+      "rules_tr": [
+        "Pazarlıkta doğrudan cümleler yerine yumuşatılmış ve koşullu yapılar tercih edilir: [en:Your price is too high] yerine [en:I'm afraid the price is a bit higher than we expected.]",
+        "Kibarlık çoğu zaman dilbilgisiyle sağlanır: [en:will] yerine [en:would], [en:can] yerine [en:could], düz cümle yerine soru, [en:We want] yerine [en:We'd like]: [en:Would you be able to offer a discount?]",
+        "Gerçekçi bir teklif için [en:If] + present, [en:will/can] + fiil; daha esnek, varsayımsal bir öneri için [en:If] + past, [en:would/could] + fiil: [en:If you increased the order, we could offer free delivery.]",
+        "[en:if], [en:as long as] ve [en:provided that]'ten sonra [en:will] gelmez: [en:We can accept these terms as long as delivery is in May.]",
+        "[en:I'm afraid] burada [tr:maalesef] anlamındadır ve kötü haberi yumuşatır. [tr:İndirim yapmak] = [en:give / offer a discount]; istek için [en:would like] + kişi + [en:to] + fiil: [en:We'd like you to send the final contract by Friday.]"
+      ],
+      "remember_tr": "Türkçede normal duyulan [tr:İndirim istiyoruz] İngilizcede kaba duyulabilir; isteğini soruyla yap: [en:Is there any flexibility on the price?]",
+      "table": 0,
+      "mistakes": [
+        0,
+        2,
+        3
+      ]
+    }
+  }
+}

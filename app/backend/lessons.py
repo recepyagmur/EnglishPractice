@@ -212,6 +212,7 @@ def reset(lesson_id: str) -> None:
     """Forget a lesson's progress (score, completion)."""
     with get_conn() as conn:
         conn.execute("DELETE FROM lesson_progress WHERE lesson_id = ?", (lesson_id,))
+        conn.execute("DELETE FROM lesson_review WHERE lesson_id = ?", (lesson_id,))  # back in review when done again
 
 
 def practice_started(lesson_id: str) -> None:

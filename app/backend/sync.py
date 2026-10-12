@@ -46,6 +46,7 @@ ACTIVITY = {
     "word_examples": ("created_at",), "lesson_progress": ("completed_at",),
     "exam_attempts": ("started_at", "finished_at"), "practice_days": ("day",),
     "pattern_progress": ("created_at", "last_reviewed_at"), "selftest_attempts": ("started_at", "finished_at"),
+    "lesson_review": ("last_reviewed_at",),
 }
 _lock = threading.RLock()
 

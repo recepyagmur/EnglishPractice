@@ -3,7 +3,7 @@
 English Practice — https://github.com/recepyagmur/EnglishPractice
 
 - **Code** (the application's own code, the logo and icons in app/frontend): MIT License, see `LICENSE`.
-- **Content** in `app/content/` (lessons, exams, patterns, YDS-style questions, word lists): Creative Commons
+- **Content** in `app/content/` (lessons, lesson summaries, exams, patterns, YDS-style questions, word lists): Creative Commons
   Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), full text in `LICENSES/CC-BY-SA-4.0.txt`; sources and
   required attributions in `app/content/LICENSE.md`.
 - **Turkish voice model** in `app/tts_tr/` (EMA Lightning by canberk7 / canberkkkkkk, converted to ONNX):

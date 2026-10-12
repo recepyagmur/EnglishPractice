@@ -145,7 +145,7 @@ const NAV = [
   { page: "settings", icon: "⚙️", label: "Ayarlar" },
 ];
 // Pages reachable only by link, shown under a sidebar entry.
-const SUBPAGES = { session: "progress", lesson: "lessons", exam: "lessons" };
+const SUBPAGES = { session: "progress", lesson: "lessons", exam: "lessons", review: "lessons" };
 
 function renderNav() {
   const nav = $("#nav");
@@ -209,6 +209,7 @@ async function route() {
     if (target === "session") await loadSessionDetail(arg);
     if (target === "lesson") await loadLessonDetail(decodeURIComponent(arg || ""));
     if (target === "exam") await loadExam(decodeURIComponent(arg || ""));
+    if (target === "review") await loadReview(decodeURIComponent(arg || ""));
     await pageLoaders[target]?.();
   } finally {
     restoreScroll();  // after the page has been drawn again
@@ -1290,7 +1291,7 @@ async function loadSyncSection() {
 /* ------------------------------------------------------------------ reset */
 
 const RESET_INFO = {
-  lessons: "Tamamlanan dersler, puanlar, sınav sonuçları ve Kendini Test Et sonuçları.",
+  lessons: "Tamamlanan dersler, puanlar, ders tekrar takvimi, sınav sonuçları ve Kendini Test Et sonuçları.",
   words: "Kelime Çalış'ta öğrendiklerin, Kelime Defteri ve Kalıplar'daki ilerlemen (tekrar takvimleri dahil).",
   history: "Sohbet, senaryo, öğretmen ve yazma kayıtları, düzeltmeler, hata istatistikleri, zayıf noktalar ve pratik serisi.",
   level: "Seviyen silinir; uygulama ilk açılıştaki gibi seviyeni yeniden sorar.",
@@ -1397,6 +1398,7 @@ function askLevelIfNeeded() {
 window.addEventListener("DOMContentLoaded", async () => {
   renderNav();
   refreshVocabBadge();
+  refreshReviewBadge();
   refreshStatus();
   socket.connect();
   refreshModels();

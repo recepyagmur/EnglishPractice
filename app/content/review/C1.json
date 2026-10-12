@@ -1,0 +1,133 @@
+{
+  "_comment": "C1 ders özetleri (tekrar kartları) — biçim ve kurallar: README.md",
+  "reviews": {
+    "c1-inversion": {
+      "rules_tr": [
+        "Olumsuz ya da kısıtlayıcı bir ifade ([en:never], [en:rarely], [en:not only], [en:hardly]…) cümlenin başına gelince soru sırası kullanılır: yardımcı fiil + özne + ana fiil: [en:Never have I seen such a mess.]",
+        "Öne geçecek yardımcı fiili zaman belirler: [en:be], [en:have] (perfect zamanlarda) ya da bir modal varsa onu öne alırsın; yoksa [en:do/does/did] eklenir ve ana fiil yalın olur: [en:Rarely do we see such results.]",
+        "[en:Only after], [en:Only when] ve [en:Not until]'den sonra bir yan cümle gelirse devrik yapı ana cümlede olur: [en:Only after the meeting ended did we understand the problem.]",
+        "[en:Hardly… when] ve [en:No sooner… than] [tr:-ir -mez] anlamı verir ve genelde past perfect ile kullanılır: [en:No sooner had we sat down than the fire alarm went off.]",
+        "Devrik yapı zorunluluk değil, resmî ve vurgulu bir üslup tercihidir; ifade başta değilse devrik yapı da yoktur. [en:Only] özneyi niteliyorsa da devrik olmaz: [en:Only Ali knows the password.]"
+      ],
+      "remember_tr": "Devrik cümleyi soru kurar gibi kurarsın, ama bu bir soru değil güçlü bir ifadedir; sonunda soru işareti olmaz.",
+      "table": 0,
+      "mistakes": [
+        0,
+        2,
+        5
+      ]
+    },
+    "c1-cleft-sentences": {
+      "rules_tr": [
+        "What-cleft: [en:What] + özne + fiil + [en:is/was] + vurgulanan kısım. Vurgulamak istediğin bilgi sona gelir: [en:What we need is a clear plan.]",
+        "It-cleft: [en:It is/was] + vurgulanan kısım + [en:who/that] + geri kalanı. İnsan için [en:who] ya da [en:that], insan değilse [en:that]; vurgulanan çoğul olsa da başta [en:it is / it was] gelir: [en:It was the managers who decided.]",
+        "Bir eylemi vurgulamak için [en:do] kullanılır; [en:is/was]'tan sonra eylem genelde yalın hâlde gelir: [en:What I did was send the file again.]",
+        "What-cleft'te [en:be] fiili ([en:is/was]) zorunludur ve [en:What I need] zaten özne olduğu için fazladan [en:it] eklenmez: [en:What surprised me was the price.]",
+        "[en:The reason why… is that…] bir sebebi vurgular; burada [en:because] değil [en:that] kullanılır: [en:The reason why I'm calling is that the order hasn't arrived.]"
+      ],
+      "remember_tr": "Türkçede [tr:Hatayı yapan Ali'ydi] dersin, İngilizcede [en:It was Ali who made the mistake].",
+      "table": 0,
+      "mistakes": [
+        0,
+        1,
+        4
+      ]
+    },
+    "c1-advanced-conditionals": {
+      "rules_tr": [
+        "Resmî İngilizcede [en:if] düşürülüp yardımcı fiil öznenin önüne alınabilir: [en:Should you need help, call me.] [en:Were I in your position, I would accept.] [en:Had we known, we would have acted.]",
+        "Devrik [en:should] [tr:gerekir] değil, [tr:olur da… -rsa] demektir. Devrikte her özneyle [en:were] kullanılır; olumsuzda kısaltma yapılmaz, [en:not] özneden sonra gelir: [en:Had we not acted quickly…]",
+        "[en:unless] = [en:if not]; zaten olumsuz anlam taşıdığı için ardından olumsuz fiil gelmez: [en:Unless you hurry, you'll miss the train.] [en:in case] ise koşul değil önlemdir: [en:Take an umbrella in case it rains.]",
+        "[en:unless], [en:provided that], [en:as long as], [en:in case] ve [en:even if]'ten sonra gelecek anlamı olsa bile present simple kullanılır: [en:as long as you bring it back].",
+        "Geçmişteki hayalî bir koşulun sonucu bugüne uzanıyorsa (karışık koşul), koşul kısmında [en:had] + V3, sonuç kısmında [en:would] + yalın fiil kullanılır: [en:If I had taken that job, I would be in London now.]"
+      ],
+      "remember_tr": "Türkçede koşulların çoğunu [tr:-se/-sa] ile söylersin; İngilizcede önlem için [en:in case], şart için [en:provided that], olumsuz koşul için [en:unless] seçersin.",
+      "table": 0,
+      "mistakes": [
+        1,
+        2,
+        7
+      ]
+    },
+    "c1-participle-clauses": {
+      "rules_tr": [
+        "Participle clause'un gizli öznesi ana cümlenin öznesiyle aynı olmalıdır: [en:Walking to work, I got caught in the rain.] Türkçede doğal olan [tr:İşe yürüyerek giderken yağmur başladı] yapısı İngilizcede yanlıştır.",
+        "Üç tür var: [en:-ing] etken (aynı anda ya da sebep), [en:having] + V3 önce olan, V3 edilgen: [en:Feeling tired, I went to bed.] [en:Having read the contract, she signed it.] [en:Built in 1890, the house needs repairs.]",
+        "Edilgen anlamda [en:-ing] değil V3 kullanılır: [en:Written in 1950], [en:the report written by the engineer]. Önce olan edilgen bir olay için [en:having been] + V3: [en:Having been warned about the traffic, we left early.]",
+        "Olumsuz yapmak için başa sadece [en:not] eklenir; [en:don't] ya da [en:didn't] kullanılmaz: [en:Not knowing the answer, I said nothing.]",
+        "Anlamı netleştirmek için başa bağlaç koyabilirsin: [en:While waiting for the train, I checked my emails.] [en:Once opened, the product should be used within a week.] [en:On] + [en:-ing] [tr:yapar yapmaz] demektir."
+      ],
+      "remember_tr": "Cümleyi kısaltınca özneyi kontrol et: [en:Walking to work] diyorsan yürüyen, ana cümlenin öznesi olmalı.",
+      "table": 0,
+      "mistakes": [
+        0,
+        2,
+        6
+      ]
+    },
+    "c1-hedging": {
+      "rules_tr": [
+        "Hedging bir iddiayı kesin değil ölçülü söylemektir. Fiiller ([en:seem], [en:appear], [en:tend to], [en:suggest]), modallar ([en:may], [en:might], [en:could]), zarflar ([en:probably], [en:arguably]) ve [en:It seems that…] gibi kalıplar kullanılır.",
+        "[en:seem] ve [en:appear]'dan sonra [en:to] + yalın fiil gelir; süren durum için [en:to be] + [en:-ing], geçmişteki olay için [en:to have] + V3: [en:Sales appear to be falling.] [en:The email seems to have been deleted.]",
+        "[en:tend to] bir fiildir, önüne [en:am / is / are] gelmez: [en:Clients tend to pay late.] [tr:gibi görünmek] anlamında [en:seem] ve [en:appear] durum fiilidir, [en:-ing] almaz.",
+        "[en:likely] bir sıfattır: [en:Prices are likely to rise.] [en:probably] [en:will]'den sonra, [en:won't]'tan önce gelir: [en:It will probably rain.] / [en:It probably won't rain.]",
+        "[en:maybe] bir zarftır ([en:Maybe the figures are wrong.]), [en:may be] ise modal + [en:be]'dir ([en:The figures may be wrong.]). Aşırı yumuşatmaktan kaçın: bir cümlede bir ya da iki hedging aracı yeterlidir."
+      ],
+      "remember_tr": "Amaç bilgiyi saklamak değil, ne kadar emin olduğunu dürüstçe göstermektir.",
+      "table": 1,
+      "mistakes": [
+        1,
+        2,
+        4
+      ]
+    },
+    "c1-register": {
+      "rules_tr": [
+        "Türkçede resmîliği büyük ölçüde [tr:sen / siz] ayrımı taşır; İngilizcede [en:you] hep aynıdır, resmîlik kelime seçimi, cümle uzunluğu, kısaltmalar ve hitap şekliyle sağlanır.",
+        "Resmî dilde daha uzun, Latin kökenli kelimeler ([en:obtain], [en:assist], [en:inform]), edilgen yapı ve kısaltmasız biçimler ([en:do not]) kullanılır; gayriresmî dilde phrasal verb'ler ([en:find out]) ve kısaltmalar ([en:don't]).",
+        "Resmîlik arttıkça rica uzar ve dolaylı olur: [en:Can you…?] → [en:Could you…?] → [en:Would you be able to…?] → [en:I would be grateful if you could…]",
+        "Dolaylı sorularda ([en:Could you tell me…?]) ikinci kısım düz cümle sırasıyla kurulur: [en:Could you tell me when the meeting starts?]",
+        "Hitapta [en:Mr / Ms] soyadıyla kullanılır ([en:Dear Mr Demir]); adı kullanacaksan unvan koyma ([en:Dear Ahmet]). Kişinin adını bilmiyorsan [en:Dear Sir or Madam] yaz."
+      ],
+      "remember_tr": "Yeni bir müşteriye resmî başla; karşı taraf samimi yazarsa sen de yumuşatabilirsin.",
+      "table": 1,
+      "mistakes": [
+        3,
+        4,
+        5
+      ]
+    },
+    "c1-work-reports": {
+      "rules_tr": [
+        "Rapor nesnel ve ölçülü yazılır: açık başlıklar, kısa paragraflar, her paragrafta tek fikir. [en:Very, really, a lot] yerine kesin ifadeler, [en:I think] yerine [en:The evidence suggests] kullan.",
+        "[en:recommend], [en:suggest], [en:propose] + [en:that] + özne + yalın fiil; özne tekil olsa da fiil [en:-s] almaz: [en:We recommend that the team use the new tool.] Olumsuzda [en:not] fiilden önce gelir.",
+        "Kişiden bahsetmeden önermek için [en:-ing] kullan: [en:We suggest reducing the number of weekly meetings.] [en:suggest] + kişi + [en:to] yapısı yanlıştır.",
+        "Değişimde farkı [en:by], son değeri [en:to], başlangıcı [en:from] ile verirsin: [en:Sales rose by 10%.] [en:The number of complaints fell from 80 to 35.] İngilizcede yüzde işareti sayıdan sonra gelir: [en:15%].",
+        "[en:research] ve [en:information] sayılamaz; araştırma yapmak [en:carry out / conduct research] olur. Kendi görüşün için [en:In my view] ya da [en:In my opinion] de; [en:according to] başkasının görüşü ya da bir kaynak içindir."
+      ],
+      "remember_tr": "İyi bir rapor okuyanın zamanını korur: amaç başta, bulgular net, öneriler somut.",
+      "table": 0,
+      "mistakes": [
+        0,
+        3,
+        4
+      ]
+    },
+    "c1-work-feedback": {
+      "rules_tr": [
+        "Kişiyi değil davranışı konuş ve genelleme yerine somut örnek ver: [en:You're careless] yerine [en:I noticed that the last two reports had some errors.] Bu sıraya [tr:durum – davranış – etki] denir.",
+        "Eleştiriyi emir olarak değil, öneri ya da soru olarak sun; [en:a bit], [en:slightly], [en:perhaps], [en:might], [en:could] yumuşatır: [en:This might need a bit more work.]",
+        "[en:worth]'tan ve [en:Have you thought about…?] sorusundan sonra [en:-ing] gelir: [en:It might be worth checking the figures again.] [en:suggest] kişiyle [en:to] almaz: [en:I suggest you talk to him.]",
+        "Hayır derken kibar bir giriş, kısa bir neden ve bir alternatif kullan: [en:I'm afraid I can't take this on right now, but I could help next week.] Gergin anlarda önce duyguyu kabul et.",
+        "[en:feedback] sayılamaz: [en:some feedback] ya da [en:a piece of feedback] de. [en:understand] ve [en:know] gibi durum fiilleri [en:-ing] almaz: [en:I understand your frustration.]"
+      ],
+      "remember_tr": "Türkçede doğrudan söylemek çoğu zaman samimiyet sayılır; İngilizcede eleştiri genellikle olumlu bir cümleyle başlar ve öneri olarak sunulur.",
+      "table": 1,
+      "mistakes": [
+        3,
+        4,
+        5
+      ]
+    }
+  }
+}

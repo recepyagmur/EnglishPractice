@@ -238,6 +238,23 @@ MIGRATIONS = [
         result_json TEXT
     );
     """,
+    # 15: spaced review of finished lessons (backend/reviews.py): the step on the interval ladder, the next
+    # date, and which exercises the review quizzes asked / got wrong (JSON lists of exercise indices)
+    """
+    CREATE TABLE IF NOT EXISTS lesson_review (
+        lesson_id TEXT PRIMARY KEY,
+        step INTEGER NOT NULL DEFAULT 0,
+        due_date TEXT NOT NULL,
+        created_at TEXT NOT NULL,
+        last_reviewed_at TEXT,
+        last_score REAL,
+        review_count INTEGER NOT NULL DEFAULT 0,
+        lapses INTEGER NOT NULL DEFAULT 0,
+        last_items TEXT,
+        wrong_items TEXT
+    );
+    CREATE INDEX IF NOT EXISTS idx_lesson_review_due ON lesson_review(due_date);
+    """,
 ]
 
 

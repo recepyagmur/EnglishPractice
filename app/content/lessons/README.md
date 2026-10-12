@@ -10,6 +10,10 @@ Değiştirdikten sonra doğrula:
 runtime\python\python.exe dev\tests\lessons_content_test.py
 ```
 
+Her dersin bir **özet kartı** da var (`app/content/review/<SEVİYE>.json`, tekrar için). Kart dersin
+`mistakes[]` ve tablolu bölümlerine **sıra numarasıyla** bakar: bir dersin hatalarını ya da bölümlerini değiştirir,
+ekler veya sıralarını değiştirirsen özetini de gözden geçir (`dev	estseview_content_test.py`).
+
 ## Bir dersin alanları
 
 | Alan | Açıklama |

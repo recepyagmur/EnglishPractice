@@ -1,0 +1,197 @@
+{
+  "_comment": "B1 ders özetleri (tekrar kartları) — biçim ve kurallar: README.md",
+  "reviews": {
+    "b1-present-perfect": {
+      "rules_tr": [
+        "Ne zaman olduğu belli, bitmiş geçmiş için past simple; zamanı önemli olmayan, şimdiyle ilgili deneyim ya da sonuç için present perfect kullanılır: [en:I went to Paris in 2019] / [en:I've been to Paris].",
+        "Yapı: [en:have / has] + V3. Olumsuz [en:haven't / hasn't], soru [en:Have you ever…?] Düzensiz fiillerin V3'ünü ezberlemen gerekir: [en:go] → [en:gone], [en:see] → [en:seen].",
+        "[en:yesterday], [en:last year], [en:in 2020], [en:ago] gibi belirli bir geçmiş zaman ifadesi varsa past simple kullanılır: [en:I saw him yesterday.]",
+        "Türkçedeki [tr:-dır …-yorum] kalıbı present perfect ile söylenir: [en:I've worked here for five years]. [en:for] + süre ([en:for three years]), [en:since] + başlangıç ([en:since 2021]).",
+        "[en:just] ve [en:already] [en:have/has] ile V3 arasına girer ([en:I've just arrived]); [en:yet] soru ve olumsuz cümlelerde sonda gelir ([en:I haven't paid yet]). [en:never] ile fiil olumlu kalır."
+      ],
+      "remember_tr": "Zamanı söylüyorsan past simple; söylemiyorsan ve olay şimdiyle ilgiliyse present perfect.",
+      "table": 2,
+      "mistakes": [
+        0,
+        2,
+        6
+      ]
+    },
+    "b1-past-continuous": {
+      "rules_tr": [
+        "Geçmişte belirli bir anda devam etmekte olan eylem için [en:was / were] + fiil[en:-ing] kullanılır: [en:At 8 o'clock I was having dinner.] [en:I/he/she/it] ile [en:was], [en:you/we/they] ile [en:were].",
+        "Uzun, arka plandaki eylem past continuous, onu kesen kısa olay past simple olur: [en:I was reading a report when the lights went out.]",
+        "[en:while] uzun, süren eylemin; [en:when] daha çok kısa olayın önüne gelir. Aynı anda süren iki eylemin ikisi de past continuous olur: [en:While I was cooking, the children were doing their homework.]",
+        "Türkçedeki [tr:-yordu] geçmişteki alışkanlığı da anlatır, ama İngilizcede alışkanlık için past continuous değil, past simple ya da [en:used to] kullanılır: [en:I played (used to play) football every day].",
+        "[en:know], [en:want], [en:understand] gibi durum fiilleri genellikle [en:-ing] almaz: [en:I didn't know the answer.] Bitmiş bir eylemin toplam süresi de past simple ile söylenir: [en:I worked there for two years.]"
+      ],
+      "remember_tr": "Hikâyede sahneyi past continuous ile kurar, olayları past simple ile sıralarsın.",
+      "table": 0,
+      "mistakes": [
+        1,
+        4,
+        5
+      ]
+    },
+    "b1-gerund-infinitive": {
+      "rules_tr": [
+        "İki fiil art arda geldiğinde ikinci fiilin biçimini ([en:-ing] ya da [en:to] + fiil) birinci fiil belirler; kesin bir kuralı yoktur, sık olanları ezberle: [en:I enjoy cooking at the weekend.] / [en:We decided to move to Izmir.]",
+        "Edatlardan sonra ([en:in], [en:at], [en:for], [en:without], [en:before], [en:after]…) fiil her zaman [en:-ing] alır. [en:look forward to]'daki [en:to] da edattır: [en:I look forward to meeting you.]",
+        "Amaç bildiren [tr:-mek için] İngilizcede [en:to] + fiil olur, [en:for] + fiil değil: [en:I came here to learn English.]",
+        "[en:stop], [en:remember], [en:try] ve [en:forget] ile anlam değişir: [en:remember doing] = yaptığını hatırlamak, [en:remember to do] = yapmayı unutmamak; [en:stop smoking] = sigarayı bırakmak, [en:stop to smoke] = sigara içmek için durmak.",
+        "[en:want], [en:would like], [en:ask], [en:tell] gibi fiillerde araya kişi girebilir: [en:I want you to check this.] [en:make] ve [en:let]'ten sonra kişi + [en:to]'suz yalın fiil gelir: [en:Let me help you.]"
+      ],
+      "remember_tr": "Türkçedeki [tr:-meyi, -mekten, -meye] ekleri yol göstermez; her fiili kendi kalıbıyla öğren.",
+      "table": 0,
+      "mistakes": [
+        0,
+        4,
+        5
+      ]
+    },
+    "b1-modals-obligation": {
+      "rules_tr": [
+        "Olumluda [en:must] ve [en:have to] yakın anlamlıdır, ama olumsuzları tamamen farklıdır: [en:mustn't] = yasak ([en:You mustn't smoke here.]), [en:don't have to] = gerek yok ([en:You don't have to come early.]).",
+        "[en:should] tavsiye verir ya da doğru olanı söyler ve [en:must]'tan daha yumuşaktır: [en:You should see a doctor.]",
+        "[en:must] ve [en:should] modal fiildir: [en:-s] almaz, arkasından [en:to]'suz yalın fiil gelir, soru ve olumsuzda [en:do/does] kullanılmaz: [en:She must go.] [en:Should I call him?]",
+        "[en:have to] normal bir fiil gibidir: [en:he/she/it] ile [en:has to] olur, soru ve olumsuzda [en:do/does/did] gerekir: [en:Does she have to go?] [en:I didn't have to wait.]",
+        "[en:must]'ın geçmiş ve gelecek hali yoktur; yerine [en:had to] ve [en:will have to] kullanılır: [en:I had to leave early.] [en:We'll have to wait.]"
+      ],
+      "remember_tr": "Türkçedeki [tr:-meli / -malı] hem [en:must] hem [en:should] olabilir; tavsiye veriyorsan [en:should] kullan.",
+      "table": 0,
+      "mistakes": [
+        0,
+        2,
+        3
+      ]
+    },
+    "b1-conditionals": {
+      "rules_tr": [
+        "[en:if] cümlesinde [en:will] kullanılmaz; [en:when], [en:as soon as], [en:until] ve [en:unless] için de aynısı geçerlidir. Türkçede [tr:gelince] derken geleceği düşünsen de bu kısım present simple olur: [en:I'll tell her when she arrives.]",
+        "First conditional gerçek bir olasılık içindir: [en:if] + present simple, ana cümlede [en:will] + fiil: [en:If it rains, I'll stay home.]",
+        "Second conditional şu an gerçek olmayan ya da ihtimali çok düşük durumlar içindir: [en:if] + past simple, [en:would] + fiil. Buradaki past simple geçmişi anlatmaz: [en:If I had time, I'd help you.]",
+        "Tavsiye kalıbı [en:If I were you]'dur: [en:If I were you, I would accept the offer.] Yazıda [en:I], [en:he], [en:she], [en:it] ile de [en:were] daha güvenlidir.",
+        "[en:unless] = [en:if … not]; zaten olumsuz anlam taşır, arkasına ikinci bir [en:not] ekleme: [en:Unless you hurry, you'll miss the bus.]"
+      ],
+      "remember_tr": "Kendine sor: Bu gerçekten olabilir mi? Olası ve gerçekçiyse first, hayalî ya da çok düşük ihtimalliyse second conditional.",
+      "table": 0,
+      "mistakes": [
+        0,
+        1,
+        3
+      ]
+    },
+    "b1-passive": {
+      "rules_tr": [
+        "İşi kimin yaptığı bilinmiyorsa ya da önemli değilse edilgen yapı ([en:be] + V3) kullanılır; zamanı [en:be] gösterir: [en:am/is/are] + V3 ([en:Coffee is grown in Brazil]), [en:was/were] + V3 ([en:The email was sent yesterday]).",
+        "Türklerin en sık hatası [en:be] fiilini unutmaktır: [en:The house built in 1990] yanlış, [en:The house was built in 1990] doğru. Doğmak da edilgendir: [en:I was born in Izmir.]",
+        "Edilgende her zaman V3 (üçüncü sütun) kullanılır: [en:was written] doğru, [en:was wrote] yanlış.",
+        "Olumsuzda [en:be] fiiline [en:not] eklenir, soruda [en:be] başa geçer; [en:do], [en:does], [en:did] kullanılmaz: [en:Was the email sent?]",
+        "Sadece nesne alan fiiller edilgen olur: [en:The accident happened at night] doğru, [en:was happened] yanlış. İşi yapan önemliyse [en:by] ile eklenir, ama çoğu edilgen cümlede [en:by] kullanılmaz."
+      ],
+      "remember_tr": "Türkçede [tr:yapıldı] tek kelime; İngilizcede iki parça: [en:was] + [en:made].",
+      "table": 0,
+      "mistakes": [
+        0,
+        1,
+        3
+      ]
+    },
+    "b1-relative-clauses": {
+      "rules_tr": [
+        "[en:who] insanlar, [en:which] eşya ve hayvanlar, [en:that] ikisi için; [en:where] yerler, [en:whose] iyelik (kimin) için kullanılır.",
+        "Relative pronoun ilgi cümlesinin nesnesiyse atlanabilir ([en:the film I watched]); öznesiyse, yani arkasından hemen fiil geliyorsa atlanamaz: [en:The man who called you is my boss.]",
+        "İlgi cümlesinde nesneyi ya da özneyi tekrar etme: [en:the book that I read it] yanlıştır, çünkü [en:that] zaten [en:it] yerine geçer.",
+        "[en:where]'den sonra eksiksiz bir cümle gelir ([en:the hotel where we stayed]); [en:which] kullanırsan sonda bir edat gerekir ([en:the hotel which we stayed in]).",
+        "İyelik için [en:whose] kullanılır; hiç atlanmaz ve arkasından mutlaka bir isim gelir: [en:I have a friend whose father is a pilot.]"
+      ],
+      "remember_tr": "Türkçede açıklama ismin önüne gelir ([tr:yan dairede yaşayan kadın]); İngilizcede arkasına: [en:the woman who lives next door].",
+      "table": 0,
+      "mistakes": [
+        1,
+        2,
+        4
+      ]
+    },
+    "b1-reported-speech": {
+      "rules_tr": [
+        "Aktarırken zaman genellikle bir adım geriye kayar: present → past, past / present perfect → past perfect, [en:will] → [en:would], [en:can] → [en:could]: [en:He said he would be late.]",
+        "[en:say] + ([en:that]) cümle; [en:tell] + kişi + ([en:that]) cümle: [en:She told me she was busy.] [en:She said me] yanlıştır.",
+        "Dolaylı soruda düz cümle sırası kullanılır ve [en:do/did] gelmez: [en:He asked me where I worked.] Evet/hayır sorularında [en:if / whether]: [en:She asked if the report was ready.]",
+        "İstek ve emirler [en:ask / tell] + kişi + [en:to] + fiil ile aktarılır, olumsuzda [en:not to]: [en:She asked me to send the file.] [en:He told us not to be late.]",
+        "Söylenen şey hâlâ doğruysa zamanı kaydırmak zorunlu değildir: [en:She said she works in Ankara]. Emin değilsen kaydır; bu genellikle en güvenli seçimdir."
+      ],
+      "remember_tr": "Türkçede [tr:-dığını söyledi] eki işi tek başına yapar; İngilizcede aktarılan cümlenin kendi fiili ve zamanı vardır.",
+      "table": 0,
+      "mistakes": [
+        0,
+        1,
+        2
+      ]
+    },
+    "b1-used-to": {
+      "rules_tr": [
+        "Eskiden olan ama artık olmayan alışkanlık ve durumlar için [en:used to] + yalın fiil kullanılır; her özne için aynıdır: [en:I used to take the bus to work, but now I cycle.]",
+        "Olumsuz [en:didn't use to], soru [en:Did you use to…?] ([key:d] yok), çünkü geçmiş zamanı [en:did] taşır: [en:We didn't use to have a car.]",
+        "[en:used to] sadece geçmiş içindir; şimdiki alışkanlık için geniş zaman (present simple) kullanılır: [en:I go to the gym every day now.] [en:uses to] diye bir biçim yoktur.",
+        "Tek seferlik olaylarda, belirli bir tarih ya da sayı varsa [en:used to] değil past simple kullanılır: [en:I went to London in 2015.]",
+        "[en:be used to] + [en:-ing] / isim = alışkın olmak, [en:get used to] + [en:-ing] / isim = alışmak; bu yapılarda [en:to] edattır: [en:I'm used to working late.]"
+      ],
+      "remember_tr": "[en:used to] zaten [tr:artık öyle değil] anlamını taşır; [tr:eskiden] kelimesini her zaman ayrıca çevirmen gerekmez.",
+      "table": 0,
+      "mistakes": [
+        1,
+        2,
+        4
+      ]
+    },
+    "b1-make-do": {
+      "rules_tr": [
+        "[en:make] genelde bir şey üretmek, yaratmak ([en:make a decision], [en:make a mistake]); [en:do] genelde iş, görev, etkinlik ([en:do homework], [en:do business]). Bu ipucu her zaman tutmaz.",
+        "[en:say] + söylenen şey, [en:tell] + kişi (+ şey): [en:He said goodbye and left.] / [en:He told me a funny story.] [en:say]'den sonra kişi doğrudan gelmez; kişiyi eklemek için [en:to] gerekir.",
+        "[en:borrow] = ödünç almak ([en:I borrowed a book from the library.]), [en:lend] = ödünç vermek ([en:Can you lend me your pen?]).",
+        "[en:bring] konuşanın bulunduğu (ya da olacağı) yere getirmek, [en:take] başka bir yere götürmek demektir. Kısa ipucu: [en:bring] → [en:here], [en:take] → [en:there].",
+        "Türkçedeki [tr:yapmak] bazen ne [en:make] ne de [en:do] olur: [en:take a photo], [en:take a break], [en:have a meeting], [en:ask a question]."
+      ],
+      "remember_tr": "Kuralı bilmek yardımcı olur, ama en iyi yol sık kalıpları (collocations) bütün olarak öğrenmektir.",
+      "table": 0,
+      "mistakes": [
+        0,
+        1,
+        2
+      ]
+    },
+    "b1-work-meetings": {
+      "rules_tr": [
+        "[en:agree] bir fiildir: [en:I agree], [en:I don't agree], [en:Do you agree?]; [en:I am agree] yanlıştır. Kişiye ya da fikre katılırken [en:agree with], ortak bir karara varırken [en:agree on].",
+        "[tr:Bence] için [en:I think] ya da [en:In my opinion] kullan; [en:According to me] doğal değildir. [en:according to] başkasının görüşünü ya da bir kaynağı aktarırken kullanılır.",
+        "Doğrudan [en:You are wrong.] demek kaba görünür; cümleyi yumuşat: [en:I'm afraid I don't agree with that.], [en:I'm not sure that's the best option], [en:That might be a bit risky.]",
+        "İngilizcede olumsuzluk [en:think]'e geçer: [en:I don't think it's a good idea.] Bu, [en:I think it isn't a good idea] demekten çok daha doğaldır.",
+        "[en:discuss] fiilinden sonra [en:about] gelmez ([en:discuss the budget]); [en:explain]'den sonra kişi doğrudan gelmez ([en:explain the plan to me])."
+      ],
+      "remember_tr": "Katılmazken önce karşı tarafı onayla, sonra [en:but] ile kendi fikrini söyle: [en:I see what you mean, but…]",
+      "table": 0,
+      "mistakes": [
+        0,
+        1,
+        4
+      ]
+    },
+    "b1-work-interview": {
+      "rules_tr": [
+        "Hâlâ devam eden işini süresiyle present perfect ile anlat: [en:I've worked as a designer for five years.] Türkçedeki [tr:beş yıldır çalışıyorum] yüzünden [en:I am working here for five years] demek yanlıştır.",
+        "Bitmiş bir iş ya da belirli bir zaman varsa past simple kullan: [en:I worked at a bank from 2015 to 2019.]",
+        "[en:for] + süre ([en:for three years]), [en:since] + başlangıç noktası ([en:since 2020]); [en:since five years] yanlıştır.",
+        "Edatlara dikkat: [en:good at], [en:interested in], [en:responsible for], [en:experience in / with], [en:fluent in]: [en:I'm responsible for the budget].",
+        "[en:graduate] bir fiildir: [en:I graduated from Hacettepe University in 2017.] ([en:I am graduated] yanlış). [tr:… yıllık deneyim] → [en:… years of experience]."
+      ],
+      "remember_tr": "Ekip başarısını söyleyebilirsin, ama kendi katkını mutlaka [en:I] ile anlat.",
+      "table": 1,
+      "mistakes": [
+        0,
+        1,
+        2
+      ]
+    }
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "_comment": "A2 ders özetleri (tekrar kartları) — biçim ve kurallar: README.md",
+  "reviews": {
+    "a2-past-simple": {
+      "rules_tr": [
+        "Past simple geçmişte olup bitmiş olaylar için kullanılır; genellikle [en:yesterday], [en:last week], [en:in 2020] gibi bir zaman ifadesiyle gelir. [en:ago] süreden sonra gelir: [en:I saw her two days ago.]",
+        "Fiilin geçmiş hâli bütün öznelerle aynıdır: [en:I went], [en:she went], [en:they went]. [en:he/she/it] için [en:-s] eklenmez.",
+        "Düzenli fiillere [en:-ed] eklenir ([en:work] → [en:worked]); çok kullanılan fiillerin çoğu düzensizdir ve ezberlenmelidir ([en:go] → [en:went], [en:buy] → [en:bought]).",
+        "[en:be] fiilinin geçmişi: [en:I / he / she / it] → [en:was], [en:you / we / they] → [en:were]. [en:was / were] yalnızca [en:be] fiilinin geçmişidir, başka bir fiili geçmiş yapmaz: [en:I worked there.]",
+        "Yazım: [en:-e] ile biten fiile yalnız [en:-d] eklenir ([en:lived]); ünsüz + [key:y] → [en:-ied] ([en:studied]); tek heceli, ünsüz-ünlü-ünsüz ile biten fiilde son ünsüz ikilenir ([en:planned]), [key:w], [key:x], [key:y] hariç ([en:fixed])."
+      ],
+      "remember_tr": "Türkçede [tr:-di] eki kişiye göre değişir; İngilizcede [en:went] herkes için aynıdır.",
+      "table": 0,
+      "mistakes": [
+        0,
+        2,
+        4
+      ]
+    },
+    "a2-past-questions": {
+      "rules_tr": [
+        "Geçmiş zamanda olumsuz ve soru cümleleri [en:did] ile kurulur; geçmişi [en:did] taşıdığı için ana fiil yalın kalır: [en:I didn't go], [en:Did you see…?]",
+        "Soru sırası: (soru kelimesi) + [en:did] + özne + yalın fiil: [en:Where did they go on holiday?] Kısa cevapta ana fiil tekrar edilmez: [en:Yes, I did.] / [en:No, he didn't.]",
+        "[en:be] fiili istisnadır: olumsuz ve soru [en:was / were] ile kurulur, [en:did] kullanılmaz: [en:He wasn't busy.], [en:Were you at work yesterday?]",
+        "[en:who] ya da [en:what] öznenin kendisini soruyorsa [en:did] kullanılmaz, fiil geçmiş hâlde kalır: [en:Who called you?] Ama [en:Who did you call?] sorusunda özne [en:you]'dur.",
+        "Geçmiş için [en:do / does] değil [en:did] kullanılır. Soru kelimesiyle olumsuz soruda [en:didn't] özneden önce gelir: [en:Why didn't you come?]"
+      ],
+      "remember_tr": "Kısaca: [en:did] varsa fiil yalın kalır: [en:I didn't go], [en:Did she call you?]",
+      "table": 1,
+      "mistakes": [
+        0,
+        1,
+        3
+      ]
+    },
+    "a2-present-continuous": {
+      "rules_tr": [
+        "Şu anda olan ya da bu aralar süren, geçici işler için [en:am/is/are] + fiil[en:-ing] kullanılır: [en:I'm working from home this week.]",
+        "Alışkanlık, rutin ve kalıcı durumlar için present simple kullanılır: [en:I usually work in the office.], [en:He works in Istanbul.]",
+        "Türkçedeki [tr:-iyor] ikisini de anlatabilir; İngilizcede ayrılır: [en:I'm working now] (şu an) ama [en:I work in a bank] (kalıcı iş).",
+        "[en:know], [en:want], [en:need], [en:like], [en:understand] gibi durum fiilleri genellikle [en:-ing] almaz; şu an için bile [en:I know], [en:I understand] denir.",
+        "Sahip olmak anlamındaki [en:have] da [en:-ing] almaz ([en:I have a car.]); ama bir eylem anlatıyorsa alabilir: [en:We're having a meeting.]"
+      ],
+      "remember_tr": "Şu an ya da bu aralar mı, yoksa her zaman mı? Ona göre [en:I'm working] ya da [en:I work].",
+      "table": 0,
+      "mistakes": [
+        0,
+        1,
+        2
+      ]
+    },
+    "a2-future": {
+      "rules_tr": [
+        "Önceden verilmiş kararlar ve planlar için [en:am/is/are] + [en:going to] + yalın fiil: [en:I'm going to buy a new car.] Kanıta dayalı tahminde de kullanılır: [en:It's going to rain.]",
+        "Konuşma anında verilen karar, teklif, söz ve kişisel tahmin için [en:will] + yalın fiil: [en:I'll answer it.], [en:I think it will be a good year.]",
+        "Günü ve saati belli, başkasıyla ayarlanmış randevular için present continuous kullanılır: [en:I'm meeting the client on Thursday at ten.]",
+        "[en:will] bütün öznelerle aynıdır ve ondan sonra [en:to] gelmez; olumsuzu [en:won't]. İki yapıda da fiil yalın kalır: [en:She'll call.], [en:She's going to call.]",
+        "Gelecek planları için present simple genellikle kullanılmaz; [en:Tomorrow I'm going to the doctor.] denir. İstisna tarifeler ve programlardır: [en:The train leaves at 7.]"
+      ],
+      "remember_tr": "Karar ne zaman verildi? Şimdi, konuşurken → [en:will]; daha önce → [en:going to].",
+      "table": 0,
+      "mistakes": [
+        0,
+        2,
+        4
+      ]
+    },
+    "a2-comparatives": {
+      "rules_tr": [
+        "İki şeyi karşılaştırırken tek heceli sıfat [en:-er] alır; iki heceli sıfatların çoğunun ve daha uzunların önüne [en:more] gelir. Ardından [en:than]: [en:Istanbul is bigger than Ankara.]",
+        "Bir grubun en … olanı için [en:the] + [en:-est] ya da [en:the most]: [en:the cheapest], [en:the most expensive]. [en:-y] ile bitenler [en:-ier / the -iest] alır: [en:easier], [en:the easiest].",
+        "[en:good] → [en:better] → [en:the best], [en:bad] → [en:worse] → [en:the worst] ve [en:far] düzensizdir. [en:-er] ya da [en:more] zaten [tr:daha] demektir; ikisi birlikte kullanılmaz.",
+        "Türkçedeki [tr:-den] yerine [en:than] gelir: [en:He is taller than me.] Farkı anlatmak için comparative'in önüne [en:very] değil [en:much], [en:a lot] ya da [en:a bit] kullanılır: [en:much cheaper].",
+        "Eşitlik için [en:as] + yalın sıfat + [en:as]: [en:The new office is as big as the old one.] Olumsuzu [en:not as … as] (… kadar değil)."
+      ],
+      "remember_tr": "[tr:Daha] ya [en:-er] ile ya [en:more] ile söylenir, ikisiyle birden değil: [en:cheaper], [en:more expensive].",
+      "table": 0,
+      "mistakes": [
+        0,
+        1,
+        4
+      ]
+    },
+    "a2-countable": {
+      "rules_tr": [
+        "[en:information], [en:advice], [en:furniture], [en:news], [en:work], [en:money] gibi sayılamayan isimler [en:a/an] almaz, çoğul yapılmaz ve tekil fiille kullanılır: [en:The news is good.]",
+        "[en:many] + sayılabilen çoğul ([en:many people]), [en:much] + sayılamayan ([en:much time]). Bunlar daha çok soru ve olumsuzda kullanılır; olumlu cümlede genellikle [en:a lot of] denir.",
+        "[en:a few] + sayılabilen çoğul ([en:a few questions]), [en:a little] + sayılamayan ([en:a little time]). Soruda da aynı ayrım: [en:How many…?] / [en:How much…?]",
+        "[en:some] olumluda, [en:any] olumsuz ve soruda kullanılır (ikram ve ricada [en:some]: [en:Would you like some tea?]); ikisi de sayılabilen çoğul ve sayılamayan isimlerle gelir.",
+        "Sayılamayanı saymak için bir ölçü kelimesi eklersin: [en:a piece of advice], [en:two pieces of information], [en:a cup of tea]. [en:people] ise çoğuldur: [en:People are…]"
+      ],
+      "remember_tr": "Türkçede [tr:bilgiler] diyebilirsin, İngilizcede [en:information] çoğul olmaz: [en:Thank you for the information.]",
+      "table": 1,
+      "mistakes": [
+        0,
+        1,
+        2
+      ]
+    },
+    "a2-articles": {
+      "rules_tr": [
+        "[en:a/an] herhangi bir, ilk kez söz edilen tekil sayılabilen isim için; [en:the] hangisi olduğunu ikimizin de bildiği şey için: [en:I bought a book and a pen. The book was expensive.]",
+        "[en:a] ile [en:an] arasındaki seçim yazıya değil sese göre yapılır: [en:a meeting], [en:an email], [en:an hour], [en:a university].",
+        "Tek olan şeyler, bağlamdan belli olanlar ve superlative [en:the] alır: [en:the sun], [en:Can you close the door?], [en:the best].",
+        "Genel anlamda konuşurken çoğul ve sayılamayan isimlerle tanımlık kullanılmaz: [en:I like dogs.], [en:Money isn't everything.] [en:go to work] ve [en:last week] gibi kalıplarda da yoktur.",
+        "Tekil sayılabilen isim tek başına kalmaz; önünde [en:a/an], [en:the] ya da [en:my], [en:this] gibi bir kelime olmalı: [en:I have a car.] Meslekte de: [en:She is an engineer.]"
+      ],
+      "remember_tr": "Belirtme eki çoğu zaman [en:the] için ipucudur: [tr:Dosyayı gönderdim] → [en:I sent the file.]",
+      "table": 0,
+      "mistakes": [
+        6,
+        4,
+        0
+      ]
+    },
+    "a2-questions": {
+      "rules_tr": [
+        "Soru sırası: soru kelimesi + yardımcı fiil + özne + fiil. Soru kelimesi başa gelir, yardımcı fiil öznenin önüne geçer: [en:Where are you going?]",
+        "Cümlede yardımcı fiil yoksa (present simple, past simple) [en:do/does/did] eklenir ve ana fiil yalın kalır: [en:Where does she work?], [en:When did they arrive?]",
+        "[en:be], [en:can], [en:will], [en:have] gibi bir yardımcı fiil zaten varsa [en:do] eklenmez; o fiil öznenin önüne geçer: [en:How can you help me?], [en:Where are you?]",
+        "Soru kelimesi özneyi soruyorsa [en:do/does/did] kullanılmaz ve fiil normal çekimlenir: [en:Who called you?], [en:Who works here?] Nesneyi sorarken ise: [en:Who did you call?]",
+        "Seçenekler belliyse [en:Which], belli değilse [en:What] kullanılır. Fiyat ve sayılamayan isim için [en:How much], sayılabilen isim için [en:How many]."
+      ],
+      "remember_tr": "Türkçede soru yaparken sıra değişmez; İngilizcede yardımcı fiil öznenin önüne geçer: [en:Where are you going?]",
+      "table": 0,
+      "mistakes": [
+        0,
+        4,
+        2
+      ]
+    },
+    "a2-work-email": {
+      "rules_tr": [
+        "İyi bir iş e-postası kısa ve nettir: selamlama, amaç, ayrıntı/rica, kapanış. Amaç ilk ya da ikinci cümlede söylenir: [en:I'm writing to…] / [en:I'm writing about…]",
+        "Doğrudan emir ([en:Send me the file.]) kaba durabilir; [en:Could you…?] ya da [en:Would it be possible to…?] ile yumuşat. [en:Please] tek başına emri tamamen yumuşatmaz: [en:Could you please send me the file?] daha yumuşaktır.",
+        "[en:Mr] / [en:Ms] soyadıyla kullanılır, ilk adla değil: [en:Dear Mr Demir,] ya da tanıdığa [en:Hi Ali,]. Selamlamadan sonra virgül konur ve yeni satıra geçilir.",
+        "Kapanış: [en:Kind regards,] / [en:Best regards,] + adın; [tr:Saygılarımla] [en:Respects] diye çevrilmez. Ek dosya için: [en:Please find attached…] / [en:I've attached…]",
+        "Kelime kelime çevirme: [tr:… göndermenizi rica ederim] için [en:Could you send…?] kullan. [tr:Kolay gelsin]'in birebir karşılığı yok; [en:I hope you're well.] denebilir."
+      ],
+      "remember_tr": "Türkçeden kelime kelime çevirme, kalıpları öğren: [en:I'm writing to…], [en:Could you…?], [en:Kind regards,]",
+      "table": 0,
+      "mistakes": [
+        0,
+        2,
+        4
+      ]
+    },
+    "a2-work-phone": {
+      "rules_tr": [
+        "[tr:Ben Ali] cümlesini [en:I am Ali] diye çevirme; telefonda [en:This is Ali.] ya da [en:It's Ali from …] denir. Ardından amacını söyle: [en:I'm calling about…]",
+        "Birini istemek: [en:Could I speak to…?] Bekletmek: [en:Hold on, please.] / [en:One moment, please.] Aramayı bağlamak: [en:I'll put you through.]",
+        "Aranan kişi yoksa: [en:I'm afraid she's not available. Can I take a message?] Mesaj bırakırken adını, şirketini, numaranı ve neden aradığını söyle.",
+        "Anlamadığında kibarca tekrar iste: [en:Sorry, could you repeat that?], [en:Could you spell that, please?] Telefonda duymak için [en:listen] değil [en:hear]: [en:I can't hear you.]",
+        "İş telefonunu şirket adı ve kendi adınla açman beklenir: [en:Good morning, ABC Software, Elif speaking.] Arayanı sorarken: [en:Who's calling, please?]"
+      ],
+      "remember_tr": "Telefonda [tr:Ben Ali] demek için [en:This is Ali.] dersin.",
+      "table": 0,
+      "mistakes": [
+        0,
+        2,
+        4
+      ]
+    }
+  }
+}

@@ -56,6 +56,8 @@ async function loadLessonsPage() {
   }
   Text.render(lessonsUi.el.level, `Seviyen: ${d.level} — ${LEVEL_NAMES[d.level] || ""}. Seviyeni Ayarlar'dan değiştirebilirsin; `
     + "alt seviyelerin dersleri de her zaman açık.");
+  renderReviewList(d.reviews);
+  setNavBadge("lessons", d.reviews?.count || 0, `Bugün tekrar zamanı gelen ${d.reviews?.count || 0} ders`);
   renderRecommended(d.recommended);
   renderLevels();
 }
@@ -140,6 +142,7 @@ async function loadLessonDetail(id, { force = false } = {}) {
     Text.create("h2", l.title_tr),
     Text.create("p", l.title_en, "muted lesson-title-en"),
     Text.create("p", l.intro_tr, "lesson-intro"),
+    lessonSummary(l),
     askTeacherButton(l),
     ...l.sections.map(renderSection),
     renderMistakes(l.mistakes),
@@ -338,7 +341,8 @@ function renderExercises(l, work) {
       Text.create("strong", `Sonuç: ${r.correct} / ${r.total} doğru (${percent(r.correct / r.total)})`),
       r.saveError
         ? Text.create("span", ` ⚠️ Sonuç kaydedilemedi (${r.saveError}). Uygulama yeniden başlatılıyor olabilir; biraz sonra tekrar çöz.`, "muted")
-        : Text.create("span", r.ok ? " 🎉 Ders tamamlandı!" : " — %80'e ulaşınca ders tamamlanır. Açıklamalara bakıp tekrar dene.",
+        : Text.create("span", r.ok ? " 🎉 Ders tamamlandı! Tekrar takvimine girdi: zamanı gelince Dersler sayfasında 🗓 listesinde çıkar."
+          : " — %80'e ulaşınca ders tamamlanır. Açıklamalara bakıp tekrar dene.",
           r.ok ? "ok-text" : "muted"),
       r.doneBefore && !r.ok ? Text.create("span", " (Bu dersi daha önce tamamlamıştın.)", "muted small") : "",
       again,

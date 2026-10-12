@@ -1,0 +1,165 @@
+{
+  "_comment": "A1 ders özetleri (tekrar kartları) — biçim ve kurallar: README.md",
+  "reviews": {
+    "a1-be": {
+      "rules_tr": [
+        "Özneye göre fiil seçilir: [en:I] ile [en:am], [en:he / she / it] ve tekil isimle [en:is], [en:you / we / they] ve çoğul isimle [en:are]. Konuşmada genellikle kısaltılır: [en:I'm, you're, he's].",
+        "Olumsuz yapmak için fiilden sonra [en:not] gelir ([en:isn't, aren't]). [en:am not] kısaltılırken [en:I'm not] denir; [en:amn't] diye bir şey yoktur.",
+        "Soruda fiil öznenin önüne geçer: [en:Are you happy?] Kısa cevapta fiil tekrar edilir; [en:Yes] ile kısaltma kullanılmaz: [en:Yes, I am.] / [en:No, I'm not.]",
+        "Kim olduğunu, nereli ve nerede olduğunu, nasıl hissettiğini ve yaşını [en:be] ile söylersin: [en:I'm 30 years old.] ([en:have] değil). Türkçedeki [tr:acıktım], [tr:yoruldum] da şu anki durumdur: [en:I'm hungry.], [en:I'm tired.]",
+        "[en:be] ile [en:work], [en:agree] gibi bir fiil yan yana gelmez; bu fiiller tek başına kullanılır: [en:I work here.], [en:I agree.] ([en:-ing]'li yapıları ileride ayrı bir derste göreceksin.)"
+      ],
+      "remember_tr": "Türkçede [tr:Doktorum] tek kelimedir; İngilizcede fiili ve [en:a] kelimesini unutma: [en:I am a doctor.]",
+      "table": 1,
+      "mistakes": [
+        0,
+        4,
+        3
+      ]
+    },
+    "a1-pronouns": {
+      "rules_tr": [
+        "Türkçedeki [tr:o] İngilizcede ayrılır: erkek için [en:he], kadın için [en:she], eşya için [en:it]. Hayvanlar için genellikle [en:it] kullanılır.",
+        "Fiilden önce özne zamiri ([en:I, she]), fiilden ya da edattan sonra nesne zamiri ([en:me, her]), isimden önce iyelik sıfatı ([en:my, her]) kullanılır: [en:Can you help me?]",
+        "Türkçede fiilin eki kimin yaptığını gösterir; İngilizcede böyle bir ek olmadığı için özne zamiri atlanmaz: [en:She works in a bank.] Hava, saat ve gün için de özne olarak [en:it] gelir: [en:It's Monday.]",
+        "İyelik sıfatı sahibine göre seçilir, eşyaya göre değil: Ali'nin annesi → [en:his mother], Ayşe'nin babası → [en:her father]. [en:its] (onun) ile [en:it's] ([en:it is]) farklıdır.",
+        "Kendinden ve başka birinden bahsederken kendini sona koy: özne konumunda [en:My friend and I are colleagues.], nesne konumunda [en:Please call my friend and me.]"
+      ],
+      "remember_tr": "Türkçede [tr:beni], [tr:benim] gibi ekler kullanırız; İngilizcede bunlar ayrı kelimelerdir: [en:me], [en:my].",
+      "table": 0,
+      "mistakes": [
+        0,
+        2,
+        3
+      ]
+    },
+    "a1-a-an-plural": {
+      "rules_tr": [
+        "Tekil, sayılabilen bir isimden önce [en:a/an] gerekir; meslek söylerken bile: [en:I'm a doctor.] Çoğul isimlerle [en:a/an] kullanılmaz: [en:books] ya da [en:some books].",
+        "Seçim yazıya değil sese göre yapılır: ünsüz sesten önce [en:a], ünlü sesten önce [en:an]. Sıfat varsa onun ilk sesine bakılır: [en:an old car] ama [en:a new car].",
+        "Çoğu isme [en:-s] eklenir; [en:-s, -sh, -ch, -x] ile bitenlere [en:-es] ([en:boxes]), ünsüz + [key:y] ile bitenlerde [key:y] → [en:ies] ([en:cities]). Düzensizleri ezberle: [en:children], [en:people].",
+        "Türkçeden farklı olarak sayıdan sonra isim çoğul olur: [tr:iki kitap] = [en:two books]; [en:many] de çoğul ister: [en:many people]. [en:every] ise her zaman tekil isimle: [en:every day].",
+        "Sayılamayan isimler ([en:water, money, information, advice]) [en:a/an] ve [en:-s] almaz; bunlarla [en:some] kullanabilirsin: [en:some information]."
+      ],
+      "remember_tr": "[en:a] mı [en:an] mi, harfe değil sese bak: [en:an hour] ([key:h] okunmaz), [en:a university] (yu diye okunur).",
+      "table": 1,
+      "mistakes": [
+        0,
+        1,
+        5
+      ]
+    },
+    "a1-present-simple": {
+      "rules_tr": [
+        "[en:I, you, we, they] ile fiil yalın kalır ([en:I work]); [en:he, she, it] ile [en:-s] alır ([en:she works]). İsim özneyi zamir gibi düşün: [en:my father] = [en:he] → [en:works].",
+        "Alışkanlıklar ve rutinler, genel gerçekler, kalıcı durumlar ve programlar için kullanılır: [en:I drink tea every morning.], [en:The shop opens at nine.]",
+        "Yazım: [en:-s, -sh, -ch, -x, -o] ile biten fiiller [en:-es] alır ([en:goes], [en:watches]); ünsüz + [key:y] → [en:ies] ([en:studies]); düzensiz: [en:have] → [en:has].",
+        "Türkçede rutinler için [tr:-iyor] da kullanırız, İngilizcede present simple kullanılır: [en:I go to work by bus every day.] Fiilden önce [en:am / is / are] gelmez: [en:I work every day.]",
+        "Sıklık zarfları ([en:always, usually, often, sometimes, never]) genellikle ana fiilden önce, [en:be] fiilinden sonra gelir: [en:I usually drink tea.], [en:She is always late.]"
+      ],
+      "remember_tr": "Türkçede fiil her özneye göre ek alır; İngilizcede ise sadece [en:he / she / it] ile değişir: [en:I work], [en:she works].",
+      "table": 0,
+      "mistakes": [
+        0,
+        2,
+        3
+      ]
+    },
+    "a1-do-does": {
+      "rules_tr": [
+        "Olumsuz: [en:I / you / we / they] ile [en:don't], [en:he / she / it] ile [en:doesn't], ardından yalın fiil: [en:She doesn't like coffee.] [en:-s] zaten [en:does]ta olduğu için fiil [en:-s] almaz.",
+        "Soru: (soru kelimesi) + [en:do/does] + özne + yalın fiil: [en:Do you like your job?], [en:Where does your sister live?] İngilizcede soru kelimesi her zaman en baştadır.",
+        "Kısa cevapta ana fiil tekrar edilmez: [en:Yes, I do.], [en:No, she doesn't.] Soru kelimesiyle sorulan sorulara [en:Yes] ya da [en:No] ile değil, bilgiyle cevap verilir.",
+        "Cümlede [en:be] fiili ([en:am / is / are]) varsa soru ve olumsuz için [en:do/does] kullanılmaz: [en:Are you tired?] [en:work], [en:like] gibi fiillerle [en:do/does] gerekir: [en:Do you work here?]",
+        "[en:have] de aynı kurala uyar: [en:He doesn't have a car.] [en:never] zaten olumsuzdur, yanına [en:don't] gelmez: [en:I never drink coffee.]"
+      ],
+      "remember_tr": "Türkçedeki [tr:-mez] ve [tr:-mi] eklerinin işini İngilizcede [en:do / does] yapar.",
+      "table": 0,
+      "mistakes": [
+        0,
+        1,
+        5
+      ]
+    },
+    "a1-there-is": {
+      "rules_tr": [
+        "Bir yerde bir şeyin bulunduğunu söylemek için tekil ya da sayılamayan isimle [en:There is], çoğul isimle [en:There are] kullanılır. Fiili [en:there]den sonra gelen isme göre seç.",
+        "Türkçede [tr:var] sondadır, İngilizcede [en:there is / there are] başa gelir: [en:There is a park in my city.] Bu anlamdaki [tr:var] için [en:have / has] kullanılmaz.",
+        "Olumsuz: [en:There isn't / There aren't]; soru: [en:Is there…? / Are there…?] Olumlu kısa cevap kısaltılmaz: [en:Yes, there is.]; olumsuz kısaltılabilir: [en:No, there isn't.]",
+        "Olumlu cümlede [en:some], olumsuz ve soruda genellikle [en:any] kullanılır. [en:There is no milk.] = [en:There isn't any milk.]; çift olumsuz olmaz.",
+        "[en:There is] bir şeyin var olduğunu ilk kez söyler; aynı şeyden tekrar bahsederken [en:it] kullanılır: [en:There is a café near the office. It is very small.]"
+      ],
+      "remember_tr": "[tr:Arabam var] = [en:I have a car.], ama [tr:Bahçede bir araba var] = [en:There is a car in the garden.]",
+      "table": 0,
+      "mistakes": [
+        0,
+        1,
+        2
+      ]
+    },
+    "a1-in-on-at": {
+      "rules_tr": [
+        "Zaman: saatlerle [en:at] ([en:at 7 o'clock]), günler ve tarihlerle [en:on] ([en:on Monday, on 5 June]), aylar, yıllar, mevsimler ve günün bölümleriyle [en:in] ([en:in May, in 2024, in the morning]).",
+        "Günün bölümü tek başına [en:in] alır ([en:in the morning]), ama [en:at night] denir. Belirli bir günle birlikte [en:on] olur: [en:on Monday morning].",
+        "Yer: [en:in] bir şeyin içi, şehir ve ülke ([en:in the kitchen, in Izmir]); [en:on] bir yüzeyin üstü ve katlar ([en:on the table, on the second floor]); [en:at] bir nokta ya da etkinlik yeri ([en:at the bus stop]).",
+        "[en:at home], [en:at work], [en:at school] kalıptır; arada [en:the] yoktur. Hareket varsa [en:home] edatsız kullanılır: [en:go home].",
+        "[en:next], [en:last], [en:this], [en:every] ile edat kullanılmaz: [en:next Monday], [en:this morning]. [en:today], [en:tomorrow], [en:yesterday] de edat almaz."
+      ],
+      "remember_tr": "Türkçedeki tek [tr:-de / -da] eki İngilizcede üç farklı edatla karşılanır; en iyisi kalıpları ezberlemek: [en:at home, on Monday, in the morning].",
+      "table": 0,
+      "mistakes": [
+        1,
+        2,
+        4
+      ]
+    },
+    "a1-can": {
+      "rules_tr": [
+        "[en:can]'den sonra [en:to] gelmez ve fiil [en:-s] almaz; [en:he/she/it] ile de [en:can] aynı kalır: [en:She can drive.]",
+        "Olumsuz [en:can't] ([en:cannot]); soruda [en:can] öznenin önüne geçer: [en:Can you drive? — Yes, I can.] Bunlar için [en:don't], [en:doesn't] ya da [en:do] kullanılmaz.",
+        "Türkçede beceriler için çoğu zaman [tr:bilmek] deriz ([tr:Araba kullanmayı biliyorum]); İngilizcede bu cümleler [en:can] ile kurulur: [en:I can drive.], [en:Can you swim?]",
+        "[en:Can I…?] kendin için izin ister ([en:Can I come in?]); [en:Can you…?] karşındakinden bir şey yapmasını ister ([en:Can you close the door?]). İşi kimin yapacağına bak.",
+        "Rica için [en:could] da kullanılır ve [en:can]'den daha kibardır: yöneticilere, müşterilere ve tanımadığın kişilere [en:Could you…?] demek iyi olur."
+      ],
+      "remember_tr": "[en:can] hiç değişmez ve ardından hep yalın fiil gelir: [en:She can speak English.]",
+      "table": 0,
+      "mistakes": [
+        0,
+        4,
+        6
+      ]
+    },
+    "a1-work-intro": {
+      "rules_tr": [
+        "Mesleğini [en:I'm a/an] + meslek ya da [en:I work as a/an] + meslek ile söylersin. Tekil meslekten önce [en:a/an] şarttır: [en:I'm an engineer.] Çoğulda kullanılmaz: [en:We are engineers.]",
+        "İşverenini [en:work for] ([en:I work for a big bank.]), alanını ya da departmanını [en:work in] ([en:She works in marketing.]), çalıştığın yeri [en:work at] ile söylersin ([en:He works at the airport.]).",
+        "Mesleği sormak için [en:What do you do?] denir; cevapta [en:do] tekrar edilmez: [en:I'm a teacher.] [en:What are you doing?] ise şu an ne yaptığını sorar.",
+        "[en:job] sayılabilir ([en:a new job]); [en:work] bu anlamda sayılamaz: [en:a lot of work] denir, [en:works] denmez.",
+        "Kalıcı işini present simple ile anlatırsın: [en:I work in a bank.] Sorumluluğun için [en:I'm responsible for] + isim kalıbını kullan: [en:I'm responsible for sales.]"
+      ],
+      "remember_tr": "Türkçede [tr:Mühendisim] deriz ama İngilizcede [en:I'm an engineer] deriz; [en:a/an] atlanmaz.",
+      "table": 0,
+      "mistakes": [
+        0,
+        1,
+        2
+      ]
+    },
+    "a1-work-contact": {
+      "rules_tr": [
+        "E-posta adresinde [key:@] = [en:at], [key:.] = [en:dot] diye okunur. [en:point] sadece ondalık sayılarda kullanılır: 2.5 = [en:two point five].",
+        "Harflerin adı Türkçeden farklıdır: [key:E] [tr:i], [key:I] [tr:ay] diye okunur. En çok [key:E] ve [key:I], [key:G] ve [key:J], [key:A] ve [key:R] karışır. Aynı harf iki kez gelirse [en:double] denir: [en:double L].",
+        "Telefon numaraları rakam rakam söylenir; 0 genelde [en:oh] ya da [en:zero], aynı iki rakam [en:double] ile söylenebilir (55 → [en:double five]).",
+        "Saat: [en:half past four] ya da kısaca [en:four thirty] (4:30). [en:o'clock] 24 saat sistemiyle kullanılmaz; öğleden sonrası için [en:pm] denir.",
+        "Tarihte gün sıra sayısıyla söylenir: [en:5 June] yazsan da okurken [en:the fifth of June] dersin. Saatten önce [en:at], gün ve tarihten önce [en:on], ay ve yıldan önce [en:in]."
+      ],
+      "remember_tr": "[en:thirteen] kelimesinde vurgu sonda, [en:thirty] kelimesinde baştadır; emin değilsen rakam rakam sor.",
+      "table": 1,
+      "mistakes": [
+        0,
+        3,
+        4
+      ]
+    }
+  }
+}

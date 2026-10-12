@@ -12,7 +12,7 @@ from fastapi.responses import Response, StreamingResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
-from . import corrections, dictionary, errors, exams, lessons, llm_models, machine, ollama_client, patterns, progress, report, reset, scenarios, selftest, sessions, sync, teacher, teacher_speech, ui_state, updates, vocab, words, writing
+from . import corrections, dictionary, errors, exams, lessons, llm_models, machine, ollama_client, patterns, progress, report, reset, reviews, scenarios, selftest, sessions, sync, teacher, teacher_speech, ui_state, updates, vocab, words, writing
 from .tts_tr import tts_tr
 from .chat import chat_turn, opening_turn
 from .corrections import worker as correction_worker
@@ -401,8 +401,8 @@ def weak_points(days: int = Query(default=30, ge=7, le=365)):
 
 @app.get("/api/lessons")
 def lessons_overview():
-    """All lessons with progress, per-level counts and recommendations."""
-    return lessons.overview()
+    """All lessons with progress, per-level counts and recommendations; the reviews due (backend/reviews.py)."""
+    return lessons.overview() | {"reviews": reviews.overview()}
 
 
 @app.get("/api/lessons/{lesson_id}")
@@ -410,7 +410,40 @@ def lesson_detail(lesson_id: str):
     lesson = lessons.open_lesson(lesson_id)
     if lesson is None:
         raise HTTPException(404, "Ders bulunamadı.")
-    return lesson
+    return lesson | {"review_card": reviews.card(lessons.BY_ID[lesson_id])}  # 📌 Özet
+
+
+@app.get("/api/reviews")
+def reviews_overview():
+    """Finished lessons due for review today (spaced repetition), the next ones and the weak topics."""
+    return reviews.overview()
+
+
+@app.get("/api/reviews/count")
+def reviews_count():
+    return {"due": reviews.due_count()}  # the number next to 📘 Dersler in the menu
+
+
+@app.get("/api/reviews/{lesson_id}")
+def review_start(lesson_id: str):
+    """A review: the lesson's summary card and a short quiz of its own exercises."""
+    r = reviews.start(lesson_id)
+    if r is None:
+        raise HTTPException(404, "Ders bulunamadı.")
+    return r
+
+
+class ReviewResult(BaseModel):
+    items: list[int] = Field(min_length=1, max_length=50)
+    wrong: list[int] = Field(default_factory=list, max_length=50)
+
+
+@app.post("/api/reviews/{lesson_id}")
+def review_record(lesson_id: str, body: ReviewResult):
+    try:
+        return reviews.record(lesson_id, body.items, body.wrong)
+    except ValueError as e:
+        raise HTTPException(400, str(e))
 
 
 class LessonResult(BaseModel):

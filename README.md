@@ -127,6 +127,18 @@ veya konsol penceresini kapatın — Ollama da otomatik kapanır.
   **Kendi cümlelerini kur**'daki sorular, cevaplar ve sonuçlar sen silene kadar saklanır (🗑 tek tek ya da
   **🗑 Tümünü sil**; alıştırmalar için **↻ Tekrar çöz**). Başka sayfaya gidip dönünce ya da uygulamayı yeniden
   açınca her sayfa kaldığın yerden (kaydırma konumu dahil) açılır.
+- **🗓 Ders tekrarı (aralıklı tekrar):** bitirdiğin her ders, unutmadan tekrar edebilmen için giderek uzayan
+  aralıklarla geri gelir: 1 gün → 3 gün → 1 hafta → 2 hafta → 1 ay → 2 ay → 4 ay. Zamanı gelenler Dersler
+  sayfasının üstünde **"Bugün tekrar zamanı gelenler"** listesinde, sayısı sol menüde 📘'nin yanında görünür.
+  Bir tekrar ~3 dakikadır: dersin **📌 özet kartı** (ana kurallar, kalıp tablosu, sık hatalar, "aklında kalsın")
+  ve dersin kendi alıştırmalarından **6 soruluk mini test** (önce daha önce yanlış yaptıkların ve geçen tekrarda
+  sorulmayanlar). İyi hatırladıysan (%80+) aralık uzar, orta sonuçta (%50+) aynı aralıkla bir kez daha gelir,
+  zayıfsa yarına döner ve dersi baştan gözden geçirmen önerilir. Dayanak: aralıklı tekrar (spacing effect)
+  ve hatırlayarak öğrenme (retrieval practice / testing effect).
+- **Hatalara göre yönlendirme:** konuşma ve yazmada son 14 günde bir konuda sık hata yaptıysan (ör. edat) o
+  konunun bitirdiğin dersleri tekrar zamanını beklemeden listeye **öne alınır**; henüz açmadığın ilgili dersler
+  🎯 Sana önerilen'de çıkar.
+- **📌 Özet**: her ders sayfasının başında dersin özet kartı (açılır kapanır), tekrar için.
 - **🎯 Sana önerilen**: sık yaptığın hata türlerine göre ilgili dersler ve seviyendeki sıradaki ders.
   İlerleme sayfasındaki "Zayıf noktalarım" kartlarında da **📘 Konuyu öğren** bağlantısı var.
 - Anlatımlar elle yazılmıştır (`app/content/lessons/`, format: oradaki README); yerel modelin Türkçesi
@@ -409,7 +421,7 @@ lisansların "aynı lisansla paylaş" (ShareAlike) koşuluyla, yani **CC BY-SA 4
 
 ### Uygulamanın kendi içeriği
 
-- **Dersler, seviye sınavları, kalıplar, YDS tarzı sorular, senaryolar ve Türkçe açıklamalar** yapay zekâ
+- **Dersler, ders özetleri, seviye sınavları, kalıplar, YDS tarzı sorular, senaryolar ve Türkçe açıklamalar** yapay zekâ
   yardımıyla ([Claude](https://www.anthropic.com/claude), Anthropic) yazıldı; her içerik, yazandan bağımsız
   ayrı bir yapay zekâ denetiminden ve otomatik içerik testlerinden geçti. Biçim ve kurallar her içerik
   klasörünün `README.md` dosyasında.

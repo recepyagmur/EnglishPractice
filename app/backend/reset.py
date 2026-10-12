@@ -9,7 +9,7 @@ from .db import get_conn, vacuum
 # Children before parents (foreign keys).
 GROUPS = {
     # + the saved work on lesson pages and running exams (ui_state)
-    "lessons": {"label": "Dersler, sınavlar ve testler", "tables": ["lesson_progress", "exam_attempts", "selftest_attempts"],
+    "lessons": {"label": "Dersler, sınavlar ve testler", "tables": ["lesson_progress", "lesson_review", "exam_attempts", "selftest_attempts"],
                 "state": ["lesson:%", "exam:%"]},
     "words": {"label": "Kelimeler ve kalıplar", "tables": ["vocab", "pattern_progress"]},  # word_examples (checked model output) stays
     "history": {"label": "Konuşma geçmişi ve istatistikler",

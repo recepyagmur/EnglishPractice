@@ -1,6 +1,6 @@
 # Lisans — içerik (app/content)
 
-Bu klasördeki içerik — dersler (`lessons/`), seviye sınavları (`exams/`), kalıplar (`patterns/`), YDS tarzı
+Bu klasördeki içerik — dersler (`lessons/`), ders özetleri (`review/`), seviye sınavları (`exams/`), kalıplar (`patterns/`), YDS tarzı
 sorular (`yds/`) ve kelime listeleri (`vocab/`) — **Creative Commons Attribution-ShareAlike 4.0 International
 (CC BY-SA 4.0)** lisansıyla paylaşılır. Tam metin: [`LICENSES/CC-BY-SA-4.0.txt`](../../LICENSES/CC-BY-SA-4.0.txt) ·
 <https://creativecommons.org/licenses/by-sa/4.0/>
