@@ -17,12 +17,14 @@ import threading
 import time
 import webbrowser
 from datetime import datetime
+from pathlib import Path
 
-from backend import backup, machine, sync
+from backend import backup, machine, sync, updates
 from backend.config import IS_WINDOWS, LOCK_PATH, LOGS_DIR, OLLAMA_EXE, ROOT_DIR, script
 from ollama_runtime import OllamaProcess, env_for, http_ok, pick_port, pid_alive, prune_gpu_libs
 
 APP_PORTS = (8000, 8080, 8765, 18000, 28000)
+AFTER_UPDATE_ENV = "EP_AFTER_UPDATE_PORT"
 
 log = logging.getLogger("launcher")
 
@@ -175,12 +177,17 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--no-browser", action="store_true")
     args = parser.parse_args()
+    # Opened again after an in-app update (relaunch): take the same port, so the open window just reloads.
+    # An environment variable, not an option: any launcher version (also an older one) starts with it.
+    args.after_update = int(os.environ.pop(AFTER_UPDATE_ENV, "0") or 0)
 
     setup_logging()
     if not IS_WINDOWS:  # closing the terminal: stop like Ctrl+C (send the data, stop Ollama, free the lock)
         signal.signal(signal.SIGHUP, lambda *_: os.kill(os.getpid(), signal.SIGTERM))
         signal.signal(signal.SIGTERM, lambda *_: sys.exit(0))  # runs the cleanup below (uvicorn has its own)
     say("English Practice başlatılıyor…")
+    if updates.pending() and updates.apply_pending(say):  # downloaded earlier, not applied yet
+        return relaunch(args, 0)
     if not check_installation():
         return 1
     profile = ensure_profile(open_browser=not args.no_browser)
@@ -188,7 +195,7 @@ def main() -> int:
         say(f"Bilgisayar profili oluşturulmadı; uygulama açılmıyor. {script('start')} ile tekrar deneyin.")
         return 1
 
-    app_port = pick_port(APP_PORTS)
+    app_port = pick_port(((args.after_update,) if args.after_update else ()) + APP_PORTS)
     if not acquire_lock(app_port):
         return 0
     if not sync_on_open():
@@ -216,15 +223,36 @@ def main() -> int:
 
         url = f"http://localhost:{app_port}"
         say(f"Uygulama: {url}   (kapatmak için bu pencerede Ctrl+C)")
-        if not args.no_browser:
+        if not args.no_browser and app_port != args.after_update:  # same port: the open window reloads
             threading.Thread(target=open_browser_when_ready, args=(url,), daemon=True).start()
-        uvicorn.run("backend.main:app", host="127.0.0.1", port=app_port, log_level="warning")
+        server = uvicorn.Server(uvicorn.Config("backend.main:app", host="127.0.0.1", port=app_port,
+                                               log_level="warning"))
+        updates.restart_hook = lambda: setattr(server, "should_exit", True)  # "Güncelle" closes like Ctrl+C
+        server.run()
     finally:
         say("Kapatılıyor…")
         sync_on_close()
         ollama.stop()
         release_lock()
+    if updates.restart_requested:
+        say("Güncelleme uygulanıyor…")
+        updates.apply_pending(say)
+        return relaunch(args, app_port)
     return 0
+
+
+def relaunch(args, port: int) -> int:
+    """Open the app again with the new code: a fresh Python in this same window (Ctrl+C and closing the window
+    reach it; this process only waits). Baslat.bat / baslat.sh were read in full before, so an update that
+    changed them does not disturb them."""
+    say("Uygulama yeni sürümle yeniden açılıyor…")
+    _forget_console_close()  # the new launcher sends the data on closing, not this one too
+    signal.signal(signal.SIGINT, signal.SIG_IGN)
+    if not IS_WINDOWS:
+        signal.signal(signal.SIGHUP, signal.SIG_IGN)
+    logging.shutdown()  # the new launcher writes (and rotates) launcher.log
+    cmd = [sys.executable, str(Path(__file__).resolve())] + (["--no-browser"] if args.no_browser else [])
+    return subprocess.call(cmd, env={**os.environ, AFTER_UPDATE_ENV: str(port or "")})
 
 
 # ------------------------------------------------- two computers (backend/sync.py)
@@ -281,6 +309,13 @@ def _on_console_close(callback) -> None:
 
     _on_console_close.handler = handler  # keep a reference
     ctypes.windll.kernel32.SetConsoleCtrlHandler(handler, True)
+
+
+def _forget_console_close() -> None:
+    handler = getattr(_on_console_close, "handler", None)
+    if IS_WINDOWS and handler:
+        import ctypes
+        ctypes.windll.kernel32.SetConsoleCtrlHandler(handler, False)
 
 
 if __name__ == "__main__":

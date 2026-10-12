@@ -81,6 +81,14 @@ h3 { margin: 0 0 12px; font-size: 1.05rem; }
 .pill.ok { color: var(--ok); border-color: var(--ok); }
 .pill.err { color: var(--err); border-color: var(--err); }
 .status-msg { font-size: .85rem; color: var(--err); }
+.update-banner {
+  margin-left: auto; font-size: .85rem; padding: 4px 12px; border-radius: 999px; cursor: pointer;
+  border: 1px solid var(--accent); color: var(--accent); background: color-mix(in srgb, var(--accent) 10%, transparent);
+}
+.update-banner:hover { background: color-mix(in srgb, var(--accent) 20%, transparent); }
+.update-changes { margin: 6px 0 10px; padding-left: 20px; display: flex; flex-direction: column; gap: 6px; }
+.update-changes details { margin-top: 2px; }
+.update-body-text { white-space: pre-line; margin: 4px 0 0; }
 
 /* Buttons */
 .primary {
@@ -667,7 +675,7 @@ mark.err:hover .err-tip, mark.err:focus .err-tip { display: flex; }
 /* Language models (settings) — the catalog cards themselves: model-cards.css */
 .models-section { margin-top: 32px; padding-top: 8px; border-top: 1px solid var(--border); }
 .reset-section { margin-top: 32px; padding-top: 8px; border-top: 1px solid var(--border); }
-.sync-section { margin-top: 32px; padding-top: 8px; border-top: 1px solid var(--border); }
+.update-section, .sync-section { margin-top: 32px; padding-top: 8px; border-top: 1px solid var(--border); }
 .sync-section .sync-row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin: 10px 0; }
 .sync-section input { flex: 1; min-width: 260px; }
 .sync-status { display: flex; flex-direction: column; gap: 4px; margin: 10px 0; }

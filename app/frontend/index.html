@@ -32,6 +32,7 @@
           <span class="pill" data-service="tts">TTS …</span>
         </div>
         <div id="status-msg" class="status-msg"></div>
+        <button type="button" id="update-banner" class="update-banner" hidden></button>
       </header>
 
       <!-- Conversation -->
@@ -399,6 +400,14 @@
             <div id="models-status" class="models-status"></div>
             <div id="models-installed" class="models-installed"></div>
             <div id="models-catalog" class="models-catalog" hidden></div>
+          </section>
+
+          <section class="update-section" id="update-section" aria-labelledby="update-title">
+            <h3 id="update-title">🆕 Güncelleme</h3>
+            <p class="muted small">Uygulama her açılışta GitHub'da yeni sürüm olup olmadığına bakar (seninle ilgili bir bilgi
+              gönderilmez). Yeni sürüm varsa üst barda haber verir; "Güncelle" dersen önce verilerin yedeklenir, uygulama
+              kapanıp güncellenir ve kendiliğinden yeniden açılır. Verilerin, modeller ve kurulum değişmez.</p>
+            <div id="update-body"></div>
           </section>
 
           <section class="sync-section" aria-labelledby="sync-title">

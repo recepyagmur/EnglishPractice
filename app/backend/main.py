@@ -12,7 +12,7 @@ from fastapi.responses import Response, StreamingResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
-from . import corrections, dictionary, errors, exams, lessons, llm_models, machine, ollama_client, patterns, progress, report, reset, scenarios, selftest, sessions, sync, teacher, teacher_speech, ui_state, vocab, words, writing
+from . import corrections, dictionary, errors, exams, lessons, llm_models, machine, ollama_client, patterns, progress, report, reset, scenarios, selftest, sessions, sync, teacher, teacher_speech, ui_state, updates, vocab, words, writing
 from .tts_tr import tts_tr
 from .chat import chat_turn, opening_turn
 from .corrections import worker as correction_worker
@@ -52,6 +52,7 @@ async def lifespan(app: FastAPI):
     corrections.worker.start()
     llm_models.manager.activate()  # load the chat model ahead of the first message
     sync.start_background()  # two computers: send changes every few minutes (when turned on)
+    updates.check_in_background()  # a newer version on GitHub? (shown in the top bar)
     yield
     await corrections.worker.stop()
     await ollama_client.close()
@@ -91,6 +92,7 @@ async def health():
         "restart_needed": _code_stamp() > CODE_STAMP,
         "start_script": script("start"),  # Baslat.bat / baslat.sh, for the messages in the page
         "sync_notice": sync.local().get("notice"),  # e.g. worked on both computers without closing one
+        "update": {k: v for k, v in updates.status().items() if k in ("state", "latest", "received")},
         "ollama": ollama,
         "whisper": {
             "ok": {"ready": True, "error": False}.get(stt.state),
@@ -207,6 +209,37 @@ def sync_off():
 def sync_dismiss():
     sync._save_local(notice=None)
     return {"ok": True}
+
+
+@app.get("/api/update")
+def update_status():
+    """A newer version on GitHub (backend/updates.py), checked when the app opened."""
+    return updates.status()
+
+
+@app.post("/api/update/check")
+def update_check():
+    updates.check()
+    return updates.status()
+
+
+@app.post("/api/update/apply")
+def update_apply():
+    """Download the latest version; the app then closes, is updated and opens again by itself."""
+    try:
+        return updates.start_update()
+    except updates.UpdateError as e:
+        raise HTTPException(400, str(e))
+
+
+class UpdateSettings(BaseModel):
+    enabled: bool
+
+
+@app.put("/api/update/settings")
+def update_check_setting(body: UpdateSettings):
+    updates.set_enabled(body.enabled)
+    return updates.status()
 
 
 @app.get("/api/reset")

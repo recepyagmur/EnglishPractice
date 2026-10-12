@@ -1,8 +1,8 @@
-"""Update a shared copy of the app from the private GitHub repository (Guncelle.bat / guncelle.sh).
+"""Update a shared copy of the app from the GitHub repository (Guncelle.bat / guncelle.sh).
 
-The repository is private, so it is downloaded with the learner's own browser, where they are signed in to
-GitHub (they must have been invited to the repository): the script opens the archive link, waits for the zip in
-the Downloads folder (or takes one given as an argument / dropped on Guncelle.bat), then replaces the app files.
+The app itself also updates from inside (backend/updates.py: it downloads the zip and the launcher applies it
+with apply() below). By hand: the script opens the archive link in the browser, waits for the zip in the
+Downloads folder (or takes one given as an argument / dropped on Guncelle.bat), then replaces the app files.
 Never touched: data/ (the learner's progress), runtime/, models/, logs/, config/machines/ — they are not in the
 repository. Files removed from the repository are removed here too (the list of shipped files is kept in
 PACKAGE_FILES). Python packages are reinstalled only when a requirements file changed.

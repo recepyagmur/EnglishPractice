@@ -55,7 +55,8 @@ Linux'ta da aynı uygulama çalışır; yine her şey bu klasöre iner, sisteme 
   masaüstüne "English Practice" eklenir.
 - **Açmak:** `bash baslat.sh` (ya da menüdeki kısayol: bir terminal açar). Kapatmak için o terminalde
   **Ctrl+C** ya da terminali kapatmak; ikisinde de verilerin gönderilir ve Ollama kapanır.
-- **Güncellemek:** uygulama kapalıyken `bash guncelle.sh` (zip başka bir yere indiyse:
+- **Güncellemek:** yeni sürüm çıkınca uygulama üst barda haber verir; Ayarlar → 🆕 Güncelleme → "Güncelle".
+  Elle: uygulama kapalıyken `bash guncelle.sh` (zip başka bir yere indiyse:
   `bash guncelle.sh ~/yol/EnglishPractice-main.zip`).
 - **İki bilgisayar eşitlemesi:** Linux'un resmi Google Drive programı yok; Drive klasörünü rclone, Insync ya da
   google-drive-ocamlfuse gibi bir araçla bir klasöre bağlayıp Ayarlar → ☁️ İki bilgisayar'da o klasörü
@@ -455,7 +456,7 @@ Hepsine teşekkürler. 🙏
 ```
 Kurulum.bat          Kurulum ve bakım sihirbazı          (Linux: kurulum.sh → setup/bootstrap.sh)
 Baslat.bat           Uygulamayı açar                     (Linux: baslat.sh)
-Guncelle.bat         GitHub'dan günceller                (Linux: guncelle.sh)
+Guncelle.bat         GitHub'dan elle günceller           (Linux: guncelle.sh; uygulama içinden de güncellenir)
 app/
   launcher.py        Kilit/yedek, Ollama, sunucu, tarayıcı; yeni bilgisayarda sihirbazı açar
   ollama_runtime.py  Uygulamaya ait Ollama'yı boş bir portta alt süreç olarak çalıştırır
@@ -521,7 +522,16 @@ runtime\python\python.exe dev\tools\make_package.py D:\EnglishPractice --zip
 Kodun asıl hali GitHub deposunda: <https://github.com/recepyagmur/EnglishPractice>.
 Geliştirme bu klasörde yapılır; her commit'ten sonra `git push` ile depoya gönderilir.
 
-- **Arkadaşların güncellemesi:** uygulama kapalıyken `Guncelle.bat`. Tarayıcıda deponun zip'i iner (depo özelken GitHub
+- **Uygulama içinden güncelleme:** uygulama her açılışta arka planda GitHub'a (herkese açık API) depodaki son
+  commit'i sorar; kendi sürümünden (`config/package-version.txt`) yeniyse üst barda "🆕 Yeni sürüm var" çıkar.
+  Ayarlar → 🆕 Güncelleme'de değişiklik listesi (commit başlıkları ve açıklamaları — **commit mesajlarını
+  kullanıcıya göre yaz**) ve "Güncelle": zip indirilip denetlenir, uygulama Ctrl+C gibi kapanır (eşitleme
+  gönderilir), başlatıcı veriyi yedekleyip güncellemeyi uygular (`setup/updater.py`) ve uygulamayı aynı pencerede,
+  aynı portta yeniden açar; sayfa kendiliğinden yenilenir. İndirilip uygulanamayan güncelleme bir sonraki açılışta
+  uygulanır. Denetleme Ayarlar'dan bilgisayar başına kapatılabilir. Geliştirme kopyasında (git) yalnız "git pull".
+  Kod: `app/backend/updates.py`, `app/launcher.py` (`relaunch`). `Baslat.bat` / `baslat.sh` güncellemeyle
+  değişebilir, bu yüzden tek seferde okunacak biçimde (tek satır / fonksiyon) yazılı; öyle kalmalı.
+- **Arkadaşların güncellemesi (elle):** uygulama kapalıyken `Guncelle.bat`. Tarayıcıda deponun zip'i iner (depo özelken GitHub
   hesabıyla giriş + depoya davet gerekir; herkese açıkken gerekmez), güncelleyici (`setup/updater.py`) İndirilenler klasöründe zip'i bulur,
   dosyaları değiştirir, depodan silinen dosyaları siler, verilere (`data/`), modellere ve kuruluma dokunmaz,
   önce veriyi yedekler, `requirements` değiştiyse paketleri kurar ve zip'i siler. Zip başka yere indiyse
@@ -550,7 +560,7 @@ verisini gönderirse (ör. önce yeni veriyi almadan) bu bilgisayardaki yeni ça
 yedeklenir, uyarı gösterilir. Bir bilgisayarda silinen bir şey öbüründe de silinir. İkinci bilgisayarı ilk
 bağlarken iki tarafın son çalışma tarihi gösterilir; eski olanı seçersen onay istenir. Veri değişmeden önce her
 zaman yedek alınır.
-Uygulamanın kendisi ve modeller eşitlenmez: güncellemeler için laptopta `Guncelle.bat`.
+Uygulamanın kendisi ve modeller eşitlenmez: her bilgisayar yeni sürümü kendisi bildirir (Ayarlar → 🆕 Güncelleme).
 Linux bilgisayarda Drive klasörü için bkz. "Linux'ta kurulum".
 Ayrıntı: `app/backend/sync.py`.
 
@@ -560,7 +570,7 @@ Ayrıntı: `app/backend/sync.py`.
 yedekler `data/backups/` klasöründedir:
 
 - `daily-<tarih>.db`: her gün ilk açılışta.
-- `pre-update-…db`: `Guncelle.bat` / `guncelle.sh` dosyaları değiştirmeden önce.
+- `pre-update-…db`: güncelleme (uygulama içinden ya da `Guncelle.bat` / `guncelle.sh`) dosyaları değiştirmeden önce.
 - `pre-schema-v<N>-…db`: yeni bir sürüm veritabanı yapısını değiştirmeden önce.
 - `pre-setup-…db` / `pre-maintenance-…db`: kurulum sihirbazının kurulum ve bakım işlemlerinden önce.
 - `pre-reset-…db`: Ayarlar → 🔄 Sıfırla'dan önce; `pre-sync-…db`: öbür bilgisayarın verisi alınmadan önce;

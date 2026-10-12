@@ -169,7 +169,7 @@ const pageLoaders = {
   vocab: () => loadVocabPage(),
   selftest: () => loadSelftestPage(),
   progress: () => loadProgressPage(),
-  settings: () => { loadSettings(); loadModelsSection(); loadSyncSection(); loadResetSection(); },
+  settings: () => { loadSettings(); loadModelsSection(); loadUpdateSection(); loadSyncSection(); loadResetSection(); },
 };
 
 // Where each page was scrolled to (by address): coming back to a page, also after a restart, returns to
@@ -247,7 +247,9 @@ async function refreshStatus() {
     problems.unshift(`⟳ Uygulama güncellendi: yeni özelliklerin çalışması için uygulamayı kapatıp ${startScript} ile yeniden açın.`);
   }
   if (health?.sync_notice) problems.unshift(`${health.sync_notice} (Ayarlar → İki bilgisayar)`);
-  $("#status-msg").textContent = health ? problems.join(" · ") : `Sunucuya ulaşılamıyor — ${startScript} çalışıyor mu?`;
+  $("#status-msg").textContent = health ? problems.join(" · ")
+    : updating ? "" : `Sunucuya ulaşılamıyor — ${startScript} çalışıyor mu?`;
+  renderUpdateBanner(health ? health.update : updating && { state: "restarting" });
 
   const whisper = health?.whisper;
   talkBtn.disabled = whisper?.ok !== true;
@@ -1055,6 +1057,134 @@ settingsForm.addEventListener("submit", async (e) => {
   }
   setTimeout(() => (saved.textContent = ""), 2500);
 });
+
+/* ------------------------------------------------- updates (backend/updates.py) */
+
+let updating = false;  // "Güncelle" was pressed: the server goes away for a moment, then comes back updated
+const updateDay = (iso) => (iso ? new Date(iso).toLocaleDateString("tr-TR", { day: "numeric", month: "long", year: "numeric" }) : "");
+const megabytes = (n) => `${((n || 0) / 1e6).toFixed(1)} MB`;
+
+function renderUpdateBanner(u) {
+  const text = {
+    available: `🆕 Yeni sürüm var (${updateDay(u?.latest?.date)}) · Güncelle →`,
+    downloading: `⬇ Güncelleme indiriliyor… ${megabytes(u?.received)}`,
+    restarting: "⟳ Uygulama güncelleniyor, birazdan yeniden açılacak…",
+  }[u?.state];
+  const banner = $("#update-banner");
+  banner.hidden = !text;
+  if (text) Text.render(banner, text);
+}
+
+$("#update-banner").addEventListener("click", () => {
+  location.hash = "#/settings";
+  setTimeout(() => $("#update-section")?.scrollIntoView({ behavior: "smooth", block: "start" }), 300);
+});
+
+/** A button that is disabled while its (async) action runs; errors are shown in msg. */
+function asyncButton(label, cls, msg, onClick) {
+  const b = Text.create("button", label, cls);
+  b.type = "button";
+  b.addEventListener("click", async () => {
+    b.disabled = true;
+    try {
+      await onClick();
+    } catch (err) {
+      Text.render(msg, `⚠️ ${err.message}`);
+    } finally {
+      b.disabled = false;
+    }
+  });
+  return b;
+}
+
+/** After "Güncelle": follow the download, then wait until the app is back (updated) and reload the page. */
+async function followUpdate(show) {
+  updating = true;
+  let wentDown = false;
+  const started = Date.now();
+  while (Date.now() - started < 5 * 60 * 1000) {
+    await new Promise((r) => setTimeout(r, 1500));
+    let health = null;
+    try {
+      const r = await fetch("/api/health", { cache: "no-store" });
+      health = r.ok ? await r.json() : null;
+    } catch { /* closed for the update */ }
+    if (!health) {
+      wentDown = true;
+      show("⟳ Uygulama güncelleniyor, birazdan yeniden açılacak…");
+      renderUpdateBanner({ state: "restarting" });
+      continue;
+    }
+    if (wentDown) return location.reload();  // back with the new version
+    const u = health.update || {};
+    renderUpdateBanner(u);
+    if (u.state === "downloading") show(`⬇ İndiriliyor… ${megabytes(u.received)}`);
+    else if (u.state === "restarting") show("⟳ İndirildi; uygulama kapanıp güncelleniyor…");
+    else {  // the download failed, or there was nothing new: nothing was changed
+      updating = false;
+      return loadUpdateSection();
+    }
+  }
+  show("Uygulama yeni bir pencerede açılmış olabilir; bu pencereyi kapatabilirsin.");
+}
+
+async function loadUpdateSection() {
+  const box = $("#update-body");
+  const show = (...nodes) => box.replaceChildren(...nodes.filter(Boolean));
+  let u;
+  try {
+    u = await api("/api/update");
+  } catch (err) {
+    show(Text.create("p", `⚠️ ${err.message}`, "muted small"));
+    return;
+  }
+  const msg = Text.create("span", "", "muted small");
+  if (u.dev) {
+    show(Text.create("p", "Bu klasör geliştirme kopyası (git deposu): güncellemeler git pull ile alınır.", "muted small"));
+    return;
+  }
+  const state = {
+    checking: "Denetleniyor…",
+    current: "✓ En güncel sürümü kullanıyorsun.",
+    available: `🆕 Yeni sürüm var (${updateDay(u.latest?.date)}).`,
+    error: `⚠️ ${u.message}`,
+    downloading: `⬇ İndiriliyor… ${megabytes(u.received)}`,
+    restarting: "⟳ Uygulama güncelleniyor…",
+    ready: "İndirildi: uygulamayı kapatıp açınca uygulanacak.",
+  }[u.state] || (u.enabled ? "Henüz denetlenmedi." : "Açılışta denetleme kapalı.");
+  const changes = u.state === "available" && lnode("ul", "update-changes", (u.changes || []).map((c) => lnode("li", "",
+    Text.create("strong", c.title), Text.create("span", ` · ${updateDay(c.date)}`, "muted small"),
+    c.body && lnode("details", "", Text.create("summary", "Ayrıntı", "small"), Text.create("p", c.body, "small update-body-text")))));
+  const auto = document.createElement("label");
+  auto.className = "small";
+  const check = document.createElement("input");
+  check.type = "checkbox";
+  check.checked = u.enabled;
+  check.addEventListener("change", async () => {
+    await api("/api/update/settings", { method: "PUT", body: { enabled: check.checked } });
+  });
+  auto.append(check, " Açılışta yeni sürümü denetle");
+  show(
+    lnode("div", "sync-status",
+      Text.create("span", state),
+      Text.create("span", `Kullandığın sürüm: ${u.current ? u.current.slice(0, 7) : "bilinmiyor"}`, "muted small")),
+    changes && Text.create("p", "Neler değişti:", "small"), changes,
+    lnode("div", "sync-row",
+      u.state === "available" && asyncButton("⬆ Güncelle", "primary small", msg, async () => {
+        if (!window.confirm("Önce verilerin yedeklenir; uygulama kapanıp güncellenir ve kendiliğinden yeniden açılır "
+          + "(yaklaşık yarım dakika). Devam edilsin mi?")) return;
+        await api("/api/update/apply", { method: "POST" });
+        followUpdate((text) => Text.render(msg, text));
+      }),
+      asyncButton("🔄 Şimdi denetle", "ghost small", msg, async () => {
+        Text.render(msg, "Denetleniyor…");
+        await api("/api/update/check", { method: "POST" });
+        await loadUpdateSection();
+      }),
+      auto),
+    msg);
+  if (u.state === "checking") setTimeout(() => location.hash === "#/settings" && loadUpdateSection(), 1500);
+}
 
 /* --------------------------------------------- two computers (backend/sync.py) */
 

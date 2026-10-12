@@ -7,5 +7,6 @@ if not exist "runtime\python\python.exe" (
     pause
     exit /b 1
 )
-"runtime\python\python.exe" app\launcher.py %*
-if errorlevel 1 pause
+rem Uygulama icinden guncelleme bu dosyayi da degistirebilir: komut, pause ve cikis ayni satirda
+rem (cmd dosyayi satir satir okur).
+"runtime\python\python.exe" app\launcher.py %* & (if errorlevel 1 pause) & exit /b
