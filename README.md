@@ -564,7 +564,10 @@ Google Drive üzerinden aynı tutulur:
 3. Öbür bilgisayarda aynısını yap ve **"… verilerini al"** de (o bilgisayardaki eski veri yedekte kalır).
 
 Sonrası kendiliğinden: uygulama açılırken öbür bilgisayardaki son çalışmanı alır, açıkken birkaç dakikada bir
-ve **kapanırken** (Ctrl+C ya da siyah pencereyi kapatınca) gönderir. **Bir seferde tek bilgisayarda aç:**
+ve **kapanırken** (Ctrl+C ya da siyah pencereyi kapatınca) gönderir. Bilgisayar yeni açıldıysa Google Drive'ı
+(klasörün gelmesini ve son dosyanın inmesini) en çok 45 sn bekler; Drive son veriyi uygulama açıldıktan sonra getirirse
+açıkken (20 sn'de bir bakar) onu da alır ve sayfa yenilenir. Gönderim, buluta gelmiş ama henüz alınmamış yeni veriyi
+asla ezmez. Elle eşitlemek için Ayarlar → ☁️ İki bilgisayar → 🔄 Şimdi eşitle. **Bir seferde tek bilgisayarda aç:**
 öbüründe açıksa uyarır. İkisinde de kapatmadan çalışılırsa birleştirilmez: daha yeni olan kalır, öbürü
 `data\backups\cakisma-….db` olarak yedeklenir ve uyarı gösterilir. "Daha yeni", verinin içindeki **son çalışma**
 (mesaj, kelime, tamamlanan ders, test, pratik günü) demektir; bir sayfayı açmak sayılmaz. Öbür bilgisayar eski

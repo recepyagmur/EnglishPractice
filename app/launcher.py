@@ -25,6 +25,7 @@ from ollama_runtime import OllamaProcess, env_for, http_ok, pick_port, pid_alive
 
 APP_PORTS = (8000, 8080, 8765, 18000, 28000)
 AFTER_UPDATE_ENV = "EP_AFTER_UPDATE_PORT"
+DRIVE_WAIT = 45  # seconds to wait on opening for Google Drive (starting / downloading the latest data)
 
 log = logging.getLogger("launcher")
 
@@ -259,10 +260,16 @@ def relaunch(args, port: int) -> int:
 
 def sync_on_open() -> bool:
     """Take the other computer's newer work before the app opens the data. False: the learner stopped."""
-    if not sync.enabled():
-        if sync.folder():
-            say(f"⚠ Eşitleme klasörü bulunamadı ({sync.folder()}); Google Drive açık mı? Eşitlemeden açılıyor.")
+    if not sync.folder():
         return True
+    _on_console_close(sync_on_close)  # also when Google Drive only appears later: closing still sends the data
+    # Google Drive may still be starting (right after the computer starts) or downloading the latest data.
+    if not sync.wait_until_ready(DRIVE_WAIT, say):
+        if not sync.enabled():
+            say(f"⚠ Eşitleme klasörü bulunamadı ({sync.folder()}); Google Drive açık mı? Eşitlemeden açılıyor; "
+                "Drive açılınca öbür bilgisayardaki son çalışmanı kendiliğinden alır.")
+            return True
+        say("⚠ Google Drive son veriyi henüz tam indirmedi; uygulama açıkken indirince kendiliğinden alınır.")
     other = sync.other_computer_open()
     if other:
         say(f"\n⚠ Uygulama şu anda '{other['machine']}' bilgisayarında da açık görünüyor.")
@@ -274,12 +281,11 @@ def sync_on_open() -> bool:
         for msg in sync.sync_on_open():
             say(msg)
     except sync.SyncError as e:
-        say(f"⚠ Eşitleme yapılamadı: {e}")
+        say(f"⚠ Eşitleme yapılamadı: {e} Uygulama açıkken kendiliğinden tekrar denenir.")
     except Exception as e:
         logging.getLogger("launcher").exception("sync on open")
         say(f"⚠ Eşitleme yapılamadı: {e}")
     sync.touch_lock()
-    _on_console_close(sync_on_close)
     return True
 
 

@@ -144,8 +144,8 @@ time.sleep(1.2)
 run("LAPTOP", "from backend import lessons, ui_state\nlessons.open_lesson('a1-there-is')\n"
               "ui_state.put('lesson:a1-there-is', {'exercises': {}})")
 out = run("LAPTOP", "print(sync.sync_on_open())")
-check("real-work" in words("LAPTOP") and "daha yeni veri alındı" in out and backups("LAPTOP", "cakisma-LAPTOP"),
-      "ders açmak (lesson_progress, ui_state) eski veriyi 'yeni' yapmaz: buluttaki gerçek çalışma alındı")
+check("real-work" in words("LAPTOP") and "son çalışman alındı" in out and "⚠" not in out,
+      "ders açmak (lesson_progress, ui_state) eski veriyi 'yeni' yapmaz: buluttaki gerçek çalışma uyarısız alındı")
 
 # 10. Deleting is a change too: a word deleted on one computer is deleted on the other (the cloud's data is
 # "older" by its newest work, but it continues what the other computer had).
@@ -166,6 +166,44 @@ check(r.get("choose") and r.get("newer") == "local" and r.get("cloud_activity") 
 run("LAPTOP", "sync.choose('push')")
 out = run("MASAUSTU", "print(sync.sync_on_open())")
 check("laptop-newest" in words("MASAUSTU") and "⚠" not in out, "kurulumda 'bunu gönder' seçilince öbürü onu alır")
+
+# 12. Google Drive brings the other computer's newer data only after the app opened here.
+run("LAPTOP", "print(sync.sync_on_open())")
+run("MASAUSTU", "print(sync.sync_on_open())")
+time.sleep(1.2)
+add("MASAUSTU", "late-arrival")
+run("MASAUSTU", "sync.release()")
+gen = cloud_meta()["gen"]
+out = run("LAPTOP", "print(sync.push(force=False))")  # the laptop's 2-minute send, before it took the new data
+check(out == "False" and cloud_meta()["gen"] == gen, "açıkken gönderim, buluta sonradan gelen yeni veriyi ezmez")
+out = run("LAPTOP", "sync.CHECK_EVERY = 0.2\nsync.start_background()\nimport time\ntime.sleep(2)\n"
+                    "print(sync.replaced_at is not None)")
+check(out == "True" and "late-arrival" in words("LAPTOP"),
+      "açıkken 20 sn'de bir bakar: sonradan gelen yeni veriyi alır (sayfa yenilenir)")
+
+# 13. Real work here while the other computer's newer data arrives: on closing, the newer wins, nothing is lost.
+time.sleep(1.2)
+add("MASAUSTU", "desk-later")
+run("MASAUSTU", "sync.release()")
+time.sleep(1.2)
+add("LAPTOP", "lap-latest")  # newer than the desktop's
+before = len(backups("LAPTOP", "cakisma-MASAUSTU"))
+run("LAPTOP", "sync.release()")
+check("lap-latest" in words("LAPTOP") and cloud_meta()["machine"] == "LAPTOP"
+      and len(backups("LAPTOP", "cakisma-MASAUSTU")) == before + 1,
+      "kapanışta bulutta yeni veri varsa körlemesine ezilmez: yeni olan kalır, öbürü yedekte")
+
+# 14. Opening right after the computer starts: wait for Google Drive (folder missing / file half downloaded).
+out = run("LAPTOP", "sync._save_local(dir=r'" + str(TMP / "yok" / "EnglishPractice") + "')\nimport time\nt = time.monotonic()\n"
+                    "print(sync.wait_until_ready(1.5, lambda m: None), round(time.monotonic() - t))")
+check(out == "False 2" or out == "False 1", f"Drive klasörü yoksa en çok verilen süre kadar bekler ({out})")
+run("LAPTOP", f"sync._save_local(dir={str(CLOUD)!r})")
+good = (CLOUD / "app.db").read_bytes()
+(CLOUD / "app.db").write_bytes(good[: len(good) // 2])
+out = run("LAPTOP", "print(sync.wait_until_ready(1, lambda m: None))")
+(CLOUD / "app.db").write_bytes(good)
+out2 = run("LAPTOP", "print(sync.wait_until_ready(1, lambda m: None))")
+check(out == "False" and out2 == "True", "dosya yarım indirilmişse bekler, tamamlanınca hazır")
 
 # 7. Off: nothing is exchanged any more.
 run("MASAUSTU", "sync.turn_off()")

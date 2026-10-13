@@ -92,6 +92,7 @@ async def health():
         "restart_needed": _code_stamp() > CODE_STAMP,
         "start_script": script("start"),  # Baslat.bat / baslat.sh, for the messages in the page
         "sync_notice": sync.local().get("notice"),  # e.g. worked on both computers without closing one
+        "sync_replaced_at": sync.replaced_at,  # the other computer's newer work was taken: the page reloads
         "update": {k: v for k, v in updates.status().items() if k in ("state", "latest", "received")},
         "ollama": ollama,
         "whisper": {

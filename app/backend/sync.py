@@ -22,6 +22,7 @@ import logging
 import os
 import sqlite3
 import threading
+import time
 import uuid
 from datetime import datetime, timezone
 from pathlib import Path
@@ -34,7 +35,8 @@ log = logging.getLogger(__name__)
 
 LOCAL = DATA_DIR / "sync.json"
 CLOUD_DB, CLOUD_META, CLOUD_LOCK = "app.db", "sync.json", "lock.json"
-PUSH_EVERY = 120      # seconds between checks while the app is open
+PUSH_EVERY = 120      # seconds between sends while the app is open
+CHECK_EVERY = 20      # seconds between looks for a newer version from the other computer
 LOCK_FRESH = 600      # a lock refreshed within this many seconds means "open there now"
 FOLDER_NAME = "EnglishPractice"
 LINEAGE_KEEP = 200    # versions remembered per lineage (one is sent every few minutes at most)
@@ -49,6 +51,7 @@ ACTIVITY = {
     "lesson_review": ("last_reviewed_at",),
 }
 _lock = threading.RLock()
+replaced_at: str | None = None  # when this computer's data was last replaced by the cloud's (the page reloads)
 
 
 def _now() -> str:
@@ -194,6 +197,10 @@ def local_activity() -> datetime | None:
         snap.unlink(missing_ok=True)
 
 
+def _stamp(t: datetime | None) -> str | None:
+    return t.isoformat(timespec="seconds") if t else None
+
+
 def _newer(a: datetime | None, b: datetime | None) -> bool:
     """a's work is strictly newer than b's."""
     return a is not None and (b is None or a > b)
@@ -236,7 +243,11 @@ def push(force: bool = False) -> bool:
         snap, sha = _snapshot()
         try:
             meta = _read(d / CLOUD_META) or {}
-            if not force and sha == local().get("base_hash") and meta.get("gen") == local().get("base"):
+            if not force and meta.get("gen") and meta.get("gen") != local().get("base"):
+                # The cloud has a version this computer has not seen (the other computer's, maybe only just
+                # downloaded by Google Drive): never overwrite it blindly; sync_now() takes it or keeps the newer.
+                return False
+            if not force and sha == local().get("base_hash"):
                 return False  # nothing new here, and the cloud has what this computer last had
             tmp = d / (CLOUD_DB + ".tmp")
             tmp.write_bytes(snap.read_bytes())
@@ -249,7 +260,7 @@ def push(force: bool = False) -> bool:
             _write(d / CLOUD_META, {"gen": gen, "saved_at": _now(), "machine": machine.machine_name(),
                                     "sha256": sha, "schema": _schema(snap), "lineage": lineage,
                                     "activity": when.isoformat(timespec="seconds") if when else None})
-            _save_local(base=gen, base_hash=sha, lineage=lineage, last_sync=_now())
+            _save_local(base=gen, base_hash=sha, lineage=lineage, last_sync=_now(), base_activity=_stamp(when))
             log.info("Eşitleme: veriler buluta gönderildi")
             return True
         finally:
@@ -294,8 +305,14 @@ def pull() -> None:
             dst.close()
             src.close()
         snap, sha = _snapshot()
-        snap.unlink(missing_ok=True)
-        _save_local(base=meta["gen"], base_hash=sha, lineage=meta.get("lineage") or [meta["gen"]], last_sync=_now())
+        try:
+            when = activity(snap)
+        finally:
+            snap.unlink(missing_ok=True)
+        _save_local(base=meta["gen"], base_hash=sha, lineage=meta.get("lineage") or [meta["gen"]], last_sync=_now(),
+                    base_activity=_stamp(when))
+        global replaced_at
+        replaced_at = _now()  # the open page reloads (status → health "sync_replaced_at")
         log.info("Eşitleme: %s bilgisayarının verileri alındı", meta.get("machine"))
 
 
@@ -327,6 +344,11 @@ def sync_on_open() -> list[str]:
         who = meta.get("machine") or "bulut"
         changed = local_changed()
         mine, theirs = local_activity(), activity(d / CLOUD_DB)
+        # Opening a page also writes (last opened lesson, saved page state): a change without newer work is not
+        # work to keep against the other computer's (it is in the pre-sync backup anyway).
+        base_act = _when(local()["base_activity"]) if local().get("base_activity") else None
+        if changed and "base_activity" in local() and not _newer(mine, base_act):
+            changed = False
         continues = _continues_mine(meta)
         if continues is None:  # sent by an older version of the app (no lineage): judge by the work inside
             continues = not _newer(mine, theirs)
@@ -376,12 +398,20 @@ def touch_lock() -> None:
         _write(d / CLOUD_LOCK, {"machine": machine.machine_name(), "at": _now()})
 
 
+def sync_now() -> list[str]:
+    """Take the other computer's newer work if there is any (as on opening), then send this computer's changes."""
+    with _lock:
+        msgs = sync_on_open()
+        push()
+        return msgs
+
+
 def release() -> None:
     """On closing: send the latest data and say the app is no longer open here."""
     if not enabled():
         return
     try:
-        push()
+        sync_now()
     except Exception:
         log.exception("Eşitleme: kapanışta gönderilemedi")
     d = folder()
@@ -390,18 +420,56 @@ def release() -> None:
         (d / CLOUD_LOCK).unlink(missing_ok=True)
 
 
+def _cloud_consistent(d: Path) -> bool:
+    """The cloud folder's app.db is the one its sync.json describes (Google Drive finished downloading both)."""
+    meta = _read(d / CLOUD_META)
+    if not meta:
+        return True  # nothing there yet: nothing to wait for
+    try:
+        return (d / CLOUD_DB).exists() and _sha(d / CLOUD_DB) == meta.get("sha256")
+    except OSError:
+        return False
+
+
+def wait_until_ready(timeout: float, say=print) -> bool:
+    """On opening: Google Drive may still be starting (no folder yet) or downloading the other computer's latest
+    data. Wait up to `timeout` seconds until the folder is there and consistent."""
+    d = folder()
+    if not d:
+        return False
+    deadline, told = time.monotonic() + timeout, False
+    while not (d.exists() and _cloud_consistent(d)):
+        if time.monotonic() >= deadline:
+            return False
+        if not told:
+            say(f"Google Drive bekleniyor (en çok {int(timeout)} sn)…")
+            told = True
+        time.sleep(1)
+    return True
+
+
 def start_background() -> None:
-    """While the app is open: refresh the lock and send changes every PUSH_EVERY seconds."""
+    """While the app is open: every CHECK_EVERY seconds look for a newer version from the other computer (Google
+    Drive may bring it only after the app opened) and take it; every PUSH_EVERY seconds refresh the lock and send
+    this computer's changes."""
     def loop():
-        stop = threading.Event()
-        while not stop.wait(PUSH_EVERY):
+        stop, last_push = threading.Event(), time.monotonic()
+        while not stop.wait(CHECK_EVERY):
             if not enabled():
                 continue
             try:
-                touch_lock()
-                push()
+                meta = cloud_meta()
+                if meta and meta.get("gen") != local().get("base"):
+                    for msg in sync_on_open():
+                        log.info(msg)
+                if time.monotonic() - last_push >= PUSH_EVERY:
+                    last_push = time.monotonic()
+                    touch_lock()
+                    push()
+            except SyncError as e:  # e.g. Google Drive still downloading: the next round tries again
+                log.info("Eşitleme: %s", e)
             except Exception:
-                log.exception("Eşitleme: arka planda gönderilemedi")
+                log.exception("Eşitleme: arka planda yapılamadı")
 
     threading.Thread(target=loop, daemon=True, name="sync").start()
 

@@ -248,6 +248,12 @@ async function refreshStatus() {
     problems.unshift(`⟳ Uygulama güncellendi: yeni özelliklerin çalışması için uygulamayı kapatıp ${startScript} ile yeniden açın.`);
   }
   if (health?.sync_notice) problems.unshift(`${health.sync_notice} (Ayarlar → İki bilgisayar)`);
+  // The other computer's newer work arrived (Google Drive brought it after the page opened): show it.
+  if (health && refreshStatus.replacedAt === undefined) refreshStatus.replacedAt = health.sync_replaced_at;
+  if (health && health.sync_replaced_at !== refreshStatus.replacedAt) {
+    problems.unshift("☁️ Öbür bilgisayardaki son çalışman alındı; sayfa yenileniyor…");
+    setTimeout(() => location.reload(), 1500);
+  }
   $("#status-msg").textContent = health ? problems.join(" · ")
     : updating ? "" : `Sunucuya ulaşılamıyor — ${startScript} çalışıyor mu?`;
   renderUpdateBanner(health ? health.update : updating && { state: "restarting" });
