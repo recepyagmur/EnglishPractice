@@ -78,6 +78,19 @@ def _write(path: Path, data: dict) -> None:
     os.replace(tmp, path)
 
 
+def _write_cloud(path: Path, data: bytes | dict) -> None:
+    """Write a file in the cloud folder in place. Not a temporary file renamed over it (as for local files): Google
+    Drive may take that as deleting the old file, and deleted files fill its trash; a file changed in place only
+    gets a new version. A half-written file is never taken: app.db is checked against sync.json's sha256, and a
+    JSON file that does not parse is read as missing."""
+    if isinstance(data, dict):
+        data = json.dumps(data, ensure_ascii=False, indent=1).encode("utf-8")
+    with open(path, "wb") as f:
+        f.write(data)
+        f.flush()
+        os.fsync(f.fileno())
+
+
 def _sha(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
@@ -249,15 +262,13 @@ def push(force: bool = False) -> bool:
                 return False
             if not force and sha == local().get("base_hash"):
                 return False  # nothing new here, and the cloud has what this computer last had
-            tmp = d / (CLOUD_DB + ".tmp")
-            tmp.write_bytes(snap.read_bytes())
-            os.replace(tmp, d / CLOUD_DB)
+            _write_cloud(d / CLOUD_DB, snap.read_bytes())
             for leftover in (d / f"{CLOUD_DB}-wal", d / f"{CLOUD_DB}-shm"):  # from an older version
                 leftover.unlink(missing_ok=True)
             gen = uuid.uuid4().hex
             lineage = (_lineage() + [gen])[-LINEAGE_KEEP:]
             when = activity(snap)
-            _write(d / CLOUD_META, {"gen": gen, "saved_at": _now(), "machine": machine.machine_name(),
+            _write_cloud(d / CLOUD_META, {"gen": gen, "saved_at": _now(), "machine": machine.machine_name(),
                                     "sha256": sha, "schema": _schema(snap), "lineage": lineage,
                                     "activity": when.isoformat(timespec="seconds") if when else None})
             _save_local(base=gen, base_hash=sha, lineage=lineage, last_sync=_now(), base_activity=_stamp(when))
@@ -387,7 +398,8 @@ def other_computer_open() -> dict | None:
     """The lock of another computer that has the app open now (refreshed recently), else None."""
     d = folder()
     lock = _read(d / CLOUD_LOCK) if d else None
-    if lock and lock.get("machine") != machine.machine_name() and _age(lock.get("at")) < LOCK_FRESH:
+    if (lock and lock.get("machine") != machine.machine_name() and not lock.get("closed")
+            and _age(lock.get("at")) < LOCK_FRESH):
         return lock
     return None
 
@@ -395,7 +407,7 @@ def other_computer_open() -> dict | None:
 def touch_lock() -> None:
     d = folder()
     if d and d.exists():
-        _write(d / CLOUD_LOCK, {"machine": machine.machine_name(), "at": _now()})
+        _write_cloud(d / CLOUD_LOCK, {"machine": machine.machine_name(), "at": _now()})
 
 
 def sync_now() -> list[str]:
@@ -416,8 +428,8 @@ def release() -> None:
         log.exception("Eşitleme: kapanışta gönderilemedi")
     d = folder()
     lock = _read(d / CLOUD_LOCK)
-    if lock and lock.get("machine") == machine.machine_name():
-        (d / CLOUD_LOCK).unlink(missing_ok=True)
+    if lock and lock.get("machine") == machine.machine_name():  # marked closed, not deleted (see _write_cloud)
+        _write_cloud(d / CLOUD_LOCK, {**lock, "closed": True, "at": _now()})
 
 
 def _cloud_consistent(d: Path) -> bool:

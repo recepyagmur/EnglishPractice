@@ -543,6 +543,8 @@ Geliştirme bu klasörde yapılır; her commit'ten sonra `git push` ile depoya g
   uygulanır. Denetleme Ayarlar'dan bilgisayar başına kapatılabilir. Geliştirme kopyasında (git) yalnız "git pull".
   Kod: `app/backend/updates.py`, `app/launcher.py` (`relaunch`). `Baslat.bat` / `baslat.sh` güncellemeyle
   değişebilir, bu yüzden tek seferde okunacak biçimde (tek satır / fonksiyon) yazılı; öyle kalmalı.
+  `Baslat.bat` başlatıcıyı boş girdiyle (`<nul`) çalıştırır: Ctrl+C ile kapatınca cmd "Terminate batch job (Y/N)?"
+  sorusunda beklemez; başlatıcı sorularını konsoldan (`CONIN$`) okur ve hata olursa pencereyi kendisi açık tutar.
 - **Arkadaşların güncellemesi (elle):** uygulama kapalıyken `Guncelle.bat`. Tarayıcıda deponun zip'i iner (depo özelken GitHub
   hesabıyla giriş + depoya davet gerekir; herkese açıkken gerekmez), güncelleyici (`setup/updater.py`) İndirilenler klasöründe zip'i bulur,
   dosyaları değiştirir, depodan silinen dosyaları siler, verilere (`data/`), modellere ve kuruluma dokunmaz,
@@ -591,6 +593,11 @@ yedekler `data/backups/` klasöründedir:
 - `pre-reset-…db`: Ayarlar → 🔄 Sıfırla'dan önce; `pre-sync-…db`: öbür bilgisayarın verisi alınmadan önce;
   `cakisma-<bilgisayar>-…db`: iki bilgisayarda birden çalışılınca yeni olmayan taraf.
 
+Eski yedekler diski doldurmasın diye her açılışta kendiliğinden silinir: günlük yedeklerden en yeni 14'ü kalır;
+`pre-…` yedekleri 30 gün, `cakisma-…` yedekleri (öbür taraftaki çalışman) 90 gün tutulur ve her türden en yeni 5
+yedek yaşı ne olursa olsun kalır. Yedekler yalnız bu bilgisayarda durur, Google Drive'a gitmez (Drive'daki
+`EnglishPractice` klasöründe yalnız eşitleme dosyaları vardır: `app.db`, `sync.json`, `lock.json`; bunlar yerinde
+güncellenir, Drive'ın çöp kutusunda birikmez).
 Bir yedeğe dönmek için (uygulama kapalıyken): istediğin yedeği `data/app.db` dosyasının üzerine kopyala, sonra
 uygulamayı aç. Kopyalamadan önce şimdiki `data/app.db`'yi de bir kenara almak iyi olur.
 

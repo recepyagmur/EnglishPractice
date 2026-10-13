@@ -69,6 +69,8 @@ check(run("LAPTOP", "print((sync.other_computer_open() or {}).get('machine'))") 
 add("MASAUSTU", "invoice")
 run("MASAUSTU", "sync.release()")
 check(run("LAPTOP", "print(sync.other_computer_open())") == "None", "kapanınca uyarı kalkar")
+lock = json.loads((CLOUD / "lock.json").read_text(encoding="utf-8"))
+check(lock.get("closed") is True, "kilit silinmez, 'kapandı' diye işaretlenir (Drive çöp kutusu dolmasın)")
 run("LAPTOP", "print(sync.sync_on_open())")
 check(words("LAPTOP") == ["deadline", "invoice", "meeting"], "laptop masaüstünün son halini aldı")
 

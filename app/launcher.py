@@ -229,7 +229,10 @@ def main() -> int:
         server = uvicorn.Server(uvicorn.Config("backend.main:app", host="127.0.0.1", port=app_port,
                                                log_level="warning"))
         updates.restart_hook = lambda: setattr(server, "should_exit", True)  # "Güncelle" closes like Ctrl+C
-        server.run()
+        try:
+            server.run()
+        except KeyboardInterrupt:  # Ctrl+C: uvicorn has already stopped (uvicorn.run() hides this too)
+            pass
     finally:
         say("Kapatılıyor…")
         sync_on_close()
@@ -324,5 +327,30 @@ def _forget_console_close() -> None:
         ctypes.windll.kernel32.SetConsoleCtrlHandler(handler, False)
 
 
+def console_input() -> None:
+    """Windows: Baslat.bat starts the launcher with an empty input (nul), so that after Ctrl+C cmd does not stop at
+    "Terminate batch job (Y/N)?"; the launcher's own questions ([e/H]) are read from the console itself."""
+    if IS_WINDOWS:
+        try:
+            sys.stdin = open("CONIN$", encoding="utf-8", errors="replace")
+        except OSError:  # no console (started in the background)
+            pass
+
+
 if __name__ == "__main__":
-    sys.exit(main())
+    console_input()
+    try:
+        code = main()
+    except KeyboardInterrupt:  # Ctrl+C while starting
+        code = 0
+    except Exception:
+        logging.getLogger("launcher").exception("launcher")
+        import traceback
+        traceback.print_exc()
+        code = 1
+    if code and IS_WINDOWS:  # keep the window open to read the message (Baslat.bat no longer pauses)
+        try:
+            input("\nKapatmak için Enter'a bas…")
+        except (EOFError, OSError, KeyboardInterrupt):
+            pass
+    sys.exit(code)
