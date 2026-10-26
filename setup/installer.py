@@ -21,7 +21,7 @@ from dataclasses import asdict, dataclass, field
 from pathlib import Path
 from typing import Callable
 
-from backend.config import (APP_DIR, DATA_DIR, IS_WINDOWS, MODELS_DIR, OLLAMA_EXE, OLLAMA_MODELS_DIR, ROOT_DIR,
+from backend.config import (APP_DIR, DATA_DIR, IS_MAC, IS_WINDOWS, MODELS_DIR, OLLAMA_EXE, OLLAMA_MODELS_DIR, ROOT_DIR,
                             STT_MODELS_DIR, TTS_MODELS_DIR, script)
 
 from . import ollama_models
@@ -30,7 +30,7 @@ CATALOG = json.loads((Path(__file__).parent / "catalog.json").read_text(encoding
 DOWNLOADS = MODELS_DIR / "_downloads"
 USER_AGENT = "EnglishPractice-Setup/1.0"
 NO_WINDOW = 0x08000000 if IS_WINDOWS else 0  # CREATE_NO_WINDOW (Windows only)
-OLLAMA_CATALOG = CATALOG["ollama"] if IS_WINDOWS else CATALOG["ollama_linux"]
+OLLAMA_CATALOG = CATALOG["ollama"] if IS_WINDOWS else CATALOG["ollama_mac"] if IS_MAC else CATALOG["ollama_linux"]
 
 
 class Cancelled(Exception):
@@ -164,6 +164,8 @@ def estimated_speed(model: dict, hw: dict, fit: str) -> float | None:
     """Expected tokens/s on this computer (None: not measured for this model)."""
     if hw.get("accel") == "cuda" and fit == "fit":
         return model.get("gpu_tps")
+    if hw.get("accel") == "metal":  # the Apple GPU: not measured yet (the CPU figures would understate it)
+        return model.get("metal_tps")
     if model.get("cpu_tps"):
         return round(model["cpu_tps"] * cpu_speed_factor(hw), 1)
     return None
@@ -374,6 +376,14 @@ def task_ollama_runtime(force: bool = False, gpu_names: list[str] = ()) -> Task:
                     z.extract(m, tmp)
                     task.progress = i / len(members)
             zip_path.unlink(missing_ok=True)
+        elif IS_MAC:
+            # macOS (Apple Silicon): one .tgz, ollama at the top next to its libraries and Metal files.
+            archive = DOWNLOADS / "ollama-darwin.tgz"
+            download(OLLAMA_CATALOG["url"], archive, progress=installer._progress(task),
+                     should_stop=lambda: installer.stop_requested)
+            task.detail = "Açılıyor…"
+            extract_tar(archive, tmp, task, mode="r|gz")
+            archive.unlink(missing_ok=True)
         else:
             # Linux: bin/ollama + lib/ollama (CUDA/Vulkan); AMD cards need the separate ROCm archive too.
             parts = [("ollama-linux-amd64.tar.zst", OLLAMA_CATALOG["url"])]
@@ -398,6 +408,20 @@ def task_ollama_runtime(force: bool = False, gpu_names: list[str] = ()) -> Task:
 
 
 RUNTIME_OLLAMA = ROOT_DIR / "runtime" / "ollama"
+
+
+def extract_tar(archive: Path, dest: Path, task: "Task | None" = None, mode: str = "r|gz",
+                fileobj=None) -> None:
+    """Unpack a tar archive (streamed), keeping the files' permissions (the ollama program stays executable) and
+    the library symlinks; refuses paths outside dest (tarfile's data filter)."""
+    dest.mkdir(parents=True, exist_ok=True)
+    total = archive.stat().st_size or 1
+    with open(archive, "rb") as raw:
+        with tarfile.open(fileobj=fileobj(raw) if fileobj else raw, mode=mode) as tar:
+            for member in tar:
+                tar.extract(member, dest, filter="data")
+                if task:
+                    task.progress = min(0.99, raw.tell() / total)
 
 
 def extract_tar_zst(archive: Path, dest: Path, task: "Task | None" = None) -> None:
@@ -515,6 +539,8 @@ def task_dictionary() -> Task:
 
 
 def task_shortcut() -> Task:
+    if IS_MAC:
+        return task_shortcut_mac()
     if not IS_WINDOWS:
         return task_shortcut_linux()
 
@@ -578,6 +604,29 @@ def task_shortcut_linux() -> Task:
                 written.append(path)
         task.detail = ", ".join(str(p) for p in written)
     return Task("shortcut", "Uygulama menüsü ve masaüstü kısayolu", _run=run)
+
+
+def mac_launcher() -> str:
+    """macOS: a double-clickable .command file opens Terminal and runs baslat.sh in it (like the black window on
+    Windows: Ctrl+C there closes the app). Written by the wizard, so it carries no "downloaded from the internet"
+    mark and opens without a Gatekeeper warning."""
+    return "\n".join([
+        "#!/bin/bash",
+        "# English Practice: opens the app (Ctrl+C in this window closes it). Made by the setup wizard.",
+        f'cd "{ROOT_DIR}" || exit 1',
+        f'exec bash "{ROOT_DIR / script("start")}"',
+        "",
+    ])
+
+
+def task_shortcut_mac() -> Task:
+    def run(task: Task):
+        path = Path.home() / "Desktop" / "English Practice.command"
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(mac_launcher(), encoding="utf-8")
+        path.chmod(0o755)
+        task.detail = str(path)
+    return Task("shortcut", "Masaüstü kısayolu (English Practice.command)", _run=run)
 
 
 def free_disk_gb() -> float:

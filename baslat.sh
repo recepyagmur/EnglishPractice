@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# English Practice'i başlatır (Linux). Çalıştırmak için bu klasörde:  bash baslat.sh
+# English Practice'i başlatır (Linux, macOS). Çalıştırmak için bu klasörde (Terminal):  bash baslat.sh
 # Kapatmak için bu terminalde Ctrl+C. (Windows karşılığı: Baslat.bat.)
 # Uygulama içinden güncelleme bu dosyayı da değiştirebilir: bash betiği satır satır okur, bu yüzden her şey
 # önce tamamen okunan bir fonksiyonun içinde.

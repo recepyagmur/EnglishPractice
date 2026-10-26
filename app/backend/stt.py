@@ -72,7 +72,8 @@ class SpeechToText:
             if self.state == "ready" and self.model_name == model_name:
                 return
             self.state, self.message = "loading", f"Whisper '{model_name}' yükleniyor…"
-            attempts = [("cuda", "int8_float16"), ("cpu", "int8")] if device == "cuda" else [("cpu", "int8")]
+            # float32 last: a CPU without int8 support (it should not happen, e.g. on Apple Silicon int8 works).
+            attempts = ([("cuda", "int8_float16")] if device == "cuda" else []) + [("cpu", "int8"), ("cpu", "float32")]
             errors = []
             for dev, compute_type in attempts:
                 try:
@@ -85,7 +86,7 @@ class SpeechToText:
                 self._model, self.model_name, self.device = model, model_name, dev
                 self.state = "ready"
                 self.message = f"Whisper hazır: {model_name} ({'GPU' if dev == 'cuda' else 'CPU'})"
-                if errors:
+                if device == "cuda" and dev != "cuda":
                     self.message += " — GPU kullanılamadı, CPU'da çalışıyor"
                 log.info(self.message)
                 return

@@ -21,6 +21,7 @@ import json
 import logging
 import os
 import sqlite3
+import sys
 import threading
 import time
 import uuid
@@ -119,6 +120,16 @@ def suggest_folder() -> str | None:
     """Google Drive's folder on this computer, if it is installed (G:\\My Drive\\EnglishPractice …).
     Linux has no Google Drive program: a folder kept in sync by another tool (rclone, Insync, google-drive-ocamlfuse)
     under a usual name is suggested; otherwise the learner types the folder."""
+    if sys.platform == "darwin":
+        # Google Drive for desktop on macOS: ~/Library/CloudStorage/GoogleDrive-<account>/My Drive (older
+        # versions: /Volumes/GoogleDrive/My Drive).
+        roots = sorted((Path.home() / "Library" / "CloudStorage").glob("GoogleDrive-*")) + \
+            sorted(Path("/Volumes").glob("GoogleDrive*"))
+        for root in roots:
+            for name in ("My Drive", "Drive'ım", "Meine Ablage"):
+                if (root / name).is_dir():
+                    return str(root / name / FOLDER_NAME)
+        return None
     if os.name != "nt":
         home = Path.home()
         for name in ("Google Drive", "GoogleDrive", "google-drive", "gdrive", "Insync"):

@@ -1,13 +1,15 @@
-"""Detect CPU, RAM, GPU/VRAM and disk space (Windows and Linux)."""
+"""Detect CPU, RAM, GPU/VRAM and disk space (Windows, Linux and macOS)."""
 
 import ctypes
 import json
 import os
 import shutil
 import subprocess
+import sys
 from pathlib import Path
 
 IS_WINDOWS = os.name == "nt"
+IS_MAC = sys.platform == "darwin"
 NO_WINDOW = 0x08000000 if IS_WINDOWS else 0  # CREATE_NO_WINDOW (Windows only)
 
 
@@ -142,6 +144,41 @@ def _linux_gpus() -> list[dict]:
     return [{"Name": n} for n in dict.fromkeys(names)]
 
 
+# ------------------------------------------------------------------ macOS (Apple Silicon)
+
+def _sysctl(*keys: str) -> dict[str, str]:
+    """sysctl values by name (`sysctl -n` prints one line per key, in order)."""
+    lines = _run(["sysctl", "-n", *keys]).splitlines()
+    return dict(zip(keys, (l.strip() for l in lines))) if len(lines) == len(keys) else {}
+
+
+def parse_vm_stat(text: str) -> float | None:
+    """Free memory in GB from `vm_stat`: free + inactive + speculative pages (what macOS can hand out without
+    swapping), times the page size printed in its first line (16384 bytes on Apple Silicon)."""
+    import re
+
+    page = re.search(r"page size of (\d+) bytes", text)
+    counts = {m.group(1): int(m.group(2)) for m in re.finditer(r"Pages (free|inactive|speculative):\s+(\d+)", text)}
+    if not page or not counts:
+        return None
+    return round(sum(counts.values()) * int(page.group(1)) / 1024**3, 1)
+
+
+def _mac_info() -> tuple[dict, list[dict], tuple[float, float]]:
+    """The WMI shape for macOS: the chip (Apple M1 … M4) is CPU and GPU in one; the GPU uses the shared memory
+    (Metal), like an integrated GPU on a PC, so it has no VRAM of its own."""
+    s = _sysctl("machdep.cpu.brand_string", "hw.physicalcpu", "hw.logicalcpu", "hw.memsize")
+    name = s.get("machdep.cpu.brand_string", "")
+    to_int = lambda v: int(v) if (v or "").isdigit() else None  # noqa: E731
+    cpu = {"Name": name, "NumberOfCores": to_int(s.get("hw.physicalcpu")),
+           "NumberOfLogicalProcessors": to_int(s.get("hw.logicalcpu"))}
+    total = round((to_int(s.get("hw.memsize")) or 0) / 1024**3, 1)
+    free = parse_vm_stat(_run(["vm_stat"])) or 0.0
+    gpus = [{"name": f"{name} GPU", "vendor": "apple", "vram_gb": None, "shared_memory": True}] \
+        if name.startswith("Apple") else []
+    return cpu, gpus, (total, free)
+
+
 def _vendor(name: str) -> str:
     n = name.lower()
     for vendor in ("nvidia", "intel", "amd", "radeon"):
@@ -151,6 +188,16 @@ def _vendor(name: str) -> str:
 
 
 def scan(root: Path) -> dict:
+    if IS_MAC:
+        cpu, gpus, (total_ram, free_ram) = _mac_info()
+        return {
+            "cpu": cpu["Name"], "cpu_cores": cpu["NumberOfCores"],
+            "cpu_threads": cpu["NumberOfLogicalProcessors"] or os.cpu_count(),
+            "ram_gb": total_ram, "ram_free_gb": free_ram, "gpus": gpus,
+            "gpu": gpus[0]["name"] if gpus else None, "vram_gb": None,
+            "accel": "metal" if gpus else "cpu",  # Ollama runs on the Apple GPU (Metal); Whisper on the CPU
+            "disk_free_gb": round(shutil.disk_usage(root).free / 1024**3, 1),
+        }
     total_ram, free_ram = _ram_gb()
     wmi = _wmi_info() if IS_WINDOWS else {"cpu": _linux_cpu(), "gpus": _linux_gpus()}
     cpu = wmi.get("cpu") or {}

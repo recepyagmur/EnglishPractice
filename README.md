@@ -7,7 +7,8 @@ Türkçe konuşan, özellikle çalışan yetişkinler için: yerel bir yapay zek
 düzeltme; A1–C1 dersler ve seviye sınavları; Türkçe anlatan sesli bir öğretmen; senaryolar (rol yapma), yazma
 değerlendirmesi; Kelime Çalış (seviye listeleri ve en sık 3000 kelime), kelime defteri ve aralıklı tekrar; iş ve
 günlük hayat kalıpları; YDS tarzı süreli testler; ilerleme takibi; iki bilgisayar arasında eşitleme.
-Windows 10/11 ve Linux'ta çalışır. Kurulumdan sonra internet gerekmez; verileriniz bilgisayarınızdan çıkmaz.
+Windows 10/11, Linux ve macOS'ta (Apple Silicon; henüz gerçek bir Mac'te denenmedi) çalışır. Kurulumdan sonra
+internet gerekmez; verileriniz bilgisayarınızdan çıkmaz.
 
 Kullanılan bütün yazılım, model ve içerik kaynakları lisanslarıyla birlikte:
 [Kaynaklar, lisanslar ve teşekkürler](#kaynaklar-lisanslar-ve-teşekkürler).
@@ -63,6 +64,40 @@ Linux'ta da aynı uygulama çalışır; yine her şey bu klasöre iner, sisteme 
   gösterin (`~/GoogleDrive`, `~/gdrive` gibi bilinen adlar kendiliğinden önerilir).
 - Windows ile farkları: `.bat` yerine `.sh` betikleri; Python ve Ollama'nın Linux sürümleri; görev çubuğu
   kimliği (Windows'a özgü) yerine `.desktop` kısayolu. Dersler, içerik, veriler ve ayarlar aynıdır.
+
+### macOS'ta kurulum (Apple Silicon)
+
+> ⚠️ **macOS desteği yeni ve henüz gerçek bir Mac'te denenmedi.** Kod, Windows'ta Mac'in davranışı taklit edilerek
+> ve Mac paketlerinin varlığı doğrulanarak hazırlandı; bir sorunla karşılaşırsan `logs/setup.log` ve
+> `logs/launcher.log` dosyalarıyla birlikte haber ver.
+
+Linux'taki gibi aynı `.sh` betikleri kullanılır; her şey bu klasöre iner, sisteme bir şey kurulmaz, yönetici
+parolası istenmez.
+
+- **Gerekenler:** Apple Silicon (M1, M2, M3, M4) işlemcili bir Mac, **macOS 14 (Sonoma) ya da daha yenisi**
+  (Python paketleri bunu istiyor; Intel Mac'ler desteklenmiyor), en az 15 GB boş alan; **16 GB bellek önerilir**
+  (8 GB'ta dil modeli önerilmez, yine de seçilebilir). Uygulama penceresi için Google Chrome, Microsoft Edge,
+  Brave ya da Chromium varsa onunla açılır (sekmesiz pencere); yalnız Safari varsa bir sekmede açılır.
+- **Kurulum:**
+  1. GitHub'dan zip'i indir (Code → Download ZIP), Finder'da çift tıklayıp aç ve klasörü örneğin ana klasörüne
+     `~/EnglishPractice` olarak taşı (yolda Türkçe karakter ve boşluk olmasın).
+  2. **Terminal**'i aç (Spotlight: ⌘ + boşluk → "Terminal") ve yaz: `cd ~/EnglishPractice` sonra
+     `bash kurulum.sh`. Taşınabilir Python (~25 MB) iner ve aynı kurulum sihirbazı tarayıcıda açılır.
+     Kurulum, indirilen klasördeki "internetten indirildi" işaretini kaldırır (yalnız bu klasörde).
+  3. "Ek bileşenler"de kısayol seçilirse masaüstüne **English Practice.command** eklenir.
+- **Açmak:** masaüstündeki `English Practice.command`'a çift tıkla (bir Terminal penceresi açılır) ya da
+  Terminal'de `bash baslat.sh`. Kapatmak için o pencerede **Ctrl+C** ya da pencereyi kapatmak; ikisinde de
+  verilerin gönderilir ve Ollama kapanır.
+- **Mikrofon:** ilk konuşmada tarayıcı mikrofon izni ister; macOS da bir kez "Chrome mikrofonunuza erişmek
+  istiyor" diye sorar (Sistem Ayarları → Gizlilik ve Güvenlik → Mikrofon).
+- **Güncellemek:** Windows'taki gibi uygulamanın içinden (Ayarlar → 🆕 Güncelleme); elle `bash guncelle.sh`.
+- **İki bilgisayar eşitlemesi:** Google Drive masaüstü uygulamasını (Google Drive for desktop) kur ve aynı hesapla
+  giriş yap; Ayarlar → ☁️ İki bilgisayar'da Drive klasörü kendiliğinden önerilir
+  (`~/Library/CloudStorage/GoogleDrive-…/My Drive/EnglishPractice`). Windows'taki bilgisayarınla aynı klasörü
+  kullanabilirsin.
+- **Windows ile farkları:** dil modeli Apple'ın ekran kartında (Metal) çalışır; konuşma tanıma (Whisper)
+  işlemcide çalışır, bir cümleyi yazıya çevirmek birkaç saniye sürebilir. Görev çubuğu kimliği yok: uygulama
+  penceresi Dock'ta tarayıcının simgesiyle görünür. Dersler, içerik, veriler ve ayarlar aynıdır.
 
 ## Kullanım
 
@@ -371,8 +406,8 @@ depoda **yok**; kurulum sırasında her birinin resmî kaynağından bu klasöre
 
 | Bileşen | Ne için | Kimin | Lisans |
 |---|---|---|---|
-| [Python 3.12](https://www.python.org) — Windows'ta [embeddable paket](https://www.python.org/downloads/windows/), Linux'ta [python-build-standalone](https://github.com/astral-sh/python-build-standalone) | Uygulamanın çalıştığı dil | Python Software Foundation; derleme betikleri Astral | PSF License 2.0; python-build-standalone betikleri MPL-2.0 |
-| [Ollama](https://github.com/ollama/ollama) (içinde [llama.cpp](https://github.com/ggml-org/llama.cpp) / ggml) | Dil modellerini yerelde çalıştırır | Ollama; Georgi Gerganov ve katkıcılar | MIT |
+| [Python 3.12](https://www.python.org) — Windows'ta [embeddable paket](https://www.python.org/downloads/windows/), Linux ve macOS'ta [python-build-standalone](https://github.com/astral-sh/python-build-standalone) | Uygulamanın çalıştığı dil | Python Software Foundation; derleme betikleri Astral | PSF License 2.0; python-build-standalone betikleri MPL-2.0 |
+| [Ollama](https://github.com/ollama/ollama) (içinde [llama.cpp](https://github.com/ggml-org/llama.cpp) / ggml; macOS paketinde ayrıca Apple [MLX](https://github.com/ml-explore/mlx) ve [XGrammar](https://github.com/mlc-ai/xgrammar)) | Dil modellerini yerelde çalıştırır | Ollama; Georgi Gerganov ve katkıcılar; Apple; XGrammar katkıcıları | MIT (XGrammar: Apache-2.0; lisans dosyaları paketin içinde) |
 | [FastAPI](https://fastapi.tiangolo.com), [Starlette](https://www.starlette.io), [Uvicorn](https://www.uvicorn.org), [Pydantic](https://docs.pydantic.dev), [HTTPX](https://www.python-httpx.org), websockets, httptools | Uygulamanın web sunucusu ve API'si | Sebastián Ramírez; Encode; Pydantic; Aymeric Augustin; MagicStack | MIT / BSD-3-Clause |
 | [faster-whisper](https://github.com/SYSTRAN/faster-whisper) 1.2.1 | Konuşmayı yazıya çevirme | SYSTRAN | MIT |
 | [CTranslate2](https://github.com/OpenNMT/CTranslate2) 4.8.2 | Whisper'ı hızlı çalıştıran motor | OpenNMT | MIT |

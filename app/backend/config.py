@@ -1,4 +1,5 @@
 import os
+import sys
 from pathlib import Path
 
 # <root>/app/backend/config.py
@@ -6,12 +7,15 @@ APP_DIR = Path(__file__).resolve().parent.parent
 ROOT_DIR = APP_DIR.parent
 FRONTEND_DIR = APP_DIR / "frontend"
 
-# Windows and Linux. The folder layout is the same; only the bundled programs and the start scripts differ.
+# Windows, Linux and macOS (Apple Silicon). The folder layout is the same; only the bundled programs and the start
+# scripts differ (macOS uses the same .sh scripts as Linux).
 IS_WINDOWS = os.name == "nt"
+IS_MAC = sys.platform == "darwin"
 
 RUNTIME_DIR = ROOT_DIR / "runtime"
-# Windows: Ollama's zip has ollama.exe at the top; Linux: its tarball has bin/ollama and lib/ollama.
-OLLAMA_EXE = RUNTIME_DIR / "ollama" / ("ollama.exe" if IS_WINDOWS else "bin/ollama")
+# Windows: Ollama's zip has ollama.exe at the top; Linux: its tarball has bin/ollama and lib/ollama;
+# macOS: its tarball (ollama-darwin.tgz) has ollama at the top, next to its libraries.
+OLLAMA_EXE = RUNTIME_DIR / "ollama" / ("ollama.exe" if IS_WINDOWS else "ollama" if IS_MAC else "bin/ollama")
 PYTHON_EXE = RUNTIME_DIR / "python" / ("python.exe" if IS_WINDOWS else "bin/python3")
 MODELS_DIR = ROOT_DIR / "models"
 OLLAMA_MODELS_DIR = MODELS_DIR / "ollama"
@@ -33,7 +37,7 @@ SCRIPTS = ({"setup": "Kurulum.bat", "start": "Baslat.bat", "update": "Guncelle.b
 
 
 def script(name: str) -> str:
-    """'Baslat.bat' on Windows, 'baslat.sh' on Linux (name: setup | start | update)."""
+    """'Baslat.bat' on Windows, 'baslat.sh' on Linux and macOS (name: setup | start | update)."""
     return SCRIPTS[name]
 
 

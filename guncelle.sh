@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# English Practice'i GitHub'dan günceller (Linux). Çalıştırmak için bu klasörde:  bash guncelle.sh [zip]
+# English Practice'i GitHub'dan günceller (Linux, macOS). Çalıştırmak için bu klasörde:  bash guncelle.sh [zip]
 # Güncelleme bu dosyayı da değiştirebilir: bash betiği satır satır okur, bu yüzden her şey önce tamamen
 # okunan bir fonksiyonun içinde (Windows karşılığı: Guncelle.bat).
 main() {

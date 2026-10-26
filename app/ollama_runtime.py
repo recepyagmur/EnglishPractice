@@ -15,7 +15,7 @@ import time
 import urllib.request
 from datetime import datetime
 
-from backend.config import IS_WINDOWS, LOGS_DIR, OLLAMA_EXE, OLLAMA_MODELS_DIR
+from backend.config import IS_MAC, IS_WINDOWS, LOGS_DIR, OLLAMA_EXE, OLLAMA_MODELS_DIR
 
 if IS_WINDOWS:
     from ctypes import wintypes
@@ -77,17 +77,24 @@ def env_for(profile: dict, accel: str | None = None) -> dict:
     """Ollama settings for this computer: the profile's own (e.g. OLLAMA_VULKAN=0) plus defaults.
     Without an NVIDIA GPU the model runs on the CPU, which reads a long prompt slowly (~35 tokens/s):
     two slots let chat and corrections each keep their prompt cached instead of evicting each other
-    (measured on the CPU: a correction 20 s → 10 s, and the chat history is not read again every turn)."""
+    (measured on the CPU: a correction 20 s → 10 s, and the chat history is not read again every turn).
+    The Apple GPU (Metal) reads a prompt fast, like an NVIDIA one: one slot."""
     env = {k: str(v) for k, v in (profile.get("ollama_env") or {}).items()}
-    if (accel or (profile.get("detected") or {}).get("accel")) != "cuda":
+    if (accel or (profile.get("detected") or {}).get("accel")) not in ("cuda", "metal"):
         env.setdefault("OLLAMA_NUM_PARALLEL", "2")
     return env
 
 
 # ------------------------------------------- unused GPU libraries (disk)
 
-# Windows: runtime/ollama/lib/ollama; Linux: runtime/ollama/bin/ollama → runtime/ollama/lib/ollama.
-LIB_DIR = (OLLAMA_EXE.parent if IS_WINDOWS else OLLAMA_EXE.parent.parent) / "lib" / "ollama"
+# Windows: runtime/ollama/lib/ollama; Linux: runtime/ollama/bin/ollama → runtime/ollama/lib/ollama;
+# macOS: the libraries sit next to ollama (no ROCm there: nothing to prune).
+if IS_WINDOWS:
+    LIB_DIR = OLLAMA_EXE.parent / "lib" / "ollama"
+elif IS_MAC:
+    LIB_DIR = OLLAMA_EXE.parent
+else:
+    LIB_DIR = OLLAMA_EXE.parent.parent / "lib" / "ollama"
 
 
 def has_amd_gpu(gpu_names) -> bool:
@@ -159,7 +166,10 @@ _jobs = []  # job handles stay open until this process exits
 
 def _die_with_parent() -> None:
     """Linux, in the child before exec: get SIGTERM when the process that started us dies (also when it is
-    killed or crashes). Ollama then stops its runners itself."""
+    killed or crashes). Ollama then stops its runners itself. (macOS has no such call: the launcher stops
+    Ollama when it closes — Ctrl+C, closing the Terminal window, or a normal exit.)"""
+    if IS_MAC:
+        return
     PR_SET_PDEATHSIG = 1
     try:
         ctypes.CDLL("libc.so.6", use_errno=True).prctl(PR_SET_PDEATHSIG, signal.SIGTERM)

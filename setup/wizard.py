@@ -23,7 +23,7 @@ from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
 from backend import backup, machine
-from backend.config import (APP_DIR, DB_PATH, IS_WINDOWS, LOCK_PATH, OLLAMA_EXE, OLLAMA_MODELS_DIR, ROOT_DIR, SCRIPTS,
+from backend.config import (APP_DIR, DB_PATH, IS_MAC, IS_WINDOWS, LOCK_PATH, OLLAMA_EXE, OLLAMA_MODELS_DIR, ROOT_DIR, SCRIPTS,
                             script)
 
 from . import hardware, installer as inst, ollama_models
@@ -93,7 +93,7 @@ def get_state():
         "mode": state["mode"],
         "machine_name": machine.machine_name(),
         "root": str(ROOT_DIR),
-        "platform": "windows" if IS_WINDOWS else "linux",
+        "platform": "windows" if IS_WINDOWS else "mac" if IS_MAC else "linux",
         "scripts": SCRIPTS,
         "start_path": str(ROOT_DIR / script("start")),
         "path_problem": inst.path_problem(),
@@ -468,7 +468,7 @@ def finish(start_app: bool = True):
     state["launch_app"] = start_app
     if start_app and state["mode"] != "new_machine" and IS_WINDOWS:
         # In "new computer" mode the launcher is waiting and continues by itself.
-        # Linux: main() starts the app in this terminal once the wizard has stopped.
+        # Linux / macOS: main() starts the app in this terminal once the wizard has stopped.
         subprocess.Popen(["cmd", "/c", "start", "English Practice", str(ROOT_DIR / "Baslat.bat")],
                          cwd=ROOT_DIR, creationflags=subprocess.CREATE_NEW_CONSOLE)
     threading.Timer(0.5, lambda: setattr(state["server"], "should_exit", True)).start()
@@ -532,7 +532,8 @@ def main() -> None:
     args = parser.parse_args()
     run(args.mode, open_browser=not args.no_browser)
     if not IS_WINDOWS and state.get("launch_app") and state["mode"] != "new_machine":
-        # "▶ Uygulamayı başlat" on Linux: the app takes over this terminal (Ctrl+C closes it), as baslat.sh does.
+        # "▶ Uygulamayı başlat" on Linux / macOS: the app takes over this terminal (Ctrl+C closes it), as
+        # baslat.sh does.
         launcher = [sys.executable, str(APP_DIR / "launcher.py")] + (["--no-browser"] if args.no_browser else [])
         os.chdir(ROOT_DIR)
         os.execv(sys.executable, launcher)

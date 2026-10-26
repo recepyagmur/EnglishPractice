@@ -110,7 +110,7 @@ const RENDER = {
         el("dt", {}, "Boş disk"), el("dd", {}, `${s.disk_free_gb} GB`),
         el("dt", {}, "Bilgisayar"), el("dd", {}, s.machine_name))),
       s.path_problem && el("div", { class: "card alert err" },
-        `⚠️ ${s.path_problem}. Klasörü örneğin ${s.platform === "linux" ? "~/EnglishPractice" : "C:\\IngilizcePratik"} gibi Türkçe karakter ve boşluk içermeyen bir yere taşıyıp ${s.scripts.setup} dosyasını yeniden çalıştırın.`),
+        `⚠️ ${s.path_problem}. Klasörü örneğin ${s.platform === "windows" ? "C:\\IngilizcePratik" : "~/EnglishPractice"} gibi Türkçe karakter ve boşluk içermeyen bir yere taşıyıp ${s.scripts.setup} dosyasını yeniden çalıştırın.`),
       s.app_running && el("div", { class: "card alert" }, "⚠️ Uygulama şu an açık. Kuruluma başlamadan önce uygulamanın konsol penceresinde Ctrl+C ile kapatın."),
       el("p", { class: "muted small" }, "Kullanıcı verilerine (geçmiş, kelime defteri, ayarlar) dokunulmaz; her işlemden önce yedek alınır."),
       s.pending_plan && el("div", { class: "card alert" },
@@ -258,7 +258,8 @@ const RENDER = {
           el("div", { class: "muted small" }, t.description_tr))),
       el("label", { class: "choice card" }, el("input", { type: "checkbox", checked: W.plan.shortcut,
         onchange: (e) => { W.plan.shortcut = e.target.checked; } }),
-        el("span", {}, el("strong", {}, W.state.platform === "linux" ? "Uygulama menüsüne ve masaüstüne kısayol oluştur"
+        el("span", {}, el("strong", {}, W.state.platform === "mac" ? "Masaüstüne kısayol oluştur (English Practice.command)"
+          : W.state.platform === "linux" ? "Uygulama menüsüne ve masaüstüne kısayol oluştur"
           : "Masaüstüne kısayol oluştur"),
           el("div", { class: "muted small" }, "Bilgisayarında değişiklik yapılan tek şey budur (izninle)."))),
     );
@@ -338,9 +339,10 @@ const RENDER = {
       el("h2", {}, "Hazır! 🎉"),
       el("div", { class: "card" }, el("dl", { class: "kv" },
         el("dt", {}, "Varsayılan model"), el("dd", {}, s.profile?.default_model || "—"),
-        el("dt", {}, "Uygulamayı açmak için"), el("dd", {}, s.platform === "linux" ? `bash ${s.start_path}` : s.start_path),
+        el("dt", {}, "Uygulamayı açmak için"), el("dd", {}, s.platform === "windows" ? s.start_path : `bash ${s.start_path}`),
         W.plan.shortcut && el("dt", {}, "Kısayol"), W.plan.shortcut && el("dd", {},
-          s.platform === "linux" ? "Uygulama menüsünde ve masaüstünde \"English Practice\"" : "Masaüstünde \"English Practice\""))),
+          s.platform === "linux" ? "Uygulama menüsünde ve masaüstünde \"English Practice\""
+            : s.platform === "mac" ? "Masaüstünde \"English Practice.command\" (çift tıkla)" : "Masaüstünde \"English Practice\""))),
       el("div", { class: "actions" },
         el("button", { class: "primary", onclick: () => finish(true) }, "▶ Uygulamayı başlat"),
         !isNew && el("button", { class: "ghost", onclick: () => finish(false) }, "Kapat")),

@@ -7,6 +7,8 @@ device, benchmarks), so the same folder can be used on several computers.
 import json
 import os
 import socket
+import subprocess
+import sys
 import threading
 
 from .config import MACHINES_DIR
@@ -14,7 +16,23 @@ from .config import MACHINES_DIR
 _lock = threading.Lock()
 
 
+_mac_name: str | None = None
+
+
 def machine_name() -> str:
+    """This computer's name (its profile file, and the name the other computer sees in the sync).
+    macOS: the "Local Hostname" (System Settings → Sharing), which stays the same; the network host name there
+    changes with the network (e.g. 192-168-1-5.home)."""
+    global _mac_name
+    if sys.platform == "darwin":
+        if _mac_name is None:
+            try:
+                out = subprocess.run(["scutil", "--get", "LocalHostName"], capture_output=True, text=True,
+                                     timeout=5).stdout.strip()
+            except (OSError, subprocess.TimeoutExpired):
+                out = ""
+            _mac_name = out or socket.gethostname().split(".")[0]
+        return _mac_name
     return os.environ.get("COMPUTERNAME") or socket.gethostname()
 
 

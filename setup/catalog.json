@@ -122,6 +122,11 @@
     "rocm_url": "https://github.com/ollama/ollama/releases/latest/download/ollama-linux-amd64-rocm.tar.zst",
     "download_gb": 1.45
   },
+  "ollama_mac": {
+    "url": "https://github.com/ollama/ollama/releases/latest/download/ollama-darwin.tgz",
+    "download_gb": 0.18,
+    "note": "Apple Silicon: ollama at the top of the archive, with its libraries and the Metal (GPU) files"
+  },
   "python": {
     "url": "https://www.python.org/ftp/python/3.12.10/python-3.12.10-embed-amd64.zip",
     "get_pip": "https://bootstrap.pypa.io/get-pip.py"
@@ -131,5 +136,11 @@
     "size": 66890910,
     "sha256": "5eae8cf79dd47fc2496a4fccc892936be831ce7a84d984b2299dfb1cdb592682",
     "note": "setup/bootstrap.sh downloads it (same values there)"
+  },
+  "python_mac": {
+    "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20260924/cpython-3.12.14%2B20260924-aarch64-apple-darwin-install_only.tar.gz",
+    "size": 25153879,
+    "sha256": "9763f43db2481a6af36af82ec40302aab7a73632f880129d07a6e81aec846277",
+    "note": "setup/bootstrap.sh downloads it on macOS (same values there)"
   }
 }

@@ -1,7 +1,7 @@
 """Start the app: bundled Ollama (child process) + FastAPI, then open the browser.
 
 Run via Baslat.bat (Windows):  runtime\\python\\python.exe app\\launcher.py [--no-browser]
-     or baslat.sh (Linux):      runtime/python/bin/python3 app/launcher.py [--no-browser]
+     or baslat.sh (Linux, macOS): runtime/python/bin/python3 app/launcher.py [--no-browser]
 """
 
 import argparse
@@ -20,7 +20,7 @@ from datetime import datetime
 from pathlib import Path
 
 from backend import backup, machine, sync, updates
-from backend.config import IS_WINDOWS, LOCK_PATH, LOGS_DIR, OLLAMA_EXE, ROOT_DIR, script
+from backend.config import IS_MAC, IS_WINDOWS, LOCK_PATH, LOGS_DIR, OLLAMA_EXE, ROOT_DIR, script
 from ollama_runtime import OllamaProcess, env_for, http_ok, pick_port, pid_alive, prune_gpu_libs
 
 APP_PORTS = (8000, 8080, 8765, 18000, 28000)
@@ -121,7 +121,15 @@ def ensure_profile(open_browser: bool = True) -> dict | None:
 
 def _app_browser() -> str | None:
     """Edge (on every Windows 10/11) or Chrome: they can show a page as an app window.
-    Linux: Chrome, Chromium, Edge or Brave from the PATH (all Chromium based: the same --app window)."""
+    Linux: Chrome, Chromium, Edge or Brave from the PATH (all Chromium based: the same --app window).
+    macOS: the same browsers' programs inside their .app (Safari has no app window: the default browser then)."""
+    if IS_MAC:
+        for app in ("Google Chrome", "Microsoft Edge", "Brave Browser", "Chromium"):
+            for apps in (Path("/Applications"), Path.home() / "Applications"):
+                exe = apps / f"{app}.app" / "Contents" / "MacOS" / app
+                if exe.exists():
+                    return str(exe)
+        return None
     if not IS_WINDOWS:
         for name in ("google-chrome", "google-chrome-stable", "chromium", "chromium-browser", "microsoft-edge",
                      "microsoft-edge-stable", "brave-browser"):
@@ -144,10 +152,10 @@ def open_app_window(url: str) -> None:
     exe = _app_browser()
     if exe:
         args = [exe, f"--app={url}", "--window-size=1280,880"]
-        if not IS_WINDOWS:
+        if not IS_WINDOWS and not IS_MAC:
             args.append("--class=EnglishPractice")  # its own window group / dock icon (the .desktop file)
         try:
-            # Linux: its own session, so the browser does not close with the terminal (as on Windows).
+            # Linux / macOS: its own session, so the browser does not close with the terminal (as on Windows).
             subprocess.Popen(args, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, stdin=subprocess.DEVNULL,
                              **({} if IS_WINDOWS else {"start_new_session": True}))
         except OSError:

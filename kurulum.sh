@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# English Practice — kurulum ve bakım (Linux). Çalıştırmak için bu klasörde:  bash kurulum.sh
+# English Practice — kurulum ve bakım (Linux, macOS). Çalıştırmak için bu klasörde (Terminal):  bash kurulum.sh
 # Ayrıntılar setup/bootstrap.sh içinde (Windows karşılığı: Kurulum.bat).
 cd "$(dirname "$0")" || exit 1
 bash setup/bootstrap.sh "$@"
